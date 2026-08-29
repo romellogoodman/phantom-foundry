@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+# per-face bulk scans are fetched, not committed (provenance lives in face.yaml)
+faces/*/specimens/*.jp2
+faces/*/specimens/*.zip
+.DS_Store
