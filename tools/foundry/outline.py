@@ -209,3 +209,44 @@ def bbox_of_mask(mask: np.ndarray) -> tuple[int, int, int, int] | None:
     if len(xs) == 0:
         return None
     return int(xs.min()), int(ys.min()), int(xs.max()) + 1, int(ys.max()) + 1
+
+
+def regions(path: pathops.Path) -> list[pathops.Path]:
+    """Split a path into independent ink regions: each outer contour with the
+    holes it contains. Lets a trace be scored per shape when an engine adds
+    stray marks (a bar, a speck) that would otherwise distort a whole-bbox fit."""
+    path = pathops.simplify(path, fix_winding=True, clockwise=False)  # outer contours -> positive area
+    contours = list(path.contours)
+    polys = [flatten(c)[0] if flatten(c) else [] for c in contours]
+    outers, holes = [], []
+    for c, poly in zip(contours, polys):
+        if len(poly) < 3:
+            continue
+        (outers if signed_area(poly) > 0 else holes).append((c, poly))
+    if not outers:  # orientation unknown (raw SVG): treat largest as outer
+        outers = sorted(((c, p) for c, p in zip(contours, polys) if len(p) >= 3),
+                        key=lambda cp: abs(signed_area(cp[1])), reverse=True)[:1]
+        holes = [(c, p) for c, p in zip(contours, polys) if len(p) >= 3 and c is not outers[0][0]]
+
+    def contains(outer_poly, pt):
+        x, y = pt
+        inside = False
+        n = len(outer_poly)
+        for i in range(n):
+            x0, y0 = outer_poly[i]
+            x1, y1 = outer_poly[(i + 1) % n]
+            if (y0 > y) != (y1 > y):
+                xi = x0 + (y - y0) * (x1 - x0) / (y1 - y0)
+                if xi > x:
+                    inside = not inside
+        return inside
+
+    out = []
+    for oc, opoly in outers:
+        region = pathops.Path()
+        oc.draw(region.getPen())
+        for hc, hpoly in holes:
+            if contains(opoly, hpoly[0]):
+                hc.draw(region.getPen())
+        out.append(region)
+    return out
