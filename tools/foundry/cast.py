@@ -62,18 +62,50 @@ def cast_potrace(face: Face, glyphs: list[str] | None = None) -> dict:
     return {"face": face.name, "cast": results}
 
 
+def frame(face: Face, glyph: str, size: int = 768, margin: float = 0.2) -> dict:
+    """Re-frame a cut glyph for Arrow: square canvas, `margin` of the side as
+    whitespace, longest ink side scaled to fit. Saved as a variant, never in
+    place of the cut, so every Arrow attempt records exactly what it was shown."""
+    src = face.glyphs / f"{glyph}.png"
+    im = Image.open(src).convert("L")
+    bbox = im.point(lambda v: 255 if v < 128 else 0).getbbox()
+    ink = im.crop(bbox)
+    inner = int(size * (1 - 2 * margin))
+    scale = inner / max(ink.size)
+    ink = ink.resize((max(1, round(ink.width * scale)), max(1, round(ink.height * scale))), Image.LANCZOS)
+    canvas = Image.new("L", (size, size), 255)
+    canvas.paste(ink, ((size - ink.width) // 2, (size - ink.height) // 2))
+    canvas = canvas.point(lambda v: 0 if v < 128 else 255)
+    out_dir = face.glyphs / "variants"
+    out_dir.mkdir(exist_ok=True)
+    out = out_dir / f"{glyph}-sq{size}-m{int(margin * 100)}.png"
+    canvas.save(out)
+    rec = {"glyph": glyph, "variant": str(out.relative_to(face.dir)), "size": size, "margin": margin,
+           "scale": round(scale, 4), "sha256": _sha256(out)}
+    face.log_event("frame", **rec)
+    return rec
+
+
 def cast_arrow_ingest(face: Face, glyph: str, from_svg: str, model: str | None = None,
-                      task_id: str | None = None, creation_id: str | None = None) -> dict:
+                      task_id: str | None = None, creation_id: str | None = None,
+                      input_png: str | None = None) -> dict:
+    """Record an Arrow result. svg/arrow/<glyph>.svg is always the latest attempt;
+    every attempt is also kept under svg/arrow/attempts/ keyed by task id."""
     face.ensure_layout()
     src = Path(from_svg)
-    png = face.glyphs / f"{glyph}.png"
+    png = Path(input_png) if input_png else face.glyphs / f"{glyph}.png"
     dest = face.svg_arrow / f"{glyph}.svg"
     shutil.copyfile(src, dest)
+    attempts = face.svg_arrow / "attempts"
+    attempts.mkdir(exist_ok=True)
+    n = 1 + sum(1 for p in attempts.glob(f"{glyph}-*.svg"))
+    keep = attempts / f"{glyph}-{n:02d}-{(task_id or 'notask')[:8]}.svg"
+    shutil.copyfile(src, keep)
     stats = path_stats(svg_to_path(dest))
-    rec = {"glyph": glyph, "engine": "arrow", "model": model, "task_id": task_id,
-           "creation_id": creation_id, "input": str(png.relative_to(face.dir)),
+    rec = {"glyph": glyph, "engine": "arrow", "attempt": n, "model": model, "task_id": task_id,
+           "creation_id": creation_id, "input": str(png.resolve().relative_to(face.dir.resolve())),
            "input_sha256": _sha256(png), "output": str(dest.relative_to(face.dir)),
-           "viewbox": svg_viewbox(dest), **stats}
+           "kept_as": str(keep.relative_to(face.dir)), "viewbox": svg_viewbox(dest), **stats}
     face.log_event("cast", **rec)
     return rec
 
