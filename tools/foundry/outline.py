@@ -11,11 +11,51 @@ from svgelements import (SVG, Arc, Close, CubicBezier, Line, Move,
                          Path as SvgPath, QuadraticBezier, Shape)
 
 
-def svg_to_path(svg_file: str | Path) -> pathops.Path:
-    """Load every shape in an SVG (transforms applied) into one pathops.Path."""
-    svg = SVG.parse(str(svg_file), reify=True, ppi=72)
+def _fill_kind(el) -> str:
+    """'ink' for dark fills, 'paper' for light fills, 'none' for unfilled (stroke-only)."""
+    fill = getattr(el, "fill", None)
+    if fill is None:
+        return "ink"                      # SVG default fill is black
+    if fill.value is None:
+        return "none"
+    lum = 0.299 * fill.red + 0.587 * fill.green + 0.114 * fill.blue
+    return "ink" if lum < 128 else "paper"
+
+
+def _shape_to_path(p: SvgPath) -> pathops.Path:
     out = pathops.Path()
     pen = out.getPen()
+    open_contour = False
+    for seg in p.segments():
+        if isinstance(seg, Move):
+            if open_contour:
+                pen.closePath()
+            pen.moveTo((seg.end.x, seg.end.y))
+            open_contour = True
+        elif isinstance(seg, Line):
+            pen.lineTo((seg.end.x, seg.end.y))
+        elif isinstance(seg, QuadraticBezier):
+            pen.qCurveTo((seg.control.x, seg.control.y), (seg.end.x, seg.end.y))
+        elif isinstance(seg, CubicBezier):
+            pen.curveTo((seg.control1.x, seg.control1.y), (seg.control2.x, seg.control2.y),
+                        (seg.end.x, seg.end.y))
+        elif isinstance(seg, Arc):
+            for c in seg.as_cubic_curves():
+                pen.curveTo((c.control1.x, c.control1.y), (c.control2.x, c.control2.y),
+                            (c.end.x, c.end.y))
+        elif isinstance(seg, Close):
+            if open_contour:
+                pen.closePath()
+                open_contour = False
+    if open_contour:
+        pen.closePath()
+    return out
+
+
+def svg_shapes(svg_file: str | Path) -> list[tuple[str, pathops.Path]]:
+    """Every shape in document order as (fill_kind, path), transforms applied."""
+    svg = SVG.parse(str(svg_file), reify=True, ppi=72)
+    shapes = []
     for el in svg.elements():
         if isinstance(el, SvgPath):
             p = el
@@ -24,31 +64,34 @@ def svg_to_path(svg_file: str | Path) -> pathops.Path:
         else:
             continue
         p.reify()
-        open_contour = False
-        for seg in p.segments():
-            if isinstance(seg, Move):
-                if open_contour:
-                    pen.closePath()
-                pen.moveTo((seg.end.x, seg.end.y))
-                open_contour = True
-            elif isinstance(seg, Line):
-                pen.lineTo((seg.end.x, seg.end.y))
-            elif isinstance(seg, QuadraticBezier):
-                pen.qCurveTo((seg.control.x, seg.control.y), (seg.end.x, seg.end.y))
-            elif isinstance(seg, CubicBezier):
-                pen.curveTo((seg.control1.x, seg.control1.y), (seg.control2.x, seg.control2.y),
-                            (seg.end.x, seg.end.y))
-            elif isinstance(seg, Arc):
-                for c in seg.as_cubic_curves():
-                    pen.curveTo((c.control1.x, c.control1.y), (c.control2.x, c.control2.y),
-                                (c.end.x, c.end.y))
-            elif isinstance(seg, Close):
-                if open_contour:
-                    pen.closePath()
-                    open_contour = False
-        if open_contour:
-            pen.closePath()
-    return out
+        path = _shape_to_path(p)
+        if path.bounds is None:
+            continue
+        shapes.append((_fill_kind(el), path))
+    return shapes
+
+
+def svg_to_path(svg_file: str | Path) -> pathops.Path:
+    """Flatten an SVG to one ink path using the painter's model: in document
+    order, dark fills add ink, light fills remove it, unfilled shapes are ignored.
+    A single-path potrace SVG passes through unchanged; a layered Arrow SVG
+    (black block + white cut-outs + stroked outline) collapses to its net ink."""
+    ink = pathops.Path()
+    for kind, path in svg_shapes(svg_file):
+        if kind == "none":
+            continue
+        out = pathops.Path()
+        if kind == "ink":
+            if ink.bounds is None:
+                ink = path
+                continue
+            pathops.union([ink, path], out.getPen(), clockwise=False)
+        else:
+            if ink.bounds is None:
+                continue
+            pathops.difference([ink], [path], out.getPen(), clockwise=False)
+        ink = out
+    return ink
 
 
 def svg_viewbox(svg_file: str | Path) -> tuple[float, float, float, float] | None:

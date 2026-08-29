@@ -35,7 +35,8 @@ def cast(face: str, glyph: list[str] = typer.Option(None, "--glyph", "-g"),
          from_svg: str = typer.Option(None, "--from", help="(arrow) path to SVG returned by Arrow"),
          model: str = typer.Option(None, help="(arrow) model id"),
          task_id: str = typer.Option(None, help="(arrow) Quiver task id"),
-         creation_id: str = typer.Option(None, help="(arrow) Quiver creation id")):
+         creation_id: str = typer.Option(None, help="(arrow) Quiver creation id"),
+         input_png: str = typer.Option(None, "--input", help="(arrow) the PNG actually sent, if a variant")):
     """Vectorize cut glyphs. potrace runs locally; arrow ingests an SVG the agent fetched via Quiver MCP."""
     from .cast import cast_potrace, cast_arrow_ingest
     f = Face(face)
@@ -44,9 +45,18 @@ def cast(face: str, glyph: list[str] = typer.Option(None, "--glyph", "-g"),
     elif engine == "arrow":
         if not (glyph and len(glyph) == 1 and from_svg):
             raise typer.BadParameter("arrow ingest needs exactly one --glyph and --from <svg>")
-        _out(cast_arrow_ingest(f, glyph[0], from_svg, model=model, task_id=task_id, creation_id=creation_id))
+        _out(cast_arrow_ingest(f, glyph[0], from_svg, model=model, task_id=task_id,
+                               creation_id=creation_id, input_png=input_png))
     else:
         raise typer.BadParameter("engine must be potrace or arrow")
+
+
+@app.command()
+def frame(face: str, glyph: str = typer.Option(..., "--glyph", "-g"),
+          size: int = typer.Option(768), margin: float = typer.Option(0.2)):
+    """Re-frame a cut glyph on a square, margined canvas as an Arrow input variant."""
+    from .cast import frame as _frame
+    _out(_frame(Face(face), glyph, size=size, margin=margin))
 
 
 @app.command()
