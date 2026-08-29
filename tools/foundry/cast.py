@@ -22,7 +22,7 @@ import numpy as np
 from PIL import Image
 
 from .face import Face
-from .outline import bbox_of_mask, path_stats, rasterize, svg_to_path, svg_viewbox
+from .outline import bbox_of_mask, path_stats, rasterize, regions, svg_shapes, svg_to_path, svg_viewbox
 
 POTRACE_ARGS = ["--svg", "--turdsize", "2", "--alphamax", "1.0", "--opttolerance", "0.2"]
 
@@ -147,6 +147,28 @@ def diff(face: Face, glyphs: list[str] | None = None) -> dict:
             rec[f"{e}_ink_px"] = int(m.sum())
             rec[f"{e}_points"] = stats[e]["points"]
             rec[f"{e}_contours"] = stats[e]["contours"]
+        # per-region scoring: fit each independent ink region onto the scan bbox
+        # and keep the best, so stray shapes (a bar, a speck) don't sink the glyph.
+        for e, d in (("potrace", face.svg_potrace), ("arrow", face.svg_arrow)):
+            svg = d / f"{g}.svg"
+            if not svg.exists():
+                continue
+            # regions per drawn ink shape (pre-union), so a plinth that touches the
+            # glyph in the flattened result is still scored as its own shape
+            regs = [r for kind, shape in svg_shapes(svg) if kind == "ink" for r in regions(shape)]
+            best = None
+            for r in regs:
+                m = rasterize(r, size, _fit_to_box(r, scan_bbox))
+                score = iou(m, scan)
+                if best is None or score > best[0]:
+                    best = (score, r, m)
+            if best:
+                rec[f"{e}_regions"] = len(regs)
+                rec[f"{e}_best_region_iou_scan"] = round(best[0], 4)
+                rec[f"{e}_best_region_contours"] = path_stats(best[1])["contours"]
+                masks[f"{e}_best"] = best[2]
+        if "potrace_best" in masks and "arrow_best" in masks:
+            rec["arrow_best_iou_potrace_best"] = round(iou(masks["arrow_best"], masks["potrace_best"]), 4)
         if "potrace" in masks and "arrow" in masks:
             rec["arrow_iou_potrace"] = round(iou(masks["arrow"], masks["potrace"]), 4)
             rec["arrow_minus_potrace_px"] = int((masks["arrow"] & ~masks["potrace"]).sum())
