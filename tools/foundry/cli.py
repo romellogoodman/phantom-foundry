@@ -23,6 +23,28 @@ def fetch(face: str, archive_id: str, leaf: list[int] = typer.Option(..., "--lea
 
 
 @app.command()
+def survey(face: str, leaf: int = typer.Option(..., "--leaf", "-l"),
+           min_line_height: int = typer.Option(150, help="ignore ink bands shorter than this (px)")):
+    """Find display lines and letter boxes on a fetched leaf; writes a numbered sheet to name into the manifest."""
+    from .cut import survey as _survey
+    rec = _survey(Face(face), leaf, min_line_height=min_line_height)
+    for ln in rec["lines"]:
+        typer.echo(f"band {ln['band']}: y {ln['y0']}-{ln['y1']} (h {ln['height']}), {len(ln['letters'])} letters")
+        for L in ln["letters"]:
+            typer.echo(f"  #{L['n']:>3}  x={L['x']:<5} y={L['y']:<5} w={L['w']:<4} h={L['h']:<4} ink={L['ink']}")
+    typer.echo(f"sheet: {rec['sheet']}")
+
+
+@app.command()
+def label(face: str, leaf: int = typer.Option(..., "--leaf", "-l"), band: int = typer.Option(..., "--band", "-b"),
+          text: str = typer.Option(..., "--text", "-t", help="the characters printed on the band, in order"),
+          line: str = typer.Option(..., "--line", help="specimen line name, e.g. fifteen (the size)")):
+    """Name a surveyed band's boxes into manifest rows. Label the largest size first."""
+    from .cut import label as _label
+    _out(_label(Face(face), leaf, band, text, line))
+
+
+@app.command()
 def cut(face: str, glyph: list[str] = typer.Option(None, "--glyph", "-g", help="Glyph name (repeatable); default all")):
     """Punchcutting: crop glyphs from specimen scans per glyphs/manifest.csv."""
     from .cut import cut as _cut

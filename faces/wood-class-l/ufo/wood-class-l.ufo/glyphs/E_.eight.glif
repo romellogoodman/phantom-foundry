@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="E.eight" format="2">
+  <advance width="295"/>
+  <outline>
+    <contour>
+      <point x="44" y="700" type="curve"/>
+      <point x="41" y="699" type="line"/>
+      <point x="41" y="352" type="line" smooth="yes"/>
+      <point x="41" y="160"/>
+      <point x="41" y="3"/>
+      <point x="41" y="3" type="curve"/>
+      <point x="42" y="2"/>
+      <point x="45" y="1"/>
+      <point x="47" y="1" type="curve"/>
+      <point x="57" y="0"/>
+      <point x="251" y="0"/>
+      <point x="252" y="1" type="curve" smooth="yes"/>
+      <point x="253" y="2"/>
+      <point x="253" y="28"/>
+      <point x="253" y="60" type="curve" smooth="yes"/>
+      <point x="254" y="117" type="line"/>
+      <point x="152" y="117" type="line"/>
+      <point x="152" y="210" type="line"/>
+      <point x="152" y="302" type="line"/>
+      <point x="186" y="302" type="line"/>
+      <point x="221" y="302" type="line"/>
+      <point x="220" y="332" type="line" smooth="yes"/>
+      <point x="220" y="366"/>
+      <point x="219" y="404"/>
+      <point x="218" y="405" type="curve"/>
+      <point x="218" y="406"/>
+      <point x="203" y="406"/>
+      <point x="185" y="407" type="curve" smooth="yes"/>
+      <point x="153" y="408" type="line"/>
+      <point x="153" y="500" type="line"/>
+      <point x="153" y="593" type="line"/>
+      <point x="163" y="592" type="line"/>
+      <point x="168" y="592"/>
+      <point x="190" y="591"/>
+      <point x="212" y="591" type="curve" smooth="yes"/>
+      <point x="241" y="590"/>
+      <point x="251" y="590"/>
+      <point x="253" y="592" type="curve" smooth="yes"/>
+      <point x="255" y="594"/>
+      <point x="255" y="698"/>
+      <point x="253" y="699" type="curve"/>
+      <point x="250" y="700"/>
+      <point x="48" y="701"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.phantomfoundry.sort</key>
+      <dict>
+        <key>alignment</key>
+        <string>line: shared scale (cap_height / median cap ink height), shared baseline (median cap ink bottom)</string>
+        <key>baseline_px</key>
+        <real>2242.0</real>
+        <key>cap_height_px</key>
+        <real>529.0</real>
+        <key>category</key>
+        <string>cap</string>
+        <key>dropped_contours</key>
+        <array/>
+        <key>engine</key>
+        <string>potrace</string>
+        <key>line</key>
+        <string>895:eight</string>
+        <key>scale</key>
+        <real>1.32325</real>
+        <key>sidebearing</key>
+        <integer>40</integer>
+        <key>source_sha256</key>
+        <string>1812fed9030bcccbe0b1fb5f393ff81ee05b9be283295a891f60ec310387edae</string>
+        <key>source_svg</key>
+        <string>svg/potrace/E.eight.svg</string>
+        <key>stem_units</key>
+        <real>112.5</real>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

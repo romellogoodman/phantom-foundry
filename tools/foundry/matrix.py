@@ -53,7 +53,9 @@ def matrix(face: Face, formats: list[str]) -> dict:
     info.xHeight = metrics.get("x_height", int(cap * 0.72))
     info.ascender = metrics.get("ascender", int(cap * 1.1))
     info.descender = metrics.get("descender", -int(cap * 0.3))
-    info.versionMajor, info.versionMinor = 0, 1
+    ver = str(data.get("version", "0.1.0")).split(".")
+    info.versionMajor, info.versionMinor = int(ver[0]), int(ver[1]) if len(ver) > 1 else 0
+    info.openTypeNameVersion = f"Version {data.get('version', '0.1.0')} ({data.get('status', 'draft')})"
     info.openTypeNameManufacturer = "Phantom Foundry"
     info.openTypeNameManufacturerURL = "https://github.com/romellogoodman/phantom-foundry"
     info.openTypeNameDesigner = "Phantom Foundry (revival)"
@@ -75,7 +77,7 @@ def matrix(face: Face, formats: list[str]) -> dict:
     subprocess.run(cmd, check=True)
     built = sorted(p.name for p in face.dist.iterdir() if p.suffix in (".otf", ".ttf"))
     ver = subprocess.run([sys.executable, "-m", "fontmake", "--version"], capture_output=True, text=True).stdout.strip()
-    rec = {"family": fam, "formats": formats, "built": built, "glyphs": sorted(font.keys()),
-           "fontmake": ver}
+    rec = {"family": fam, "version": data.get("version", "0.1.0"), "status": data.get("status", "draft"),
+           "formats": formats, "built": built, "glyphs": sorted(font.keys()), "fontmake": ver}
     face.log_event("matrix", **rec)
     return {"face": face.name, **rec}

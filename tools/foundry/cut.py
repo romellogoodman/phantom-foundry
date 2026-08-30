@@ -1,12 +1,17 @@
 """cut — punchcutting: crop individual glyphs out of specimen scans.
 
 The manifest gives a rough box per glyph (page pixel coords). cut binarizes
-that region, flood-fills the ink component nearest the box center, and
-tightens the crop to that component. Two files are kept per glyph:
+that region, flood-fills the ink component nearest the box center, adds any
+other components stacked in the same columns (an i's dot), and tightens the
+crop to that ink. Three files are kept per glyph:
 
   glyphs/<glyph>_raw.png   the untouched grayscale crop (the specimen)
   glyphs/<glyph>.png       the binarized, isolated glyph on white (the cut)
   glyphs/<glyph>.json      tight bbox in page coords, threshold, ink stats
+
+`survey` is the step before the manifest: it finds the display lines on a
+leaf and the letters on each line by ink projection, and draws a numbered
+sheet so a person can name the boxes instead of measuring them.
 """
 
 from __future__ import annotations
@@ -14,6 +19,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import numpy as np
 from PIL import Image, ImageDraw
 
 from .face import Face, GlyphEntry
@@ -62,40 +68,97 @@ def find_seed(binary: Image.Image, cx: int, cy: int, max_r: int = 400) -> tuple[
     raise RuntimeError("no ink found near box center")
 
 
-def cut_glyph(face: Face, entry: GlyphEntry, pad_frac: float = 0.06) -> dict:
+def _runs(flags: np.ndarray) -> list[tuple[int, int]]:
+    """[start, end) index runs where flags is true."""
+    out = []
+    start = None
+    for i, f in enumerate(flags):
+        if f and start is None:
+            start = i
+        elif not f and start is not None:
+            out.append((start, i))
+            start = None
+    if start is not None:
+        out.append((start, len(flags)))
+    return out
+
+
+def stem_width_px(mask: np.ndarray, min_run: int = 3) -> int | None:
+    """Rough stem width: for each row, the narrowest solid ink run (a vertical
+    stem's cross-section beats a bar's full width); then the 25th percentile
+    over rows, so bars, arms and the closed tops of round letters — rows
+    with only wide runs — don't set the figure. Comparable across letters
+    cut at the same size; a diagonal reads a little wide."""
+    mins = []
+    for row in mask:
+        runs = [b - a for a, b in _runs(row) if b - a >= min_run]
+        if runs:
+            mins.append(min(runs))
+    return int(np.percentile(mins, 25)) if mins else None
+
+
+def _component(binary: np.ndarray, seed: tuple[int, int]) -> np.ndarray:
+    """Boolean mask of the 4-connected ink component containing seed (x, y)."""
+    # .copy(): fromarray images are read-only and floodfill would silently no-op
+    im = Image.fromarray(np.where(binary, 0, 255).astype(np.uint8)).copy()
+    ImageDraw.floodfill(im, seed, 128, thresh=0)
+    return np.asarray(im) == 128
+
+
+def cut_glyph(face: Face, entry: GlyphEntry, pad_frac: float = 0.06, stack_slack: float = 0.15) -> dict:
     page = Image.open(face.specimen_jp2(entry.leaf)).convert("L")
     box = (entry.x, entry.y, entry.x + entry.w, entry.y + entry.h)
     raw = page.crop(box)
     raw.save(face.glyphs / f"{entry.glyph}_raw.png")
 
     t = otsu_threshold(raw)
-    binary = raw.point(lambda v: 0 if v < t else 255).convert("L")
+    binary = np.asarray(raw) < t                      # True = ink
+    bin_im = Image.fromarray(np.where(binary, 0, 255).astype(np.uint8)).copy()
+    seed = find_seed(bin_im, raw.width // 2, raw.height // 2)
+    main = _component(binary, seed)
+    ys, xs = np.nonzero(main)
+    x0, x1 = int(xs.min()), int(xs.max()) + 1
+    slack = int(round((x1 - x0) * stack_slack))
+    lo, hi = max(0, x0 - slack), min(raw.width, x1 + slack)
 
-    seed = find_seed(binary, raw.width // 2, raw.height // 2)
-    work = binary.copy()
-    ImageDraw.floodfill(work, seed, 128, thresh=0)
-    component = work.point(lambda v: 255 if v == 128 else 0)  # component -> white
-    bbox = component.getbbox()
-    if bbox is None:
-        raise RuntimeError(f"empty component for {entry.glyph}")
+    # Other components stacked in the main component's columns belong to the
+    # same glyph (an i-dot, a broken stroke, a speck): add them, and record each.
+    component = main.copy()
+    extras = []
+    remaining = binary & ~component
+    remaining[:, :lo] = False
+    remaining[:, hi:] = False
+    while remaining.any():
+        y, x = map(int, np.argwhere(remaining)[0])
+        comp = _component(binary, (x, y))
+        remaining &= ~comp
+        cys, cxs = np.nonzero(comp)
+        if cxs.min() < lo or cxs.max() >= hi:
+            continue                                  # a neighbor poking into the box, not ours
+        extras.append({"box": [int(cxs.min()) + entry.x, int(cys.min()) + entry.y,
+                               int(cxs.max()) + 1 + entry.x, int(cys.max()) + 1 + entry.y],
+                       "pixels": int(comp.sum())})
+        component |= comp
 
-    x0, y0, x1, y1 = bbox
+    ys, xs = np.nonzero(component)
+    x0, y0, x1, y1 = int(xs.min()), int(ys.min()), int(xs.max()) + 1, int(ys.max()) + 1
     pad = int(round((y1 - y0) * pad_frac))
-    out_w, out_h = (x1 - x0) + 2 * pad, (y1 - y0) + 2 * pad
-    cut = Image.new("L", (out_w, out_h), 255)
-    mask = component.crop(bbox)
-    ink = Image.new("L", mask.size, 0)
-    cut.paste(ink, (pad, pad), mask)
-    cut.save(face.glyphs / f"{entry.glyph}.png")
+    mask = component[y0:y1, x0:x1]
+    out_w, out_h = mask.shape[1] + 2 * pad, mask.shape[0] + 2 * pad
+    cut = np.full((out_h, out_w), 255, dtype=np.uint8)
+    cut[pad:pad + mask.shape[0], pad:pad + mask.shape[1]][mask] = 0
+    Image.fromarray(cut).save(face.glyphs / f"{entry.glyph}.png")
 
-    ink_px = sum(1 for v in mask.getdata() if v == 255)
     info = {
         "glyph": entry.glyph, "unicode": entry.unicode, "leaf": entry.leaf,
+        "line": entry.line, "category": entry.category,
         "rough_box": list(box),
         "tight_box_page": [entry.x + x0, entry.y + y0, entry.x + x1, entry.y + y1],
         "pad": pad, "cut_size": [out_w, out_h],
         "threshold": t, "seed": [entry.x + seed[0], entry.y + seed[1]],
-        "ink_pixels": ink_px, "ink_height_px": y1 - y0, "ink_width_px": x1 - x0,
+        "components": 1 + len(extras), "extra_components": extras,
+        "ink_pixels": int(mask.sum()), "ink_height_px": y1 - y0, "ink_width_px": x1 - x0,
+        "stem_px": stem_width_px(mask),
     }
     (face.glyphs / f"{entry.glyph}.json").write_text(json.dumps(info, indent=2))
     face.log_event("cut", **info)
@@ -108,3 +171,139 @@ def cut(face: Face, glyphs: list[str] | None = None) -> dict:
     if glyphs:
         entries = [e for e in entries if e.glyph in glyphs]
     return {"face": face.name, "cut": [cut_glyph(face, e) for e in entries]}
+
+
+def survey(face: Face, leaf: int, min_line_height: int = 150, min_letter_width: int = 12,
+           min_row_ink: int = 3) -> dict:
+    """Find display lines and letter boxes on a leaf by ink projection.
+
+    Rows with ink form bands; bands at least `min_line_height` tall are
+    display lines (captions and running heads fall below it). Within a band,
+    columns with ink form letters, split at the blank columns between them.
+    Writes specimens/leaf<N>_survey.json and a numbered sheet PNG. The
+    numbers are what a person turns into manifest rows.
+    """
+    face.ensure_layout()
+    page = Image.open(face.specimen_jp2(leaf)).convert("L")
+    t = otsu_threshold(page)
+    ink = np.asarray(page) < t
+    row_ink = ink.sum(axis=1)
+    bands = [(a, b) for a, b in _runs(row_ink >= min_row_ink) if b - a >= min_line_height]
+
+    lines = []
+    n = 0
+    for i, (y0, y1) in enumerate(bands):
+        cols = ink[y0:y1].sum(axis=0)
+        letters = []
+        for x0, x1 in _runs(cols > 0):
+            if x1 - x0 < min_letter_width:
+                continue
+            sub = ink[y0:y1, x0:x1]
+            rows = np.nonzero(sub.any(axis=1))[0]
+            n += 1
+            letters.append({"n": n, "x": int(x0), "y": int(y0 + rows.min()),
+                            "w": int(x1 - x0), "h": int(rows.max() - rows.min() + 1),
+                            "ink": int(sub.sum())})
+        lines.append({"band": i + 1, "y0": int(y0), "y1": int(y1), "height": int(y1 - y0),
+                      "letters": letters})
+
+    # sheet: page at reduced size with numbered boxes
+    scale = 1400 / page.width
+    sheet = page.convert("RGB").resize((1400, int(page.height * scale)))
+    d = ImageDraw.Draw(sheet)
+    for ln in lines:
+        d.rectangle((0, ln["y0"] * scale, sheet.width - 1, ln["y1"] * scale), outline=(0, 150, 210), width=2)
+        for L in ln["letters"]:
+            bx = (L["x"] * scale, L["y"] * scale, (L["x"] + L["w"]) * scale, (L["y"] + L["h"]) * scale)
+            d.rectangle(bx, outline=(225, 0, 130), width=2)
+            d.text((bx[0] + 3, bx[1] + 3), str(L["n"]), fill=(225, 0, 130))
+    sheet_path = face.specimens / f"leaf{leaf:04d}_survey.png"
+    sheet.save(sheet_path)
+
+    rec = {"leaf": leaf, "threshold": t, "page_size": list(page.size), "lines": lines,
+           "sheet": str(sheet_path.relative_to(face.dir))}
+    (face.specimens / f"leaf{leaf:04d}_survey.json").write_text(json.dumps(rec, indent=2))
+    face.log_event("survey", leaf=leaf, threshold=t, bands=len(bands),
+                   letters=sum(len(ln["letters"]) for ln in lines))
+    return rec
+
+
+# Glyph naming for non-letters (AGL names); letters are named by themselves.
+_NAMES = {"0": "zero", "1": "one", "2": "two", "3": "three", "4": "four", "5": "five",
+          "6": "six", "7": "seven", "8": "eight", "9": "nine", "&": "ampersand",
+          ".": "period", ",": "comma", "-": "hyphen", "'": "quotesingle", "!": "exclam",
+          "?": "question", ":": "colon", ";": "semicolon", "$": "dollar"}
+
+
+def category_of(ch: str) -> str:
+    if ch.isupper():
+        return "cap"
+    if ch.islower():
+        return "lower"
+    if ch.isdigit():
+        return "figure"
+    return "punct"
+
+
+def label(face: Face, leaf: int, band: int, text: str, line: str,
+          pad_x: int = 3, pad_y: int = 20) -> dict:
+    """Turn one surveyed band into manifest rows by reading `text` across it.
+
+    Boxes are taken left to right; spaces in `text` have no box. The first
+    time a character is labeled it gets the plain glyph name; a later one is
+    an alternate named <glyph>.<line>, then <glyph>.<line>_2, ... — so label
+    the largest size first and the default glyph comes from the best scan.
+    A box already covered by a manifest row keeps that row unchanged.
+    """
+    survey_path = face.specimens / f"leaf{leaf:04d}_survey.json"
+    if not survey_path.exists():
+        raise FileNotFoundError(f"run `foundry survey --leaf {leaf}` first ({survey_path})")
+    rec = json.loads(survey_path.read_text())
+    ln = next((x for x in rec["lines"] if x["band"] == band), None)
+    if ln is None:
+        raise ValueError(f"leaf {leaf} has no band {band}")
+    chars = [c for c in text if not c.isspace()]
+    if len(chars) != len(ln["letters"]):
+        raise ValueError(f"band {band} has {len(ln['letters'])} boxes but {text!r} has {len(chars)} characters")
+    pw, ph = rec["page_size"]
+
+    entries = face.read_manifest()
+    names = {e.glyph for e in entries}
+    added, kept = [], []
+    for ch, L in zip(chars, ln["letters"]):
+        # same glyph if each box holds the other's center (a hand-drawn rough box
+        # can be wide enough to swallow a neighbor; its center still says which)
+        cx, cy = L["x"] + L["w"] / 2, L["y"] + L["h"] / 2
+        existing = next((e for e in entries if e.leaf == leaf and e.x <= cx < e.x + e.w
+                         and e.y <= cy < e.y + e.h
+                         and L["x"] <= e.x + e.w / 2 < L["x"] + L["w"]
+                         and L["y"] <= e.y + e.h / 2 < L["y"] + L["h"]), None)
+        if existing is not None:
+            existing.line = existing.line or line
+            existing.category = existing.category or category_of(ch)
+            kept.append(existing.glyph)
+            continue
+        base = _NAMES.get(ch, ch)
+        name = base
+        if name in names:
+            name = f"{base}.{line}"
+            k = 2
+            while name in names:
+                name = f"{base}.{line}_{k}"
+                k += 1
+        x0, y0 = max(0, L["x"] - pad_x), max(0, L["y"] - pad_y)
+        x1, y1 = min(pw, L["x"] + L["w"] + pad_x), min(ph, L["y"] + L["h"] + pad_y)
+        e = GlyphEntry(name, f"{ord(ch):04X}" if name == base else "", leaf, x0, y0, x1 - x0, y1 - y0,
+                       f"survey #{L['n']}, {text!r}", line, category_of(ch))
+        entries.append(e)
+        names.add(name)
+        added.append(name)
+    face.write_manifest(entries)
+    data = face.load()
+    sl = data.setdefault("specimen_lines", [])
+    if not any(x.get("leaf") == leaf and x.get("line") == line for x in sl):
+        sl.append({"leaf": leaf, "line": line, "text": text, "band": band})
+        face.save(data)
+    out = {"leaf": leaf, "band": band, "line": line, "text": text, "added": added, "kept": kept}
+    face.log_event("label", **out)
+    return out

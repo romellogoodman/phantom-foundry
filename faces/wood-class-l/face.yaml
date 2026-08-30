@@ -1,9 +1,10 @@
 name: wood-class-l
-status: draft
+status: proto
 metrics:
   upm: 1000
   cap_height: 700
   sidebearing: 40
+  min_contour_area: 0
 source:
   archive_id: bookoftypespecim00barnrich
   title: Book of type specimens. Comprising a large variety of superior copper-mixed
@@ -22,3 +23,84 @@ source:
   contributor: University of California Libraries
   leaves:
   - 895
+lines:
+  895:fifteen:
+    n_caps: 6
+    cap_height_px: 983.5
+    baseline_px: 3418.0
+    glyphs:
+    - R
+    - E
+    - C
+    - O
+    - R.fifteen
+    - D
+    stem_px: 137.0
+    scale: 0.71174
+    stem_units: 97.5
+  895:eight:
+    n_caps: 10
+    cap_height_px: 529.0
+    baseline_px: 2242.0
+    glyphs:
+    - C.eight
+    - H
+    - A
+    - N
+    - G
+    - E.eight
+    - A.eight
+    - B
+    - L
+    - E.eight_2
+    stem_px: 77.0
+    scale: 1.32325
+    stem_units: 101.9
+  895:six:
+    n_caps: 12
+    cap_height_px: 397.5
+    baseline_px: 1530.0
+    glyphs:
+    - M
+    - O.six
+    - D.six
+    - E.six
+    - R.six
+    - N.six
+    - D.six_2
+    - E.six_2
+    - S
+    - I
+    - G.six
+    - N.six_2
+    stem_px: 62.0
+    scale: 1.76101
+    stem_units: 109.2
+  895:five:
+    n_caps: 2
+    cap_height_px: 331.0
+    baseline_px: 950.0
+    glyphs:
+    - P
+    - D.five
+    stem_px: 53.5
+    scale: 2.1148
+    stem_units: 113.1
+specimen_lines:
+- leaf: 895
+  line: five
+  text: Precious Diamond 82
+  band: 2
+- leaf: 895
+  line: six
+  text: MODERN DESIGN
+  band: 3
+- leaf: 895
+  line: eight
+  text: CHANGEABLE
+  band: 4
+- leaf: 895
+  line: fifteen
+  text: RECORD
+  band: 5
+version: 0.1.0

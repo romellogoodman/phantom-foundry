@@ -2,7 +2,7 @@
 
 faces/<name>/
   face.yaml      source book, leaves, public-domain basis, metrics, status
-  specimens/     fetched page scans (jp2) + small jpg previews
+  specimens/     fetched page scans (jp2) + small jpg previews (+ survey sheets)
   glyphs/        manifest.csv + one cut PNG per glyph
   svg/arrow/     Arrow casts        svg/potrace/  control traces
   ufo/           normalized glyph sources (UFO)
@@ -24,7 +24,13 @@ import yaml
 REPO_ROOT = Path(__file__).resolve().parents[2]
 FACES_DIR = REPO_ROOT / "faces"
 
-MANIFEST_FIELDS = ["glyph", "unicode", "leaf", "x", "y", "w", "h", "notes"]
+# A manifest row is one cut: which letter, where on which page, and how it
+# sits in the specimen. `line` names the specimen line (wood type is shown
+# per size: "five", "eight", "fifteen"); glyphs from the same leaf+line share
+# a baseline and a scale in `sort`. `category` says how the glyph relates to
+# that baseline: cap | figure | lower | punct.
+MANIFEST_FIELDS = ["glyph", "unicode", "leaf", "line", "category", "x", "y", "w", "h", "notes"]
+CATEGORIES = ("cap", "figure", "lower", "punct")
 
 
 @dataclass
@@ -37,6 +43,17 @@ class GlyphEntry:
     w: int
     h: int
     notes: str = ""
+    line: str = ""
+    category: str = "cap"
+
+    @property
+    def group(self) -> str:
+        """Key shared by every glyph printed on the same specimen line."""
+        return f"{self.leaf}:{self.line or 'line'}"
+
+    @property
+    def char(self) -> str | None:
+        return chr(int(self.unicode, 16)) if self.unicode else None
 
 
 class Face:
@@ -78,15 +95,38 @@ class Face:
     def specimen_preview(self, leaf: int) -> Path:
         return self.specimens / f"leaf{leaf:04d}_preview.jpg"
 
+    # -- glyph records --------------------------------------------------
+    def glyph_info(self, glyph: str) -> dict:
+        """The cut's record (tight box, ink stats) written by `cut`."""
+        p = self.glyphs / f"{glyph}.json"
+        if not p.exists():
+            raise FileNotFoundError(f"{glyph} has not been cut yet ({p})")
+        return json.loads(p.read_text())
+
     # -- manifest -------------------------------------------------------
     def read_manifest(self) -> list[GlyphEntry]:
         if not self.manifest_path.exists():
             return []
         with self.manifest_path.open(newline="") as f:
             rows = list(csv.DictReader(f))
-        return [GlyphEntry(r["glyph"], r.get("unicode", ""), int(r["leaf"]),
-                           int(r["x"]), int(r["y"]), int(r["w"]), int(r["h"]),
-                           r.get("notes", "")) for r in rows]
+        out = []
+        for r in rows:
+            cat = (r.get("category") or "cap").strip()
+            if cat not in CATEGORIES:
+                raise ValueError(f"manifest: glyph {r['glyph']!r} has unknown category {cat!r}; "
+                                 f"expected one of {CATEGORIES}")
+            out.append(GlyphEntry(r["glyph"], (r.get("unicode") or "").strip(), int(r["leaf"]),
+                                  int(r["x"]), int(r["y"]), int(r["w"]), int(r["h"]),
+                                  r.get("notes") or "", (r.get("line") or "").strip(), cat))
+        return out
+
+    def write_manifest(self, entries: list[GlyphEntry]) -> None:
+        self.glyphs.mkdir(parents=True, exist_ok=True)
+        with self.manifest_path.open("w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=MANIFEST_FIELDS)
+            w.writeheader()
+            for e in entries:
+                w.writerow({k: getattr(e, k) for k in MANIFEST_FIELDS})
 
     def manifest_entry(self, glyph: str) -> GlyphEntry:
         for e in self.read_manifest():
@@ -100,3 +140,9 @@ class Face:
         rec = {"ts": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "stage": stage, **fields}
         with (self.log / f"{stage}.jsonl").open("a") as f:
             f.write(json.dumps(rec) + "\n")
+
+    def read_log(self, stage: str) -> list[dict]:
+        p = self.log / f"{stage}.jsonl"
+        if not p.exists():
+            return []
+        return [json.loads(line) for line in p.read_text().splitlines() if line.strip()]

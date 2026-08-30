@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I" format="2">
+  <advance width="195"/>
+  <unicode hex="0049"/>
+  <outline>
+    <contour>
+      <point x="45" y="697" type="curve" smooth="yes"/>
+      <point x="41" y="696" type="line"/>
+      <point x="41" y="350" type="line" smooth="yes"/>
+      <point x="40" y="140"/>
+      <point x="41" y="2"/>
+      <point x="42" y="0" type="curve" smooth="yes"/>
+      <point x="43" y="-2"/>
+      <point x="52" y="-2"/>
+      <point x="98" y="-3" type="curve" smooth="yes"/>
+      <point x="128" y="-3"/>
+      <point x="153" y="-2"/>
+      <point x="153" y="-2" type="curve"/>
+      <point x="154" y="-1"/>
+      <point x="155" y="696"/>
+      <point x="154" y="697" type="curve" smooth="yes"/>
+      <point x="153" y="698"/>
+      <point x="49" y="698"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.phantomfoundry.sort</key>
+      <dict>
+        <key>alignment</key>
+        <string>line: shared scale (cap_height / median cap ink height), shared baseline (median cap ink bottom)</string>
+        <key>baseline_px</key>
+        <real>1530.0</real>
+        <key>cap_height_px</key>
+        <real>397.5</real>
+        <key>category</key>
+        <string>cap</string>
+        <key>dropped_contours</key>
+        <array/>
+        <key>engine</key>
+        <string>potrace</string>
+        <key>line</key>
+        <string>895:six</string>
+        <key>scale</key>
+        <real>1.76101</real>
+        <key>sidebearing</key>
+        <integer>40</integer>
+        <key>source_sha256</key>
+        <string>e038b77bd9f7f2bc8656cda9455dea5d4e2a90475466d7988ab416b46599e360</string>
+        <key>source_svg</key>
+        <string>svg/potrace/I.svg</string>
+        <key>stem_units</key>
+        <real>114.5</real>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
