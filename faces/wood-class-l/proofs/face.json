@@ -547,6 +547,42 @@
       }
     },
     {
+      "name": "F",
+      "unicode": "0046",
+      "char": "F",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 285,
+      "category": "cap",
+      "line": null,
+      "engine": null,
+      "constructed": true,
+      "construct": {
+        "category": "cap",
+        "from": [
+          "E"
+        ],
+        "note": "E without its bottom arm",
+        "ops": [
+          {
+            "glyph": "E"
+          },
+          {
+            "mode": "subtract",
+            "rect": [
+              145,
+              -10,
+              300,
+              106
+            ]
+          }
+        ],
+        "reason": "not shown in the source specimen; built from the traced letters"
+      },
+      "stem_units": null,
+      "dropped_contours": null
+    },
+    {
       "name": "G",
       "unicode": "0047",
       "char": "G",
@@ -653,6 +689,103 @@
         "stem_px": 65,
         "components": 1
       }
+    },
+    {
+      "name": "J",
+      "unicode": "004A",
+      "char": "J",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 316,
+      "category": "cap",
+      "line": null,
+      "engine": null,
+      "constructed": true,
+      "construct": {
+        "category": "cap",
+        "from": [
+          "U"
+        ],
+        "note": "the constructed U with its left stem cut off at 190, leaving the hook",
+        "ops": [
+          {
+            "glyph": "U"
+          },
+          {
+            "mode": "subtract",
+            "rect": [
+              0,
+              190,
+              150,
+              720
+            ]
+          }
+        ],
+        "reason": "not shown in the source specimen; built from the traced letters"
+      },
+      "stem_units": null,
+      "dropped_contours": null
+    },
+    {
+      "name": "K",
+      "unicode": "004B",
+      "char": "K",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 339,
+      "category": "cap",
+      "line": null,
+      "engine": null,
+      "constructed": true,
+      "construct": {
+        "category": "cap",
+        "from": [
+          "I"
+        ],
+        "note": "I's stem, arm and leg of the A's leg thickness from a junction at a third of the cap",
+        "ops": [
+          {
+            "glyph": "I"
+          },
+          {
+            "stroke": {
+              "from": [
+                120,
+                330
+              ],
+              "thickness": 95,
+              "to": [
+                246,
+                700
+              ]
+            }
+          },
+          {
+            "stroke": {
+              "from": [
+                120,
+                330
+              ],
+              "thickness": 95,
+              "to": [
+                253,
+                0
+              ]
+            }
+          },
+          {
+            "clip": [
+              40,
+              0,
+              300,
+              700
+            ]
+          }
+        ],
+        "reason": "not shown in the source specimen; built from the traced letters"
+      },
+      "stem_units": null,
+      "dropped_contours": null
     },
     {
       "name": "L",
@@ -871,6 +1004,46 @@
       }
     },
     {
+      "name": "Q",
+      "unicode": "0051",
+      "char": "Q",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 389,
+      "category": "cap",
+      "line": null,
+      "engine": null,
+      "constructed": true,
+      "construct": {
+        "category": "cap",
+        "from": [
+          "O"
+        ],
+        "note": "O with a tail of stem thickness through the bottom right of the bowl",
+        "ops": [
+          {
+            "glyph": "O"
+          },
+          {
+            "stroke": {
+              "from": [
+                175,
+                110
+              ],
+              "thickness": 100,
+              "to": [
+                300,
+                -40
+              ]
+            }
+          }
+        ],
+        "reason": "not shown in the source specimen; built from the traced letters"
+      },
+      "stem_units": null,
+      "dropped_contours": null
+    },
+    {
       "name": "R",
       "unicode": "0052",
       "char": "R",
@@ -1005,6 +1178,349 @@
       }
     },
     {
+      "name": "T",
+      "unicode": "0054",
+      "char": "T",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 316,
+      "category": "cap",
+      "line": null,
+      "engine": null,
+      "constructed": true,
+      "construct": {
+        "category": "cap",
+        "from": [
+          "I"
+        ],
+        "note": "I's stem centered under a bar of E's top-arm thickness; width between E and H",
+        "ops": [
+          {
+            "dx": 60,
+            "glyph": "I"
+          },
+          {
+            "rect": [
+              40,
+              597,
+              276,
+              700
+            ]
+          }
+        ],
+        "reason": "not shown in the source specimen; built from the traced letters"
+      },
+      "stem_units": null,
+      "dropped_contours": null
+    },
+    {
+      "name": "U",
+      "unicode": "0055",
+      "char": "U",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 318,
+      "category": "cap",
+      "line": null,
+      "engine": null,
+      "constructed": true,
+      "construct": {
+        "category": "cap",
+        "from": [
+          "O"
+        ],
+        "note": "O's bottom half with its sides carried straight up to the cap",
+        "ops": [
+          {
+            "glyph": "O"
+          },
+          {
+            "clip": [
+              0,
+              -10,
+              400,
+              350
+            ]
+          },
+          {
+            "rect": [
+              40,
+              340,
+              138,
+              700
+            ]
+          },
+          {
+            "rect": [
+              176,
+              340,
+              278,
+              700
+            ]
+          }
+        ],
+        "reason": "not shown in the source specimen; built from the traced letters"
+      },
+      "stem_units": null,
+      "dropped_contours": null
+    },
+    {
+      "name": "V",
+      "unicode": "0056",
+      "char": "V",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 344,
+      "category": "cap",
+      "line": null,
+      "engine": null,
+      "constructed": true,
+      "construct": {
+        "category": "cap",
+        "from": [
+          "A"
+        ],
+        "note": "A upside down, crossbar removed (its heavy flat apex becomes the V's foot)",
+        "ops": [
+          {
+            "flip_y": true,
+            "glyph": "A"
+          },
+          {
+            "mode": "subtract",
+            "poly": [
+              [
+                140.9,
+                581
+              ],
+              [
+                196.9,
+                581
+              ],
+              [
+                189.5,
+                473
+              ],
+              [
+                147.9,
+                473
+              ]
+            ]
+          }
+        ],
+        "reason": "not shown in the source specimen; built from the traced letters"
+      },
+      "stem_units": null,
+      "dropped_contours": null
+    },
+    {
+      "name": "W",
+      "unicode": "0057",
+      "char": "W",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 483,
+      "category": "cap",
+      "line": null,
+      "engine": null,
+      "constructed": true,
+      "construct": {
+        "category": "cap",
+        "from": [
+          "M"
+        ],
+        "note": "M upside down \u2014 outer stems vertical, inner strokes meeting at the cap",
+        "ops": [
+          {
+            "flip_y": true,
+            "glyph": "M"
+          }
+        ],
+        "reason": "not shown in the source specimen; built from the traced letters"
+      },
+      "stem_units": null,
+      "dropped_contours": null
+    },
+    {
+      "name": "X",
+      "unicode": "0058",
+      "char": "X",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 344,
+      "category": "cap",
+      "line": null,
+      "engine": null,
+      "constructed": true,
+      "construct": {
+        "category": "cap",
+        "from": [],
+        "note": "two strokes of the A's leg thickness crossing, A's width",
+        "ops": [
+          {
+            "stroke": {
+              "from": [
+                87,
+                0
+              ],
+              "thickness": 95,
+              "to": [
+                257,
+                700
+              ]
+            }
+          },
+          {
+            "stroke": {
+              "from": [
+                257,
+                0
+              ],
+              "thickness": 95,
+              "to": [
+                87,
+                700
+              ]
+            }
+          },
+          {
+            "clip": [
+              40,
+              0,
+              304,
+              700
+            ]
+          }
+        ],
+        "reason": "not shown in the source specimen; built from the traced letters"
+      },
+      "stem_units": null,
+      "dropped_contours": null
+    },
+    {
+      "name": "Y",
+      "unicode": "0059",
+      "char": "Y",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 344,
+      "category": "cap",
+      "line": null,
+      "engine": null,
+      "constructed": true,
+      "construct": {
+        "category": "cap",
+        "from": [],
+        "note": "two arms of the A's leg thickness meeting a stem at 300, A's width",
+        "ops": [
+          {
+            "rect": [
+              117,
+              0,
+              227,
+              330
+            ]
+          },
+          {
+            "stroke": {
+              "from": [
+                87,
+                700
+              ],
+              "thickness": 95,
+              "to": [
+                172,
+                300
+              ]
+            }
+          },
+          {
+            "stroke": {
+              "from": [
+                257,
+                700
+              ],
+              "thickness": 95,
+              "to": [
+                172,
+                300
+              ]
+            }
+          },
+          {
+            "clip": [
+              40,
+              0,
+              304,
+              700
+            ]
+          }
+        ],
+        "reason": "not shown in the source specimen; built from the traced letters"
+      },
+      "stem_units": null,
+      "dropped_contours": null
+    },
+    {
+      "name": "Z",
+      "unicode": "005A",
+      "char": "Z",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 316,
+      "category": "cap",
+      "line": null,
+      "engine": null,
+      "constructed": true,
+      "construct": {
+        "category": "cap",
+        "from": [],
+        "note": "bars of E's arm thickness, diagonal of stem thickness; T's width",
+        "ops": [
+          {
+            "rect": [
+              40,
+              597,
+              276,
+              700
+            ]
+          },
+          {
+            "rect": [
+              40,
+              0,
+              276,
+              104
+            ]
+          },
+          {
+            "stroke": {
+              "from": [
+                218,
+                700
+              ],
+              "thickness": 116,
+              "to": [
+                98,
+                0
+              ]
+            }
+          },
+          {
+            "clip": [
+              40,
+              0,
+              276,
+              700
+            ]
+          }
+        ],
+        "reason": "not shown in the source specimen; built from the traced letters"
+      },
+      "stem_units": null,
+      "dropped_contours": null
+    },
+    {
       "name": "space",
       "unicode": "0020",
       "char": " ",
@@ -1134,6 +1650,7 @@
     "D.five_overlay.png",
     "D.five_traces.png",
     "cuts.png",
+    "alphabet.png",
     "line_895_five.png",
     "line_895_six.png",
     "line_895_eight.png",

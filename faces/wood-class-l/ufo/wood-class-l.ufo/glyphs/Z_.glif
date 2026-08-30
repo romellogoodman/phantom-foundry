@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Z" format="2">
+  <advance width="316"/>
+  <unicode hex="005A"/>
+  <outline>
+    <contour>
+      <point x="40" y="0" type="line"/>
+      <point x="276" y="0" type="line"/>
+      <point x="276" y="104" type="line"/>
+      <point x="174" y="104" type="line"/>
+      <point x="258" y="597" type="line"/>
+      <point x="276" y="597" type="line"/>
+      <point x="276" y="700" type="line"/>
+      <point x="40" y="700" type="line"/>
+      <point x="40" y="597" type="line"/>
+      <point x="142" y="597" type="line"/>
+      <point x="58" y="104" type="line"/>
+      <point x="40" y="104" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.phantomfoundry.construct</key>
+      <dict>
+        <key>category</key>
+        <string>cap</string>
+        <key>from</key>
+        <array/>
+        <key>note</key>
+        <string>bars of E's arm thickness, diagonal of stem thickness; T's width</string>
+        <key>ops</key>
+        <array>
+          <dict>
+            <key>rect</key>
+            <array>
+              <integer>40</integer>
+              <integer>597</integer>
+              <integer>276</integer>
+              <integer>700</integer>
+            </array>
+          </dict>
+          <dict>
+            <key>rect</key>
+            <array>
+              <integer>40</integer>
+              <integer>0</integer>
+              <integer>276</integer>
+              <integer>104</integer>
+            </array>
+          </dict>
+          <dict>
+            <key>stroke</key>
+            <dict>
+              <key>from</key>
+              <array>
+                <integer>218</integer>
+                <integer>700</integer>
+              </array>
+              <key>thickness</key>
+              <integer>116</integer>
+              <key>to</key>
+              <array>
+                <integer>98</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </dict>
+          <dict>
+            <key>clip</key>
+            <array>
+              <integer>40</integer>
+              <integer>0</integer>
+              <integer>276</integer>
+              <integer>700</integer>
+            </array>
+          </dict>
+        </array>
+        <key>reason</key>
+        <string>not shown in the source specimen; built from the traced letters</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

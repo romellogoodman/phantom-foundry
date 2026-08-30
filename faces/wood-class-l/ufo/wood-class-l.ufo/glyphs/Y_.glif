@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Y" format="2">
+  <advance width="344"/>
+  <unicode hex="0059"/>
+  <outline>
+    <contour>
+      <point x="117" y="0" type="line"/>
+      <point x="227" y="0" type="line"/>
+      <point x="227" y="330" type="line"/>
+      <point x="226" y="330" type="line"/>
+      <point x="304" y="698" type="line"/>
+      <point x="304" y="700" type="line"/>
+      <point x="210" y="700" type="line"/>
+      <point x="172" y="524" type="line"/>
+      <point x="135" y="700" type="line"/>
+      <point x="40" y="700" type="line"/>
+      <point x="40" y="698" type="line"/>
+      <point x="118" y="330" type="line"/>
+      <point x="117" y="330" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.phantomfoundry.construct</key>
+      <dict>
+        <key>category</key>
+        <string>cap</string>
+        <key>from</key>
+        <array/>
+        <key>note</key>
+        <string>two arms of the A's leg thickness meeting a stem at 300, A's width</string>
+        <key>ops</key>
+        <array>
+          <dict>
+            <key>rect</key>
+            <array>
+              <integer>117</integer>
+              <integer>0</integer>
+              <integer>227</integer>
+              <integer>330</integer>
+            </array>
+          </dict>
+          <dict>
+            <key>stroke</key>
+            <dict>
+              <key>from</key>
+              <array>
+                <integer>87</integer>
+                <integer>700</integer>
+              </array>
+              <key>thickness</key>
+              <integer>95</integer>
+              <key>to</key>
+              <array>
+                <integer>172</integer>
+                <integer>300</integer>
+              </array>
+            </dict>
+          </dict>
+          <dict>
+            <key>stroke</key>
+            <dict>
+              <key>from</key>
+              <array>
+                <integer>257</integer>
+                <integer>700</integer>
+              </array>
+              <key>thickness</key>
+              <integer>95</integer>
+              <key>to</key>
+              <array>
+                <integer>172</integer>
+                <integer>300</integer>
+              </array>
+            </dict>
+          </dict>
+          <dict>
+            <key>clip</key>
+            <array>
+              <integer>40</integer>
+              <integer>0</integer>
+              <integer>304</integer>
+              <integer>700</integer>
+            </array>
+          </dict>
+        </array>
+        <key>reason</key>
+        <string>not shown in the source specimen; built from the traced letters</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

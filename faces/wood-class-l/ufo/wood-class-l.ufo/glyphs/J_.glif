@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="J" format="2">
+  <advance width="316"/>
+  <unicode hex="004A"/>
+  <outline>
+    <contour>
+      <point x="174" y="322" type="line" smooth="yes"/>
+      <point x="174" y="138"/>
+      <point x="174" y="128"/>
+      <point x="173" y="120" type="curve"/>
+      <point x="171" y="109"/>
+      <point x="170" y="107"/>
+      <point x="167" y="103" type="curve"/>
+      <point x="163" y="99"/>
+      <point x="158" y="98"/>
+      <point x="154" y="99" type="curve" smooth="yes"/>
+      <point x="147" y="101"/>
+      <point x="142" y="107"/>
+      <point x="140" y="114" type="curve"/>
+      <point x="139" y="115"/>
+      <point x="139" y="124"/>
+      <point x="138" y="134" type="curve"/>
+      <point x="138" y="143"/>
+      <point x="137" y="158"/>
+      <point x="137" y="168" type="curve" smooth="yes"/>
+      <point x="137" y="171"/>
+      <point x="137" y="178"/>
+      <point x="137" y="190" type="curve"/>
+      <point x="40" y="190" type="line"/>
+      <point x="40" y="178"/>
+      <point x="40" y="169"/>
+      <point x="40" y="166" type="curve" smooth="yes"/>
+      <point x="40" y="123"/>
+      <point x="42" y="102"/>
+      <point x="47" y="86" type="curve"/>
+      <point x="47" y="84"/>
+      <point x="48" y="82"/>
+      <point x="48" y="80" type="curve"/>
+      <point x="52" y="65"/>
+      <point x="61" y="49"/>
+      <point x="74" y="34" type="curve"/>
+      <point x="78" y="30"/>
+      <point x="90" y="20"/>
+      <point x="97" y="16" type="curve"/>
+      <point x="100" y="14"/>
+      <point x="104" y="11"/>
+      <point x="105" y="11" type="curve"/>
+      <point x="107" y="9" type="line"/>
+      <point x="108" y="9"/>
+      <point x="110" y="8"/>
+      <point x="112" y="7" type="curve"/>
+      <point x="119" y="4"/>
+      <point x="124" y="3"/>
+      <point x="133" y="2" type="curve" smooth="yes"/>
+      <point x="141" y="1"/>
+      <point x="168" y="0"/>
+      <point x="176" y="1" type="curve"/>
+      <point x="181" y="1"/>
+      <point x="193" y="4"/>
+      <point x="198" y="6" type="curve"/>
+      <point x="203" y="7"/>
+      <point x="213" y="12"/>
+      <point x="215" y="14" type="curve"/>
+      <point x="215" y="14"/>
+      <point x="217" y="15"/>
+      <point x="218" y="16" type="curve"/>
+      <point x="220" y="17"/>
+      <point x="228" y="23"/>
+      <point x="233" y="28" type="curve" smooth="yes"/>
+      <point x="248" y="43"/>
+      <point x="259" y="60"/>
+      <point x="266" y="77" type="curve"/>
+      <point x="270" y="89"/>
+      <point x="272" y="99"/>
+      <point x="273" y="111" type="curve"/>
+      <point x="273" y="117" type="line"/>
+      <point x="274" y="119"/>
+      <point x="274" y="139"/>
+      <point x="275" y="164" type="curve" smooth="yes"/>
+      <point x="275" y="179"/>
+      <point x="276" y="310"/>
+      <point x="276" y="327" type="curve" smooth="yes"/>
+      <point x="276" y="700" type="line"/>
+      <point x="174" y="700" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.phantomfoundry.construct</key>
+      <dict>
+        <key>category</key>
+        <string>cap</string>
+        <key>from</key>
+        <array>
+          <string>U</string>
+        </array>
+        <key>note</key>
+        <string>the constructed U with its left stem cut off at 190, leaving the hook</string>
+        <key>ops</key>
+        <array>
+          <dict>
+            <key>glyph</key>
+            <string>U</string>
+          </dict>
+          <dict>
+            <key>mode</key>
+            <string>subtract</string>
+            <key>rect</key>
+            <array>
+              <integer>0</integer>
+              <integer>190</integer>
+              <integer>150</integer>
+              <integer>720</integer>
+            </array>
+          </dict>
+        </array>
+        <key>reason</key>
+        <string>not shown in the source specimen; built from the traced letters</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -97,6 +97,13 @@ def sort(face: str, glyph: list[str] = typer.Option(None, "--glyph", "-g"),
 
 
 @app.command()
+def construct(face: str, glyph: list[str] = typer.Option(None, "--glyph", "-g")):
+    """Build the letters the specimen doesn't show from recipes in faces/<face>/construct.yaml (flagged constructed)."""
+    from .construct import construct as _construct
+    _out(_construct(Face(face), glyph or None))
+
+
+@app.command()
 def matrix(face: str, formats: str = typer.Option("otf,ttf", help="comma-separated: otf,ttf")):
     """Assemble: finalize UFO metadata and compile to dist/ with fontmake."""
     from .matrix import matrix as _matrix

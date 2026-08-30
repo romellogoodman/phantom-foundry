@@ -1,0 +1,79 @@
+# Letters No. 266 Class L never shows on leaf 895, built from the ones it does.
+# Units: font units, cap height 700, left sidebearing 40 (applied after).
+# Measured from the traced glyphs (see log/construct.jsonl and the report):
+#   stems 104–114, E arms 103, A legs ~95 wide at ~5° with the crossbar at y 121–225,
+#   O sides vertical between y 150 and 550 (x 40–138 and 176–278), M's middle vertex on the baseline.
+
+F:
+  note: E without its bottom arm
+  ops:
+    - {glyph: E}
+    - {rect: [145, -10, 300, 106], mode: subtract}
+
+T:
+  note: I's stem centered under a bar of E's top-arm thickness; width between E and H
+  ops:
+    - {glyph: I, dx: 60}
+    - {rect: [40, 597, 276, 700]}
+
+K:
+  note: I's stem, arm and leg of the A's leg thickness from a junction at a third of the cap
+  ops:
+    - {glyph: I}
+    - {stroke: {from: [120, 330], to: [246, 700], thickness: 95}}
+    - {stroke: {from: [120, 330], to: [253, 0], thickness: 95}}
+    - {clip: [40, 0, 300, 700]}
+
+V:
+  note: A upside down, crossbar removed (its heavy flat apex becomes the V's foot)
+  ops:
+    - {glyph: A, flip_y: true}
+    - {poly: [[140.9, 581], [196.9, 581], [189.5, 473], [147.9, 473]], mode: subtract}
+
+W:
+  note: M upside down — outer stems vertical, inner strokes meeting at the cap
+  ops:
+    - {glyph: M, flip_y: true}
+
+X:
+  note: two strokes of the A's leg thickness crossing, A's width
+  ops:
+    - {stroke: {from: [87, 0], to: [257, 700], thickness: 95}}
+    - {stroke: {from: [257, 0], to: [87, 700], thickness: 95}}
+    - {clip: [40, 0, 304, 700]}
+
+Y:
+  note: two arms of the A's leg thickness meeting a stem at 300, A's width
+  ops:
+    - {rect: [117, 0, 227, 330]}
+    - {stroke: {from: [87, 700], to: [172, 300], thickness: 95}}
+    - {stroke: {from: [257, 700], to: [172, 300], thickness: 95}}
+    - {clip: [40, 0, 304, 700]}
+
+Z:
+  note: bars of E's arm thickness, diagonal of stem thickness; T's width
+  ops:
+    - {rect: [40, 597, 276, 700]}
+    - {rect: [40, 0, 276, 104]}
+    - {stroke: {from: [218, 700], to: [98, 0], thickness: 116}}
+    - {clip: [40, 0, 276, 700]}
+
+U:
+  note: O's bottom half with its sides carried straight up to the cap
+  ops:
+    - {glyph: O}
+    - {clip: [0, -10, 400, 350]}
+    - {rect: [40, 340, 138, 700]}
+    - {rect: [176, 340, 278, 700]}
+
+J:
+  note: the constructed U with its left stem cut off at 190, leaving the hook
+  ops:
+    - {glyph: U}
+    - {rect: [0, 190, 150, 720], mode: subtract}
+
+Q:
+  note: O with a tail of stem thickness through the bottom right of the bowl
+  ops:
+    - {glyph: O}
+    - {stroke: {from: [175, 110], to: [300, -40], thickness: 100}}

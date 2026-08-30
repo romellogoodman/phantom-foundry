@@ -87,6 +87,44 @@ def cuts_image(face: Face, entries, height: int = 220) -> Image.Image | None:
     return sheet
 
 
+def alphabet_image(face: Face, font_path, size: int = 200) -> Image.Image | None:
+    """Every encoded glyph in code-point order, each labeled with where it came
+    from: the specimen line it was traced from, or `constructed`."""
+    import ufoLib2
+    from .sort import ufo_path
+    if not ufo_path(face).exists():
+        return None
+    font = ufoLib2.Font.open(ufo_path(face))
+    encoded = sorted((g.unicodes[0], g.name) for g in font if g.unicodes and g.name not in ("space",))
+    if not encoded:
+        return None
+    f = ImageFont.truetype(str(font_path), size)
+    gap, label_h = 30, 26
+    cells = []
+    for cp, name in encoded:
+        g = font[name]
+        lib = g.lib.get("com.phantomfoundry.sort", {})
+        con = g.lib.get("com.phantomfoundry.construct")
+        label = "constructed" if con else lib.get("line", "").split(":")[-1] or "traced"
+        w = max(f.getlength(chr(cp)), 60)
+        cells.append((chr(cp), label, int(w), bool(con)))
+    per_row = 9
+    rows = [cells[i:i + per_row] for i in range(0, len(cells), per_row)]
+    row_h = int(size * 1.15) + label_h + gap
+    W = max(sum(c[2] + gap for c in r) for r in rows) + gap
+    im = Image.new("RGB", (W, len(rows) * row_h + gap), "white")
+    d = ImageDraw.Draw(im)
+    asc = int(size * 0.98)
+    for ri, r in enumerate(rows):
+        x = gap
+        y = gap + ri * row_h
+        for ch, label, w, con in r:
+            d.text((x, y), ch, font=f, fill=(120, 120, 120) if con else "black")
+            d.text((x, y + asc + 8), label, fill=(200, 0, 100) if con else (120, 120, 120))
+            x += w + gap
+    return im
+
+
 def _font_file(face: Face):
     fonts = sorted(face.dist.glob("*.otf")) + sorted(face.dist.glob("*.ttf"))
     return fonts[0] if fonts else None
@@ -242,6 +280,11 @@ def proof(face: Face) -> dict:
         made.append("cuts.png")
 
     font_path = _font_file(face)
+    if font_path is not None:
+        ab = alphabet_image(face, font_path)
+        if ab is not None:
+            ab.save(face.proofs / "alphabet.png")
+            made.append("alphabet.png")
     line_proofs = []
     for sl in data.get("specimen_lines", []):
         rec = dict(sl)
@@ -276,6 +319,8 @@ def proof(face: Face) -> dict:
             note = "complete" if not r["missing"] else "missing " + " ".join(r["missing"])
             parts.append(f"<figure><img src='{r['proof']}' style='max-width:100%'>"
                          f"<figcaption>{html.escape(r['text'])} — {r['line']}-line — {note}</figcaption></figure>")
+    if "alphabet.png" in made:
+        parts.append("<h2>Alphabet</h2><p>Gray letters are constructed, not traced.</p><img src='alphabet.png' style='max-width:100%'>")
     parts.append("<h2>Cuts</h2><img src='cuts.png' style='max-width:100%'>")
     parts.append("<h2>Traces</h2>")
     for m in made:
