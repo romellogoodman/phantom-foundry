@@ -22,7 +22,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw
 
-from .face import Face, GlyphEntry
+from .face import Face, GlyphEntry, fname
 
 
 def otsu_threshold(im: Image.Image) -> int:
@@ -97,6 +97,18 @@ def stem_width_px(mask: np.ndarray, min_run: int = 3) -> int | None:
     return int(np.percentile(mins, 25)) if mins else None
 
 
+def stacked_piece(piece_y: tuple[int, int], main_y: tuple[int, int], piece_px: int, main_px: int,
+                  min_fraction: float = 0.05) -> bool:
+    """Does a second ink component belong to the glyph? Yes if it sits wholly
+    above or below the main component (an i-dot, a detached accent) or is at
+    least `min_fraction` of its ink (a broken stroke). A small mark beside the
+    letter is a speck."""
+    a0, a1 = piece_y
+    b0, b1 = main_y
+    no_vertical_overlap = a1 <= b0 or a0 >= b1
+    return no_vertical_overlap or piece_px >= min_fraction * main_px
+
+
 def _component(binary: np.ndarray, seed: tuple[int, int]) -> np.ndarray:
     """Boolean mask of the 4-connected ink component containing seed (x, y)."""
     # .copy(): fromarray images are read-only and floodfill would silently no-op
@@ -109,7 +121,7 @@ def cut_glyph(face: Face, entry: GlyphEntry, pad_frac: float = 0.06, stack_slack
     page = Image.open(face.specimen_jp2(entry.leaf)).convert("L")
     box = (entry.x, entry.y, entry.x + entry.w, entry.y + entry.h)
     raw = page.crop(box)
-    raw.save(face.glyphs / f"{entry.glyph}_raw.png")
+    raw.save(face.glyphs / f"{fname(entry.glyph)}_raw.png")
 
     t = otsu_threshold(raw)
     binary = np.asarray(raw) < t                      # True = ink
@@ -121,10 +133,13 @@ def cut_glyph(face: Face, entry: GlyphEntry, pad_frac: float = 0.06, stack_slack
     slack = int(round((x1 - x0) * stack_slack))
     lo, hi = max(0, x0 - slack), min(raw.width, x1 + slack)
 
-    # Other components stacked in the main component's columns belong to the
-    # same glyph (an i-dot, a broken stroke, a speck): add them, and record each.
+    # Other components in the main component's columns may belong to the same
+    # glyph. A dot sits above or below its stem (no vertical overlap); a broken
+    # stroke is a substantial piece. A small mark beside the letter is a paper
+    # speck: recorded, not cut. See stacked_piece().
     component = main.copy()
-    extras = []
+    extras, specks = [], []
+    my0, my1 = int(ys.min()), int(ys.max()) + 1
     remaining = binary & ~component
     remaining[:, :lo] = False
     remaining[:, hi:] = False
@@ -135,10 +150,14 @@ def cut_glyph(face: Face, entry: GlyphEntry, pad_frac: float = 0.06, stack_slack
         cys, cxs = np.nonzero(comp)
         if cxs.min() < lo or cxs.max() >= hi:
             continue                                  # a neighbor poking into the box, not ours
-        extras.append({"box": [int(cxs.min()) + entry.x, int(cys.min()) + entry.y,
-                               int(cxs.max()) + 1 + entry.x, int(cys.max()) + 1 + entry.y],
-                       "pixels": int(comp.sum())})
-        component |= comp
+        rec = {"box": [int(cxs.min()) + entry.x, int(cys.min()) + entry.y,
+                       int(cxs.max()) + 1 + entry.x, int(cys.max()) + 1 + entry.y],
+               "pixels": int(comp.sum())}
+        if stacked_piece((int(cys.min()), int(cys.max()) + 1), (my0, my1), rec["pixels"], int(main.sum())):
+            extras.append(rec)
+            component |= comp
+        else:
+            specks.append(rec)
 
     ys, xs = np.nonzero(component)
     x0, y0, x1, y1 = int(xs.min()), int(ys.min()), int(xs.max()) + 1, int(ys.max()) + 1
@@ -147,7 +166,7 @@ def cut_glyph(face: Face, entry: GlyphEntry, pad_frac: float = 0.06, stack_slack
     out_w, out_h = mask.shape[1] + 2 * pad, mask.shape[0] + 2 * pad
     cut = np.full((out_h, out_w), 255, dtype=np.uint8)
     cut[pad:pad + mask.shape[0], pad:pad + mask.shape[1]][mask] = 0
-    Image.fromarray(cut).save(face.glyphs / f"{entry.glyph}.png")
+    Image.fromarray(cut).save(face.glyphs / f"{fname(entry.glyph)}.png")
 
     info = {
         "glyph": entry.glyph, "unicode": entry.unicode, "leaf": entry.leaf,
@@ -156,11 +175,11 @@ def cut_glyph(face: Face, entry: GlyphEntry, pad_frac: float = 0.06, stack_slack
         "tight_box_page": [entry.x + x0, entry.y + y0, entry.x + x1, entry.y + y1],
         "pad": pad, "cut_size": [out_w, out_h],
         "threshold": t, "seed": [entry.x + seed[0], entry.y + seed[1]],
-        "components": 1 + len(extras), "extra_components": extras,
+        "components": 1 + len(extras), "extra_components": extras, "specks": specks,
         "ink_pixels": int(mask.sum()), "ink_height_px": y1 - y0, "ink_width_px": x1 - x0,
         "stem_px": stem_width_px(mask),
     }
-    (face.glyphs / f"{entry.glyph}.json").write_text(json.dumps(info, indent=2))
+    (face.glyphs / f"{fname(entry.glyph)}.json").write_text(json.dumps(info, indent=2))
     face.log_event("cut", **info)
     return info
 

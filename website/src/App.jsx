@@ -34,7 +34,9 @@ function FontFace({ face }) {
 }
 
 function Tester({ face }) {
-  const [text, setText] = useState("RECORD");
+  const covered = (face.specimen_lines || []).filter((l) => l.missing && l.missing.length === 0);
+  const sample = covered.length ? covered.reduce((a, b) => (b.text.length > a.text.length ? b : a)).text : "ABC";
+  const [text, setText] = useState(sample);
   const [size, setSize] = useState(160);
   const encoded = useMemo(() => new Set(face.glyphs.filter((g) => g.encoded).map((g) => g.char)), [face]);
   const missing = useMemo(
@@ -78,7 +80,8 @@ function Tester({ face }) {
       </div>
       {missing.length > 0 && (
         <p className="tester__note">
-          Not in this font yet: {missing.map((c) => `“${c}”`).join(" ")} — v{face.version} has capitals only.
+          Not in this font yet: {missing.map((c) => `“${c}”`).join(" ")} — v{face.version} has only what the
+          specimen shows{face.glyphs.some((g) => g.constructed) ? ", plus constructed capitals" : ""}.
         </p>
       )}
     </section>
@@ -112,8 +115,9 @@ function Face({ face }) {
           </a>
         </p>
         <p className="face__detail">
-          {encoded.length} letters: {traced} traced from the specimen, {constructed} constructed from them.{" "}
-          {alternates} same-letter alternates from other sizes ride along unencoded.{" "}
+          {encoded.length} glyphs: {traced} traced from the specimen
+          {constructed > 0 ? `, ${constructed} constructed from them` : ""}.{" "}
+          {alternates > 0 ? `${alternates} same-letter alternates from other sizes ride along unencoded. ` : ""}
           {face.fonts.map((f) => (
             <a key={f} className="face__link" href={`/fonts/${f}`} download>
               {f} ↓
@@ -144,8 +148,10 @@ function Face({ face }) {
       <section className="face__section">
         <h3 className="face__subhead">Alphabet</h3>
         <p className="face__caption">
-          Black letters are traced; gray ones are constructed from traced parts (E without its foot is F, M upside
-          down is W). Each label names the specimen line the letter came from.
+          {constructed > 0
+            ? "Black letters are traced; gray ones are constructed from traced parts (E without its foot is F, M upside down is W). "
+            : "Every glyph is traced from the page. "}
+          Each label names the specimen line the letter came from.
         </p>
         <figure className="face__figure">
           <img src={`${PROOFS}/${face.name}/proofs/alphabet.png`} alt="Every letter in the font, labeled by origin" />
@@ -154,10 +160,10 @@ function Face({ face }) {
 
       {lines.length > 0 && (
         <section className="face__section">
-          <h3 className="face__subhead">Four sizes, one face</h3>
+          <h3 className="face__subhead">{lines.length} sizes, one face</h3>
           <p className="face__caption">
-            The page shows the design at four sizes, each a separate set of wood blocks. Scaled to a common cap
-            height, the smaller cuts are bolder.
+            The page shows the design at {lines.length} sizes, each a separate set of wood blocks. Scaled to a
+            common cap height, the sizes differ in weight — measured here as stem width over cap height.
           </p>
           <table className="face__table">
             <thead>
@@ -194,7 +200,7 @@ function Face({ face }) {
           </p>
           <div className="face__research">
             <figure className="face__figure face__figure--overlay">
-              <img src={`${PROOFS}/${face.name}/proofs/R_overlay.png`} alt="Overlay of scan, potrace and Arrow traces of the R" />
+              <img src={`${PROOFS}/${face.name}/proofs/R__overlay.png`} alt="Overlay of scan, potrace and Arrow traces of the R" />
             </figure>
             <table className="face__table">
               <thead>
@@ -211,7 +217,7 @@ function Face({ face }) {
                   <tr>
                     <td>potrace</td>
                     <td>
-                      <a className="face__link" href={`${PROOFS}/${face.name}/glyphs/R.png`}>cut R</a>
+                      <a className="face__link" href={`${PROOFS}/${face.name}/glyphs/R_.png`}>cut R</a>
                     </td>
                     <td>{rGlyph.diff.potrace_iou_scan.toFixed(3)}</td>
                     <td>—</td>
