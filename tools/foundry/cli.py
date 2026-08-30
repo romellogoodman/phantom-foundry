@@ -104,6 +104,13 @@ def construct(face: str, glyph: list[str] = typer.Option(None, "--glyph", "-g"))
 
 
 @app.command()
+def justify(face: str, glyph: list[str] = typer.Option(None, "--glyph", "-g")):
+    """Set sidebearings from each side's ink profile; target from the specimen's printed gaps (face.yaml metrics.spacing)."""
+    from .justify import justify as _justify
+    _out(_justify(Face(face), glyph or None))
+
+
+@app.command()
 def matrix(face: str, formats: str = typer.Option("otf,ttf", help="comma-separated: otf,ttf")):
     """Assemble: finalize UFO metadata and compile to dist/ with fontmake."""
     from .matrix import matrix as _matrix

@@ -1,0 +1,72 @@
+# Build a face and publish its fonts as a GitHub release when a face tag is pushed:
+#   git tag -a wood-class-l/v0.3.0 -m "..." && git push origin wood-class-l/v0.3.0
+# The tag names the face; the pipeline is re-run from the committed manifest and
+# recipes (scans are re-fetched from archive.org — they are not in the repo).
+#
+# NOTE: written 2026-08-30 alongside the first tags; not yet exercised in CI.
+name: release face
+
+on:
+  push:
+    tags:
+      - "*/v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Face and version from the tag
+        id: tag
+        run: |
+          face="${GITHUB_REF_NAME%%/*}"
+          version="${GITHUB_REF_NAME##*/v}"
+          echo "face=$face" >> "$GITHUB_OUTPUT"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: potrace
+        run: sudo apt-get update && sudo apt-get install -y potrace
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: uv sync
+
+      - name: Tests
+        run: uv run pytest -q
+
+      - name: Fetch the specimen leaves named in face.yaml
+        run: |
+          face="${{ steps.tag.outputs.face }}"
+          archive=$(uv run python -c "import yaml;d=yaml.safe_load(open('faces/$face/face.yaml'));print(d['source']['archive_id'])")
+          leaves=$(uv run python -c "import yaml;d=yaml.safe_load(open('faces/$face/face.yaml'));print(' '.join('-l %d'%l for l in d['source']['leaves']))")
+          uv run foundry fetch "$face" "$archive" $leaves
+
+      - name: Build the face
+        run: |
+          face="${{ steps.tag.outputs.face }}"
+          uv run foundry cut "$face"
+          uv run foundry cast "$face" --engine potrace
+          uv run foundry sort "$face"
+          [ -f "faces/$face/construct.yaml" ] && uv run foundry construct "$face"
+          uv run foundry justify "$face"
+          uv run foundry matrix "$face"
+          uv run foundry proof "$face"
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ steps.tag.outputs.face }} ${{ steps.tag.outputs.version }}
+          body_path: faces/${{ steps.tag.outputs.face }}/CHANGELOG.md
+          files: |
+            faces/${{ steps.tag.outputs.face }}/dist/*.otf
+            faces/${{ steps.tag.outputs.face }}/dist/*.ttf
+            faces/${{ steps.tag.outputs.face }}/proofs/alphabet.png
+            faces/${{ steps.tag.outputs.face }}/proofs/line_*.png
+            faces/${{ steps.tag.outputs.face }}/proofs/face.json
