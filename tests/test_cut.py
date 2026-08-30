@@ -2,7 +2,7 @@
 
 import numpy as np
 
-from foundry.cut import _runs, category_of, stem_width_px
+from foundry.cut import _runs, category_of, stacked_piece, stem_width_px
 
 
 def test_runs():
@@ -29,3 +29,9 @@ def test_stem_width_round_letter_reads_sides():
 def test_category_of():
     assert category_of("A") == "cap" and category_of("a") == "lower"
     assert category_of("8") == "figure" and category_of("&") == "punct"
+
+
+def test_stacked_piece_dot_yes_speck_no():
+    assert stacked_piece((0, 40), (60, 300), piece_px=800, main_px=12000)     # dot above the stem
+    assert not stacked_piece((250, 262), (60, 300), piece_px=70, main_px=15000)  # speck beside the o
+    assert stacked_piece((100, 200), (60, 300), piece_px=1000, main_px=12000)  # broken stroke, 8%

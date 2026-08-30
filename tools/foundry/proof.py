@@ -19,17 +19,17 @@ from PIL import Image, ImageDraw, ImageFont
 from fontTools.ttLib import TTFont
 
 from .cast import _fit_to_box
-from .face import Face
+from .face import Face, fname
 from .outline import bbox_of_mask, rasterize, svg_to_path
 
 
 def _masks(face: Face, glyph: str):
-    scan = np.asarray(Image.open(face.glyphs / f"{glyph}.png").convert("L")) < 128
+    scan = np.asarray(Image.open(face.glyphs / f"{fname(glyph)}.png").convert("L")) < 128
     size = (scan.shape[1], scan.shape[0])
     bbox = bbox_of_mask(scan)
     out = {"scan": scan}
     for engine, d in (("potrace", face.svg_potrace), ("arrow", face.svg_arrow)):
-        svg = d / f"{glyph}.svg"
+        svg = d / f"{fname(glyph)}.svg"
         if svg.exists():
             path = svg_to_path(svg)
             out[engine] = rasterize(path, size, _fit_to_box(path, bbox))
@@ -70,7 +70,7 @@ def traces_image(masks: dict) -> Image.Image:
 def cuts_image(face: Face, entries, height: int = 220) -> Image.Image | None:
     tiles = []
     for e in entries:
-        p = face.glyphs / f"{e.glyph}.png"
+        p = face.glyphs / f"{fname(e.glyph)}.png"
         if p.exists():
             im = Image.open(p)
             tiles.append((e.glyph, im.resize((max(1, int(im.width * height / im.height)), height))))
@@ -210,6 +210,18 @@ def arrow_attempts(face: Face, glyph: str | None = None) -> list[dict]:
                      "kept_as": c.get("kept_as"), "viewbox": c.get("viewbox"), "contours": c.get("contours"),
                      "points": c.get("points"), "ts": c["ts"]}
         attempts.append(seen[tid])
+    def current(rel):
+        """Logged paths predate the UFO-style file names; point at the file that exists now."""
+        if not rel or (face.dir / rel).exists():
+            return rel
+        parts = rel.split("/")
+        base = parts[-1]
+        stem = base.split("-")[0].split(".")[0]          # 'R' of 'R-01-....svg', 'R.png', 'R-sq768-m20.png'
+        alt = "/".join(parts[:-1] + [fname(stem) + base[len(stem):]])
+        return alt if (face.dir / alt).exists() else rel
+
+    for a in attempts:
+        a["input"], a["kept_as"] = current(a.get("input")), current(a.get("kept_as"))
     for i, a in enumerate(attempts):
         t0 = a["ts"]
         t1 = attempts[i + 1]["ts"] if i + 1 < len(attempts) else "9999"
@@ -244,7 +256,7 @@ def face_json(face: Face, data: dict, entries, made: list[str], line_proofs: lis
                    "line": e.line if e else None, "engine": lib.get("engine"),
                    "constructed": bool(con), "construct": con or None,
                    "stem_units": lib.get("stem_units"), "dropped_contours": lib.get("dropped_contours")}
-            dj = face.proofs / f"{name}_diff.json"
+            dj = face.proofs / f"{fname(name)}_diff.json"
             if dj.exists():
                 rec["diff"] = json.loads(dj.read_text())
             if e:
@@ -268,12 +280,12 @@ def proof(face: Face) -> dict:
     entries = face.read_manifest()
     made = []
     for e in entries:
-        if not (face.glyphs / f"{e.glyph}.png").exists():
+        if not (face.glyphs / f"{fname(e.glyph)}.png").exists():
             continue
         masks = _masks(face, e.glyph)
-        overlay_image(masks).save(face.proofs / f"{e.glyph}_overlay.png")
-        traces_image(masks).save(face.proofs / f"{e.glyph}_traces.png")
-        made += [f"{e.glyph}_overlay.png", f"{e.glyph}_traces.png"]
+        overlay_image(masks).save(face.proofs / f"{fname(e.glyph)}_overlay.png")
+        traces_image(masks).save(face.proofs / f"{fname(e.glyph)}_traces.png")
+        made += [f"{fname(e.glyph)}_overlay.png", f"{fname(e.glyph)}_traces.png"]
     cs = cuts_image(face, entries)
     if cs is not None:
         cs.save(face.proofs / "cuts.png")

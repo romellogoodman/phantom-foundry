@@ -29,7 +29,7 @@ from fontTools.pens.roundingPen import RoundingPen
 from fontTools.pens.transformPen import TransformPen
 from svgelements import SVG
 
-from .face import Face, GlyphEntry
+from .face import Face, GlyphEntry, fname
 from .outline import flatten, path_stats, signed_area, svg_to_path
 
 
@@ -139,7 +139,7 @@ def sort(face: Face, glyphs: list[str] | None = None, engine: str = "potrace") -
         groups.setdefault(e.group, []).append(e)
     lines = {}
     for key, es in groups.items():
-        infos = [face.glyph_info(e.glyph) for e in es if (face.glyphs / f"{e.glyph}.json").exists()]
+        infos = [face.glyph_info(e.glyph) for e in es if (face.glyphs / f"{fname(e.glyph)}.json").exists()]
         if not infos:
             continue
         m = line_metrics(infos)
@@ -165,7 +165,7 @@ def sort(face: Face, glyphs: list[str] | None = None, engine: str = "potrace") -
 
     results = []
     for e in entries:
-        svg = src_dir / f"{e.glyph}.svg"
+        svg = src_dir / f"{fname(e.glyph)}.svg"
         if not svg.exists():
             continue
         info = face.glyph_info(e.glyph)

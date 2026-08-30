@@ -59,10 +59,46 @@ def sidebearings(path: pathops.Path, cap: float, straight: float, min_sb: float,
     return sb(dl), sb(dr), {"depth_left": round(dl, 1), "depth_right": round(dr, 1)}
 
 
+def printed_gaps(face: Face, data: dict) -> dict:
+    """Median gap between adjacent printed letters on each labeled specimen
+    line, in font units (survey boxes × the line's sort scale; word gaps skipped)."""
+    import json
+    lines = data.get("lines", {})
+    out = {}
+    for rec in face.read_log("label"):
+        if "text" not in rec:
+            continue
+        sp = face.specimens / f"leaf{rec['leaf']:04d}_survey.json"
+        key = f"{rec['leaf']}:{rec['line']}"
+        if not sp.exists() or key not in lines:
+            continue
+        band = next((b for b in json.loads(sp.read_text())["lines"] if b["band"] == rec["band"]), None)
+        if band is None:
+            continue
+        words = rec["text"].split()
+        word_breaks, n = set(), 0
+        for w in words[:-1]:
+            n += len(w); word_breaks.add(n)
+        scale = lines[key]["scale"]
+        L = band["letters"]
+        gaps = [(L[i + 1]["x"] - (L[i]["x"] + L[i]["w"])) * scale
+                for i in range(len(L) - 1) if (i + 1) not in word_breaks]
+        if gaps:
+            out[key] = round(float(np.median(gaps)), 1)
+    return out
+
+
 def justify(face: Face, glyphs: list[str] | None = None) -> dict:
     data = face.load()
     cap = data["metrics"]["cap_height"]
-    params = {**DEFAULTS, **(data["metrics"].get("spacing") or {})}
+    spacing = dict(data["metrics"].get("spacing") or {})
+    gaps = printed_gaps(face, data)
+    if "straight" not in spacing and gaps:
+        # half the median printed gap: two straight sides meeting should reproduce the specimen
+        spacing["straight"] = int(round(float(np.median(list(gaps.values()))) / 2))
+        spacing["basis"] = "derived: half the median printed letter gap across the specimen lines"
+    spacing["printed_gaps"] = gaps
+    params = {**DEFAULTS, **spacing}
     data["metrics"]["spacing"] = params
     face.save(data)
     font = ufoLib2.Font.open(ufo_path(face))

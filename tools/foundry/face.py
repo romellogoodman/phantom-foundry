@@ -20,8 +20,16 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import yaml
+from fontTools.misc.filenames import userNameToFileName
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
+
+
+def fname(glyph: str) -> str:
+    """Filesystem-safe stem for a glyph's per-glyph files, by the UFO convention
+    (`I` → `I_`, `E.six` → `E_.six`) so `I` and `i` never share a file on a
+    case-insensitive disk. Same stem the UFO uses for the .glif."""
+    return userNameToFileName(glyph)
 FACES_DIR = REPO_ROOT / "faces"
 
 # A manifest row is one cut: which letter, where on which page, and how it
@@ -98,7 +106,7 @@ class Face:
     # -- glyph records --------------------------------------------------
     def glyph_info(self, glyph: str) -> dict:
         """The cut's record (tight box, ink stats) written by `cut`."""
-        p = self.glyphs / f"{glyph}.json"
+        p = self.glyphs / f"{fname(glyph)}.json"
         if not p.exists():
             raise FileNotFoundError(f"{glyph} has not been cut yet ({p})")
         return json.loads(p.read_text())

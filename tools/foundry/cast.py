@@ -21,7 +21,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image
 
-from .face import Face
+from .face import Face, fname
 from .outline import bbox_of_mask, path_stats, rasterize, regions, svg_shapes, svg_to_path, svg_viewbox
 
 POTRACE_ARGS = ["--svg", "--turdsize", "2", "--alphamax", "1.0", "--opttolerance", "0.2"]
@@ -45,9 +45,9 @@ def cast_potrace(face: Face, glyphs: list[str] | None = None) -> dict:
     version = subprocess.run([potrace, "--version"], capture_output=True, text=True).stdout.splitlines()[0]
     results = []
     for g in _glyph_list(face, glyphs):
-        png = face.glyphs / f"{g}.png"
-        pbm = face.svg_potrace / f"{g}.pbm"
-        svg = face.svg_potrace / f"{g}.svg"
+        png = face.glyphs / f"{fname(g)}.png"
+        pbm = face.svg_potrace / f"{fname(g)}.pbm"
+        svg = face.svg_potrace / f"{fname(g)}.svg"
         Image.open(png).convert("1").save(pbm)
         t0 = time.time()
         subprocess.run([potrace, *POTRACE_ARGS, "-o", str(svg), str(pbm)], check=True)
@@ -66,7 +66,7 @@ def frame(face: Face, glyph: str, size: int = 768, margin: float = 0.2) -> dict:
     """Re-frame a cut glyph for Arrow: square canvas, `margin` of the side as
     whitespace, longest ink side scaled to fit. Saved as a variant, never in
     place of the cut, so every Arrow attempt records exactly what it was shown."""
-    src = face.glyphs / f"{glyph}.png"
+    src = face.glyphs / f"{fname(glyph)}.png"
     im = Image.open(src).convert("L")
     bbox = im.point(lambda v: 255 if v < 128 else 0).getbbox()
     ink = im.crop(bbox)
@@ -78,7 +78,7 @@ def frame(face: Face, glyph: str, size: int = 768, margin: float = 0.2) -> dict:
     canvas = canvas.point(lambda v: 0 if v < 128 else 255)
     out_dir = face.glyphs / "variants"
     out_dir.mkdir(exist_ok=True)
-    out = out_dir / f"{glyph}-sq{size}-m{int(margin * 100)}.png"
+    out = out_dir / f"{fname(glyph)}-sq{size}-m{int(margin * 100)}.png"
     canvas.save(out)
     rec = {"glyph": glyph, "variant": str(out.relative_to(face.dir)), "size": size, "margin": margin,
            "scale": round(scale, 4), "sha256": _sha256(out)}
@@ -93,13 +93,13 @@ def cast_arrow_ingest(face: Face, glyph: str, from_svg: str, model: str | None =
     every attempt is also kept under svg/arrow/attempts/ keyed by task id."""
     face.ensure_layout()
     src = Path(from_svg)
-    png = Path(input_png) if input_png else face.glyphs / f"{glyph}.png"
-    dest = face.svg_arrow / f"{glyph}.svg"
+    png = Path(input_png) if input_png else face.glyphs / f"{fname(glyph)}.png"
+    dest = face.svg_arrow / f"{fname(glyph)}.svg"
     shutil.copyfile(src, dest)
     attempts = face.svg_arrow / "attempts"
     attempts.mkdir(exist_ok=True)
-    n = 1 + sum(1 for p in attempts.glob(f"{glyph}-*.svg"))
-    keep = attempts / f"{glyph}-{n:02d}-{(task_id or 'notask')[:8]}.svg"
+    n = 1 + sum(1 for p in attempts.glob(f"{fname(glyph)}-*.svg"))
+    keep = attempts / f"{fname(glyph)}-{n:02d}-{(task_id or 'notask')[:8]}.svg"
     shutil.copyfile(src, keep)
     stats = path_stats(svg_to_path(dest))
     rec = {"glyph": glyph, "engine": "arrow", "attempt": n, "model": model, "task_id": task_id,
@@ -124,14 +124,14 @@ def diff(face: Face, glyphs: list[str] | None = None) -> dict:
     the metric is shape fidelity, independent of how each engine framed its output."""
     results = []
     for g in _glyph_list(face, glyphs):
-        png = face.glyphs / f"{g}.png"
+        png = face.glyphs / f"{fname(g)}.png"
         scan = np.asarray(Image.open(png).convert("L")) < 128
         size = (scan.shape[1], scan.shape[0])
         scan_bbox = bbox_of_mask(scan)
         masks = {}
         stats = {}
         for engine, d in (("potrace", face.svg_potrace), ("arrow", face.svg_arrow)):
-            svg = d / f"{g}.svg"
+            svg = d / f"{fname(g)}.svg"
             if not svg.exists():
                 continue
             path = svg_to_path(svg)
@@ -150,7 +150,7 @@ def diff(face: Face, glyphs: list[str] | None = None) -> dict:
         # per-region scoring: fit each independent ink region onto the scan bbox
         # and keep the best, so stray shapes (a bar, a speck) don't sink the glyph.
         for e, d in (("potrace", face.svg_potrace), ("arrow", face.svg_arrow)):
-            svg = d / f"{g}.svg"
+            svg = d / f"{fname(g)}.svg"
             if not svg.exists():
                 continue
             # regions per drawn ink shape (pre-union), so a plinth that touches the
@@ -175,5 +175,5 @@ def diff(face: Face, glyphs: list[str] | None = None) -> dict:
             rec["potrace_minus_arrow_px"] = int((masks["potrace"] & ~masks["arrow"]).sum())
         face.log_event("diff", **rec)
         results.append(rec)
-        (face.proofs / f"{g}_diff.json").write_text(json.dumps(rec, indent=2))
+        (face.proofs / f"{fname(g)}_diff.json").write_text(json.dumps(rec, indent=2))
     return {"face": face.name, "diff": results}
