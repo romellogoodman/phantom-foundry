@@ -24,6 +24,7 @@ import statistics
 import pathops
 import ufoLib2
 from fontTools.misc.transform import Transform
+from fontTools.pens.qu2cuPen import Qu2CuPen
 from fontTools.pens.roundingPen import RoundingPen
 from fontTools.pens.transformPen import TransformPen
 from svgelements import SVG
@@ -182,7 +183,7 @@ def sort(face: Face, glyphs: list[str] | None = None, engine: str = "potrace") -
         if e.glyph in font:
             del font[e.glyph]
         g = font.newGlyph(e.glyph)
-        out.draw(RoundingPen(g.getPen()))
+        out.draw(Qu2CuPen(RoundingPen(g.getPen()), max_err=1.0, all_cubic=True))
         g.unicodes = [int(e.unicode, 16)] if e.unicode else []
         g.width = int(round(r + sb))
         stem_units = round(info["stem_px"] * m["scale"], 1) if info.get("stem_px") else None
