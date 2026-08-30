@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Y" format="2">
-  <advance width="344"/>
+  <advance width="260"/>
   <unicode hex="0059"/>
   <outline>
     <contour>
-      <point x="117" y="0" type="line"/>
-      <point x="227" y="0" type="line"/>
-      <point x="227" y="330" type="line"/>
-      <point x="226" y="330" type="line"/>
-      <point x="304" y="698" type="line"/>
-      <point x="304" y="700" type="line"/>
-      <point x="210" y="700" type="line"/>
-      <point x="172" y="524" type="line"/>
-      <point x="135" y="700" type="line"/>
-      <point x="40" y="700" type="line"/>
-      <point x="40" y="698" type="line"/>
-      <point x="118" y="330" type="line"/>
-      <point x="117" y="330" type="line"/>
+      <point x="75.0" y="0.0" type="line"/>
+      <point x="185.0" y="0.0" type="line"/>
+      <point x="185.0" y="330.0" type="line"/>
+      <point x="184.0" y="330.0" type="line"/>
+      <point x="262.0" y="698.0" type="line"/>
+      <point x="262.0" y="700.0" type="line"/>
+      <point x="168.0" y="700.0" type="line"/>
+      <point x="130.0" y="524.0" type="line"/>
+      <point x="93.0" y="700.0" type="line"/>
+      <point x="-2.0" y="700.0" type="line"/>
+      <point x="-2.0" y="698.0" type="line"/>
+      <point x="76.0" y="330.0" type="line"/>
+      <point x="75.0" y="330.0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -86,6 +86,30 @@
         </array>
         <key>reason</key>
         <string>not shown in the source specimen; built from the traced letters</string>
+      </dict>
+      <key>com.phantomfoundry.justify</key>
+      <dict>
+        <key>depth_left</key>
+        <real>56.6</real>
+        <key>depth_right</key>
+        <real>56.6</real>
+        <key>lsb</key>
+        <integer>-2</integer>
+        <key>params</key>
+        <dict>
+          <key>basis</key>
+          <string>printed gaps on leaf 895: median 25 (fifteen), 45 (eight), 37 (six), 32 (five) units between letters</string>
+          <key>depth</key>
+          <integer>25</integer>
+          <key>min</key>
+          <integer>-10</integer>
+          <key>straight</key>
+          <integer>20</integer>
+          <key>word</key>
+          <integer>240</integer>
+        </dict>
+        <key>rsb</key>
+        <integer>-2</integer>
       </dict>
     </dict>
   </lib>

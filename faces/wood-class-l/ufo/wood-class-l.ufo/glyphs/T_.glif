@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="T" format="2">
-  <advance width="316"/>
+  <advance width="232"/>
   <unicode hex="0054"/>
   <outline>
     <contour>
-      <point x="40" y="597" type="line"/>
-      <point x="101" y="597" type="line"/>
-      <point x="101" y="350" type="line" smooth="yes"/>
-      <point x="100" y="140"/>
-      <point x="101" y="2"/>
-      <point x="102" y="0" type="curve" smooth="yes"/>
-      <point x="103" y="-2"/>
-      <point x="112" y="-2"/>
-      <point x="158" y="-3" type="curve" smooth="yes"/>
-      <point x="188" y="-3"/>
-      <point x="213" y="-2"/>
-      <point x="213" y="-2" type="curve"/>
-      <point x="214" y="-1"/>
-      <point x="215" y="404"/>
-      <point x="214" y="597" type="curve"/>
-      <point x="276" y="597" type="line"/>
-      <point x="276" y="700" type="line"/>
-      <point x="40" y="700" type="line"/>
+      <point x="-2.0" y="597.0" type="line"/>
+      <point x="59.0" y="597.0" type="line"/>
+      <point x="59.0" y="350.0" type="line" smooth="yes"/>
+      <point x="58.0" y="140.0"/>
+      <point x="59.0" y="2.0"/>
+      <point x="60.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="61.0" y="-2.0"/>
+      <point x="70.0" y="-2.0"/>
+      <point x="116.0" y="-3.0" type="curve" smooth="yes"/>
+      <point x="146.0" y="-3.0"/>
+      <point x="171.0" y="-2.0"/>
+      <point x="171.0" y="-2.0" type="curve"/>
+      <point x="172.0" y="-1.0"/>
+      <point x="173.0" y="404.0"/>
+      <point x="172.0" y="597.0" type="curve"/>
+      <point x="234.0" y="597.0" type="line"/>
+      <point x="234.0" y="700.0" type="line"/>
+      <point x="-2.0" y="700.0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -56,6 +56,30 @@
         </array>
         <key>reason</key>
         <string>not shown in the source specimen; built from the traced letters</string>
+      </dict>
+      <key>com.phantomfoundry.justify</key>
+      <dict>
+        <key>depth_left</key>
+        <real>51.5</real>
+        <key>depth_right</key>
+        <real>53.0</real>
+        <key>lsb</key>
+        <integer>-2</integer>
+        <key>params</key>
+        <dict>
+          <key>basis</key>
+          <string>printed gaps on leaf 895: median 25 (fifteen), 45 (eight), 37 (six), 32 (five) units between letters</string>
+          <key>depth</key>
+          <integer>25</integer>
+          <key>min</key>
+          <integer>-10</integer>
+          <key>straight</key>
+          <integer>20</integer>
+          <key>word</key>
+          <integer>240</integer>
+        </dict>
+        <key>rsb</key>
+        <integer>-2</integer>
       </dict>
     </dict>
   </lib>

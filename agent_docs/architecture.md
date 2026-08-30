@@ -1,72 +1,94 @@
 # Phantom Foundry — Architecture
 
 An open-source font foundry reviving public domain typefaces from scanned
-specimen books, using Quiver AI's Arrow model (image → SVG) and bespoke tooling.
+specimen books, with bespoke tooling. Each font is an artifact that carries
+its own provenance, and matures in versions like software.
 
 ## Design principles
 
 1. **Files as interface.** Every stage reads plain files and writes plain files.
    No database, no hidden state. The whole pipeline is inspectable, resumable,
    and git-diffable — which matters because the process *is* the research.
-2. **Idempotent, per-glyph re-runnable.** `cast A` re-traces one letter without
-   touching the rest of the face.
-3. **Provenance all the way down.** Every glyph can name its book, page, and
-   scan. That provenance ships in the final font's metadata.
-4. **Dual-trace always.** Every Arrow cast runs a potrace control trace
-   alongside it. The deterministic trace is the research instrument that makes
-   Arrow's opinions visible (trace vs. redraw).
+2. **Idempotent, per-glyph re-runnable.** `cast -g A` re-traces one letter without
+   touching the rest of the face. Glyphs the manifest doesn't know about
+   (constructed ones) survive a re-run of `sort`.
+3. **Provenance all the way down.** Every glyph names its book, leaf, printed
+   page, specimen line, and pixel box — or, if constructed, the traced glyphs
+   it was built from. That record ships inside the compiled font (`PHFD` table)
+   and beside it (`dist/<face>-provenance.json`, `proofs/face.json`).
+4. **Dual-trace when Arrow is used.** potrace is the production tracer: it is
+   deterministic, free, and matched the scan at 99%. Quiver's Arrow model
+   composes a picture of the letter rather than tracing its edge; when it is
+   called, the potrace trace of the same input is the control that makes its
+   opinions visible. Credits are scarce; Arrow is a research instrument now.
 5. **Human gates between stages, not inside them.** Each stage runs to
    completion machine-fast; review happens on its output before the next stage.
+6. **Honest about what's made up.** Letters the specimen never shows are
+   constructed from traced parts by explicit recipes, flagged in the glyph lib,
+   the provenance table, and the proofs. A constructed Z never passes for a traced one.
 
 ## Pipeline
 
-Six stages, named from foundry vocabulary. Each is a small CLI; a coding agent
-drives them (and calls Arrow via Quiver's MCP server), but every tool is also
-usable by hand.
-
 ```
 Internet Archive
-      │  fetch      pull raw JP2 scans + metadata, record provenance
+      │  fetch      pull raw JP2 scans + metadata, record provenance in face.yaml
       ▼
-specimens/          source pages
-      │  cut        punchcutting: crop individual letters from pages
+specimens/          source pages (not committed; fetch reproduces them)
+      │  survey     ink projections find the display lines and letter boxes on a leaf;
+      │             writes a numbered sheet + JSON
+      │  label      read a line's text across its boxes → manifest rows
+      │             (largest size first; later sizes become .six/.eight alternates)
       ▼
-glyphs/             one image per letter + manifest
-      │  cast       vectorize via Arrow (MCP) — plus potrace control trace
+glyphs/manifest.csv one row per cut: glyph, unicode, leaf, line, category, box
+      │  cut        crop, binarize, flood-fill the letter (+ stacked parts like an i-dot),
+      │             tight box in page coords, stem width
       ▼
-svg/                raw traces from both engines + deviation metrics
-      │  sort       normalize: shared UPM, baselines, winding, counters
+glyphs/             one PNG (+ raw crop, + JSON record) per letter
+      │  cast       potrace control trace; `--engine arrow` ingests an SVG the agent
+      │             fetched via Quiver MCP, logging ids + input checksum; `diff` scores them
       ▼
-ufo/                clean, metric-aligned glyph sources
-      │  matrix     assemble: UFO → fontmake → OTF/TTF, metadata, license
+svg/                traces from both engines + deviation metrics
+      │  sort       glyphs from one specimen line share its baseline and scale (median of
+      │             its caps); map SVG → page px → font units, fix winding, write UFO
+      │  construct  recipes in construct.yaml build the letters the specimen lacks
+      │  justify    sidebearings from each side's ink profile; target from the printed gaps
       ▼
-dist/               shippable font files
-      │  proof      render specimen sheets, waterfalls, scan overlays
+ufo/                the master source (text, diffable, editable in a font editor)
+      │  matrix     name table (provenance, OFL), .notdef/space, fontmake → OTF/TTF,
+      │             PHFD provenance table embedded
       ▼
-proofs/             QA output and the publishable artifacts
+dist/               shippable fonts + provenance.json
+      │  proof      scan/trace overlays, cut sheet, alphabet (constructed in gray),
+      │             each specimen line re-set in the font over the printed line, face.json
+      ▼
+proofs/             QA output, the publishable artifacts, and the website's data
 ```
 
-### Stage notes
+### Notes
 
-- **fetch** — given an archive.org item ID, download the raw JP2/original
-  scans (never the compressed PDF renders), stash metadata and the public
-  domain claim in `face.yaml`.
-- **cut** — extraction is the messiest human step. Start manual/CV-assisted
-  (threshold + connected components, or a simple crop UI); output is one PNG
-  per glyph with a manifest row (face, page, source coordinates, nominal size).
-- **cast** — the Arrow call, one glyph at a time, through the MCP server.
-  Always also runs potrace on the same input. Emits both SVGs plus a diff
-  metric so systematic deviation (Arrow's "taste") accumulates as data.
-- **sort** — scale to UPM 1000, align baselines, normalize path direction and
-  winding so counters punch correctly, merge to single filled outlines, emit a
-  metrics report (x-height, cap height, detected stem widths).
-- **matrix** — build a UFO as the interchange format (text-based, diffable,
-  editable in Glyphs/RoboFont when hand-correction is needed), then compile
-  with fontTools/fontmake. Initial auto-sidebearings; kerning is a later,
-  human pass. License: OFL. Provenance goes in the name table.
-- **proof** — waterfall sheets, pangrams, and the signature artifact: the
-  original specimen page re-set in the revived digital font, overlaid on the
-  scan. HTML first, print-ready PDF second.
+- **Sizes.** Wood type specimens show one design at several sizes, each a
+  separate set of blocks. The manifest's `line` names the size; `sort` gives
+  each line its own scale so every size lands on the same cap height. The
+  default glyph for a letter comes from the largest size it appears at. The
+  four sizes of No. 266 differ measurably (stem 13.9% → 16.2% of cap height
+  from fifteen-line to five-line) — a finding, kept as data in `face.yaml` `lines`.
+- **Spacing.** Wood type is set solid, so the gap between two printed letters
+  is the sum of their blocks' shoulders. `survey` measures those gaps; `justify`
+  takes its target from them (`face.yaml` `metrics.spacing`). Kerning is a human pass.
+- **Alternates.** Same-letter cuts from other sizes are kept as unencoded
+  glyphs (`E.six`, `E.eight_2`). Free research data; exposable as a stylistic set later.
+
+## Maturity and releases
+
+`face.yaml` carries `version` and `status`:
+
+- `0.x` **proto** — automatic: traced + constructed, machine-spaced, print noise intact.
+- **draft** — a person has reviewed cuts and spacing.
+- `1.0` **release** — spaced, kerned, cleaned, tested, full set from the specimen.
+
+`CHANGELOG.md` per face records what changed. Tag `<face>/vX.Y.Z`; the
+release workflow rebuilds the face and attaches fonts and proofs. One
+monorepo for now; a face that reaches 1.0 can be split out for Google Fonts.
 
 ## Repo layout
 
@@ -74,34 +96,32 @@ proofs/             QA output and the publishable artifacts
 phantom-foundry/
   CLAUDE.md
   agent_docs/
-  tools/               # fetch, cut, cast, sort, matrix, proof
+  tools/foundry/       # fetch survey label cut cast diff frame sort construct justify matrix proof
+  tests/
   faces/
     <face-name>/
-      face.yaml        # source book, pages, PD basis, status
-      specimens/       # fetched page scans (or crops)
-      glyphs/          # cut letter images + manifest
-      svg/
-        arrow/         # Arrow casts
-        potrace/       # control traces
-      ufo/
-      dist/            # compiled OTF/TTF + license
-      proofs/
-      log/             # cast runs: model version, params, decisions
+      face.yaml        # source book, leaves + printed pages, PD basis, metrics, lines, version
+      CHANGELOG.md
+      construct.yaml   # recipes for letters the specimen doesn't show
+      specimens/       # fetched scans (ignored) + survey sheet/JSON (committed)
+      glyphs/          # manifest.csv + cut PNGs + per-glyph JSON
+      svg/arrow/ svg/potrace/
+      ufo/  dist/  proofs/  log/
+  website/             # Vite + React; type tester; reads proofs/face.json
+  .github/workflows/release.yml
 ```
 
-One directory per revived face; the directory *is* the record of the revival.
+## Tech choices
 
-## Tech choices (provisional)
-
-- **Python** for the tools — fontTools, fontmake, ufoLib2, potrace bindings,
-  Pillow/OpenCV all live there. Font tooling's center of gravity is Python.
-- **Arrow via Quiver's MCP server**, orchestrated by a coding agent; tools
-  print machine-readable output so the agent can chain them.
+- **Python** — fontTools, fontmake, ufoLib2, skia-pathops, svgelements, Pillow, numpy.
+- **potrace** for production traces; **Arrow via Quiver's MCP server** for research.
 - **UFO** as the master source format; compiled binaries are build artifacts.
 
 ## Explicitly deferred
 
-- Variable fonts / multi-weight interpolation (compatibilization lives in
-  `sort` when the time comes; UFO + designspace already leave the door open).
-- Kerning beyond auto-spacing.
-- Full character sets — first faces target caps + figures from display faces.
+- Kerning (human pass), lowercase and figures for wood-class-l (rows are one
+  `label` away; `sort` already handles categories and x-height).
+- Variable fonts / interpolation. Deskewing slightly rotated scans (the
+  six-line baseline drifts ~9 units across the page).
+- Automating `label` from the book's OCR text, for a rough-proto pass over
+  every usable face in the book.

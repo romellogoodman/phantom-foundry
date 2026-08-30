@@ -5,6 +5,13 @@ metrics:
   cap_height: 700
   sidebearing: 40
   min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    word: 240
+    basis: 'printed gaps on leaf 895: median 25 (fifteen), 45 (eight), 37 (six), 32
+      (five) units between letters'
 source:
   archive_id: bookoftypespecim00barnrich
   title: Book of type specimens. Comprising a large variety of superior copper-mixed
@@ -103,4 +110,7 @@ specimen_lines:
   line: fifteen
   text: RECORD
   band: 5
-version: 0.2.0
+version: 0.3.0
+leaf_pages:
+  895: 851
+title: Wood Type No. 266, Class L

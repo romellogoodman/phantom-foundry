@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="X" format="2">
-  <advance width="344"/>
+  <advance width="264"/>
   <unicode hex="0058"/>
   <outline>
     <contour>
-      <point x="40" y="0" type="line"/>
-      <point x="135" y="0" type="line"/>
-      <point x="172" y="154" type="line"/>
-      <point x="210" y="0" type="line"/>
-      <point x="304" y="0" type="line"/>
-      <point x="304" y="2" type="line"/>
-      <point x="220" y="350" type="line"/>
-      <point x="304" y="698" type="line"/>
-      <point x="304" y="700" type="line"/>
-      <point x="210" y="700" type="line"/>
-      <point x="172" y="546" type="line"/>
-      <point x="135" y="700" type="line"/>
-      <point x="40" y="700" type="line"/>
-      <point x="40" y="698" type="line"/>
-      <point x="125" y="350" type="line"/>
-      <point x="40" y="2" type="line"/>
+      <point x="0.0" y="0.0" type="line"/>
+      <point x="95.0" y="0.0" type="line"/>
+      <point x="132.0" y="154.0" type="line"/>
+      <point x="170.0" y="0.0" type="line"/>
+      <point x="264.0" y="0.0" type="line"/>
+      <point x="264.0" y="2.0" type="line"/>
+      <point x="180.0" y="350.0" type="line"/>
+      <point x="264.0" y="698.0" type="line"/>
+      <point x="264.0" y="700.0" type="line"/>
+      <point x="170.0" y="700.0" type="line"/>
+      <point x="132.0" y="546.0" type="line"/>
+      <point x="95.0" y="700.0" type="line"/>
+      <point x="0.0" y="700.0" type="line"/>
+      <point x="0.0" y="698.0" type="line"/>
+      <point x="85.0" y="350.0" type="line"/>
+      <point x="0.0" y="2.0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -80,6 +80,30 @@
         </array>
         <key>reason</key>
         <string>not shown in the source specimen; built from the traced letters</string>
+      </dict>
+      <key>com.phantomfoundry.justify</key>
+      <dict>
+        <key>depth_left</key>
+        <real>42.3</real>
+        <key>depth_right</key>
+        <real>41.8</real>
+        <key>lsb</key>
+        <integer>0</integer>
+        <key>params</key>
+        <dict>
+          <key>basis</key>
+          <string>printed gaps on leaf 895: median 25 (fifteen), 45 (eight), 37 (six), 32 (five) units between letters</string>
+          <key>depth</key>
+          <integer>25</integer>
+          <key>min</key>
+          <integer>-10</integer>
+          <key>straight</key>
+          <integer>20</integer>
+          <key>word</key>
+          <integer>240</integer>
+        </dict>
+        <key>rsb</key>
+        <integer>0</integer>
       </dict>
     </dict>
   </lib>
