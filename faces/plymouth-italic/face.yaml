@@ -1,0 +1,207 @@
+name: plymouth-italic
+title: Plymouth Italic
+series: Plymouth Italic
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 432
+  - 433
+leaf_pages:
+  432: 414
+  433: 415
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 443
+  spacing:
+    straight: 23
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      433:60pt: 35.1
+      433:48pt: 55.7
+      433:36pt: 60.5
+      432:30pt: 31.8
+specimen_lines:
+- leaf: 433
+  line: 60pt
+  text: BONDS
+  band: 6
+  by: claude
+- leaf: 433
+  line: 60pt
+  text: La[rg]e 3 Duck
+  band: 7
+  by: claude
+- leaf: 433
+  line: 48pt
+  text: GEN[UINE]
+  band: 4
+  by: claude
+- leaf: 433
+  line: 48pt
+  text: Rh[in]e 6 [St]ones
+  band: 5
+  by: claude
+- leaf: 433
+  line: 36pt
+  text: RO[SE] B[USH]
+  band: 2
+  by: claude
+- leaf: 433
+  line: 36pt
+  text: '[Fr][ag]rant 4 [Flo]wers'
+  band: 3
+  by: claude
+- leaf: 432
+  line: 30pt
+  text: GREEN BACKS
+  band: 5
+  by: claude
+- leaf: 432
+  line: 30pt
+  text: K[in][dly] G[iv]e 5 Depos[it]or
+  band: 6
+  by: claude
+lines:
+  433:60pt:
+    n_caps: 7
+    cap_height_px: 259
+    cap_source: caps
+    baseline_px: 2260
+    baselines:
+      '6': 2260
+      '7': 2587.5
+    glyphs:
+    - B
+    - O
+    - N
+    - D
+    - S
+    - L
+    - a
+    - e
+    - three
+    - D.60pt
+    - u
+    - c
+    - k
+    x_height_px: 165
+    figure_height_px: 257
+    stem_px: 51
+    scale: 2.7027
+    stem_units: 137.8
+    x_height: 446
+    figure_height: 695
+  433:48pt:
+    n_caps: 4
+    cap_height_px: 213.5
+    cap_source: caps
+    baseline_px: 1507
+    baselines:
+      '4': 1507
+      '5': 1782
+    glyphs:
+    - G
+    - E
+    - N.48pt
+    - R
+    - h
+    - e.48pt
+    - six
+    - o
+    - n
+    - e.48pt_2
+    - s
+    x_height_px: 133.5
+    figure_height_px: 211
+    stem_px: 36.0
+    scale: 3.27869
+    stem_units: 118.0
+    x_height: 438
+    figure_height: 692
+  433:36pt:
+    n_caps: 3
+    cap_height_px: 162
+    cap_source: caps
+    baseline_px: 883
+    baselines:
+      '2': 883
+      '3': 1082
+    glyphs:
+    - R.36pt
+    - O.36pt
+    - B.36pt
+    - r
+    - a.36pt
+    - n.36pt
+    - t
+    - four
+    - w
+    - e.36pt
+    - r.36pt
+    - s.36pt
+    x_height_px: 102.0
+    figure_height_px: 162
+    stem_px: 37
+    scale: 4.32099
+    stem_units: 159.9
+    x_height: 441
+    figure_height: 700
+  432:30pt:
+    n_caps: 13
+    cap_height_px: 132
+    cap_source: caps
+    baseline_px: 2544.5
+    baselines:
+      '5': 2544.5
+      '6': 2745
+    glyphs:
+    - G.30pt
+    - R.30pt
+    - E.30pt
+    - E.30pt_2
+    - N.30pt
+    - B.30pt
+    - A
+    - C
+    - K
+    - S.30pt
+    - K.30pt
+    - G.30pt_2
+    - e.30pt
+    - five
+    - D.30pt
+    - e.30pt_2
+    - p
+    - o.30pt
+    - s.30pt
+    - o.30pt_2
+    - r.30pt
+    x_height_px: 84
+    figure_height_px: 133
+    stem_px: 30
+    scale: 5.30303
+    stem_units: 159.1
+    x_height: 445
+    figure_height: 705

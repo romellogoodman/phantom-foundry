@@ -1,0 +1,207 @@
+name: lining-bisque
+title: Lining Bisque
+series: Lining Bisque
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 320
+leaf_pages:
+  320: 302
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 30
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      320:72pt: 52.2
+      320:60pt: 59.5
+      320:42pt: 65.8
+      320:36pt: 68.9
+      320:30pt: 58.8
+specimen_lines:
+- leaf: 320
+  line: 72pt
+  text: COLD 8 RAINS
+  band: 7
+  by: claude+ocr
+- leaf: 320
+  line: 60pt
+  text: MARCH 7 SALE
+  band: 6
+  by: claude+ocr
+- leaf: 320
+  line: 42pt
+  text: PICNIC 2 GROUNDS
+  band: 5
+  by: claude+ocr
+- leaf: 320
+  line: 36pt
+  text: BRIGHT 43 SUNSHINE
+  band: 4
+  by: claude+ocr
+- leaf: 320
+  line: 30pt
+  text: THE LONG DREAMY 59 DAYS PAST
+  band: 3
+  by: claude+ocr
+lines:
+  320:72pt:
+    n_caps: 9
+    cap_height_px: 362
+    cap_source: caps
+    baseline_px: 3589
+    baselines:
+      '7': 3589
+    glyphs:
+    - C
+    - O
+    - L
+    - D
+    - eight
+    - R
+    - A
+    - I
+    - N
+    - S
+    figure_height_px: 366
+    stem_px: 25
+    scale: 1.9337
+    stem_units: 48.3
+    figure_height: 708
+  320:60pt:
+    n_caps: 9
+    cap_height_px: 294
+    cap_source: caps
+    baseline_px: 3049
+    baselines:
+      '6': 3049
+    glyphs:
+    - M
+    - A.60pt
+    - R.60pt
+    - C.60pt
+    - H
+    - seven
+    - S.60pt
+    - A.60pt_2
+    - L.60pt
+    - E
+    figure_height_px: 294
+    stem_px: 16
+    scale: 2.38095
+    stem_units: 38.1
+    figure_height: 700
+  320:42pt:
+    n_caps: 13
+    cap_height_px: 234
+    cap_source: caps
+    baseline_px: 2585
+    baselines:
+      '5': 2585
+    glyphs:
+    - P
+    - I.42pt
+    - C.42pt
+    - N.42pt
+    - I.42pt_2
+    - C.42pt_2
+    - two
+    - G
+    - R.42pt
+    - O.42pt
+    - U
+    - N.42pt_2
+    - D.42pt
+    - S.42pt
+    figure_height_px: 235
+    stem_px: 15
+    scale: 2.99145
+    stem_units: 44.9
+    figure_height: 703
+  320:36pt:
+    n_caps: 14
+    cap_height_px: 193.0
+    cap_source: caps
+    baseline_px: 2173.0
+    baselines:
+      '4': 2173.0
+    glyphs:
+    - B
+    - R.36pt
+    - I.36pt
+    - G.36pt
+    - H.36pt
+    - T
+    - four
+    - three
+    - S.36pt
+    - U.36pt
+    - N.36pt
+    - S.36pt_2
+    - H.36pt_2
+    - I.36pt_2
+    - N.36pt_2
+    - E.36pt
+    figure_height_px: 192.5
+    stem_px: 14.5
+    scale: 3.62694
+    stem_units: 52.6
+    figure_height: 698
+  320:30pt:
+    n_caps: 21
+    cap_height_px: 131
+    cap_source: caps
+    baseline_px: 1796
+    baselines:
+      '3': 1796
+    glyphs:
+    - T.30pt
+    - H.30pt
+    - E.30pt
+    - L.30pt
+    - O.30pt
+    - N.30pt
+    - G.30pt
+    - D.30pt
+    - R.30pt
+    - E.30pt_2
+    - A.30pt
+    - M.30pt
+    - Y
+    - five
+    - nine
+    - D.30pt_2
+    - A.30pt_2
+    - Y.30pt
+    - S.30pt
+    - P.30pt
+    - A.30pt_3
+    - S.30pt_2
+    - T.30pt_2
+    figure_height_px: 132.5
+    stem_px: 9
+    scale: 5.34351
+    stem_units: 48.1
+    figure_height: 708

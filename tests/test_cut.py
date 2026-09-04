@@ -2,7 +2,7 @@
 
 import numpy as np
 
-from foundry.cut import _runs, category_of, stacked_piece, stem_width_px
+from foundry.cut import _runs, category_of, main_component, stacked_piece, stem_width_px
 
 
 def test_runs():
@@ -36,3 +36,15 @@ def test_stacked_piece_dot_yes_speck_no():
     assert not stacked_piece((250, 262), (60, 300), piece_px=70, main_px=15000)  # speck beside the o
     assert not stacked_piece((310, 322), (60, 300), piece_px=70, main_px=15000)  # speck under the letter
     assert stacked_piece((100, 200), (60, 300), piece_px=1000, main_px=12000)  # broken stroke, 8%
+
+
+def test_main_component_is_the_letter_not_the_speck_at_center():
+    """A U-shaped letter with a speck inside its counter (at the box center)
+    and a neighbor's stem poking in at the right edge: the U wins."""
+    m = np.zeros((100, 80), dtype=bool)
+    m[10:90, 10:20] = m[10:90, 50:60] = m[80:90, 10:60] = True     # the U
+    m[48:52, 33:37] = True                                         # speck at the center
+    m[0:100, 76:80] = True                                         # neighbor at the right edge
+    comp, seed = main_component(m)
+    assert comp[85, 30] and not comp[50, 35] and not comp[50, 78]
+    assert comp.sum() == m[10:90, 10:60].sum() - 16                    # the U alone, minus the speck

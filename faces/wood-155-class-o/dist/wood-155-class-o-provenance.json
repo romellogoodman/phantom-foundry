@@ -1,7 +1,7 @@
 {
   "generator": "phantom-foundry",
   "face": "wood-155-class-o",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "status": "proto",
   "source": {
     "title": "Book of type specimens. Comprising a large variety of superior copper-mixed types, rules, borders, galleys, printing presses, electric-welded chases, paper and card cutters, wood goods, book binding machinery etc., together with valuable information to the craft. Specimen book no.9",
@@ -22,7 +22,7 @@
     {
       "leaf": 892,
       "line": "twelve",
-      "text": "DIE",
+      "text": "DI\u018e",
       "band": 6
     },
     {
@@ -75,7 +75,7 @@
       "leaf": 892,
       "page": 848,
       "line": "twelve",
-      "printed_in": "DIE",
+      "printed_in": "DI\u018e",
       "box_px": [
         242,
         2633,
@@ -106,15 +106,15 @@
       "engine": "potrace",
       "leaf": 892,
       "page": 848,
-      "line": "twelve",
-      "printed_in": "DIE",
+      "line": "six",
+      "printed_in": "ROGUE",
       "box_px": [
-        1650,
-        2630,
-        2433,
-        3433
+        2037,
+        2025,
+        2439,
+        2427
       ],
-      "trace_sha256": "e6da49ad6e607a20d1c4651c18f548fa9866ad05702d2c745c513a814370d5dc"
+      "trace_sha256": "639cc85ed9b335a322383947c80968c3554854e8e8633118dd8df32a91e6add5"
     },
     "E.five": {
       "unicode": null,
@@ -132,21 +132,21 @@
       ],
       "trace_sha256": "12aa76895c1330ae81a206a0d33d3b8323e4a2cbc91304a5459dcd8aa671ba42"
     },
-    "E.six": {
-      "unicode": null,
+    "Ereversed": {
+      "unicode": "U+018E",
       "origin": "traced",
       "engine": "potrace",
       "leaf": 892,
       "page": 848,
-      "line": "six",
-      "printed_in": "ROGUE",
+      "line": "twelve",
+      "printed_in": "DI\u018e",
       "box_px": [
-        2037,
-        2025,
-        2439,
-        2427
+        1650,
+        2630,
+        2433,
+        3433
       ],
-      "trace_sha256": "639cc85ed9b335a322383947c80968c3554854e8e8633118dd8df32a91e6add5"
+      "trace_sha256": "e6da49ad6e607a20d1c4651c18f548fa9866ad05702d2c745c513a814370d5dc"
     },
     "G": {
       "unicode": "U+0047",
@@ -203,7 +203,7 @@
       "leaf": 892,
       "page": 848,
       "line": "twelve",
-      "printed_in": "DIE",
+      "printed_in": "DI\u018e",
       "box_px": [
         1115,
         2632,

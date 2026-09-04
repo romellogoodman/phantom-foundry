@@ -1,0 +1,188 @@
+name: lining-gothic-no-82
+title: Lining Gothic No. 82
+series: Lining Gothic No. 82
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 256
+  - 257
+leaf_pages:
+  256: 240
+  257: 241
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 596
+  spacing:
+    straight: 57
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      257:60pt: 87.2
+      257:48pt: 110.5
+      256:36pt: 115.9
+      256:30pt: 145.6
+specimen_lines:
+- leaf: 257
+  line: 60pt
+  text: BUSTED
+  band: 4
+  by: claude+ocr
+- leaf: 257
+  line: 60pt
+  text: Sand 6 Bag
+  band: 5
+  by: claude+ocr
+- leaf: 257
+  line: 48pt
+  text: HISTORIES
+  band: 2
+  by: claude+ocr
+- leaf: 257
+  line: 48pt
+  text: Night 3 Edition
+  band: 3
+  by: claude+ocr
+- leaf: 256
+  line: 36pt
+  text: CRANBERRY
+  band: 5
+  by: claude+ocr
+- leaf: 256
+  line: 30pt
+  text: THREE EDITIONS
+  band: 3
+  by: claude+ocr
+lines:
+  257:60pt:
+    n_caps: 8
+    cap_height_px: 257.0
+    cap_source: caps
+    baseline_px: 1619.0
+    baselines:
+      '4': 1619.0
+      '5': 1951.0
+    glyphs:
+    - B
+    - U
+    - S
+    - T
+    - E
+    - D
+    - S.60pt
+    - a
+    - n
+    - d
+    - six
+    - B.60pt
+    - a.60pt
+    - g
+    x_height_px: 185
+    figure_height_px: 264
+    stem_px: 43.5
+    scale: 2.72374
+    stem_units: 118.5
+    x_height: 504
+    figure_height: 719
+  257:48pt:
+    n_caps: 11
+    cap_height_px: 190
+    cap_source: caps
+    baseline_px: 879
+    baselines:
+      '2': 879
+      '3': 1144.5
+    glyphs:
+    - H
+    - I
+    - S.48pt
+    - T.48pt
+    - O
+    - R
+    - I.48pt
+    - E.48pt
+    - S.48pt_2
+    - N
+    - i
+    - g.48pt
+    - h
+    - t
+    - three
+    - E.48pt_2
+    - d.48pt
+    - i.48pt
+    - t.48pt
+    - i.48pt_2
+    - o
+    - n.48pt
+    x_height_px: 187.0
+    figure_height_px: 195
+    stem_px: 36
+    scale: 3.68421
+    stem_units: 132.6
+    x_height: 689
+    figure_height: 718
+  256:36pt:
+    n_caps: 9
+    cap_height_px: 157
+    cap_source: caps
+    baseline_px: 3316
+    baselines:
+      '5': 3316
+    glyphs:
+    - C
+    - R.36pt
+    - A
+    - N.36pt
+    - B.36pt
+    - E.36pt
+    - R.36pt_2
+    - R.36pt_3
+    - Y
+    stem_px: 30
+    scale: 4.4586
+    stem_units: 133.8
+  256:30pt:
+    n_caps: 13
+    cap_height_px: 125
+    cap_source: caps
+    baseline_px: 2736
+    baselines:
+      '3': 2736
+    glyphs:
+    - T.30pt
+    - H.30pt
+    - R.30pt
+    - E.30pt
+    - E.30pt_2
+    - E.30pt_3
+    - D.30pt
+    - I.30pt
+    - T.30pt_2
+    - I.30pt_2
+    - O.30pt
+    - N.30pt
+    - S.30pt
+    stem_px: 24
+    scale: 5.6
+    stem_units: 134.4

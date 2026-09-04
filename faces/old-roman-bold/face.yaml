@@ -1,0 +1,408 @@
+name: old-roman-bold
+title: Old Roman Bold
+series: Old Roman Bold
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 374
+  - 375
+  - 376
+leaf_pages:
+  374: 356
+  375: 357
+  376: 358
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 462
+  spacing:
+    straight: 16
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      376:72pt: 25.7
+      375:60pt: 41.3
+      375:54pt: 41.6
+      375:48pt: 37.2
+      375:42pt: 30.6
+      374:36pt: 31.4
+      374:30pt: 32.6
+specimen_lines:
+- leaf: 376
+  line: 72pt
+  text: BAKERY
+  band: 2
+  by: claude+ocr
+- leaf: 376
+  line: 72pt
+  text: Cherry 8 Pie
+  band: 3
+  by: claude+ocr
+- leaf: 375
+  line: 60pt
+  text: PLUMBER
+  band: 8
+  by: claude+ocr
+- leaf: 375
+  line: 60pt
+  text: Sewer 5 Pipes
+  band: 9
+  by: claude
+- leaf: 375
+  line: 54pt
+  text: SALESMEN
+  band: 6
+  by: claude+ocr
+- leaf: 375
+  line: 54pt
+  text: Street 3 Passage
+  band: 7
+  by: claude+ocr
+- leaf: 375
+  line: 48pt
+  text: CARPENTER
+  band: 4
+  by: claude+ocr
+- leaf: 375
+  line: 48pt
+  text: Bicycle 2 Repairer
+  band: 5
+  by: claude+ocr
+- leaf: 375
+  line: 42pt
+  text: RABBIT HUNT
+  band: 2
+  by: claude+ocr
+- leaf: 375
+  line: 42pt
+  text: Delightf[ul] 8 Pleasure
+  band: 3
+  by: claude
+- leaf: 374
+  line: 36pt
+  text: GIGANTIC TREES
+  band: 5
+  by: claude+ocr
+- leaf: 374
+  line: 36pt
+  text: Have Seen 9 Many Years
+  band: 6
+  by: claude+ocr
+- leaf: 374
+  line: 30pt
+  text: CARRIAGE HORSES
+  band: 3
+  by: claude+ocr
+- leaf: 374
+  line: 30pt
+  text: Bought Sold 83 and Ex[ch]anged
+  band: 4
+  by: claude
+lines:
+  376:72pt:
+    n_caps: 8
+    cap_height_px: 313.5
+    cap_source: caps
+    baseline_px: 1016.5
+    baselines:
+      '2': 1016.5
+      '3': 1420.5
+    glyphs:
+    - B
+    - A
+    - K
+    - E
+    - R
+    - Y
+    - C
+    - h
+    - e
+    - r
+    - r.72pt
+    - y
+    - eight
+    - P
+    - i
+    - e.72pt
+    x_height_px: 207
+    figure_height_px: 320
+    stem_px: 42.5
+    scale: 2.23285
+    stem_units: 94.9
+    x_height: 462
+    figure_height: 715
+  375:60pt:
+    n_caps: 9
+    cap_height_px: 254
+    cap_source: caps
+    baseline_px: 3126
+    baselines:
+      '8': 3126
+      '9': 3461.0
+    glyphs:
+    - P.60pt
+    - L
+    - U
+    - M
+    - B.60pt
+    - E.60pt
+    - R.60pt
+    - S
+    - e.60pt
+    - w
+    - e.60pt_2
+    - r.60pt
+    - five
+    - P.60pt_2
+    - i.60pt
+    - p
+    - e.60pt_3
+    - s
+    x_height_px: 168.0
+    figure_height_px: 256
+    stem_px: 45
+    scale: 2.75591
+    stem_units: 124.0
+    x_height: 463
+    figure_height: 706
+  375:54pt:
+    n_caps: 10
+    cap_height_px: 235.5
+    cap_source: caps
+    baseline_px: 2332.5
+    baselines:
+      '6': 2332.5
+      '7': 2641.5
+    glyphs:
+    - S.54pt
+    - A.54pt
+    - L.54pt
+    - E.54pt
+    - S.54pt_2
+    - M.54pt
+    - E.54pt_2
+    - N
+    - S.54pt_3
+    - t
+    - r.54pt
+    - e.54pt
+    - e.54pt_2
+    - t.54pt
+    - three
+    - P.54pt
+    - a
+    - s.54pt
+    - s.54pt_2
+    - a.54pt
+    - g
+    - e.54pt_3
+    x_height_px: 153
+    figure_height_px: 239
+    stem_px: 27.5
+    scale: 2.9724
+    stem_units: 81.7
+    x_height: 455
+    figure_height: 710
+  375:48pt:
+    n_caps: 11
+    cap_height_px: 207
+    cap_source: caps
+    baseline_px: 1573
+    baselines:
+      '4': 1573
+      '5': 1856.0
+    glyphs:
+    - C.48pt
+    - A.48pt
+    - R.48pt
+    - P.48pt
+    - E.48pt
+    - N.48pt
+    - T
+    - E.48pt_2
+    - R.48pt_2
+    - B.48pt
+    - i.48pt
+    - c
+    - y.48pt
+    - c.48pt
+    - l
+    - e.48pt
+    - two
+    - R.48pt_3
+    - e.48pt_2
+    - p.48pt
+    - a.48pt
+    - i.48pt_2
+    - r.48pt
+    - e.48pt_3
+    - r.48pt_2
+    x_height_px: 136
+    figure_height_px: 209
+    stem_px: 37
+    scale: 3.38164
+    stem_units: 125.1
+    x_height: 460
+    figure_height: 707
+  375:42pt:
+    n_caps: 12
+    cap_height_px: 183.0
+    cap_source: caps
+    baseline_px: 876.0
+    baselines:
+      '2': 876.0
+      '3': 1142.0
+    glyphs:
+    - R.42pt
+    - A.42pt
+    - B.42pt
+    - B.42pt_2
+    - I
+    - T.42pt
+    - H
+    - U.42pt
+    - N.42pt
+    - T.42pt_2
+    - D
+    - e.42pt
+    - l.42pt
+    - i.42pt
+    - g.42pt
+    - h.42pt
+    - t.42pt
+    - f
+    - eight.42pt
+    - P.42pt
+    - l.42pt_2
+    - e.42pt_2
+    - a.42pt
+    - s.42pt
+    - u
+    - r.42pt
+    - e.42pt_3
+    x_height_px: 121.0
+    figure_height_px: 187
+    stem_px: 35.0
+    scale: 3.82514
+    stem_units: 133.9
+    x_height: 463
+    figure_height: 715
+  374:36pt:
+    n_caps: 17
+    cap_height_px: 156
+    cap_source: caps
+    baseline_px: 3370
+    baselines:
+      '5': 3370
+      '6': 3592.0
+    glyphs:
+    - G
+    - I.36pt
+    - G.36pt
+    - A.36pt
+    - N.36pt
+    - T.36pt
+    - I.36pt_2
+    - C.36pt
+    - T.36pt_2
+    - R.36pt
+    - E.36pt
+    - E.36pt_2
+    - S.36pt
+    - H.36pt
+    - a.36pt
+    - v
+    - e.36pt
+    - S.36pt_2
+    - e.36pt_2
+    - e.36pt_3
+    - n
+    - nine
+    - M.36pt
+    - a.36pt_2
+    - n.36pt
+    - y.36pt
+    - Y.36pt
+    - e.36pt_4
+    - a.36pt_3
+    - r.36pt
+    - s.36pt
+    x_height_px: 103
+    figure_height_px: 164
+    stem_px: 22
+    scale: 4.48718
+    stem_units: 98.7
+    x_height: 462
+    figure_height: 736
+  374:30pt:
+    n_caps: 17
+    cap_height_px: 129
+    cap_source: caps
+    baseline_px: 2832.0
+    baselines:
+      '3': 2832.0
+      '4': 3034
+    glyphs:
+    - C.30pt
+    - A.30pt
+    - R.30pt
+    - R.30pt_2
+    - I.30pt
+    - A.30pt_2
+    - G.30pt
+    - E.30pt
+    - H.30pt
+    - O
+    - R.30pt_3
+    - S.30pt
+    - E.30pt_2
+    - S.30pt_2
+    - B.30pt
+    - o
+    - u.30pt
+    - g.30pt
+    - h.30pt
+    - t.30pt
+    - S.30pt_3
+    - o.30pt
+    - l.30pt
+    - d
+    - eight.30pt
+    - three.30pt
+    - a.30pt
+    - n.30pt
+    - d.30pt
+    - E.30pt_3
+    - x
+    - a.30pt_2
+    - n.30pt_2
+    - g.30pt_2
+    - e.30pt
+    - d.30pt_2
+    x_height_px: 85
+    figure_height_px: 130.0
+    stem_px: 18
+    scale: 5.42636
+    stem_units: 97.7
+    x_height: 461
+    figure_height: 705

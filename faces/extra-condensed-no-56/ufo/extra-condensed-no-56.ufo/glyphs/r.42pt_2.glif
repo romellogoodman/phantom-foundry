@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="r.42pt_2" format="2">
+  <advance width="137"/>
+  <outline>
+    <contour>
+      <point x="87.06166076660156" y="455.0" type="curve"/>
+      <point x="83.06166076660156" y="451.0"/>
+      <point x="77.06166076660156" y="442.0"/>
+      <point x="75.06166076660156" y="437.0" type="curve"/>
+      <point x="70.06166076660156" y="427.0" type="line"/>
+      <point x="70.06166076660156" y="438.0" type="line" smooth="yes"/>
+      <point x="69.06166076660156" y="458.0"/>
+      <point x="66.06166076660156" y="460.0"/>
+      <point x="33.0616569519043" y="458.0" type="curve" smooth="yes"/>
+      <point x="-1.9383430480957031" y="456.0"/>
+      <point x="-9.938343048095703" y="451.0"/>
+      <point x="6.061656951904297" y="443.0" type="curve" smooth="yes"/>
+      <point x="17.061656951904297" y="438.0" type="line"/>
+      <point x="17.061656951904297" y="16.0" type="line"/>
+      <point x="8.061656951904297" y="14.0" type="line"/>
+      <point x="3.061656951904297" y="12.0"/>
+      <point x="-1.9383430480957031" y="9.0"/>
+      <point x="-2.938343048095703" y="7.0" type="curve"/>
+      <point x="-3.938343048095703" y="3.0"/>
+      <point x="7.061656951904297" y="2.0"/>
+      <point x="42.0616569519043" y="2.0" type="curve" smooth="yes"/>
+      <point x="80.06166076660156" y="2.0"/>
+      <point x="89.06166076660156" y="3.0"/>
+      <point x="89.06166076660156" y="7.0" type="curve" smooth="yes"/>
+      <point x="89.06166076660156" y="11.0"/>
+      <point x="84.06166076660156" y="14.0"/>
+      <point x="79.06166076660156" y="14.0" type="curve"/>
+      <point x="68.06166076660156" y="16.0" type="line"/>
+      <point x="68.06166076660156" y="194.0" type="line" smooth="yes"/>
+      <point x="68.06166076660156" y="355.0"/>
+      <point x="69.06166076660156" y="375.0"/>
+      <point x="75.06166076660156" y="401.0" type="curve" smooth="yes"/>
+      <point x="83.06166076660156" y="433.0"/>
+      <point x="93.06166076660156" y="448.0"/>
+      <point x="107.06166076660156" y="448.0" type="curve" smooth="yes"/>
+      <point x="121.06166076660156" y="448.0"/>
+      <point x="122.06166076660156" y="435.0"/>
+      <point x="110.06166076660156" y="399.0" type="curve" smooth="yes"/>
+      <point x="98.06166076660156" y="364.0"/>
+      <point x="93.06166076660156" y="311.0"/>
+      <point x="100.06166076660156" y="297.0" type="curve"/>
+      <point x="104.06166076660156" y="290.0"/>
+      <point x="108.06166076660156" y="289.0"/>
+      <point x="117.06166076660156" y="290.0" type="curve"/>
+      <point x="134.06166076660156" y="291.0"/>
+      <point x="143.06166076660156" y="310.0"/>
+      <point x="146.06166076660156" y="348.0" type="curve" smooth="yes"/>
+      <point x="150.06166076660156" y="394.0"/>
+      <point x="139.06166076660156" y="440.0"/>
+      <point x="122.06166076660156" y="457.0" type="curve" smooth="yes"/>
+      <point x="113.06166076660156" y="466.0"/>
+      <point x="96.06166076660156" y="465.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.phantomfoundry.justify</key>
+      <dict>
+        <key>depth_left</key>
+        <real>20.4</real>
+        <key>depth_right</key>
+        <real>50.8</real>
+        <key>lsb</key>
+        <integer>-3</integer>
+        <key>params</key>
+        <dict>
+          <key>basis</key>
+          <string>derived: half the median printed letter gap across the specimen lines</string>
+          <key>depth</key>
+          <integer>25</integer>
+          <key>min</key>
+          <integer>-10</integer>
+          <key>printed_gaps</key>
+          <dict>
+            <key>72:42pt</key>
+            <real>31.0</real>
+            <key>72:54pt</key>
+            <real>11.5</real>
+          </dict>
+          <key>straight</key>
+          <integer>11</integer>
+        </dict>
+        <key>rsb</key>
+        <integer>-10</integer>
+      </dict>
+      <key>com.phantomfoundry.sort</key>
+      <dict>
+        <key>alignment</key>
+        <string>line: shared scale (cap_height / median cap ink height), shared baseline (median cap ink bottom)</string>
+        <key>band</key>
+        <string>2</string>
+        <key>baseline_px</key>
+        <real>2812.5</real>
+        <key>cap_height_px</key>
+        <real>180.5</real>
+        <key>category</key>
+        <string>lower</string>
+        <key>dropped_contours</key>
+        <array/>
+        <key>engine</key>
+        <string>potrace</string>
+        <key>line</key>
+        <string>72:42pt</string>
+        <key>scale</key>
+        <real>3.87812</real>
+        <key>sidebearing</key>
+        <integer>40</integer>
+        <key>source_sha256</key>
+        <string>77382a4f06615b5cbb2fd6e10f63c32531801d37f96816fb3a0e2a256ae0e909</string>
+        <key>source_svg</key>
+        <string>svg/potrace/r.42pt_2.svg</string>
+        <key>stem_units</key>
+        <real>46.5</real>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

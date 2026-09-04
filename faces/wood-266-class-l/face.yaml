@@ -17,7 +17,7 @@ metrics:
     printed_gaps:
       895:fifteen: 24.9
       895:eight: 45.0
-      895:six: 37.0
+      895:six: 37.1
       895:five: 31.7
 source:
   archive_id: bookoftypespecim00barnrich
@@ -41,7 +41,11 @@ lines:
   895:fifteen:
     n_caps: 6
     cap_height_px: 983.5
+    cap_source: caps
     baseline_px: 3418.0
+    baselines:
+      ? ''
+      : 3418.0
     glyphs:
     - R
     - E
@@ -55,7 +59,11 @@ lines:
   895:eight:
     n_caps: 10
     cap_height_px: 529.0
+    cap_source: caps
     baseline_px: 2242.0
+    baselines:
+      ? ''
+      : 2242.0
     glyphs:
     - C.eight
     - H
@@ -72,8 +80,12 @@ lines:
     stem_units: 101.9
   895:six:
     n_caps: 12
-    cap_height_px: 397.5
+    cap_height_px: 396.5
+    cap_source: caps
     baseline_px: 1530.0
+    baselines:
+      ? ''
+      : 1530.0
     glyphs:
     - M
     - O.six
@@ -88,12 +100,16 @@ lines:
     - G.six
     - N.six_2
     stem_px: 62.0
-    scale: 1.76101
-    stem_units: 109.2
+    scale: 1.76545
+    stem_units: 109.5
   895:five:
     n_caps: 2
     cap_height_px: 331.0
+    cap_source: caps
     baseline_px: 950.0
+    baselines:
+      ? ''
+      : 950.0
     glyphs:
     - P
     - D.five

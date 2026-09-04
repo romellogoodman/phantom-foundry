@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l.30pt" format="2">
+  <advance width="206"/>
+  <outline>
+    <contour>
+      <point x="72.0" y="660.0" type="curve" smooth="yes"/>
+      <point x="35.0" y="641.0"/>
+      <point x="5.0" y="623.0"/>
+      <point x="5.0" y="618.0" type="curve" smooth="yes"/>
+      <point x="5.0" y="613.0"/>
+      <point x="15.0" y="609.0"/>
+      <point x="31.0" y="606.0" type="curve" smooth="yes"/>
+      <point x="42.0" y="604.0"/>
+      <point x="50.0" y="604.0"/>
+      <point x="57.0" y="600.0" type="curve"/>
+      <point x="76.0" y="587.0"/>
+      <point x="76.0" y="545.0"/>
+      <point x="76.0" y="358.0" type="curve" smooth="yes"/>
+      <point x="76.0" y="351.0"/>
+      <point x="76.0" y="345.0"/>
+      <point x="76.0" y="339.0" type="curve" smooth="yes"/>
+      <point x="74.0" y="75.0"/>
+      <point x="73.0" y="67.0"/>
+      <point x="38.0" y="50.0" type="curve" smooth="yes"/>
+      <point x="0.0" y="32.0"/>
+      <point x="6.0" y="28.0"/>
+      <point x="74.0" y="28.0" type="curve" smooth="yes"/>
+      <point x="110.0" y="28.0"/>
+      <point x="152.0" y="27.0"/>
+      <point x="169.0" y="25.0" type="curve" smooth="yes"/>
+      <point x="193.0" y="22.0"/>
+      <point x="198.0" y="23.0"/>
+      <point x="198.0" y="30.0" type="curve" smooth="yes"/>
+      <point x="198.0" y="35.0"/>
+      <point x="193.0" y="40.0"/>
+      <point x="188.0" y="42.0" type="curve"/>
+      <point x="182.0" y="43.0"/>
+      <point x="172.0" y="51.0"/>
+      <point x="167.0" y="60.0" type="curve"/>
+      <point x="156.0" y="76.0"/>
+      <point x="156.0" y="94.0"/>
+      <point x="156.0" y="385.0" type="curve" smooth="yes"/>
+      <point x="156.0" y="663.0"/>
+      <point x="156.0" y="694.0"/>
+      <point x="148.0" y="694.0" type="curve" smooth="yes"/>
+      <point x="143.0" y="694.0"/>
+      <point x="109.0" y="678.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.phantomfoundry.justify</key>
+      <dict>
+        <key>depth_left</key>
+        <real>64.6</real>
+        <key>depth_right</key>
+        <real>39.6</real>
+        <key>lsb</key>
+        <integer>5</integer>
+        <key>params</key>
+        <dict>
+          <key>basis</key>
+          <string>derived: half the median printed letter gap across the specimen lines</string>
+          <key>depth</key>
+          <integer>25</integer>
+          <key>min</key>
+          <integer>-10</integer>
+          <key>printed_gaps</key>
+          <dict>
+            <key>292:30pt</key>
+            <real>62.6</real>
+            <key>293:36pt</key>
+            <real>56.6</real>
+            <key>293:48pt</key>
+            <real>64.1</real>
+            <key>293:60pt</key>
+            <real>48.9</real>
+            <key>293:72pt</key>
+            <real>53.0</real>
+          </dict>
+          <key>straight</key>
+          <integer>28</integer>
+        </dict>
+        <key>rsb</key>
+        <integer>8</integer>
+      </dict>
+      <key>com.phantomfoundry.sort</key>
+      <dict>
+        <key>alignment</key>
+        <string>line: shared scale (cap_height / median cap ink height), shared baseline (median cap ink bottom)</string>
+        <key>band</key>
+        <string>7</string>
+        <key>baseline_px</key>
+        <real>3396.0</real>
+        <key>cap_height_px</key>
+        <real>123.0</real>
+        <key>category</key>
+        <string>lower</string>
+        <key>dropped_contours</key>
+        <array/>
+        <key>engine</key>
+        <string>potrace</string>
+        <key>line</key>
+        <string>292:30pt</string>
+        <key>scale</key>
+        <real>5.69106</real>
+        <key>sidebearing</key>
+        <integer>40</integer>
+        <key>source_sha256</key>
+        <string>1525d379fcb2906f1df0213d5135fba54e96501f2d6f2eedf4bd442b08a6a0ac</string>
+        <key>source_svg</key>
+        <string>svg/potrace/l.30pt.svg</string>
+        <key>stem_units</key>
+        <real>74.0</real>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

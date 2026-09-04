@@ -1,0 +1,209 @@
+name: devinne-compressed
+title: Devinne Compressed
+series: Devinne Compressed
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 306
+  - 307
+leaf_pages:
+  306: 288
+  307: 289
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 500
+  spacing:
+    straight: 24
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      307:72pt: 48.7
+      307:60pt: 43.9
+      306:36pt: 47.5
+specimen_lines:
+- leaf: 307
+  line: 72pt
+  text: RELIC SOLD
+  band: 4
+  by: claude+ocr
+- leaf: 307
+  line: 72pt
+  text: Heavy 7 Rocker
+  band: 5
+  by: claude+ocr
+- leaf: 307
+  line: 60pt
+  text: EXPOSITION
+  band: 2
+  by: claude+ocr
+- leaf: 307
+  line: 60pt
+  text: Shaving 4 Parlors
+  band: 3
+  by: claude+ocr
+- leaf: 306
+  line: 36pt
+  text: COSTUMES FROM PARIS
+  band: 7
+  by: claude+ocr
+- leaf: 306
+  line: 36pt
+  text: Handsome Face 5 Appearance
+  band: 8
+  by: claude+ocr
+lines:
+  307:72pt:
+    n_caps: 11
+    cap_height_px: 302
+    cap_source: caps
+    baseline_px: 1855
+    baselines:
+      '4': 1855
+      '5': 2272.5
+    glyphs:
+    - R
+    - E
+    - L
+    - I
+    - C
+    - S
+    - O
+    - L.72pt
+    - D
+    - H
+    - e
+    - a
+    - v
+    - y
+    - seven
+    - R.72pt
+    - o
+    - c
+    - k
+    - e.72pt
+    - r
+    x_height_px: 212
+    figure_height_px: 295
+    stem_px: 35
+    scale: 2.31788
+    stem_units: 81.1
+    x_height: 491
+    figure_height: 684
+  307:60pt:
+    n_caps: 12
+    cap_height_px: 255.0
+    cap_source: caps
+    baseline_px: 925.5
+    baselines:
+      '2': 925.5
+      '3': 1279.0
+    glyphs:
+    - E.60pt
+    - X
+    - P
+    - O.60pt
+    - S.60pt
+    - I.60pt
+    - T
+    - I.60pt_2
+    - O.60pt_2
+    - N
+    - S.60pt_2
+    - h
+    - a.60pt
+    - v.60pt
+    - i
+    - n
+    - g
+    - four
+    - P.60pt
+    - a.60pt_2
+    - r.60pt
+    - l
+    - o.60pt
+    - r.60pt_2
+    - s
+    x_height_px: 182.0
+    figure_height_px: 256
+    stem_px: 30.5
+    scale: 2.7451
+    stem_units: 83.7
+    x_height: 500
+    figure_height: 703
+  306:36pt:
+    n_caps: 20
+    cap_height_px: 147.5
+    cap_source: caps
+    baseline_px: 2689
+    baselines:
+      '7': 2689
+      '8': 2900
+    glyphs:
+    - C.36pt
+    - O.36pt
+    - S.36pt
+    - T.36pt
+    - U
+    - M
+    - E.36pt
+    - S.36pt_2
+    - F
+    - R.36pt
+    - O.36pt_2
+    - M.36pt
+    - P.36pt
+    - A
+    - R.36pt_2
+    - I.36pt
+    - S.36pt_3
+    - H.36pt
+    - a.36pt
+    - n.36pt
+    - d
+    - s.36pt
+    - o.36pt
+    - m
+    - e.36pt
+    - F.36pt
+    - a.36pt_2
+    - c.36pt
+    - e.36pt_2
+    - five
+    - A.36pt
+    - p
+    - p.36pt
+    - e.36pt_3
+    - a.36pt_3
+    - r.36pt
+    - a.36pt_4
+    - n.36pt_2
+    - c.36pt_2
+    - e.36pt_4
+    x_height_px: 107
+    figure_height_px: 148
+    stem_px: 11.5
+    scale: 4.74576
+    stem_units: 54.6
+    x_height: 508
+    figure_height: 702

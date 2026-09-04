@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="C" format="2">
+  <advance width="312"/>
+  <unicode hex="0043"/>
+  <outline>
+    <contour>
+      <point x="200.0749969482422" y="703.0" type="curve" smooth="yes"/>
+      <point x="112.07499694824219" y="698.0"/>
+      <point x="35.07500076293945" y="584.0"/>
+      <point x="10.075000762939453" y="419.0" type="curve" smooth="yes"/>
+      <point x="-0.9249992370605469" y="350.0"/>
+      <point x="-1.9249992370605469" y="288.0"/>
+      <point x="7.075000762939453" y="208.0" type="curve" smooth="yes"/>
+      <point x="14.075000762939453" y="146.0"/>
+      <point x="24.075000762939453" y="115.0"/>
+      <point x="51.07500076293945" y="74.0" type="curve" smooth="yes"/>
+      <point x="103.07499694824219" y="-7.0"/>
+      <point x="191.0749969482422" y="-17.0"/>
+      <point x="258.07501220703125" y="50.0" type="curve" smooth="yes"/>
+      <point x="293.07501220703125" y="84.0"/>
+      <point x="316.07501220703125" y="143.0"/>
+      <point x="317.07501220703125" y="199.0" type="curve" smooth="yes"/>
+      <point x="318.07501220703125" y="224.0"/>
+      <point x="317.07501220703125" y="226.0"/>
+      <point x="312.07501220703125" y="226.0" type="curve" smooth="yes"/>
+      <point x="308.07501220703125" y="226.0"/>
+      <point x="306.07501220703125" y="224.0"/>
+      <point x="306.07501220703125" y="219.0" type="curve"/>
+      <point x="305.07501220703125" y="215.0"/>
+      <point x="302.07501220703125" y="204.0"/>
+      <point x="298.07501220703125" y="194.0" type="curve" smooth="yes"/>
+      <point x="279.07501220703125" y="144.0"/>
+      <point x="242.0749969482422" y="111.0"/>
+      <point x="204.0749969482422" y="111.0" type="curve" smooth="yes"/>
+      <point x="181.0749969482422" y="111.0"/>
+      <point x="164.0749969482422" y="117.0"/>
+      <point x="147.0749969482422" y="133.0" type="curve" smooth="yes"/>
+      <point x="112.07499694824219" y="165.0"/>
+      <point x="92.07499694824219" y="215.0"/>
+      <point x="79.07499694824219" y="301.0" type="curve" smooth="yes"/>
+      <point x="72.07499694824219" y="348.0"/>
+      <point x="72.07499694824219" y="501.0"/>
+      <point x="80.07499694824219" y="538.0" type="curve" smooth="yes"/>
+      <point x="90.07499694824219" y="592.0"/>
+      <point x="108.07499694824219" y="622.0"/>
+      <point x="139.0749969482422" y="639.0" type="curve" smooth="yes"/>
+      <point x="152.0749969482422" y="646.0"/>
+      <point x="176.0749969482422" y="646.0"/>
+      <point x="190.0749969482422" y="639.0" type="curve" smooth="yes"/>
+      <point x="212.0749969482422" y="629.0"/>
+      <point x="230.0749969482422" y="600.0"/>
+      <point x="236.0749969482422" y="566.0" type="curve" smooth="yes"/>
+      <point x="238.0749969482422" y="556.0"/>
+      <point x="241.0749969482422" y="547.0"/>
+      <point x="242.0749969482422" y="547.0" type="curve"/>
+      <point x="244.0749969482422" y="546.0"/>
+      <point x="250.0749969482422" y="554.0"/>
+      <point x="255.0749969482422" y="565.0" type="curve" smooth="yes"/>
+      <point x="260.07501220703125" y="575.0"/>
+      <point x="274.07501220703125" y="601.0"/>
+      <point x="285.07501220703125" y="621.0" type="curve" smooth="yes"/>
+      <point x="296.07501220703125" y="642.0"/>
+      <point x="305.07501220703125" y="661.0"/>
+      <point x="305.07501220703125" y="664.0" type="curve"/>
+      <point x="304.07501220703125" y="667.0"/>
+      <point x="298.07501220703125" y="673.0"/>
+      <point x="289.07501220703125" y="679.0" type="curve" smooth="yes"/>
+      <point x="266.07501220703125" y="695.0"/>
+      <point x="229.0749969482422" y="705.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.phantomfoundry.justify</key>
+      <dict>
+        <key>depth_left</key>
+        <real>37.2</real>
+        <key>depth_right</key>
+        <real>129.1</real>
+        <key>lsb</key>
+        <integer>1</integer>
+        <key>params</key>
+        <dict>
+          <key>basis</key>
+          <string>derived: half the median printed letter gap across the specimen lines</string>
+          <key>depth</key>
+          <integer>25</integer>
+          <key>min</key>
+          <integer>-10</integer>
+          <key>printed_gaps</key>
+          <dict>
+            <key>308:30pt</key>
+            <real>43.4</real>
+            <key>308:35pt</key>
+            <real>32.8</real>
+            <key>309:60pt</key>
+            <real>40.5</real>
+            <key>309:72pt</key>
+            <real>39.3</real>
+          </dict>
+          <key>straight</key>
+          <integer>20</integer>
+        </dict>
+        <key>rsb</key>
+        <integer>-5</integer>
+      </dict>
+      <key>com.phantomfoundry.sort</key>
+      <dict>
+        <key>alignment</key>
+        <string>line: shared scale (cap_height / median cap ink height), shared baseline (median cap ink bottom)</string>
+        <key>band</key>
+        <string>2</string>
+        <key>baseline_px</key>
+        <integer>989</integer>
+        <key>cap_height_px</key>
+        <integer>259</integer>
+        <key>category</key>
+        <string>cap</string>
+        <key>dropped_contours</key>
+        <array/>
+        <key>engine</key>
+        <string>potrace</string>
+        <key>line</key>
+        <string>309:60pt</string>
+        <key>scale</key>
+        <real>2.7027</real>
+        <key>sidebearing</key>
+        <integer>40</integer>
+        <key>source_sha256</key>
+        <string>aa7e377956f4840aba6d42def856677bab63eaa50819faded15136edabb10ae3</string>
+        <key>source_svg</key>
+        <string>svg/potrace/C_.svg</string>
+        <key>stem_units</key>
+        <real>40.5</real>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

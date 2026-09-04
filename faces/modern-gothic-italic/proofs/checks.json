@@ -1,0 +1,50 @@
+{
+  "status": "warn",
+  "warnings": 2,
+  "infos": 4,
+  "encoded": 30,
+  "items": [
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "S",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "d",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "B",
+      "value": 11,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "warn",
+      "check": "contours",
+      "glyph": "B",
+      "value": 5,
+      "note": "more than four contours; specks or a broken trace"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "O.48pt_2",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "warn",
+      "check": "cap_height",
+      "glyph": "Y",
+      "value": 0.244,
+      "note": "capital's ink height is off its line's cap height by more than 12% (misread box?)"
+    }
+  ]
+}

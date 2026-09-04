@@ -1,0 +1,29 @@
+{
+  "status": "warn",
+  "warnings": 1,
+  "infos": 2,
+  "encoded": 19,
+  "items": [
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "E",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "warn",
+      "check": "cap_height",
+      "glyph": "R",
+      "value": 0.145,
+      "note": "capital's ink height is off its line's cap height by more than 12% (misread box?)"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "D.six",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    }
+  ]
+}

@@ -243,6 +243,7 @@ def leaf_furniture(ocr: dict) -> dict:
     size = ocr.get("size") or [0, 0]
     H = size[1] or 1
     folio, heading, captions = None, None, []
+    blockers = []          # caption-like lines, parsed or not: a showing boundary
     heads = []
     lines = list(ocr["lines"])
     # wood type sometimes prints the series and the size on two short lines:
@@ -273,9 +274,12 @@ def leaf_furniture(ocr: dict) -> dict:
         cap = parse_caption(ln["text"])
         if cap:
             captions.append({**cap, "y0": ln["y0"], "y1": ln["y1"], "text": ln["text"]})
+        elif re.search(r"\bPoint\b|\bLine,|lbs|\$\d|^\d+\s*A\s+\d+", ln["text"]):
+            blockers.append({"y0": ln["y0"], "y1": ln["y1"], "text": ln["text"]})
     if heads:
         heading = _title(max(heads)[1])
-    return {"page": folio, "heading": heading, "captions": sorted(captions, key=lambda c: c["y0"])}
+    return {"page": folio, "heading": heading, "captions": sorted(captions, key=lambda c: c["y0"]),
+            "blockers": blockers}
 
 
 def band_ocr_text(ocr: dict, band: dict) -> str | None:
@@ -296,15 +300,19 @@ def band_ocr_text(ocr: dict, band: dict) -> str | None:
 
 
 def assign_captions(bands: list[dict], captions: list[dict], max_per_caption: int = 3,
-                    first_gap: int = 320) -> None:
+                    first_gap: int = 320, blockers: list[dict] | None = None) -> None:
     """Each band takes the nearest caption above it, if that caption can
     still claim it: at most `max_per_caption` bands per caption, the first
     within `first_gap` px of the caption, each following close on the last,
-    at least two boxes, and no taller than the size allows (a boxed showing
-    card or a border between showings is not a line of the face)."""
+    at least two boxes, no taller than the size allows (a boxed showing
+    card or a border between showings is not a line of the face), letters
+    about as tall as the caption's first band (a showing is one size), and
+    no caption-like line in between — the OCR loses a caption's size digits
+    now and then, and the bands under it must not fall to the caption above."""
     for b in bands:
         b["size"] = b["unit"] = b["series"] = b["line"] = None
     claimed: dict[int, list[dict]] = {}
+    blockers = blockers or []
     for b in bands:
         above = [c for c in captions if c["y1"] <= b["y0"]]
         if not above or b["n"] < 2:
@@ -320,8 +328,42 @@ def assign_captions(bands: list[dict], captions: list[dict], max_per_caption: in
         max_h = 8 * cap["size"] if cap["unit"] == "pt" else 100 * cap["size"]
         if gap > limit or b["height"] > max_h:
             continue
+        if mine and not (0.7 * mine[0]["tall_px"] <= b["tall_px"] <= 1.3 * mine[0]["tall_px"]):
+            continue
+        blocked = any(bl["y0"] > cap["y1"] + 40 and bl["y1"] < b["y0"] for bl in blockers)
+        if blocked:
+            continue
         b["size"], b["unit"], b["series"], b["line"] = cap["size"], cap["unit"], cap["series"], cap["line"]
         mine.append(b)
+
+
+STANDARD_PT = [6, 8, 10, 12, 14, 16, 18, 20, 24, 30, 36, 42, 48, 54, 60, 66, 72, 84, 96, 108, 120, 144]
+
+
+def infer_sizes(bands: list[dict], min_tall: int = 100) -> None:
+    """A band no caption claimed, on a leaf whose showings are one series,
+    is sized from its letters: its tallest boxes against the nearest claimed
+    band's, times that band's size, snapped to the standard point sizes.
+    That recovers a showing whose caption the OCR mangled ("Point Lining
+    Facade Condensed" with the 84 gone). Marked `inferred` so the record says so."""
+    claimed = [b for b in bands if b.get("series") and b.get("unit") == "pt"]
+    if not claimed or len({b["series"] for b in claimed}) != 1:
+        return
+    series = claimed[0]["series"]
+    first_y = min(b["y0"] for b in claimed)
+    tallest = max(b["tall_px"] for b in claimed)
+    for b in bands:
+        if b.get("series") or b["n"] < 2 or b["tall_px"] < min_tall or b["y0"] < first_y:
+            continue
+        if b["tall_px"] > 1.25 * tallest:
+            continue          # far bigger than anything captioned here: another showing, not a lost caption
+        ref = min(claimed, key=lambda c: abs(c["y0"] - b["y0"]))
+        est = b["tall_px"] / ref["tall_px"] * ref["size"]
+        size = min(STANDARD_PT, key=lambda z: abs(z - est))
+        if abs(size - est) / est > 0.12 or b["height"] > 8 * size:
+            continue
+        b["size"], b["unit"], b["series"], b["line"] = size, "pt", series, f"{size}pt"
+        b["inferred"] = True
 
 
 # -- catalog ------------------------------------------------------------------
@@ -364,7 +406,8 @@ def catalog_leaf(archive_id: str, leaf: int, min_line_height: int = 120, force: 
         chars = [c for c in (b["ocr"] or "") if not c.isspace()]
         b["ocr_match"] = bool(chars) and len(chars) == b["n"]
         bands.append(b)
-    assign_captions(bands, furniture["captions"])
+    assign_captions(bands, furniture["captions"], blockers=furniture.get("blockers"))
+    infer_sizes(bands)
     if crops:
         for b in bands:
             cp = book.crop_path(leaf, b["band"])
@@ -506,13 +549,16 @@ def candidates(book: Book, min_tall_px: int = 140, min_boxes: int = 8) -> list[d
 
 # -- readings -------------------------------------------------------------------
 
-def read(book: Book, leaf: int, band: int, text: str, by: str = "human", note: str = "") -> dict:
+def read(book: Book, leaf: int, band: int, text: str, by: str = "human", note: str = "", line: str = "") -> dict:
     """Record what a band says. `text` has one character per numbered box,
-    spaces between words; an empty text says the band is not type."""
+    spaces between words; an empty text says the band is not type. `line`
+    overrides the caption's size name when the reader knows better."""
     r = book.readings()
     rec = {"text": text, "by": by, "ts": time.strftime("%Y-%m-%dT%H:%M:%S")}
     if note:
         rec["note"] = note
+    if line:
+        rec["line"] = line
     r[f"{leaf}:{band}"] = rec
     book.save_readings(r)
     return {f"{leaf}:{band}": rec}
@@ -527,6 +573,8 @@ def import_readings(book: Book, path: Path, by: str = "claude") -> dict:
         rec = {"text": it["text"], "by": it.get("by", by), "ts": time.strftime("%Y-%m-%dT%H:%M:%S")}
         if it.get("note"):
             rec["note"] = it["note"]
+        if it.get("line"):
+            rec["line"] = it["line"]      # a reader's override of the caption's size (two columns in one band)
         r[f"{int(it['leaf'])}:{int(it['band'])}"] = rec
         n += 1
     book.save_readings(r)
@@ -620,10 +668,13 @@ def label_auto(face: Face, book: Book, min_tall_px: int = 0, trust_ocr: bool = F
                 continue
             todo.append((lf, b))
     todo.sort(key=lambda t: (-(t[1]["size"] or 0), t[0], t[1]["band"]))
-    labeled, skipped = [], []
-    seen_sizes: dict[tuple, int] = {}
+    labeled, skipped, already = [], [], []
+    done = {(sl.get("leaf"), sl.get("band")) for sl in data.get("specimen_lines", [])}
     for lf, b in todo:
         key = f"{lf}:{b['band']}"
+        if (lf, b["band"]) in done:
+            already.append({"leaf": lf, "band": b["band"]})     # labeled by hand or on an earlier run
+            continue
         rd = readings.get(key)
         text, by = None, None
         if rd is not None:
@@ -645,10 +696,10 @@ def label_auto(face: Face, book: Book, min_tall_px: int = 0, trust_ocr: bool = F
             skipped.append({"leaf": lf, "band": b["band"], "why": f"reading has {n_chars} characters, band has {b['n']} boxes",
                             "text": text})
             continue
-        line = b.get("line") or f"b{b['band']}"
+        line = (rd or {}).get("line") or b.get("line") or f"b{b['band']}"
         out = label(face, lf, b["band"], text, line, by=by)
         labeled.append({"leaf": lf, "band": b["band"], "line": line, "text": text, "by": by,
                         "added": len(out["added"]), "kept": len(out["kept"])})
-    rec = {"face": face.name, "labeled": labeled, "skipped": skipped}
+    rec = {"face": face.name, "labeled": labeled, "already": already, "skipped": skipped}
     (face.specimens / "labels.json").write_text(json.dumps(rec, indent=2, ensure_ascii=False))
     return rec

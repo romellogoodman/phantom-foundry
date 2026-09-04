@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="U.48pt" format="2">
+  <advance width="301"/>
+  <outline>
+    <contour>
+      <point x="15.0" y="693.0" type="curve" smooth="yes"/>
+      <point x="15.0" y="688.0"/>
+      <point x="15.0" y="563.0"/>
+      <point x="15.0" y="415.0" type="curve" smooth="yes"/>
+      <point x="15.0" y="113.0"/>
+      <point x="15.0" y="111.0"/>
+      <point x="38.0" y="65.0" type="curve" smooth="yes"/>
+      <point x="59.0" y="21.0"/>
+      <point x="96.0" y="0.0"/>
+      <point x="150.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="232.0" y="0.0"/>
+      <point x="272.0" y="39.0"/>
+      <point x="284.0" y="131.0" type="curve" smooth="yes"/>
+      <point x="287.0" y="153.0"/>
+      <point x="287.0" y="239.0"/>
+      <point x="287.0" y="430.0" type="curve" smooth="yes"/>
+      <point x="286.0" y="698.0" type="line"/>
+      <point x="190.0" y="698.0" type="line"/>
+      <point x="190.0" y="413.0" type="line" smooth="yes"/>
+      <point x="189.0" y="212.0"/>
+      <point x="188.0" y="123.0"/>
+      <point x="186.0" y="113.0" type="curve"/>
+      <point x="174.0" y="72.0"/>
+      <point x="125.0" y="72.0"/>
+      <point x="116.0" y="113.0" type="curve"/>
+      <point x="114.0" y="119.0"/>
+      <point x="112.0" y="253.0"/>
+      <point x="111.0" y="411.0" type="curve" smooth="yes"/>
+      <point x="109.0" y="698.0" type="line"/>
+      <point x="62.0" y="699.0" type="line" smooth="yes"/>
+      <point x="26.0" y="700.0"/>
+      <point x="18.0" y="700.0"/>
+      <point x="16.0" y="697.0" type="curve"/>
+      <point x="15.0" y="696.0"/>
+      <point x="15.0" y="694.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.phantomfoundry.justify</key>
+      <dict>
+        <key>depth_left</key>
+        <real>5.6</real>
+        <key>depth_right</key>
+        <real>7.3</real>
+        <key>lsb</key>
+        <integer>15</integer>
+        <key>params</key>
+        <dict>
+          <key>basis</key>
+          <string>derived: half the median printed letter gap across the specimen lines</string>
+          <key>depth</key>
+          <integer>25</integer>
+          <key>min</key>
+          <integer>-10</integer>
+          <key>printed_gaps</key>
+          <dict>
+            <key>278:30pt</key>
+            <real>47.2</real>
+            <key>278:36pt</key>
+            <real>41.3</real>
+            <key>279:42pt</key>
+            <real>41.2</real>
+            <key>279:48pt</key>
+            <real>37.4</real>
+            <key>279:54pt</key>
+            <real>34.8</real>
+            <key>279:60pt</key>
+            <real>40.2</real>
+            <key>280:66pt</key>
+            <real>35.1</real>
+            <key>280:72pt</key>
+            <real>39.1</real>
+            <key>280:84pt</key>
+            <real>39.7</real>
+          </dict>
+          <key>straight</key>
+          <integer>20</integer>
+        </dict>
+        <key>rsb</key>
+        <integer>14</integer>
+      </dict>
+      <key>com.phantomfoundry.sort</key>
+      <dict>
+        <key>alignment</key>
+        <string>line: shared scale (cap_height / median cap ink height), shared baseline (median cap ink bottom)</string>
+        <key>band</key>
+        <string>5</string>
+        <key>baseline_px</key>
+        <integer>1895</integer>
+        <key>cap_height_px</key>
+        <integer>206</integer>
+        <key>category</key>
+        <string>cap</string>
+        <key>dropped_contours</key>
+        <array/>
+        <key>engine</key>
+        <string>potrace</string>
+        <key>line</key>
+        <string>279:48pt</string>
+        <key>scale</key>
+        <real>3.39806</real>
+        <key>sidebearing</key>
+        <integer>40</integer>
+        <key>source_sha256</key>
+        <string>23bedfe6bf9bf4b60aa189b9d830d6d803ad59247ae6db1c8082ce8359073aa1</string>
+        <key>source_svg</key>
+        <string>svg/potrace/U_.48pt.svg</string>
+        <key>stem_units</key>
+        <real>95.1</real>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

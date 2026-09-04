@@ -142,7 +142,8 @@ def matrix(face: Face, formats: list[str]) -> dict:
     have = {u for g in font for u in g.unicodes}
     covered = [printed_text(l["text"]) for l in data.get("specimen_lines", [])
                if all(ord(c) in have for c in printed_text(l["text"]) if not c.isspace())]
-    info.openTypeNameSampleText = max(covered, key=len) if covered else None
+    if covered:
+        info.openTypeNameSampleText = max(covered, key=len)
     info.copyright = (f"Source specimen public domain. Font software (c) {fam} contributors, "
                       f"SIL Open Font License 1.1.")
     ensure_boilerplate_glyphs(font, upm, cap)

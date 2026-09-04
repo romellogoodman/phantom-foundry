@@ -1,0 +1,99 @@
+{
+  "status": "warn",
+  "warnings": 5,
+  "infos": 8,
+  "encoded": 42,
+  "items": [
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "m",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "p",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "A",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "b",
+      "value": 2,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "warn",
+      "check": "cap_height",
+      "glyph": "R",
+      "value": 0.141,
+      "note": "capital's ink height is off its line's cap height by more than 12% (misread box?)"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "S.48pt",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "T.30pt",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "warn",
+      "check": "cap_height",
+      "glyph": "R.30pt",
+      "value": 0.122,
+      "note": "capital's ink height is off its line's cap height by more than 12% (misread box?)"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "N.30pt_2",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "warn",
+      "check": "trace_iou",
+      "glyph": "i.30pt_3",
+      "value": 0.887,
+      "note": "potrace trace overlaps the scan by less than 90% (cap 123 px)"
+    },
+    {
+      "level": "warn",
+      "check": "trace_iou",
+      "glyph": "l.30pt",
+      "value": 0.893,
+      "note": "potrace trace overlaps the scan by less than 90% (cap 123 px)"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "p.30pt_2",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "warn",
+      "check": "trace_iou",
+      "glyph": "l.30pt_3",
+      "value": 0.899,
+      "note": "potrace trace overlaps the scan by less than 90% (cap 123 px)"
+    }
+  ]
+}

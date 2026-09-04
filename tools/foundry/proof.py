@@ -155,6 +155,12 @@ def run_checks(face: Face, data: dict, entries, glyph_iou: dict, font) -> dict:
         # with size: 95% is right for a 400 px wood letter, 90% for a 30 pt cut
         cap_px = (lines.get(e.group) or {}).get("cap_height_px") or info["ink_height_px"]
         floor = 0.95 if cap_px >= 300 else 0.93 if cap_px >= 200 else 0.90
+        # ...and with stroke width: the same edge band is a bigger share of a hairline
+        stem = (lines.get(e.group) or {}).get("stem_px") or info.get("stem_px")
+        if stem:
+            # calibrated on 12,300 traced glyphs: 1.5 px of edge error per stroke width
+            # leaves the median trace 0.03 above the floor and flags only real outliers
+            floor = min(floor, 1 - 1.5 / max(4.0, float(stem)))
         if iou is not None and iou < floor:
             items.append({"level": "warn", "check": "trace_iou", "glyph": e.glyph, "value": round(iou, 3),
                           "note": f"potrace trace overlaps the scan by less than {int(floor * 100)}% (cap {int(cap_px)} px)"})

@@ -1,0 +1,247 @@
+name: adstyle-italic
+title: Adstyle Italic
+series: Adstyle Italic
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 536
+  - 537
+leaf_pages:
+  536: 518
+  537: 511
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 478
+  spacing:
+    straight: 21
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      537:72pt: 25.2
+      537:60pt: 86.0
+      537:54pt: 30.0
+      537:48pt: 41.1
+      536:42pt: 36.6
+      536:36pt: 51.6
+      536:30pt: 87.5
+specimen_lines:
+- leaf: 537
+  line: 72pt
+  text: Bank 9 [Slide]
+  band: 9
+  by: claude
+- leaf: 537
+  line: 60pt
+  text: '[MIX][TUR][ES]'
+  band: 6
+  by: claude
+- leaf: 537
+  line: 60pt
+  text: '[Sh]a[de] 8 [Co][rds]'
+  band: 7
+  by: claude
+- leaf: 537
+  line: 54pt
+  text: '[CONSUMER]S'
+  band: 4
+  by: claude
+- leaf: 537
+  line: 54pt
+  text: '[Ma][rk]et 5 [Re][po]rt'
+  band: 5
+  by: claude
+- leaf: 537
+  line: 48pt
+  text: S[UB][UR][BA][NITE]
+  band: 2
+  by: claude
+- leaf: 537
+  line: 48pt
+  text: D[es][er]ts 6 [Co]un[try]
+  band: 3
+  by: claude
+- leaf: 536
+  line: 42pt
+  text: '[COMMON] [FR][UIT]'
+  band: 9
+  by: claude
+- leaf: 536
+  line: 42pt
+  text: '[Re]s[ide]nt 4 [Me]mbe[rs]'
+  band: 10
+  by: claude
+- leaf: 536
+  line: 36pt
+  text: L[OND][ON] [BRID][GE]
+  band: 7
+  by: claude
+- leaf: 536
+  line: 36pt
+  text: '[Ch][ildh]ood 3 Re[cre]at[io]n'
+  band: 8
+  by: claude
+- leaf: 536
+  line: 30pt
+  text: B[UIL][DING] [INSPECTORS]
+  band: 5
+  by: claude
+lines:
+  537:72pt:
+    n_caps: 1
+    cap_height_px: 305
+    cap_source: caps
+    baseline_px: 3581
+    baselines:
+      '9': 3581
+    glyphs:
+    - B
+    - a
+    - n
+    - k
+    - nine
+    x_height_px: 209
+    figure_height_px: 312
+    stem_px: 59
+    scale: 2.29508
+    stem_units: 135.4
+    x_height: 480
+    figure_height: 716
+  537:60pt:
+    n_caps: 0
+    cap_height_px: 171
+    cap_source: ascenders
+    baseline_px: 2701.5
+    baselines:
+      '7': 2701.5
+    glyphs:
+    - a.60pt
+    - eight
+    x_height_px: 171
+    figure_height_px: 259
+    scale: 4.09357
+    x_height: 700
+    figure_height: 1060
+  537:54pt:
+    n_caps: 1
+    cap_height_px: 233
+    cap_source: caps
+    baseline_px: 1634
+    baselines:
+      '4': 1634
+      '5': 1937
+    glyphs:
+    - S
+    - e
+    - t
+    - five
+    - r
+    - t.54pt
+    x_height_px: 155.0
+    figure_height_px: 234
+    stem_px: 34
+    scale: 3.00429
+    stem_units: 102.1
+    x_height: 466
+    figure_height: 703
+  537:48pt:
+    n_caps: 2
+    cap_height_px: 204.5
+    cap_source: caps
+    baseline_px: 959
+    baselines:
+      '2': 959
+      '3': 1222
+    glyphs:
+    - S.48pt
+    - D
+    - t.48pt
+    - s
+    - six
+    - u
+    - n.48pt
+    x_height_px: 139.0
+    figure_height_px: 207
+    stem_px: 35.0
+    scale: 3.42298
+    stem_units: 119.8
+    x_height: 476
+    figure_height: 709
+  536:42pt:
+    n_caps: 0
+    cap_height_px: 172.0
+    cap_source: ascenders
+    baseline_px: 3553
+    baselines:
+      '10': 3553
+    glyphs:
+    - s.42pt
+    - n.42pt
+    - t.42pt
+    - four
+    - m
+    - b
+    - e.42pt
+    x_height_px: 125.0
+    figure_height_px: 182
+    scale: 4.06977
+    x_height: 509
+    figure_height: 741
+  536:36pt:
+    n_caps: 2
+    cap_height_px: 156.0
+    cap_source: caps
+    baseline_px: 2746
+    baselines:
+      '7': 2746
+      '8': 2965
+    glyphs:
+    - L
+    - o
+    - o.36pt
+    - d
+    - three
+    - R
+    - e.36pt
+    - a.36pt
+    - t.36pt
+    - n.36pt
+    x_height_px: 106
+    figure_height_px: 158
+    stem_px: 30.0
+    scale: 4.48718
+    stem_units: 134.6
+    x_height: 476
+    figure_height: 709
+  536:30pt:
+    n_caps: 1
+    cap_height_px: 128
+    cap_source: caps
+    baseline_px: 2251
+    baselines:
+      '5': 2251
+    glyphs:
+    - B.30pt
+    stem_px: 26
+    scale: 5.46875
+    stem_units: 142.2

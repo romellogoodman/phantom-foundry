@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i.36pt_3" format="2">
+  <advance width="205"/>
+  <outline>
+    <contour>
+      <point x="96.82843017578125" y="514.0" type="curve" smooth="yes"/>
+      <point x="61.828426361083984" y="502.0"/>
+      <point x="30.828426361083984" y="490.0"/>
+      <point x="29.828426361083984" y="488.0" type="curve"/>
+      <point x="24.828426361083984" y="483.0"/>
+      <point x="25.828426361083984" y="13.0"/>
+      <point x="30.828426361083984" y="8.0" type="curve"/>
+      <point x="34.828426361083984" y="3.0"/>
+      <point x="169.82843017578125" y="2.0"/>
+      <point x="173.82843017578125" y="6.0" type="curve" smooth="yes"/>
+      <point x="176.82843017578125" y="9.0"/>
+      <point x="175.82843017578125" y="523.0"/>
+      <point x="171.82843017578125" y="531.0" type="curve"/>
+      <point x="168.82843017578125" y="540.0"/>
+      <point x="168.82843017578125" y="540.0"/>
+    </contour>
+    <contour>
+      <point x="27.828426361083984" y="699.0" type="curve"/>
+      <point x="25.828426361083984" y="695.0"/>
+      <point x="23.828426361083984" y="665.0"/>
+      <point x="25.828426361083984" y="629.0" type="curve" smooth="yes"/>
+      <point x="26.828426361083984" y="565.0" type="line"/>
+      <point x="96.82843017578125" y="565.0" type="line" smooth="yes"/>
+      <point x="146.82843017578125" y="565.0"/>
+      <point x="166.82843017578125" y="566.0"/>
+      <point x="169.82843017578125" y="570.0" type="curve"/>
+      <point x="171.82843017578125" y="573.0"/>
+      <point x="171.82843017578125" y="604.0"/>
+      <point x="170.82843017578125" y="639.0" type="curve" smooth="yes"/>
+      <point x="168.82843017578125" y="702.0" type="line"/>
+      <point x="99.82843017578125" y="703.0" type="line" smooth="yes"/>
+      <point x="50.828426361083984" y="704.0"/>
+      <point x="30.828426361083984" y="703.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.phantomfoundry.justify</key>
+      <dict>
+        <key>depth_left</key>
+        <real>6.8</real>
+        <key>depth_right</key>
+        <real>1.7</real>
+        <key>lsb</key>
+        <integer>25</integer>
+        <key>params</key>
+        <dict>
+          <key>basis</key>
+          <string>derived: half the median printed letter gap across the specimen lines</string>
+          <key>depth</key>
+          <integer>25</integer>
+          <key>min</key>
+          <integer>-10</integer>
+          <key>printed_gaps</key>
+          <dict>
+            <key>418:30pt</key>
+            <real>64.6</real>
+            <key>419:36pt</key>
+            <real>70.0</real>
+            <key>419:48pt</key>
+            <real>61.5</real>
+            <key>419:60pt</key>
+            <real>50.4</real>
+            <key>419:72pt</key>
+            <real>49.0</real>
+          </dict>
+          <key>straight</key>
+          <integer>31</integer>
+        </dict>
+        <key>rsb</key>
+        <integer>29</integer>
+      </dict>
+      <key>com.phantomfoundry.sort</key>
+      <dict>
+        <key>alignment</key>
+        <string>line: shared scale (cap_height / median cap ink height), shared baseline (median cap ink bottom)</string>
+        <key>band</key>
+        <string>3</string>
+        <key>baseline_px</key>
+        <integer>1077</integer>
+        <key>cap_height_px</key>
+        <real>155.0</real>
+        <key>category</key>
+        <string>lower</string>
+        <key>dropped_contours</key>
+        <array/>
+        <key>engine</key>
+        <string>potrace</string>
+        <key>line</key>
+        <string>419:36pt</string>
+        <key>scale</key>
+        <real>4.51613</real>
+        <key>sidebearing</key>
+        <integer>40</integer>
+        <key>source_sha256</key>
+        <string>253a873f5090a25bee2c4f77a0db4c00a50db62d2e94bb2a3b3c1e3fac96a0b9</string>
+        <key>source_svg</key>
+        <string>svg/potrace/i.36pt_3.svg</string>
+        <key>stem_units</key>
+        <real>149.0</real>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

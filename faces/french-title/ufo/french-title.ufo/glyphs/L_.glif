@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="L" format="2">
+  <advance width="313"/>
+  <unicode hex="004C"/>
+  <outline>
+    <contour>
+      <point x="17.0" y="695.0" type="curve"/>
+      <point x="16.0" y="694.0"/>
+      <point x="18.0" y="690.0"/>
+      <point x="20.0" y="687.0" type="curve"/>
+      <point x="33.0" y="673.0"/>
+      <point x="33.0" y="666.0"/>
+      <point x="33.0" y="353.0" type="curve" smooth="yes"/>
+      <point x="33.0" y="342.0"/>
+      <point x="33.0" y="332.0"/>
+      <point x="33.0" y="322.0" type="curve" smooth="yes"/>
+      <point x="33.0" y="58.0"/>
+      <point x="33.0" y="31.0"/>
+      <point x="20.0" y="19.0" type="curve" smooth="yes"/>
+      <point x="18.0" y="17.0"/>
+      <point x="16.0" y="16.0"/>
+      <point x="13.0" y="14.0" type="curve"/>
+      <point x="7.0" y="9.0"/>
+      <point x="2.0" y="5.0"/>
+      <point x="2.0" y="3.0" type="curve" smooth="yes"/>
+      <point x="2.0" y="-2.0"/>
+      <point x="303.0" y="-1.0"/>
+      <point x="306.0" y="4.0" type="curve" smooth="yes"/>
+      <point x="309.0" y="9.0"/>
+      <point x="321.0" y="112.0"/>
+      <point x="319.0" y="114.0" type="curve" smooth="yes"/>
+      <point x="318.0" y="115.0"/>
+      <point x="315.0" y="112.0"/>
+      <point x="311.0" y="107.0" type="curve" smooth="yes"/>
+      <point x="308.0" y="103.0"/>
+      <point x="296.0" y="89.0"/>
+      <point x="284.0" y="77.0" type="curve" smooth="yes"/>
+      <point x="267.0" y="60.0"/>
+      <point x="259.0" y="55.0"/>
+      <point x="242.0" y="50.0" type="curve" smooth="yes"/>
+      <point x="219.0" y="43.0"/>
+      <point x="150.0" y="42.0"/>
+      <point x="138.0" y="48.0" type="curve"/>
+      <point x="133.0" y="51.0"/>
+      <point x="130.0" y="58.0"/>
+      <point x="127.0" y="68.0" type="curve"/>
+      <point x="122.0" y="91.0"/>
+      <point x="118.0" y="645.0"/>
+      <point x="123.0" y="662.0" type="curve" smooth="yes"/>
+      <point x="125.0" y="669.0"/>
+      <point x="131.0" y="679.0"/>
+      <point x="135.0" y="684.0" type="curve"/>
+      <point x="140.0" y="689.0"/>
+      <point x="144.0" y="694.0"/>
+      <point x="144.0" y="696.0" type="curve" smooth="yes"/>
+      <point x="144.0" y="700.0"/>
+      <point x="19.0" y="699.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.phantomfoundry.justify</key>
+      <dict>
+        <key>depth_left</key>
+        <real>28.6</real>
+        <key>depth_right</key>
+        <real>166.3</real>
+        <key>lsb</key>
+        <integer>2</integer>
+        <key>params</key>
+        <dict>
+          <key>basis</key>
+          <string>derived: half the median printed letter gap across the specimen lines</string>
+          <key>depth</key>
+          <integer>25</integer>
+          <key>min</key>
+          <integer>-10</integer>
+          <key>printed_gaps</key>
+          <dict>
+            <key>312:36pt</key>
+            <real>43.3</real>
+            <key>312:48pt</key>
+            <real>31.2</real>
+            <key>313:60pt</key>
+            <real>39.4</real>
+            <key>313:72pt</key>
+            <real>31.2</real>
+            <key>313:96pt</key>
+            <real>37.1</real>
+          </dict>
+          <key>straight</key>
+          <integer>19</integer>
+        </dict>
+        <key>rsb</key>
+        <integer>-6</integer>
+      </dict>
+      <key>com.phantomfoundry.sort</key>
+      <dict>
+        <key>alignment</key>
+        <string>line: shared scale (cap_height / median cap ink height), shared baseline (median cap ink bottom)</string>
+        <key>band</key>
+        <string>6</string>
+        <key>baseline_px</key>
+        <integer>3273</integer>
+        <key>cap_height_px</key>
+        <integer>202</integer>
+        <key>category</key>
+        <string>cap</string>
+        <key>dropped_contours</key>
+        <array/>
+        <key>engine</key>
+        <string>potrace</string>
+        <key>line</key>
+        <string>312:48pt</string>
+        <key>scale</key>
+        <real>3.46535</real>
+        <key>sidebearing</key>
+        <integer>40</integer>
+        <key>source_sha256</key>
+        <string>d24f1cd11add210063d54b77332efa72dd849f4e970b4809bf09342ab5ce9d7a</string>
+        <key>source_svg</key>
+        <string>svg/potrace/L_.svg</string>
+        <key>stem_units</key>
+        <real>86.6</real>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

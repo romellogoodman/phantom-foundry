@@ -36,7 +36,7 @@
       "printed_gaps": {
         "895:fifteen": 24.9,
         "895:eight": 45.0,
-        "895:six": 37.0,
+        "895:six": 37.1,
         "895:five": 31.7
       }
     }
@@ -45,7 +45,11 @@
     "895:fifteen": {
       "n_caps": 6,
       "cap_height_px": 983.5,
+      "cap_source": "caps",
       "baseline_px": 3418.0,
+      "baselines": {
+        "": 3418.0
+      },
       "glyphs": [
         "R",
         "E",
@@ -61,7 +65,11 @@
     "895:eight": {
       "n_caps": 10,
       "cap_height_px": 529.0,
+      "cap_source": "caps",
       "baseline_px": 2242.0,
+      "baselines": {
+        "": 2242.0
+      },
       "glyphs": [
         "C.eight",
         "H",
@@ -80,8 +88,12 @@
     },
     "895:six": {
       "n_caps": 12,
-      "cap_height_px": 397.5,
+      "cap_height_px": 396.5,
+      "cap_source": "caps",
       "baseline_px": 1530.0,
+      "baselines": {
+        "": 1530.0
+      },
       "glyphs": [
         "M",
         "O.six",
@@ -97,13 +109,17 @@
         "N.six_2"
       ],
       "stem_px": 62.0,
-      "scale": 1.76101,
-      "stem_units": 109.2
+      "scale": 1.76545,
+      "stem_units": 109.5
     },
     "895:five": {
       "n_caps": 2,
       "cap_height_px": 331.0,
+      "cap_source": "caps",
       "baseline_px": 950.0,
+      "baselines": {
+        "": 950.0
+      },
       "glyphs": [
         "P",
         "D.five"
@@ -135,7 +151,8 @@
         "s",
         "u"
       ],
-      "proof": "line_895_five.png"
+      "printed": "Precious Diamond 82",
+      "proof": "line_895_five_b2.jpg"
     },
     {
       "leaf": 895,
@@ -144,7 +161,8 @@
       "band": 3,
       "chars": 12,
       "missing": [],
-      "proof": "line_895_six.png"
+      "printed": "MODERN DESIGN",
+      "proof": "line_895_six_b3.jpg"
     },
     {
       "leaf": 895,
@@ -153,7 +171,8 @@
       "band": 4,
       "chars": 10,
       "missing": [],
-      "proof": "line_895_eight.png"
+      "printed": "CHANGEABLE",
+      "proof": "line_895_eight_b4.jpg"
     },
     {
       "leaf": 895,
@@ -162,7 +181,8 @@
       "band": 5,
       "chars": 6,
       "missing": [],
-      "proof": "line_895_fifteen.png"
+      "printed": "RECORD",
+      "proof": "line_895_fifteen_b5.jpg"
     }
   ],
   "glyphs": [
@@ -206,7 +226,8 @@
         "ink_width_px": 200,
         "stem_px": 67,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9879
     },
     {
       "name": "A.eight",
@@ -233,7 +254,8 @@
         "ink_width_px": 200,
         "stem_px": 68,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9877
     },
     {
       "name": "B",
@@ -260,7 +282,8 @@
         "ink_width_px": 184,
         "stem_px": 77,
         "components": 1
-      }
+      },
+      "trace_iou": 0.993
     },
     {
       "name": "C",
@@ -287,7 +310,8 @@
         "ink_width_px": 327,
         "stem_px": 134,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9941
     },
     {
       "name": "C.eight",
@@ -314,7 +338,8 @@
         "ink_width_px": 180,
         "stem_px": 75,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9885
     },
     {
       "name": "D",
@@ -341,7 +366,8 @@
         "ink_width_px": 331,
         "stem_px": 138,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9948
     },
     {
       "name": "D.five",
@@ -368,7 +394,8 @@
         "ink_width_px": 124,
         "stem_px": 52,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9887
     },
     {
       "name": "D.six",
@@ -382,7 +409,7 @@
       "engine": "potrace",
       "constructed": false,
       "construct": null,
-      "stem_units": 109.2,
+      "stem_units": 109.5,
       "dropped_contours": [],
       "cut": {
         "tight_box_page": [
@@ -395,7 +422,8 @@
         "ink_width_px": 148,
         "stem_px": 62,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9877
     },
     {
       "name": "D.six_2",
@@ -403,13 +431,13 @@
       "char": null,
       "encoded": false,
       "alternate_of": "D",
-      "width": 288,
+      "width": 289,
       "category": "cap",
       "line": "six",
       "engine": "potrace",
       "constructed": false,
       "construct": null,
-      "stem_units": 110.9,
+      "stem_units": 111.2,
       "dropped_contours": [],
       "cut": {
         "tight_box_page": [
@@ -422,7 +450,8 @@
         "ink_width_px": 148,
         "stem_px": 63,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9876
     },
     {
       "name": "E",
@@ -449,7 +478,8 @@
         "ink_width_px": 290,
         "stem_px": 146,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9928
     },
     {
       "name": "E.eight",
@@ -476,7 +506,8 @@
         "ink_width_px": 162,
         "stem_px": 85,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9894
     },
     {
       "name": "E.eight_2",
@@ -503,7 +534,8 @@
         "ink_width_px": 162,
         "stem_px": 86,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9881
     },
     {
       "name": "E.six",
@@ -511,13 +543,13 @@
       "char": null,
       "encoded": false,
       "alternate_of": "E",
-      "width": 242,
+      "width": 243,
       "category": "cap",
       "line": "six",
       "engine": "potrace",
       "constructed": false,
       "construct": null,
-      "stem_units": 119.7,
+      "stem_units": 120.1,
       "dropped_contours": [],
       "cut": {
         "tight_box_page": [
@@ -530,7 +562,8 @@
         "ink_width_px": 129,
         "stem_px": 68,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9865
     },
     {
       "name": "E.six_2",
@@ -544,7 +577,7 @@
       "engine": "potrace",
       "constructed": false,
       "construct": null,
-      "stem_units": 110.9,
+      "stem_units": 111.2,
       "dropped_contours": [],
       "cut": {
         "tight_box_page": [
@@ -557,7 +590,8 @@
         "ink_width_px": 122,
         "stem_px": 63,
         "components": 1
-      }
+      },
+      "trace_iou": 0.986
     },
     {
       "name": "F",
@@ -620,7 +654,8 @@
         "ink_width_px": 188,
         "stem_px": 77,
         "components": 1
-      }
+      },
+      "trace_iou": 0.988
     },
     {
       "name": "G.six",
@@ -628,13 +663,13 @@
       "char": null,
       "encoded": false,
       "alternate_of": "G",
-      "width": 274,
+      "width": 275,
       "category": "cap",
       "line": "six",
       "engine": "potrace",
       "constructed": false,
       "construct": null,
-      "stem_units": 109.2,
+      "stem_units": 109.5,
       "dropped_contours": [],
       "cut": {
         "tight_box_page": [
@@ -647,7 +682,8 @@
         "ink_width_px": 147,
         "stem_px": 62,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9901
     },
     {
       "name": "H",
@@ -674,7 +710,8 @@
         "ink_width_px": 192,
         "stem_px": 81,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9886
     },
     {
       "name": "I",
@@ -682,13 +719,13 @@
       "char": "I",
       "encoded": true,
       "alternate_of": null,
-      "width": 154,
+      "width": 153,
       "category": "cap",
       "line": "six",
       "engine": "potrace",
       "constructed": false,
       "construct": null,
-      "stem_units": 114.5,
+      "stem_units": 114.8,
       "dropped_contours": [],
       "cut": {
         "tight_box_page": [
@@ -701,7 +738,8 @@
         "ink_width_px": 66,
         "stem_px": 65,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9905
     },
     {
       "name": "J",
@@ -745,7 +783,7 @@
       "char": "K",
       "encoded": true,
       "alternate_of": null,
-      "width": 275,
+      "width": 276,
       "category": "cap",
       "line": null,
       "engine": null,
@@ -825,7 +863,8 @@
         "ink_width_px": 164,
         "stem_px": 84,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9904
     },
     {
       "name": "M",
@@ -833,13 +872,13 @@
       "char": "M",
       "encoded": true,
       "alternate_of": null,
-      "width": 437,
+      "width": 438,
       "category": "cap",
       "line": "six",
       "engine": "potrace",
       "constructed": false,
       "construct": null,
-      "stem_units": 95.1,
+      "stem_units": 95.3,
       "dropped_contours": [],
       "cut": {
         "tight_box_page": [
@@ -852,7 +891,8 @@
         "ink_width_px": 229,
         "stem_px": 54,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9859
     },
     {
       "name": "N",
@@ -879,7 +919,8 @@
         "ink_width_px": 232,
         "stem_px": 72,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9924
     },
     {
       "name": "N.six",
@@ -887,13 +928,13 @@
       "char": null,
       "encoded": false,
       "alternate_of": "N",
-      "width": 341,
+      "width": 343,
       "category": "cap",
       "line": "six",
       "engine": "potrace",
       "constructed": false,
       "construct": null,
-      "stem_units": 89.8,
+      "stem_units": 90.0,
       "dropped_contours": [],
       "cut": {
         "tight_box_page": [
@@ -906,7 +947,8 @@
         "ink_width_px": 176,
         "stem_px": 51,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9848
     },
     {
       "name": "N.six_2",
@@ -914,13 +956,13 @@
       "char": null,
       "encoded": false,
       "alternate_of": "N",
-      "width": 342,
+      "width": 343,
       "category": "cap",
       "line": "six",
       "engine": "potrace",
       "constructed": false,
       "construct": null,
-      "stem_units": 93.3,
+      "stem_units": 93.6,
       "dropped_contours": [],
       "cut": {
         "tight_box_page": [
@@ -933,7 +975,8 @@
         "ink_width_px": 173,
         "stem_px": 53,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9842
     },
     {
       "name": "O",
@@ -960,7 +1003,8 @@
         "ink_width_px": 335,
         "stem_px": 136,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9938
     },
     {
       "name": "O.six",
@@ -968,13 +1012,13 @@
       "char": null,
       "encoded": false,
       "alternate_of": "O",
-      "width": 282,
+      "width": 283,
       "category": "cap",
       "line": "six",
       "engine": "potrace",
       "constructed": false,
       "construct": null,
-      "stem_units": 107.4,
+      "stem_units": 107.7,
       "dropped_contours": [],
       "cut": {
         "tight_box_page": [
@@ -987,7 +1031,8 @@
         "ink_width_px": 149,
         "stem_px": 61,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9876
     },
     {
       "name": "P",
@@ -1014,7 +1059,8 @@
         "ink_width_px": 124,
         "stem_px": 55,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9904
     },
     {
       "name": "Q",
@@ -1081,7 +1127,8 @@
         "ink_width_px": 360,
         "stem_px": 136,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9944
     },
     {
       "name": "R.fifteen",
@@ -1108,7 +1155,8 @@
         "ink_width_px": 360,
         "stem_px": 141,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9934
     },
     {
       "name": "R.six",
@@ -1116,26 +1164,27 @@
       "char": null,
       "encoded": false,
       "alternate_of": "R",
-      "width": 292,
+      "width": 293,
       "category": "cap",
       "line": "six",
       "engine": "potrace",
       "constructed": false,
       "construct": null,
-      "stem_units": 110.9,
+      "stem_units": 111.2,
       "dropped_contours": [],
       "cut": {
         "tight_box_page": [
           883,
-          1113,
+          1131,
           1034,
           1527
         ],
-        "ink_height_px": 414,
+        "ink_height_px": 396,
         "ink_width_px": 151,
         "stem_px": 63,
-        "components": 2
-      }
+        "components": 1
+      },
+      "trace_iou": 0.9895
     },
     {
       "name": "S",
@@ -1149,7 +1198,7 @@
       "engine": "potrace",
       "constructed": false,
       "construct": null,
-      "stem_units": 102.1,
+      "stem_units": 102.4,
       "dropped_contours": [],
       "cut": {
         "tight_box_page": [
@@ -1162,7 +1211,8 @@
         "ink_width_px": 143,
         "stem_px": 58,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9857
     },
     {
       "name": "T",
@@ -1306,7 +1356,7 @@
       "char": "W",
       "encoded": true,
       "alternate_of": null,
-      "width": 438,
+      "width": 439,
       "category": "cap",
       "line": null,
       "engine": null,
@@ -1638,10 +1688,22 @@
     "D_.five_traces.png",
     "cuts.png",
     "alphabet.png",
-    "line_895_five.png",
-    "line_895_six.png",
-    "line_895_eight.png",
-    "line_895_fifteen.png",
-    "waterfall.png"
-  ]
+    "line_895_five_b2.jpg",
+    "line_895_six_b3.jpg",
+    "line_895_eight_b4.jpg",
+    "line_895_fifteen_b5.jpg",
+    "waterfall.png",
+    "checks.json"
+  ],
+  "checks": {
+    "status": "ok",
+    "warnings": 0,
+    "infos": 1,
+    "encoded": 26
+  },
+  "series": "No. 266 Class L",
+  "book": "bookoftypespecim00barnrich",
+  "leaf_pages": {
+    "895": 851
+  }
 }

@@ -1,0 +1,291 @@
+name: modern-gothic-title
+title: Modern Gothic Title
+series: Modern Gothic Title
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 230
+  - 231
+leaf_pages:
+  230: 214
+  231: 215
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 47
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      231:84pt: 131.2
+      231:72pt: 94.0
+      231:60pt: 99.7
+      231:54pt: 124.0
+      231:48pt: 128.1
+      231:42pt: 92.2
+      230:36pt: 86.1
+      230:30pt: 80.3
+      230:24pt: 87.5
+specimen_lines:
+- leaf: 231
+  line: 84pt
+  text: HIDE 3
+  band: 7
+  by: claude
+- leaf: 231
+  line: 72pt
+  text: 8 MARK
+  band: 6
+  by: claude
+- leaf: 231
+  line: 60pt
+  text: HEART 9
+  band: 5
+  by: claude+ocr
+- leaf: 231
+  line: 54pt
+  text: TO 8 RENT
+  band: 4
+  by: claude+ocr
+- leaf: 231
+  line: 48pt
+  text: NEW 5 MEN
+  band: 3
+  by: claude+ocr
+- leaf: 231
+  line: 42pt
+  text: FINE 6 TYPES
+  band: 2
+  by: claude+ocr
+- leaf: 230
+  line: 36pt
+  text: MAIL 3 TRAINS
+  band: 4
+  by: claude+ocr
+- leaf: 230
+  line: 30pt
+  text: THE 9 SCIENTIFIC
+  band: 3
+  by: claude+ocr
+- leaf: 230
+  line: 24pt
+  text: THE ~ POETS 7 OF OLD
+  band: 2
+  by: claude
+lines:
+  231:84pt:
+    n_caps: 4
+    cap_height_px: 421.5
+    cap_source: caps
+    baseline_px: 3580.0
+    baselines:
+      '7': 3580.0
+    glyphs:
+    - H
+    - I
+    - D
+    - E
+    - three
+    figure_height_px: 433
+    stem_px: 115.0
+    scale: 1.66074
+    stem_units: 191.0
+    figure_height: 719
+  231:72pt:
+    n_caps: 4
+    cap_height_px: 365.0
+    cap_source: caps
+    baseline_px: 2940.0
+    baselines:
+      '6': 2940.0
+    glyphs:
+    - eight
+    - M
+    - A
+    - R
+    - K
+    figure_height_px: 372
+    stem_px: 100.5
+    scale: 1.91781
+    stem_units: 192.7
+    figure_height: 713
+  231:60pt:
+    n_caps: 5
+    cap_height_px: 309
+    cap_source: caps
+    baseline_px: 2372
+    baselines:
+      '5': 2372
+    glyphs:
+    - H.60pt
+    - E.60pt
+    - A.60pt
+    - R.60pt
+    - T
+    - nine
+    figure_height_px: 316
+    stem_px: 84
+    scale: 2.26537
+    stem_units: 190.3
+    figure_height: 716
+  231:54pt:
+    n_caps: 6
+    cap_height_px: 254.0
+    cap_source: caps
+    baseline_px: 1852.0
+    baselines:
+      '4': 1852.0
+    glyphs:
+    - T.54pt
+    - O
+    - eight.54pt
+    - R.54pt
+    - E.54pt
+    - N
+    - T.54pt_2
+    figure_height_px: 261
+    stem_px: 72.0
+    scale: 2.75591
+    stem_units: 198.4
+    figure_height: 719
+  231:48pt:
+    n_caps: 6
+    cap_height_px: 235.0
+    cap_source: caps
+    baseline_px: 1391.0
+    baselines:
+      '3': 1391.0
+    glyphs:
+    - N.48pt
+    - E.48pt
+    - W
+    - five
+    - M.48pt
+    - E.48pt_2
+    - N.48pt_2
+    figure_height_px: 238
+    stem_px: 65.0
+    scale: 2.97872
+    stem_units: 193.6
+    figure_height: 709
+  231:42pt:
+    n_caps: 9
+    cap_height_px: 205
+    cap_source: caps
+    baseline_px: 938
+    baselines:
+      '2': 938
+    glyphs:
+    - F
+    - I.42pt
+    - N.42pt
+    - E.42pt
+    - six
+    - T.42pt
+    - Y
+    - P
+    - E.42pt_2
+    - S
+    figure_height_px: 209
+    stem_px: 56
+    scale: 3.41463
+    stem_units: 191.2
+    figure_height: 714
+  230:36pt:
+    n_caps: 10
+    cap_height_px: 183.0
+    cap_source: caps
+    baseline_px: 3540.0
+    baselines:
+      '4': 3540.0
+    glyphs:
+    - M.36pt
+    - A.36pt
+    - I.36pt
+    - L
+    - three.36pt
+    - T.36pt
+    - R.36pt
+    - A.36pt_2
+    - I.36pt_2
+    - N.36pt
+    - S.36pt
+    figure_height_px: 186
+    stem_px: 53.0
+    scale: 3.82514
+    stem_units: 202.7
+    figure_height: 711
+  230:30pt:
+    n_caps: 13
+    cap_height_px: 157
+    cap_source: caps
+    baseline_px: 3172
+    baselines:
+      '3': 3172
+    glyphs:
+    - T.30pt
+    - H.30pt
+    - E.30pt
+    - nine.30pt
+    - S.30pt
+    - C
+    - I.30pt
+    - E.30pt_2
+    - N.30pt
+    - T.30pt_2
+    - I.30pt_2
+    - F.30pt
+    - I.30pt_3
+    - C.30pt
+    figure_height_px: 161
+    stem_px: 46
+    scale: 4.4586
+    stem_units: 205.1
+    figure_height: 718
+  230:24pt:
+    n_caps: 13
+    cap_height_px: 128
+    cap_source: caps
+    baseline_px: 2820
+    baselines:
+      '2': 2820
+    glyphs:
+    - T.24pt
+    - H.24pt
+    - E.24pt
+    - P.24pt
+    - O.24pt
+    - E.24pt_2
+    - T.24pt_2
+    - S.24pt
+    - seven
+    - O.24pt_2
+    - F.24pt
+    - O.24pt_3
+    - L.24pt
+    - D.24pt
+    figure_height_px: 128
+    stem_px: 37
+    scale: 5.46875
+    stem_units: 202.3
+    figure_height: 700

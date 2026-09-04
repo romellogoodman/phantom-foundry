@@ -1,0 +1,149 @@
+name: lining-arcade
+title: Lining Arcade
+series: Lining Arcade
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 338
+leaf_pages:
+  338: 320
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 27
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      338:54pt: 54.7
+      338:36pt: 49.2
+      338:24pt: 74.8
+specimen_lines:
+- leaf: 338
+  line: 54pt
+  text: ROVER 6
+  band: 6
+  by: claude
+- leaf: 338
+  line: 36pt
+  text: WILD MAN
+  band: 4
+  by: claude
+- leaf: 338
+  line: 36pt
+  text: BLUE 8 JAY
+  band: 5
+  by: claude
+- leaf: 338
+  line: 24pt
+  text: FALL SUITS
+  band: 2
+  by: claude
+- leaf: 338
+  line: 24pt
+  text: NEAT 35 STYLE
+  band: 3
+  by: claude
+lines:
+  338:54pt:
+    n_caps: 5
+    cap_height_px: 256
+    cap_source: caps
+    baseline_px: 3566
+    baselines:
+      '6': 3566
+    glyphs:
+    - R
+    - O
+    - V
+    - E
+    - R.54pt
+    - six
+    figure_height_px: 257
+    stem_px: 24
+    scale: 2.73438
+    stem_units: 65.6
+    figure_height: 703
+  338:36pt:
+    n_caps: 14
+    cap_height_px: 192.0
+    cap_source: caps
+    baseline_px: 2798
+    baselines:
+      '4': 2798
+      '5': 3064
+    glyphs:
+    - W
+    - I
+    - L
+    - D
+    - M
+    - A
+    - N
+    - B
+    - L.36pt
+    - U
+    - E.36pt
+    - eight
+    - J
+    - A.36pt
+    - Y
+    figure_height_px: 193
+    stem_px: 20.0
+    scale: 3.64583
+    stem_units: 72.9
+    figure_height: 704
+  338:24pt:
+    n_caps: 18
+    cap_height_px: 131.0
+    cap_source: caps
+    baseline_px: 2177
+    baselines:
+      '2': 2177
+      '3': 2367
+    glyphs:
+    - F
+    - A.24pt
+    - L.24pt
+    - L.24pt_2
+    - S
+    - U.24pt
+    - I.24pt
+    - T
+    - S.24pt
+    - N.24pt
+    - E.24pt
+    - A.24pt_2
+    - T.24pt
+    - three
+    - five
+    - S.24pt_2
+    - T.24pt_2
+    - Y.24pt
+    - L.24pt_3
+    - E.24pt_2
+    figure_height_px: 130.5
+    stem_px: 15.5
+    scale: 5.34351
+    stem_units: 82.8
+    figure_height: 697

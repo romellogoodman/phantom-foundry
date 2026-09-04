@@ -1,0 +1,400 @@
+name: plymouth
+title: Plymouth
+series: Plymouth
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 428
+  - 429
+  - 430
+  - 431
+leaf_pages:
+  428: 410
+  429: 411
+  430: 412
+  431: 413
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 520
+  spacing:
+    straight: 22
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      431:120pt: 30.2
+      430:96pt: 53.8
+      430:72pt: 44.0
+      430:60pt: 43.1
+      429:54pt: 42.6
+      429:48pt: 41.0
+      429:36pt: 44.3
+      428:30pt: 48.5
+specimen_lines:
+- leaf: 431
+  line: 120pt
+  text: DOG
+  band: 2
+  by: claude+ocr
+- leaf: 431
+  line: 120pt
+  text: Boys 9
+  band: 3
+  by: claude
+- leaf: 430
+  line: 96pt
+  text: SONG
+  band: 7
+  by: claude+ocr
+- leaf: 430
+  line: 96pt
+  text: 8 Sledge
+  band: 8
+  by: claude+ocr
+- leaf: 430
+  line: 72pt
+  text: FROGS
+  band: 5
+  by: claude+ocr
+- leaf: 430
+  line: 72pt
+  text: Leaping 4
+  band: 6
+  by: claude+ocr
+- leaf: 430
+  line: 60pt
+  text: BRIDGE
+  band: 3
+  by: claude+ocr
+- leaf: 430
+  line: 60pt
+  text: Dark 5 Spot
+  band: 4
+  by: claude+ocr
+- leaf: 429
+  line: 54pt
+  text: STORIES
+  band: 6
+  by: claude+ocr
+- leaf: 429
+  line: 54pt
+  text: Rifle 2 Range
+  band: 7
+  by: claude+ocr
+- leaf: 429
+  line: 48pt
+  text: ELECTRIC
+  band: 4
+  by: claude+ocr
+- leaf: 429
+  line: 48pt
+  text: Storm 7 Hacks
+  band: 5
+  by: claude+ocr
+- leaf: 429
+  line: 36pt
+  text: EAST GROVE
+  band: 2
+  by: claude+ocr
+- leaf: 429
+  line: 36pt
+  text: Pleasing 3 Comedy
+  band: 3
+  by: claude
+- leaf: 428
+  line: 30pt
+  text: STORM CLOUDS
+  band: 4
+  by: claude+ocr
+- leaf: 428
+  line: 30pt
+  text: Moonlight on 2 the Lake
+  band: 5
+  by: claude+ocr
+lines:
+  431:120pt:
+    n_caps: 4
+    cap_height_px: 532.5
+    cap_source: caps
+    baseline_px: 1289
+    baselines:
+      '2': 1289
+      '3': 1948
+    glyphs:
+    - D
+    - O
+    - G
+    - B
+    - o
+    - y
+    - s
+    - nine
+    x_height_px: 343
+    figure_height_px: 535
+    stem_px: 97.0
+    scale: 1.31455
+    stem_units: 127.5
+    x_height: 451
+    figure_height: 703
+  430:96pt:
+    n_caps: 5
+    cap_height_px: 429
+    cap_source: caps
+    baseline_px: 3039.0
+    baselines:
+      '7': 3039.0
+      '8': 3573
+    glyphs:
+    - S
+    - O.96pt
+    - N
+    - G.96pt
+    - eight
+    - S.96pt
+    - l
+    - e
+    - d
+    - g
+    - e.96pt
+    x_height_px: 422
+    figure_height_px: 427
+    stem_px: 61
+    scale: 1.6317
+    stem_units: 99.5
+    x_height: 689
+    figure_height: 697
+  430:72pt:
+    n_caps: 6
+    cap_height_px: 318.0
+    cap_source: caps
+    baseline_px: 1921
+    baselines:
+      '5': 1921
+      '6': 2325
+    glyphs:
+    - F
+    - R
+    - O.72pt
+    - G.72pt
+    - S.72pt
+    - L
+    - e.72pt
+    - a
+    - p
+    - i
+    - n
+    - g.72pt
+    - four
+    x_height_px: 239.0
+    figure_height_px: 325
+    stem_px: 70.5
+    scale: 2.20126
+    stem_units: 155.2
+    x_height: 526
+    figure_height: 715
+  430:60pt:
+    n_caps: 8
+    cap_height_px: 260.0
+    cap_source: caps
+    baseline_px: 985.0
+    baselines:
+      '3': 985.0
+      '4': 1320.0
+    glyphs:
+    - B.60pt
+    - R.60pt
+    - I
+    - D.60pt
+    - G.60pt
+    - E
+    - D.60pt_2
+    - a.60pt
+    - r
+    - k
+    - five
+    - S.60pt
+    - p.60pt
+    - o.60pt
+    - t
+    x_height_px: 197.5
+    figure_height_px: 262
+    stem_px: 63.0
+    scale: 2.69231
+    stem_units: 169.6
+    x_height: 532
+    figure_height: 705
+  429:54pt:
+    n_caps: 9
+    cap_height_px: 230
+    cap_source: caps
+    baseline_px: 2298
+    baselines:
+      '6': 2298
+      '7': 2607.0
+    glyphs:
+    - S.54pt
+    - T
+    - O.54pt
+    - R.54pt
+    - I.54pt
+    - E.54pt
+    - S.54pt_2
+    - R.54pt_2
+    - i.54pt
+    - f
+    - l.54pt
+    - e.54pt
+    - two
+    - R.54pt_3
+    - a.54pt
+    - n.54pt
+    - g.54pt
+    - e.54pt_2
+    x_height_px: 180.0
+    figure_height_px: 228
+    stem_px: 53
+    scale: 3.04348
+    stem_units: 161.3
+    x_height: 548
+    figure_height: 694
+  429:48pt:
+    n_caps: 10
+    cap_height_px: 205.0
+    cap_source: caps
+    baseline_px: 1538.0
+    baselines:
+      '4': 1538.0
+      '5': 1814.5
+    glyphs:
+    - E.48pt
+    - L.48pt
+    - E.48pt_2
+    - C
+    - T.48pt
+    - R.48pt
+    - I.48pt
+    - C.48pt
+    - S.48pt
+    - t.48pt
+    - o.48pt
+    - r.48pt
+    - m
+    - seven
+    - H
+    - a.48pt
+    - c
+    - k.48pt
+    - s.48pt
+    x_height_px: 129.0
+    figure_height_px: 207
+    stem_px: 48.0
+    scale: 3.41463
+    stem_units: 163.9
+    x_height: 440
+    figure_height: 707
+  429:36pt:
+    n_caps: 11
+    cap_height_px: 158
+    cap_source: caps
+    baseline_px: 877
+    baselines:
+      '2': 877
+      '3': 1086.0
+    glyphs:
+    - E.36pt
+    - A
+    - S.36pt
+    - T.36pt
+    - G.36pt
+    - R.36pt
+    - O.36pt
+    - V
+    - E.36pt_2
+    - P
+    - l.36pt
+    - e.36pt
+    - a.36pt
+    - s.36pt
+    - i.36pt
+    - n.36pt
+    - g.36pt
+    - three
+    - C.36pt
+    - o.36pt
+    - m.36pt
+    - e.36pt_2
+    - d.36pt
+    - y.36pt
+    x_height_px: 104.5
+    figure_height_px: 156
+    stem_px: 32
+    scale: 4.43038
+    stem_units: 141.8
+    x_height: 463
+    figure_height: 691
+  428:30pt:
+    n_caps: 13
+    cap_height_px: 130
+    cap_source: caps
+    baseline_px: 3389
+    baselines:
+      '4': 3389
+      '5': 3588.5
+    glyphs:
+    - S.30pt
+    - T.30pt
+    - O.30pt
+    - R.30pt
+    - M
+    - C.30pt
+    - L.30pt
+    - O.30pt_2
+    - U
+    - D.30pt
+    - S.30pt_2
+    - M.30pt
+    - o.30pt
+    - o.30pt_2
+    - n.30pt
+    - l.30pt
+    - i.30pt
+    - g.30pt
+    - h
+    - t.30pt
+    - o.30pt_3
+    - n.30pt_2
+    - two.30pt
+    - t.30pt_2
+    - h.30pt
+    - e.30pt
+    - L.30pt_2
+    - a.30pt
+    - k.30pt
+    - e.30pt_2
+    x_height_px: 95.5
+    figure_height_px: 130
+    stem_px: 32
+    scale: 5.38462
+    stem_units: 172.3
+    x_height: 514
+    figure_height: 700

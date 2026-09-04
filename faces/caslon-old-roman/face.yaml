@@ -1,0 +1,278 @@
+name: caslon-old-roman
+title: Caslon Old Roman
+series: Caslon Old Roman
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 367
+  - 368
+leaf_pages:
+  367: 349
+  368: 350
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 444
+  spacing:
+    straight: 32
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      368:72pt: 63.3
+      367:60pt: 63.3
+      367:48pt: 46.9
+      367:42pt: 69.2
+      367:36pt: 49.7
+specimen_lines:
+- leaf: 368
+  line: 72pt
+  text: GREEN
+  band: 2
+  by: claude+ocr
+- leaf: 368
+  line: 72pt
+  text: Ball 7 Caps
+  band: 3
+  by: claude+ocr
+- leaf: 367
+  line: 60pt
+  text: FEDORA
+  band: 8
+  by: claude+ocr
+- leaf: 367
+  line: 60pt
+  text: Boys 4 Make
+  band: 9
+  by: claude
+- leaf: 367
+  line: 48pt
+  text: PRACTICAL
+  band: 6
+  by: claude+ocr
+- leaf: 367
+  line: 48pt
+  text: Mens 3 Clothing
+  band: 7
+  by: claude+ocr
+- leaf: 367
+  line: 42pt
+  text: HANDSOME
+  band: 4
+  by: claude+ocr
+- leaf: 367
+  line: 42pt
+  text: Appears 5 Pleased
+  band: 5
+  by: claude+ocr
+- leaf: 367
+  line: 36pt
+  text: NEW STYLES
+  band: 2
+  by: claude+ocr
+- leaf: 367
+  line: 36pt
+  text: Beauti[fu]l 8 Tailorings
+  band: 3
+  by: claude
+lines:
+  368:72pt:
+    n_caps: 7
+    cap_height_px: 315
+    cap_source: caps
+    baseline_px: 1034
+    baselines:
+      '2': 1034
+      '3': 1446.0
+    glyphs:
+    - G
+    - R
+    - E
+    - E.72pt
+    - N
+    - B
+    - a
+    - l
+    - l.72pt
+    - seven
+    - C
+    - a.72pt
+    - p
+    - s
+    x_height_px: 245.5
+    figure_height_px: 323
+    stem_px: 39
+    scale: 2.22222
+    stem_units: 86.7
+    x_height: 546
+    figure_height: 718
+  367:60pt:
+    n_caps: 8
+    cap_height_px: 254.5
+    cap_source: caps
+    baseline_px: 3142.0
+    baselines:
+      '8': 3142.0
+      '9': 3469.0
+    glyphs:
+    - F
+    - E.60pt
+    - D
+    - O
+    - R.60pt
+    - A
+    - B.60pt
+    - o
+    - y
+    - s.60pt
+    - four
+    - M
+    - a.60pt
+    - k
+    - e
+    x_height_px: 160.0
+    figure_height_px: 257
+    stem_px: 22.5
+    scale: 2.75049
+    stem_units: 61.9
+    x_height: 440
+    figure_height: 707
+  367:48pt:
+    n_caps: 11
+    cap_height_px: 209
+    cap_source: caps
+    baseline_px: 2286
+    baselines:
+      '6': 2286
+      '7': 2586.5
+    glyphs:
+    - P
+    - R.48pt
+    - A.48pt
+    - C.48pt
+    - T
+    - I
+    - C.48pt_2
+    - A.48pt_2
+    - L
+    - M.48pt
+    - e.48pt
+    - n
+    - s.48pt
+    - three
+    - C.48pt_3
+    - l.48pt
+    - o.48pt
+    - t
+    - h
+    - i
+    - n.48pt
+    - g
+    x_height_px: 156.0
+    figure_height_px: 213
+    stem_px: 28
+    scale: 3.34928
+    stem_units: 93.8
+    x_height: 522
+    figure_height: 713
+  367:42pt:
+    n_caps: 10
+    cap_height_px: 182.0
+    cap_source: caps
+    baseline_px: 1544.0
+    baselines:
+      '4': 1544.0
+      '5': 1808.5
+    glyphs:
+    - H
+    - A.42pt
+    - N.42pt
+    - D.42pt
+    - S
+    - O.42pt
+    - M.42pt
+    - E.42pt
+    - A.42pt_2
+    - p.42pt
+    - p.42pt_2
+    - e.42pt
+    - a.42pt
+    - r
+    - s.42pt
+    - five
+    - P.42pt
+    - l.42pt
+    - e.42pt_2
+    - a.42pt_2
+    - s.42pt_2
+    - e.42pt_3
+    - d
+    x_height_px: 115.5
+    figure_height_px: 187
+    stem_px: 17.0
+    scale: 3.84615
+    stem_units: 65.4
+    x_height: 444
+    figure_height: 719
+  367:36pt:
+    n_caps: 11
+    cap_height_px: 155
+    cap_source: caps
+    baseline_px: 852
+    baselines:
+      '2': 852
+      '3': 1085.0
+    glyphs:
+    - N.36pt
+    - E.36pt
+    - W
+    - S.36pt
+    - T.36pt
+    - Y
+    - L.36pt
+    - E.36pt_2
+    - S.36pt_2
+    - B.36pt
+    - e.36pt
+    - a.36pt
+    - u
+    - t.36pt
+    - i.36pt
+    - l.36pt
+    - eight
+    - T.36pt_2
+    - a.36pt_2
+    - i.36pt_2
+    - l.36pt_2
+    - o.36pt
+    - r.36pt
+    - i.36pt_3
+    - n.36pt
+    - g.36pt
+    - s.36pt
+    x_height_px: 97
+    figure_height_px: 161
+    stem_px: 17
+    scale: 4.51613
+    stem_units: 76.8
+    x_height: 438
+    figure_height: 727

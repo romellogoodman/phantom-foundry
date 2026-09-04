@@ -209,7 +209,8 @@ def sort(face: Face, glyphs: list[str] | None = None, engine: str = "potrace") -
             "line": e.group, "band": e.band, "category": e.category, "scale": round(m["scale"], 5),
             "baseline_px": baseline, "cap_height_px": m["cap_height_px"],
             "alignment": "line: shared scale (cap_height / median cap ink height), shared baseline (median cap ink bottom)",
-            "sidebearing": sb, "stem_units": stem_units, "dropped_contours": dropped,
+            "sidebearing": sb, "dropped_contours": dropped,
+            **({"stem_units": stem_units} if stem_units is not None else {}),   # plist cannot hold None
         }
         rec = {"glyph": e.glyph, "engine": engine, "line": e.group, "category": e.category,
                "width": g.width, "bounds": [round(v) for v in (l, b, r, t)],

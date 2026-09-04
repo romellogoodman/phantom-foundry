@@ -1,0 +1,216 @@
+name: lining-spenser
+title: Lining Spenser
+series: Lining Spenser
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 332
+leaf_pages:
+  332: 314
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 26
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      332:60pt: 38.9
+      332:48pt: 37.5
+      332:36pt: 51.7
+      332:30pt: 51.0
+      332:24pt: 58.3
+specimen_lines:
+- leaf: 332
+  line: 60pt
+  text: RAPID 3 GAINS
+  band: 7
+  by: claude+ocr
+- leaf: 332
+  line: 48pt
+  text: LUNCHES 4 SERVED
+  band: 6
+  by: claude+ocr
+- leaf: 332
+  line: 36pt
+  text: GREATER 5 BARGAIN
+  band: 5
+  by: claude
+- leaf: 332
+  line: 30pt
+  text: EXCURSION 8 STEAMERS
+  band: 4
+  by: claude
+- leaf: 332
+  line: 24pt
+  text: THE CHICAGO 6 CITY LIBRARIES
+  band: 3
+  by: claude+ocr
+lines:
+  332:60pt:
+    n_caps: 10
+    cap_height_px: 279.0
+    cap_source: caps
+    baseline_px: 3568.0
+    baselines:
+      '7': 3568.0
+    glyphs:
+    - R
+    - A
+    - P
+    - I
+    - D
+    - three
+    - G
+    - A.60pt
+    - I.60pt
+    - N
+    - S
+    figure_height_px: 277
+    stem_px: 21.0
+    scale: 2.50896
+    stem_units: 52.7
+    figure_height: 695
+  332:48pt:
+    n_caps: 13
+    cap_height_px: 224
+    cap_source: caps
+    baseline_px: 3067
+    baselines:
+      '6': 3067
+    glyphs:
+    - L
+    - U
+    - N.48pt
+    - C
+    - H
+    - E
+    - S.48pt
+    - four
+    - S.48pt_2
+    - E.48pt
+    - R.48pt
+    - V
+    - E.48pt_2
+    - D.48pt
+    figure_height_px: 221
+    stem_px: 18
+    scale: 3.125
+    stem_units: 56.2
+    figure_height: 691
+  332:36pt:
+    n_caps: 14
+    cap_height_px: 176.0
+    cap_source: caps
+    baseline_px: 2643.5
+    baselines:
+      '5': 2643.5
+    glyphs:
+    - G.36pt
+    - R.36pt
+    - E.36pt
+    - A.36pt
+    - T
+    - E.36pt_2
+    - R.36pt_2
+    - five
+    - B
+    - A.36pt_2
+    - R.36pt_3
+    - G.36pt_2
+    - A.36pt_3
+    - I.36pt
+    - N.36pt
+    figure_height_px: 176
+    stem_px: 15.5
+    scale: 3.97727
+    stem_units: 61.6
+    figure_height: 700
+  332:30pt:
+    n_caps: 17
+    cap_height_px: 151
+    cap_source: caps
+    baseline_px: 2278
+    baselines:
+      '4': 2278
+    glyphs:
+    - E.30pt
+    - X
+    - C.30pt
+    - U.30pt
+    - R.30pt
+    - S.30pt
+    - I.30pt
+    - O
+    - N.30pt
+    - eight
+    - S.30pt_2
+    - T.30pt
+    - E.30pt_2
+    - A.30pt
+    - M
+    - E.30pt_3
+    - R.30pt_2
+    - S.30pt_3
+    figure_height_px: 152
+    stem_px: 15
+    scale: 4.63576
+    stem_units: 69.5
+    figure_height: 705
+  332:24pt:
+    n_caps: 23
+    cap_height_px: 120
+    cap_source: caps
+    baseline_px: 1927
+    baselines:
+      '3': 1927
+    glyphs:
+    - T.24pt
+    - H.24pt
+    - E.24pt
+    - C.24pt
+    - H.24pt_2
+    - I.24pt
+    - C.24pt_2
+    - A.24pt
+    - G.24pt
+    - O.24pt
+    - six
+    - C.24pt_3
+    - I.24pt_2
+    - T.24pt_2
+    - Y
+    - L.24pt
+    - I.24pt_3
+    - B.24pt
+    - R.24pt
+    - A.24pt_2
+    - R.24pt_2
+    - I.24pt_4
+    - E.24pt_2
+    - S.24pt
+    figure_height_px: 119
+    stem_px: 12
+    scale: 5.83333
+    stem_units: 70.0
+    figure_height: 694

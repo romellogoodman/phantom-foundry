@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i.48pt" format="2">
+  <advance width="219"/>
+  <outline>
+    <contour>
+      <point x="147.22915649414062" y="495.0" type="curve" smooth="yes"/>
+      <point x="124.22915649414062" y="481.0"/>
+      <point x="100.22915649414062" y="472.0"/>
+      <point x="67.22915649414062" y="467.0" type="curve" smooth="yes"/>
+      <point x="54.229156494140625" y="465.0"/>
+      <point x="42.229156494140625" y="463.0"/>
+      <point x="39.229156494140625" y="462.0" type="curve"/>
+      <point x="36.229156494140625" y="462.0"/>
+      <point x="36.229156494140625" y="410.0"/>
+      <point x="37.229156494140625" y="235.0" type="curve" smooth="yes"/>
+      <point x="38.229156494140625" y="110.0"/>
+      <point x="40.229156494140625" y="7.0"/>
+      <point x="42.229156494140625" y="5.0" type="curve" smooth="yes"/>
+      <point x="44.229156494140625" y="3.0"/>
+      <point x="113.22915649414062" y="2.0"/>
+      <point x="176.22915649414062" y="3.0" type="curve" smooth="yes"/>
+      <point x="180.22915649414062" y="3.0"/>
+      <point x="180.22915649414062" y="62.0"/>
+      <point x="175.22915649414062" y="456.0" type="curve" smooth="yes"/>
+      <point x="175.22915649414062" y="486.0"/>
+      <point x="173.22915649414062" y="506.0"/>
+      <point x="171.22915649414062" y="507.0" type="curve"/>
+      <point x="170.22915649414062" y="508.0"/>
+      <point x="159.22915649414062" y="502.0"/>
+    </contour>
+    <contour>
+      <point x="94.22915649414062" y="687.0" type="curve" smooth="yes"/>
+      <point x="40.229156494140625" y="678.0"/>
+      <point x="18.229156494140625" y="622.0"/>
+      <point x="52.229156494140625" y="579.0" type="curve" smooth="yes"/>
+      <point x="83.22915649414062" y="539.0"/>
+      <point x="143.22915649414062" y="545.0"/>
+      <point x="166.22915649414062" y="589.0" type="curve" smooth="yes"/>
+      <point x="191.22915649414062" y="639.0"/>
+      <point x="150.22915649414062" y="695.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.phantomfoundry.justify</key>
+      <dict>
+        <key>depth_left</key>
+        <real>10.7</real>
+        <key>depth_right</key>
+        <real>6.1</real>
+        <key>lsb</key>
+        <integer>36</integer>
+        <key>params</key>
+        <dict>
+          <key>basis</key>
+          <string>derived: half the median printed letter gap across the specimen lines</string>
+          <key>depth</key>
+          <integer>25</integer>
+          <key>min</key>
+          <integer>-10</integer>
+          <key>printed_gaps</key>
+          <dict>
+            <key>412:30pt</key>
+            <real>90.2</real>
+            <key>412:36pt</key>
+            <real>87.5</real>
+            <key>413:48pt</key>
+            <real>90.9</real>
+            <key>413:60pt</key>
+            <real>95.8</real>
+          </dict>
+          <key>straight</key>
+          <integer>45</integer>
+        </dict>
+        <key>rsb</key>
+        <integer>40</integer>
+      </dict>
+      <key>com.phantomfoundry.sort</key>
+      <dict>
+        <key>alignment</key>
+        <string>line: shared scale (cap_height / median cap ink height), shared baseline (median cap ink bottom)</string>
+        <key>band</key>
+        <string>3</string>
+        <key>baseline_px</key>
+        <real>1255.0</real>
+        <key>cap_height_px</key>
+        <real>208.0</real>
+        <key>category</key>
+        <string>lower</string>
+        <key>dropped_contours</key>
+        <array/>
+        <key>engine</key>
+        <string>potrace</string>
+        <key>line</key>
+        <string>413:48pt</string>
+        <key>scale</key>
+        <real>3.36538</real>
+        <key>sidebearing</key>
+        <integer>40</integer>
+        <key>source_sha256</key>
+        <string>4b5ea065fe5ed0db35c5072ccc9b40527ccc793ce0ace4e355c4e1728d782812</string>
+        <key>source_svg</key>
+        <string>svg/potrace/i.48pt.svg</string>
+        <key>stem_units</key>
+        <real>138.0</real>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

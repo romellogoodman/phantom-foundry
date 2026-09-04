@@ -1,0 +1,299 @@
+name: adstyle-wide
+title: Adstyle Wide
+series: Adstyle Wide
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 468
+  - 469
+leaf_pages:
+  468: 450
+  469: 451
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 493
+  spacing:
+    straight: 22
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      469:60pt: 44.1
+      469:54pt: 42.2
+      469:48pt: 51.2
+      469:42pt: 42.3
+      468:36pt: 36.1
+      468:30pt: 43.8
+specimen_lines:
+- leaf: 469
+  line: 60pt
+  text: DRUM
+  band: 8
+  by: claude
+- leaf: 469
+  line: 60pt
+  text: Bender 9
+  band: 9
+  by: claude+ocr
+- leaf: 469
+  line: 54pt
+  text: CHIME
+  band: 6
+  by: claude
+- leaf: 469
+  line: 54pt
+  text: One 8 Tile
+  band: 7
+  by: claude
+- leaf: 469
+  line: 48pt
+  text: HORDS
+  band: 4
+  by: claude
+- leaf: 469
+  line: 48pt
+  text: Gold 7 Seat
+  band: 5
+  by: claude+ocr
+- leaf: 469
+  line: 42pt
+  text: MINERS
+  band: 2
+  by: claude
+- leaf: 469
+  line: 42pt
+  text: Blind 6 Hero
+  band: 3
+  by: claude
+- leaf: 468
+  line: 36pt
+  text: DIAMOND
+  band: 5
+  by: claude
+- leaf: 468
+  line: 36pt
+  text: Bands 5 Taken
+  band: 6
+  by: claude
+- leaf: 468
+  line: 30pt
+  text: MONSTERS
+  band: 3
+  by: claude
+- leaf: 468
+  line: 30pt
+  text: Horrible 4 Change
+  band: 4
+  by: claude
+lines:
+  469:60pt:
+    n_caps: 5
+    cap_height_px: 254
+    cap_source: caps
+    baseline_px: 3224.0
+    baselines:
+      '8': 3224.0
+      '9': 3552
+    glyphs:
+    - D
+    - R
+    - U
+    - M
+    - B
+    - e
+    - n
+    - d
+    - e.60pt
+    - r
+    - nine
+    x_height_px: 178
+    figure_height_px: 263
+    stem_px: 77
+    scale: 2.75591
+    stem_units: 212.2
+    x_height: 491
+    figure_height: 725
+  469:54pt:
+    n_caps: 7
+    cap_height_px: 232
+    cap_source: caps
+    baseline_px: 2425
+    baselines:
+      '6': 2425
+      '7': 2725.5
+    glyphs:
+    - C
+    - H
+    - I
+    - M.54pt
+    - E
+    - O
+    - n.54pt
+    - e.54pt
+    - eight
+    - T
+    - i
+    - l
+    - e.54pt_2
+    x_height_px: 164
+    figure_height_px: 241
+    stem_px: 54
+    scale: 3.01724
+    stem_units: 162.9
+    x_height: 495
+    figure_height: 727
+  469:48pt:
+    n_caps: 7
+    cap_height_px: 205
+    cap_source: caps
+    baseline_px: 1634
+    baselines:
+      '4': 1634
+      '5': 1918.5
+    glyphs:
+    - H.48pt
+    - O.48pt
+    - R.48pt
+    - D.48pt
+    - S
+    - G
+    - o
+    - l.48pt
+    - d.48pt
+    - seven
+    - S.48pt
+    - e.48pt
+    - a
+    - t
+    x_height_px: 166.0
+    figure_height_px: 204
+    stem_px: 64
+    scale: 3.41463
+    stem_units: 218.5
+    x_height: 567
+    figure_height: 697
+  469:42pt:
+    n_caps: 8
+    cap_height_px: 182.0
+    cap_source: caps
+    baseline_px: 930.5
+    baselines:
+      '2': 930.5
+      '3': 1179.5
+    glyphs:
+    - M.42pt
+    - I.42pt
+    - N
+    - E.42pt
+    - R.42pt
+    - S.42pt
+    - B.42pt
+    - l.42pt
+    - i.42pt
+    - n.42pt
+    - d.42pt
+    - six
+    - H.42pt
+    - e.42pt
+    - r.42pt
+    - o.42pt
+    x_height_px: 129
+    figure_height_px: 189
+    stem_px: 47.5
+    scale: 3.84615
+    stem_units: 182.7
+    x_height: 496
+    figure_height: 727
+  468:36pt:
+    n_caps: 9
+    cap_height_px: 155
+    cap_source: caps
+    baseline_px: 3388
+    baselines:
+      '5': 3388
+      '6': 3586.0
+    glyphs:
+    - D.36pt
+    - I.36pt
+    - A
+    - M.36pt
+    - O.36pt
+    - N.36pt
+    - D.36pt_2
+    - B.36pt
+    - a.36pt
+    - n.36pt
+    - d.36pt
+    - s
+    - five
+    - T.36pt
+    - a.36pt_2
+    - k
+    - e.36pt
+    - n.36pt_2
+    x_height_px: 108.5
+    figure_height_px: 158
+    stem_px: 49
+    scale: 4.51613
+    stem_units: 221.3
+    x_height: 490
+    figure_height: 714
+  468:30pt:
+    n_caps: 10
+    cap_height_px: 128.0
+    cap_source: caps
+    baseline_px: 2860.0
+    baselines:
+      '3': 2860.0
+      '4': 3027.5
+    glyphs:
+    - M.30pt
+    - O.30pt
+    - N.30pt
+    - S.30pt
+    - T.30pt
+    - E.30pt
+    - R.30pt
+    - S.30pt_2
+    - H.30pt
+    - o.30pt
+    - r.30pt
+    - r.30pt_2
+    - i.30pt
+    - b
+    - l.30pt
+    - e.30pt
+    - four
+    - C.30pt
+    - h
+    - a.30pt
+    - n.30pt
+    - g
+    - e.30pt_2
+    x_height_px: 90.0
+    figure_height_px: 127
+    stem_px: 28.0
+    scale: 5.46875
+    stem_units: 153.1
+    x_height: 492
+    figure_height: 695

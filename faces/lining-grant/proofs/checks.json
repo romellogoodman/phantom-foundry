@@ -1,0 +1,71 @@
+{
+  "status": "warn",
+  "warnings": 8,
+  "infos": 1,
+  "encoded": 47,
+  "items": [
+    {
+      "level": "warn",
+      "check": "trace_iou",
+      "glyph": "I.72pt",
+      "value": 0.946,
+      "note": "potrace trace overlaps the scan by less than 94% (cap 323 px)"
+    },
+    {
+      "level": "warn",
+      "check": "trace_iou",
+      "glyph": "n.72pt",
+      "value": 0.94,
+      "note": "potrace trace overlaps the scan by less than 94% (cap 323 px)"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "a.48pt_3",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "warn",
+      "check": "trace_iou",
+      "glyph": "T.30pt",
+      "value": 0.885,
+      "note": "potrace trace overlaps the scan by less than 88% (cap 128 px)"
+    },
+    {
+      "level": "warn",
+      "check": "trace_iou",
+      "glyph": "I.30pt_2",
+      "value": 0.867,
+      "note": "potrace trace overlaps the scan by less than 88% (cap 128 px)"
+    },
+    {
+      "level": "warn",
+      "check": "trace_iou",
+      "glyph": "l.30pt",
+      "value": 0.865,
+      "note": "potrace trace overlaps the scan by less than 88% (cap 128 px)"
+    },
+    {
+      "level": "warn",
+      "check": "trace_iou",
+      "glyph": "l.30pt_2",
+      "value": 0.865,
+      "note": "potrace trace overlaps the scan by less than 88% (cap 128 px)"
+    },
+    {
+      "level": "warn",
+      "check": "trace_iou",
+      "glyph": "l.30pt_3",
+      "value": 0.857,
+      "note": "potrace trace overlaps the scan by less than 88% (cap 128 px)"
+    },
+    {
+      "level": "warn",
+      "check": "trace_iou",
+      "glyph": "l.30pt_4",
+      "value": 0.863,
+      "note": "potrace trace overlaps the scan by less than 88% (cap 128 px)"
+    }
+  ]
+}

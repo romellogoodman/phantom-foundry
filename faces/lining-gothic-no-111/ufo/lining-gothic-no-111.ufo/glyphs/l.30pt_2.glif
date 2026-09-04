@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l.30pt_2" format="2">
+  <advance width="144"/>
+  <outline>
+    <contour>
+      <point x="33.154701232910156" y="691.0" type="curve"/>
+      <point x="32.154701232910156" y="683.0"/>
+      <point x="31.154701232910156" y="580.0"/>
+      <point x="33.154701232910156" y="460.0" type="curve" smooth="yes"/>
+      <point x="35.154701232910156" y="341.0"/>
+      <point x="37.154701232910156" y="192.0"/>
+      <point x="37.154701232910156" y="128.0" type="curve" smooth="yes"/>
+      <point x="37.154701232910156" y="11.0" type="line"/>
+      <point x="112.15470123291016" y="11.0" type="line"/>
+      <point x="111.15470123291016" y="349.0" type="line" smooth="yes"/>
+      <point x="110.15470123291016" y="534.0"/>
+      <point x="107.15470123291016" y="690.0"/>
+      <point x="104.15470123291016" y="696.0" type="curve"/>
+      <point x="100.15470123291016" y="703.0"/>
+      <point x="92.15470123291016" y="706.0"/>
+      <point x="68.15470123291016" y="706.0" type="curve" smooth="yes"/>
+      <point x="40.154701232910156" y="706.0"/>
+      <point x="37.154701232910156" y="705.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.phantomfoundry.justify</key>
+      <dict>
+        <key>depth_left</key>
+        <real>2.3</real>
+        <key>depth_right</key>
+        <real>2.1</real>
+        <key>lsb</key>
+        <integer>32</integer>
+        <key>params</key>
+        <dict>
+          <key>basis</key>
+          <string>derived: half the median printed letter gap across the specimen lines</string>
+          <key>depth</key>
+          <integer>25</integer>
+          <key>min</key>
+          <integer>-10</integer>
+          <key>printed_gaps</key>
+          <dict>
+            <key>284:30pt</key>
+            <real>80.3</real>
+            <key>284:36pt</key>
+            <real>71.9</real>
+            <key>285:48pt</key>
+            <real>55.6</real>
+            <key>285:60pt</key>
+            <real>64.2</real>
+          </dict>
+          <key>straight</key>
+          <integer>34</integer>
+        </dict>
+        <key>rsb</key>
+        <integer>32</integer>
+      </dict>
+      <key>com.phantomfoundry.sort</key>
+      <dict>
+        <key>alignment</key>
+        <string>line: shared scale (cap_height / median cap ink height), shared baseline (median cap ink bottom)</string>
+        <key>band</key>
+        <string>6</string>
+        <key>baseline_px</key>
+        <integer>2971</integer>
+        <key>cap_height_px</key>
+        <real>122.0</real>
+        <key>category</key>
+        <string>lower</string>
+        <key>dropped_contours</key>
+        <array/>
+        <key>engine</key>
+        <string>potrace</string>
+        <key>line</key>
+        <string>284:30pt</string>
+        <key>scale</key>
+        <real>5.7377</real>
+        <key>sidebearing</key>
+        <integer>40</integer>
+        <key>source_sha256</key>
+        <string>3095628dda1eb350ffb7f982155548e0c998caf8d0119b3968ea7f1daa95d0b4</string>
+        <key>source_svg</key>
+        <string>svg/potrace/l.30pt_2.svg</string>
+        <key>stem_units</key>
+        <real>74.6</real>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

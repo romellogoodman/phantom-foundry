@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l" format="2">
+  <advance width="140"/>
+  <unicode hex="006C"/>
+  <outline>
+    <contour>
+      <point x="35.8113899230957" y="697.0" type="curve"/>
+      <point x="32.8113899230957" y="695.0"/>
+      <point x="33.8113899230957" y="29.0"/>
+      <point x="36.8113899230957" y="14.0" type="curve"/>
+      <point x="37.8113899230957" y="4.0" type="line"/>
+      <point x="104.81138610839844" y="4.0" type="line"/>
+      <point x="106.81138610839844" y="28.0" type="line" smooth="yes"/>
+      <point x="108.81138610839844" y="56.0"/>
+      <point x="105.81138610839844" y="689.0"/>
+      <point x="103.81138610839844" y="696.0" type="curve"/>
+      <point x="101.81138610839844" y="700.0"/>
+      <point x="40.8113899230957" y="702.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.phantomfoundry.justify</key>
+      <dict>
+        <key>depth_left</key>
+        <real>0.3</real>
+        <key>depth_right</key>
+        <real>1.0</real>
+        <key>lsb</key>
+        <integer>34</integer>
+        <key>params</key>
+        <dict>
+          <key>basis</key>
+          <string>derived: half the median printed letter gap across the specimen lines</string>
+          <key>depth</key>
+          <integer>25</integer>
+          <key>min</key>
+          <integer>-10</integer>
+          <key>printed_gaps</key>
+          <dict>
+            <key>284:30pt</key>
+            <real>80.3</real>
+            <key>284:36pt</key>
+            <real>71.9</real>
+            <key>285:48pt</key>
+            <real>55.6</real>
+            <key>285:60pt</key>
+            <real>64.2</real>
+          </dict>
+          <key>straight</key>
+          <integer>34</integer>
+        </dict>
+        <key>rsb</key>
+        <integer>33</integer>
+      </dict>
+      <key>com.phantomfoundry.sort</key>
+      <dict>
+        <key>alignment</key>
+        <string>line: shared scale (cap_height / median cap ink height), shared baseline (median cap ink bottom)</string>
+        <key>band</key>
+        <string>3</string>
+        <key>baseline_px</key>
+        <integer>1169</integer>
+        <key>cap_height_px</key>
+        <integer>195</integer>
+        <key>category</key>
+        <string>lower</string>
+        <key>dropped_contours</key>
+        <array/>
+        <key>engine</key>
+        <string>potrace</string>
+        <key>line</key>
+        <string>285:48pt</string>
+        <key>scale</key>
+        <real>3.58974</real>
+        <key>sidebearing</key>
+        <integer>40</integer>
+        <key>source_sha256</key>
+        <string>e43c04ceb2780643992b57ac2eb9d57a498c240b3bb3e3bed3fbf05a47a1bc78</string>
+        <key>source_svg</key>
+        <string>svg/potrace/l.svg</string>
+        <key>stem_units</key>
+        <real>71.8</real>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

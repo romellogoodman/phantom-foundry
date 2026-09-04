@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I" format="2">
+  <advance width="159"/>
+  <unicode hex="0049"/>
+  <outline>
+    <contour>
+      <point x="23.006839752197266" y="699.0" type="curve"/>
+      <point x="23.006839752197266" y="699.0"/>
+      <point x="28.006839752197266" y="693.0"/>
+      <point x="34.006839752197266" y="687.0" type="curve" smooth="yes"/>
+      <point x="43.006839752197266" y="678.0"/>
+      <point x="46.006839752197266" y="671.0"/>
+      <point x="49.006839752197266" y="658.0" type="curve" smooth="yes"/>
+      <point x="52.006839752197266" y="645.0"/>
+      <point x="53.006839752197266" y="566.0"/>
+      <point x="53.006839752197266" y="341.0" type="curve" smooth="yes"/>
+      <point x="52.006839752197266" y="88.0"/>
+      <point x="52.006839752197266" y="40.0"/>
+      <point x="48.006839752197266" y="32.0" type="curve"/>
+      <point x="44.006839752197266" y="20.0"/>
+      <point x="36.006839752197266" y="13.0"/>
+      <point x="28.006839752197266" y="11.0" type="curve"/>
+      <point x="24.006839752197266" y="11.0"/>
+      <point x="22.006839752197266" y="9.0"/>
+      <point x="22.006839752197266" y="7.0" type="curve"/>
+      <point x="21.006839752197266" y="3.0"/>
+      <point x="130.0068359375" y="2.0"/>
+      <point x="134.0068359375" y="5.0" type="curve"/>
+      <point x="135.0068359375" y="7.0"/>
+      <point x="133.0068359375" y="10.0"/>
+      <point x="129.0068359375" y="13.0" type="curve"/>
+      <point x="119.0068359375" y="19.0"/>
+      <point x="111.0068359375" y="36.0"/>
+      <point x="109.0068359375" y="57.0" type="curve"/>
+      <point x="105.0068359375" y="83.0"/>
+      <point x="107.0068359375" y="637.0"/>
+      <point x="111.0068359375" y="659.0" type="curve"/>
+      <point x="113.0068359375" y="676.0"/>
+      <point x="115.0068359375" y="678.0"/>
+      <point x="125.0068359375" y="685.0" type="curve"/>
+      <point x="137.0068359375" y="692.0"/>
+      <point x="139.0068359375" y="696.0"/>
+      <point x="132.0068359375" y="698.0" type="curve"/>
+      <point x="128.0068359375" y="700.0"/>
+      <point x="23.006839752197266" y="701.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.phantomfoundry.justify</key>
+      <dict>
+        <key>depth_left</key>
+        <real>28.3</real>
+        <key>depth_right</key>
+        <real>26.2</real>
+        <key>lsb</key>
+        <integer>22</integer>
+        <key>params</key>
+        <dict>
+          <key>basis</key>
+          <string>derived: half the median printed letter gap across the specimen lines</string>
+          <key>depth</key>
+          <integer>25</integer>
+          <key>min</key>
+          <integer>-10</integer>
+          <key>printed_gaps</key>
+          <dict>
+            <key>391:60pt</key>
+            <real>69.7</real>
+            <key>391:72pt</key>
+            <real>86.6</real>
+          </dict>
+          <key>straight</key>
+          <integer>39</integer>
+        </dict>
+        <key>rsb</key>
+        <integer>23</integer>
+      </dict>
+      <key>com.phantomfoundry.sort</key>
+      <dict>
+        <key>alignment</key>
+        <string>line: shared scale (cap_height / median cap ink height), shared baseline (median cap ink bottom)</string>
+        <key>band</key>
+        <string>3</string>
+        <key>baseline_px</key>
+        <integer>975</integer>
+        <key>cap_height_px</key>
+        <integer>241</integer>
+        <key>category</key>
+        <string>cap</string>
+        <key>dropped_contours</key>
+        <array/>
+        <key>engine</key>
+        <string>potrace</string>
+        <key>line</key>
+        <string>391:60pt</string>
+        <key>scale</key>
+        <real>2.90456</real>
+        <key>sidebearing</key>
+        <integer>40</integer>
+        <key>source_sha256</key>
+        <string>99d9348f94d5b351da1de656ea0586923ceb05e8ebee23e4a0a692a945063840</string>
+        <key>source_svg</key>
+        <string>svg/potrace/I_.svg</string>
+        <key>stem_units</key>
+        <real>55.2</real>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -131,6 +131,35 @@ def load_page(face: Face, leaf: int) -> Image.Image:
 LABEL_PAD_X, LABEL_PAD_Y = 3, 20
 
 
+def main_component(binary: np.ndarray) -> tuple[np.ndarray, tuple[int, int]]:
+    """The letter in a box: the largest ink component that does not touch the
+    box's left or right edge. A neighbor poking in touches an edge; a speck in
+    a U's counter is nearest the center but tiny. Falls back to the largest
+    component of all, then to the nearest ink to the center."""
+    h, w = binary.shape
+    remaining = binary.copy()
+    best, best_px, best_seed = None, 0, None
+    fallback, fallback_px, fallback_seed = None, 0, None
+    while remaining.any():
+        y, x = map(int, np.argwhere(remaining)[0])
+        comp = _component(binary, (x, y))
+        remaining &= ~comp
+        px = int(comp.sum())
+        cys, cxs = np.nonzero(comp)
+        touches = cxs.min() == 0 or cxs.max() == w - 1
+        if not touches and px > best_px:
+            best, best_px, best_seed = comp, px, (x, y)
+        if px > fallback_px:
+            fallback, fallback_px, fallback_seed = comp, px, (x, y)
+    if best is not None:
+        return best, best_seed
+    if fallback is not None:
+        return fallback, fallback_seed
+    bin_im = Image.fromarray(np.where(binary, 0, 255).astype(np.uint8)).copy()
+    seed = find_seed(bin_im, w // 2, h // 2)
+    return _component(binary, seed), seed
+
+
 def cut_glyph(face: Face, entry: GlyphEntry, pad_frac: float = 0.06, stack_slack: float = 0.15,
               page: Image.Image | None = None) -> dict:
     if page is None:
@@ -141,9 +170,7 @@ def cut_glyph(face: Face, entry: GlyphEntry, pad_frac: float = 0.06, stack_slack
 
     t = otsu_threshold(raw)
     binary = np.asarray(raw) < t                      # True = ink
-    bin_im = Image.fromarray(np.where(binary, 0, 255).astype(np.uint8)).copy()
-    seed = find_seed(bin_im, raw.width // 2, raw.height // 2)
-    main = _component(binary, seed)
+    main, seed = main_component(binary)
     ys, xs = np.nonzero(main)
     x0, x1 = int(xs.min()), int(xs.max()) + 1
     slack = int(round((x1 - x0) * stack_slack))
@@ -307,7 +334,10 @@ def survey(face: Face, leaf: int, min_line_height: int = 150, min_letter_width: 
 _NAMES = {"0": "zero", "1": "one", "2": "two", "3": "three", "4": "four", "5": "five",
           "6": "six", "7": "seven", "8": "eight", "9": "nine", "&": "ampersand",
           ".": "period", ",": "comma", "-": "hyphen", "'": "quotesingle", "!": "exclam",
-          "?": "question", ":": "colon", ";": "semicolon", "$": "dollar"}
+          "?": "question", ":": "colon", ";": "semicolon", "$": "dollar",
+          "ä": "adieresis", "ö": "odieresis", "ü": "udieresis", "ß": "germandbls",
+          "Ä": "Adieresis", "Ö": "Odieresis", "Ü": "Udieresis", "ſ": "longs",
+          "Ǝ": "Ereversed"}   # a wood block printed backwards on leaf 892 (U+018E)
 
 
 def category_of(ch: str) -> str:

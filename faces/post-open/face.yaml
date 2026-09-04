@@ -1,0 +1,123 @@
+name: post-open
+title: Post Open
+series: Post Open
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 295
+leaf_pages:
+  295: 277
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 505
+  spacing:
+    straight: 23
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      295:72pt: 36.6
+      295:60pt: 54.4
+specimen_lines:
+- leaf: 295
+  line: 72pt
+  text: CENTER
+  band: 6
+  by: claude
+- leaf: 295
+  line: 72pt
+  text: Sun 2 Cap
+  band: 7
+  by: claude
+- leaf: 295
+  line: 60pt
+  text: TOBACCO
+  band: 4
+  by: claude
+- leaf: 295
+  line: 60pt
+  text: Blue 8 Tags
+  band: 5
+  by: claude
+lines:
+  295:72pt:
+    n_caps: 8
+    cap_height_px: 325.5
+    cap_source: caps
+    baseline_px: 3039.0
+    baselines:
+      '6': 3039.0
+      '7': 3499.5
+    glyphs:
+    - C
+    - E
+    - N
+    - T
+    - E.72pt
+    - R
+    - S
+    - u
+    - n
+    - two
+    - C.72pt
+    - a
+    - p
+    x_height_px: 231.5
+    figure_height_px: 338
+    stem_px: 5.0
+    scale: 2.15054
+    stem_units: 10.8
+    x_height: 498
+    figure_height: 727
+  295:60pt:
+    n_caps: 9
+    cap_height_px: 264
+    cap_source: caps
+    baseline_px: 1888
+    baselines:
+      '4': 1888
+      '5': 2293.0
+    glyphs:
+    - T.60pt
+    - O
+    - B
+    - A
+    - C.60pt
+    - C.60pt_2
+    - O.60pt
+    - B.60pt
+    - l
+    - u.60pt
+    - e
+    - eight
+    - T.60pt_2
+    - a.60pt
+    - g
+    - s
+    x_height_px: 193.5
+    figure_height_px: 252
+    stem_px: 5
+    scale: 2.65152
+    stem_units: 13.3
+    x_height: 513
+    figure_height: 668

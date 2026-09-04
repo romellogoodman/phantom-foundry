@@ -1,0 +1,369 @@
+name: lining-de-vinne
+title: Lining De Vinne
+series: Lining De Vinne
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 302
+  - 303
+leaf_pages:
+  302: 284
+  303: 285
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 491
+  spacing:
+    straight: 28
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      303:72pt: 37.5
+      303:60pt: 44.6
+      303:54pt: 61.1
+      303:48pt: 56.9
+      302:42pt: 39.5
+      302:36pt: 59.5
+      302:30pt: 61.8
+specimen_lines:
+- leaf: 303
+  line: 72pt
+  text: MAD 3 Boy
+  band: 8
+  by: claude+ocr
+- leaf: 303
+  line: 60pt
+  text: BA[RG]AIN
+  band: 6
+  by: claude
+- leaf: 303
+  line: 60pt
+  text: Cheap 8 Hats
+  band: 7
+  by: claude+ocr
+- leaf: 303
+  line: 54pt
+  text: KING JOHN
+  band: 4
+  by: claude+ocr
+- leaf: 303
+  line: 54pt
+  text: Always 7 Bold
+  band: 5
+  by: claude+ocr
+- leaf: 303
+  line: 48pt
+  text: BUILDING
+  band: 2
+  by: claude+ocr
+- leaf: 303
+  line: 48pt
+  text: Cages for 5 Sale
+  band: 3
+  by: claude+ocr
+- leaf: 302
+  line: 42pt
+  text: FALL STYLE
+  band: 8
+  by: claude+ocr
+- leaf: 302
+  line: 42pt
+  text: Coats and 4 Sacques
+  band: 9
+  by: claude+ocr
+- leaf: 302
+  line: 36pt
+  text: FANCY LUNCH
+  band: 6
+  by: claude+ocr
+- leaf: 302
+  line: 36pt
+  text: '[Ro]om to 89 Open Soon'
+  band: 7
+  by: claude
+- leaf: 302
+  line: 30pt
+  text: YOUNG SOLDIE[RS]
+  band: 4
+  by: claude
+- leaf: 302
+  line: 30pt
+  text: Pursuing their 43 Enemies
+  band: 5
+  by: claude+ocr
+lines:
+  303:72pt:
+    n_caps: 4
+    cap_height_px: 298.5
+    cap_source: caps
+    baseline_px: 3500.5
+    baselines:
+      '8': 3500.5
+    glyphs:
+    - M
+    - A
+    - D
+    - three
+    - B
+    - o
+    - y
+    x_height_px: 243.5
+    figure_height_px: 283
+    stem_px: 35.0
+    scale: 2.34506
+    stem_units: 82.1
+    x_height: 571
+    figure_height: 664
+  303:60pt:
+    n_caps: 7
+    cap_height_px: 259
+    cap_source: caps
+    baseline_px: 2561
+    baselines:
+      '6': 2561
+      '7': 2928.0
+    glyphs:
+    - B.60pt
+    - A.60pt
+    - A.60pt_2
+    - I
+    - N
+    - C
+    - h
+    - e
+    - a
+    - p
+    - eight
+    - H
+    - a.60pt
+    - t
+    - s
+    x_height_px: 183
+    figure_height_px: 256
+    stem_px: 23
+    scale: 2.7027
+    stem_units: 62.2
+    x_height: 495
+    figure_height: 692
+  303:54pt:
+    n_caps: 10
+    cap_height_px: 229.0
+    cap_source: caps
+    baseline_px: 1710.0
+    baselines:
+      '4': 1710.0
+      '5': 2040.5
+    glyphs:
+    - K
+    - I.54pt
+    - N.54pt
+    - G
+    - J
+    - O
+    - H.54pt
+    - N.54pt_2
+    - A.54pt
+    - l
+    - w
+    - a.54pt
+    - y.54pt
+    - s.54pt
+    - seven
+    - B.54pt
+    - o.54pt
+    - l.54pt
+    - d
+    x_height_px: 184.0
+    figure_height_px: 215
+    stem_px: 36.0
+    scale: 3.05677
+    stem_units: 110.0
+    x_height: 562
+    figure_height: 657
+  303:48pt:
+    n_caps: 10
+    cap_height_px: 203.0
+    cap_source: caps
+    baseline_px: 912.0
+    baselines:
+      '2': 912.0
+      '3': 1211.5
+    glyphs:
+    - B.48pt
+    - U
+    - I.48pt
+    - L
+    - D.48pt
+    - I.48pt_2
+    - N.48pt
+    - G.48pt
+    - C.48pt
+    - a.48pt
+    - g
+    - e.48pt
+    - s.48pt
+    - f
+    - o.48pt
+    - r
+    - five
+    - S
+    - a.48pt_2
+    - l.48pt
+    - e.48pt_2
+    x_height_px: 142.5
+    figure_height_px: 190
+    stem_px: 34.5
+    scale: 3.44828
+    stem_units: 119.0
+    x_height: 491
+    figure_height: 655
+  302:42pt:
+    n_caps: 11
+    cap_height_px: 177
+    cap_source: caps
+    baseline_px: 3320
+    baselines:
+      '8': 3320
+      '9': 3552.0
+    glyphs:
+    - F
+    - A.42pt
+    - L.42pt
+    - L.42pt_2
+    - S.42pt
+    - T
+    - Y
+    - L.42pt_3
+    - E
+    - C.42pt
+    - o.42pt
+    - a.42pt
+    - t.42pt
+    - s.42pt
+    - a.42pt_2
+    - n
+    - d.42pt
+    - four
+    - S.42pt_2
+    - a.42pt_3
+    - c
+    - q
+    - u
+    - e.42pt
+    - s.42pt_2
+    x_height_px: 121
+    figure_height_px: 164
+    stem_px: 15
+    scale: 3.9548
+    stem_units: 59.3
+    x_height: 479
+    figure_height: 649
+  302:36pt:
+    n_caps: 12
+    cap_height_px: 147.0
+    cap_source: caps
+    baseline_px: 2748.5
+    baselines:
+      '6': 2748.5
+      '7': 2950.5
+    glyphs:
+    - F.36pt
+    - A.36pt
+    - N.36pt
+    - C.36pt
+    - Y.36pt
+    - L.36pt
+    - U.36pt
+    - N.36pt_2
+    - C.36pt_2
+    - H.36pt
+    - o.36pt
+    - m
+    - t.36pt
+    - o.36pt_2
+    - eight.36pt
+    - nine
+    - O.36pt
+    - p.36pt
+    - e.36pt
+    - n.36pt
+    - S.36pt
+    - o.36pt_3
+    - o.36pt_4
+    - n.36pt_2
+    x_height_px: 102.5
+    figure_height_px: 142.5
+    stem_px: 14.0
+    scale: 4.7619
+    stem_units: 66.7
+    x_height: 488
+    figure_height: 679
+  302:30pt:
+    n_caps: 13
+    cap_height_px: 119
+    cap_source: caps
+    baseline_px: 2241
+    baselines:
+      '4': 2241
+      '5': 2410.0
+    glyphs:
+    - Y.30pt
+    - O.30pt
+    - U.30pt
+    - N.30pt
+    - G.30pt
+    - S.30pt
+    - O.30pt_2
+    - L.30pt
+    - D.30pt
+    - I.30pt
+    - E.30pt
+    - P
+    - u.30pt
+    - r.30pt
+    - s.30pt
+    - u.30pt_2
+    - i
+    - n.30pt
+    - g.30pt
+    - t.30pt
+    - h.30pt
+    - e.30pt
+    - i.30pt
+    - r.30pt_2
+    - four.30pt
+    - three.30pt
+    - E.30pt_2
+    - n.30pt_2
+    - e.30pt_2
+    - m.30pt
+    - i.30pt_2
+    - e.30pt_3
+    - s.30pt_2
+    x_height_px: 83.5
+    figure_height_px: 112.0
+    stem_px: 20
+    scale: 5.88235
+    stem_units: 117.6
+    x_height: 491
+    figure_height: 659

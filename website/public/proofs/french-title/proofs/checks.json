@@ -1,0 +1,50 @@
+{
+  "status": "warn",
+  "warnings": 2,
+  "infos": 4,
+  "encoded": 44,
+  "items": [
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "E",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "r",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "F.72pt",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "S.60pt_2",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "warn",
+      "check": "trace_iou",
+      "glyph": "L.48pt",
+      "value": 0.922,
+      "note": "potrace trace overlaps the scan by less than 93% (cap 202 px)"
+    },
+    {
+      "level": "warn",
+      "check": "trace_iou",
+      "glyph": "i.48pt",
+      "value": 0.928,
+      "note": "potrace trace overlaps the scan by less than 93% (cap 202 px)"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+name: pastel-lightface
+title: Pastel Lightface
+series: Pastel Lightface
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 391
+leaf_pages:
+  391: 373
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 536
+  spacing:
+    straight: 39
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      391:72pt: 86.6
+      391:60pt: 69.7
+specimen_lines:
+- leaf: 391
+  line: 72pt
+  text: HURON
+  band: 5
+  by: claude+ocr
+- leaf: 391
+  line: 72pt
+  text: Big 3 Store
+  band: 6
+  by: claude+ocr
+- leaf: 391
+  line: 60pt
+  text: RAISINS
+  band: 3
+  by: claude+ocr
+- leaf: 391
+  line: 60pt
+  text: Fresh 5 Crop
+  band: 4
+  by: claude+ocr
+lines:
+  391:72pt:
+    n_caps: 7
+    cap_height_px: 291
+    cap_source: caps
+    baseline_px: 1862
+    baselines:
+      '5': 1862
+      '6': 2265.0
+    glyphs:
+    - H
+    - U
+    - R
+    - O
+    - N
+    - B
+    - i
+    - g
+    - three
+    - S
+    - t
+    - o
+    - r
+    - e
+    x_height_px: 237.5
+    figure_height_px: 295
+    stem_px: 22
+    scale: 2.4055
+    stem_units: 52.9
+    x_height: 571
+    figure_height: 710
+  391:60pt:
+    n_caps: 9
+    cap_height_px: 241
+    cap_source: caps
+    baseline_px: 975
+    baselines:
+      '3': 975
+      '4': 1309.0
+    glyphs:
+    - R.60pt
+    - A
+    - I
+    - S.60pt
+    - I.60pt
+    - N.60pt
+    - S.60pt_2
+    - F
+    - r.60pt
+    - e.60pt
+    - s
+    - h
+    - five
+    - C
+    - r.60pt_2
+    - o.60pt
+    - p
+    x_height_px: 173
+    figure_height_px: 251
+    stem_px: 18
+    scale: 2.90456
+    stem_units: 52.3
+    x_height: 502
+    figure_height: 729
