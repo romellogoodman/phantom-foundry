@@ -1,5 +1,5 @@
 # Build a face and publish its fonts as a GitHub release when a face tag is pushed:
-#   git tag -a wood-class-l/v0.3.0 -m "..." && git push origin wood-class-l/v0.3.0
+#   git tag -a wood-266-class-l/v0.3.1 -m "..." && git push origin wood-266-class-l/v0.3.1
 # The tag names the face; the pipeline is re-run from the committed manifest and
 # recipes (scans are re-fetched from archive.org — they are not in the repo).
 #

@@ -8,14 +8,16 @@ Fonts are licensed under the SIL Open Font License; the tooling is MIT.
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 import sys
+import time
 
 import ufoLib2
 from fontTools.ttLib import TTFont
 from fontTools.ttLib.tables.DefaultTable import DefaultTable
 
-from .face import Face
+from .face import REPO_ROOT, Face
 from .sort import ufo_path
 
 OFL_URL = "https://openfontlicense.org"
@@ -79,8 +81,25 @@ def provenance(face: Face, data: dict, font: ufoLib2.Font) -> dict:
 PHFD = "PHFD"   # Phantom Foundry provenance: a JSON blob, read with `ttx -t PHFD font.otf`
 
 
+def build_epoch() -> int:
+    """The timestamp fontTools stamps into the `head` table. The commit time
+    of HEAD, so rebuilding an unchanged face from the same checkout yields
+    byte-identical fonts (a hundred faces cannot churn git on every run);
+    falls back to now outside a git checkout."""
+    if os.environ.get("SOURCE_DATE_EPOCH"):
+        return int(os.environ["SOURCE_DATE_EPOCH"])
+    try:
+        r = subprocess.run(["git", "log", "-1", "--format=%ct"], capture_output=True, text=True,
+                           cwd=str(REPO_ROOT), timeout=10)
+        if r.returncode == 0 and r.stdout.strip():
+            return int(r.stdout.strip())
+    except (OSError, subprocess.SubprocessError):
+        pass
+    return int(time.time())
+
+
 def embed_provenance(font_path, prov: dict) -> None:
-    tt = TTFont(font_path)
+    tt = TTFont(font_path, recalcTimestamp=False)   # keep fontmake's SOURCE_DATE_EPOCH stamp
     table = DefaultTable(PHFD)
     table.data = json.dumps(prov, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
     tt[PHFD] = table
@@ -131,7 +150,8 @@ def matrix(face: Face, formats: list[str]) -> dict:
     face.dist.mkdir(parents=True, exist_ok=True)
     cmd = [sys.executable, "-m", "fontmake", "-u", str(ufo_path(face)), "-o", *formats,
            "--output-dir", str(face.dist), "--verbose", "WARNING"]
-    subprocess.run(cmd, check=True)
+    epoch = build_epoch()
+    subprocess.run(cmd, check=True, env={**os.environ, "SOURCE_DATE_EPOCH": str(epoch)})
     built = sorted(p.name for p in face.dist.iterdir() if p.suffix in (".otf", ".ttf"))
     prov = provenance(face, data, font)
     for name in built:
@@ -139,6 +159,7 @@ def matrix(face: Face, formats: list[str]) -> dict:
     (face.dist / f"{face.name}-provenance.json").write_text(json.dumps(prov, indent=2))
     ver = subprocess.run([sys.executable, "-m", "fontmake", "--version"], capture_output=True, text=True).stdout.strip()
     rec = {"family": fam, "version": data.get("version", "0.1.0"), "status": data.get("status", "draft"),
-           "formats": formats, "built": built, "glyphs": sorted(font.keys()), "fontmake": ver}
+           "formats": formats, "built": built, "glyphs": sorted(font.keys()), "fontmake": ver,
+           "source_date_epoch": epoch}
     face.log_event("matrix", **rec)
     return {"face": face.name, **rec}

@@ -119,7 +119,7 @@ phantom-foundry/
 
 ## Explicitly deferred
 
-- Kerning (human pass), lowercase and figures for wood-class-l (rows are one
+- Kerning (human pass), lowercase and figures for wood-266-class-l (rows are one
   `label` away; `sort` already handles categories and x-height).
 - Variable fonts / interpolation. Deskewing slightly rotated scans (the
   six-line baseline drifts ~9 units across the page).

@@ -1,4 +1,4 @@
-# Wood Class L — changelog
+# Wood 266 Class L — changelog
 
 Revival of Barnhart Bros. & Spindler wood type **No. 266, Class L** (a condensed
 gothic), from *Book of Type Specimens, Specimen Book No. 9* (Chicago, 1907), leaf
@@ -6,6 +6,12 @@ gothic), from *Book of Type Specimens, Specimen Book No. 9* (Chicago, 1907), lea
 
 Maturity: **proto** (0.x, traced and constructed, machine-spaced) → **draft**
 (reviewed by a person) → **release** (1.0: spaced, kerned, cleaned, tested).
+
+## 0.3.1 — 2026-09-04 · proto
+
+- Renamed `wood-class-l` → `wood-266-class-l` (family name *Wood 266 Class L*) to match
+  the numbered scheme of the other faces; the book has three Class L designs. No glyph
+  changes. Builds are now deterministic (font timestamps come from the commit, not the clock).
 
 ## 0.3.0 — 2026-08-30 · proto
 
