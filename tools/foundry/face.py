@@ -36,8 +36,10 @@ FACES_DIR = REPO_ROOT / "faces"
 # sits in the specimen. `line` names the specimen line (wood type is shown
 # per size: "five", "eight", "fifteen"); glyphs from the same leaf+line share
 # a baseline and a scale in `sort`. `category` says how the glyph relates to
-# that baseline: cap | figure | lower | punct.
-MANIFEST_FIELDS = ["glyph", "unicode", "leaf", "line", "category", "x", "y", "w", "h", "notes"]
+# that baseline: cap | figure | lower | punct. `band` is the survey band the
+# cut came from: a size shown as two lines (CAPITALS / Mixed case 78) is one
+# `line` with one scale but two bands with two baselines.
+MANIFEST_FIELDS = ["glyph", "unicode", "leaf", "line", "band", "category", "x", "y", "w", "h", "notes"]
 CATEGORIES = ("cap", "figure", "lower", "punct")
 
 
@@ -53,11 +55,17 @@ class GlyphEntry:
     notes: str = ""
     line: str = ""
     category: str = "cap"
+    band: str = ""
 
     @property
     def group(self) -> str:
-        """Key shared by every glyph printed on the same specimen line."""
+        """Key shared by every glyph printed at the same size on a leaf (one scale)."""
         return f"{self.leaf}:{self.line or 'line'}"
+
+    @property
+    def baseline_group(self) -> str:
+        """Key shared by every glyph printed on the same band (one baseline)."""
+        return f"{self.group}:{self.band}"
 
     @property
     def char(self) -> str | None:
@@ -88,7 +96,7 @@ class Face:
     # -- face.yaml ------------------------------------------------------
     def load(self) -> dict:
         if not self.yaml_path.exists():
-            return {"name": self.name, "status": "draft",
+            return {"name": self.name, "status": "proto",
                     "metrics": {"upm": 1000, "cap_height": 700}}
         return yaml.safe_load(self.yaml_path.read_text()) or {}
 
@@ -125,7 +133,8 @@ class Face:
                                  f"expected one of {CATEGORIES}")
             out.append(GlyphEntry(r["glyph"], (r.get("unicode") or "").strip(), int(r["leaf"]),
                                   int(r["x"]), int(r["y"]), int(r["w"]), int(r["h"]),
-                                  r.get("notes") or "", (r.get("line") or "").strip(), cat))
+                                  r.get("notes") or "", (r.get("line") or "").strip(), cat,
+                                  (r.get("band") or "").strip()))
         return out
 
     def write_manifest(self, entries: list[GlyphEntry]) -> None:

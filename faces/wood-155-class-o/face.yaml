@@ -1,4 +1,6 @@
 name: wood-155-class-o
+series: No. 155 Class O
+book: bookoftypespecim00barnrich
 status: proto
 metrics:
   upm: 1000
@@ -64,7 +66,11 @@ lines:
   892:twelve:
     n_caps: 3
     cap_height_px: 802
+    cap_source: caps
     baseline_px: 3434
+    baselines:
+      ? ''
+      : 3434
     glyphs:
     - D
     - I
@@ -75,7 +81,11 @@ lines:
   892:six:
     n_caps: 5
     cap_height_px: 402
+    cap_source: caps
     baseline_px: 2427
+    baselines:
+      ? ''
+      : 2427
     glyphs:
     - R
     - O
@@ -88,7 +98,11 @@ lines:
   892:five:
     n_caps: 6
     cap_height_px: 335.0
+    cap_source: caps
     baseline_px: 1819.0
+    baselines:
+      ? ''
+      : 1819.0
     glyphs:
     - B
     - I.five
@@ -102,7 +116,11 @@ lines:
   892:four:
     n_caps: 5
     cap_height_px: 269
+    cap_source: caps
     baseline_px: 1270
+    baselines:
+      ? ''
+      : 1270
     glyphs:
     - N.four
     - O.four
@@ -119,7 +137,11 @@ lines:
   892:three:
     n_caps: 2
     cap_height_px: 202.0
+    cap_source: caps
     baseline_px: 787.5
+    baselines:
+      ? ''
+      : 787.5
     glyphs:
     - R.three
     - o

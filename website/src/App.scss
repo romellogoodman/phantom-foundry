@@ -49,8 +49,17 @@ img {
     margin-top: var(--spacing-unit);
   }
 
+  &__home {
+    color: inherit;
+    text-decoration: none;
+  }
+
   &__error {
     color: var(--color-accent);
+  }
+
+  &__loading {
+    color: var(--color-text-light);
   }
 
   &__footer {
@@ -251,5 +260,88 @@ img {
   &__note {
     color: var(--color-accent);
     font-size: 0.875rem;
+  }
+}
+
+.index {
+  &__controls {
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    gap: var(--spacing-3x);
+    align-items: end;
+
+    @media (max-width: 640px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__select {
+    background: white;
+  }
+
+  &__count {
+    color: var(--color-text-light);
+    margin: var(--spacing-2x) 0 var(--spacing-3x);
+    font-size: 0.875rem;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--spacing-2x);
+  }
+}
+
+.card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  background: var(--color-panel);
+  border: 1px solid var(--color-rule);
+  padding: var(--spacing-2x);
+  min-height: 180px;
+
+  &:hover,
+  &:focus-visible {
+    border-color: var(--color-text);
+    outline: none;
+  }
+
+  &__specimen {
+    font-size: 2.6rem;
+    line-height: 1.05;
+    min-height: 2.3em;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    margin-bottom: var(--spacing-2x);
+  }
+
+  &__title {
+    font-size: 1rem;
+    display: flex;
+    align-items: baseline;
+    gap: var(--spacing-unit);
+    flex-wrap: wrap;
+  }
+
+  &__meta {
+    color: var(--color-text-light);
+    font-size: 0.8125rem;
+    margin-top: 4px;
+  }
+}
+
+.nav {
+  display: flex;
+  gap: var(--spacing-3x);
+  margin-bottom: var(--spacing-3x);
+  font-size: 0.9375rem;
+
+  &__spacer {
+    flex: 1;
+  }
+
+  &__link {
+    color: var(--color-text);
   }
 }

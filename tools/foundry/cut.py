@@ -5,7 +5,7 @@ that region, flood-fills the ink component nearest the box center, adds any
 other components stacked in the same columns (an i's dot), and tightens the
 crop to that ink. Three files are kept per glyph:
 
-  glyphs/<glyph>_raw.png   the untouched grayscale crop (the specimen)
+  glyphs/<glyph>_raw.jpg   the untouched grayscale crop (the specimen)
   glyphs/<glyph>.png       the binarized, isolated glyph on white (the cut)
   glyphs/<glyph>.json      tight bbox in page coords, threshold, ink stats
 
@@ -17,6 +17,7 @@ sheet so a person can name the boxes instead of measuring them.
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 import numpy as np
@@ -100,13 +101,14 @@ def stem_width_px(mask: np.ndarray, min_run: int = 3) -> int | None:
 def stacked_piece(piece_y: tuple[int, int], main_y: tuple[int, int], piece_px: int, main_px: int,
                   min_fraction: float = 0.05) -> bool:
     """Does a second ink component belong to the glyph? Yes if it sits wholly
-    above or below the main component (an i-dot, a detached accent) or is at
-    least `min_fraction` of its ink (a broken stroke). A small mark beside the
-    letter is a speck."""
+    above the main component (an i-dot, a detached accent) or is at least
+    `min_fraction` of its ink (a broken stroke). A small mark beside or below
+    the letter is a speck: nothing in the Latin alphabet hangs a dot under a
+    letter, and a speck under the last line of a page is common."""
     a0, a1 = piece_y
     b0, b1 = main_y
-    no_vertical_overlap = a1 <= b0 or a0 >= b1
-    return no_vertical_overlap or piece_px >= min_fraction * main_px
+    wholly_above = a1 <= b0
+    return wholly_above or piece_px >= min_fraction * main_px
 
 
 def _component(binary: np.ndarray, seed: tuple[int, int]) -> np.ndarray:
@@ -123,13 +125,19 @@ def load_page(face: Face, leaf: int) -> Image.Image:
     return Image.open(face.specimen_jp2(leaf)).convert("L")
 
 
+# `label` pads a survey box by this much above and below the letter's ink;
+# a piece of ink that lies wholly inside that padding belongs to the line
+# above or below (a footer under the last line), never to the letter.
+LABEL_PAD_X, LABEL_PAD_Y = 3, 20
+
+
 def cut_glyph(face: Face, entry: GlyphEntry, pad_frac: float = 0.06, stack_slack: float = 0.15,
               page: Image.Image | None = None) -> dict:
     if page is None:
         page = load_page(face, entry.leaf)
     box = (entry.x, entry.y, entry.x + entry.w, entry.y + entry.h)
     raw = page.crop(box)
-    raw.save(face.glyphs / f"{fname(entry.glyph)}_raw.png")
+    raw.save(face.glyphs / f"{fname(entry.glyph)}_raw.jpg", quality=90)   # the specimen crop; JPEG at scale
 
     t = otsu_threshold(raw)
     binary = np.asarray(raw) < t                      # True = ink
@@ -161,6 +169,9 @@ def cut_glyph(face: Face, entry: GlyphEntry, pad_frac: float = 0.06, stack_slack
         rec = {"box": [int(cxs.min()) + entry.x, int(cys.min()) + entry.y,
                        int(cxs.max()) + 1 + entry.x, int(cys.max()) + 1 + entry.y],
                "pixels": int(comp.sum())}
+        inside_pad = cys.max() < LABEL_PAD_Y or cys.min() >= raw.height - LABEL_PAD_Y
+        if inside_pad:
+            continue                                  # the neighboring line's ink, not ours
         if stacked_piece((int(cys.min()), int(cys.max()) + 1), (my0, my1), rec["pixels"], int(main.sum())):
             extras.append(rec)
             component |= comp
@@ -178,7 +189,7 @@ def cut_glyph(face: Face, entry: GlyphEntry, pad_frac: float = 0.06, stack_slack
 
     info = {
         "glyph": entry.glyph, "unicode": entry.unicode, "leaf": entry.leaf,
-        "line": entry.line, "category": entry.category,
+        "line": entry.line, "band": entry.band, "category": entry.category,
         "rough_box": list(box),
         "tight_box_page": [entry.x + x0, entry.y + y0, entry.x + x1, entry.y + y1],
         "pad": pad, "cut_size": [out_w, out_h],
@@ -206,18 +217,16 @@ def cut(face: Face, glyphs: list[str] | None = None) -> dict:
     return {"face": face.name, "cut": out}
 
 
-def survey(face: Face, leaf: int, min_line_height: int = 150, min_letter_width: int = 12,
-           min_row_ink: int = 3) -> dict:
-    """Find display lines and letter boxes on a leaf by ink projection.
+def survey_page(page: Image.Image, min_line_height: int = 150, min_letter_width: int = 12,
+                min_row_ink: int = 3) -> dict:
+    """Find display lines and letter boxes on a page by ink projection.
 
     Rows with ink form bands; bands at least `min_line_height` tall are
     display lines (captions and running heads fall below it). Within a band,
     columns with ink form letters, split at the blank columns between them.
-    Writes specimens/leaf<N>_survey.json and a numbered sheet PNG. The
-    numbers are what a person turns into manifest rows.
+    Pure geometry: the same function surveys one leaf for a face and every
+    leaf of a book for the catalog.
     """
-    face.ensure_layout()
-    page = Image.open(face.specimen_jp2(leaf)).convert("L")
     t = otsu_threshold(page)
     ink = np.asarray(page) < t
     row_ink = ink.sum(axis=1)
@@ -239,10 +248,13 @@ def survey(face: Face, leaf: int, min_line_height: int = 150, min_letter_width: 
                             "ink": int(sub.sum())})
         lines.append({"band": i + 1, "y0": int(y0), "y1": int(y1), "height": int(y1 - y0),
                       "letters": letters})
+    return {"threshold": t, "page_size": list(page.size), "lines": lines}
 
-    # sheet: page at reduced size with numbered boxes
-    scale = 1400 / page.width
-    sheet = page.convert("RGB").resize((1400, int(page.height * scale)))
+
+def survey_sheet(page: Image.Image, lines: list[dict], width: int = 1400) -> Image.Image:
+    """The page at reduced size with every band and numbered letter box drawn."""
+    scale = width / page.width
+    sheet = page.convert("RGB").resize((width, int(page.height * scale)))
     d = ImageDraw.Draw(sheet)
     for ln in lines:
         d.rectangle((0, ln["y0"] * scale, sheet.width - 1, ln["y1"] * scale), outline=(0, 150, 210), width=2)
@@ -250,14 +262,44 @@ def survey(face: Face, leaf: int, min_line_height: int = 150, min_letter_width: 
             bx = (L["x"] * scale, L["y"] * scale, (L["x"] + L["w"]) * scale, (L["y"] + L["h"]) * scale)
             d.rectangle(bx, outline=(225, 0, 130), width=2)
             d.text((bx[0] + 3, bx[1] + 3), str(L["n"]), fill=(225, 0, 130))
-    sheet_path = face.specimens / f"leaf{leaf:04d}_survey.png"
-    sheet.save(sheet_path)
+    return sheet
 
-    rec = {"leaf": leaf, "threshold": t, "page_size": list(page.size), "lines": lines,
-           "sheet": str(sheet_path.relative_to(face.dir))}
+
+def band_crop(page: Image.Image, band: dict, width: int = 1600, margin_frac: float = 0.25) -> Image.Image:
+    """One band, cropped with a margin, letter boxes numbered 1..n left to
+    right — the picture a reader (a person or Claude) turns into text, one
+    character per box."""
+    L = band["letters"]
+    if not L:
+        return Image.new("RGB", (10, 10), "white")
+    m = int(band["height"] * margin_frac)
+    x0 = max(0, min(b["x"] for b in L) - m); x1 = min(page.width, max(b["x"] + b["w"] for b in L) + m)
+    y0 = max(0, band["y0"] - m); y1 = min(page.height, band["y1"] + m)
+    crop = page.crop((x0, y0, x1, y1)).convert("RGB")
+    scale = min(1.0, width / crop.width)
+    if scale < 1.0:
+        crop = crop.resize((int(crop.width * scale), int(crop.height * scale)))
+    d = ImageDraw.Draw(crop)
+    for i, b in enumerate(L, 1):
+        bx = ((b["x"] - x0) * scale, (b["y"] - y0) * scale, (b["x"] + b["w"] - x0) * scale, (b["y"] + b["h"] - y0) * scale)
+        d.rectangle(bx, outline=(225, 0, 130), width=1)
+        d.text((bx[0] + 2, bx[3] + 2), str(i), fill=(225, 0, 130))
+    return crop
+
+
+def survey(face: Face, leaf: int, min_line_height: int = 150, min_letter_width: int = 12,
+           min_row_ink: int = 3) -> dict:
+    """Survey one fetched leaf of a face. Writes specimens/leaf<N>_survey.json
+    and a numbered sheet PNG; the numbers are what `label` turns into manifest rows."""
+    face.ensure_layout()
+    page = load_page(face, leaf)
+    rec = survey_page(page, min_line_height, min_letter_width, min_row_ink)
+    sheet_path = face.specimens / f"leaf{leaf:04d}_survey.png"
+    survey_sheet(page, rec["lines"]).save(sheet_path)
+    rec = {"leaf": leaf, **rec, "sheet": str(sheet_path.relative_to(face.dir))}
     (face.specimens / f"leaf{leaf:04d}_survey.json").write_text(json.dumps(rec, indent=2))
-    face.log_event("survey", leaf=leaf, threshold=t, bands=len(bands),
-                   letters=sum(len(ln["letters"]) for ln in lines))
+    face.log_event("survey", leaf=leaf, threshold=rec["threshold"], bands=len(rec["lines"]),
+                   letters=sum(len(ln["letters"]) for ln in rec["lines"]))
     return rec
 
 
@@ -278,8 +320,32 @@ def category_of(ch: str) -> str:
     return "punct"
 
 
+def reading_tokens(text: str) -> list[str]:
+    """One token per survey box. A letter is itself; `[fi]` is one box that
+    holds several touching letters; `?` an unreadable box; `~` a box that is
+    not a letter (a speck, a rule end). Spaces separate words and have no box."""
+    out, i = [], 0
+    while i < len(text):
+        c = text[i]
+        if c.isspace():
+            i += 1
+        elif c == "[":
+            j = text.index("]", i)
+            out.append(text[i:j + 1])
+            i = j + 1
+        else:
+            out.append(c)
+            i += 1
+    return out
+
+
+def printed_text(reading: str) -> str:
+    """The reading as the words on the page: brackets opened, skips dropped."""
+    return re.sub(r"[\[\]~]", "", reading)
+
+
 def label(face: Face, leaf: int, band: int, text: str, line: str,
-          pad_x: int = 3, pad_y: int = 20) -> dict:
+          pad_x: int = LABEL_PAD_X, pad_y: int = LABEL_PAD_Y, by: str = "human") -> dict:
     """Turn one surveyed band into manifest rows by reading `text` across it.
 
     Boxes are taken left to right; spaces in `text` have no box. The first
@@ -287,6 +353,7 @@ def label(face: Face, leaf: int, band: int, text: str, line: str,
     an alternate named <glyph>.<line>, then <glyph>.<line>_2, ... — so label
     the largest size first and the default glyph comes from the best scan.
     A box already covered by a manifest row keeps that row unchanged.
+    `by` records who read the line: human, ocr, claude, or claude+ocr (both agreed).
     """
     survey_path = face.specimens / f"leaf{leaf:04d}_survey.json"
     if not survey_path.exists():
@@ -295,7 +362,7 @@ def label(face: Face, leaf: int, band: int, text: str, line: str,
     ln = next((x for x in rec["lines"] if x["band"] == band), None)
     if ln is None:
         raise ValueError(f"leaf {leaf} has no band {band}")
-    chars = [c for c in text if not c.isspace()]
+    chars = reading_tokens(text)
     if len(chars) != len(ln["letters"]):
         raise ValueError(f"band {band} has {len(ln['letters'])} boxes but {text!r} has {len(chars)} characters")
     pw, ph = rec["page_size"]
@@ -304,6 +371,8 @@ def label(face: Face, leaf: int, band: int, text: str, line: str,
     names = {e.glyph for e in entries}
     added, kept = [], []
     for ch, L in zip(chars, ln["letters"]):
+        if len(ch) != 1 or ch in "?~":
+            continue                                  # not one letter in this box: no glyph from it
         # same glyph if each box holds the other's center (a hand-drawn rough box
         # can be wide enough to swallow a neighbor; its center still says which)
         cx, cy = L["x"] + L["w"] / 2, L["y"] + L["h"] / 2
@@ -327,16 +396,16 @@ def label(face: Face, leaf: int, band: int, text: str, line: str,
         x0, y0 = max(0, L["x"] - pad_x), max(0, L["y"] - pad_y)
         x1, y1 = min(pw, L["x"] + L["w"] + pad_x), min(ph, L["y"] + L["h"] + pad_y)
         e = GlyphEntry(name, f"{ord(ch):04X}" if name == base else "", leaf, x0, y0, x1 - x0, y1 - y0,
-                       f"survey #{L['n']}, {text!r}", line, category_of(ch))
+                       f"survey #{L['n']}, {text!r}", line, category_of(ch), str(band))
         entries.append(e)
         names.add(name)
         added.append(name)
     face.write_manifest(entries)
     data = face.load()
     sl = data.setdefault("specimen_lines", [])
-    if not any(x.get("leaf") == leaf and x.get("line") == line for x in sl):
-        sl.append({"leaf": leaf, "line": line, "text": text, "band": band})
+    if not any(x.get("leaf") == leaf and x.get("band") == band for x in sl):
+        sl.append({"leaf": leaf, "line": line, "text": text, "band": band, "by": by})
         face.save(data)
-    out = {"leaf": leaf, "band": band, "line": line, "text": text, "added": added, "kept": kept}
+    out = {"leaf": leaf, "band": band, "line": line, "text": text, "by": by, "added": added, "kept": kept}
     face.log_event("label", **out)
     return out

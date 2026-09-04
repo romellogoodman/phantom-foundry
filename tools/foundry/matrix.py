@@ -138,9 +138,10 @@ def matrix(face: Face, formats: list[str]) -> dict:
         f"Traced from the printed specimen, never from digital font software; "
         f"letters the specimen does not show are constructed from traced parts and flagged as such "
         f"in the PHFD table. Version {data.get('version', '0.1.0')} ({data.get('status', 'draft')}).")
+    from .cut import printed_text
     have = {u for g in font for u in g.unicodes}
-    covered = [l["text"] for l in data.get("specimen_lines", [])
-               if all(ord(c) in have for c in l["text"] if not c.isspace())]
+    covered = [printed_text(l["text"]) for l in data.get("specimen_lines", [])
+               if all(ord(c) in have for c in printed_text(l["text"]) if not c.isspace())]
     info.openTypeNameSampleText = max(covered, key=len) if covered else None
     info.copyright = (f"Source specimen public domain. Font software (c) {fam} contributors, "
                       f"SIL Open Font License 1.1.")

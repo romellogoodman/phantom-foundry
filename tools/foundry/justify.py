@@ -64,8 +64,12 @@ def printed_gaps(face: Face, data: dict) -> dict:
     line, in font units (survey boxes × the line's sort scale; word gaps skipped)."""
     import json
     lines = data.get("lines", {})
-    out = {}
+    out, per_key = {}, {}
+    seen = set()
     for rec in face.read_log("label"):
+        if (rec.get("leaf"), rec.get("band")) in seen:
+            continue                      # a band re-labeled; its boxes count once
+        seen.add((rec.get("leaf"), rec.get("band")))
         if "text" not in rec:
             continue
         sp = face.specimens / f"leaf{rec['leaf']:04d}_survey.json"
@@ -83,6 +87,8 @@ def printed_gaps(face: Face, data: dict) -> dict:
         L = band["letters"]
         gaps = [(L[i + 1]["x"] - (L[i]["x"] + L[i]["w"])) * scale
                 for i in range(len(L) - 1) if (i + 1) not in word_breaks]
+        per_key.setdefault(key, []).extend(gaps)
+    for key, gaps in per_key.items():
         if gaps:
             out[key] = round(float(np.median(gaps)), 1)
     return out

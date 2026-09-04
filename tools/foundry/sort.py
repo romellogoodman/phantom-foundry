@@ -45,14 +45,29 @@ def open_or_create_font(face: Face) -> ufoLib2.Font:
 # -- line metrics ---------------------------------------------------------
 
 def line_metrics(infos: list[dict]) -> dict:
-    """Shared metrics for the glyphs printed on one specimen line, from
-    their cut records. Capitals define the line; if there are none, every
-    glyph does. Medians, so a speck stuck to one letter can't move the line."""
-    caps = [i for i in infos if i.get("category", "cap") == "cap"] or infos
+    """Shared metrics for the glyphs printed at one size on a leaf, from their
+    cut records. Capitals define the size; with none, the tallest lowercase
+    (ascenders stand about cap high) do. Medians, so a speck stuck to one
+    letter can't move the line. Each band the size was printed on gets its
+    own baseline (`baselines`), since CAPITALS and Mixed case sit on two lines."""
+    caps = [i for i in infos if i.get("category", "cap") == "cap"]
+    if caps:
+        cap_px, cap_source = statistics.median(i["ink_height_px"] for i in caps), "caps"
+    else:
+        lower = [i for i in infos if i.get("category") == "lower"] or infos
+        tall = sorted((i["ink_height_px"] for i in lower), reverse=True)
+        cap_px, cap_source = statistics.median(tall[:max(1, len(tall) // 3)]), "ascenders"
+    baselines = {}
+    for band in sorted({str(i.get("band") or "") for i in infos}):
+        on = [i for i in infos if str(i.get("band") or "") == band]
+        ref = [i for i in on if i.get("category", "cap") == "cap"] or on
+        baselines[band] = statistics.median(i["tight_box_page"][3] for i in ref)
     m = {
         "n_caps": len(caps),
-        "cap_height_px": statistics.median(i["ink_height_px"] for i in caps),
-        "baseline_px": statistics.median(i["tight_box_page"][3] for i in caps),
+        "cap_height_px": cap_px,
+        "cap_source": cap_source,
+        "baseline_px": baselines[sorted(baselines)[0]],
+        "baselines": baselines,
         "glyphs": [i["glyph"] for i in infos],
     }
     for cat, key in (("lower", "x_height_px"), ("figure", "figure_height_px")):
@@ -171,10 +186,11 @@ def sort(face: Face, glyphs: list[str] | None = None, engine: str = "potrace") -
         info = face.glyph_info(e.glyph)
         m = lines[e.group]
         path = svg_to_path(svg)
+        baseline = m["baselines"].get(str(e.band or ""), m["baseline_px"])
         if engine == "potrace":
-            xform = glyph_transform(info, svg_doc_size(svg), m["scale"], m["baseline_px"], sb)
+            xform = glyph_transform(info, svg_doc_size(svg), m["scale"], baseline, sb)
         else:
-            xform = glyph_transform(info, tuple(info["cut_size"]), m["scale"], m["baseline_px"], sb) \
+            xform = glyph_transform(info, tuple(info["cut_size"]), m["scale"], baseline, sb) \
                 .transform(_fit_to_ink(path, info))
         out = place(path, xform)
         out, dropped = drop_small_contours(out, min_area)
@@ -190,8 +206,8 @@ def sort(face: Face, glyphs: list[str] | None = None, engine: str = "potrace") -
         g.lib["com.phantomfoundry.sort"] = {
             "engine": engine, "source_svg": str(svg.relative_to(face.dir)),
             "source_sha256": hashlib.sha256(svg.read_bytes()).hexdigest(),
-            "line": e.group, "category": e.category, "scale": round(m["scale"], 5),
-            "baseline_px": m["baseline_px"], "cap_height_px": m["cap_height_px"],
+            "line": e.group, "band": e.band, "category": e.category, "scale": round(m["scale"], 5),
+            "baseline_px": baseline, "cap_height_px": m["cap_height_px"],
             "alignment": "line: shared scale (cap_height / median cap ink height), shared baseline (median cap ink bottom)",
             "sidebearing": sb, "stem_units": stem_units, "dropped_contours": dropped,
         }
