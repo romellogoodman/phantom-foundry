@@ -3,9 +3,11 @@
   <glyph>_overlay.png   scan (gray) + potrace (cyan) + arrow (magenta); black = all agree
   <glyph>_traces.png    scan | potrace | arrow, side by side
   cuts.png              every cut glyph at a common height, in manifest order
-  line_<leaf>_<line>.png the specimen line as printed, and re-set in the compiled font
+  line_<leaf>_<line>_b<band>.jpg  the specimen line as printed, and re-set in the compiled font
   waterfall.png         the compiled font at a range of sizes (FreeType via Pillow)
-  face.json             everything the website needs: provenance, metrics, glyphs, attempts
+  checks.json           automatic warnings: low trace overlap, specks, a capital off its
+                        line's cap height, too many contours, unread bands, too few glyphs
+  face.json             everything the website needs: provenance, metrics, glyphs, attempts, checks
   index.html            the above, browsable
 """
 
@@ -24,6 +26,11 @@ from .outline import bbox_of_mask, rasterize, svg_to_path
 
 
 def _masks(face: Face, glyph: str):
+    """Ink masks of the cut and of each trace, in the cut's pixel frame. The
+    potrace trace is of this very PNG, so it maps by document size — fitting
+    it to the ink's bbox would stretch a trace that dropped a speck. Arrow
+    draws in its own frame and is bbox-fitted, as `diff` does."""
+    from .sort import svg_doc_size
     scan = np.asarray(Image.open(face.glyphs / f"{fname(glyph)}.png").convert("L")) < 128
     size = (scan.shape[1], scan.shape[0])
     bbox = bbox_of_mask(scan)
@@ -32,7 +39,11 @@ def _masks(face: Face, glyph: str):
         svg = d / f"{fname(glyph)}.svg"
         if svg.exists():
             path = svg_to_path(svg)
-            out[engine] = rasterize(path, size, _fit_to_box(path, bbox))
+            if engine == "potrace":
+                dw, dh = svg_doc_size(svg)
+                out[engine] = rasterize(path, size, (size[0] / dw, size[1] / dh, 0, 0))
+            else:
+                out[engine] = rasterize(path, size, _fit_to_box(path, bbox))
     return out
 
 
@@ -125,6 +136,64 @@ def alphabet_image(face: Face, font_path, size: int = 200) -> Image.Image | None
     return im
 
 
+def _iou(a, b) -> float | None:
+    union = (a | b).sum()
+    return float((a & b).sum() / union) if union else None
+
+
+def run_checks(face: Face, data: dict, entries, glyph_iou: dict, font) -> dict:
+    """What a person would look for on the proof sheet, as pass/warn flags,
+    so a hundred faces can be reviewed by reading the ones that warned."""
+    items = []
+    lines = data.get("lines", {})
+    for e in entries:
+        if not (face.glyphs / f"{fname(e.glyph)}.json").exists():
+            continue
+        info = face.glyph_info(e.glyph)
+        iou = glyph_iou.get(e.glyph)
+        # a trace's edge rounding costs a fixed band of pixels, so overlap falls
+        # with size: 95% is right for a 400 px wood letter, 90% for a 30 pt cut
+        cap_px = (lines.get(e.group) or {}).get("cap_height_px") or info["ink_height_px"]
+        floor = 0.95 if cap_px >= 300 else 0.93 if cap_px >= 200 else 0.90
+        if iou is not None and iou < floor:
+            items.append({"level": "warn", "check": "trace_iou", "glyph": e.glyph, "value": round(iou, 3),
+                          "note": f"potrace trace overlaps the scan by less than {int(floor * 100)}% (cap {int(cap_px)} px)"})
+        if info.get("specks"):
+            items.append({"level": "info", "check": "specks", "glyph": e.glyph, "value": len(info["specks"]),
+                          "note": "marks beside the letter were recorded, not cut"})
+        if info.get("components", 1) > 1 and e.category != "lower":
+            items.append({"level": "info", "check": "pieces", "glyph": e.glyph, "value": info["components"],
+                          "note": "the cut joined more than one ink component"})
+        m = lines.get(e.group)
+        if m and e.category == "cap" and e.glyph.split(".")[0] not in ("Q", "J"):
+            dev = abs(info["ink_height_px"] - m["cap_height_px"]) / m["cap_height_px"]
+            if dev > 0.12:
+                items.append({"level": "warn", "check": "cap_height", "glyph": e.glyph, "value": round(dev, 3),
+                              "note": "capital's ink height is off its line's cap height by more than 12% (misread box?)"})
+        if font is not None and e.glyph in font:
+            g = font[e.glyph]
+            if len(g) > 4:
+                items.append({"level": "warn", "check": "contours", "glyph": e.glyph, "value": len(g),
+                              "note": "more than four contours; specks or a broken trace"})
+            if g.width <= 0:
+                items.append({"level": "warn", "check": "width", "glyph": e.glyph, "value": g.width, "note": "non-positive advance"})
+    for key, m in lines.items():
+        if m.get("cap_source") == "ascenders":
+            items.append({"level": "info", "check": "cap_from_ascenders", "line": key,
+                          "note": "no capitals at this size; cap height taken from the tallest lowercase"})
+    labels = face.specimens / "labels.json"
+    if labels.exists():
+        for sk in json.loads(labels.read_text()).get("skipped", []):
+            items.append({"level": "info" if "not type" in sk["why"] else "warn", "check": "unlabeled_band",
+                          "leaf": sk["leaf"], "band": sk["band"], "note": sk["why"]})
+    encoded = sum(1 for g in font if g.unicodes and g.name != "space") if font is not None else 0
+    if encoded < 10:
+        items.append({"level": "warn", "check": "few_glyphs", "value": encoded, "note": "fewer than ten encoded glyphs"})
+    warns = sum(1 for i in items if i["level"] == "warn")
+    return {"status": "warn" if warns else "ok", "warnings": warns,
+            "infos": sum(1 for i in items if i["level"] == "info"), "encoded": encoded, "items": items}
+
+
 def _font_file(face: Face):
     fonts = sorted(face.dist.glob("*.otf")) + sorted(face.dist.glob("*.ttf"))
     return fonts[0] if fonts else None
@@ -137,7 +206,7 @@ def _coverage(font_path, text: str) -> tuple[list[str], list[str]]:
     return chars, missing
 
 
-def specimen_line_image(face: Face, sl: dict, font_path, width: int = 1600) -> tuple[Image.Image, dict]:
+def specimen_line_image(face: Face, sl: dict, font_path, width: int = 1400) -> tuple[Image.Image, dict]:
     """The line as printed (from the survey band) over the same text set in
     the compiled font at matching cap height. Characters the font doesn't
     have yet render as .notdef boxes — the proof says what's missing."""
@@ -155,21 +224,23 @@ def specimen_line_image(face: Face, sl: dict, font_path, width: int = 1600) -> t
     cap_px = line_m.get("cap_height_px", band["height"]) * scale
     upm_cap = face.load()["metrics"]["cap_height"] / face.load()["metrics"]["upm"]
     size = int(round(cap_px / upm_cap))
+    from .cut import printed_text
+    text = printed_text(sl["text"])
     f = ImageFont.truetype(str(font_path), size)
-    l, t, r, b = f.getbbox(sl["text"])
+    l, t, r, b = f.getbbox(text)
     m = int(margin * scale)
     # the re-set line may run wider than the printed one (spacing is still
     # flat); widen the sheet rather than clip — the overrun is the proof
     text_w = max(width, r - l + 2 * m)
     text_im = Image.new("L", (text_w, b - t + 2 * m), 255)
-    ImageDraw.Draw(text_im).text((m - l, m - t), sl["text"], font=f, fill=0)
+    ImageDraw.Draw(text_im).text((m - l, m - t), text, font=f, fill=0)
 
     gap = 16
     sheet = Image.new("L", (text_w, scan.height + gap + text_im.height), 255)
     sheet.paste(scan, (0, 0))
     sheet.paste(text_im, (0, scan.height + gap))
-    chars, missing = _coverage(font_path, sl["text"])
-    return sheet, {"chars": len(chars), "missing": missing}
+    chars, missing = _coverage(font_path, text)
+    return sheet, {"chars": len(chars), "missing": missing, "printed": text}
 
 
 def waterfall_image(face: Face, text: str, sizes=(36, 48, 72, 96, 144, 220)) -> Image.Image | None:
@@ -274,15 +345,26 @@ def face_json(face: Face, data: dict, entries, made: list[str], line_proofs: lis
     }
 
 
-def proof(face: Face) -> dict:
+def proof(face: Face, glyph_sheets: bool | None = None) -> dict:
+    """Render the proofs. Per-glyph overlay/traces sheets are drawn for every
+    glyph only when asked, or when the face has Arrow research to compare;
+    a hundred faces' worth of them would be bulk, and the trace-vs-scan
+    overlap they show is computed for the checks regardless."""
     face.ensure_layout()
     data = face.load()
     entries = face.read_manifest()
     made = []
+    glyph_iou = {}
+    if glyph_sheets is None:
+        glyph_sheets = any(face.svg_arrow.glob("*.svg"))
     for e in entries:
         if not (face.glyphs / f"{fname(e.glyph)}.png").exists():
             continue
         masks = _masks(face, e.glyph)
+        if "potrace" in masks:
+            glyph_iou[e.glyph] = _iou(masks["scan"], masks["potrace"])
+        if not (glyph_sheets or "arrow" in masks):
+            continue
         overlay_image(masks).save(face.proofs / f"{fname(e.glyph)}_overlay.png")
         traces_image(masks).save(face.proofs / f"{fname(e.glyph)}_traces.png")
         made += [f"{fname(e.glyph)}_overlay.png", f"{fname(e.glyph)}_traces.png"]
@@ -302,8 +384,8 @@ def proof(face: Face) -> dict:
         rec = dict(sl)
         if font_path is not None and (face.specimens / f"leaf{sl['leaf']:04d}_survey.json").exists():
             im, cov = specimen_line_image(face, sl, font_path)
-            name = f"line_{sl['leaf']}_{sl['line']}.png"
-            im.save(face.proofs / name)
+            name = f"line_{sl['leaf']}_{sl['line']}" + (f"_b{sl['band']}" if "band" in sl else "") + ".jpg"
+            im.convert("L").save(face.proofs / name, quality=85)
             made.append(name)
             rec.update(cov, proof=name)
         line_proofs.append(rec)
@@ -315,6 +397,19 @@ def proof(face: Face) -> dict:
         made.append("waterfall.png")
 
     fj = face_json(face, data, entries, made, line_proofs)
+    import ufoLib2
+    from .sort import ufo_path
+    ufo_font = ufoLib2.Font.open(ufo_path(face)) if ufo_path(face).exists() else None
+    checks = run_checks(face, data, entries, glyph_iou, ufo_font)
+    (face.proofs / "checks.json").write_text(json.dumps(checks, indent=2))
+    made.append("checks.json")
+    for g in fj["glyphs"]:
+        if g["name"] in glyph_iou:
+            g["trace_iou"] = round(glyph_iou[g["name"]], 4)
+    fj["checks"] = {k: checks[k] for k in ("status", "warnings", "infos", "encoded")}
+    fj["series"] = data.get("series")
+    fj["book"] = data.get("book")
+    fj["leaf_pages"] = data.get("leaf_pages", {})
     (face.proofs / "face.json").write_text(json.dumps(fj, indent=2, default=str))
     made.append("face.json")
 
@@ -338,12 +433,16 @@ def proof(face: Face) -> dict:
     for m in made:
         if m.endswith("_overlay.png"):
             parts.append(f"<figure style='display:inline-block'><img src='{m}' style='height:220px'><figcaption>{m}</figcaption></figure>")
-    parts.append("<h2>Arrow attempts</h2><pre>" + html.escape(json.dumps(fj["arrow_attempts"], indent=2)) + "</pre>")
+    parts.append(f"<h2>Checks — {checks['status']}</h2><p>{checks['warnings']} warnings, {checks['infos']} notes.</p><pre>"
+                 + html.escape(json.dumps(checks["items"], indent=1)) + "</pre>")
+    if fj["arrow_attempts"]:
+        parts.append("<h2>Arrow attempts</h2><pre>" + html.escape(json.dumps(fj["arrow_attempts"], indent=2)) + "</pre>")
     parts.append("<h2>Lines</h2><pre>" + html.escape(json.dumps(fj["lines"], indent=2)) + "</pre>")
     parts.append("<h2>Provenance</h2><pre>" + html.escape(json.dumps(src, indent=2, default=str)) + "</pre>")
     (face.proofs / "index.html").write_text(
         "<!doctype html><meta charset='utf-8'><title>Proof — " + html.escape(face.name) + "</title>"
         "<body style='font-family:system-ui;max-width:1100px;margin:2rem auto;padding:0 1rem'>" + "\n".join(parts))
     made.append("index.html")
-    face.log_event("proof", made=made, specimen_lines=[{k: r.get(k) for k in ("line", "text", "missing")} for r in line_proofs])
-    return {"face": face.name, "proofs": made, "specimen_lines": line_proofs}
+    face.log_event("proof", made=made, checks={k: checks[k] for k in ("status", "warnings", "infos")},
+                   specimen_lines=[{k: r.get(k) for k in ("line", "text", "missing")} for r in line_proofs])
+    return {"face": face.name, "proofs": made, "specimen_lines": line_proofs, "checks": fj["checks"]}

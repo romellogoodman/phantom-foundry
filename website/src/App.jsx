@@ -1,33 +1,175 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import "./App.scss";
 
 const PROOFS = "/proofs";
 
-function useFaces() {
-  const [faces, setFaces] = useState([]);
+// -- data -------------------------------------------------------------------
+
+function useIndex() {
+  const [index, setIndex] = useState(null);
   const [error, setError] = useState(null);
   useEffect(() => {
     let cancelled = false;
-    (async () => {
-      try {
-        const index = await (await fetch(`${PROOFS}/index.json`)).json();
-        const loaded = await Promise.all(
-          index.faces.map(async (slug) => (await fetch(`${PROOFS}/${slug}/proofs/face.json`)).json()),
-        );
-        if (!cancelled) setFaces(loaded);
-      } catch (e) {
-        if (!cancelled) setError(String(e));
-      }
-    })();
+    fetch(`${PROOFS}/index.json`)
+      .then((r) => r.json())
+      .then((d) => !cancelled && setIndex(d))
+      .catch((e) => !cancelled && setError(String(e)));
     return () => {
       cancelled = true;
     };
   }, []);
-  return { faces, error };
+  return { index, error };
 }
 
-function FontFace({ face }) {
-  const file = face.fonts.find((f) => f.endsWith(".otf")) || face.fonts[0];
+function useFace(name) {
+  // state is keyed by the face it belongs to, so switching faces shows
+  // "loading" without a synchronous reset inside the effect
+  const [state, setState] = useState({ name: null, face: null, error: null });
+  useEffect(() => {
+    let cancelled = false;
+    if (!name) return undefined;
+    fetch(`${PROOFS}/${name}/proofs/face.json`)
+      .then((r) => r.json())
+      .then((d) => !cancelled && setState({ name, face: d, error: null }))
+      .catch((e) => !cancelled && setState({ name, face: null, error: String(e) }));
+    return () => {
+      cancelled = true;
+    };
+  }, [name]);
+  return state.name === name ? { face: state.face, error: state.error } : { face: null, error: null };
+}
+
+function useHash() {
+  const [hash, setHash] = useState(window.location.hash);
+  useEffect(() => {
+    const on = () => setHash(window.location.hash);
+    window.addEventListener("hashchange", on);
+    return () => window.removeEventListener("hashchange", on);
+  }, []);
+  const m = hash.match(/^#\/face\/([^/?]+)/);
+  return { face: m ? decodeURIComponent(m[1]) : null };
+}
+
+// A face's font is loaded once, on first use, through the FontFace API —
+// the index shows a hundred faces without a hundred @font-face rules up front.
+const loaded = new Set();
+function loadFont(family, file) {
+  if (!file || loaded.has(family)) return;
+  loaded.add(family);
+  const ff = new FontFace(family, `url("/fonts/${file}")`, { display: "swap" });
+  ff.load()
+    .then((f) => document.fonts.add(f))
+    .catch(() => loaded.delete(family));
+}
+
+function useVisible(ref) {
+  const [visible, setVisible] = useState(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || visible) return undefined;
+    const io = new IntersectionObserver(
+      (entries) => entries.some((e) => e.isIntersecting) && setVisible(true),
+      { rootMargin: "300px" },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [ref, visible]);
+  return visible;
+}
+
+function fontFile(fonts) {
+  return (fonts || []).find((f) => f.endsWith(".otf")) || (fonts || [])[0];
+}
+
+// -- index --------------------------------------------------------------------
+
+const SORTS = {
+  name: (a, b) => a.name.localeCompare(b.name),
+  glyphs: (a, b) => b.encoded - a.encoded || a.name.localeCompare(b.name),
+  page: (a, b) => (a.pages[0] || 9999) - (b.pages[0] || 9999) || a.name.localeCompare(b.name),
+  warnings: (a, b) => b.checks.warnings - a.checks.warnings || a.name.localeCompare(b.name),
+};
+
+function Card({ face }) {
+  const ref = useRef(null);
+  const visible = useVisible(ref);
+  const file = fontFile(face.fonts);
+  useEffect(() => {
+    if (visible) loadFont(face.family, file);
+  }, [visible, face.family, file]);
+  const pages = face.pages.filter(Boolean);
+  return (
+    <a ref={ref} className="card" href={`#/face/${encodeURIComponent(face.name)}`}>
+      <div className="card__specimen" style={{ fontFamily: `"${face.family}", serif` }}>
+        {visible ? face.sample || face.title || face.family : " "}
+      </div>
+      <h2 className="card__title">
+        {face.title || face.family}
+        <span className={`face__badge face__badge--${face.status}`}>
+          v{face.version} · {face.status}
+        </span>
+      </h2>
+      <p className="card__meta">
+        {face.encoded} glyphs · {face.caps}A {face.lower}a {face.figures}1
+        {face.constructed > 0 ? ` · ${face.constructed} constructed` : ""}
+        {face.sizes.length > 0 ? ` · ${face.sizes.join(" ")}` : ""}
+        {pages.length > 0 ? ` · p. ${pages.join(", ")}` : ""}
+        {face.checks.warnings > 0 ? ` · ${face.checks.warnings} warnings` : ""}
+      </p>
+    </a>
+  );
+}
+
+function Index({ index }) {
+  const [query, setQuery] = useState("");
+  const [sort, setSort] = useState("page");
+  const faces = useMemo(() => index.faces_list || [], [index]);
+  const shown = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    return faces
+      .filter((f) => !q || `${f.name} ${f.title} ${f.family} ${f.series} ${f.sample}`.toLowerCase().includes(q))
+      .sort(SORTS[sort]);
+  }, [faces, query, sort]);
+  return (
+    <section className="index">
+      <div className="index__controls">
+        <label className="tester__field index__search">
+          <span className="tester__label">Find a face</span>
+          <input
+            className="tester__input"
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="name, series, or the words on the page"
+            spellCheck={false}
+          />
+        </label>
+        <label className="tester__field">
+          <span className="tester__label">Sort</span>
+          <select className="tester__input index__select" value={sort} onChange={(e) => setSort(e.target.value)}>
+            <option value="page">By page in the book</option>
+            <option value="name">By name</option>
+            <option value="glyphs">Most glyphs first</option>
+            <option value="warnings">Warnings first</option>
+          </select>
+        </label>
+      </div>
+      <p className="index__count">
+        {shown.length} of {faces.length} faces · {index.encoded_glyphs} glyphs traced from the page
+      </p>
+      <div className="index__grid">
+        {shown.map((f) => (
+          <Card key={f.name} face={f} />
+        ))}
+      </div>
+    </section>
+  );
+}
+
+// -- one face -----------------------------------------------------------------
+
+function FontFaceStyle({ face }) {
+  const file = fontFile(face.fonts);
   if (!file) return null;
   const css = `@font-face{font-family:"${face.family}";src:url("/fonts/${file}") format("opentype");font-display:block}`;
   return <style>{css}</style>;
@@ -76,7 +218,7 @@ function Tester({ face }) {
         style={{ fontFamily: `"${face.family}"`, fontSize: `${size}px` }}
         aria-live="polite"
       >
-        {text || " "}
+        {text || " "}
       </div>
       {missing.length > 0 && (
         <p className="tester__note">
@@ -97,19 +239,25 @@ function Face({ face }) {
   const lines = Object.entries(face.lines || {});
   const coveredLines = (face.specimen_lines || []).filter((l) => l.proof && l.missing && l.missing.length === 0);
   const rGlyph = face.glyphs.find((g) => g.name === "R");
+  const leafPages = face.leaf_pages || {};
+  const where = (src.leaves || [])
+    .map((l) => (leafPages[l] ? `p. ${leafPages[l]}` : `leaf ${l}`))
+    .join(", ");
+  const readers = [...new Set((face.specimen_lines || []).map((l) => l.by || "human"))];
+  const year = String(src.date || "").replace(/\D/g, "");
 
   return (
     <article className="face">
-      <FontFace face={face} />
+      <FontFaceStyle face={face} />
       <header className="face__header">
         <h2 className="face__family">
-          {face.family}{" "}
+          {face.title || face.family}{" "}
           <span className={`face__badge face__badge--${face.status}`}>
             v{face.version} · {face.status}
           </span>
         </h2>
         <p className="face__source">
-          {src.publisher}, {src.date} — <em>{(src.title || "").split(".")[0]}</em>, leaf {(src.leaves || []).join(", ")}.{" "}
+          {src.publisher}, {src.date} — <em>{(src.title || "").split(".")[0]}</em>, {where}.{" "}
           <a className="face__link" href={src.url}>
             Internet Archive ↗
           </a>
@@ -118,6 +266,9 @@ function Face({ face }) {
           {encoded.length} glyphs: {traced} traced from the specimen
           {constructed > 0 ? `, ${constructed} constructed from them` : ""}.{" "}
           {alternates > 0 ? `${alternates} same-letter alternates from other sizes ride along unencoded. ` : ""}
+          {readers.some((r) => r.includes("claude"))
+            ? "The lines were read from the page by Claude and cross-checked against the archive's OCR. "
+            : ""}
           {face.fonts.map((f) => (
             <a key={f} className="face__link" href={`/fonts/${f}`} download>
               {f} ↓
@@ -132,13 +283,19 @@ function Face({ face }) {
         <section className="face__section">
           <h3 className="face__subhead">The specimen, re-set</h3>
           <p className="face__caption">
-            Each line as printed in 1907, and the same words set in the revived font at the same cap height.
+            Each line as printed{year ? ` in ${year}` : ""}, and the same words set in the revived font at the same
+            cap height.
           </p>
           {coveredLines.map((l) => (
-            <figure key={l.line} className="face__figure">
-              <img src={`${PROOFS}/${face.name}/proofs/${l.proof}`} alt={`${l.text} — printed line over the re-set line`} />
+            <figure key={`${l.leaf}-${l.band}`} className="face__figure">
+              <img
+                src={`${PROOFS}/${face.name}/proofs/${l.proof}`}
+                alt={`${l.text} — printed line over the re-set line`}
+                loading="lazy"
+              />
               <figcaption>
-                {l.text} — {l.line}-line
+                {l.text} — {l.line}
+                {l.by ? ` · read by ${l.by}` : ""}
               </figcaption>
             </figure>
           ))}
@@ -162,8 +319,8 @@ function Face({ face }) {
         <section className="face__section">
           <h3 className="face__subhead">{lines.length} sizes, one face</h3>
           <p className="face__caption">
-            The page shows the design at {lines.length} sizes, each a separate set of wood blocks. Scaled to a
-            common cap height, the sizes differ in weight — measured here as stem width over cap height.
+            The page shows the design at {lines.length} sizes, each cut separately. Scaled to a common cap height,
+            the sizes differ in weight — measured here as stem width over cap height.
           </p>
           <table className="face__table">
             <thead>
@@ -179,10 +336,10 @@ function Face({ face }) {
               {lines.map(([key, m]) => (
                 <tr key={key}>
                   <td>{key.split(":")[1]}</td>
-                  <td>{m.n_caps}</td>
+                  <td>{m.glyphs ? m.glyphs.length : m.n_caps}</td>
                   <td>{Math.round(m.cap_height_px)}</td>
-                  <td>{m.stem_units}</td>
-                  <td>{((m.stem_units / face.metrics.cap_height) * 100).toFixed(1)}%</td>
+                  <td>{m.stem_units ?? "—"}</td>
+                  <td>{m.stem_units ? `${((m.stem_units / face.metrics.cap_height) * 100).toFixed(1)}%` : "—"}</td>
                 </tr>
               ))}
             </tbody>
@@ -249,22 +406,66 @@ function Face({ face }) {
   );
 }
 
+function FacePage({ name, index }) {
+  const { face, error } = useFace(name);
+  const list = (index && index.faces_list) || [];
+  const i = list.findIndex((f) => f.name === name);
+  const prev = i > 0 ? list[i - 1] : null;
+  const next = i >= 0 && i < list.length - 1 ? list[i + 1] : null;
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [name]);
+  return (
+    <>
+      <nav className="nav">
+        <a className="nav__link" href="#/">
+          ← All faces
+        </a>
+        <span className="nav__spacer" />
+        {prev && (
+          <a className="nav__link" href={`#/face/${encodeURIComponent(prev.name)}`}>
+            ← {prev.title || prev.name}
+          </a>
+        )}
+        {next && (
+          <a className="nav__link" href={`#/face/${encodeURIComponent(next.name)}`}>
+            {next.title || next.name} →
+          </a>
+        )}
+      </nav>
+      {error && <p className="app__error">Could not load {name}: {error}</p>}
+      {face ? <Face face={face} /> : !error && <p className="app__loading">Loading {name}…</p>}
+    </>
+  );
+}
+
+// -- app ----------------------------------------------------------------------
+
 function App() {
-  const { faces, error } = useFaces();
+  const { index, error } = useIndex();
+  const route = useHash();
   return (
     <main className="app">
       <header className="app__header">
-        <h1 className="app__title">Phantom Foundry</h1>
+        <h1 className="app__title">
+          <a className="app__home" href="#/">
+            Phantom Foundry
+          </a>
+        </h1>
         <p className="app__tagline">
           Public domain typefaces revived from scanned specimen books. Letters are cut from the scan and traced
           with potrace; the letters the book doesn&rsquo;t show are built from the ones it does; every step is kept.
           Fonts mature in versions — proto, draft, release — like software.
         </p>
       </header>
-      {error && <p className="app__error">Could not load faces: {error}</p>}
-      {faces.map((face) => (
-        <Face key={face.name} face={face} />
-      ))}
+      {error && <p className="app__error">Could not load the index: {error}</p>}
+      {route.face ? (
+        <FacePage name={route.face} index={index} />
+      ) : index ? (
+        <Index index={index} />
+      ) : (
+        !error && <p className="app__loading">Loading…</p>
+      )}
       <footer className="app__footer">
         Fonts: SIL Open Font License. Tooling: MIT.{" "}
         <a className="face__link" href="https://github.com/romellogoodman/phantom-foundry">

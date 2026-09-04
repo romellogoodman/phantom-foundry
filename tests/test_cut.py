@@ -34,4 +34,5 @@ def test_category_of():
 def test_stacked_piece_dot_yes_speck_no():
     assert stacked_piece((0, 40), (60, 300), piece_px=800, main_px=12000)     # dot above the stem
     assert not stacked_piece((250, 262), (60, 300), piece_px=70, main_px=15000)  # speck beside the o
+    assert not stacked_piece((310, 322), (60, 300), piece_px=70, main_px=15000)  # speck under the letter
     assert stacked_piece((100, 200), (60, 300), piece_px=1000, main_px=12000)  # broken stroke, 8%

@@ -68,5 +68,5 @@ jobs:
             faces/${{ steps.tag.outputs.face }}/dist/*.otf
             faces/${{ steps.tag.outputs.face }}/dist/*.ttf
             faces/${{ steps.tag.outputs.face }}/proofs/alphabet.png
-            faces/${{ steps.tag.outputs.face }}/proofs/line_*.png
+            faces/${{ steps.tag.outputs.face }}/proofs/line_*
             faces/${{ steps.tag.outputs.face }}/proofs/face.json

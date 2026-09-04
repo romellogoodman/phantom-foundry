@@ -46,7 +46,11 @@
     "892:twelve": {
       "n_caps": 3,
       "cap_height_px": 802,
+      "cap_source": "caps",
       "baseline_px": 3434,
+      "baselines": {
+        "": 3434
+      },
       "glyphs": [
         "D",
         "I",
@@ -59,7 +63,11 @@
     "892:six": {
       "n_caps": 5,
       "cap_height_px": 402,
+      "cap_source": "caps",
       "baseline_px": 2427,
+      "baselines": {
+        "": 2427
+      },
       "glyphs": [
         "R",
         "O",
@@ -74,7 +82,11 @@
     "892:five": {
       "n_caps": 6,
       "cap_height_px": 335.0,
+      "cap_source": "caps",
       "baseline_px": 1819.0,
+      "baselines": {
+        "": 1819.0
+      },
       "glyphs": [
         "B",
         "I.five",
@@ -90,7 +102,11 @@
     "892:four": {
       "n_caps": 5,
       "cap_height_px": 269,
+      "cap_source": "caps",
       "baseline_px": 1270,
+      "baselines": {
+        "": 1270
+      },
       "glyphs": [
         "N.four",
         "O.four",
@@ -109,7 +125,11 @@
     "892:three": {
       "n_caps": 2,
       "cap_height_px": 202.0,
+      "cap_source": "caps",
       "baseline_px": 787.5,
+      "baselines": {
+        "": 787.5
+      },
       "glyphs": [
         "R.three",
         "o",
@@ -220,7 +240,8 @@
         "ink_width_px": 345,
         "stem_px": 109,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9873
     },
     {
       "name": "D",
@@ -247,7 +268,8 @@
         "ink_width_px": 812,
         "stem_px": 237,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9925
     },
     {
       "name": "D.five",
@@ -274,7 +296,8 @@
         "ink_width_px": 344,
         "stem_px": 105,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9921
     },
     {
       "name": "E",
@@ -301,7 +324,8 @@
         "ink_width_px": 783,
         "stem_px": 176,
         "components": 1
-      }
+      },
+      "trace_iou": 0.993
     },
     {
       "name": "E.five",
@@ -328,7 +352,8 @@
         "ink_width_px": 339,
         "stem_px": 82,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9828
     },
     {
       "name": "E.six",
@@ -355,7 +380,8 @@
         "ink_width_px": 402,
         "stem_px": 98,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9859
     },
     {
       "name": "G",
@@ -382,7 +408,8 @@
         "ink_width_px": 411,
         "stem_px": 101,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9907
     },
     {
       "name": "G.three",
@@ -409,7 +436,8 @@
         "ink_width_px": 211,
         "stem_px": 57,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9819
     },
     {
       "name": "H",
@@ -436,7 +464,8 @@
         "ink_width_px": 305,
         "stem_px": 88,
         "components": 1
-      }
+      },
+      "trace_iou": 0.986
     },
     {
       "name": "I",
@@ -463,7 +492,8 @@
         "ink_width_px": 463,
         "stem_px": 246,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9922
     },
     {
       "name": "I.five",
@@ -490,7 +520,8 @@
         "ink_width_px": 193,
         "stem_px": 103,
         "components": 1
-      }
+      },
+      "trace_iou": 0.988
     },
     {
       "name": "N",
@@ -517,7 +548,8 @@
         "ink_width_px": 385,
         "stem_px": 79,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9862
     },
     {
       "name": "N.four",
@@ -544,7 +576,8 @@
         "ink_width_px": 307,
         "stem_px": 65,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9851
     },
     {
       "name": "O",
@@ -571,7 +604,8 @@
         "ink_width_px": 369,
         "stem_px": 121,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9934
     },
     {
       "name": "O.four",
@@ -598,7 +632,8 @@
         "ink_width_px": 252,
         "stem_px": 82,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9889
     },
     {
       "name": "R",
@@ -625,7 +660,8 @@
         "ink_width_px": 456,
         "stem_px": 132,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9906
     },
     {
       "name": "R.five",
@@ -652,7 +688,8 @@
         "ink_width_px": 381,
         "stem_px": 109,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9894
     },
     {
       "name": "R.four",
@@ -679,7 +716,8 @@
         "ink_width_px": 307,
         "stem_px": 87,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9844
     },
     {
       "name": "R.three",
@@ -706,7 +744,8 @@
         "ink_width_px": 235,
         "stem_px": 68,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9833
     },
     {
       "name": "T",
@@ -733,7 +772,8 @@
         "ink_width_px": 287,
         "stem_px": 82,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9899
     },
     {
       "name": "U",
@@ -760,7 +800,8 @@
         "ink_width_px": 438,
         "stem_px": 97,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9885
     },
     {
       "name": "a",
@@ -787,7 +828,8 @@
         "ink_width_px": 181,
         "stem_px": 48,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9771
     },
     {
       "name": "d",
@@ -814,7 +856,8 @@
         "ink_width_px": 167,
         "stem_px": 49,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9805
     },
     {
       "name": "e",
@@ -841,7 +884,8 @@
         "ink_width_px": 150,
         "stem_px": 50,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9747
     },
     {
       "name": "e.three",
@@ -868,7 +912,8 @@
         "ink_width_px": 149,
         "stem_px": 49,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9818
     },
     {
       "name": "n",
@@ -895,7 +940,8 @@
         "ink_width_px": 190,
         "stem_px": 50,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9744
     },
     {
       "name": "nine",
@@ -922,7 +968,8 @@
         "ink_width_px": 237,
         "stem_px": 74,
         "components": 1
-      }
+      },
+      "trace_iou": 0.983
     },
     {
       "name": "o",
@@ -949,7 +996,8 @@
         "ink_width_px": 149,
         "stem_px": 47,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9717
     },
     {
       "name": "r",
@@ -976,7 +1024,8 @@
         "ink_width_px": 150,
         "stem_px": 50,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9734
     },
     {
       "name": "s",
@@ -1003,7 +1052,8 @@
         "ink_width_px": 145,
         "stem_px": 46,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9709
     },
     {
       "name": "six",
@@ -1030,7 +1080,8 @@
         "ink_width_px": 177,
         "stem_px": 60,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9846
     },
     {
       "name": "space",
@@ -1072,7 +1123,8 @@
         "ink_width_px": 238,
         "stem_px": 67,
         "components": 1
-      }
+      },
+      "trace_iou": 0.9867
     }
   ],
   "arrow_attempts": [],
@@ -1152,6 +1204,18 @@
     "line_892_five.png",
     "line_892_four.png",
     "line_892_three.png",
-    "waterfall.png"
-  ]
+    "waterfall.png",
+    "checks.json"
+  ],
+  "checks": {
+    "status": "ok",
+    "warnings": 0,
+    "infos": 5,
+    "encoded": 21
+  },
+  "series": "No. 155 Class O",
+  "book": "bookoftypespecim00barnrich",
+  "leaf_pages": {
+    "892": 848
+  }
 }

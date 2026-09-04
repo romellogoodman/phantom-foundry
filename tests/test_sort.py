@@ -36,9 +36,27 @@ def test_line_metrics_uses_caps_medians():
     assert m["stem_px"] == 20
 
 
-def test_line_metrics_falls_back_to_all_glyphs():
+def test_line_metrics_without_caps_uses_the_tallest_lowercase():
+    """No capitals at this size: ascenders stand about cap high, so the
+    tallest third of the lowercase sets the cap height, not the x-height."""
+    infos = [_info(category="lower", ink_height_px=h) for h in (100, 102, 98, 150, 148, 101)]
+    m = line_metrics(infos)
+    assert m["n_caps"] == 0 and m["cap_source"] == "ascenders" and m["cap_height_px"] == 149
     m = line_metrics([_info(category="figure", ink_height_px=150)])
-    assert m["n_caps"] == 1 and m["cap_height_px"] == 150
+    assert m["cap_height_px"] == 150
+
+
+def test_line_metrics_gives_each_band_its_own_baseline():
+    """One size printed as CAPITALS (band 7) over Mixed case (band 8): one
+    scale from the caps, a baseline per band from what sits on it."""
+    caps = [_info(category="cap", ink_height_px=200, tight_box_page=[0, 1000, 100, 1200], band="7")
+            for _ in range(3)]
+    lower = [_info(category="lower", ink_height_px=140, tight_box_page=[0, 1360, 100, 1500], band="8")
+             for _ in range(4)]
+    m = line_metrics(caps + lower)
+    assert m["cap_height_px"] == 200 and m["cap_source"] == "caps"
+    assert m["baselines"] == {"7": 1200, "8": 1500}
+    assert m["baseline_px"] == 1200 and m["x_height_px"] == 140
 
 
 def test_glyph_transform_puts_ink_on_baseline_at_cap_height():
