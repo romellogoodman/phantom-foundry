@@ -1,0 +1,217 @@
+name: lining-gothic-title-no-60
+title: Lining Gothic Title No. 60
+series: Lining Gothic Title No. 60
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 239
+leaf_pages:
+  239: 223
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 56
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      239:60pt: 82.3
+      239:54pt: 105.7
+      239:42pt: 119.0
+      239:30pt: 116.7
+specimen_lines:
+- leaf: 239
+  line: 60pt
+  text: EASTERN
+  band: 8
+  by: claude+ocr
+- leaf: 239
+  line: 60pt
+  text: MAIL 46 CAR
+  band: 9
+  by: claude+ocr
+- leaf: 239
+  line: 54pt
+  text: TROLLEY
+  band: 6
+  by: claude+ocr
+- leaf: 239
+  line: 54pt
+  text: CAR 72 LINES
+  band: 7
+  by: claude+ocr
+- leaf: 239
+  line: 42pt
+  text: PNEUMATIC
+  band: 4
+  by: claude+ocr
+- leaf: 239
+  line: 42pt
+  text: ROAD 36 HOUSE
+  band: 5
+  by: claude+ocr
+- leaf: 239
+  line: 30pt
+  text: COMPETITION
+  band: 2
+  by: claude+ocr
+- leaf: 239
+  line: 30pt
+  text: TRADE 58 JOURNAL
+  band: 3
+  by: claude+ocr
+lines:
+  239:60pt:
+    n_caps: 14
+    cap_height_px: 293.5
+    cap_source: caps
+    baseline_px: 3161
+    baselines:
+      '8': 3161
+      '9': 3557
+    glyphs:
+    - E
+    - A
+    - S
+    - T
+    - E.60pt
+    - R
+    - N
+    - M
+    - A.60pt
+    - I
+    - L
+    - four
+    - six
+    - C
+    - A.60pt_2
+    - R.60pt
+    figure_height_px: 296.0
+    stem_px: 20.0
+    scale: 2.38501
+    stem_units: 47.7
+    figure_height: 706
+  239:54pt:
+    n_caps: 15
+    cap_height_px: 245
+    cap_source: caps
+    baseline_px: 2283
+    baselines:
+      '6': 2283
+      '7': 2615.0
+    glyphs:
+    - T.54pt
+    - R.54pt
+    - O
+    - L.54pt
+    - L.54pt_2
+    - E.54pt
+    - Y
+    - C.54pt
+    - A.54pt
+    - R.54pt_2
+    - seven
+    - two
+    - L.54pt_3
+    - I.54pt
+    - N.54pt
+    - E.54pt_2
+    - S.54pt
+    figure_height_px: 248.5
+    stem_px: 18
+    scale: 2.85714
+    stem_units: 51.4
+    figure_height: 710
+  239:42pt:
+    n_caps: 18
+    cap_height_px: 200.0
+    cap_source: caps
+    baseline_px: 1525
+    baselines:
+      '4': 1525
+      '5': 1790
+    glyphs:
+    - P
+    - N.42pt
+    - E.42pt
+    - U
+    - M.42pt
+    - A.42pt
+    - T.42pt
+    - I.42pt
+    - C.42pt
+    - R.42pt
+    - O.42pt
+    - A.42pt_2
+    - D
+    - three
+    - six.42pt
+    - H
+    - O.42pt_2
+    - U.42pt
+    - S.42pt
+    - E.42pt_2
+    figure_height_px: 199.5
+    stem_px: 15.5
+    scale: 3.5
+    stem_units: 54.2
+    figure_height: 698
+  239:30pt:
+    n_caps: 23
+    cap_height_px: 156
+    cap_source: caps
+    baseline_px: 865
+    baselines:
+      '2': 865
+      '3': 1098.0
+    glyphs:
+    - C.30pt
+    - O.30pt
+    - M.30pt
+    - P.30pt
+    - E.30pt
+    - T.30pt
+    - I.30pt
+    - T.30pt_2
+    - I.30pt_2
+    - O.30pt_2
+    - N.30pt
+    - T.30pt_3
+    - R.30pt
+    - A.30pt
+    - D.30pt
+    - E.30pt_2
+    - five
+    - eight
+    - J
+    - O.30pt_3
+    - U.30pt
+    - R.30pt_2
+    - N.30pt_2
+    - A.30pt_2
+    - L.30pt
+    figure_height_px: 158.5
+    stem_px: 14
+    scale: 4.48718
+    stem_units: 62.8
+    figure_height: 711

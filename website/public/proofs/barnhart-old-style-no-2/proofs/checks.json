@@ -1,0 +1,78 @@
+{
+  "status": "warn",
+  "warnings": 3,
+  "infos": 7,
+  "encoded": 43,
+  "items": [
+    {
+      "level": "warn",
+      "check": "contours",
+      "glyph": "g",
+      "value": 6,
+      "note": "more than four contours; specks or a broken trace"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "E.54pt_2",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "W",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "S.54pt_2",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "warn",
+      "check": "cap_height",
+      "glyph": "S.54pt_2",
+      "value": 0.121,
+      "note": "capital's ink height is off its line's cap height by more than 12% (misread box?)"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "S.54pt_3",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "warn",
+      "check": "cap_height",
+      "glyph": "S.54pt_3",
+      "value": 0.195,
+      "note": "capital's ink height is off its line's cap height by more than 12% (misread box?)"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "o.48pt",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "info",
+      "check": "pieces",
+      "glyph": "N.42pt_2",
+      "value": 2,
+      "note": "the cut joined more than one ink component"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "E.42pt",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    }
+  ]
+}

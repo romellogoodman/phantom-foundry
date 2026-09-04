@@ -1,0 +1,43 @@
+{
+  "status": "warn",
+  "warnings": 1,
+  "infos": 4,
+  "encoded": 23,
+  "items": [
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "S.54pt",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "T.54pt_3",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "warn",
+      "check": "trace_iou",
+      "glyph": "I.42pt",
+      "value": 0.921,
+      "note": "potrace trace overlaps the scan by less than 92% (cap 211 px)"
+    },
+    {
+      "level": "info",
+      "check": "pieces",
+      "glyph": "S.36pt_3",
+      "value": 2,
+      "note": "the cut joined more than one ink component"
+    },
+    {
+      "level": "info",
+      "check": "unlabeled_band",
+      "leaf": 326,
+      "band": 2,
+      "note": "reading says: not type"
+    }
+  ]
+}

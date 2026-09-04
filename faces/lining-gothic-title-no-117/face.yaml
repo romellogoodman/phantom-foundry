@@ -1,0 +1,269 @@
+name: lining-gothic-title-no-117
+title: Lining Gothic Title No. 117
+series: Lining Gothic Title No. 117
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 236
+  - 237
+leaf_pages:
+  236: 220
+  237: 221
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      237:96pt: 34.3
+      237:72pt: 36.1
+      237:60pt: 53.5
+      237:54pt: 31.5
+      236:30pt: 48.0
+      236:24pt: 44.4
+specimen_lines:
+- leaf: 237
+  line: 96pt
+  text: BRICK 56 HOUSE
+  band: 7
+  by: claude
+- leaf: 237
+  line: 72pt
+  text: FANCY 43 BOOKS
+  band: 6
+  by: claude+ocr
+- leaf: 237
+  line: 60pt
+  text: DURABLE 98 TYPES
+  band: 5
+  by: claude+ocr
+- leaf: 237
+  line: 54pt
+  text: NATIONAL 68 BANKERS
+  band: 4
+  by: claude+ocr
+- leaf: 236
+  line: 30pt
+  text: MACHINES AND 84 PRINTING PRESS
+  band: 3
+  by: claude+ocr
+- leaf: 236
+  line: 24pt
+  text: STORY BOOKS TO 92 AMUSE THE LITTLE FOLKS
+  band: 2
+  by: claude
+lines:
+  237:96pt:
+    n_caps: 10
+    cap_height_px: 490.5
+    cap_source: caps
+    baseline_px: 3574.5
+    baselines:
+      '7': 3574.5
+    glyphs:
+    - B
+    - R
+    - I
+    - C
+    - K
+    - five
+    - six
+    - H
+    - O
+    - U
+    - S
+    - E
+    figure_height_px: 491.5
+    stem_px: 48.0
+    scale: 1.42712
+    stem_units: 68.5
+    figure_height: 701
+  237:72pt:
+    n_caps: 10
+    cap_height_px: 368.0
+    cap_source: caps
+    baseline_px: 2898.5
+    baselines:
+      '6': 2898.5
+    glyphs:
+    - F
+    - A
+    - N
+    - C.72pt
+    - Y
+    - four
+    - three
+    - B.72pt
+    - O.72pt
+    - O.72pt_2
+    - K.72pt
+    - S.72pt
+    figure_height_px: 369.0
+    stem_px: 50.5
+    scale: 1.90217
+    stem_units: 96.1
+    figure_height: 702
+  237:60pt:
+    n_caps: 12
+    cap_height_px: 301.0
+    cap_source: caps
+    baseline_px: 2322.5
+    baselines:
+      '5': 2322.5
+    glyphs:
+    - D
+    - U.60pt
+    - R.60pt
+    - A.60pt
+    - B.60pt
+    - L
+    - E.60pt
+    - nine
+    - eight
+    - T
+    - Y.60pt
+    - P
+    - E.60pt_2
+    - S.60pt
+    figure_height_px: 307.0
+    stem_px: 41.0
+    scale: 2.32558
+    stem_units: 95.3
+    figure_height: 714
+  237:54pt:
+    n_caps: 15
+    cap_height_px: 278
+    cap_source: caps
+    baseline_px: 1843
+    baselines:
+      '4': 1843
+    glyphs:
+    - N.54pt
+    - A.54pt
+    - T.54pt
+    - I.54pt
+    - O.54pt
+    - N.54pt_2
+    - A.54pt_2
+    - L.54pt
+    - six.54pt
+    - eight.54pt
+    - B.54pt
+    - A.54pt_3
+    - N.54pt_3
+    - K.54pt
+    - E.54pt
+    - R.54pt
+    - S.54pt
+    figure_height_px: 283.5
+    stem_px: 34
+    scale: 2.51799
+    stem_units: 85.6
+    figure_height: 714
+  236:30pt:
+    n_caps: 24
+    cap_height_px: 160.5
+    cap_source: caps
+    baseline_px: 3176.0
+    baselines:
+      '3': 3176.0
+    glyphs:
+    - M
+    - A.30pt
+    - C.30pt
+    - H.30pt
+    - I.30pt
+    - N.30pt
+    - E.30pt
+    - S.30pt
+    - A.30pt_2
+    - N.30pt_2
+    - D.30pt
+    - eight.30pt
+    - four.30pt
+    - P.30pt
+    - R.30pt
+    - I.30pt_2
+    - N.30pt_3
+    - T.30pt
+    - I.30pt_3
+    - N.30pt_4
+    - G
+    - P.30pt_2
+    - R.30pt_2
+    - E.30pt_2
+    - S.30pt_2
+    - S.30pt_3
+    figure_height_px: 157.0
+    stem_px: 22.0
+    scale: 4.36137
+    stem_units: 96.0
+    figure_height: 685
+  236:24pt:
+    n_caps: 31
+    cap_height_px: 126
+    cap_source: caps
+    baseline_px: 2853
+    baselines:
+      '2': 2853
+    glyphs:
+    - S.24pt
+    - T.24pt
+    - O.24pt
+    - R.24pt
+    - Y.24pt
+    - B.24pt
+    - O.24pt_2
+    - O.24pt_3
+    - K.24pt
+    - S.24pt_2
+    - T.24pt_2
+    - O.24pt_4
+    - nine.24pt
+    - two
+    - A.24pt
+    - M.24pt
+    - U.24pt
+    - S.24pt_3
+    - E.24pt
+    - T.24pt_3
+    - H.24pt
+    - E.24pt_2
+    - L.24pt
+    - I.24pt
+    - T.24pt_4
+    - T.24pt_5
+    - L.24pt_2
+    - E.24pt_3
+    - F.24pt
+    - O.24pt_5
+    - L.24pt_3
+    - K.24pt_2
+    - S.24pt_4
+    figure_height_px: 124.5
+    stem_px: 17
+    scale: 5.55556
+    stem_units: 94.4
+    figure_height: 692

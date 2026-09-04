@@ -7,6 +7,13 @@ public domain.
 
 Maturity: **proto** (0.x, traced, machine-spaced) → **draft** → **release**.
 
+## 0.1.1 — 2026-09-04 · proto
+
+- The twelve-line E in DIE on leaf 892 is printed **mirror-reversed** — the block's stem is on
+  the right and its counters open to the left. It had been traced as the encoded E. It is now
+  `Ereversed` (Ǝ, U+018E), exactly as printed, and the six-line E is the encoded E. Found by
+  the reading pass that re-transcribed every band of the book; the page is the evidence.
+
 ## 0.1.0 — 2026-08-30 · proto
 
 - Everything the page shows, traced with potrace from five sizes: "DIE" (twelve-line),

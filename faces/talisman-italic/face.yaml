@@ -1,0 +1,210 @@
+name: talisman-italic
+title: Talisman Italic
+series: Talisman Italic
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 384
+  - 385
+leaf_pages:
+  384: 366
+  385: 367
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 547
+  spacing:
+    straight: 33
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      385:72pt: 70.7
+      385:60pt: 63.3
+      385:48pt: 57.5
+      384:30pt: 69.7
+specimen_lines:
+- leaf: 385
+  line: 72pt
+  text: ROAST
+  band: 8
+  by: claude+ocr
+- leaf: 385
+  line: 72pt
+  text: Big 8 Load
+  band: 9
+  by: claude+ocr
+- leaf: 385
+  line: 60pt
+  text: RURAL
+  band: 6
+  by: claude+ocr
+- leaf: 385
+  line: 60pt
+  text: '[Ma]il 25 Ba[gs]'
+  band: 7
+  by: claude
+- leaf: 385
+  line: 48pt
+  text: BU[IL]D[IN]G
+  band: 4
+  by: claude
+- leaf: 385
+  line: 48pt
+  text: '[St]rong 37 Bridge'
+  band: 5
+  by: claude
+- leaf: 384
+  line: 30pt
+  text: GRA[ND] S[CENER]Y
+  band: 2
+  by: claude
+- leaf: 384
+  line: 30pt
+  text: C[ol]orado 5 River C[any]on
+  band: 3
+  by: claude
+lines:
+  385:72pt:
+    n_caps: 7
+    cap_height_px: 317
+    cap_source: caps
+    baseline_px: 3133
+    baselines:
+      '8': 3133
+      '9': 3519.0
+    glyphs:
+    - R
+    - O
+    - A
+    - S
+    - T
+    - B
+    - i
+    - g
+    - eight
+    - L
+    - o
+    - a
+    - d
+    x_height_px: 283
+    figure_height_px: 317
+    stem_px: 53
+    scale: 2.2082
+    stem_units: 117.0
+    x_height: 625
+    figure_height: 700
+  385:60pt:
+    n_caps: 6
+    cap_height_px: 260.0
+    cap_source: caps
+    baseline_px: 2259
+    baselines:
+      '6': 2259
+      '7': 2591
+    glyphs:
+    - R.60pt
+    - U
+    - R.60pt_2
+    - A.60pt
+    - L.60pt
+    - i.60pt
+    - l
+    - two
+    - five
+    - B.60pt
+    - a.60pt
+    x_height_px: 257
+    figure_height_px: 256.0
+    stem_px: 46.5
+    scale: 2.69231
+    stem_units: 125.2
+    x_height: 692
+    figure_height: 689
+  385:48pt:
+    n_caps: 5
+    cap_height_px: 207
+    cap_source: caps
+    baseline_px: 1501.0
+    baselines:
+      '4': 1501.0
+      '5': 1766
+    glyphs:
+    - B.48pt
+    - U.48pt
+    - D
+    - G
+    - r
+    - o.48pt
+    - n
+    - g.48pt
+    - three
+    - seven
+    - B.48pt_2
+    - r.48pt
+    - i.48pt
+    - d.48pt
+    - g.48pt_2
+    - e
+    x_height_px: 139
+    figure_height_px: 206.5
+    stem_px: 35
+    scale: 3.38164
+    stem_units: 118.4
+    x_height: 470
+    figure_height: 698
+  384:30pt:
+    n_caps: 8
+    cap_height_px: 130.5
+    cap_source: caps
+    baseline_px: 2696
+    baselines:
+      '2': 2696
+      '3': 2881
+    glyphs:
+    - G.30pt
+    - R.30pt
+    - A.30pt
+    - S.30pt
+    - Y
+    - C
+    - o.30pt
+    - r.30pt
+    - a.30pt
+    - d.30pt
+    - o.30pt_2
+    - five.30pt
+    - R.30pt_2
+    - i.30pt
+    - v
+    - e.30pt
+    - r.30pt_2
+    - C.30pt
+    - o.30pt_3
+    - n.30pt
+    x_height_px: 86
+    figure_height_px: 129
+    stem_px: 20.5
+    scale: 5.36398
+    stem_units: 110.0
+    x_height: 461
+    figure_height: 692

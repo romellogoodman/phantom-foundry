@@ -1,7 +1,7 @@
 {
   "name": "wood-155-class-o",
   "family": "Wood 155 Class O",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "status": "proto",
   "title": "Wood Type No. 155, Class O",
   "source": {
@@ -54,7 +54,7 @@
       "glyphs": [
         "D",
         "I",
-        "E"
+        "Ereversed"
       ],
       "stem_px": 237,
       "scale": 0.87282,
@@ -73,7 +73,7 @@
         "O",
         "G",
         "U",
-        "E.six"
+        "E"
       ],
       "stem_px": 101,
       "scale": 1.74129,
@@ -156,11 +156,12 @@
     {
       "leaf": 892,
       "line": "twelve",
-      "text": "DIE",
+      "text": "DI\u018e",
       "band": 6,
       "chars": 3,
       "missing": [],
-      "proof": "line_892_twelve.png"
+      "printed": "DI\u018e",
+      "proof": "line_892_twelve_b6.jpg"
     },
     {
       "leaf": 892,
@@ -169,7 +170,8 @@
       "band": 5,
       "chars": 5,
       "missing": [],
-      "proof": "line_892_six.png"
+      "printed": "ROGUE",
+      "proof": "line_892_six_b5.jpg"
     },
     {
       "leaf": 892,
@@ -178,7 +180,8 @@
       "band": 4,
       "chars": 6,
       "missing": [],
-      "proof": "line_892_five.png"
+      "printed": "BINDER",
+      "proof": "line_892_five_b4.jpg"
     },
     {
       "leaf": 892,
@@ -187,7 +190,8 @@
       "band": 3,
       "chars": 7,
       "missing": [],
-      "proof": "line_892_four.png"
+      "printed": "NORTH 29",
+      "proof": "line_892_four_b3.jpg"
     },
     {
       "leaf": 892,
@@ -196,7 +200,8 @@
       "band": 2,
       "chars": 11,
       "missing": [],
-      "proof": "line_892_three.png"
+      "printed": "Rose Garden 6",
+      "proof": "line_892_three_b2.jpg"
     }
   ],
   "glyphs": [
@@ -241,7 +246,7 @@
         "stem_px": 109,
         "components": 1
       },
-      "trace_iou": 0.9873
+      "trace_iou": 0.9939
     },
     {
       "name": "D",
@@ -269,7 +274,7 @@
         "stem_px": 237,
         "components": 1
       },
-      "trace_iou": 0.9925
+      "trace_iou": 0.9963
     },
     {
       "name": "D.five",
@@ -297,7 +302,7 @@
         "stem_px": 105,
         "components": 1
       },
-      "trace_iou": 0.9921
+      "trace_iou": 0.9938
     },
     {
       "name": "E",
@@ -305,27 +310,27 @@
       "char": "E",
       "encoded": true,
       "alternate_of": null,
-      "width": 694,
+      "width": 709,
       "category": "cap",
-      "line": "twelve",
+      "line": "six",
       "engine": "potrace",
       "constructed": false,
       "construct": null,
-      "stem_units": 153.6,
+      "stem_units": 170.6,
       "dropped_contours": [],
       "cut": {
         "tight_box_page": [
-          1650,
-          2630,
-          2433,
-          3433
+          2037,
+          2025,
+          2439,
+          2427
         ],
-        "ink_height_px": 803,
-        "ink_width_px": 783,
-        "stem_px": 176,
+        "ink_height_px": 402,
+        "ink_width_px": 402,
+        "stem_px": 98,
         "components": 1
       },
-      "trace_iou": 0.993
+      "trace_iou": 0.9901
     },
     {
       "name": "E.five",
@@ -353,35 +358,35 @@
         "stem_px": 82,
         "components": 1
       },
-      "trace_iou": 0.9828
+      "trace_iou": 0.9872
     },
     {
-      "name": "E.six",
-      "unicode": null,
-      "char": null,
-      "encoded": false,
-      "alternate_of": "E",
-      "width": 709,
+      "name": "Ereversed",
+      "unicode": "018E",
+      "char": "\u018e",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 694,
       "category": "cap",
-      "line": "six",
+      "line": "twelve",
       "engine": "potrace",
       "constructed": false,
       "construct": null,
-      "stem_units": 170.6,
+      "stem_units": 153.6,
       "dropped_contours": [],
       "cut": {
         "tight_box_page": [
-          2037,
-          2025,
-          2439,
-          2427
+          1650,
+          2630,
+          2433,
+          3433
         ],
-        "ink_height_px": 402,
-        "ink_width_px": 402,
-        "stem_px": 98,
+        "ink_height_px": 803,
+        "ink_width_px": 783,
+        "stem_px": 176,
         "components": 1
       },
-      "trace_iou": 0.9859
+      "trace_iou": 0.9946
     },
     {
       "name": "G",
@@ -409,7 +414,7 @@
         "stem_px": 101,
         "components": 1
       },
-      "trace_iou": 0.9907
+      "trace_iou": 0.9915
     },
     {
       "name": "G.three",
@@ -437,7 +442,7 @@
         "stem_px": 57,
         "components": 1
       },
-      "trace_iou": 0.9819
+      "trace_iou": 0.9833
     },
     {
       "name": "H",
@@ -465,7 +470,7 @@
         "stem_px": 88,
         "components": 1
       },
-      "trace_iou": 0.986
+      "trace_iou": 0.9881
     },
     {
       "name": "I",
@@ -493,7 +498,7 @@
         "stem_px": 246,
         "components": 1
       },
-      "trace_iou": 0.9922
+      "trace_iou": 0.9949
     },
     {
       "name": "I.five",
@@ -521,7 +526,7 @@
         "stem_px": 103,
         "components": 1
       },
-      "trace_iou": 0.988
+      "trace_iou": 0.9885
     },
     {
       "name": "N",
@@ -549,7 +554,7 @@
         "stem_px": 79,
         "components": 1
       },
-      "trace_iou": 0.9862
+      "trace_iou": 0.9882
     },
     {
       "name": "N.four",
@@ -577,7 +582,7 @@
         "stem_px": 65,
         "components": 1
       },
-      "trace_iou": 0.9851
+      "trace_iou": 0.9881
     },
     {
       "name": "O",
@@ -605,7 +610,7 @@
         "stem_px": 121,
         "components": 1
       },
-      "trace_iou": 0.9934
+      "trace_iou": 0.9947
     },
     {
       "name": "O.four",
@@ -633,7 +638,7 @@
         "stem_px": 82,
         "components": 1
       },
-      "trace_iou": 0.9889
+      "trace_iou": 0.992
     },
     {
       "name": "R",
@@ -661,7 +666,7 @@
         "stem_px": 132,
         "components": 1
       },
-      "trace_iou": 0.9906
+      "trace_iou": 0.9931
     },
     {
       "name": "R.five",
@@ -689,7 +694,7 @@
         "stem_px": 109,
         "components": 1
       },
-      "trace_iou": 0.9894
+      "trace_iou": 0.9923
     },
     {
       "name": "R.four",
@@ -717,7 +722,7 @@
         "stem_px": 87,
         "components": 1
       },
-      "trace_iou": 0.9844
+      "trace_iou": 0.9888
     },
     {
       "name": "R.three",
@@ -745,7 +750,7 @@
         "stem_px": 68,
         "components": 1
       },
-      "trace_iou": 0.9833
+      "trace_iou": 0.9883
     },
     {
       "name": "T",
@@ -773,7 +778,7 @@
         "stem_px": 82,
         "components": 1
       },
-      "trace_iou": 0.9899
+      "trace_iou": 0.991
     },
     {
       "name": "U",
@@ -801,7 +806,7 @@
         "stem_px": 97,
         "components": 1
       },
-      "trace_iou": 0.9885
+      "trace_iou": 0.9916
     },
     {
       "name": "a",
@@ -829,7 +834,7 @@
         "stem_px": 48,
         "components": 1
       },
-      "trace_iou": 0.9771
+      "trace_iou": 0.9851
     },
     {
       "name": "d",
@@ -857,7 +862,7 @@
         "stem_px": 49,
         "components": 1
       },
-      "trace_iou": 0.9805
+      "trace_iou": 0.9847
     },
     {
       "name": "e",
@@ -885,7 +890,7 @@
         "stem_px": 50,
         "components": 1
       },
-      "trace_iou": 0.9747
+      "trace_iou": 0.9837
     },
     {
       "name": "e.three",
@@ -913,7 +918,7 @@
         "stem_px": 49,
         "components": 1
       },
-      "trace_iou": 0.9818
+      "trace_iou": 0.9797
     },
     {
       "name": "n",
@@ -941,7 +946,7 @@
         "stem_px": 50,
         "components": 1
       },
-      "trace_iou": 0.9744
+      "trace_iou": 0.9805
     },
     {
       "name": "nine",
@@ -969,7 +974,7 @@
         "stem_px": 74,
         "components": 1
       },
-      "trace_iou": 0.983
+      "trace_iou": 0.9905
     },
     {
       "name": "o",
@@ -997,7 +1002,7 @@
         "stem_px": 47,
         "components": 1
       },
-      "trace_iou": 0.9717
+      "trace_iou": 0.9888
     },
     {
       "name": "r",
@@ -1025,7 +1030,7 @@
         "stem_px": 50,
         "components": 1
       },
-      "trace_iou": 0.9734
+      "trace_iou": 0.978
     },
     {
       "name": "s",
@@ -1053,7 +1058,7 @@
         "stem_px": 46,
         "components": 1
       },
-      "trace_iou": 0.9709
+      "trace_iou": 0.9815
     },
     {
       "name": "six",
@@ -1081,7 +1086,7 @@
         "stem_px": 60,
         "components": 1
       },
-      "trace_iou": 0.9846
+      "trace_iou": 0.988
     },
     {
       "name": "space",
@@ -1124,7 +1129,7 @@
         "stem_px": 67,
         "components": 1
       },
-      "trace_iou": 0.9867
+      "trace_iou": 0.9876
     }
   ],
   "arrow_attempts": [],
@@ -1133,77 +1138,13 @@
     "wood-155-class-o.ttf"
   ],
   "proofs": [
-    "D__overlay.png",
-    "D__traces.png",
-    "I__overlay.png",
-    "I__traces.png",
-    "E__overlay.png",
-    "E__traces.png",
-    "R__overlay.png",
-    "R__traces.png",
-    "O__overlay.png",
-    "O__traces.png",
-    "G__overlay.png",
-    "G__traces.png",
-    "U__overlay.png",
-    "U__traces.png",
-    "E_.six_overlay.png",
-    "E_.six_traces.png",
-    "B__overlay.png",
-    "B__traces.png",
-    "I_.five_overlay.png",
-    "I_.five_traces.png",
-    "N__overlay.png",
-    "N__traces.png",
-    "D_.five_overlay.png",
-    "D_.five_traces.png",
-    "E_.five_overlay.png",
-    "E_.five_traces.png",
-    "R_.five_overlay.png",
-    "R_.five_traces.png",
-    "N_.four_overlay.png",
-    "N_.four_traces.png",
-    "O_.four_overlay.png",
-    "O_.four_traces.png",
-    "R_.four_overlay.png",
-    "R_.four_traces.png",
-    "T__overlay.png",
-    "T__traces.png",
-    "H__overlay.png",
-    "H__traces.png",
-    "two_overlay.png",
-    "two_traces.png",
-    "nine_overlay.png",
-    "nine_traces.png",
-    "R_.three_overlay.png",
-    "R_.three_traces.png",
-    "o_overlay.png",
-    "o_traces.png",
-    "s_overlay.png",
-    "s_traces.png",
-    "e_overlay.png",
-    "e_traces.png",
-    "G_.three_overlay.png",
-    "G_.three_traces.png",
-    "a_overlay.png",
-    "a_traces.png",
-    "r_overlay.png",
-    "r_traces.png",
-    "d_overlay.png",
-    "d_traces.png",
-    "e.three_overlay.png",
-    "e.three_traces.png",
-    "n_overlay.png",
-    "n_traces.png",
-    "six_overlay.png",
-    "six_traces.png",
     "cuts.png",
     "alphabet.png",
-    "line_892_twelve.png",
-    "line_892_six.png",
-    "line_892_five.png",
-    "line_892_four.png",
-    "line_892_three.png",
+    "line_892_twelve_b6.jpg",
+    "line_892_six_b5.jpg",
+    "line_892_five_b4.jpg",
+    "line_892_four_b3.jpg",
+    "line_892_three_b2.jpg",
     "waterfall.png",
     "checks.json"
   ],
@@ -1211,7 +1152,7 @@
     "status": "ok",
     "warnings": 0,
     "infos": 5,
-    "encoded": 21
+    "encoded": 22
   },
   "series": "No. 155 Class O",
   "book": "bookoftypespecim00barnrich",

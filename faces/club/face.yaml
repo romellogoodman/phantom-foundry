@@ -1,0 +1,210 @@
+name: club
+title: Club
+series: Club
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 408
+  - 409
+leaf_pages:
+  408: 390
+  409: 391
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 497
+  spacing:
+    straight: 38
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      409:72pt: 76.9
+      409:60pt: 66.4
+      409:48pt: 75.0
+      409:36pt: 75.9
+specimen_lines:
+- leaf: 409
+  line: 72pt
+  text: SNAKE
+  band: 8
+  by: claude+ocr
+- leaf: 409
+  line: 72pt
+  text: Greedy 5
+  band: 9
+  by: claude+ocr
+- leaf: 409
+  line: 60pt
+  text: TIGERS
+  band: 6
+  by: claude
+- leaf: 409
+  line: 60pt
+  text: Red 7 Caps
+  band: 7
+  by: claude+ocr
+- leaf: 409
+  line: 48pt
+  text: FOX DOG
+  band: 4
+  by: claude
+- leaf: 409
+  line: 48pt
+  text: Large 8 Man
+  band: 5
+  by: claude
+- leaf: 409
+  line: 36pt
+  text: MINCE PIE
+  band: 2
+  by: claude
+- leaf: 409
+  line: 36pt
+  text: Bread 24 Tray
+  band: 3
+  by: claude
+lines:
+  409:72pt:
+    n_caps: 6
+    cap_height_px: 273.0
+    cap_source: caps
+    baseline_px: 3136
+    baselines:
+      '8': 3136
+      '9': 3535
+    glyphs:
+    - S
+    - N
+    - A
+    - K
+    - E
+    - G
+    - r
+    - e
+    - e.72pt
+    - d
+    - y
+    - five
+    x_height_px: 192
+    figure_height_px: 282
+    stem_px: 29.5
+    scale: 2.5641
+    stem_units: 75.6
+    x_height: 492
+    figure_height: 723
+  409:60pt:
+    n_caps: 8
+    cap_height_px: 226.5
+    cap_source: caps
+    baseline_px: 2259.0
+    baselines:
+      '6': 2259.0
+      '7': 2605.0
+    glyphs:
+    - T
+    - I
+    - G.60pt
+    - E.60pt
+    - R
+    - S.60pt
+    - R.60pt
+    - e.60pt
+    - d.60pt
+    - seven
+    - C
+    - a
+    - p
+    - s
+    x_height_px: 164
+    figure_height_px: 223
+    stem_px: 37.5
+    scale: 3.09051
+    stem_units: 115.9
+    x_height: 507
+    figure_height: 689
+  409:48pt:
+    n_caps: 8
+    cap_height_px: 182.0
+    cap_source: caps
+    baseline_px: 1501.0
+    baselines:
+      '4': 1501.0
+      '5': 1777.0
+    glyphs:
+    - F
+    - O
+    - X
+    - D
+    - O.48pt
+    - G.48pt
+    - L
+    - a.48pt
+    - r.48pt
+    - g
+    - e.48pt
+    - eight
+    - M
+    - a.48pt_2
+    - n
+    x_height_px: 129.0
+    figure_height_px: 187
+    stem_px: 36.5
+    scale: 3.84615
+    stem_units: 140.4
+    x_height: 496
+    figure_height: 719
+  409:36pt:
+    n_caps: 10
+    cap_height_px: 143.0
+    cap_source: caps
+    baseline_px: 857.0
+    baselines:
+      '2': 857.0
+      '3': 1079.0
+    glyphs:
+    - M.36pt
+    - I.36pt
+    - N.36pt
+    - C.36pt
+    - E.36pt
+    - P
+    - I.36pt_2
+    - E.36pt_2
+    - B
+    - r.36pt
+    - e.36pt
+    - a.36pt
+    - d.36pt
+    - two
+    - four
+    - T.36pt
+    - r.36pt_2
+    - a.36pt_2
+    - y.36pt
+    x_height_px: 102
+    figure_height_px: 147.0
+    stem_px: 28.0
+    scale: 4.8951
+    stem_units: 137.1
+    x_height: 499
+    figure_height: 720

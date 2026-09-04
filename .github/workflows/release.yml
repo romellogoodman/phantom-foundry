@@ -49,15 +49,7 @@ jobs:
           uv run foundry fetch "$face" "$archive" $leaves
 
       - name: Build the face
-        run: |
-          face="${{ steps.tag.outputs.face }}"
-          uv run foundry cut "$face"
-          uv run foundry cast "$face" --engine potrace
-          uv run foundry sort "$face"
-          [ -f "faces/$face/construct.yaml" ] && uv run foundry construct "$face"
-          uv run foundry justify "$face"
-          uv run foundry matrix "$face"
-          uv run foundry proof "$face"
+        run: uv run foundry build "${{ steps.tag.outputs.face }}" --force
 
       - name: Release
         uses: softprops/action-gh-release@v2

@@ -41,7 +41,7 @@ def summary(face: Face) -> dict | None:
         "lower": sum(1 for g in encoded if g.get("category") == "lower"),
         "figures": sum(1 for g in encoded if g.get("category") == "figure"),
         "sizes": sizes, "lines": len(d.get("specimen_lines", [])),
-        "sample": max((l["text"] for l in covered), key=len, default=None),
+        "sample": max((l.get("printed") or l["text"] for l in covered), key=len, default=None),
         "line_proof": covered[0]["proof"] if covered else None,
         "fonts": d.get("fonts", []),
         "checks": {"status": checks["status"], "warnings": checks.get("warnings", 0), "infos": checks.get("infos", 0),

@@ -1,0 +1,182 @@
+name: goethe-no-5
+title: Goethe No. 5
+series: Goethe No. 5
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 624
+leaf_pages:
+  624: 600
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 477
+  spacing:
+    straight: 26
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      624:72pt: 41.6
+      624:60pt: 52.4
+      624:48pt: 59.5
+      624:36pt: 52.2
+specimen_lines:
+- leaf: 624
+  line: 72pt
+  text: Arme 5 Frau
+  band: 6
+  by: claude
+- leaf: 624
+  line: 60pt
+  text: Kleine 86 Staaten
+  band: 5
+  by: claude
+- leaf: 624
+  line: 48pt
+  text: Ein Treuer 39 [Fr]eund
+  band: 4
+  by: claude
+- leaf: 624
+  line: 36pt
+  text: Jungens halt 27 wohl [fe]ſt
+  band: 3
+  by: claude
+lines:
+  624:72pt:
+    n_caps: 2
+    cap_height_px: 320.0
+    cap_source: caps
+    baseline_px: 3594.5
+    baselines:
+      '6': 3594.5
+    glyphs:
+    - A
+    - r
+    - m
+    - e
+    - five
+    - F
+    - r.72pt
+    - a
+    - u
+    x_height_px: 207.5
+    figure_height_px: 287
+    stem_px: 27.5
+    scale: 2.1875
+    stem_units: 60.2
+    x_height: 454
+    figure_height: 628
+  624:60pt:
+    n_caps: 2
+    cap_height_px: 207.0
+    cap_source: caps
+    baseline_px: 3075.5
+    baselines:
+      '5': 3075.5
+    glyphs:
+    - K
+    - l
+    - e.60pt
+    - i
+    - n
+    - e.60pt_2
+    - eight
+    - six
+    - S
+    - t
+    - a.60pt
+    - a.60pt_2
+    - t.60pt
+    - e.60pt_3
+    - n.60pt
+    x_height_px: 148
+    figure_height_px: 204.5
+    stem_px: 11.5
+    scale: 3.38164
+    stem_units: 38.9
+    x_height: 500
+    figure_height: 692
+  624:48pt:
+    n_caps: 2
+    cap_height_px: 176.5
+    cap_source: caps
+    baseline_px: 2658.0
+    baselines:
+      '4': 2658.0
+    glyphs:
+    - E
+    - i.48pt
+    - n.48pt
+    - T
+    - r.48pt
+    - e.48pt
+    - u.48pt
+    - e.48pt_2
+    - r.48pt_2
+    - three
+    - nine
+    - e.48pt_3
+    - u.48pt_2
+    - n.48pt_2
+    - d
+    x_height_px: 135
+    figure_height_px: 175.5
+    stem_px: 6.5
+    scale: 3.96601
+    stem_units: 25.8
+    x_height: 535
+    figure_height: 696
+  624:36pt:
+    n_caps: 1
+    cap_height_px: 161
+    cap_source: caps
+    baseline_px: 2294
+    baselines:
+      '3': 2294
+    glyphs:
+    - J
+    - u.36pt
+    - n.36pt
+    - g
+    - e.36pt
+    - n.36pt_2
+    - s
+    - h
+    - a.36pt
+    - l.36pt
+    - t.36pt
+    - two
+    - seven
+    - w
+    - o
+    - h.36pt
+    - l.36pt_2
+    - longs
+    - t.36pt_2
+    x_height_px: 103.5
+    figure_height_px: 141.0
+    stem_px: 16
+    scale: 4.34783
+    stem_units: 69.6
+    x_height: 450
+    figure_height: 613

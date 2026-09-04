@@ -177,7 +177,10 @@ function FontFaceStyle({ face }) {
 
 function Tester({ face }) {
   const covered = (face.specimen_lines || []).filter((l) => l.missing && l.missing.length === 0);
-  const sample = covered.length ? covered.reduce((a, b) => (b.text.length > a.text.length ? b : a)).text : "ABC";
+  const printed = (l) => l.printed || l.text;
+  const sample = covered.length
+    ? printed(covered.reduce((a, b) => (printed(b).length > printed(a).length ? b : a)))
+    : "ABC";
   const [text, setText] = useState(sample);
   const [size, setSize] = useState(160);
   const encoded = useMemo(() => new Set(face.glyphs.filter((g) => g.encoded).map((g) => g.char)), [face]);
@@ -290,11 +293,11 @@ function Face({ face }) {
             <figure key={`${l.leaf}-${l.band}`} className="face__figure">
               <img
                 src={`${PROOFS}/${face.name}/proofs/${l.proof}`}
-                alt={`${l.text} — printed line over the re-set line`}
+                alt={`${l.printed || l.text} — printed line over the re-set line`}
                 loading="lazy"
               />
               <figcaption>
-                {l.text} — {l.line}
+                {l.printed || l.text} — {l.line}
                 {l.by ? ` · read by ${l.by}` : ""}
               </figcaption>
             </figure>

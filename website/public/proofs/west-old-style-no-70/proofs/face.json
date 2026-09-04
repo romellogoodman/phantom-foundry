@@ -1,0 +1,1087 @@
+{
+  "name": "west-old-style-no-70",
+  "family": "West Old Style No 70",
+  "version": "0.1.0",
+  "status": "proto",
+  "title": "West Old Style No. 70",
+  "source": {
+    "archive_id": "bookoftypespecim00barnrich",
+    "title": "Book of type specimens. Comprising a large variety of superior copper-mixed types, rules, borders, galleys, printing presses, electric-welded chases, paper and card cutters, wood goods, book binding machinery etc., together with valuable information to the craft. Specimen book no.9",
+    "creator": [
+      "Barnhart, bros. & Spindler, firm, type founders, Chicago",
+      "De Young family",
+      "De Young, Charles, 1881-"
+    ],
+    "publisher": "Chicago, Barnhart bros. & Spindler",
+    "date": "[1907]",
+    "ppi": 400,
+    "url": "https://archive.org/details/bookoftypespecim00barnrich",
+    "copyright_status": "NOT_IN_COPYRIGHT",
+    "contributor": "University of California Libraries",
+    "leaves": [
+      140,
+      141
+    ]
+  },
+  "metrics": {
+    "upm": 1000,
+    "cap_height": 700,
+    "sidebearing": 40,
+    "min_contour_area": 0,
+    "x_height": 487,
+    "spacing": {
+      "straight": 27,
+      "min": -10,
+      "depth": 25,
+      "basis": "derived: half the median printed letter gap across the specimen lines",
+      "printed_gaps": {
+        "141:72pt": 56.4,
+        "141:60pt": 52.6
+      }
+    }
+  },
+  "lines": {
+    "141:72pt": {
+      "n_caps": 8,
+      "cap_height_px": 310.5,
+      "cap_source": "caps",
+      "baseline_px": 1953.0,
+      "baselines": {
+        "4": 1953.0,
+        "5": 2372.0
+      },
+      "glyphs": [
+        "B",
+        "U",
+        "S",
+        "T",
+        "E",
+        "R",
+        "R.72pt",
+        "e",
+        "d",
+        "three",
+        "B.72pt",
+        "o",
+        "o.72pt",
+        "k"
+      ],
+      "x_height_px": 215,
+      "figure_height_px": 315,
+      "stem_px": 28.0,
+      "scale": 2.25443,
+      "stem_units": 63.1,
+      "x_height": 485,
+      "figure_height": 710
+    },
+    "141:60pt": {
+      "n_caps": 8,
+      "cap_height_px": 266.0,
+      "cap_source": "caps",
+      "baseline_px": 990.5,
+      "baselines": {
+        "2": 990.5,
+        "3": 1352.0
+      },
+      "glyphs": [
+        "C",
+        "H",
+        "E.60pt",
+        "C.60pt",
+        "K",
+        "S.60pt",
+        "E.60pt_2",
+        "a",
+        "s",
+        "y",
+        "five",
+        "C.60pt_2",
+        "o.60pt",
+        "r",
+        "n",
+        "e.60pt",
+        "r.60pt"
+      ],
+      "x_height_px": 186.0,
+      "figure_height_px": 274,
+      "stem_px": 8.5,
+      "scale": 2.63158,
+      "stem_units": 22.4,
+      "x_height": 489,
+      "figure_height": 721
+    }
+  },
+  "specimen_lines": [
+    {
+      "leaf": 141,
+      "line": "72pt",
+      "text": "BUSTER",
+      "band": 4,
+      "by": "claude+ocr",
+      "chars": 6,
+      "missing": [],
+      "printed": "BUSTER",
+      "proof": "line_141_72pt_b4.jpg"
+    },
+    {
+      "leaf": 141,
+      "line": "72pt",
+      "text": "Red 3 Book",
+      "band": 5,
+      "by": "claude+ocr",
+      "chars": 8,
+      "missing": [],
+      "printed": "Red 3 Book",
+      "proof": "line_141_72pt_b5.jpg"
+    },
+    {
+      "leaf": 141,
+      "line": "60pt",
+      "text": "CHECKS",
+      "band": 2,
+      "by": "claude+ocr",
+      "chars": 6,
+      "missing": [],
+      "printed": "CHECKS",
+      "proof": "line_141_60pt_b2.jpg"
+    },
+    {
+      "leaf": 141,
+      "line": "60pt",
+      "text": "Easy 5 Corner",
+      "band": 3,
+      "by": "claude+ocr",
+      "chars": 11,
+      "missing": [],
+      "printed": "Easy 5 Corner",
+      "proof": "line_141_60pt_b3.jpg"
+    }
+  ],
+  "glyphs": [
+    {
+      "name": ".notdef",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": null,
+      "width": 500,
+      "category": null,
+      "line": null,
+      "engine": null,
+      "constructed": false,
+      "construct": null,
+      "stem_units": null,
+      "dropped_contours": null
+    },
+    {
+      "name": "B",
+      "unicode": "0042",
+      "char": "B",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 632,
+      "category": "cap",
+      "line": "72pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 65.4,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          295,
+          1643,
+          573,
+          1953
+        ],
+        "ink_height_px": 310,
+        "ink_width_px": 278,
+        "stem_px": 29,
+        "components": 1
+      },
+      "trace_iou": 0.967
+    },
+    {
+      "name": "B.72pt",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "B",
+      "width": 635,
+      "category": "cap",
+      "line": "72pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 63.1,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1391,
+          2064,
+          1670,
+          2373
+        ],
+        "ink_height_px": 309,
+        "ink_width_px": 279,
+        "stem_px": 28,
+        "components": 1
+      },
+      "trace_iou": 0.966
+    },
+    {
+      "name": "C",
+      "unicode": "0043",
+      "char": "C",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 633,
+      "category": "cap",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 28.9,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          384,
+          724,
+          623,
+          990
+        ],
+        "ink_height_px": 266,
+        "ink_width_px": 239,
+        "stem_px": 11,
+        "components": 1
+      },
+      "trace_iou": 0.9589
+    },
+    {
+      "name": "C.60pt",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "C",
+      "width": 632,
+      "category": "cap",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 31.6,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1238,
+          725,
+          1476,
+          991
+        ],
+        "ink_height_px": 266,
+        "ink_width_px": 238,
+        "stem_px": 12,
+        "components": 1
+      },
+      "trace_iou": 0.9541
+    },
+    {
+      "name": "C.60pt_2",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "C",
+      "width": 635,
+      "category": "cap",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 28.9,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1273,
+          1078,
+          1512,
+          1344
+        ],
+        "ink_height_px": 266,
+        "ink_width_px": 239,
+        "stem_px": 11,
+        "components": 1
+      },
+      "trace_iou": 0.9537
+    },
+    {
+      "name": "E",
+      "unicode": "0045",
+      "char": "E",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 660,
+      "category": "cap",
+      "line": "72pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 13.5,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1496,
+          1629,
+          1787,
+          1967
+        ],
+        "ink_height_px": 338,
+        "ink_width_px": 291,
+        "stem_px": 6,
+        "components": 1
+      },
+      "trace_iou": 0.9347
+    },
+    {
+      "name": "E.60pt",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "E",
+      "width": 699,
+      "category": "cap",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 15.8,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          952,
+          713,
+          1216,
+          1005
+        ],
+        "ink_height_px": 292,
+        "ink_width_px": 264,
+        "stem_px": 6,
+        "components": 1
+      },
+      "trace_iou": 0.9129
+    },
+    {
+      "name": "E.60pt_2",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "E",
+      "width": 682,
+      "category": "cap",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 15.8,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          119,
+          1067,
+          377,
+          1360
+        ],
+        "ink_height_px": 293,
+        "ink_width_px": 258,
+        "stem_px": 6,
+        "components": 1
+      },
+      "trace_iou": 0.9008
+    },
+    {
+      "name": "H",
+      "unicode": "0048",
+      "char": "H",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 735,
+      "category": "cap",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 76.3,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          648,
+          727,
+          926,
+          989
+        ],
+        "ink_height_px": 262,
+        "ink_width_px": 278,
+        "stem_px": 29,
+        "components": 1
+      },
+      "trace_iou": 0.9467
+    },
+    {
+      "name": "K",
+      "unicode": "004B",
+      "char": "K",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 710,
+      "category": "cap",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 13.2,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1504,
+          728,
+          1772,
+          989
+        ],
+        "ink_height_px": 261,
+        "ink_width_px": 268,
+        "stem_px": 5,
+        "components": 1
+      },
+      "trace_iou": 0.9503
+    },
+    {
+      "name": "R",
+      "unicode": "0052",
+      "char": "R",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 673,
+      "category": "cap",
+      "line": "72pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 63.1,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1816,
+          1644,
+          2112,
+          1952
+        ],
+        "ink_height_px": 308,
+        "ink_width_px": 296,
+        "stem_px": 28,
+        "components": 1
+      },
+      "trace_iou": 0.9631
+    },
+    {
+      "name": "R.72pt",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "R",
+      "width": 658,
+      "category": "cap",
+      "line": "72pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 63.1,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          128,
+          2064,
+          417,
+          2371
+        ],
+        "ink_height_px": 307,
+        "ink_width_px": 289,
+        "stem_px": 28,
+        "components": 1
+      },
+      "trace_iou": 0.9609
+    },
+    {
+      "name": "S",
+      "unicode": "0053",
+      "char": "S",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 571,
+      "category": "cap",
+      "line": "72pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 18.0,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          899,
+          1640,
+          1151,
+          1953
+        ],
+        "ink_height_px": 313,
+        "ink_width_px": 252,
+        "stem_px": 8,
+        "components": 1
+      },
+      "trace_iou": 0.9561
+    },
+    {
+      "name": "S.60pt",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "S",
+      "width": 592,
+      "category": "cap",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 15.8,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1790,
+          725,
+          2014,
+          992
+        ],
+        "ink_height_px": 267,
+        "ink_width_px": 224,
+        "stem_px": 6,
+        "components": 1
+      },
+      "trace_iou": 0.9456
+    },
+    {
+      "name": "T",
+      "unicode": "0054",
+      "char": "T",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 667,
+      "category": "cap",
+      "line": "72pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 72.1,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1174,
+          1635,
+          1468,
+          1953
+        ],
+        "ink_height_px": 318,
+        "ink_width_px": 294,
+        "stem_px": 32,
+        "components": 1
+      },
+      "trace_iou": 0.9459
+    },
+    {
+      "name": "U",
+      "unicode": "0055",
+      "char": "U",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 623,
+      "category": "cap",
+      "line": "72pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 9.0,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          600,
+          1643,
+          873,
+          1954
+        ],
+        "ink_height_px": 311,
+        "ink_width_px": 273,
+        "stem_px": 4,
+        "components": 1
+      },
+      "trace_iou": 0.9414
+    },
+    {
+      "name": "a",
+      "unicode": "0061",
+      "char": "a",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 432,
+      "category": "lower",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 44.7,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          397,
+          1158,
+          559,
+          1344
+        ],
+        "ink_height_px": 186,
+        "ink_width_px": 162,
+        "stem_px": 17,
+        "components": 1
+      },
+      "trace_iou": 0.9586
+    },
+    {
+      "name": "d",
+      "unicode": "0064",
+      "char": "d",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 432,
+      "category": "lower",
+      "line": "72pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 38.3,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          634,
+          2060,
+          824,
+          2376
+        ],
+        "ink_height_px": 316,
+        "ink_width_px": 190,
+        "stem_px": 17,
+        "components": 1
+      },
+      "trace_iou": 0.9549
+    },
+    {
+      "name": "e",
+      "unicode": "0065",
+      "char": "e",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 396,
+      "category": "lower",
+      "line": "72pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 20.3,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          439,
+          2161,
+          611,
+          2376
+        ],
+        "ink_height_px": 215,
+        "ink_width_px": 172,
+        "stem_px": 9,
+        "components": 1
+      },
+      "trace_iou": 0.9472
+    },
+    {
+      "name": "e.60pt",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "e",
+      "width": 384,
+      "category": "lower",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 15.8,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          2020,
+          1159,
+          2163,
+          1345
+        ],
+        "ink_height_px": 186,
+        "ink_width_px": 143,
+        "stem_px": 6,
+        "components": 1
+      },
+      "trace_iou": 0.9361
+    },
+    {
+      "name": "five",
+      "unicode": "0035",
+      "char": "5",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 538,
+      "category": "figure",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 7.9,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          989,
+          1073,
+          1193,
+          1347
+        ],
+        "ink_height_px": 274,
+        "ink_width_px": 204,
+        "stem_px": 3,
+        "components": 1
+      },
+      "trace_iou": 0.9417
+    },
+    {
+      "name": "k",
+      "unicode": "006B",
+      "char": "k",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 468,
+      "category": "lower",
+      "line": "72pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 24.8,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          2082,
+          2061,
+          2287,
+          2374
+        ],
+        "ink_height_px": 313,
+        "ink_width_px": 205,
+        "stem_px": 11,
+        "components": 1
+      },
+      "trace_iou": 0.9439
+    },
+    {
+      "name": "n",
+      "unicode": "006E",
+      "char": "n",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 453,
+      "category": "lower",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 57.9,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1828,
+          1160,
+          1997,
+          1343
+        ],
+        "ink_height_px": 183,
+        "ink_width_px": 169,
+        "stem_px": 22,
+        "components": 1
+      },
+      "trace_iou": 0.9444
+    },
+    {
+      "name": "o",
+      "unicode": "006F",
+      "char": "o",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 398,
+      "category": "lower",
+      "line": "72pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 31.6,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1694,
+          2162,
+          1864,
+          2375
+        ],
+        "ink_height_px": 213,
+        "ink_width_px": 170,
+        "stem_px": 14,
+        "components": 1
+      },
+      "trace_iou": 0.9654
+    },
+    {
+      "name": "o.60pt",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "o",
+      "width": 401,
+      "category": "lower",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 28.9,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1534,
+          1157,
+          1682,
+          1344
+        ],
+        "ink_height_px": 187,
+        "ink_width_px": 148,
+        "stem_px": 11,
+        "components": 1
+      },
+      "trace_iou": 0.9627
+    },
+    {
+      "name": "o.72pt",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "o",
+      "width": 397,
+      "category": "lower",
+      "line": "72pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 31.6,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1886,
+          2162,
+          2056,
+          2375
+        ],
+        "ink_height_px": 213,
+        "ink_width_px": 170,
+        "stem_px": 14,
+        "components": 1
+      },
+      "trace_iou": 0.9651
+    },
+    {
+      "name": "r",
+      "unicode": "0072",
+      "char": "r",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 300,
+      "category": "lower",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 63.2,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1701,
+          1162,
+          1813,
+          1342
+        ],
+        "ink_height_px": 180,
+        "ink_width_px": 112,
+        "stem_px": 24,
+        "components": 1
+      },
+      "trace_iou": 0.9291
+    },
+    {
+      "name": "r.60pt",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "r",
+      "width": 298,
+      "category": "lower",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 60.5,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          2181,
+          1162,
+          2292,
+          1343
+        ],
+        "ink_height_px": 181,
+        "ink_width_px": 111,
+        "stem_px": 23,
+        "components": 1
+      },
+      "trace_iou": 0.9359
+    },
+    {
+      "name": "s",
+      "unicode": "0073",
+      "char": "s",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 371,
+      "category": "lower",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 18.4,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          572,
+          1153,
+          710,
+          1342
+        ],
+        "ink_height_px": 189,
+        "ink_width_px": 138,
+        "stem_px": 7,
+        "components": 1
+      },
+      "trace_iou": 0.9397
+    },
+    {
+      "name": "space",
+      "unicode": "0020",
+      "char": " ",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 250,
+      "category": null,
+      "line": null,
+      "engine": null,
+      "constructed": false,
+      "construct": null,
+      "stem_units": null,
+      "dropped_contours": null
+    },
+    {
+      "name": "three",
+      "unicode": "0033",
+      "char": "3",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 516,
+      "category": "figure",
+      "line": "72pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 54.1,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          990,
+          2060,
+          1217,
+          2375
+        ],
+        "ink_height_px": 315,
+        "ink_width_px": 227,
+        "stem_px": 24,
+        "components": 1
+      },
+      "trace_iou": 0.9582
+    },
+    {
+      "name": "y",
+      "unicode": "0079",
+      "char": "y",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 472,
+      "category": "lower",
+      "line": "60pt",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 13.2,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          728,
+          1162,
+          906,
+          1400
+        ],
+        "ink_height_px": 238,
+        "ink_width_px": 178,
+        "stem_px": 5,
+        "components": 1
+      },
+      "trace_iou": 0.9369
+    }
+  ],
+  "arrow_attempts": [],
+  "fonts": [
+    "west-old-style-no-70.otf",
+    "west-old-style-no-70.ttf"
+  ],
+  "proofs": [
+    "cuts.png",
+    "alphabet.png",
+    "line_141_72pt_b4.jpg",
+    "line_141_72pt_b5.jpg",
+    "line_141_60pt_b2.jpg",
+    "line_141_60pt_b3.jpg",
+    "waterfall.png",
+    "checks.json"
+  ],
+  "checks": {
+    "status": "warn",
+    "warnings": 4,
+    "infos": 2,
+    "encoded": 20
+  },
+  "series": "West Old Style No. 70",
+  "book": "bookoftypespecim00barnrich",
+  "leaf_pages": {
+    "140": 132,
+    "141": 133
+  }
+}

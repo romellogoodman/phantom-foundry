@@ -1,0 +1,29 @@
+{
+  "status": "warn",
+  "warnings": 1,
+  "infos": 2,
+  "encoded": 22,
+  "items": [
+    {
+      "level": "warn",
+      "check": "trace_iou",
+      "glyph": "i",
+      "value": 0.922,
+      "note": "potrace trace overlaps the scan by less than 93% (cap 291 px)"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "s",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "h",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    }
+  ]
+}

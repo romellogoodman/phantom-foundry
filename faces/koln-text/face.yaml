@@ -1,0 +1,204 @@
+name: koln-text
+title: Koln Text
+series: Koln Text
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 481
+leaf_pages:
+  481: 463
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 492
+  spacing:
+    straight: 15
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      481:60pt: 30.6
+      481:48pt: 31.2
+      481:36pt: 45.2
+      481:30pt: 22.2
+specimen_lines:
+- leaf: 481
+  line: 60pt
+  text: Staaten 9 Kleine
+  band: 8
+  by: claude
+- leaf: 481
+  line: 48pt
+  text: Ein Treuer 35 Freund
+  band: 7
+  by: claude
+- leaf: 481
+  line: 36pt
+  text: Der Knabe 125 war verloren
+  band: 6
+  by: claude
+- leaf: 481
+  line: 30pt
+  text: Wir legen das 13 Ruder in das Boot
+  band: 5
+  by: claude
+lines:
+  481:60pt:
+    n_caps: 2
+    cap_height_px: 252.0
+    cap_source: caps
+    baseline_px: 3545.5
+    baselines:
+      '8': 3545.5
+    glyphs:
+    - S
+    - t
+    - a
+    - a.60pt
+    - t.60pt
+    - e
+    - n
+    - nine
+    - K
+    - l
+    - e.60pt
+    - i
+    - n.60pt
+    - e.60pt_2
+    x_height_px: 178
+    figure_height_px: 251
+    stem_px: 7.5
+    scale: 2.77778
+    stem_units: 20.8
+    x_height: 494
+    figure_height: 697
+  481:48pt:
+    n_caps: 3
+    cap_height_px: 202
+    cap_source: caps
+    baseline_px: 3062
+    baselines:
+      '7': 3062
+    glyphs:
+    - E
+    - i.48pt
+    - n.48pt
+    - T
+    - r
+    - e.48pt
+    - u
+    - e.48pt_2
+    - r.48pt
+    - three
+    - five
+    - F
+    - r.48pt_2
+    - e.48pt_3
+    - u.48pt
+    - n.48pt_2
+    - d
+    x_height_px: 141.5
+    figure_height_px: 202.0
+    stem_px: 5
+    scale: 3.46535
+    stem_units: 17.3
+    x_height: 490
+    figure_height: 700
+  481:36pt:
+    n_caps: 2
+    cap_height_px: 155.0
+    cap_source: caps
+    baseline_px: 2648.5
+    baselines:
+      '6': 2648.5
+    glyphs:
+    - D
+    - e.36pt
+    - r.36pt
+    - K.36pt
+    - n.36pt
+    - a.36pt
+    - b
+    - e.36pt_2
+    - one
+    - two
+    - five.36pt
+    - w
+    - a.36pt_2
+    - r.36pt_2
+    - v
+    - e.36pt_3
+    - r.36pt_3
+    - l.36pt
+    - o
+    - r.36pt_4
+    - e.36pt_4
+    - n.36pt_2
+    x_height_px: 106
+    figure_height_px: 151
+    stem_px: 4.5
+    scale: 4.51613
+    stem_units: 20.3
+    x_height: 479
+    figure_height: 682
+  481:30pt:
+    n_caps: 3
+    cap_height_px: 126
+    cap_source: caps
+    baseline_px: 2287
+    baselines:
+      '5': 2287
+    glyphs:
+    - W
+    - i.30pt
+    - r.30pt
+    - l.30pt
+    - e.30pt
+    - g
+    - e.30pt_2
+    - n.30pt
+    - d.30pt
+    - a.30pt
+    - s
+    - one.30pt
+    - three.30pt
+    - R
+    - u.30pt
+    - d.30pt_2
+    - e.30pt_3
+    - r.30pt_2
+    - i.30pt_2
+    - n.30pt_2
+    - d.30pt_3
+    - a.30pt_2
+    - s.30pt
+    - B
+    - o.30pt
+    - o.30pt_2
+    - t.30pt
+    x_height_px: 89.0
+    figure_height_px: 124.5
+    stem_px: 4
+    scale: 5.55556
+    stem_units: 22.2
+    x_height: 494
+    figure_height: 692

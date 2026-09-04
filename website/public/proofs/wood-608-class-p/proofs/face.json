@@ -1,0 +1,678 @@
+{
+  "name": "wood-608-class-p",
+  "family": "Wood 608 Class P",
+  "version": "0.1.0",
+  "status": "proto",
+  "title": "No. 608 Class P",
+  "source": {
+    "archive_id": "bookoftypespecim00barnrich",
+    "title": "Book of type specimens. Comprising a large variety of superior copper-mixed types, rules, borders, galleys, printing presses, electric-welded chases, paper and card cutters, wood goods, book binding machinery etc., together with valuable information to the craft. Specimen book no.9",
+    "creator": [
+      "Barnhart, bros. & Spindler, firm, type founders, Chicago",
+      "De Young family",
+      "De Young, Charles, 1881-"
+    ],
+    "publisher": "Chicago, Barnhart bros. & Spindler",
+    "date": "[1907]",
+    "ppi": 400,
+    "url": "https://archive.org/details/bookoftypespecim00barnrich",
+    "copyright_status": "NOT_IN_COPYRIGHT",
+    "contributor": "University of California Libraries",
+    "leaves": [
+      900
+    ]
+  },
+  "metrics": {
+    "upm": 1000,
+    "cap_height": 700,
+    "sidebearing": 40,
+    "min_contour_area": 0,
+    "x_height": 519,
+    "spacing": {
+      "straight": 14,
+      "min": -10,
+      "depth": 25,
+      "basis": "derived: half the median printed letter gap across the specimen lines",
+      "printed_gaps": {
+        "900:six": 28.0
+      }
+    }
+  },
+  "lines": {
+    "900:six": {
+      "n_caps": 1,
+      "cap_height_px": 400,
+      "cap_source": "caps",
+      "baseline_px": 971,
+      "baselines": {
+        "2": 971
+      },
+      "glyphs": [
+        "B",
+        "u",
+        "c",
+        "h",
+        "d",
+        "r",
+        "u.six",
+        "c.six",
+        "k",
+        "e",
+        "r.six",
+        "longs",
+        "c.six_2",
+        "h.six",
+        "w",
+        "adieresis",
+        "r.six_2",
+        "z",
+        "e.six"
+      ],
+      "x_height_px": 296.5,
+      "stem_px": 10,
+      "scale": 1.75,
+      "stem_units": 17.5,
+      "x_height": 519
+    }
+  },
+  "specimen_lines": [
+    {
+      "leaf": 900,
+      "line": "six",
+      "text": "Buchdrucker \u017fchw\u00e4rze",
+      "band": 2,
+      "by": "claude",
+      "chars": 19,
+      "missing": [],
+      "printed": "Buchdrucker \u017fchw\u00e4rze",
+      "proof": "line_900_six_b2.jpg"
+    }
+  ],
+  "glyphs": [
+    {
+      "name": ".notdef",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": null,
+      "width": 500,
+      "category": null,
+      "line": null,
+      "engine": null,
+      "constructed": false,
+      "construct": null,
+      "stem_units": null,
+      "dropped_contours": null
+    },
+    {
+      "name": "B",
+      "unicode": "0042",
+      "char": "B",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 316,
+      "category": "cap",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 17.5,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          288,
+          571,
+          472,
+          971
+        ],
+        "ink_height_px": 400,
+        "ink_width_px": 184,
+        "stem_px": 10,
+        "components": 1
+      },
+      "trace_iou": 0.971
+    },
+    {
+      "name": "adieresis",
+      "unicode": "00E4",
+      "char": "\u00e4",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 158,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 26.2,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          2078,
+          577,
+          2171,
+          968
+        ],
+        "ink_height_px": 391,
+        "ink_width_px": 93,
+        "stem_px": 15,
+        "components": 3
+      },
+      "trace_iou": 0.962
+    },
+    {
+      "name": "c",
+      "unicode": "0063",
+      "char": "c",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 116,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 40.2,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          614,
+          674,
+          684,
+          969
+        ],
+        "ink_height_px": 295,
+        "ink_width_px": 70,
+        "stem_px": 23,
+        "components": 1
+      },
+      "trace_iou": 0.9694
+    },
+    {
+      "name": "c.six",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "c",
+      "width": 120,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 40.2,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1153,
+          672,
+          1225,
+          968
+        ],
+        "ink_height_px": 296,
+        "ink_width_px": 72,
+        "stem_px": 23,
+        "components": 1
+      },
+      "trace_iou": 0.9654
+    },
+    {
+      "name": "c.six_2",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "c",
+      "width": 117,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 45.5,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1737,
+          675,
+          1807,
+          969
+        ],
+        "ink_height_px": 294,
+        "ink_width_px": 70,
+        "stem_px": 26,
+        "components": 1
+      },
+      "trace_iou": 0.9759
+    },
+    {
+      "name": "d",
+      "unicode": "0064",
+      "char": "d",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 149,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 43.8,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          815,
+          572,
+          903,
+          965
+        ],
+        "ink_height_px": 393,
+        "ink_width_px": 88,
+        "stem_px": 25,
+        "components": 1
+      },
+      "trace_iou": 0.9788
+    },
+    {
+      "name": "e",
+      "unicode": "0065",
+      "char": "e",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 130,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 15.8,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1335,
+          675,
+          1410,
+          969
+        ],
+        "ink_height_px": 294,
+        "ink_width_px": 75,
+        "stem_px": 9,
+        "components": 1
+      },
+      "trace_iou": 0.968
+    },
+    {
+      "name": "e.six",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "e",
+      "width": 132,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 19.2,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          2406,
+          677,
+          2483,
+          971
+        ],
+        "ink_height_px": 294,
+        "ink_width_px": 77,
+        "stem_px": 11,
+        "components": 1
+      },
+      "trace_iou": 0.9693
+    },
+    {
+      "name": "h",
+      "unicode": "0068",
+      "char": "h",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 172,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 42.0,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          699,
+          572,
+          800,
+          1042
+        ],
+        "ink_height_px": 470,
+        "ink_width_px": 101,
+        "stem_px": 24,
+        "components": 1
+      },
+      "trace_iou": 0.9667
+    },
+    {
+      "name": "h.six",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "h",
+      "width": 171,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 40.2,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1823,
+          572,
+          1924,
+          1041
+        ],
+        "ink_height_px": 469,
+        "ink_width_px": 101,
+        "stem_px": 23,
+        "components": 1
+      },
+      "trace_iou": 0.9648
+    },
+    {
+      "name": "k",
+      "unicode": "006B",
+      "char": "k",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 127,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 56.0,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1241,
+          570,
+          1318,
+          966
+        ],
+        "ink_height_px": 396,
+        "ink_width_px": 77,
+        "stem_px": 32,
+        "components": 1
+      },
+      "trace_iou": 0.9648
+    },
+    {
+      "name": "longs",
+      "unicode": "017F",
+      "char": "\u017f",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 141,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 14.0,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1640,
+          628,
+          1721,
+          963
+        ],
+        "ink_height_px": 335,
+        "ink_width_px": 81,
+        "stem_px": 8,
+        "components": 1
+      },
+      "trace_iou": 0.9663
+    },
+    {
+      "name": "r",
+      "unicode": "0072",
+      "char": "r",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 153,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 21.0,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          916,
+          669,
+          1011,
+          964
+        ],
+        "ink_height_px": 295,
+        "ink_width_px": 95,
+        "stem_px": 12,
+        "components": 1
+      },
+      "trace_iou": 0.9627
+    },
+    {
+      "name": "r.six",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "r",
+      "width": 155,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 26.2,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1427,
+          672,
+          1523,
+          969
+        ],
+        "ink_height_px": 297,
+        "ink_width_px": 96,
+        "stem_px": 15,
+        "components": 1
+      },
+      "trace_iou": 0.959
+    },
+    {
+      "name": "r.six_2",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "r",
+      "width": 147,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 28.0,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          2187,
+          674,
+          2278,
+          966
+        ],
+        "ink_height_px": 292,
+        "ink_width_px": 91,
+        "stem_px": 16,
+        "components": 1
+      },
+      "trace_iou": 0.9606
+    },
+    {
+      "name": "space",
+      "unicode": "0020",
+      "char": " ",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 250,
+      "category": null,
+      "line": null,
+      "engine": null,
+      "constructed": false,
+      "construct": null,
+      "stem_units": null,
+      "dropped_contours": null
+    },
+    {
+      "name": "u",
+      "unicode": "0075",
+      "char": "u",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 186,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 33.2,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          488,
+          673,
+          600,
+          969
+        ],
+        "ink_height_px": 296,
+        "ink_width_px": 112,
+        "stem_px": 19,
+        "components": 1
+      },
+      "trace_iou": 0.9631
+    },
+    {
+      "name": "u.six",
+      "unicode": null,
+      "char": null,
+      "encoded": false,
+      "alternate_of": "u",
+      "width": 190,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 31.5,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1025,
+          670,
+          1139,
+          964
+        ],
+        "ink_height_px": 294,
+        "ink_width_px": 114,
+        "stem_px": 18,
+        "components": 1
+      },
+      "trace_iou": 0.9618
+    },
+    {
+      "name": "w",
+      "unicode": "0077",
+      "char": "w",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 218,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 35.0,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          1934,
+          607,
+          2062,
+          970
+        ],
+        "ink_height_px": 363,
+        "ink_width_px": 128,
+        "stem_px": 20,
+        "components": 1
+      },
+      "trace_iou": 0.9683
+    },
+    {
+      "name": "z",
+      "unicode": "007A",
+      "char": "z",
+      "encoded": true,
+      "alternate_of": null,
+      "width": 153,
+      "category": "lower",
+      "line": "six",
+      "engine": "potrace",
+      "constructed": false,
+      "construct": null,
+      "stem_units": 14.0,
+      "dropped_contours": [],
+      "cut": {
+        "tight_box_page": [
+          2298,
+          674,
+          2391,
+          1045
+        ],
+        "ink_height_px": 371,
+        "ink_width_px": 93,
+        "stem_px": 8,
+        "components": 1
+      },
+      "trace_iou": 0.9681
+    }
+  ],
+  "arrow_attempts": [],
+  "fonts": [
+    "wood-608-class-p.otf",
+    "wood-608-class-p.ttf"
+  ],
+  "proofs": [
+    "cuts.png",
+    "alphabet.png",
+    "line_900_six_b2.jpg",
+    "waterfall.png",
+    "checks.json"
+  ],
+  "checks": {
+    "status": "ok",
+    "warnings": 0,
+    "infos": 0,
+    "encoded": 12
+  },
+  "series": "No. 608 Class P",
+  "book": "bookoftypespecim00barnrich",
+  "leaf_pages": {
+    "900": 856
+  }
+}

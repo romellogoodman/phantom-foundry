@@ -1,0 +1,205 @@
+name: mazarin-no-5
+title: Mazarin No. 5
+series: Mazarin No. 5
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 380
+  - 381
+leaf_pages:
+  380: 362
+  381: 363
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 429
+  spacing:
+    straight: 9
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      381:60pt: 24.9
+      380:36pt: 14.4
+      380:30pt: 17.4
+specimen_lines:
+- leaf: 381
+  line: 60pt
+  text: ROCK BASS
+  band: 4
+  by: claude+ocr
+- leaf: 381
+  line: 60pt
+  text: Lake 8 Resorts
+  band: 5
+  by: claude
+- leaf: 380
+  line: 36pt
+  text: BLACK S[QU]IRREL
+  band: 6
+  by: claude
+- leaf: 380
+  line: 36pt
+  text: Wild Tu[rk]eys 98 and Geese
+  band: 7
+  by: claude
+- leaf: 380
+  line: 30pt
+  text: CAR[RI]AGE COMPANY
+  band: 4
+  by: claude
+- leaf: 380
+  line: 30pt
+  text: New or S[ec]ond 26 H[an]d Wagons
+  band: 5
+  by: claude
+lines:
+  381:60pt:
+    n_caps: 10
+    cap_height_px: 253.0
+    cap_source: caps
+    baseline_px: 1667.0
+    baselines:
+      '4': 1667.0
+      '5': 2032.5
+    glyphs:
+    - R
+    - O
+    - C
+    - K
+    - B
+    - A
+    - S
+    - S.60pt
+    - L
+    - a
+    - k
+    - e
+    - eight
+    - R.60pt
+    - e.60pt
+    - s
+    - o
+    - r
+    - t
+    - s.60pt
+    x_height_px: 160
+    figure_height_px: 258
+    stem_px: 29.5
+    scale: 2.7668
+    stem_units: 81.6
+    x_height: 443
+    figure_height: 714
+  380:36pt:
+    n_caps: 14
+    cap_height_px: 146.0
+    cap_source: caps
+    baseline_px: 3337
+    baselines:
+      '6': 3337
+      '7': 3569
+    glyphs:
+    - B.36pt
+    - L.36pt
+    - A.36pt
+    - C.36pt
+    - K.36pt
+    - S.36pt
+    - I
+    - R.36pt
+    - R.36pt_2
+    - E
+    - L.36pt_2
+    - W
+    - i
+    - l
+    - d
+    - T
+    - u
+    - e.36pt
+    - y
+    - s.36pt
+    - nine
+    - eight.36pt
+    - a.36pt
+    - n
+    - d.36pt
+    - G
+    - e.36pt_2
+    - e.36pt_3
+    - s.36pt_2
+    - e.36pt_4
+    x_height_px: 89.5
+    figure_height_px: 145.0
+    stem_px: 21.0
+    scale: 4.79452
+    stem_units: 100.7
+    x_height: 429
+    figure_height: 695
+  380:30pt:
+    n_caps: 17
+    cap_height_px: 121
+    cap_source: caps
+    baseline_px: 2774
+    baselines:
+      '4': 2774
+      '5': 2974.0
+    glyphs:
+    - C.30pt
+    - A.30pt
+    - R.30pt
+    - A.30pt_2
+    - G.30pt
+    - E.30pt
+    - C.30pt_2
+    - O.30pt
+    - M
+    - P
+    - A.30pt_3
+    - N
+    - Y
+    - N.30pt
+    - e.30pt
+    - w
+    - o.30pt
+    - r.30pt
+    - S.30pt
+    - o.30pt_2
+    - n.30pt
+    - d.30pt
+    - two
+    - six
+    - H
+    - d.30pt_2
+    - W.30pt
+    - a.30pt
+    - g
+    - o.30pt_3
+    - n.30pt_2
+    - s.30pt
+    x_height_px: 74
+    figure_height_px: 121.0
+    stem_px: 13
+    scale: 5.78512
+    stem_units: 75.2
+    x_height: 428
+    figure_height: 700

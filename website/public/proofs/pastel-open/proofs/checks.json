@@ -1,0 +1,43 @@
+{
+  "status": "warn",
+  "warnings": 2,
+  "infos": 3,
+  "encoded": 16,
+  "items": [
+    {
+      "level": "warn",
+      "check": "cap_height",
+      "glyph": "H",
+      "value": 0.259,
+      "note": "capital's ink height is off its line's cap height by more than 12% (misread box?)"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "T",
+      "value": 2,
+      "note": "marks beside the letter were recorded, not cut"
+    },
+    {
+      "level": "info",
+      "check": "pieces",
+      "glyph": "eight",
+      "value": 2,
+      "note": "the cut joined more than one ink component"
+    },
+    {
+      "level": "warn",
+      "check": "cap_height",
+      "glyph": "D",
+      "value": 0.169,
+      "note": "capital's ink height is off its line's cap height by more than 12% (misread box?)"
+    },
+    {
+      "level": "info",
+      "check": "specks",
+      "glyph": "g",
+      "value": 1,
+      "note": "marks beside the letter were recorded, not cut"
+    }
+  ]
+}

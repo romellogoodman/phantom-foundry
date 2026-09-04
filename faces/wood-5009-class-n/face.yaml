@@ -66,7 +66,11 @@ lines:
   893:ten:
     n_caps: 4
     cap_height_px: 660.0
+    cap_source: caps
     baseline_px: 3413.0
+    baselines:
+      ? ''
+      : 3413.0
     glyphs:
     - H
     - I
@@ -78,7 +82,11 @@ lines:
   893:eight:
     n_caps: 5
     cap_height_px: 529
+    cap_source: caps
     baseline_px: 2601
+    baselines:
+      ? ''
+      : 2601
     glyphs:
     - B
     - O
@@ -91,7 +99,11 @@ lines:
   893:six:
     n_caps: 5
     cap_height_px: 397
+    cap_source: caps
     baseline_px: 1917
+    baselines:
+      ? ''
+      : 1917
     glyphs:
     - C
     - O.six
@@ -107,7 +119,11 @@ lines:
   893:five:
     n_caps: 7
     cap_height_px: 331
+    cap_source: caps
     baseline_px: 1364
+    baselines:
+      ? ''
+      : 1364
     glyphs:
     - G
     - R.five
@@ -122,7 +138,11 @@ lines:
   893:four:
     n_caps: 1
     cap_height_px: 266
+    cap_source: caps
     baseline_px: 880
+    baselines:
+      ? ''
+      : 880
     glyphs:
     - M
     - o

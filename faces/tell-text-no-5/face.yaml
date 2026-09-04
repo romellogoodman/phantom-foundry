@@ -1,0 +1,186 @@
+name: tell-text-no-5
+title: Tell Text No. 5
+series: Tell Text No. 5
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 560
+  - 561
+leaf_pages:
+  560: 534
+  561: 535
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 465
+  spacing:
+    straight: 16
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      561:60pt: 31.6
+      560:54pt: 32.2
+      560:48pt: 39.6
+specimen_lines:
+- leaf: 561
+  line: 60pt
+  text: Daily Paper
+  band: 2
+  by: claude+ocr
+- leaf: 561
+  line: 60pt
+  text: Morning 2 Star
+  band: 3
+  by: claude+ocr
+- leaf: 560
+  line: 54pt
+  text: Grand Canyon 4 Colorado
+  band: 4
+  by: claude+ocr
+- leaf: 560
+  line: 48pt
+  text: Cali[fo]rnia Via
+  band: 5
+  by: claude
+- leaf: 560
+  line: 48pt
+  text: Western 5 Railroad
+  band: 6
+  by: claude+ocr
+lines:
+  561:60pt:
+    n_caps: 4
+    cap_height_px: 288.0
+    cap_source: caps
+    baseline_px: 1003.5
+    baselines:
+      '2': 1003.5
+      '3': 1368.5
+    glyphs:
+    - D
+    - a
+    - i
+    - l
+    - y
+    - P
+    - a.60pt
+    - p
+    - e
+    - r
+    - M
+    - o
+    - r.60pt
+    - n
+    - i.60pt
+    - n.60pt
+    - g
+    - two
+    - S
+    - t
+    - a.60pt_2
+    - r.60pt_2
+    x_height_px: 173
+    figure_height_px: 249
+    stem_px: 33.5
+    scale: 2.43056
+    stem_units: 81.4
+    x_height: 420
+    figure_height: 605
+  560:54pt:
+    n_caps: 3
+    cap_height_px: 152
+    cap_source: caps
+    baseline_px: 2813
+    baselines:
+      '4': 2813
+    glyphs:
+    - G
+    - r.54pt
+    - a.54pt
+    - n.54pt
+    - d
+    - C
+    - a.54pt_2
+    - n.54pt_2
+    - y.54pt
+    - o.54pt
+    - n.54pt_3
+    - four
+    - C.54pt
+    - o.54pt_2
+    - l.54pt
+    - o.54pt_3
+    - r.54pt_2
+    - a.54pt_3
+    - d.54pt
+    - o.54pt_4
+    x_height_px: 101.0
+    figure_height_px: 146
+    stem_px: 10
+    scale: 4.60526
+    stem_units: 46.1
+    x_height: 465
+    figure_height: 672
+  560:48pt:
+    n_caps: 4
+    cap_height_px: 203.5
+    cap_source: caps
+    baseline_px: 3275.0
+    baselines:
+      '5': 3275.0
+      '6': 3576.5
+    glyphs:
+    - C.48pt
+    - a.48pt
+    - l.48pt
+    - i.48pt
+    - r.48pt
+    - n.48pt
+    - i.48pt_2
+    - a.48pt_2
+    - V
+    - i.48pt_3
+    - a.48pt_3
+    - W
+    - e.48pt
+    - s
+    - t.48pt
+    - e.48pt_2
+    - r.48pt_2
+    - n.48pt_2
+    - five
+    - R
+    - a.48pt_4
+    - i.48pt_4
+    - l.48pt_2
+    - r.48pt_3
+    - o.48pt
+    - a.48pt_5
+    - d.48pt
+    x_height_px: 140.0
+    figure_height_px: 193
+    stem_px: 25.0
+    scale: 3.4398
+    stem_units: 86.0
+    x_height: 482
+    figure_height: 664

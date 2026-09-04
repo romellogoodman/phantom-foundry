@@ -1,0 +1,181 @@
+name: bismarck
+title: Bismarck
+series: Bismarck
+status: proto
+version: 0.1.0
+book: bookoftypespecim00barnrich
+source:
+  archive_id: bookoftypespecim00barnrich
+  title: Book of type specimens. Comprising a large variety of superior copper-mixed
+    types, rules, borders, galleys, printing presses, electric-welded chases, paper
+    and card cutters, wood goods, book binding machinery etc., together with valuable
+    information to the craft. Specimen book no.9
+  creator:
+  - Barnhart, bros. & Spindler, firm, type founders, Chicago
+  - De Young family
+  - De Young, Charles, 1881-
+  publisher: Chicago, Barnhart bros. & Spindler
+  date: '[1907]'
+  ppi: 400
+  url: https://archive.org/details/bookoftypespecim00barnrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 625
+leaf_pages:
+  625: 601
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  x_height: 541
+  spacing:
+    straight: 18
+    min: -10
+    depth: 25
+    basis: 'derived: half the median printed letter gap across the specimen lines'
+    printed_gaps:
+      625:60pt: 38.4
+      625:48pt: 33.0
+      625:36pt: 26.3
+      625:30pt: 41.8
+specimen_lines:
+- leaf: 625
+  line: 60pt
+  text: Sein 4 Heim
+  band: 6
+  by: claude
+- leaf: 625
+  line: 48pt
+  text: Kleiner 3 Wald
+  band: 5
+  by: claude
+- leaf: 625
+  line: 36pt
+  text: Vereinigte 6 Staaten
+  band: 4
+  by: claude
+- leaf: 625
+  line: 30pt
+  text: Man Friert 5 im Winter
+  band: 3
+  by: claude
+lines:
+  625:60pt:
+    n_caps: 2
+    cap_height_px: 255.0
+    cap_source: caps
+    baseline_px: 3571.5
+    baselines:
+      '6': 3571.5
+    glyphs:
+    - S
+    - e
+    - i
+    - n
+    - four
+    - H
+    - e.60pt
+    - i.60pt
+    - m
+    x_height_px: 198.0
+    figure_height_px: 252
+    stem_px: 27.0
+    scale: 2.7451
+    stem_units: 74.1
+    x_height: 544
+    figure_height: 692
+  625:48pt:
+    n_caps: 2
+    cap_height_px: 212.0
+    cap_source: caps
+    baseline_px: 3142.0
+    baselines:
+      '5': 3142.0
+    glyphs:
+    - K
+    - l
+    - e.48pt
+    - i.48pt
+    - n.48pt
+    - e.48pt_2
+    - r
+    - three
+    - W
+    - a
+    - l.48pt
+    - d
+    x_height_px: 163
+    figure_height_px: 213
+    stem_px: 17.5
+    scale: 3.30189
+    stem_units: 57.8
+    x_height: 538
+    figure_height: 703
+  625:36pt:
+    n_caps: 2
+    cap_height_px: 159.5
+    cap_source: caps
+    baseline_px: 2771.0
+    baselines:
+      '4': 2771.0
+    glyphs:
+    - V
+    - e.36pt
+    - r.36pt
+    - e.36pt_2
+    - i.36pt
+    - n.36pt
+    - i.36pt_2
+    - g
+    - t
+    - e.36pt_3
+    - six
+    - S.36pt
+    - t.36pt
+    - a.36pt
+    - a.36pt_2
+    - t.36pt_2
+    - e.36pt_4
+    - n.36pt_2
+    x_height_px: 124
+    figure_height_px: 159
+    stem_px: 13.5
+    scale: 4.38871
+    stem_units: 59.2
+    x_height: 544
+    figure_height: 698
+  625:30pt:
+    n_caps: 3
+    cap_height_px: 134
+    cap_source: caps
+    baseline_px: 2457
+    baselines:
+      '3': 2457
+    glyphs:
+    - M
+    - a.30pt
+    - n.30pt
+    - F
+    - r.30pt
+    - i.30pt
+    - e.30pt
+    - r.30pt_2
+    - t.30pt
+    - five
+    - i.30pt_2
+    - m.30pt
+    - W.30pt
+    - i.30pt_3
+    - n.30pt_2
+    - t.30pt_2
+    - e.30pt_2
+    - r.30pt_3
+    x_height_px: 102.0
+    figure_height_px: 131
+    stem_px: 22
+    scale: 5.22388
+    stem_units: 114.9
+    x_height: 533
+    figure_height: 684

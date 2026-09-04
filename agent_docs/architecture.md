@@ -29,9 +29,26 @@ its own provenance, and matures in versions like software.
 
 ## Pipeline
 
+Two ways in. One face at a time: `fetch` a leaf, `survey` it, `label` each
+line by hand. A whole book: `shelve` it, `catalog` every leaf, `found` faces
+from the catalog's series, fill their manifests from *readings*. Both end in
+the same per-face stages, run by `build`.
+
 ```
 Internet Archive
-      │  fetch      pull raw JP2 scans + metadata, record provenance in face.yaml
+      │  shelve     the whole book: every leaf's JP2 + the archive's OCR → books/<id>/ (ignored)
+      │  catalog    survey every leaf; read the caption over each showing ("42 Point Cadillac
+      │             Condensed", "No. 266— Class L Fifteen Line") for its size and series;
+      │             band crops with numbered boxes; page numbers from the folios → catalog.json
+      │  found      start faces/<name>/ from a series: face.yaml with the book's provenance,
+      │             the leaves linked (not copied), their surveys copied
+      │  read       what a band says, read from its crop by a person or Claude — one token per
+      │             box: a character, [fi] for touching letters, ? unreadable, ~ not a letter —
+      │             → books/<id>/readings.json. The OCR is a cross-check, never a source: it
+      │             misreads display type ("PROSPEROIS") in ways that pass a character count
+      │  label --auto  manifest rows from the readings, largest size first
+      ▼
+      │  fetch      (one face) pull raw JP2 scans + metadata, record provenance in face.yaml
       ▼
 specimens/          source pages (not committed; fetch reproduces them)
       │  survey     ink projections find the display lines and letter boxes on a leaf;
@@ -61,11 +78,29 @@ dist/               shippable fonts + provenance.json
       │  proof      scan/trace overlays, cut sheet, alphabet (constructed in gray),
       │             each specimen line re-set in the font over the printed line, face.json
       ▼
-proofs/             QA output, the publishable artifacts, and the website's data
+proofs/             QA output, checks.json, the publishable artifacts, and the website's data
+      │  build      cut → cast → sort → construct → justify → matrix → proof, skipping stages
+      │             whose inputs (by fingerprint) haven't changed; --all / --book in parallel
+      │  showing    one sheet across every face — status, glyph counts, warnings — showing/
 ```
 
 ### Notes
 
+- **Bands.** A metal-type showing prints each size as a line of CAPITALS
+  over a line of Mixed case with figures. Both are one `line` (one scale,
+  from the capitals) but two `band`s (two baselines). A size with no
+  capitals takes its cap height from the tallest lowercase (ascenders).
+- **Checks.** `proof` writes `checks.json`: trace-vs-scan overlap below a
+  size-aware floor (95% at 300 px cap height, 90% at 30 pt), a capital more
+  than 12% off its line's cap height (a misread box), more than four
+  contours (specks), bands left unread, fewer than ten glyphs. `showing`
+  puts the faces that warned first. Review starts there, not at a hundred
+  alphabet sheets.
+- **Scale.** Fonts are built with fontmake under `SOURCE_DATE_EPOCH` (HEAD's
+  commit time) so an unchanged face rebuilds byte-identical; `build` skips
+  unchanged stages; per-glyph overlay sheets are drawn only for faces with
+  Arrow research; raw crops, survey sheets and line proofs are JPEG. A
+  founded face costs about 7 MB on disk, 3–4 MB packed in git.
 - **Sizes.** Wood type specimens show one design at several sizes, each a
   separate set of blocks. The manifest's `line` names the size; `sort` gives
   each line its own scale so every size lands on the same cap height. The
@@ -96,15 +131,24 @@ monorepo for now; a face that reaches 1.0 can be split out for Google Fonts.
 phantom-foundry/
   CLAUDE.md
   agent_docs/
-  tools/foundry/       # fetch survey label cut cast diff frame sort construct justify matrix proof
+  tools/foundry/       # shelve catalog series found read label | fetch survey | cut cast diff frame
+                       # sort construct justify matrix proof | build showing
   tests/
+  books/
+    <archive_id>/
+      book.yaml        # item metadata, page count, when shelved
+      jp2/ ocr/ sheets/   # every leaf, the OCR split per leaf, survey sheets + band crops (ignored)
+      survey/          # leafNNNN.json: display bands + letter boxes per leaf
+      catalog.json     # every band with its caption's size and series; series index
+      readings.json    # what each band says, by whom — the labeling record
+  showing/             # index.html + showing.json across every face
   faces/
     <face-name>/
       face.yaml        # source book, leaves + printed pages, PD basis, metrics, lines, version
       CHANGELOG.md
       construct.yaml   # recipes for letters the specimen doesn't show
-      specimens/       # fetched scans (ignored) + survey sheet/JSON (committed)
-      glyphs/          # manifest.csv + cut PNGs + per-glyph JSON
+      specimens/       # scans (ignored; linked from books/ or fetched) + survey sheet/JSON + labels.json
+      glyphs/          # manifest.csv (glyph, unicode, leaf, line, band, category, box) + cuts + per-glyph JSON
       svg/arrow/ svg/potrace/
       ufo/  dist/  proofs/  log/
   website/             # Vite + React; type tester; reads proofs/face.json
@@ -121,7 +165,9 @@ phantom-foundry/
 
 - Kerning (human pass), lowercase and figures for wood-266-class-l (rows are one
   `label` away; `sort` already handles categories and x-height).
+- Constructed letters for founded faces: a proto built from the book has only
+  what the page shows; constructing the rest is part of promoting a face to draft.
 - Variable fonts / interpolation. Deskewing slightly rotated scans (the
   six-line baseline drifts ~9 units across the page).
-- Automating `label` from the book's OCR text, for a rough-proto pass over
-  every usable face in the book.
+- Sizes under 30 pt (about 115 px cap height at 400 ppi): the survey finds them,
+  the catalog lists them, `label --auto --min-tall` leaves them out.
