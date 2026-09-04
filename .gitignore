@@ -7,3 +7,8 @@ __pycache__/
 faces/*/specimens/*.jp2
 faces/*/specimens/*.zip
 .DS_Store
+# books/: whole-book scans and OCR are fetched by `shelve`, not committed
+books/*/*.zip
+books/*/jp2/
+books/*/ocr/
+books/*/sheets/

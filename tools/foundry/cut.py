@@ -117,8 +117,16 @@ def _component(binary: np.ndarray, seed: tuple[int, int]) -> np.ndarray:
     return np.asarray(im) == 128
 
 
-def cut_glyph(face: Face, entry: GlyphEntry, pad_frac: float = 0.06, stack_slack: float = 0.15) -> dict:
-    page = Image.open(face.specimen_jp2(entry.leaf)).convert("L")
+def load_page(face: Face, leaf: int) -> Image.Image:
+    """The leaf as 8-bit grayscale. Decoding a 400 ppi JP2 takes about a
+    second, so `cut` decodes each leaf once and hands it to every glyph."""
+    return Image.open(face.specimen_jp2(leaf)).convert("L")
+
+
+def cut_glyph(face: Face, entry: GlyphEntry, pad_frac: float = 0.06, stack_slack: float = 0.15,
+              page: Image.Image | None = None) -> dict:
+    if page is None:
+        page = load_page(face, entry.leaf)
     box = (entry.x, entry.y, entry.x + entry.w, entry.y + entry.h)
     raw = page.crop(box)
     raw.save(face.glyphs / f"{fname(entry.glyph)}_raw.png")
@@ -189,7 +197,13 @@ def cut(face: Face, glyphs: list[str] | None = None) -> dict:
     entries = face.read_manifest()
     if glyphs:
         entries = [e for e in entries if e.glyph in glyphs]
-    return {"face": face.name, "cut": [cut_glyph(face, e) for e in entries]}
+    pages: dict[int, Image.Image] = {}
+    out = []
+    for e in entries:
+        if e.leaf not in pages:
+            pages[e.leaf] = load_page(face, e.leaf)
+        out.append(cut_glyph(face, e, page=pages[e.leaf]))
+    return {"face": face.name, "cut": out}
 
 
 def survey(face: Face, leaf: int, min_line_height: int = 150, min_letter_width: int = 12,
