@@ -2,6 +2,15 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import "./App.scss";
 
 const PROOFS = "/proofs";
+const CATEGORIES = [
+  ["serif", "Serif"],
+  ["sans", "Sans Serif"],
+  ["display", "Display"],
+  ["italic", "Italic"],
+  ["blackletter", "Blackletter"],
+  ["wood", "Wood Type"],
+];
+const DEFAULT_TEXT = "";
 
 // -- data -------------------------------------------------------------------
 
@@ -22,8 +31,6 @@ function useIndex() {
 }
 
 function useFace(name) {
-  // state is keyed by the face it belongs to, so switching faces shows
-  // "loading" without a synchronous reset inside the effect
   const [state, setState] = useState({ name: null, face: null, error: null });
   useEffect(() => {
     let cancelled = false;
@@ -50,8 +57,7 @@ function useHash() {
   return { face: m ? decodeURIComponent(m[1]) : null };
 }
 
-// A face's font is loaded once, on first use, through the FontFace API —
-// the index shows a hundred faces without a hundred @font-face rules up front.
+// Each face's font is loaded once, on first sight, through the FontFace API.
 const loaded = new Set();
 function loadFont(family, file) {
   if (!file || loaded.has(family)) return;
@@ -69,7 +75,7 @@ function useVisible(ref) {
     if (!el || visible) return undefined;
     const io = new IntersectionObserver(
       (entries) => entries.some((e) => e.isIntersecting) && setVisible(true),
-      { rootMargin: "300px" },
+      { rootMargin: "400px" },
     );
     io.observe(el);
     return () => io.disconnect();
@@ -81,92 +87,233 @@ function fontFile(fonts) {
   return (fonts || []).find((f) => f.endsWith(".otf")) || (fonts || [])[0];
 }
 
+// Text in a face, with the characters the proto doesn't have yet shown gray
+// instead of silently falling back to another font.
+function Preview({ family, chars, text, size, className }) {
+  const have = useMemo(() => new Set(chars || ""), [chars]);
+  const runs = useMemo(() => {
+    const out = [];
+    for (const ch of text) {
+      const ok = /\s/.test(ch) || have.has(ch);
+      const last = out[out.length - 1];
+      if (last && last.ok === ok) last.s += ch;
+      else out.push({ ok, s: ch });
+    }
+    return out;
+  }, [text, have]);
+  return (
+    <div className={className} style={{ fontFamily: `"${family}", Georgia, serif`, fontSize: `${size}px` }}>
+      {runs.map((r, i) =>
+        r.ok ? (
+          <span key={i}>{r.s}</span>
+        ) : (
+          <span key={i} className="preview__missing" title="not in this font yet">
+            {r.s}
+          </span>
+        ),
+      )}
+    </div>
+  );
+}
+
 // -- index --------------------------------------------------------------------
 
 const SORTS = {
-  name: (a, b) => a.name.localeCompare(b.name),
-  glyphs: (a, b) => b.encoded - a.encoded || a.name.localeCompare(b.name),
   page: (a, b) => (a.pages[0] || 9999) - (b.pages[0] || 9999) || a.name.localeCompare(b.name),
-  warnings: (a, b) => b.checks.warnings - a.checks.warnings || a.name.localeCompare(b.name),
+  name: (a, b) => (a.title || a.name).localeCompare(b.title || b.name),
+  glyphs: (a, b) => b.encoded - a.encoded || a.name.localeCompare(b.name),
+  size: (a, b) => sizePt(b) - sizePt(a) || a.name.localeCompare(b.name),
 };
 
-function Card({ face }) {
+function sizePt(f) {
+  return Math.max(0, ...f.sizes.map((s) => parseInt(s, 10) || 0));
+}
+
+function previewText(face, mode, custom) {
+  if (mode === "custom" && custom.trim()) return custom;
+  if (mode === "alphabet") return face.chars || "";
+  if (mode === "numerals") return [...(face.chars || "")].filter((c) => /\d/.test(c)).join("") || face.sample || "";
+  return face.sample || face.title || face.family;
+}
+
+function Card({ face, mode, custom, size }) {
   const ref = useRef(null);
   const visible = useVisible(ref);
   const file = fontFile(face.fonts);
   useEffect(() => {
     if (visible) loadFont(face.family, file);
   }, [visible, face.family, file]);
-  const pages = face.pages.filter(Boolean);
+  const text = previewText(face, mode, custom);
   return (
     <a ref={ref} className="card" href={`#/face/${encodeURIComponent(face.name)}`}>
-      <div className="card__specimen" style={{ fontFamily: `"${face.family}", serif` }}>
-        {visible ? face.sample || face.title || face.family : " "}
-      </div>
-      <h2 className="card__title">
-        {face.title || face.family}
-        <span className={`face__badge face__badge--${face.status}`}>
-          v{face.version} · {face.status}
+      <div className="card__head">
+        <span className="card__name">{face.title || face.family}</span>
+        <span className="card__count">
+          {face.encoded} glyphs · {face.sizes.length} size{face.sizes.length === 1 ? "" : "s"}
         </span>
-      </h2>
-      <p className="card__meta">
-        {face.encoded} glyphs · {face.caps}A {face.lower}a {face.figures}1
-        {face.constructed > 0 ? ` · ${face.constructed} constructed` : ""}
-        {face.sizes.length > 0 ? ` · ${face.sizes.join(" ")}` : ""}
-        {pages.length > 0 ? ` · p. ${pages.join(", ")}` : ""}
-        {face.checks.warnings > 0 ? ` · ${face.checks.warnings} warnings` : ""}
-      </p>
+      </div>
+      {visible ? (
+        <Preview family={face.family} chars={face.chars} text={text} size={size} className="card__preview" />
+      ) : (
+        <div className="card__preview" style={{ fontSize: `${size}px` }}>
+          {" "}
+        </div>
+      )}
+      <div className="card__foot">
+        <span className={`badge badge--${face.status}`}>v{face.version}</span>
+        <span className="card__meta">
+          {CATEGORIES.find(([k]) => k === face.category)?.[1] || face.category}
+          {face.pages.filter(Boolean).length ? ` · p. ${face.pages.filter(Boolean)[0]}` : ""}
+        </span>
+      </div>
     </a>
   );
 }
 
-function Index({ index }) {
-  const [query, setQuery] = useState("");
+function Filters({ filters, setFilters, counts }) {
+  const toggle = (key, value) =>
+    setFilters((f) => {
+      const set = new Set(f[key]);
+      if (set.has(value)) set.delete(value);
+      else set.add(value);
+      return { ...f, [key]: set };
+    });
+  return (
+    <aside className="filters">
+      <h3 className="filters__title">Categories</h3>
+      {CATEGORIES.map(([key, label]) => (
+        <label key={key} className="filters__row">
+          <input type="checkbox" checked={filters.category.has(key)} onChange={() => toggle("category", key)} />
+          <span className="filters__label">{label}</span>
+          <span className="filters__count">{counts.category[key] || 0}</span>
+        </label>
+      ))}
+      <h3 className="filters__title">Character set</h3>
+      <label className="filters__row">
+        <input type="checkbox" checked={filters.lower} onChange={() => setFilters((f) => ({ ...f, lower: !f.lower }))} />
+        <span className="filters__label">Has lowercase</span>
+        <span className="filters__count">{counts.lower}</span>
+      </label>
+      <label className="filters__row">
+        <input
+          type="checkbox"
+          checked={filters.figures}
+          onChange={() => setFilters((f) => ({ ...f, figures: !f.figures }))}
+        />
+        <span className="filters__label">Has figures</span>
+        <span className="filters__count">{counts.figures}</span>
+      </label>
+      <h3 className="filters__title">Review</h3>
+      <label className="filters__row">
+        <input type="checkbox" checked={filters.clean} onChange={() => setFilters((f) => ({ ...f, clean: !f.clean }))} />
+        <span className="filters__label">No warnings</span>
+        <span className="filters__count">{counts.clean}</span>
+      </label>
+    </aside>
+  );
+}
+
+function Index({ index, query }) {
+  const [mode, setMode] = useState("specimen");
+  const [custom, setCustom] = useState(DEFAULT_TEXT);
+  const [size, setSize] = useState(56);
   const [sort, setSort] = useState("page");
+  const [filters, setFilters] = useState({ category: new Set(), lower: false, figures: false, clean: false });
   const faces = useMemo(() => index.faces_list || [], [index]);
+  const counts = useMemo(() => {
+    const category = {};
+    for (const f of faces) category[f.category] = (category[f.category] || 0) + 1;
+    return {
+      category,
+      lower: faces.filter((f) => f.lower > 0).length,
+      figures: faces.filter((f) => f.figures > 0).length,
+      clean: faces.filter((f) => f.checks.warnings === 0).length,
+    };
+  }, [faces]);
   const shown = useMemo(() => {
     const q = query.trim().toLowerCase();
     return faces
       .filter((f) => !q || `${f.name} ${f.title} ${f.family} ${f.series} ${f.sample}`.toLowerCase().includes(q))
+      .filter((f) => filters.category.size === 0 || filters.category.has(f.category))
+      .filter((f) => !filters.lower || f.lower > 0)
+      .filter((f) => !filters.figures || f.figures > 0)
+      .filter((f) => !filters.clean || f.checks.warnings === 0)
       .sort(SORTS[sort]);
-  }, [faces, query, sort]);
+  }, [faces, query, filters, sort]);
+  const reset = () => {
+    setMode("specimen");
+    setCustom(DEFAULT_TEXT);
+    setSize(56);
+    setSort("page");
+    setFilters({ category: new Set(), lower: false, figures: false, clean: false });
+  };
   return (
-    <section className="index">
-      <div className="index__controls">
-        <label className="tester__field index__search">
-          <span className="tester__label">Find a face</span>
+    <>
+      <div className="controls">
+        <div className="controls__inner">
+          <div className="segmented" role="tablist" aria-label="Preview">
+            {[
+              ["custom", "Custom"],
+              ["specimen", "Specimen"],
+              ["alphabet", "Alphabet"],
+              ["numerals", "Numerals"],
+            ].map(([k, label]) => (
+              <button
+                key={k}
+                type="button"
+                role="tab"
+                aria-selected={mode === k}
+                className={`segmented__item${mode === k ? " segmented__item--on" : ""}`}
+                onClick={() => setMode(k)}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
           <input
-            className="tester__input"
-            type="search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="name, series, or the words on the page"
+            className="controls__text"
+            type="text"
+            value={custom}
+            placeholder="Type something"
             spellCheck={false}
+            onChange={(e) => {
+              setCustom(e.target.value);
+              setMode("custom");
+            }}
           />
-        </label>
-        <label className="tester__field">
-          <span className="tester__label">Sort</span>
-          <select className="tester__input index__select" value={sort} onChange={(e) => setSort(e.target.value)}>
-            <option value="page">By page in the book</option>
-            <option value="name">By name</option>
-            <option value="glyphs">Most glyphs first</option>
-            <option value="warnings">Warnings first</option>
+          <label className="controls__size">
+            <span className="controls__value">{size}px</span>
+            <input type="range" min="20" max="140" value={size} onChange={(e) => setSize(Number(e.target.value))} />
+          </label>
+          <select className="controls__sort" value={sort} onChange={(e) => setSort(e.target.value)} aria-label="Sort">
+            <option value="page">Sort by page</option>
+            <option value="name">Sort by name</option>
+            <option value="size">Sort by largest size</option>
+            <option value="glyphs">Sort by most glyphs</option>
           </select>
-        </label>
+          <button type="button" className="controls__reset" onClick={reset}>
+            Reset
+          </button>
+        </div>
       </div>
-      <p className="index__count">
-        {shown.length} of {faces.length} faces · {index.encoded_glyphs} glyphs traced from the page
-      </p>
-      <div className="index__grid">
-        {shown.map((f) => (
-          <Card key={f.name} face={f} />
-        ))}
+      <div className="browse">
+        <Filters filters={filters} setFilters={setFilters} counts={counts} />
+        <section className="results">
+          <p className="results__count">
+            {shown.length} of {faces.length} faces · {index.encoded_glyphs} glyphs traced from the page
+          </p>
+          <div className="results__grid">
+            {shown.map((f) => (
+              <Card key={f.name} face={f} mode={mode} custom={custom} size={size} />
+            ))}
+          </div>
+        </section>
       </div>
-    </section>
+    </>
   );
 }
 
-// -- one face -----------------------------------------------------------------
+// -- one family ---------------------------------------------------------------
 
 function FontFaceStyle({ face }) {
   const file = fontFile(face.fonts);
@@ -175,57 +322,36 @@ function FontFaceStyle({ face }) {
   return <style>{css}</style>;
 }
 
-function Tester({ face }) {
+function printed(l) {
+  return l.printed || l.text;
+}
+
+function Tester({ face, chars }) {
   const covered = (face.specimen_lines || []).filter((l) => l.missing && l.missing.length === 0);
-  const printed = (l) => l.printed || l.text;
-  const sample = covered.length
-    ? printed(covered.reduce((a, b) => (printed(b).length > printed(a).length ? b : a)))
-    : "ABC";
+  const sample = covered.length ? printed(covered.reduce((a, b) => (printed(b).length > printed(a).length ? b : a))) : "ABC";
   const [text, setText] = useState(sample);
-  const [size, setSize] = useState(160);
-  const encoded = useMemo(() => new Set(face.glyphs.filter((g) => g.encoded).map((g) => g.char)), [face]);
-  const missing = useMemo(
-    () => [...new Set([...text].filter((c) => !/\s/.test(c) && !encoded.has(c)))],
-    [text, encoded],
-  );
+  const [size, setSize] = useState(120);
+  const missing = useMemo(() => [...new Set([...text].filter((c) => !/\s/.test(c) && !chars.has(c)))], [text, chars]);
   return (
     <section className="tester">
-      <div className="tester__controls">
-        <label className="tester__field">
-          <span className="tester__label">Type</span>
-          <input
-            className="tester__input"
-            type="text"
-            value={text}
-            onChange={(e) => setText(e.target.value)}
-            placeholder="Type something"
-            spellCheck={false}
-          />
-        </label>
-        <label className="tester__field tester__field--size">
-          <span className="tester__label">
-            Size <span className="tester__value">{size}px</span>
-          </span>
-          <input
-            className="tester__slider"
-            type="range"
-            min="24"
-            max="400"
-            value={size}
-            onChange={(e) => setSize(Number(e.target.value))}
-          />
+      <div className="tester__bar">
+        <input
+          className="tester__input"
+          type="text"
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+          placeholder="Type here to preview text"
+          spellCheck={false}
+        />
+        <label className="tester__size">
+          <span className="controls__value">{size}px</span>
+          <input type="range" min="24" max="320" value={size} onChange={(e) => setSize(Number(e.target.value))} />
         </label>
       </div>
-      <div
-        className="tester__output"
-        style={{ fontFamily: `"${face.family}"`, fontSize: `${size}px` }}
-        aria-live="polite"
-      >
-        {text || " "}
-      </div>
+      <Preview family={face.family} chars={[...chars].join("")} text={text || " "} size={size} className="tester__output" />
       {missing.length > 0 && (
         <p className="tester__note">
-          Not in this font yet: {missing.map((c) => `“${c}”`).join(" ")} — v{face.version} has only what the
+          Not in this font yet: {missing.map((c) => `“${c}”`).join(" ")}. Version {face.version} has only what the
           specimen shows{face.glyphs.some((g) => g.constructed) ? ", plus constructed capitals" : ""}.
         </p>
       )}
@@ -233,9 +359,10 @@ function Tester({ face }) {
   );
 }
 
-function Face({ face }) {
+function Family({ face }) {
   const src = face.source || {};
   const encoded = face.glyphs.filter((g) => g.encoded && g.char && g.char.trim());
+  const chars = useMemo(() => new Set(encoded.map((g) => g.char)), [encoded]);
   const traced = encoded.filter((g) => !g.constructed).length;
   const constructed = encoded.filter((g) => g.constructed).length;
   const alternates = face.glyphs.filter((g) => g.alternate_of).length;
@@ -243,92 +370,113 @@ function Face({ face }) {
   const coveredLines = (face.specimen_lines || []).filter((l) => l.proof && l.missing && l.missing.length === 0);
   const rGlyph = face.glyphs.find((g) => g.name === "R");
   const leafPages = face.leaf_pages || {};
-  const where = (src.leaves || [])
-    .map((l) => (leafPages[l] ? `p. ${leafPages[l]}` : `leaf ${l}`))
-    .join(", ");
+  const where = (src.leaves || []).map((l) => (leafPages[l] ? `p. ${leafPages[l]}` : `leaf ${l}`)).join(", ");
   const readers = [...new Set((face.specimen_lines || []).map((l) => l.by || "human"))];
   const year = String(src.date || "").replace(/\D/g, "");
+  const otf = face.fonts.find((f) => f.endsWith(".otf"));
+  const ttf = face.fonts.find((f) => f.endsWith(".ttf"));
 
   return (
-    <article className="face">
+    <article className="family">
       <FontFaceStyle face={face} />
-      <header className="face__header">
-        <h2 className="face__family">
-          {face.title || face.family}{" "}
-          <span className={`face__badge face__badge--${face.status}`}>
+      <header className="family__header">
+        <div>
+          <h1 className="family__name">{face.title || face.family}</h1>
+          <p className="family__source">
+            {src.publisher}, {src.date} · <em>{(src.title || "").split(".")[0]}</em>, {where} ·{" "}
+            <a className="link" href={src.url}>
+              Internet Archive
+            </a>
+          </p>
+        </div>
+        <div className="family__actions">
+          <span className={`badge badge--${face.status}`}>
             v{face.version} · {face.status}
           </span>
-        </h2>
-        <p className="face__source">
-          {src.publisher}, {src.date} — <em>{(src.title || "").split(".")[0]}</em>, {where}.{" "}
-          <a className="face__link" href={src.url}>
-            Internet Archive ↗
-          </a>
-        </p>
-        <p className="face__detail">
+          {otf && (
+            <a className="button" href={`/fonts/${otf}`} download>
+              Download OTF
+            </a>
+          )}
+          {ttf && (
+            <a className="button button--quiet" href={`/fonts/${ttf}`} download>
+              TTF
+            </a>
+          )}
+        </div>
+      </header>
+
+      <Tester face={face} chars={chars} />
+
+      <section className="family__section">
+        <h2 className="family__h2">Styles</h2>
+        <p className="family__caption">
           {encoded.length} glyphs: {traced} traced from the specimen
           {constructed > 0 ? `, ${constructed} constructed from them` : ""}.{" "}
           {alternates > 0 ? `${alternates} same-letter alternates from other sizes ride along unencoded. ` : ""}
           {readers.some((r) => r.includes("claude"))
-            ? "The lines were read from the page by Claude and cross-checked against the archive's OCR. "
+            ? "The lines were read from the page by Claude and cross-checked against the archive's OCR."
             : ""}
-          {face.fonts.map((f) => (
-            <a key={f} className="face__link" href={`/fonts/${f}`} download>
-              {f} ↓
-            </a>
-          ))}
         </p>
-      </header>
+        {coveredLines.length > 0 && (
+          <div className="styles">
+            {coveredLines.map((l) => (
+              <div key={`${l.leaf}-${l.band}`} className="styles__row">
+                <div className="styles__label">
+                  {l.line}
+                  <span className="styles__sub">{l.by ? `read by ${l.by}` : ""}</span>
+                </div>
+                <Preview family={face.family} chars={[...chars].join("")} text={printed(l)} size={64} className="styles__preview" />
+              </div>
+            ))}
+          </div>
+        )}
+      </section>
 
-      <Tester face={face} />
+      <section className="family__section">
+        <h2 className="family__h2">Glyphs</h2>
+        <p className="family__caption">
+          {constructed > 0
+            ? "Black letters are traced; gray ones are constructed from traced parts. "
+            : "Every glyph is traced from the page. "}
+          Each label names the specimen line the letter came from.
+        </p>
+        <figure className="figure">
+          <img src={`${PROOFS}/${face.name}/proofs/alphabet.png`} alt="Every letter in the font, labeled by origin" />
+        </figure>
+      </section>
 
       {coveredLines.length > 0 && (
-        <section className="face__section">
-          <h3 className="face__subhead">The specimen, re-set</h3>
-          <p className="face__caption">
-            Each line as printed{year ? ` in ${year}` : ""}, and the same words set in the revived font at the same
-            cap height.
+        <section className="family__section">
+          <h2 className="family__h2">The specimen, re-set</h2>
+          <p className="family__caption">
+            Each line as printed{year ? ` in ${year}` : ""}, over the same words set in the revived font at the same cap
+            height.
           </p>
           {coveredLines.map((l) => (
-            <figure key={`${l.leaf}-${l.band}`} className="face__figure">
-              <img
-                src={`${PROOFS}/${face.name}/proofs/${l.proof}`}
-                alt={`${l.printed || l.text} — printed line over the re-set line`}
-                loading="lazy"
-              />
+            <figure key={`${l.leaf}-${l.band}`} className="figure">
+              <img src={`${PROOFS}/${face.name}/proofs/${l.proof}`} alt={`${printed(l)} — printed line over the re-set line`} loading="lazy" />
               <figcaption>
-                {l.printed || l.text} — {l.line}
-                {l.by ? ` · read by ${l.by}` : ""}
+                {printed(l)} · {l.line}
               </figcaption>
             </figure>
           ))}
         </section>
       )}
 
-      <section className="face__section">
-        <h3 className="face__subhead">Alphabet</h3>
-        <p className="face__caption">
-          {constructed > 0
-            ? "Black letters are traced; gray ones are constructed from traced parts (E without its foot is F, M upside down is W). "
-            : "Every glyph is traced from the page. "}
-          Each label names the specimen line the letter came from.
+      <section className="family__section">
+        <h2 className="family__h2">About</h2>
+        <p className="family__caption">
+          A revival of {src.publisher}&rsquo;s <strong>{face.series || face.title}</strong> from the printed
+          specimen, never from digital font software. Every glyph carries its leaf, line and pixel box inside the
+          font (the PHFD table). Fonts mature in versions like software: proto (traced, machine-spaced), draft
+          (reviewed), release (spaced, kerned, cleaned).
         </p>
-        <figure className="face__figure">
-          <img src={`${PROOFS}/${face.name}/proofs/alphabet.png`} alt="Every letter in the font, labeled by origin" />
-        </figure>
-      </section>
-
-      {lines.length > 0 && (
-        <section className="face__section">
-          <h3 className="face__subhead">{lines.length} sizes, one face</h3>
-          <p className="face__caption">
-            The page shows the design at {lines.length} sizes, each cut separately. Scaled to a common cap height,
-            the sizes differ in weight — measured here as stem width over cap height.
-          </p>
-          <table className="face__table">
+        {lines.length > 0 && (
+          <table className="table">
             <thead>
               <tr>
-                <th>Line</th>
+                <th>Size</th>
                 <th>Letters</th>
                 <th>Cap height (px)</th>
                 <th>Stem (units)</th>
@@ -347,22 +495,22 @@ function Face({ face }) {
               ))}
             </tbody>
           </table>
-        </section>
-      )}
+        )}
+      </section>
 
       {face.arrow_attempts && face.arrow_attempts.length > 0 && (
-        <section className="face__section">
-          <h3 className="face__subhead">Scan vs. trace</h3>
-          <p className="face__caption">
+        <section className="family__section">
+          <h2 className="family__h2">Scan vs. trace</h2>
+          <p className="family__caption">
             Gray: the scan. Cyan: potrace, the control trace that made the font. Magenta: Arrow, Quiver&rsquo;s model.
             Black where all agree. Arrow was shown the R twice and both times drew a picture of it rather than its
-            edge — a slab with an outline on top, then a proper R on an invented plinth.
+            edge.
           </p>
-          <div className="face__research">
-            <figure className="face__figure face__figure--overlay">
+          <div className="research">
+            <figure className="figure figure--overlay">
               <img src={`${PROOFS}/${face.name}/proofs/R__overlay.png`} alt="Overlay of scan, potrace and Arrow traces of the R" />
             </figure>
-            <table className="face__table">
+            <table className="table">
               <thead>
                 <tr>
                   <th>Trace</th>
@@ -377,7 +525,7 @@ function Face({ face }) {
                   <tr>
                     <td>potrace</td>
                     <td>
-                      <a className="face__link" href={`${PROOFS}/${face.name}/glyphs/R_.png`}>cut R</a>
+                      <a className="link" href={`${PROOFS}/${face.name}/glyphs/R_.png`}>cut R</a>
                     </td>
                     <td>{rGlyph.diff.potrace_iou_scan.toFixed(3)}</td>
                     <td>—</td>
@@ -388,10 +536,10 @@ function Face({ face }) {
                   <tr key={a.task_id}>
                     <td>
                       {a.model} · attempt {a.attempt}{" "}
-                      <a className="face__link" href={`${PROOFS}/${face.name}/${a.kept_as}`}>svg</a>
+                      <a className="link" href={`${PROOFS}/${face.name}/${a.kept_as}`}>svg</a>
                     </td>
                     <td>
-                      <a className="face__link" href={`${PROOFS}/${face.name}/${a.input}`}>
+                      <a className="link" href={`${PROOFS}/${face.name}/${a.input}`}>
                         {a.input.split("/").pop()}
                       </a>
                     </td>
@@ -409,7 +557,7 @@ function Face({ face }) {
   );
 }
 
-function FacePage({ name, index }) {
+function FamilyPage({ name, index }) {
   const { face, error } = useFace(name);
   const list = (index && index.faces_list) || [];
   const i = list.findIndex((f) => f.name === name);
@@ -419,26 +567,26 @@ function FacePage({ name, index }) {
     window.scrollTo(0, 0);
   }, [name]);
   return (
-    <>
-      <nav className="nav">
-        <a className="nav__link" href="#/">
+    <div className="page">
+      <nav className="crumbs">
+        <a className="link" href="#/">
           ← All faces
         </a>
-        <span className="nav__spacer" />
+        <span className="crumbs__spacer" />
         {prev && (
-          <a className="nav__link" href={`#/face/${encodeURIComponent(prev.name)}`}>
+          <a className="link" href={`#/face/${encodeURIComponent(prev.name)}`}>
             ← {prev.title || prev.name}
           </a>
         )}
         {next && (
-          <a className="nav__link" href={`#/face/${encodeURIComponent(next.name)}`}>
+          <a className="link" href={`#/face/${encodeURIComponent(next.name)}`}>
             {next.title || next.name} →
           </a>
         )}
       </nav>
       {error && <p className="app__error">Could not load {name}: {error}</p>}
-      {face ? <Face face={face} /> : !error && <p className="app__loading">Loading {name}…</p>}
-    </>
+      {face ? <Family face={face} /> : !error && <p className="app__loading">Loading {name}…</p>}
+    </div>
   );
 }
 
@@ -447,35 +595,42 @@ function FacePage({ name, index }) {
 function App() {
   const { index, error } = useIndex();
   const route = useHash();
+  const [query, setQuery] = useState("");
   return (
-    <main className="app">
-      <header className="app__header">
-        <h1 className="app__title">
-          <a className="app__home" href="#/">
-            Phantom Foundry
-          </a>
-        </h1>
-        <p className="app__tagline">
-          Public domain typefaces revived from scanned specimen books. Letters are cut from the scan and traced
-          with potrace; the letters the book doesn&rsquo;t show are built from the ones it does; every step is kept.
-          Fonts mature in versions — proto, draft, release — like software.
-        </p>
+    <div className="app">
+      <header className="topbar">
+        <a className="topbar__brand" href="#/">
+          Phantom Foundry
+        </a>
+        {!route.face && (
+          <input
+            className="topbar__search"
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search faces"
+            spellCheck={false}
+            aria-label="Search faces"
+          />
+        )}
+        <span className="topbar__tag">Public domain typefaces revived from specimen books</span>
       </header>
       {error && <p className="app__error">Could not load the index: {error}</p>}
       {route.face ? (
-        <FacePage name={route.face} index={index} />
+        <FamilyPage name={route.face} index={index} />
       ) : index ? (
-        <Index index={index} />
+        <Index index={index} query={query} />
       ) : (
         !error && <p className="app__loading">Loading…</p>
       )}
-      <footer className="app__footer">
-        Fonts: SIL Open Font License. Tooling: MIT.{" "}
-        <a className="face__link" href="https://github.com/romellogoodman/phantom-foundry">
-          Source ↗
+      <footer className="footer">
+        Letters are cut from the scan and traced with potrace; every step is kept; fonts mature in versions — proto,
+        draft, release — like software. Fonts: SIL Open Font License. Tooling: MIT.{" "}
+        <a className="link" href="https://github.com/romellogoodman/phantom-foundry">
+          Source
         </a>
       </footer>
-    </main>
+    </div>
   );
 }
 

@@ -17,6 +17,24 @@ from .face import FACES_DIR, REPO_ROOT, Face
 SHOWING_DIR = REPO_ROOT / "showing"
 
 
+def category(name: str) -> str:
+    """A rough shelf for the website's filters, from the series name alone."""
+    import re
+    n = (name or "").lower()
+    if re.search(r"^no\. \d+", n) or re.search(r"\bclass [a-z]\b", n):
+        return "wood"
+    if re.search(r"\btext\b|old black|schwabacher|german|goethe|schiller|bismarck|koln", n):
+        return "blackletter"
+    if re.search(r"italic|inclined|oblique", n):
+        return "italic"
+    if re.search(r"gothic|grotesque|sans", n):
+        return "sans"
+    if re.search(r"roman|old style|caslon|elzevir|de vinne|devinne|latin|antique|egyptian|clarendon|title|monitor|"
+                 r"catalog|authors|franklin|spenser|runic|chamfer", n):
+        return "serif"
+    return "display"
+
+
 def summary(face: Face) -> dict | None:
     fj = face.proofs / "face.json"
     if not fj.exists():
@@ -41,6 +59,8 @@ def summary(face: Face) -> dict | None:
         "lower": sum(1 for g in encoded if g.get("category") == "lower"),
         "figures": sum(1 for g in encoded if g.get("category") == "figure"),
         "sizes": sizes, "lines": len(d.get("specimen_lines", [])),
+        "chars": "".join(sorted({g["char"] for g in encoded if g.get("char")})),
+        "category": category(d.get("series") or d.get("title") or d.get("family") or ""),
         "sample": max((l.get("printed") or l["text"] for l in covered), key=len, default=None),
         "line_proof": covered[0]["proof"] if covered else None,
         "fonts": d.get("fonts", []),
