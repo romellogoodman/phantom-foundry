@@ -144,28 +144,28 @@ function Card({ face, mode, custom, size }) {
     if (visible) loadFont(face.family, file);
   }, [visible, face.family, file]);
   const text = previewText(face, mode, custom);
+  const pages = face.pages.filter(Boolean);
   return (
-    <a ref={ref} className="card" href={`#/face/${encodeURIComponent(face.name)}`}>
-      <div className="card__head">
-        <span className="card__name">{face.title || face.family}</span>
-        <span className="card__count">
+    <a ref={ref} className="row" href={`#/face/${encodeURIComponent(face.name)}`}>
+      <div className="row__side">
+        <span className="row__name">{face.title || face.family}</span>
+        <span className="row__meta">
           {face.encoded} glyphs · {face.sizes.length} size{face.sizes.length === 1 ? "" : "s"}
+        </span>
+        <span className="row__meta">
+          {CATEGORIES.find(([k]) => k === face.category)?.[1] || face.category}
+          {pages.length ? ` · p. ${pages[0]}` : ""}
+          {" · "}
+          <span className={`badge badge--${face.status}`}>v{face.version}</span>
         </span>
       </div>
       {visible ? (
-        <Preview family={face.family} chars={face.chars} text={text} size={size} className="card__preview" />
+        <Preview family={face.family} chars={face.chars} text={text} size={size} className="row__preview" />
       ) : (
-        <div className="card__preview" style={{ fontSize: `${size}px` }}>
+        <div className="row__preview" style={{ fontSize: `${size}px` }}>
           {" "}
         </div>
       )}
-      <div className="card__foot">
-        <span className={`badge badge--${face.status}`}>v{face.version}</span>
-        <span className="card__meta">
-          {CATEGORIES.find(([k]) => k === face.category)?.[1] || face.category}
-          {face.pages.filter(Boolean).length ? ` · p. ${face.pages.filter(Boolean)[0]}` : ""}
-        </span>
-      </div>
     </a>
   );
 }
@@ -302,7 +302,7 @@ function Index({ index, query }) {
           <p className="results__count">
             {shown.length} of {faces.length} faces · {index.encoded_glyphs} glyphs traced from the page
           </p>
-          <div className="results__grid">
+          <div className="results__list">
             {shown.map((f) => (
               <Card key={f.name} face={f} mode={mode} custom={custom} size={size} />
             ))}
