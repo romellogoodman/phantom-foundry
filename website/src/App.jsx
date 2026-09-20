@@ -64,7 +64,11 @@ function loadFont(family, file) {
   loaded.add(family);
   const ff = new FontFace(family, `url("/fonts/${file}")`, { display: "swap" });
   ff.load()
-    .then((f) => document.fonts.add(f))
+    .then((f) => {
+      document.fonts.add(f);
+      // fonts added by hand fire no "loadingdone"; useMeanAdvance listens for this
+      document.dispatchEvent(new CustomEvent("facefont", { detail: family }));
+    })
     .catch(() => loaded.delete(family));
 }
 
@@ -87,8 +91,38 @@ function fontFile(fonts) {
   return (fonts || []).find((f) => f.endsWith(".otf")) || (fonts || [])[0];
 }
 
-// Text in a face, with the characters the proto doesn't have yet shown gray
-// instead of silently falling back to another font.
+// The mean advance of a face's capitals (or lowercase), in em, once its font is
+// in: the width an absent letter's box takes, so a box in a condensed face is
+// condensed too. Null until the font loads; the stylesheet has a default.
+function useMeanAdvance(family, chars) {
+  const [mean, setMean] = useState(null);
+  useEffect(() => {
+    let live = true;
+    const measure = () => {
+      if (!live || !document.fonts.check(`100px "${family}"`)) return;
+      const ctx = document.createElement("canvas").getContext("2d");
+      ctx.font = `100px "${family}"`;
+      const em = (set) => (set.length ? ctx.measureText(set.join("")).width / set.length / 100 : null);
+      const all = [...(chars || "")];
+      const upper = em(all.filter((c) => !/\p{Ll}/u.test(c)));
+      const lower = em(all.filter((c) => /\p{Ll}/u.test(c)));
+      setMean({ upper: upper || lower, lower: lower || upper });
+    };
+    measure();
+    document.fonts.addEventListener("loadingdone", measure);
+    document.addEventListener("facefont", measure);
+    return () => {
+      live = false;
+      document.fonts.removeEventListener("loadingdone", measure);
+      document.removeEventListener("facefont", measure);
+    };
+  }, [family, chars]);
+  return mean;
+}
+
+// Text in a face, with each character the proto doesn't have yet shown as an
+// empty box at cap height (x-height for lowercase) instead of silently falling
+// back to another font.
 function Preview({ family, chars, text, size, className }) {
   const have = useMemo(() => new Set(chars || ""), [chars]);
   const runs = useMemo(() => {
@@ -101,15 +135,29 @@ function Preview({ family, chars, text, size, className }) {
     }
     return out;
   }, [text, have]);
+  const mean = useMeanAdvance(family, chars);
   return (
-    <div className={className} style={{ fontFamily: `"${family}", Georgia, serif`, fontSize: `${size}px` }}>
+    <div
+      className={className}
+      style={{
+        fontFamily: `"${family}", Georgia, serif`,
+        fontSize: `${size}px`,
+        ...(mean?.upper && { "--missing-upper": `${mean.upper.toFixed(3)}em`, "--missing-lower": `${mean.lower.toFixed(3)}em` }),
+      }}
+    >
       {runs.map((r, i) =>
         r.ok ? (
           <span key={i}>{r.s}</span>
         ) : (
-          <span key={i} className="preview__missing" title="not in this font yet">
-            {r.s}
-          </span>
+          [...r.s].map((ch, j) => (
+            <span
+              key={`${i}-${j}`}
+              className={`preview__missing${/\p{Ll}/u.test(ch) ? " preview__missing--lower" : ""}`}
+              title={`“${ch}” is not in this font yet`}
+              role="img"
+              aria-label={`${ch} (not in this font yet)`}
+            />
+          ))
         ),
       )}
     </div>
@@ -592,6 +640,8 @@ function FamilyPage({ name, index }) {
 
 // -- app ----------------------------------------------------------------------
 
+const REPO = "https://github.com/romellogoodman/phantom-foundry";
+
 function App() {
   const { index, error } = useIndex();
   const route = useHash();
@@ -614,6 +664,9 @@ function App() {
           />
         )}
         <span className="topbar__tag">Public domain typefaces revived from specimen books</span>
+        <a className="topbar__source" href={REPO} target="_blank" rel="noreferrer">
+          GitHub
+        </a>
       </header>
       {error && <p className="app__error">Could not load the index: {error}</p>}
       {route.face ? (
@@ -623,13 +676,6 @@ function App() {
       ) : (
         !error && <p className="app__loading">Loading…</p>
       )}
-      <footer className="footer">
-        Letters are cut from the scan and traced with potrace; every step is kept; fonts mature in versions — proto,
-        draft, release — like software. Fonts: SIL Open Font License. Tooling: MIT.{" "}
-        <a className="link" href="https://github.com/romellogoodman/phantom-foundry">
-          Source
-        </a>
-      </footer>
     </div>
   );
 }

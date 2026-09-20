@@ -85,8 +85,20 @@ img {
   }
 }
 
+// Cap height is 700 of 1000 units in every face (sort scales each line to it).
 .preview__missing {
-  color: var(--color-missing);
+  display: inline-block;
+  box-sizing: border-box;
+  // the box is the letter's whole advance: the face's mean, set by Preview
+  width: calc(var(--missing-upper, 0.55em) - 0.03em);
+  height: 0.7em;
+  margin: 0 0.015em;
+  border: max(1px, 0.012em) solid var(--color-missing);
+
+  &--lower {
+    width: calc(var(--missing-lower, 0.45em) - 0.03em);
+    height: 0.48em;
+  }
 }
 
 // -- top bar --------------------------------------------------------------------
@@ -152,6 +164,22 @@ img {
 
     @media (max-width: 900px) {
       display: none;
+    }
+  }
+
+  // the tagline's auto margin pushes both right; alone (narrow), this takes it over
+  &__source {
+    color: var(--color-text);
+    font-size: 0.875rem;
+    text-decoration: none;
+    white-space: nowrap;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 900px) {
+      margin-left: auto;
     }
   }
 }
@@ -381,10 +409,9 @@ img {
 
 // -- family page ----------------------------------------------------------------------
 
+// full width, like the index and the top bar; prose inside keeps its own measure
 .page {
-  max-width: 1200px;
   width: 100%;
-  margin: 0 auto;
   padding: var(--spacing-3x);
   flex: 1;
 }
@@ -583,11 +610,4 @@ img {
     text-transform: uppercase;
     letter-spacing: 0.04em;
   }
-}
-
-.footer {
-  border-top: 1px solid var(--color-rule);
-  padding: var(--spacing-3x);
-  color: var(--color-text-light);
-  font-size: 0.8125rem;
 }
