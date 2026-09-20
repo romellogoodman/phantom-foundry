@@ -567,35 +567,3 @@ img {
     vertical-align: bottom;
   }
 }
-
-.pager {
-  display: flex;
-  justify-content: space-between;
-  gap: var(--spacing-3x);
-  margin-top: calc(var(--spacing-6x) * 1.5);
-  padding-top: var(--spacing-2x);
-  border-top: 1px solid var(--color-text);
-
-  &__link {
-    color: var(--color-text);
-    text-decoration: none;
-    font-weight: 600;
-
-    &:hover {
-      text-decoration: underline;
-      text-underline-offset: 0.18em;
-    }
-
-    &--next {
-      margin-left: auto;
-      text-align: right;
-    }
-  }
-
-  &__dir {
-    display: block;
-    font-size: 0.8125rem;
-    font-weight: 400;
-    color: var(--color-text-light);
-  }
-}

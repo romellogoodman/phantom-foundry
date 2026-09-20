@@ -664,12 +664,8 @@ function Family({ face }) {
   );
 }
 
-function FamilyPage({ name, index }) {
+function FamilyPage({ name }) {
   const { face, error } = useFace(name);
-  const list = (index && index.faces_list) || [];
-  const i = list.findIndex((f) => f.name === name);
-  const prev = i > 0 ? list[i - 1] : null;
-  const next = i >= 0 && i < list.length - 1 ? list[i + 1] : null;
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [name]);
@@ -677,20 +673,6 @@ function FamilyPage({ name, index }) {
     <div className="page">
       {error && <p className="app__error">Could not load {name}: {error}</p>}
       {face ? <Family face={face} /> : !error && <p className="app__loading">Loading {name}…</p>}
-      <nav className="pager" aria-label="Other faces">
-        {prev && (
-          <a className="pager__link" href={`#/face/${encodeURIComponent(prev.name)}`}>
-            <span className="pager__dir">Previous</span>
-            {prev.title || prev.name}
-          </a>
-        )}
-        {next && (
-          <a className="pager__link pager__link--next" href={`#/face/${encodeURIComponent(next.name)}`}>
-            <span className="pager__dir">Next</span>
-            {next.title || next.name}
-          </a>
-        )}
-      </nav>
     </div>
   );
 }
@@ -728,7 +710,7 @@ function App() {
       </header>
       {error && <p className="app__error">Could not load the index: {error}</p>}
       {route.face ? (
-        <FamilyPage name={route.face} index={index} />
+        <FamilyPage name={route.face} />
       ) : index ? (
         <Index index={index} query={query} />
       ) : (
