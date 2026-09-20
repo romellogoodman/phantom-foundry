@@ -1,16 +1,30 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import "@fontsource-variable/libre-franklin";
 import "./App.scss";
 
 const PROOFS = "/proofs";
 const CATEGORIES = [
   ["serif", "Serif"],
-  ["sans", "Sans Serif"],
+  ["sans", "Sans serif"],
   ["display", "Display"],
   ["italic", "Italic"],
   ["blackletter", "Blackletter"],
-  ["wood", "Wood Type"],
+  ["wood", "Wood type"],
 ];
 const DEFAULT_TEXT = "";
+const DEFAULT_SIZE = 72;
+const REPO = "https://github.com/romellogoodman/phantom-foundry";
+
+// A specimen book names a size the way its caption does: "72 Point", "Fifteen Line".
+function sizeLabel(line) {
+  if (!line) return "";
+  const pt = String(line).match(/^(\d+)pt$/);
+  if (pt) return `${pt[1]} Point`;
+  return `${line[0].toUpperCase()}${line.slice(1)} Line`;
+}
+
+const READERS = { claude: "Claude", "claude+ocr": "Claude, checked against the archive’s OCR", human: "a person" };
+
 
 // -- data -------------------------------------------------------------------
 
@@ -181,7 +195,8 @@ function previewText(face, mode, custom) {
   if (mode === "custom" && custom.trim()) return custom;
   if (mode === "alphabet") return face.chars || "";
   if (mode === "numerals") return [...(face.chars || "")].filter((c) => /\d/.test(c)).join("") || face.sample || "";
-  return face.sample || face.title || face.family;
+  // a face with no fully covered line shows its letters, not its name in boxes
+  return face.sample || face.chars || face.title || face.family;
 }
 
 function Card({ face, mode, custom, size }) {
@@ -195,17 +210,11 @@ function Card({ face, mode, custom, size }) {
   const pages = face.pages.filter(Boolean);
   return (
     <a ref={ref} className="row" href={`#/face/${encodeURIComponent(face.name)}`}>
-      <div className="row__side">
+      <div className="row__head">
         <span className="row__name">{face.title || face.family}</span>
-        <span className="row__meta">
-          {face.encoded} glyphs · {face.sizes.length} size{face.sizes.length === 1 ? "" : "s"}
-        </span>
-        <span className="row__meta">
-          {CATEGORIES.find(([k]) => k === face.category)?.[1] || face.category}
-          {pages.length ? ` · p. ${pages[0]}` : ""}
-          {" · "}
-          <span className={`badge badge--${face.status}`}>v{face.version}</span>
-        </span>
+        {face.status !== "proto" && <span className={`status status--${face.status}`}>{face.status}</span>}
+        <span className="row__meta">{face.encoded} letters</span>
+        <span className="row__meta">{pages.length ? `page ${pages[0]}` : ""}</span>
       </div>
       {visible ? (
         <Preview family={face.family} chars={face.chars} text={text} size={size} className="row__preview" />
@@ -218,55 +227,53 @@ function Card({ face, mode, custom, size }) {
   );
 }
 
-function Filters({ filters, setFilters, counts }) {
-  const toggle = (key, value) =>
-    setFilters((f) => {
-      const set = new Set(f[key]);
-      if (set.has(value)) set.delete(value);
-      else set.add(value);
-      return { ...f, [key]: set };
-    });
+function Toggle({ on, onClick, children, count }) {
   return (
-    <aside className="filters">
-      <h3 className="filters__title">Categories</h3>
-      {CATEGORIES.map(([key, label]) => (
-        <label key={key} className="filters__row">
-          <input type="checkbox" checked={filters.category.has(key)} onChange={() => toggle("category", key)} />
-          <span className="filters__label">{label}</span>
-          <span className="filters__count">{counts.category[key] || 0}</span>
-        </label>
-      ))}
-      <h3 className="filters__title">Character set</h3>
-      <label className="filters__row">
-        <input type="checkbox" checked={filters.lower} onChange={() => setFilters((f) => ({ ...f, lower: !f.lower }))} />
-        <span className="filters__label">Has lowercase</span>
-        <span className="filters__count">{counts.lower}</span>
-      </label>
-      <label className="filters__row">
-        <input
-          type="checkbox"
-          checked={filters.figures}
-          onChange={() => setFilters((f) => ({ ...f, figures: !f.figures }))}
-        />
-        <span className="filters__label">Has figures</span>
-        <span className="filters__count">{counts.figures}</span>
-      </label>
-      <h3 className="filters__title">Review</h3>
-      <label className="filters__row">
-        <input type="checkbox" checked={filters.clean} onChange={() => setFilters((f) => ({ ...f, clean: !f.clean }))} />
-        <span className="filters__label">No warnings</span>
-        <span className="filters__count">{counts.clean}</span>
-      </label>
-    </aside>
+    <button type="button" className={`toggle${on ? " toggle--on" : ""}`} aria-pressed={on} onClick={onClick}>
+      {children}
+      <span className="toggle__count">{count}</span>
+    </button>
   );
 }
+
+function Filters({ filters, setFilters, counts }) {
+  const toggleCategory = (value) =>
+    setFilters((f) => {
+      const set = new Set(f.category);
+      if (set.has(value)) set.delete(value);
+      else set.add(value);
+      return { ...f, category: set };
+    });
+  return (
+    <div className="filters" role="group" aria-label="Filter faces">
+      {CATEGORIES.map(([key, label]) => (
+        <Toggle key={key} on={filters.category.has(key)} onClick={() => toggleCategory(key)} count={counts.category[key] || 0}>
+          {label}
+        </Toggle>
+      ))}
+      <span className="filters__gap" />
+      <Toggle on={filters.lower} onClick={() => setFilters((f) => ({ ...f, lower: !f.lower }))} count={counts.lower}>
+        With lowercase
+      </Toggle>
+      <Toggle on={filters.figures} onClick={() => setFilters((f) => ({ ...f, figures: !f.figures }))} count={counts.figures}>
+        With figures
+      </Toggle>
+    </div>
+  );
+}
+
+const MODES = [
+  ["specimen", "As printed"],
+  ["alphabet", "Alphabet"],
+  ["numerals", "Figures"],
+];
 
 function Index({ index, query }) {
   const [mode, setMode] = useState("specimen");
   const [custom, setCustom] = useState(DEFAULT_TEXT);
-  const [size, setSize] = useState(56);
+  const [size, setSize] = useState(DEFAULT_SIZE);
   const [sort, setSort] = useState("page");
-  const [filters, setFilters] = useState({ category: new Set(), lower: false, figures: false, clean: false });
+  const [filters, setFilters] = useState({ category: new Set(), lower: false, figures: false });
   const faces = useMemo(() => index.faces_list || [], [index]);
   const counts = useMemo(() => {
     const category = {};
@@ -275,7 +282,6 @@ function Index({ index, query }) {
       category,
       lower: faces.filter((f) => f.lower > 0).length,
       figures: faces.filter((f) => f.figures > 0).length,
-      clean: faces.filter((f) => f.checks.warnings === 0).length,
     };
   }, [faces]);
   const shown = useMemo(() => {
@@ -285,77 +291,99 @@ function Index({ index, query }) {
       .filter((f) => filters.category.size === 0 || filters.category.has(f.category))
       .filter((f) => !filters.lower || f.lower > 0)
       .filter((f) => !filters.figures || f.figures > 0)
-      .filter((f) => !filters.clean || f.checks.warnings === 0)
       .sort(SORTS[sort]);
   }, [faces, query, filters, sort]);
+  const changed =
+    mode !== "specimen" || custom !== DEFAULT_TEXT || size !== DEFAULT_SIZE || sort !== "page" ||
+    filters.category.size > 0 || filters.lower || filters.figures;
   const reset = () => {
     setMode("specimen");
     setCustom(DEFAULT_TEXT);
-    setSize(56);
+    setSize(DEFAULT_SIZE);
     setSort("page");
-    setFilters({ category: new Set(), lower: false, figures: false, clean: false });
+    setFilters({ category: new Set(), lower: false, figures: false });
   };
   return (
     <>
+      <div className="intro">
+        <p className="intro__lead">
+          Phantom Foundry is an open-source type foundry. It revives typefaces from old specimen books, the catalogs
+          printers once ordered their type from, by tracing the letters off the scanned page.
+        </p>
+        <p className="intro__note">
+          Every font here is made from print, never from another font file, and all of the work is public: the tools
+          that cut and trace the letters, every trace and proof along the way, and the fonts themselves. The fonts are
+          under the SIL Open Font License and the code is MIT. Read it, fork it or fix a letter on{" "}
+          <a className="link" href={REPO}>
+            GitHub
+          </a>
+          .
+        </p>
+        <p className="intro__note">
+          The first book is Barnhart Brothers &amp; Spindler&rsquo;s Specimen Book No. 9, printed in Chicago in 1907,
+          with {faces.length} faces so far. They are early versions, numbered like software. Each has only the letters
+          its page shows, and a letter it lacks appears as an empty box.
+        </p>
+      </div>
       <div className="controls">
-        <div className="controls__inner">
-          <div className="segmented" role="tablist" aria-label="Preview">
-            {[
-              ["custom", "Custom"],
-              ["specimen", "Specimen"],
-              ["alphabet", "Alphabet"],
-              ["numerals", "Numerals"],
-            ].map(([k, label]) => (
-              <button
-                key={k}
-                type="button"
-                role="tab"
-                aria-selected={mode === k}
-                className={`segmented__item${mode === k ? " segmented__item--on" : ""}`}
-                onClick={() => setMode(k)}
-              >
-                {label}
-              </button>
-            ))}
-          </div>
-          <input
-            className="controls__text"
-            type="text"
-            value={custom}
-            placeholder="Type something"
-            spellCheck={false}
-            onChange={(e) => {
-              setCustom(e.target.value);
-              setMode("custom");
-            }}
-          />
-          <label className="controls__size">
-            <span className="controls__value">{size}px</span>
-            <input type="range" min="20" max="140" value={size} onChange={(e) => setSize(Number(e.target.value))} />
-          </label>
-          <select className="controls__sort" value={sort} onChange={(e) => setSort(e.target.value)} aria-label="Sort">
-            <option value="page">Sort by page</option>
-            <option value="name">Sort by name</option>
-            <option value="size">Sort by largest size</option>
-            <option value="glyphs">Sort by most glyphs</option>
-          </select>
-          <button type="button" className="controls__reset" onClick={reset}>
-            Reset
-          </button>
+        <div className="controls__modes" role="tablist" aria-label="Preview text">
+          {MODES.map(([k, label]) => (
+            <button
+              key={k}
+              type="button"
+              role="tab"
+              aria-selected={mode === k}
+              className={`toggle${mode === k ? " toggle--on" : ""}`}
+              onClick={() => setMode(k)}
+            >
+              {label}
+            </button>
+          ))}
         </div>
+        <input
+          className="field controls__text"
+          type="text"
+          value={custom}
+          placeholder="or type your own words"
+          spellCheck={false}
+          aria-label="Your own preview text"
+          onChange={(e) => {
+            setCustom(e.target.value);
+            setMode(e.target.value.trim() ? "custom" : "specimen");
+          }}
+        />
+        <label className="sizer">
+          <span className="sizer__value">{size} px</span>
+          <input type="range" min="20" max="160" value={size} onChange={(e) => setSize(Number(e.target.value))} />
+        </label>
+        <select className="field controls__sort" value={sort} onChange={(e) => setSort(e.target.value)} aria-label="Order">
+          <option value="page">In page order</option>
+          <option value="name">By name</option>
+          <option value="size">Largest size first</option>
+          <option value="glyphs">Most letters first</option>
+        </select>
       </div>
       <div className="browse">
-        <Filters filters={filters} setFilters={setFilters} counts={counts} />
-        <section className="results">
-          <p className="results__count">
-            {shown.length} of {faces.length} faces · {index.encoded_glyphs} glyphs traced from the page
-          </p>
-          <div className="results__list">
+        <div className="browse__bar">
+          <Filters filters={filters} setFilters={setFilters} counts={counts} />
+          <span className="browse__count">
+            {shown.length === faces.length ? `${faces.length} faces` : `${shown.length} of ${faces.length} faces`}
+          </span>
+          {changed && (
+            <button type="button" className="toggle" onClick={reset}>
+              Reset
+            </button>
+          )}
+        </div>
+        {shown.length === 0 ? (
+          <p className="browse__empty">No face matches. Clear the search or reset the filters.</p>
+        ) : (
+          <div className="browse__list">
             {shown.map((f) => (
               <Card key={f.name} face={f} mode={mode} custom={custom} size={size} />
             ))}
           </div>
-        </section>
+        )}
       </div>
     </>
   );
@@ -378,32 +406,54 @@ function Tester({ face, chars }) {
   const covered = (face.specimen_lines || []).filter((l) => l.missing && l.missing.length === 0);
   const sample = covered.length ? printed(covered.reduce((a, b) => (printed(b).length > printed(a).length ? b : a))) : "ABC";
   const [text, setText] = useState(sample);
-  const [size, setSize] = useState(120);
+  const [size, setSize] = useState(140);
   const missing = useMemo(() => [...new Set([...text].filter((c) => !/\s/.test(c) && !chars.has(c)))], [text, chars]);
   return (
     <section className="tester">
       <div className="tester__bar">
         <input
-          className="tester__input"
+          className="field tester__input"
           type="text"
           value={text}
           onChange={(e) => setText(e.target.value)}
-          placeholder="Type here to preview text"
+          placeholder="Type to try the font"
+          aria-label="Text to set in this font"
           spellCheck={false}
         />
-        <label className="tester__size">
-          <span className="controls__value">{size}px</span>
-          <input type="range" min="24" max="320" value={size} onChange={(e) => setSize(Number(e.target.value))} />
+        <label className="sizer">
+          <span className="sizer__value">{size} px</span>
+          <input type="range" min="24" max="360" value={size} onChange={(e) => setSize(Number(e.target.value))} />
         </label>
       </div>
       <Preview family={face.family} chars={[...chars].join("")} text={text || " "} size={size} className="tester__output" />
       {missing.length > 0 && (
         <p className="tester__note">
-          Not in this font yet: {missing.map((c) => `“${c}”`).join(" ")}. Version {face.version} has only what the
-          specimen shows{face.glyphs.some((g) => g.constructed) ? ", plus constructed capitals" : ""}.
+          The specimen never shows {missing.map((c) => `“${c}”`).join(" ")}, so this font doesn&rsquo;t have{" "}
+          {missing.length === 1 ? "it" : "them"} yet.
         </p>
       )}
     </section>
+  );
+}
+
+// Every encoded letter, set live in the font, each over the size it was cut from.
+function Glyphs({ face, encoded }) {
+  const sorted = [...encoded].sort((a, b) => a.char.codePointAt(0) - b.char.codePointAt(0));
+  return (
+    <div className="glyphs" style={{ fontFamily: `"${face.family}", Georgia, serif` }}>
+      {sorted.map((g) => (
+        <div key={g.name} className={`glyphs__cell${g.constructed ? " glyphs__cell--constructed" : ""}`}>
+          <span className="glyphs__char">{g.char}</span>
+          <span className="glyphs__from">
+            {g.constructed
+              ? g.construct?.from?.length
+                ? `built from ${g.construct.from.join(", ")}`
+                : "built from parts"
+              : sizeLabel(g.line)}
+          </span>
+        </div>
+      ))}
+    </div>
   );
 }
 
@@ -418,8 +468,9 @@ function Family({ face }) {
   const coveredLines = (face.specimen_lines || []).filter((l) => l.proof && l.missing && l.missing.length === 0);
   const rGlyph = face.glyphs.find((g) => g.name === "R");
   const leafPages = face.leaf_pages || {};
-  const where = (src.leaves || []).map((l) => (leafPages[l] ? `p. ${leafPages[l]}` : `leaf ${l}`)).join(", ");
-  const readers = [...new Set((face.specimen_lines || []).map((l) => l.by || "human"))];
+  const by = (face.specimen_lines || []).map((l) => l.by || "human");
+  // who read most of the lines is said once; a line says so only when it differs
+  const reader = [...new Set(by)].sort((a, b) => by.filter((x) => x === b).length - by.filter((x) => x === a).length)[0];
   const year = String(src.date || "").replace(/\D/g, "");
   const otf = face.fonts.find((f) => f.endsWith(".otf"));
   const ttf = face.fonts.find((f) => f.endsWith(".ttf"));
@@ -427,143 +478,151 @@ function Family({ face }) {
   return (
     <article className="family">
       <FontFaceStyle face={face} />
-      <header className="family__header">
-        <div>
-          <h1 className="family__name">{face.title || face.family}</h1>
-          <p className="family__source">
-            {src.publisher}, {src.date} · <em>{(src.title || "").split(".")[0]}</em>, {where} ·{" "}
-            <a className="link" href={src.url}>
-              Internet Archive
-            </a>
-          </p>
+      <h1 className="family__name">{face.title || face.family}</h1>
+
+      <dl className="colophon">
+        <div className="colophon__item">
+          <dt>Printed in</dt>
+          <dd>
+            <em>{(src.title || "").split(".")[0]}</em>, No. 9. {src.publisher}
+            {year ? `, ${year}` : ""}.
+          </dd>
         </div>
-        <div className="family__actions">
-          <span className={`badge badge--${face.status}`}>
-            v{face.version} · {face.status}
-          </span>
-          {otf && (
-            <a className="button" href={`/fonts/${otf}`} download>
-              Download OTF
-            </a>
-          )}
-          {ttf && (
-            <a className="button button--quiet" href={`/fonts/${ttf}`} download>
-              TTF
-            </a>
-          )}
+        <div className="colophon__item">
+          <dt>Traced from</dt>
+          <dd>
+            {(src.leaves || []).map((l, i) => (
+              <span key={l}>
+                {i > 0 && ", "}
+                <a className="link" href={`${src.url}/page/n${l}`}>
+                  {leafPages[l] ? `page ${leafPages[l]}` : `leaf ${l}`}
+                </a>
+              </span>
+            ))}{" "}
+            of the Internet Archive&rsquo;s scan{reader ? `, read by ${READERS[reader] || reader}` : ""}.
+          </dd>
         </div>
-      </header>
+        <div className="colophon__item">
+          <dt>In the font</dt>
+          <dd>
+            {traced} traced from the page
+            {constructed > 0 ? `, ${constructed} built from traced parts` : ""}
+            {alternates > 0 ? `; ${alternates} more cuts of the same letters at other sizes are in the font, unencoded` : ""}.
+          </dd>
+        </div>
+        <div className="colophon__item">
+          <dt>Version {face.version}</dt>
+          <dd>
+            <span className={`status status--${face.status}`}>{face.status}</span>
+            {face.status === "proto" && ": traced and spaced by machine, not yet reviewed by a person."}
+            {face.status === "draft" && ": cuts and spacing reviewed by a person."}
+          </dd>
+        </div>
+        <div className="colophon__item">
+          <dt>Download</dt>
+          <dd>
+            {otf && (
+              <a className="link" href={`/fonts/${otf}`} download>
+                OTF
+              </a>
+            )}
+            {otf && ttf && ", "}
+            {ttf && (
+              <a className="link" href={`/fonts/${ttf}`} download>
+                TTF
+              </a>
+            )}
+            . SIL Open Font License.
+          </dd>
+        </div>
+      </dl>
 
       <Tester face={face} chars={chars} />
 
       <section className="family__section">
-        <h2 className="family__h2">Styles</h2>
-        <p className="family__caption">
-          {encoded.length} glyphs: {traced} traced from the specimen
-          {constructed > 0 ? `, ${constructed} constructed from them` : ""}.{" "}
-          {alternates > 0 ? `${alternates} same-letter alternates from other sizes ride along unencoded. ` : ""}
-          {readers.some((r) => r.includes("claude"))
-            ? "The lines were read from the page by Claude and cross-checked against the archive's OCR."
-            : ""}
-        </p>
-        {coveredLines.length > 0 && (
-          <div className="styles">
-            {coveredLines.map((l) => (
-              <div key={`${l.leaf}-${l.band}`} className="styles__row">
-                <div className="styles__label">
-                  {l.line}
-                  <span className="styles__sub">{l.by ? `read by ${l.by}` : ""}</span>
-                </div>
-                <Preview family={face.family} chars={[...chars].join("")} text={printed(l)} size={64} className="styles__preview" />
-              </div>
-            ))}
-          </div>
-        )}
-      </section>
-
-      <section className="family__section">
-        <h2 className="family__h2">Glyphs</h2>
+        <h2 className="family__h2">Letters</h2>
         <p className="family__caption">
           {constructed > 0
-            ? "Black letters are traced; gray ones are constructed from traced parts. "
-            : "Every glyph is traced from the page. "}
-          Each label names the specimen line the letter came from.
+            ? "Black letters are traced from the page. Gray ones the specimen never shows; they are built from traced parts. "
+            : "Every letter is traced from the page. "}
+          Under each is the size it was cut from.
         </p>
-        <figure className="figure">
-          <img src={`${PROOFS}/${face.name}/proofs/alphabet.png`} alt="Every letter in the font, labeled by origin" />
-        </figure>
+        <Glyphs face={face} encoded={encoded} />
       </section>
 
       {coveredLines.length > 0 && (
         <section className="family__section">
-          <h2 className="family__h2">The specimen, re-set</h2>
+          <h2 className="family__h2">Printed and re-set</h2>
           <p className="family__caption">
-            Each line as printed{year ? ` in ${year}` : ""}, over the same words set in the revived font at the same cap
-            height.
+            Above, each line as printed{year ? ` in ${year}` : ""}. Below it, the same words set in this font at the same
+            cap height.
           </p>
-          {coveredLines.map((l) => (
-            <figure key={`${l.leaf}-${l.band}`} className="figure">
-              <img src={`${PROOFS}/${face.name}/proofs/${l.proof}`} alt={`${printed(l)} — printed line over the re-set line`} loading="lazy" />
-              <figcaption>
-                {printed(l)} · {l.line}
-              </figcaption>
-            </figure>
-          ))}
+          <div className="showings">
+            {coveredLines.map((l) => (
+              <figure key={`${l.leaf}-${l.band}`} className="showings__item">
+                <img src={`${PROOFS}/${face.name}/proofs/${l.proof}`} alt={`${printed(l)}: the printed line over the re-set line`} loading="lazy" />
+                <figcaption>
+                  {sizeLabel(l.line)}
+                  {(l.by || "human") !== reader ? `, read by ${READERS[l.by || "human"] || l.by}` : ""}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
         </section>
       )}
 
-      <section className="family__section">
-        <h2 className="family__h2">About</h2>
-        <p className="family__caption">
-          A revival of {src.publisher}&rsquo;s <strong>{face.series || face.title}</strong> from the printed
-          specimen, never from digital font software. Every glyph carries its leaf, line and pixel box inside the
-          font (the PHFD table). Fonts mature in versions like software: proto (traced, machine-spaced), draft
-          (reviewed), release (spaced, kerned, cleaned).
-        </p>
-        {lines.length > 0 && (
+      {lines.length > 0 && (
+        <section className="family__section">
+          <h2 className="family__h2">Sizes</h2>
+          <p className="family__caption">
+            Each size was its own set of punches or blocks, so the same design measures differently from size to size.
+            Stem is the width of a vertical stroke.
+          </p>
           <table className="table">
             <thead>
               <tr>
                 <th>Size</th>
                 <th>Letters</th>
-                <th>Cap height (px)</th>
-                <th>Stem (units)</th>
-                <th>Stem / cap</th>
+                <th>Cap height in the scan</th>
+                <th>Stem, font units</th>
+                <th>Stem to cap height</th>
               </tr>
             </thead>
             <tbody>
               {lines.map(([key, m]) => (
                 <tr key={key}>
-                  <td>{key.split(":")[1]}</td>
+                  <td>{sizeLabel(key.split(":")[1])}</td>
                   <td>{m.glyphs ? m.glyphs.length : m.n_caps}</td>
-                  <td>{Math.round(m.cap_height_px)}</td>
-                  <td>{m.stem_units ?? "—"}</td>
-                  <td>{m.stem_units ? `${((m.stem_units / face.metrics.cap_height) * 100).toFixed(1)}%` : "—"}</td>
+                  <td>{Math.round(m.cap_height_px)} px</td>
+                  <td>{m.stem_units ?? "n/a"}</td>
+                  <td>{m.stem_units ? `${((m.stem_units / face.metrics.cap_height) * 100).toFixed(1)}%` : "n/a"}</td>
                 </tr>
               ))}
             </tbody>
           </table>
-        )}
-      </section>
+        </section>
+      )}
 
       {face.arrow_attempts && face.arrow_attempts.length > 0 && (
         <section className="family__section">
-          <h2 className="family__h2">Scan vs. trace</h2>
+          <h2 className="family__h2">Scan against trace</h2>
           <p className="family__caption">
-            Gray: the scan. Cyan: potrace, the control trace that made the font. Magenta: Arrow, Quiver&rsquo;s model.
+            Gray is the scan. Cyan is potrace, the trace that made the font. Magenta is Arrow, Quiver&rsquo;s model.
             Black where all agree. Arrow was shown the R twice and both times drew a picture of it rather than its
             edge.
           </p>
           <div className="research">
-            <figure className="figure figure--overlay">
-              <img src={`${PROOFS}/${face.name}/proofs/R__overlay.png`} alt="Overlay of scan, potrace and Arrow traces of the R" />
-            </figure>
+            <img
+              className="research__overlay"
+              src={`${PROOFS}/${face.name}/proofs/R__overlay.png`}
+              alt="Overlay of scan, potrace and Arrow traces of the R"
+            />
             <table className="table">
               <thead>
                 <tr>
                   <th>Trace</th>
                   <th>Input</th>
-                  <th>IoU vs. scan</th>
+                  <th>Overlap with scan</th>
                   <th>Best shape</th>
                   <th>Contours</th>
                 </tr>
@@ -576,14 +635,14 @@ function Family({ face }) {
                       <a className="link" href={`${PROOFS}/${face.name}/glyphs/R_.png`}>cut R</a>
                     </td>
                     <td>{rGlyph.diff.potrace_iou_scan.toFixed(3)}</td>
-                    <td>—</td>
+                    <td>n/a</td>
                     <td>{rGlyph.diff.potrace_contours}</td>
                   </tr>
                 )}
                 {face.arrow_attempts.map((a) => (
                   <tr key={a.task_id}>
                     <td>
-                      {a.model} · attempt {a.attempt}{" "}
+                      {a.model}, attempt {a.attempt}{" "}
                       <a className="link" href={`${PROOFS}/${face.name}/${a.kept_as}`}>svg</a>
                     </td>
                     <td>
@@ -591,8 +650,8 @@ function Family({ face }) {
                         {a.input.split("/").pop()}
                       </a>
                     </td>
-                    <td>{a.iou_scan != null ? a.iou_scan.toFixed(3) : "—"}</td>
-                    <td>{a.best_region_iou_scan != null ? a.best_region_iou_scan.toFixed(3) : "—"}</td>
+                    <td>{a.iou_scan != null ? a.iou_scan.toFixed(3) : "n/a"}</td>
+                    <td>{a.best_region_iou_scan != null ? a.best_region_iou_scan.toFixed(3) : "n/a"}</td>
                     <td>{a.contours}</td>
                   </tr>
                 ))}
@@ -616,31 +675,27 @@ function FamilyPage({ name, index }) {
   }, [name]);
   return (
     <div className="page">
-      <nav className="crumbs">
-        <a className="link" href="#/">
-          ← All faces
-        </a>
-        <span className="crumbs__spacer" />
+      {error && <p className="app__error">Could not load {name}: {error}</p>}
+      {face ? <Family face={face} /> : !error && <p className="app__loading">Loading {name}…</p>}
+      <nav className="pager" aria-label="Other faces">
         {prev && (
-          <a className="link" href={`#/face/${encodeURIComponent(prev.name)}`}>
-            ← {prev.title || prev.name}
+          <a className="pager__link" href={`#/face/${encodeURIComponent(prev.name)}`}>
+            <span className="pager__dir">Previous</span>
+            {prev.title || prev.name}
           </a>
         )}
         {next && (
-          <a className="link" href={`#/face/${encodeURIComponent(next.name)}`}>
-            {next.title || next.name} →
+          <a className="pager__link pager__link--next" href={`#/face/${encodeURIComponent(next.name)}`}>
+            <span className="pager__dir">Next</span>
+            {next.title || next.name}
           </a>
         )}
       </nav>
-      {error && <p className="app__error">Could not load {name}: {error}</p>}
-      {face ? <Family face={face} /> : !error && <p className="app__loading">Loading {name}…</p>}
     </div>
   );
 }
 
 // -- app ----------------------------------------------------------------------
-
-const REPO = "https://github.com/romellogoodman/phantom-foundry";
 
 function App() {
   const { index, error } = useIndex();
@@ -652,9 +707,13 @@ function App() {
         <a className="topbar__brand" href="#/">
           Phantom Foundry
         </a>
-        {!route.face && (
+        {route.face ? (
+          <a className="topbar__link" href="#/">
+            All faces
+          </a>
+        ) : (
           <input
-            className="topbar__search"
+            className="field topbar__search"
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
@@ -663,8 +722,7 @@ function App() {
             aria-label="Search faces"
           />
         )}
-        <span className="topbar__tag">Public domain typefaces revived from specimen books</span>
-        <a className="topbar__source" href={REPO} target="_blank" rel="noreferrer">
+        <a className="topbar__link topbar__link--end" href={REPO} target="_blank" rel="noreferrer">
           GitHub
         </a>
       </header>

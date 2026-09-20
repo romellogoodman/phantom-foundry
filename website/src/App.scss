@@ -1,29 +1,31 @@
+// Ink on white. The grays are the scan's own: the book was photographed in
+// grayscale, so its paper is a neutral gray, not cream. Magenta is the one
+// color, and it only ever means status (proto, a letter not in the font).
 :root {
-  --color-text: #202124;
-  --color-text-light: #5f6368;
+  --color-text: #000000;
+  --color-text-light: #595959;
   --color-bg: #ffffff;
-  --color-panel: #f8f9fa;
-  --color-rule: #dadce0;
-  --color-accent: #1a73e8;
-  --color-accent-soft: #e8f0fe;
-  --color-missing: #c4c7cb;
+  --color-paper: #e4e4e2;
+  --color-rule: #c9c9c6;
+  --color-missing: #a9a9a6;
   --color-proto: #b0005f;
-  --font-ui: "Google Sans", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  // Libre Franklin: an open revival of ATF's Franklin Gothic (1902), the book's contemporary
+  --font-ui: "Libre Franklin Variable", "Franklin Gothic Medium", "Helvetica Neue", Arial, sans-serif;
   --font-size-base: 1rem;
   --font-size-xl: 2rem;
   --spacing-unit: 8px;
   --spacing-2x: 16px;
   --spacing-3x: 24px;
   --spacing-6x: 48px;
-  --radius: 8px;
-  --topbar-h: 64px;
-  --controls-h: 64px;
+  --gutter: clamp(16px, 3vw, 40px);
+  --topbar-h: 56px;
 }
 
 body {
   background: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-ui);
+  font-variant-numeric: tabular-nums;
   line-height: 1.45;
 }
 
@@ -33,55 +35,107 @@ img {
   display: block;
 }
 
+:focus-visible {
+  outline: 2px solid var(--color-text);
+  outline-offset: 2px;
+}
+
 .link {
-  color: var(--color-accent);
-  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration-thickness: 2px;
   }
 }
 
-.badge {
-  font-size: 0.75rem;
-  font-family: ui-monospace, Menlo, monospace;
-  letter-spacing: 0.02em;
-  padding: 2px 8px;
-  border: 1px solid var(--color-rule);
-  border-radius: 999px;
+.status {
   color: var(--color-text-light);
-  white-space: nowrap;
 
   &--proto {
-    border-color: var(--color-proto);
     color: var(--color-proto);
   }
 
   &--release {
-    background: var(--color-text);
-    border-color: var(--color-text);
-    color: var(--color-bg);
+    color: var(--color-text);
+    font-weight: 600;
   }
 }
 
-.button {
-  display: inline-block;
-  background: var(--color-accent);
-  color: white;
-  border-radius: 4px;
-  padding: 10px 20px;
-  font-weight: 500;
-  font-size: 0.875rem;
-  text-decoration: none;
+// text fields and the select: a line to write on, not a box
+.field {
+  font: inherit;
+  font-size: 0.9375rem;
+  padding: 6px 0;
+  border: none;
+  border-bottom: 1px solid var(--color-rule);
+  border-radius: 0;
+  background: none;
+  color: var(--color-text);
 
-  &:hover {
-    filter: brightness(0.95);
+  &::placeholder {
+    color: var(--color-text-light);
   }
 
-  &--quiet {
-    background: transparent;
-    color: var(--color-accent);
-    border: 1px solid var(--color-rule);
+  &:hover,
+  &:focus {
+    border-bottom-color: var(--color-text);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 1px 0 var(--color-text);
+  }
+}
+
+// a word that is on or off: preview modes, filters
+.toggle {
+  font: inherit;
+  font-size: 0.875rem;
+  padding: 4px 0;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--color-text-light);
+  cursor: pointer;
+  white-space: nowrap;
+
+  &:hover {
+    color: var(--color-text);
+  }
+
+  &--on {
+    color: var(--color-text);
+    font-weight: 600;
+    border-bottom-color: var(--color-text);
+  }
+
+  &__count {
+    margin-left: 0.35em;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--color-text-light);
+  }
+}
+
+.sizer {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-unit);
+
+  input[type="range"] {
+    flex: 1;
+    min-width: 0;
+    accent-color: var(--color-text);
+  }
+
+  &__value {
+    font-size: 0.8125rem;
+    color: var(--color-text-light);
+    min-width: 6ch;
+    text-align: right;
   }
 }
 
@@ -110,12 +164,12 @@ img {
 
   &__error {
     color: var(--color-proto);
-    padding: var(--spacing-3x);
+    padding: var(--spacing-3x) var(--gutter);
   }
 
   &__loading {
     color: var(--color-text-light);
-    padding: var(--spacing-3x);
+    padding: var(--spacing-3x) var(--gutter);
   }
 }
 
@@ -127,13 +181,13 @@ img {
   display: flex;
   align-items: center;
   gap: var(--spacing-3x);
-  padding: 0 var(--spacing-3x);
+  padding: 0 var(--gutter);
   background: var(--color-bg);
-  border-bottom: 1px solid var(--color-rule);
+  border-bottom: 1px solid var(--color-text);
 
   &__brand {
-    font-size: 1.375rem;
-    font-weight: 500;
+    font-size: 1.125rem;
+    font-weight: 700;
     letter-spacing: -0.01em;
     color: var(--color-text);
     text-decoration: none;
@@ -141,34 +195,11 @@ img {
   }
 
   &__search {
-    font: inherit;
-    font-size: 0.9375rem;
-    flex: 0 1 420px;
-    padding: 10px 16px;
-    border: 1px solid var(--color-rule);
-    border-radius: 999px;
-    background: var(--color-panel);
-    color: var(--color-text);
-
-    &:focus {
-      outline: none;
-      border-color: var(--color-accent);
-      background: var(--color-bg);
-    }
+    flex: 0 1 280px;
+    min-width: 0;
   }
 
-  &__tag {
-    margin-left: auto;
-    color: var(--color-text-light);
-    font-size: 0.8125rem;
-
-    @media (max-width: 900px) {
-      display: none;
-    }
-  }
-
-  // the tagline's auto margin pushes both right; alone (narrow), this takes it over
-  &__source {
+  &__link {
     color: var(--color-text);
     font-size: 0.875rem;
     text-decoration: none;
@@ -176,234 +207,164 @@ img {
 
     &:hover {
       text-decoration: underline;
+      text-underline-offset: 0.18em;
     }
 
-    @media (max-width: 900px) {
+    &--end {
       margin-left: auto;
     }
   }
 }
 
-// -- controls strip --------------------------------------------------------------
+// -- index -------------------------------------------------------------------------
+
+.intro {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 34em));
+  gap: var(--spacing-2x) var(--spacing-6x);
+  padding: var(--spacing-6x) var(--gutter) var(--spacing-6x);
+
+  @media (max-width: 800px) {
+    grid-template-columns: minmax(0, 34em);
+  }
+
+  &__lead {
+    grid-column: 1 / -1;
+    max-width: 30em;
+    margin-bottom: var(--spacing-2x);
+    font-size: clamp(1.375rem, 1rem + 1.4vw, 2rem);
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.015em;
+    text-wrap: pretty;
+  }
+
+  &__note {
+    color: var(--color-text-light);
+    text-wrap: pretty;
+
+    .link {
+      color: var(--color-text);
+    }
+  }
+}
 
 .controls {
   position: sticky;
   top: var(--topbar-h);
   z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2x) var(--spacing-3x);
+  flex-wrap: wrap;
+  padding: var(--spacing-unit) var(--gutter);
   background: var(--color-bg);
   border-bottom: 1px solid var(--color-rule);
 
-  &__inner {
-    min-height: var(--controls-h);
+  // wrapped onto two rows it takes too much of a small screen to stay put
+  @media (max-width: 640px) {
+    position: static;
+  }
+
+  &__modes {
     display: flex;
-    align-items: center;
     gap: var(--spacing-2x);
-    padding: var(--spacing-unit) var(--spacing-3x);
-    flex-wrap: wrap;
   }
 
   &__text {
-    font: inherit;
-    font-size: 0.9375rem;
-    flex: 1 1 240px;
-    padding: 9px 14px;
-    border: 1px solid var(--color-rule);
-    border-radius: 4px;
-    background: var(--color-bg);
-    color: var(--color-text);
-
-    &:focus {
-      outline: none;
-      border-color: var(--color-accent);
-    }
+    flex: 1 1 220px;
+    min-width: 0;
   }
 
-  &__size {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-unit);
-    flex: 0 0 220px;
-
-    input[type="range"] {
-      flex: 1;
-      accent-color: var(--color-accent);
-    }
-  }
-
-  &__value {
-    font-family: ui-monospace, Menlo, monospace;
-    font-size: 0.8125rem;
-    color: var(--color-text-light);
-    min-width: 4ch;
-    text-align: right;
+  .sizer {
+    flex: 0 1 240px;
   }
 
   &__sort {
-    font: inherit;
     font-size: 0.875rem;
-    padding: 9px 12px;
-    border: 1px solid var(--color-rule);
-    border-radius: 4px;
-    background: var(--color-bg);
-    color: var(--color-text);
-  }
-
-  &__reset {
-    font: inherit;
-    font-size: 0.875rem;
-    color: var(--color-accent);
-    background: none;
-    border: none;
-    padding: 9px 12px;
     cursor: pointer;
-    border-radius: 4px;
-
-    &:hover {
-      background: var(--color-accent-soft);
-    }
   }
 }
-
-.segmented {
-  display: inline-flex;
-  border: 1px solid var(--color-rule);
-  border-radius: 999px;
-  overflow: hidden;
-
-  &__item {
-    font: inherit;
-    font-size: 0.8125rem;
-    padding: 8px 14px;
-    background: none;
-    border: none;
-    color: var(--color-text-light);
-    cursor: pointer;
-
-    &--on {
-      background: var(--color-accent-soft);
-      color: var(--color-accent);
-      font-weight: 500;
-    }
-  }
-}
-
-// -- browse: filters + grid ----------------------------------------------------------
 
 .browse {
-  display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: var(--spacing-3x);
-  padding: var(--spacing-3x);
+  padding: var(--spacing-2x) var(--gutter) var(--spacing-6x);
   flex: 1;
 
-  @media (max-width: 900px) {
-    grid-template-columns: 1fr;
+  &__bar {
+    display: flex;
+    align-items: baseline;
+    gap: var(--spacing-2x);
+    flex-wrap: wrap;
+    padding-bottom: var(--spacing-2x);
+  }
+
+  &__count {
+    margin-left: auto;
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+  }
+
+  &__empty {
+    padding: var(--spacing-6x) 0;
+    color: var(--color-text-light);
+  }
+
+  &__list {
+    border-top: 1px solid var(--color-text);
   }
 }
 
 .filters {
-  position: sticky;
-  top: calc(var(--topbar-h) + var(--controls-h) + var(--spacing-2x));
-  align-self: start;
+  display: flex;
+  align-items: baseline;
+  gap: var(--spacing-unit) var(--spacing-2x);
+  flex-wrap: wrap;
 
-  @media (max-width: 900px) {
-    position: static;
-  }
-
-  &__title {
-    font-size: 0.75rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--color-text-light);
-    margin: var(--spacing-2x) 0 var(--spacing-unit);
-
-    &:first-child {
-      margin-top: 0;
-    }
-  }
-
-  &__row {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-unit);
-    padding: 6px 0;
-    font-size: 0.9375rem;
-    cursor: pointer;
-
-    input {
-      accent-color: var(--color-accent);
-    }
-  }
-
-  &__label {
-    flex: 1;
-  }
-
-  &__count {
-    color: var(--color-text-light);
-    font-size: 0.8125rem;
+  &__gap {
+    width: var(--spacing-2x);
   }
 }
 
-.results {
-  min-width: 0;
-
-  &__count {
-    color: var(--color-text-light);
-    font-size: 0.875rem;
-    margin-bottom: var(--spacing-2x);
-  }
-
-  &__list {
-    border-top: 1px solid var(--color-rule);
-  }
-}
-
+// one face: a caption line, then the type across the whole measure
 .row {
-  display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: var(--spacing-3x);
-  align-items: center;
+  display: block;
   color: inherit;
   text-decoration: none;
-  padding: var(--spacing-3x) var(--spacing-unit);
+  padding: var(--spacing-2x) 0 var(--spacing-3x);
   border-bottom: 1px solid var(--color-rule);
-  min-height: 120px;
-  transition: background 0.15s ease;
 
-  &:hover,
-  &:focus-visible {
-    background: var(--color-panel);
-    outline: none;
+  &:hover &__name,
+  &:focus-visible &__name {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.18em;
   }
 
-  @media (max-width: 640px) {
-    grid-template-columns: 1fr;
-    gap: var(--spacing-unit);
-  }
-
-  &__side {
+  &__head {
     display: flex;
-    flex-direction: column;
-    gap: 4px;
-    font-size: 0.875rem;
+    align-items: baseline;
+    gap: var(--spacing-2x);
+    font-size: 0.8125rem;
+    margin-bottom: var(--spacing-unit);
   }
 
   &__name {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 0.9375rem;
+    margin-right: auto;
   }
 
   &__meta {
     color: var(--color-text-light);
-    font-size: 0.8125rem;
+    min-width: 5.5em;
+    text-align: right;
   }
 
   &__preview {
     line-height: 1.1;
     overflow-wrap: anywhere;
     min-width: 0;
+    min-height: 1.1em;
   }
 }
 
@@ -412,105 +373,90 @@ img {
 // full width, like the index and the top bar; prose inside keeps its own measure
 .page {
   width: 100%;
-  padding: var(--spacing-3x);
+  padding: var(--spacing-6x) var(--gutter);
   flex: 1;
 }
 
-.crumbs {
-  display: flex;
-  gap: var(--spacing-3x);
-  font-size: 0.875rem;
-  margin-bottom: var(--spacing-3x);
-
-  &__spacer {
-    flex: 1;
-  }
-}
-
 .family {
-  &__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: var(--spacing-3x);
-    flex-wrap: wrap;
+  &__name {
+    font-size: clamp(2rem, 1.2rem + 3vw, 3.5rem);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.05;
     margin-bottom: var(--spacing-3x);
   }
 
-  &__name {
-    font-size: 2.25rem;
-    font-weight: 400;
-    letter-spacing: -0.01em;
-    line-height: 1.15;
-  }
-
-  &__source {
-    color: var(--color-text-light);
-    font-size: 0.9375rem;
-    margin-top: 4px;
-  }
-
-  &__actions {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-unit);
-  }
-
   &__section {
-    margin-top: var(--spacing-6x);
+    margin-top: calc(var(--spacing-6x) * 1.5);
   }
 
   &__h2 {
-    font-size: 1.375rem;
-    font-weight: 400;
-    margin-bottom: var(--spacing-unit);
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding-top: var(--spacing-unit);
+    border-top: 1px solid var(--color-text);
+    margin-bottom: 4px;
   }
 
   &__caption {
     color: var(--color-text-light);
-    max-width: 80ch;
-    margin-bottom: var(--spacing-2x);
+    max-width: 68ch;
+    margin-bottom: var(--spacing-3x);
+    text-wrap: pretty;
+  }
+}
+
+// where the face comes from, stated like a book's colophon
+.colophon {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: var(--spacing-3x);
+  padding: var(--spacing-2x) 0 var(--spacing-3x);
+  border-top: 1px solid var(--color-text);
+  font-size: 0.9375rem;
+
+  &__item {
+    max-width: 38ch;
+  }
+
+  dt {
+    font-weight: 600;
+  }
+
+  dd {
+    margin: 0;
+    color: var(--color-text-light);
+
+    .link,
+    .status {
+      color: var(--color-text);
+    }
+
+    .status--proto {
+      color: var(--color-proto);
+    }
   }
 }
 
 .tester {
-  border: 1px solid var(--color-rule);
-  border-radius: var(--radius);
-  padding: var(--spacing-2x) var(--spacing-3x);
+  border-top: 1px solid var(--color-text);
+  padding-top: var(--spacing-2x);
 
   &__bar {
     display: flex;
     align-items: center;
     gap: var(--spacing-3x);
     flex-wrap: wrap;
+
+    .sizer {
+      flex: 0 1 280px;
+    }
   }
 
   &__input {
-    font: inherit;
     font-size: 1rem;
     flex: 1 1 320px;
-    padding: 10px 14px;
-    border: 1px solid var(--color-rule);
-    border-radius: 4px;
-    background: var(--color-bg);
-    color: var(--color-text);
-
-    &:focus {
-      outline: none;
-      border-color: var(--color-accent);
-    }
-  }
-
-  &__size {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-unit);
-    flex: 0 0 260px;
-
-    input[type="range"] {
-      flex: 1;
-      accent-color: var(--color-accent);
-    }
+    min-width: 0;
   }
 
   &__output {
@@ -524,64 +470,70 @@ img {
   &__note {
     color: var(--color-proto);
     font-size: 0.875rem;
+    max-width: 68ch;
   }
 }
 
-.styles {
+.glyphs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
   border-top: 1px solid var(--color-rule);
+  border-left: 1px solid var(--color-rule);
 
-  &__row {
-    display: grid;
-    grid-template-columns: 120px 1fr;
-    gap: var(--spacing-3x);
+  &__cell {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: var(--spacing-2x) 0;
+    justify-content: flex-end;
+    gap: var(--spacing-unit);
+    padding: var(--spacing-2x) 4px var(--spacing-unit);
+    border-right: 1px solid var(--color-rule);
     border-bottom: 1px solid var(--color-rule);
+    overflow: hidden;
 
-    @media (max-width: 640px) {
-      grid-template-columns: 1fr;
+    &--constructed .glyphs__char {
+      color: var(--color-missing);
     }
   }
 
-  &__label {
-    font-size: 0.875rem;
-    display: flex;
-    flex-direction: column;
+  &__char {
+    font-size: 72px;
+    line-height: 1.15;
   }
 
-  &__sub {
+  &__from {
+    font-family: var(--font-ui);
+    font-size: 0.6875rem;
     color: var(--color-text-light);
-    font-size: 0.75rem;
-  }
-
-  &__preview {
-    line-height: 1.1;
-    overflow-wrap: anywhere;
+    text-align: center;
   }
 }
 
-.figure {
-  margin: 0 0 var(--spacing-3x);
-  background: var(--color-panel);
-  border: 1px solid var(--color-rule);
-  border-radius: var(--radius);
-  padding: var(--spacing-2x);
+// the proofs are two halves, scan over font; side by side they read as a sheet of showings
+.showings {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr));
+  gap: var(--spacing-6x) var(--spacing-3x);
+  align-items: start;
 
-  figcaption {
-    color: var(--color-text-light);
-    font-size: 0.875rem;
-    margin-top: var(--spacing-unit);
-  }
-
-  &--overlay {
-    max-width: 240px;
+  &__item {
     margin: 0;
+
+    img {
+      width: 100%;
+    }
+
+    figcaption {
+      margin-top: var(--spacing-unit);
+      font-size: 0.8125rem;
+      color: var(--color-text-light);
+    }
   }
 }
 
 .research {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 240px 1fr;
   gap: var(--spacing-3x);
   align-items: start;
 
@@ -593,21 +545,57 @@ img {
 .table {
   border-collapse: collapse;
   width: 100%;
+  max-width: 900px;
   font-size: 0.9375rem;
 
   th,
   td {
-    text-align: left;
-    padding: 8px var(--spacing-unit);
+    text-align: right;
+    padding: 6px var(--spacing-2x) 6px 0;
     border-bottom: 1px solid var(--color-rule);
     vertical-align: top;
+
+    &:first-child {
+      text-align: left;
+    }
   }
 
   th {
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 0.8125rem;
+    border-bottom-color: var(--color-text);
+    vertical-align: bottom;
+  }
+}
+
+.pager {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-3x);
+  margin-top: calc(var(--spacing-6x) * 1.5);
+  padding-top: var(--spacing-2x);
+  border-top: 1px solid var(--color-text);
+
+  &__link {
+    color: var(--color-text);
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 0.18em;
+    }
+
+    &--next {
+      margin-left: auto;
+      text-align: right;
+    }
+  }
+
+  &__dir {
+    display: block;
+    font-size: 0.8125rem;
+    font-weight: 400;
     color: var(--color-text-light);
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
   }
 }
