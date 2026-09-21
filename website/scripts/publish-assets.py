@@ -11,6 +11,7 @@ import json
 import mimetypes
 import subprocess
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -62,10 +63,11 @@ def put(job):
     cache = CACHE.get(key.removeprefix("proofs/"), "public, max-age=86400")
     cmd = ["npx", "--no-install", "wrangler", "r2", "object", "put", f"{BUCKET}/{key}", "--file", str(path),
            "--content-type", ctype, "--cache-control", cache, "--remote"]
-    for _ in range(3):
+    for attempt in range(5):
         r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True)
         if r.returncode == 0:
             return key, None
+        time.sleep(15 * (attempt + 1))        # Cloudflare's API answers 429 past ~1,200 requests in five minutes
     return key, (r.stderr or r.stdout)[-300:]
 
 
@@ -83,7 +85,7 @@ def main():
     if "--dry" in sys.argv or not jobs:
         return
     failed = 0
-    with ThreadPoolExecutor(8) as pool:
+    with ThreadPoolExecutor(4) as pool:
         for n, (key, err) in enumerate(pool.map(put, jobs), 1):
             if err:
                 failed += 1
