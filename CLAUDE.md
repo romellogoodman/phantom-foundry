@@ -10,7 +10,10 @@ software: **proto** (traced + constructed, machine-spaced) → **draft** (review
 Revivals work from printed specimens, never digital fonts — typeface designs
 aren't copyrightable in the US, but font software is. The process is the
 research: traces, logs, and proofs are deliverables (research book + blog
-series), so never discard intermediate artifacts to "clean up." The gap
+series). What can't be made again is never discarded: the manifest, `face.yaml`,
+readings, recipes, logs, Arrow casts, and any UFO a person has edited. What the
+pipeline rebuilds byte-for-byte from those is kept for draft and release faces
+but not committed for protos — `foundry build <face>` is the way back. The gap
 between the historical scan and a tracer's interpretation is a subject, not a
 defect; Quiver's Arrow model turned out to *depict* letters rather than trace
 them, so potrace is the production tracer and Arrow is a research instrument.
@@ -57,6 +60,12 @@ a book:    shelve → catalog → found → read → label --auto ─┴→ cut 
   a numbered sheet), then `label --band B --text "WORDS" --line <size>` per line,
   largest size first — the first showing of a letter gets the plain name, later
   sizes become `.six`/`.eight` alternates (unencoded).
+- A founded proto commits only its record — `face.yaml`, `CHANGELOG.md`, `glyphs/manifest.csv`,
+  `specimens/*.json`, `log/`, `svg/arrow/` — and `found` writes a `.gitignore` in the face for the rest
+  (cuts, potrace SVGs, UFO, `dist/`, `proofs/`). With the book shelved, `foundry build <face>` relinks
+  the scans and rebuilds all of it identically. Delete that `.gitignore` when a face goes to draft:
+  from then on its UFO is hand-edited and everything is committed. The 103 faces founded before
+  2026-09-21 are committed in full.
 - UFO is the master source; `dist/` is compiled — never hand-edit it. Glyphs
   not in the manifest (constructed ones) survive `sort`; `justify` re-spaces everything.
 - Constructed letters live in `construct.yaml` and are flagged everywhere

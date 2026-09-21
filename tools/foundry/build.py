@@ -52,7 +52,36 @@ def fingerprints(face: Face) -> dict[str, str]:
     }
 
 
+def link_specimens(face: Face) -> list[int]:
+    """The way back for a face whose scans aren't on disk (a fresh clone, or a
+    proto whose stage outputs were never committed): link each source leaf
+    from the shelved book. Returns the leaves it linked."""
+    import os
+    from .book import Book
+    data = face.load()
+    src = data.get("source", {})
+    archive_id = data.get("book") or src.get("archive_id")
+    linked = []
+    for leaf in src.get("leaves", []):
+        target = face.specimen_jp2(leaf)
+        if target.exists():
+            continue
+        scan = Book(archive_id).leaf_jp2(leaf) if archive_id else None
+        if scan is None or not scan.exists():
+            raise FileNotFoundError(
+                f"{face.name}: leaf {leaf} of {archive_id} is not on disk — "
+                f"`foundry shelve {archive_id}` (whole book) or "
+                f"`foundry fetch {face.name} {archive_id} --leaf {leaf}`")
+        target.parent.mkdir(parents=True, exist_ok=True)
+        if target.is_symlink():
+            target.unlink()                                 # a link into a book that was unshelved
+        target.symlink_to(os.path.relpath(scan, target.parent))
+        linked.append(leaf)
+    return linked
+
+
 def build(face: Face, stages: list[str] | None = None, force: bool = False) -> dict:
+    link_specimens(face)
     stamp_path = face.log / "build.json"
     stamps = json.loads(stamp_path.read_text()) if stamp_path.exists() else {}
     ran, skipped = [], []

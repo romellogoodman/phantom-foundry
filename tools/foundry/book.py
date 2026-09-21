@@ -587,6 +587,24 @@ def _norm(s: str | None) -> str:
 
 # -- found ------------------------------------------------------------------------
 
+# A founded proto commits its record, not its stage outputs: with the book
+# shelved, `foundry build <face>` rebuilds every cut, trace and glyph source
+# byte-for-byte from these few files (justify reads the surveys and label log).
+PROTO_GITIGNORE = """\
+# proto: everything ignored here is rebuilt byte-for-byte by `foundry build <face>`
+# from the record that is kept — face.yaml, glyphs/manifest.csv, specimens/*.json, log/ —
+# once the book is shelved (`foundry shelve <archive_id>`).
+# Delete this file when the face goes to draft: from then on the UFO is edited by hand.
+glyphs/*
+!glyphs/manifest.csv
+specimens/*.jpg
+svg/potrace/
+ufo/
+dist/
+proofs/
+"""
+
+
 def found(name: str, book: Book, series: str, title: str | None = None, leaves: list[int] | None = None) -> dict:
     """Start a face from a series in the catalog: face.yaml with the book's
     provenance and the leaves the series is shown on, the leaves linked into
@@ -640,6 +658,7 @@ def found(name: str, book: Book, series: str, title: str | None = None, leaves: 
         f"## 0.1.0 — {time.strftime('%Y-%m-%d')} · proto\n\n"
         f"- Founded from the book catalog: every letter the specimen shows at display size, traced with potrace.\n"
         f"  Letters read from the page by Claude and cross-checked against the archive's OCR; no constructed letters.\n")
+    (face.dir / ".gitignore").write_text(PROTO_GITIGNORE)
     face.log_event("found", book=book.archive_id, series=series, leaves=sorted(leaves))
     return {"face": name, "series": series, "leaves": sorted(leaves), "pages": data["leaf_pages"]}
 

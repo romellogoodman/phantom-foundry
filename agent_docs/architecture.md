@@ -100,7 +100,23 @@ proofs/             QA output, checks.json, the publishable artifacts, and the w
   commit time) so an unchanged face rebuilds byte-identical; `build` skips
   unchanged stages; per-glyph overlay sheets are drawn only for faces with
   Arrow research; raw crops, survey sheets and line proofs are JPEG. A
-  founded face costs about 7 MB on disk, 3–4 MB packed in git.
+  founded face costs about 7 MB on disk; a proto commits ~100 KB of it (see below).
+- **What is committed.** A face is a small record of decisions and a large
+  body of output computed from it. The record cannot be made again: `face.yaml`,
+  `glyphs/manifest.csv` (which box is which letter), `specimens/*.json` (the
+  surveys and labels `justify` measures printed gaps from), `log/` (`justify`
+  also reads `label.jsonl`), `construct.yaml`, `CHANGELOG.md`, `svg/arrow/`
+  (paid, not deterministic), and at book level `book.yaml` and `readings.json`.
+  Everything else — cuts, potrace traces, UFO, fonts, proofs, survey sheets —
+  is rebuilt by `foundry build`, which first links any missing source leaf from
+  the shelved book (`link_specimens`). Tested on Tudor: rebuilt from the record
+  alone, every cut, trace and `.glif` was byte-identical. So `found` gives a
+  proto a `.gitignore` for its outputs (~100 KB committed instead of ~6 MB);
+  deleting it is part of promoting a face to draft, because a reviewed UFO has
+  hand edits no stage can reproduce. Identical means with the pinned tools:
+  `uv.lock` and the same potrace; a different JPEG 2000 decoder may move pixels.
+  The rebuild needs the book: if the Internet Archive withdraws an item, a
+  proto's outputs go with it, which is the risk accepted for protos only.
 - **Sizes.** Wood type specimens show one design at several sizes, each a
   separate set of blocks. The manifest's `line` names the size; `sort` gives
   each line its own scale so every size lands on the same cap height. The
@@ -138,7 +154,7 @@ phantom-foundry/
     <archive_id>/
       book.yaml        # item metadata, page count, when shelved
       jp2/ ocr/ sheets/   # every leaf, the OCR split per leaf, survey sheets + band crops (ignored)
-      survey/          # leafNNNN.json: display bands + letter boxes per leaf
+      survey/          # leafNNNN.json: display bands + letter boxes per leaf (ignored; `catalog` rebuilds it)
       catalog.json     # every band with its caption's size and series; series index
       readings.json    # what each band says, by whom — the labeling record
   showing/             # index.html + showing.json across every face
