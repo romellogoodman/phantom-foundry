@@ -40,6 +40,11 @@ const READERS = {
 const THIN = 10; // a strike with fewer letters than this is kept but not listed by default
 
 // The same typeface shown in two books is two strikes. Their names differ only by the book's code.
+// A heading as the OCR or a model read it can end in a stray full point.
+function titleOf(f) {
+  return (f.title || f.family || f.name || "").replace(/[\s.,;:]+$/, "");
+}
+
 function typefaceKey(f) {
   return (f.series || f.title || f.name).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 }
@@ -202,10 +207,15 @@ function Preview({ family, chars, text, size, className }) {
 const SORTS = {
   page: (a, b) =>
     (a.book || "").localeCompare(b.book || "") || (a.pages[0] || 9999) - (b.pages[0] || 9999) || a.name.localeCompare(b.name),
-  name: (a, b) => (a.title || a.name).localeCompare(b.title || b.name),
+  name: (a, b) => titleOf(a).localeCompare(titleOf(b)) || a.name.localeCompare(b.name),
   glyphs: (a, b) => b.encoded - a.encoded || a.name.localeCompare(b.name),
   size: (a, b) => sizePt(b) - sizePt(a) || a.name.localeCompare(b.name),
 };
+
+// books in the order a shelf would hold them: by foundry, then year
+function shelfOrder(a, b) {
+  return (a?.issuer || a?.title || "").localeCompare(b?.issuer || b?.title || "") || (a?.year || 0) - (b?.year || 0);
+}
 
 function sizePt(f) {
   return Math.max(0, ...f.sizes.map((s) => parseInt(s, 10) || 0));
@@ -231,7 +241,7 @@ function Card({ face, mode, custom, size, book, strikes }) {
   return (
     <a ref={ref} className="row" href={`#/face/${encodeURIComponent(face.name)}`}>
       <div className="row__head">
-        <span className="row__name">{face.title || face.family}</span>
+        <span className="row__name">{titleOf(face)}</span>
         {face.status !== "proto" && <span className={`status status--${face.status}`}>{face.status}</span>}
         <span className="row__meta">{face.encoded} letters</span>
         <span className="row__meta">
@@ -333,8 +343,12 @@ function Index({ index, query, books }) {
       .filter((f) => filters.category.size === 0 || filters.category.has(f.category))
       .filter((f) => !filters.lower || f.lower > 0)
       .filter((f) => !filters.figures || f.figures > 0)
-      .sort(SORTS[sort]);
-  }, [faces, query, filters, sort, book]);
+      .sort(
+        sort === "page"
+          ? (a, b) => shelfOrder(bookOf[a.book], bookOf[b.book]) || SORTS.page(a, b)
+          : SORTS[sort],
+      );
+  }, [faces, query, filters, sort, book, bookOf]);
   const view = `${query}|${[...filters.category]}|${filters.lower}|${filters.figures}|${sort}|${book}|${thin}`;
   const limit = more.view === view ? more.n : 120;
   const changed =
@@ -552,7 +566,7 @@ function Family({ face, index }) {
   return (
     <article className="family">
       <FontFaceStyle face={face} />
-      <h1 className="family__name">{face.title || face.family}</h1>
+      <h1 className="family__name">{titleOf(face)}</h1>
 
       <dl className="colophon">
         <div className="colophon__item">
@@ -798,7 +812,7 @@ const STEPS = [
   ["Read", "Someone has to say which letter is in each box. Two small vision models read every line separately, and a line counts only when both give the same letters and the count fits the boxes. The rest wait for a stronger reader or a person. The archive\u2019s own text recognition gets about one letter in five wrong on display type, so it is only ever a cross-check."],
   ["Cut and cast", "Each labelled box is cropped from the scan, cleaned to black and white and traced into an outline with potrace."],
   ["Sort and justify", "The outlines are scaled onto one baseline and cap height, and the space beside each letter is set from the gaps measured on the printed page."],
-  ["Proof", "The font is compiled, then set against the lines it came from. Checks flag a trace that strays from its scan or a letter that does not fit its line, and those faces are looked at first."],
+  ["Proof", "The font is compiled, then set against the lines it came from. Checks flag a trace that strays from its scan, a letter that does not fit its line, and a letter that looks unlike the others filed under the same name, the sign of a wrong label. A strike that fails that last check badly is held back until a person has looked."],
 ];
 
 function useBooks() {
@@ -869,7 +883,7 @@ function Process() {
         <h2 className="family__h2">What is kept</h2>
         <p className="family__caption">
           A face&rsquo;s record is small: which box on which page is which letter, who read it, the measurements and
-          the log of every step. From that record and the scanned book, the tools rebuild every crop, outline and
+          the log of every decision. From that record and the scanned book, the tools rebuild every crop, outline and
           font exactly. Early faces keep only the record. Once a person starts correcting a face by hand, all of it is
           kept.
         </p>
