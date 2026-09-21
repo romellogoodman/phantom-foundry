@@ -726,7 +726,8 @@ def found(name: str, book: Book, series: str, title: str | None = None, leaves: 
         f"**release** (1.0: spaced, kerned, cleaned, tested).\n\n"
         f"## 0.1.0 — {time.strftime('%Y-%m-%d')} · proto\n\n"
         f"- Founded from the book catalog: every letter the specimen shows at display size, traced with potrace.\n"
-        f"  Letters read from the page by Claude and cross-checked against the archive's OCR; no constructed letters.\n")
+        f"  Who read each line is recorded with the reading (`books/{book.archive_id}/readings.json`, `by`) and\n"
+        f"  shown on the face's page; the archive's OCR is only a cross-check. No constructed letters.\n")
     (face.dir / ".gitignore").write_text(PROTO_GITIGNORE)
     face.log_event("found", book=book.archive_id, series=series, leaves=sorted(leaves))
     return {"face": name, "series": series, "leaves": sorted(leaves), "pages": data["leaf_pages"]}
