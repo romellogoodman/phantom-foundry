@@ -2,7 +2,13 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import "@fontsource-variable/libre-franklin";
 import "./App.scss";
 
-const PROOFS = "/proofs";
+// Fonts and proofs live in the foundry's Cloudflare R2 bucket (scripts/publish-assets.py fills it).
+// The built site reads them from there; `npm run dev` reads public/ after scripts/sync-faces.sh.
+// VITE_ASSETS_URL overrides either, e.g. to develop against the bucket.
+const BUCKET = "https://pub-8fda51eedea94d8da574bbc563a37df4.r2.dev";
+const ASSETS = (import.meta.env.VITE_ASSETS_URL ?? (import.meta.env.PROD ? BUCKET : "")).replace(/\/$/, "");
+const PROOFS = `${ASSETS}/proofs`;
+const FONTS = `${ASSETS}/fonts`;
 const CATEGORIES = [
   ["serif", "Serif"],
   ["sans", "Sans serif"],
@@ -23,7 +29,20 @@ function sizeLabel(line) {
   return `${line[0].toUpperCase()}${line.slice(1)} Line`;
 }
 
-const READERS = { claude: "Claude", "claude+ocr": "Claude, checked against the archive’s OCR", human: "a person" };
+const TWO_MODELS = "two vision models, DeepSeek V4.1 Flash and Qwen 3.7 Flash, where both gave the same letters";
+const READERS = {
+  claude: "Claude",
+  "claude+ocr": "Claude, checked against the archive’s OCR",
+  human: "a person",
+  "deepseek-v4.1-flash+qwen3.7-flash": TWO_MODELS,
+  "deepseek-v4.1-flash+qwen3.7-flash+ocr": `${TWO_MODELS}, checked against the archive’s OCR`,
+};
+const THIN = 10; // a strike with fewer letters than this is kept but not listed by default
+
+// The same typeface shown in two books is two strikes. Their names differ only by the book's code.
+function typefaceKey(f) {
+  return (f.series || f.title || f.name).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
 
 
 // -- data -------------------------------------------------------------------
@@ -76,7 +95,7 @@ const loaded = new Set();
 function loadFont(family, file) {
   if (!file || loaded.has(family)) return;
   loaded.add(family);
-  const ff = new FontFace(family, `url("/fonts/${file}")`, { display: "swap" });
+  const ff = new FontFace(family, `url("${FONTS}/${file}")`, { display: "swap" });
   ff.load()
     .then((f) => {
       document.fonts.add(f);
@@ -181,7 +200,8 @@ function Preview({ family, chars, text, size, className }) {
 // -- index --------------------------------------------------------------------
 
 const SORTS = {
-  page: (a, b) => (a.pages[0] || 9999) - (b.pages[0] || 9999) || a.name.localeCompare(b.name),
+  page: (a, b) =>
+    (a.book || "").localeCompare(b.book || "") || (a.pages[0] || 9999) - (b.pages[0] || 9999) || a.name.localeCompare(b.name),
   name: (a, b) => (a.title || a.name).localeCompare(b.title || b.name),
   glyphs: (a, b) => b.encoded - a.encoded || a.name.localeCompare(b.name),
   size: (a, b) => sizePt(b) - sizePt(a) || a.name.localeCompare(b.name),
@@ -199,7 +219,7 @@ function previewText(face, mode, custom) {
   return face.sample || face.chars || face.title || face.family;
 }
 
-function Card({ face, mode, custom, size }) {
+function Card({ face, mode, custom, size, book, strikes }) {
   const ref = useRef(null);
   const visible = useVisible(ref);
   const file = fontFile(face.fonts);
@@ -214,7 +234,11 @@ function Card({ face, mode, custom, size }) {
         <span className="row__name">{face.title || face.family}</span>
         {face.status !== "proto" && <span className={`status status--${face.status}`}>{face.status}</span>}
         <span className="row__meta">{face.encoded} letters</span>
-        <span className="row__meta">{pages.length ? `page ${pages[0]}` : ""}</span>
+        <span className="row__meta">
+          {book ? `${book.issuer || book.title}${book.year ? `, ${book.year}` : ""}` : ""}
+          {pages.length ? `${book ? ", " : ""}page ${pages[0]}` : ""}
+        </span>
+        {strikes > 1 && <span className="row__meta">{strikes} strikes of this face</span>}
       </div>
       {visible ? (
         <Preview family={face.family} chars={face.chars} text={text} size={size} className="row__preview" />
@@ -268,13 +292,30 @@ const MODES = [
   ["numerals", "Figures"],
 ];
 
-function Index({ index, query }) {
+function Index({ index, query, books }) {
   const [mode, setMode] = useState("specimen");
   const [custom, setCustom] = useState(DEFAULT_TEXT);
   const [size, setSize] = useState(DEFAULT_SIZE);
   const [sort, setSort] = useState("page");
   const [filters, setFilters] = useState({ category: new Set(), lower: false, figures: false });
-  const faces = useMemo(() => index.faces_list || [], [index]);
+  const [book, setBook] = useState("");
+  const [thin, setThin] = useState(false);
+  const [more, setMore] = useState({ view: "", n: 120 }); // how far down the list is drawn, for the current view
+  const all = useMemo(() => index.faces_list || [], [index]);
+  const faces = useMemo(() => (thin ? all : all.filter((f) => f.encoded >= THIN)), [all, thin]);
+  const bookOf = useMemo(() => Object.fromEntries((books || []).map((b) => [b.id, b])), [books]);
+  const shelf = useMemo(() => {
+    const n = {};
+    for (const f of faces) n[f.book] = (n[f.book] || 0) + 1;
+    return Object.keys(n)
+      .map((id) => ({ id, n: n[id], ...(bookOf[id] || { title: id }) }))
+      .sort((a, b) => (a.issuer || a.title).localeCompare(b.issuer || b.title) || (a.year || 0) - (b.year || 0));
+  }, [faces, bookOf]);
+  const strikes = useMemo(() => {
+    const n = {};
+    for (const f of all) n[typefaceKey(f)] = (n[typefaceKey(f)] || 0) + 1;
+    return n;
+  }, [all]);
   const counts = useMemo(() => {
     const category = {};
     for (const f of faces) category[f.category] = (category[f.category] || 0) + 1;
@@ -288,13 +329,16 @@ function Index({ index, query }) {
     const q = query.trim().toLowerCase();
     return faces
       .filter((f) => !q || `${f.name} ${f.title} ${f.family} ${f.series} ${f.sample}`.toLowerCase().includes(q))
+      .filter((f) => !book || f.book === book)
       .filter((f) => filters.category.size === 0 || filters.category.has(f.category))
       .filter((f) => !filters.lower || f.lower > 0)
       .filter((f) => !filters.figures || f.figures > 0)
       .sort(SORTS[sort]);
-  }, [faces, query, filters, sort]);
+  }, [faces, query, filters, sort, book]);
+  const view = `${query}|${[...filters.category]}|${filters.lower}|${filters.figures}|${sort}|${book}|${thin}`;
+  const limit = more.view === view ? more.n : 120;
   const changed =
-    mode !== "specimen" || custom !== DEFAULT_TEXT || size !== DEFAULT_SIZE || sort !== "page" ||
+    book !== "" || thin || mode !== "specimen" || custom !== DEFAULT_TEXT || size !== DEFAULT_SIZE || sort !== "page" ||
     filters.category.size > 0 || filters.lower || filters.figures;
   const reset = () => {
     setMode("specimen");
@@ -302,27 +346,32 @@ function Index({ index, query }) {
     setSize(DEFAULT_SIZE);
     setSort("page");
     setFilters({ category: new Set(), lower: false, figures: false });
+    setBook("");
+    setThin(false);
   };
   return (
     <>
       <div className="intro">
         <p className="intro__lead">
-          Phantom Foundry is an open-source type foundry. It revives typefaces from old specimen books, the catalogs
-          printers once ordered their type from, by tracing the letters off the scanned page.
+          Phantom Foundry publishes strikes: faithful impressions of public domain type, taken from old specimen
+          books and ready to be finished.
         </p>
         <p className="intro__note">
-          Every font here is made from print, never from another font file, and all of the work is public: the tools
-          that cut and trace the letters, every trace and proof along the way, and the fonts themselves. The fonts are
-          under the SIL Open Font License and the code is MIT. Read it, fork it or fix a letter on{" "}
+          In a type foundry a strike was the raw impression of a punch in copper, before anyone justified it into a
+          working matrix. Foundries sold strikes to one another to be finished elsewhere. These are the same thing:
+          one typeface as one book shows it, traced from the page and spaced by machine, with only the letters that
+          page prints. Find one, see where it came from, and take it further. A letter a strike lacks appears as an
+          empty box.
+        </p>
+        <p className="intro__note">
+          None of this type is drawn by a model. Coding agents built the tools, and models read which letter is in
+          each box and what a caption says. Every outline is traced from a printed page by potrace. All of it is
+          public so you can check the work: the tools, the record behind each letter, and the fonts, under the SIL
+          Open Font License and MIT. It is on{" "}
           <a className="link" href={REPO}>
             GitHub
           </a>
-          .
-        </p>
-        <p className="intro__note">
-          The first book is Barnhart Brothers &amp; Spindler&rsquo;s Specimen Book No. 9, printed in Chicago in 1907,
-          with {faces.length} faces so far. They are early versions, numbered like software. Each has only the letters
-          its page shows, and a letter it lacks appears as an empty box.
+          , and <a className="link" href="#/process">how a strike is made</a> lists every book.
         </p>
       </div>
       <div className="controls">
@@ -356,8 +405,17 @@ function Index({ index, query }) {
           <span className="sizer__value">{size} px</span>
           <input type="range" min="20" max="160" value={size} onChange={(e) => setSize(Number(e.target.value))} />
         </label>
+        <select className="field controls__book" value={book} onChange={(e) => setBook(e.target.value)} aria-label="Book">
+          <option value="">Every book</option>
+          {shelf.map((b) => (
+            <option key={b.id} value={b.id}>
+              {b.issuer || b.title}
+              {b.year ? `, ${b.year}` : ""} ({b.n})
+            </option>
+          ))}
+        </select>
         <select className="field controls__sort" value={sort} onChange={(e) => setSort(e.target.value)} aria-label="Order">
-          <option value="page">In page order</option>
+          <option value="page">By book and page</option>
           <option value="name">By name</option>
           <option value="size">Largest size first</option>
           <option value="glyphs">Most letters first</option>
@@ -366,8 +424,13 @@ function Index({ index, query }) {
       <div className="browse">
         <div className="browse__bar">
           <Filters filters={filters} setFilters={setFilters} counts={counts} />
+          {all.length > faces.length || thin ? (
+            <Toggle on={thin} onClick={() => setThin((t) => !t)} count={all.filter((f) => f.encoded < THIN).length}>
+              Under {THIN} letters
+            </Toggle>
+          ) : null}
           <span className="browse__count">
-            {shown.length === faces.length ? `${faces.length} faces` : `${shown.length} of ${faces.length} faces`}
+            {shown.length === faces.length ? `${faces.length} strikes` : `${shown.length} of ${faces.length} strikes`}
           </span>
           {changed && (
             <button type="button" className="toggle" onClick={reset}>
@@ -376,12 +439,17 @@ function Index({ index, query }) {
           )}
         </div>
         {shown.length === 0 ? (
-          <p className="browse__empty">No face matches. Clear the search or reset the filters.</p>
+          <p className="browse__empty">No strike matches. Clear the search or reset the filters.</p>
         ) : (
           <div className="browse__list">
-            {shown.map((f) => (
-              <Card key={f.name} face={f} mode={mode} custom={custom} size={size} />
+            {shown.slice(0, limit).map((f) => (
+              <Card key={f.name} face={f} mode={mode} custom={custom} size={size} book={bookOf[f.book]} strikes={strikes[typefaceKey(f)]} />
             ))}
+            {shown.length > limit && (
+              <button type="button" className="toggle browse__more" onClick={() => setMore({ view, n: limit + 240 })}>
+                Show more ({shown.length - limit} to go)
+              </button>
+            )}
           </div>
         )}
       </div>
@@ -394,7 +462,7 @@ function Index({ index, query }) {
 function FontFaceStyle({ face }) {
   const file = fontFile(face.fonts);
   if (!file) return null;
-  const css = `@font-face{font-family:"${face.family}";src:url("/fonts/${file}") format("opentype");font-display:block}`;
+  const css = `@font-face{font-family:"${face.family}";src:url("${FONTS}/${file}") format("opentype");font-display:block}`;
   return <style>{css}</style>;
 }
 
@@ -457,7 +525,9 @@ function Glyphs({ face, encoded }) {
   );
 }
 
-function Family({ face }) {
+const WANTED = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+function Family({ face, index }) {
   const src = face.source || {};
   const encoded = face.glyphs.filter((g) => g.encoded && g.char && g.char.trim());
   const chars = useMemo(() => new Set(encoded.map((g) => g.char)), [encoded]);
@@ -474,6 +544,10 @@ function Family({ face }) {
   const year = String(src.date || "").replace(/\D/g, "");
   const otf = face.fonts.find((f) => f.endsWith(".otf"));
   const ttf = face.fonts.find((f) => f.endsWith(".ttf"));
+  const lacking = [...WANTED].filter((c) => !chars.has(c));
+  const bookId = face.book || src.archive_id;
+  const me = (index?.faces_list || []).find((f) => f.name === face.name);
+  const others = me ? (index.faces_list || []).filter((f) => f.name !== face.name && typefaceKey(f) === typefaceKey(me)) : [];
 
   return (
     <article className="family">
@@ -484,8 +558,9 @@ function Family({ face }) {
         <div className="colophon__item">
           <dt>Printed in</dt>
           <dd>
-            <em>{(src.title || "").split(".")[0]}</em>, No. 9. {src.publisher}
-            {year ? `, ${year}` : ""}.
+            <em>{(src.title || "").split(/[.:;]/)[0].trim()}</em>
+            {`${bookId === "bookoftypespecim00barnrich" ? ", No. 9" : ""}. ${src.publisher || ""}`}
+            {year && !String(src.publisher || "").includes(year) ? `, ${year}` : ""}.
           </dd>
         </div>
         <div className="colophon__item">
@@ -514,7 +589,7 @@ function Family({ face }) {
           <dt>Version {face.version}</dt>
           <dd>
             <span className={`status status--${face.status}`}>{face.status}</span>
-            {face.status === "proto" && ": traced and spaced by machine, not yet reviewed by a person."}
+            {face.status === "proto" && ": a strike. Traced and spaced by machine, not yet reviewed by a person."}
             {face.status === "draft" && ": cuts and spacing reviewed by a person."}
           </dd>
         </div>
@@ -522,13 +597,13 @@ function Family({ face }) {
           <dt>Download</dt>
           <dd>
             {otf && (
-              <a className="link" href={`/fonts/${otf}`} download>
+              <a className="link" href={`${FONTS}/${otf}`} download>
                 OTF
               </a>
             )}
             {otf && ttf && ", "}
             {ttf && (
-              <a className="link" href={`/fonts/${ttf}`} download>
+              <a className="link" href={`${FONTS}/${ttf}`} download>
                 TTF
               </a>
             )}
@@ -538,6 +613,43 @@ function Family({ face }) {
       </dl>
 
       <Tester face={face} chars={chars} />
+
+      <section className="family__section">
+        <h2 className="family__h2">Take it further</h2>
+        <p className="family__caption">
+          A strike is a starting point. This one has {encoded.length} letters
+          {lacking.length > 0 ? (
+            <>
+              {" "}
+              and lacks <span className="family__lacking">{lacking.join(" ")}</span>
+            </>
+          ) : (
+            ", a full alphabet and figures"
+          )}
+          . Its spacing is a machine&rsquo;s first guess, it has no kerning, and the print&rsquo;s roughness is still
+          in the outlines. To finish it, open the font, or rebuild its source from the record:{" "}
+          <a className="link" href={`${REPO}/tree/main/faces/${face.name}`}>
+            faces/{face.name}
+          </a>{" "}
+          holds which box on which page is which letter, and <code className="family__code">foundry shelve {bookId}</code>{" "}
+          then <code className="family__code">foundry build {face.name}</code> remakes every crop, outline and the UFO
+          font source from the scan.
+        </p>
+        {others.length > 0 && (
+          <p className="family__caption">
+            The same face was shown in other books, and each showing is its own strike with its own letters:{" "}
+            {others.map((f, i) => (
+              <span key={f.name}>
+                {i > 0 && ", "}
+                <a className="link" href={`#/face/${encodeURIComponent(f.name)}`}>
+                  {f.name} ({f.encoded} letters)
+                </a>
+              </span>
+            ))}
+            .
+          </p>
+        )}
+      </section>
 
       <section className="family__section">
         <h2 className="family__h2">Letters</h2>
@@ -664,7 +776,7 @@ function Family({ face }) {
   );
 }
 
-function FamilyPage({ name }) {
+function FamilyPage({ name, index }) {
   const { face, error } = useFace(name);
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -672,7 +784,7 @@ function FamilyPage({ name }) {
   return (
     <div className="page">
       {error && <p className="app__error">Could not load {name}: {error}</p>}
-      {face ? <Family face={face} /> : !error && <p className="app__loading">Loading {name}…</p>}
+      {face ? <Family face={face} index={index} /> : !error && <p className="app__loading">Loading {name}…</p>}
     </div>
   );
 }
@@ -682,7 +794,7 @@ function FamilyPage({ name }) {
 const STEPS = [
   ["Shelve", "A whole specimen book is fetched from the Internet Archive: every page as the library scanned it, and the archive\u2019s text recognition for the small print."],
   ["Catalog", "Each page is searched for lines of large type. Every letter shape on a line gets a box, and the caption beside it, or the heading over the page, says which typeface and size the line shows."],
-  ["Found", "A typeface that is shown large enough, with enough letters, becomes a face: a folder holding its source pages and a record of where everything came from."],
+  ["Found", "A typeface that one book shows large enough, with enough letters, becomes a strike: a folder holding its source pages and a record of where everything came from. The same typeface in another book is another strike."],
   ["Read", "Someone has to say which letter is in each box. Two small vision models read every line separately, and a line counts only when both give the same letters and the count fits the boxes. The rest wait for a stronger reader or a person. The archive\u2019s own text recognition gets about one letter in five wrong on display type, so it is only ever a cross-check."],
   ["Cut and cast", "Each labelled box is cropped from the scan, cleaned to black and white and traced into an outline with potrace."],
   ["Sort and justify", "The outlines are scaled onto one baseline and cap height, and the space beside each letter is set from the gaps measured on the printed page."],
@@ -732,16 +844,18 @@ function Process() {
         <th>Year</th>
         <th>Pages scanned</th>
         <th>Lines of large type</th>
-        <th>Faces</th>
+        <th>Strikes</th>
       </tr>
     </thead>
   );
   return (
     <div className="page process">
-      <h1 className="family__name">How a face is made</h1>
+      <h1 className="family__name">How a strike is made</h1>
       <p className="family__caption">
-        Every font here starts as ink on a page. The work is done by a chain of small programs that pass plain files
-        to one another, so each step can be opened, checked and run again. None of it starts from another font file.
+        Every font here starts as ink on a page. A strike is one typeface as one book shows it, carried from the scan
+        to a working font by a chain of small programs that pass plain files to one another, so each step can be
+        opened, checked and run again. None of it starts from another font file, and no model draws a letter: models
+        read which letter is in a box and what a caption says, and potrace traces every outline from the page.
       </p>
       <ol className="process__steps">
         {STEPS.map(([name, text]) => (
@@ -779,7 +893,7 @@ function Process() {
             )}
             {waiting.length > 0 && (
               <>
-                <h3 className="process__h3">On the shelf, not yet made into faces</h3>
+                <h3 className="process__h3">On the shelf, not yet struck</h3>
                 <p className="family__caption">
                   Older books name a size &ldquo;Great Primer&rdquo; or &ldquo;Two-Line Pica&rdquo;, and the German,
                   French and Dutch ones use their own words. The tools find the large type in these books but cannot
@@ -802,6 +916,7 @@ function Process() {
 
 function App() {
   const { index, error } = useIndex();
+  const books = useBooks();
   const route = useHash();
   const [query, setQuery] = useState("");
   return (
@@ -812,7 +927,7 @@ function App() {
         </a>
         {route.face || route.process ? (
           <a className="topbar__link" href="#/">
-            All faces
+            All strikes
           </a>
         ) : (
           <input
@@ -820,9 +935,9 @@ function App() {
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search faces"
+            placeholder="Search strikes"
             spellCheck={false}
-            aria-label="Search faces"
+            aria-label="Search strikes"
           />
         )}
         <a className="topbar__link topbar__link--end" href="#/process">
@@ -836,9 +951,9 @@ function App() {
       {route.process ? (
         <Process />
       ) : route.face ? (
-        <FamilyPage name={route.face} />
+        <FamilyPage name={route.face} index={index} />
       ) : index ? (
-        <Index index={index} query={query} />
+        <Index index={index} query={query} books={books} />
       ) : (
         !error && <p className="app__loading">Loading…</p>
       )}

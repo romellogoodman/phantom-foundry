@@ -638,3 +638,23 @@ img {
     }
   }
 }
+
+.family__lacking {
+  letter-spacing: 0.08em;
+  color: var(--color-text);
+}
+
+.family__code {
+  font: inherit;
+  color: var(--color-text);
+  white-space: nowrap;
+}
+
+.browse__more {
+  margin: var(--spacing-3x) var(--gutter);
+  align-self: flex-start;
+}
+
+.controls__book {
+  max-width: 22em;
+}
