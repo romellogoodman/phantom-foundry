@@ -14,6 +14,8 @@ books/*/ocr/
 books/*/sheets/
 # per-leaf surveys are rebuilt by `catalog`; catalog.json (every band's position) anchors the readings.
 books/*/survey/
+# raw answers of the model readers; books/<id>/reader.jsonl is the committed record
+books/.reader-cache/
 
 # Vercel link (the project root directory is website/)
 .vercel

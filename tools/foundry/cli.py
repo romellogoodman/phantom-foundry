@@ -112,6 +112,15 @@ def found(face: str, book: str = typer.Option(..., "--book"), series: str = type
     _out(_found(face, Book(book), series, title=title, leaves=_leaf_list(leaves)))
 
 
+@app.command("read-models")
+def read_models(archive_id: str, budget: float = typer.Option(5.0, help="stop sending bands once this many dollars are spent"),
+                concurrency: int = typer.Option(32)):
+    """Have two small vision models read every unread band of the book's faces; keep only what they agree on."""
+    from .book import Book
+    from .reader import read_book
+    _out(read_book(Book(archive_id), budget=budget, concurrency=concurrency))
+
+
 @app.command()
 def read(archive_id: str, leaf: int = typer.Option(None, "--leaf", "-l"), band: int = typer.Option(None, "--band", "-b"),
          text: str = typer.Option(None, "--text", "-t", help="one character per numbered box, spaces between words; empty = not type"),
