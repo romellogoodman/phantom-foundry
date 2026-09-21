@@ -189,6 +189,55 @@ NOT_TYPE = re.compile(r"border|ornament|\brule|dash|initial|brass|corner|combina
 _NOTES = re.compile(r"\((?:cast|on|point|uniform|line|body|set|standard|\s)+\)", re.I)
 
 
+# Most American books after 1895 name the series once, at the head of the page
+# ("NIAGARA SERIES", "Florentine Heavyface"), and caption each showing with its
+# size alone: "36 POINT", "48 Point 3 A $4 15", "6 Point Font $2 00", "24 Point No. 70".
+CAPTION_BARE = re.compile(r"^(?:\d+\s*A\b[^P]*?)?(\d{1,3})\s*[- ]?\s*Point\b", re.I)
+_NOT_A_NAME = {"font", "fonts", "price", "per", "complete", "body", "on", "no", "and", "caps", "only"}
+# the running head over the series heading, never the series itself
+RUNNING_HEAD = re.compile(r"type\s*found|foundry|founders|company|\bco\b|bros|philadelphia|chicago|new york|"
+                          r"st\.? louis|boston|cincinnati|cleveland|specimen|price|\bpages?\b|catalog", re.I)
+
+
+# page headings over showings of sorts, not of a face
+NOT_A_SERIES = re.compile(r"accent|figures|sundries|parenthes|\bbody type|\bjob type|\bwords?\b|number|"
+                          r"\bsizes?\b|\bindex\b|contents|continued|\border\b|weights|\bNo\.?$", re.I)
+
+
+def parse_bare_caption(text: str) -> dict | None:
+    """'36 POINT', '6 Point Font $2 00 28 A $0 85' → the size, no series: the
+    page heading names it. None when the caption carries a name of its own."""
+    m = CAPTION_BARE.match(_NOTES.sub(" ", text.strip()))
+    if not m or parse_caption(text):
+        return None
+    size = int(m.group(1))
+    if not 4 <= size <= 144:
+        return None
+    return {"size": size, "unit": "pt", "series": None, "line": f"{size}pt"}
+
+
+def series_heading(lines: list[dict], H: int, first_caption_y: float) -> str | None:
+    """The series a page of bare captions shows: a line of words in the head of
+    the page, above the first caption, that is not the foundry's running head.
+    One that says "… Series" wins; otherwise the tallest."""
+    found = []
+    for ln in lines:
+        if ln["y1"] > min(0.25 * H, first_caption_y) or ln["y1"] - ln["y0"] < 30:
+            continue
+        words = [w["text"] for w in ln["words"] if re.fullmatch(r"[A-Za-z][A-Za-z'&.-]*", w["text"])]
+        text = " ".join(words)
+        if not 1 <= len(words) <= 6 or len(text) < 4 or len(words) < 0.6 * len(ln["words"]):
+            continue
+        if RUNNING_HEAD.search(text) or NOT_TYPE.search(text) or NOT_A_SERIES.search(text):
+            continue
+        named = bool(re.search(r"\bSeries$", text, re.I))
+        found.append((named, ln["y1"] - ln["y0"], re.sub(r"\s+Series$", "", text, flags=re.I)))
+    if not found:
+        return None
+    name = max(found)[2].strip()
+    return _title(name.lower()) if len(name) >= 4 else None
+
+
 def parse_caption(text: str) -> dict | None:
     """'4 A 7a 42 Point Cadillac Condensed 8¾ lbs., $5.25' → 42 pt, series
     'Cadillac Condensed', line name '42pt'. Wood type: 'No. 266— Class L .
@@ -207,14 +256,20 @@ def parse_caption(text: str) -> dict | None:
                 num = re.sub(r"[Il]", "1", toks[i + 1])       # OCR reads "111" as "Ill"
                 words += ["No.", num]                         # a numbered series: "Topic No. 5"
                 break
+            dashed = tok != tok.rstrip("—–-")               # "Unique Celtic— Two-Line Pica": the name ends here
+            tok = tok.rstrip("—–-")
             if _JUNK.search(tok) or "lbs" in tok.lower():
                 break
             tok = _ABBR.get(tok.rstrip(".,;:").lower(), tok.strip(".,;:"))
             if tok:
                 words.append(tok)
+            if dashed:
+                break
         series = re.sub(r"\s+Series$", "", " ".join(words), flags=re.I).strip()
         if len(series) < 3 or not re.search(r"[A-Za-z]{3}", series):
             return None
+        if all(w.lower().strip(".") in _NOT_A_NAME or w.isdigit() for w in words):
+            return None                                        # "Font", "No. 70": a size caption with no name
         return {"size": size, "unit": "pt", "series": _title(series), "line": f"{size}pt"}
     m = CAPTION_WOOD.match(t)
     if m:
@@ -244,6 +299,7 @@ def leaf_furniture(ocr: dict) -> dict:
     H = size[1] or 1
     folio, heading, captions = None, None, []
     blockers = []          # caption-like lines, parsed or not: a showing boundary
+    bares = []             # size-only captions; the page heading names their series
     heads = []
     lines = list(ocr["lines"])
     # wood type sometimes prints the series and the size on two short lines:
@@ -274,10 +330,22 @@ def leaf_furniture(ocr: dict) -> dict:
         cap = parse_caption(ln["text"])
         if cap:
             captions.append({**cap, "y0": ln["y0"], "y1": ln["y1"], "text": ln["text"]})
+        elif bare := parse_bare_caption(ln["text"]):
+            bares.append({**bare, "y0": ln["y0"], "y1": ln["y1"], "text": ln["text"]})
         elif re.search(r"\bPoint\b|\bLine,|lbs|\$\d|^\d+\s*A\s+\d+", ln["text"]):
             blockers.append({"y0": ln["y0"], "y1": ln["y1"], "text": ln["text"]})
     if heads:
         heading = _title(max(heads)[1])
+    if bares:
+        firsts = [c["y0"] for c in captions + bares + blockers]
+        # a page that names the series in its captions is not a heading-style page:
+        # there a bare "48 Point" is a caption whose name the OCR lost, and stays a boundary
+        series = None if captions else series_heading(joined, H, min(firsts))
+        for c in bares:
+            if series:
+                captions.append({**c, "series": series, "from_heading": True})
+            else:
+                blockers.append({"y0": c["y0"], "y1": c["y1"], "text": c["text"]})
     return {"page": folio, "heading": heading, "captions": sorted(captions, key=lambda c: c["y0"]),
             "blockers": blockers}
 
