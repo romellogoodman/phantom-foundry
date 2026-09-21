@@ -57,3 +57,13 @@ def test_a_mislabeled_cut_is_flagged(tmp_path, monkeypatch):
 def test_clean_face_has_no_flags(tmp_path, monkeypatch):
     f = _face(tmp_path, monkeypatch, [("L", "ell"), ("L.six", "ell"), ("O", "ring"), ("O.six", "ring")])
     assert audit(f)["flags"] == []
+
+
+def test_an_unread_face_is_skipped_not_failed(tmp_path, monkeypatch):
+    import foundry.face as face_mod
+    from foundry.build import build
+    monkeypatch.setattr(face_mod, "FACES_DIR", tmp_path)
+    f = Face("unread-face")
+    f.glyphs.mkdir(parents=True)
+    f.manifest_path.write_text("glyph,unicode,leaf,line,band,category,x,y,w,h,notes\n")
+    assert build(f) == {"face": "unread-face", "ran": [], "skipped": [], "unread": True, "seconds": 0.0}

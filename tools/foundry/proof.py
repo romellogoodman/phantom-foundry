@@ -192,6 +192,11 @@ def run_checks(face: Face, data: dict, entries, glyph_iou: dict, font) -> dict:
         for sk in json.loads(labels.read_text()).get("skipped", []):
             items.append({"level": "info" if "not type" in sk["why"] else "warn", "check": "unlabeled_band",
                           "leaf": sk["leaf"], "band": sk["band"], "note": sk["why"]})
+    from .audit import audit
+    for fl in audit(face)["flags"]:                 # a wrong label on a good outline: the worst error a strike can carry
+        items.append({"level": "warn", "check": "label", "glyph": fl["glyph"], "value": fl["likeness"],
+                      "leaf": fl["leaf"], "band": fl["band"],
+                      "note": f"{fl['check']}: is this cut the letter its label says?"})
     encoded = sum(1 for g in font if g.unicodes and g.name != "space") if font is not None else 0
     if encoded < 10:
         items.append({"level": "warn", "check": "few_glyphs", "value": encoded, "note": "fewer than ten encoded glyphs"})

@@ -80,7 +80,18 @@ def link_specimens(face: Face) -> list[int]:
     return linked
 
 
+def unread(face: Face) -> bool:
+    """Founded, but no line of it has been labeled yet: nothing to cut, and an
+    empty UFO makes fontmake exit. Such a face is skipped, not failed."""
+    if not face.manifest_path.exists():
+        return True
+    with face.manifest_path.open() as f:
+        return sum(1 for _ in f) < 2
+
+
 def build(face: Face, stages: list[str] | None = None, force: bool = False) -> dict:
+    if unread(face):
+        return {"face": face.name, "ran": [], "skipped": [], "unread": True, "seconds": 0.0}
     link_specimens(face)
     stamp_path = face.log / "build.json"
     stamps = json.loads(stamp_path.read_text()) if stamp_path.exists() else {}
@@ -158,7 +169,8 @@ def build_many(names: list[str], jobs: int = 4, force: bool = False) -> dict:
     results.sort(key=lambda r: r["face"])
     errors = [r for r in results if r.get("error")]
     return {"faces": len(names), "built": sum(1 for r in results if r.get("ran")),
-            "unchanged": sum(1 for r in results if r.get("ran") == []), "errors": errors,
+            "unchanged": sum(1 for r in results if r.get("ran") == [] and not r.get("unread")),
+            "unread": [r["face"] for r in results if r.get("unread")], "errors": errors,
             "results": results}
 
 
