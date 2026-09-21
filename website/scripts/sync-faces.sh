@@ -25,4 +25,5 @@ for face in "$root"/faces/*/; do
   n=$((n + 1))
 done
 cp "$root/showing/showing.json" public/proofs/index.json
+"$root/.venv/bin/python" scripts/books-index.py    # the shelf, for the process page
 echo "synced $n faces, $(ls public/fonts | wc -l | tr -d ' ') fonts, $(du -sh public | cut -f1) in public/"

@@ -567,3 +567,74 @@ img {
     vertical-align: bottom;
   }
 }
+
+// -- how a face is made ------------------------------------------------------------
+
+.process {
+  &__steps {
+    list-style: none;
+    padding: 0;
+    margin: var(--spacing-6x) 0 0;
+    max-width: 900px;
+    counter-reset: step;
+  }
+
+  &__step {
+    display: grid;
+    grid-template-columns: 11em minmax(0, 1fr);
+    gap: var(--spacing-2x);
+    padding: var(--spacing-2x) 0;
+    border-top: 1px solid var(--color-rule);
+    counter-increment: step;
+
+    &:first-child {
+      border-top-color: var(--color-text);
+    }
+
+    @media (max-width: 640px) {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 4px;
+    }
+  }
+
+  &__name {
+    font-size: 1rem;
+    font-weight: 700;
+
+    &::before {
+      content: counter(step) "\2002";
+      color: var(--color-text-light);
+      font-weight: 400;
+    }
+  }
+
+  &__text {
+    color: var(--color-text-light);
+    max-width: 62ch;
+    text-wrap: pretty;
+  }
+
+  &__h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: var(--spacing-6x) 0 4px;
+  }
+
+  &__title {
+    display: block;
+    color: var(--color-text-light);
+    font-size: 0.8125rem;
+  }
+
+  &__table {
+    td,
+    th {
+      white-space: nowrap;
+
+      &:first-child {
+        white-space: normal;
+        overflow-wrap: anywhere;
+      }
+    }
+  }
+}

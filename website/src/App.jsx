@@ -68,7 +68,7 @@ function useHash() {
     return () => window.removeEventListener("hashchange", on);
   }, []);
   const m = hash.match(/^#\/face\/([^/?]+)/);
-  return { face: m ? decodeURIComponent(m[1]) : null };
+  return { face: m ? decodeURIComponent(m[1]) : null, process: /^#\/process/.test(hash) };
 }
 
 // Each face's font is loaded once, on first sight, through the FontFace API.
@@ -677,6 +677,127 @@ function FamilyPage({ name }) {
   );
 }
 
+// -- how it is made, and from which books ---------------------------------------
+
+const STEPS = [
+  ["Shelve", "A whole specimen book is fetched from the Internet Archive: every page as the library scanned it, and the archive\u2019s text recognition for the small print."],
+  ["Catalog", "Each page is searched for lines of large type. Every letter shape on a line gets a box, and the caption beside it, or the heading over the page, says which typeface and size the line shows."],
+  ["Found", "A typeface that is shown large enough, with enough letters, becomes a face: a folder holding its source pages and a record of where everything came from."],
+  ["Read", "Someone has to say which letter is in each box. Two small vision models read every line separately, and a line counts only when both give the same letters and the count fits the boxes. The rest wait for a stronger reader or a person. The archive\u2019s own text recognition gets about one letter in five wrong on display type, so it is only ever a cross-check."],
+  ["Cut and cast", "Each labelled box is cropped from the scan, cleaned to black and white and traced into an outline with potrace."],
+  ["Sort and justify", "The outlines are scaled onto one baseline and cap height, and the space beside each letter is set from the gaps measured on the printed page."],
+  ["Proof", "The font is compiled, then set against the lines it came from. Checks flag a trace that strays from its scan or a letter that does not fit its line, and those faces are looked at first."],
+];
+
+function useBooks() {
+  const [books, setBooks] = useState(null);
+  useEffect(() => {
+    let cancelled = false;
+    fetch(`${PROOFS}/books.json`)
+      .then((r) => r.json())
+      .then((d) => !cancelled && setBooks(d.books || []))
+      .catch(() => !cancelled && setBooks([]));
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+  return books;
+}
+
+function Process() {
+  const books = useBooks();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  const given = (books || []).filter((b) => b.faces > 0);
+  const waiting = (books || []).filter((b) => !b.faces);
+  const row = (b) => (
+    <tr key={b.id}>
+      <td>
+        <a className="link" href={b.url} target="_blank" rel="noreferrer">
+          {b.issuer || b.title}
+        </a>
+        <span className="process__title">{b.issuer ? b.title : ""}</span>
+      </td>
+      <td>{b.year || ""}</td>
+      <td>{b.leaves ? b.leaves.toLocaleString() : ""}</td>
+      <td>{b.lines != null ? b.lines.toLocaleString() : ""}</td>
+      <td>{b.faces || ""}</td>
+    </tr>
+  );
+  const head = (
+    <thead>
+      <tr>
+        <th>Book</th>
+        <th>Year</th>
+        <th>Pages scanned</th>
+        <th>Lines of large type</th>
+        <th>Faces</th>
+      </tr>
+    </thead>
+  );
+  return (
+    <div className="page process">
+      <h1 className="family__name">How a face is made</h1>
+      <p className="family__caption">
+        Every font here starts as ink on a page. The work is done by a chain of small programs that pass plain files
+        to one another, so each step can be opened, checked and run again. None of it starts from another font file.
+      </p>
+      <ol className="process__steps">
+        {STEPS.map(([name, text]) => (
+          <li key={name} className="process__step">
+            <h2 className="process__name">{name}</h2>
+            <p className="process__text">{text}</p>
+          </li>
+        ))}
+      </ol>
+      <section className="family__section">
+        <h2 className="family__h2">What is kept</h2>
+        <p className="family__caption">
+          A face&rsquo;s record is small: which box on which page is which letter, who read it, the measurements and
+          the log of every step. From that record and the scanned book, the tools rebuild every crop, outline and
+          font exactly. Early faces keep only the record. Once a person starts correcting a face by hand, all of it is
+          kept.
+        </p>
+      </section>
+      <section className="family__section">
+        <h2 className="family__h2">The books</h2>
+        <p className="family__caption">
+          All of them are in the public domain and were scanned by libraries for the Internet Archive. Typeface
+          designs cannot be copyrighted in the United States, though font files can, which is why the letters are
+          taken from print.
+        </p>
+        {books === null ? (
+          <p className="app__loading">Loading…</p>
+        ) : (
+          <>
+            {given.length > 0 && (
+              <table className="table process__table">
+                {head}
+                <tbody>{given.map(row)}</tbody>
+              </table>
+            )}
+            {waiting.length > 0 && (
+              <>
+                <h3 className="process__h3">On the shelf, not yet made into faces</h3>
+                <p className="family__caption">
+                  Older books name a size &ldquo;Great Primer&rdquo; or &ldquo;Two-Line Pica&rdquo;, and the German,
+                  French and Dutch ones use their own words. The tools find the large type in these books but cannot
+                  yet tell which typeface each line belongs to.
+                </p>
+                <table className="table process__table">
+                  {head}
+                  <tbody>{waiting.map(row)}</tbody>
+                </table>
+              </>
+            )}
+          </>
+        )}
+      </section>
+    </div>
+  );
+}
+
 // -- app ----------------------------------------------------------------------
 
 function App() {
@@ -689,7 +810,7 @@ function App() {
         <a className="topbar__brand" href="#/">
           Phantom Foundry
         </a>
-        {route.face ? (
+        {route.face || route.process ? (
           <a className="topbar__link" href="#/">
             All faces
           </a>
@@ -704,12 +825,17 @@ function App() {
             aria-label="Search faces"
           />
         )}
-        <a className="topbar__link topbar__link--end" href={REPO} target="_blank" rel="noreferrer">
+        <a className="topbar__link topbar__link--end" href="#/process">
+          How it&rsquo;s made
+        </a>
+        <a className="topbar__link" href={REPO} target="_blank" rel="noreferrer">
           GitHub
         </a>
       </header>
       {error && <p className="app__error">Could not load the index: {error}</p>}
-      {route.face ? (
+      {route.process ? (
+        <Process />
+      ) : route.face ? (
         <FamilyPage name={route.face} />
       ) : index ? (
         <Index index={index} query={query} />
