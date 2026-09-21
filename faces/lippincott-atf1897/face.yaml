@@ -1,0 +1,163 @@
+name: lippincott-atf1897
+title: Lippincott
+series: Lippineott
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 384
+leaf_pages:
+  384: 382
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      384:60pt: 30.5
+      384:48pt: 26.1
+      384:38pt: 27.2
+  x_height: 478
+lines:
+  384:60pt:
+    n_caps: 7
+    cap_height_px: 425
+    cap_source: caps
+    baseline_px: 1137.5
+    baselines:
+      '1': 1137.5
+      '2': 1730
+    glyphs:
+    - M
+    - u
+    - s
+    - i
+    - c
+    - B
+    - o
+    - x
+    - T
+    - U
+    - N
+    - E
+    - S
+    x_height_px: 290.0
+    stem_px: 18
+    scale: 1.64706
+    stem_units: 29.6
+    x_height: 478
+  384:48pt:
+    n_caps: 8
+    cap_height_px: 349.0
+    cap_source: caps
+    baseline_px: 2480.5
+    baselines:
+      '3': 2480.5
+      '4': 2973.5
+    glyphs:
+    - B.48pt
+    - r
+    - a
+    - v
+    - e
+    - C
+    - o.48pt
+    - u.48pt
+    - n
+    - t
+    - H
+    - O
+    - N.48pt
+    - O.48pt
+    - R
+    - S.48pt
+    x_height_px: 234.0
+    stem_px: 34.0
+    scale: 2.00573
+    stem_units: 68.2
+    x_height: 469
+  384:38pt:
+    n_caps: 10
+    cap_height_px: 257.5
+    cap_source: caps
+    baseline_px: 3609.5
+    baselines:
+      '5': 3609.5
+      '6': 3988.0
+    glyphs:
+    - S.38pt
+    - e.38pt
+    - a.38pt
+    - s.38pt
+    - i.38pt
+    - d
+    - e.38pt_2
+    - R.38pt
+    - e.38pt_3
+    - s.38pt_2
+    - o.38pt
+    - r.38pt
+    - t.38pt
+    - s.38pt_3
+    - R.38pt_2
+    - O.38pt
+    - M.38pt
+    - A
+    - N.38pt
+    - T.38pt
+    - I
+    - C.38pt
+    x_height_px: 176.0
+    stem_px: 16.5
+    scale: 2.71845
+    stem_units: 44.9
+    x_height: 478
+specimen_lines:
+- leaf: 384
+  line: 60pt
+  text: Music Box
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 384
+  line: 60pt
+  text: TUNES
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 384
+  line: 48pt
+  text: Brave Count
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 384
+  line: 48pt
+  text: HONORS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 384
+  line: 38pt
+  text: Seaside Resorts
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 384
+  line: 38pt
+  text: ROMANTIC
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Lippineott
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

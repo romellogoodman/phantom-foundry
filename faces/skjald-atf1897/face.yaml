@@ -1,0 +1,92 @@
+name: skjald-atf1897
+title: Skjald
+series: Skjhld
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 504
+leaf_pages:
+  504: 502
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      504:60pt: 40.5
+      504:48pt: 37.3
+  x_height: 551
+lines:
+  504:60pt:
+    n_caps: 1
+    cap_height_px: 449
+    cap_source: caps
+    baseline_px: 1286
+    baselines:
+      '1': 1286
+    glyphs:
+    - P
+    - a
+    - i
+    - n
+    - e
+    - d
+    - six
+    x_height_px: 359
+    figure_height_px: 451
+    stem_px: 45
+    scale: 1.55902
+    stem_units: 70.2
+    x_height: 560
+    figure_height: 703
+  504:48pt:
+    n_caps: 2
+    cap_height_px: 365.5
+    cap_source: caps
+    baseline_px: 2202.5
+    baselines:
+      '2': 2202.5
+    glyphs:
+    - H
+    - a.48pt
+    - r
+    - d.48pt
+    - F
+    - a.48pt_2
+    - t
+    - e.48pt
+    x_height_px: 283.0
+    stem_px: 27.0
+    scale: 1.91518
+    stem_units: 51.7
+    x_height: 542
+specimen_lines:
+- leaf: 504
+  line: 60pt
+  text: Pained 6
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 504
+  line: 48pt
+  text: Hard Fate
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Skjhld
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

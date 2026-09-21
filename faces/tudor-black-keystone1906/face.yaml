@@ -1,0 +1,244 @@
+name: tudor-black-keystone1906
+title: Tudor Black
+series: Tudor Black
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 280
+  - 281
+  - 298
+  - 299
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      281:72pt: 41.8
+      299:72pt: 43.5
+      299:48pt: 52.9
+      281:42pt: 41.8
+      281:36pt: 52.9
+      299:36pt: 58.2
+      299:24pt: 34.9
+  x_height: 500
+lines:
+  281:72pt:
+    n_caps: 1
+    cap_height_px: 368
+    cap_source: caps
+    baseline_px: 3430
+    baselines:
+      '7': 3430
+    glyphs:
+    - E
+    - m
+    - b
+    - l
+    - e
+    - m.72pt
+    x_height_px: 262
+    stem_px: 12
+    scale: 1.90217
+    stem_units: 22.8
+    x_height: 498
+  299:72pt:
+    n_caps: 1
+    cap_height_px: 370
+    cap_source: caps
+    baseline_px: 3266
+    baselines:
+      '5': 3266
+    glyphs:
+    - M
+    - e.72pt
+    - r
+    - k
+    - u
+    - r.72pt
+    - exclam
+    x_height_px: 262
+    stem_px: 40
+    scale: 1.89189
+    stem_units: 75.7
+    x_height: 496
+  299:48pt:
+    n_caps: 1
+    cap_height_px: 258
+    cap_source: caps
+    baseline_px: 2594
+    baselines:
+      '4': 2594
+    glyphs:
+    - E.48pt
+    - i
+    - s
+    - e.48pt
+    - n
+    - b.48pt
+    - a
+    - h
+    - n.48pt
+    x_height_px: 186.5
+    stem_px: 13
+    scale: 2.71318
+    stem_units: 35.3
+    x_height: 506
+  281:42pt:
+    n_caps: 2
+    cap_height_px: 217.5
+    cap_source: caps
+    baseline_px: 2316.0
+    baselines:
+      '5': 2316.0
+    glyphs:
+    - R
+    - o
+    - m.42pt
+    - a.42pt
+    - n.42pt
+    - L
+    - a.42pt_2
+    - w
+    - s.42pt
+    x_height_px: 167
+    stem_px: 15.5
+    scale: 3.21839
+    stem_units: 49.9
+    x_height: 537
+  281:36pt:
+    n_caps: 2
+    cap_height_px: 178.5
+    cap_source: caps
+    baseline_px: 1594.5
+    baselines:
+      '3': 1594.5
+    glyphs:
+    - T
+    - y
+    - p
+    - e.36pt
+    - S
+    - e.36pt_2
+    - l.36pt
+    - e.36pt_3
+    - c
+    - t
+    - i.36pt
+    - o.36pt
+    - n.36pt
+    - s.36pt
+    x_height_px: 129.0
+    stem_px: 9.5
+    scale: 3.92157
+    stem_units: 37.3
+    x_height: 506
+  299:36pt:
+    n_caps: 2
+    cap_height_px: 180.5
+    cap_source: caps
+    baseline_px: 1522.5
+    baselines:
+      '2': 1522.5
+    glyphs:
+    - S.36pt
+    - u.36pt
+    - c.36pt
+    - h.36pt
+    - t.36pt
+    - H
+    - a.36pt
+    - r.36pt
+    - m.36pt
+    - o.36pt_2
+    - n.36pt_2
+    - i.36pt_2
+    - e.36pt_4
+    x_height_px: 129
+    stem_px: 15.0
+    scale: 3.87812
+    stem_units: 58.2
+    x_height: 500
+  299:24pt:
+    n_caps: 2
+    cap_height_px: 160.5
+    cap_source: caps
+    baseline_px: 1075.5
+    baselines:
+      '1': 1075.5
+    glyphs:
+    - F
+    - l.24pt
+    - u.24pt
+    - c.24pt
+    - h.24pt
+    - t.24pt
+    - m.24pt
+    - e.24pt
+    - i.24pt
+    - n.24pt
+    - e.24pt_2
+    - M.24pt
+    - a.24pt
+    - c.24pt_2
+    - h.24pt_2
+    - t.24pt_2
+    x_height_px: 113.0
+    stem_px: 22.5
+    scale: 4.36137
+    stem_units: 98.1
+    x_height: 493
+specimen_lines:
+- leaf: 281
+  line: 72pt
+  text: Emblem
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 299
+  line: 72pt
+  text: Merkur !
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 299
+  line: 48pt
+  text: Eisenbahn ?
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 281
+  line: 42pt
+  text: Roman Laws
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 281
+  line: 36pt
+  text: Type Selections
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 299
+  line: 36pt
+  text: Sucht Harmonie
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 299
+  line: 24pt
+  text: Flucht meine Macht
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

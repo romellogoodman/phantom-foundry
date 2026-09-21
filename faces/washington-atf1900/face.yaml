@@ -1,0 +1,219 @@
+name: washington-atf1900
+title: Washington
+series: Washington
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 425
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      425:60pt: 59.3
+      425:54pt: 63.3
+      425:48pt: 66.9
+      425:42pt: 77.4
+      425:36pt: 69.2
+      425:24pt: 57.3
+  x_height: 512
+lines:
+  425:60pt:
+    n_caps: 5
+    cap_height_px: 378
+    cap_source: caps
+    baseline_px: 1057
+    baselines:
+      '1': 1057
+    glyphs:
+    - R
+    - I
+    - C
+    - H
+    - M
+    - a
+    - n
+    x_height_px: 229.5
+    stem_px: 38
+    scale: 1.85185
+    stem_units: 70.4
+    x_height: 425
+  425:54pt:
+    n_caps: 5
+    cap_height_px: 271
+    cap_source: caps
+    baseline_px: 1492
+    baselines:
+      '2': 1492
+    glyphs:
+    - D
+    - e
+    - a.54pt
+    - r
+    - G
+    - A
+    - M.54pt
+    - E
+    x_height_px: 194
+    stem_px: 33
+    scale: 2.58303
+    stem_units: 85.2
+    x_height: 501
+  425:48pt:
+    n_caps: 6
+    cap_height_px: 246.0
+    cap_source: caps
+    baseline_px: 1977.0
+    baselines:
+      '3': 1977.0
+    glyphs:
+    - F
+    - R.48pt
+    - I.48pt
+    - E.48pt
+    - D.48pt
+    - C.48pt
+    - r.48pt
+    - a.48pt
+    - b
+    - s
+    x_height_px: 175.5
+    stem_px: 30.0
+    scale: 2.84553
+    stem_units: 85.4
+    x_height: 499
+  425:42pt:
+    n_caps: 5
+    cap_height_px: 217
+    cap_source: caps
+    baseline_px: 2429
+    baselines:
+      '4': 2429
+    glyphs:
+    - B
+    - e.42pt
+    - s.42pt
+    - t
+    - N
+    - E.42pt
+    - W
+    - D.42pt
+    - i
+    - s.42pt_2
+    - h
+    x_height_px: 166.5
+    stem_px: 27
+    scale: 3.22581
+    stem_units: 87.1
+    x_height: 537
+  425:36pt:
+    n_caps: 9
+    cap_height_px: 167
+    cap_source: caps
+    baseline_px: 2866
+    baselines:
+      '5': 2866
+    glyphs:
+    - T
+    - I.36pt
+    - N.36pt
+    - P
+    - a.36pt
+    - n.36pt
+    - F.36pt
+    - l
+    - a.36pt_2
+    - t.36pt
+    - R.36pt
+    - I.36pt_2
+    - M.36pt
+    - S
+    x_height_px: 125
+    stem_px: 20
+    scale: 4.19162
+    stem_units: 83.8
+    x_height: 524
+  425:24pt:
+    n_caps: 12
+    cap_height_px: 110.0
+    cap_source: caps
+    baseline_px: 3198.5
+    baselines:
+      '6': 3198.5
+    glyphs:
+    - D.24pt
+    - a.24pt
+    - i.24pt
+    - l.24pt
+    - y
+    - R.24pt
+    - I.24pt
+    - D.24pt_2
+    - E.24pt
+    - S.24pt
+    - N.24pt
+    - O
+    - V
+    - E.24pt_2
+    - L
+    - W.24pt
+    - h.24pt
+    - a.24pt_2
+    - l.24pt_2
+    - e.24pt
+    - r.24pt
+    - s.24pt
+    x_height_px: 87.0
+    stem_px: 15.0
+    scale: 6.36364
+    stem_units: 95.5
+    x_height: 554
+specimen_lines:
+- leaf: 425
+  line: 60pt
+  text: RICH Man
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 425
+  line: 54pt
+  text: Dear GAME
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 425
+  line: 48pt
+  text: FRIED Crabs
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 425
+  line: 42pt
+  text: Best NEW Dish
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 425
+  line: 36pt
+  text: TIN Pan Flat RIMS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 425
+  line: 24pt
+  text: Daily RIDES NOVEL Whalers
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

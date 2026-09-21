@@ -1,0 +1,105 @@
+name: alaskan-atf1898
+title: Alaskan
+series: Alaskan
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 466
+leaf_pages:
+  466: 625
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      466:48pt: 131.0
+      466:36pt: 83.6
+      466:24pt: 133.6
+lines:
+  466:48pt:
+    n_caps: 4
+    cap_height_px: 320.5
+    cap_source: caps
+    baseline_px: 848.0
+    baselines:
+      '2': 848.0
+    glyphs:
+    - D
+    - I
+    - M
+    - E
+    stem_px: 48.5
+    scale: 2.18409
+    stem_units: 105.9
+  466:36pt:
+    n_caps: 4
+    cap_height_px: 234.5
+    cap_source: caps
+    baseline_px: 1338.0
+    baselines:
+      '3': 1338.0
+    glyphs:
+    - E.36pt
+    - N
+    - D.36pt
+    - S
+    - four
+    figure_height_px: 235
+    stem_px: 36.5
+    scale: 2.98507
+    stem_units: 109.0
+    figure_height: 701
+  466:24pt:
+    n_caps: 5
+    cap_height_px: 152
+    cap_source: caps
+    baseline_px: 1743
+    baselines:
+      '4': 1743
+    glyphs:
+    - five
+    - six
+    - B
+    - O
+    - U
+    - N.24pt
+    - D.24pt
+    figure_height_px: 155.0
+    stem_px: 26
+    scale: 4.60526
+    stem_units: 119.7
+    figure_height: 714
+specimen_lines:
+- leaf: 466
+  line: 48pt
+  text: DIME
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 466
+  line: 36pt
+  text: ENDS 4
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 466
+  line: 24pt
+  text: 56 BOUND
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

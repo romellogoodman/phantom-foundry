@@ -1,0 +1,144 @@
+name: tabard-atf1906
+title: Tabard
+series: Tabard
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 316
+leaf_pages:
+  316: 266
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      316:72pt: 17.5
+      316:48pt: 26.9
+      316:36pt: 18.5
+  x_height: 331
+lines:
+  316:72pt:
+    n_caps: 5
+    cap_height_px: 320
+    cap_source: caps
+    baseline_px: 723
+    baselines:
+      '1': 723
+    glyphs:
+    - R
+    - O
+    - O.72pt
+    - M
+    - E
+    - x
+    - h
+    - i
+    - b
+    - i.72pt
+    - t
+    x_height_px: 214.5
+    stem_px: 41
+    scale: 2.1875
+    stem_units: 89.7
+    x_height: 469
+  316:48pt:
+    n_caps: 9
+    cap_height_px: 208
+    cap_source: caps
+    baseline_px: 1646
+    baselines:
+      '3': 1646
+    glyphs:
+    - G
+    - E.48pt
+    - R.48pt
+    - M.48pt
+    - A
+    - N
+    - I
+    - C
+    - N.48pt
+    - a
+    - t.48pt
+    - i.48pt
+    - o
+    - n
+    - a.48pt
+    - l
+    - s
+    x_height_px: 97.5
+    stem_px: 26
+    scale: 3.36538
+    stem_units: 87.5
+    x_height: 328
+  316:36pt:
+    n_caps: 11
+    cap_height_px: 151
+    cap_source: caps
+    baseline_px: 2030
+    baselines:
+      '4': 2030
+    glyphs:
+    - S
+    - e
+    - n.36pt
+    - s.36pt
+    - a.36pt
+    - t.36pt
+    - i.36pt
+    - o.36pt
+    - n.36pt_2
+    - a.36pt_2
+    - l.36pt
+    - C.36pt
+    - h.36pt
+    - a.36pt_3
+    - i.36pt_2
+    - n.36pt_3
+    - P
+    - E.36pt
+    - R.36pt
+    - F
+    - E.36pt_2
+    - C.36pt_2
+    - T
+    - E.36pt_3
+    - D
+    x_height_px: 71.5
+    stem_px: 20
+    scale: 4.63576
+    stem_units: 92.7
+    x_height: 331
+specimen_lines:
+- leaf: 316
+  line: 72pt
+  text: ROOM Exhibit
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 316
+  line: 48pt
+  text: GERMANIC Nationals
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 316
+  line: 36pt
+  text: Sensational Chain PERFECTED
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

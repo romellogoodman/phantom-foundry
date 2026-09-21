@@ -1,0 +1,118 @@
+name: art-gothic-boston1889
+title: Art Gothic
+series: Art Gothic
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 194
+leaf_pages:
+  194: 188
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      194:48pt: 61.8
+      194:36pt: 58.7
+  x_height: 478
+lines:
+  194:48pt:
+    n_caps: 2
+    cap_height_px: 204.0
+    cap_source: caps
+    baseline_px: 2260.5
+    baselines:
+      '5': 2260.5
+    glyphs:
+    - M
+    - o
+    - d
+    - e
+    - r
+    - n
+    - P
+    - h
+    - i
+    - l
+    - o.48pt
+    - s
+    - o.48pt_2
+    - p
+    - h.48pt
+    - y
+    x_height_px: 136.0
+    stem_px: 13.0
+    scale: 3.43137
+    stem_units: 44.6
+    x_height: 467
+  194:36pt:
+    n_caps: 4
+    cap_height_px: 143.0
+    cap_source: caps
+    baseline_px: 2607.0
+    baselines:
+      '6': 2607.0
+    glyphs:
+    - S
+    - t
+    - r.36pt
+    - a
+    - n.36pt
+    - g
+    - e.36pt
+    - H
+    - o.36pt
+    - r.36pt_2
+    - r.36pt_3
+    - i.36pt
+    - d.36pt
+    - M.36pt
+    - i.36pt_2
+    - d.36pt_2
+    - n.36pt_2
+    - i.36pt_3
+    - g.36pt
+    - h.36pt
+    - t.36pt
+    - P.36pt
+    - h.36pt_2
+    - a.36pt
+    - n.36pt_3
+    - t.36pt_2
+    - o.36pt_2
+    - m
+    - s.36pt
+    x_height_px: 100
+    stem_px: 10.0
+    scale: 4.8951
+    stem_units: 49.0
+    x_height: 490
+specimen_lines:
+- leaf: 194
+  line: 48pt
+  text: Modern Philosophy
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 194
+  line: 36pt
+  text: Strange Horrid Midnight Phantoms
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

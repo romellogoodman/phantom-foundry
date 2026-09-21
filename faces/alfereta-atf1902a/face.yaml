@@ -1,0 +1,181 @@
+name: alfereta-atf1902a
+title: Alfereta
+series: Alfereta
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 296
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      296:36pt: 69.3
+      296:30pt: 43.5
+      296:24pt: 49.2
+  x_height: 399
+lines:
+  296:36pt:
+    n_caps: 2
+    cap_height_px: 192.0
+    cap_source: caps
+    baseline_px: 865.0
+    baselines:
+      '1': 865.0
+    glyphs:
+    - N
+    - a
+    - t
+    - i
+    - o
+    - n
+    - a.36pt
+    - l
+    - C
+    - a.36pt_2
+    - n.36pt
+    - d
+    - i.36pt
+    - d.36pt
+    - a.36pt_3
+    - t.36pt
+    - e
+    x_height_px: 110
+    stem_px: 7.5
+    scale: 3.64583
+    stem_units: 27.3
+    x_height: 401
+  296:30pt:
+    n_caps: 5
+    cap_height_px: 161
+    cap_source: caps
+    baseline_px: 1577
+    baselines:
+      '3': 1577
+      '4': 1799.0
+    glyphs:
+    - M
+    - u
+    - s
+    - i.30pt
+    - c
+    - a.30pt
+    - l.30pt
+    - F
+    - e.30pt
+    - s.30pt
+    - t.30pt
+    - i.30pt_2
+    - v
+    - a.30pt_2
+    - l.30pt_2
+    - O
+    - p
+    - e.30pt_2
+    - n.30pt
+    - e.30pt_3
+    - d.30pt
+    - O.30pt
+    - r
+    - c.30pt
+    - h
+    - e.30pt_4
+    - s.30pt_2
+    - t.30pt_2
+    - r.30pt
+    - a.30pt_3
+    - l.30pt_3
+    - E
+    - x
+    - e.30pt_5
+    - r.30pt_2
+    - c.30pt_2
+    - i.30pt_3
+    - s.30pt_3
+    - e.30pt_6
+    - s.30pt_4
+    x_height_px: 91
+    stem_px: 9
+    scale: 4.34783
+    stem_units: 39.1
+    x_height: 396
+  296:24pt:
+    n_caps: 3
+    cap_height_px: 128
+    cap_source: caps
+    baseline_px: 2211
+    baselines:
+      '5': 2211
+    glyphs:
+    - P
+    - h.24pt
+    - o.24pt
+    - t.24pt
+    - o.24pt_2
+    - g
+    - r.24pt
+    - a.24pt
+    - p.24pt
+    - h.24pt_2
+    - i.24pt
+    - c.24pt
+    - V
+    - i.24pt_2
+    - e.24pt
+    - w
+    - s.24pt
+    - R
+    - e.24pt_2
+    - p.24pt_2
+    - r.24pt_2
+    - o.24pt_3
+    - d.24pt
+    - u.24pt
+    - c.24pt_2
+    - e.24pt_3
+    - d.24pt_2
+    x_height_px: 73.0
+    stem_px: 4
+    scale: 5.46875
+    stem_units: 21.9
+    x_height: 399
+specimen_lines:
+- leaf: 296
+  line: 36pt
+  text: National Candidate
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 296
+  line: 30pt
+  text: Musical Festival Opened
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 296
+  line: 30pt
+  text: Orchestral Exercises
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 296
+  line: 24pt
+  text: Photographic Views Reproduced
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

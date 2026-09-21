@@ -1,0 +1,65 @@
+name: roycroft-atf1923
+title: Roycroft
+series: Roy Croft
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 804
+leaf_pages:
+  804: 504
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      804:96pt: 6.3
+  x_height: 599
+lines:
+  804:96pt:
+    n_caps: 7
+    cap_height_px: 332
+    cap_source: caps
+    baseline_px: 1771
+    baselines:
+      '4': 1771
+    glyphs:
+    - N
+    - i
+    - g
+    - h
+    - H
+    - A
+    - B
+    - C
+    - F
+    - G
+    x_height_px: 284
+    stem_px: 11
+    scale: 2.10843
+    stem_units: 23.2
+    x_height: 599
+specimen_lines:
+- leaf: 804
+  line: 96pt
+  text: Nigh HABCFG
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Roy Croft
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

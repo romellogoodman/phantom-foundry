@@ -1,0 +1,96 @@
+name: facade-atf1898
+title: Facade
+series: Facade
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 346
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      346:42pt: 43.7
+      346:36pt: 53.4
+lines:
+  346:42pt:
+    n_caps: 10
+    cap_height_px: 272.5
+    cap_source: caps
+    baseline_px: 2907.5
+    baselines:
+      '5': 2907.5
+    glyphs:
+    - seven
+    - G
+    - O
+    - V
+    - E
+    - R
+    - N
+    - M
+    - E.42pt
+    - N.42pt
+    - T
+    figure_height_px: 278
+    stem_px: 15.5
+    scale: 2.56881
+    stem_units: 39.8
+    figure_height: 714
+  346:36pt:
+    n_caps: 12
+    cap_height_px: 223.0
+    cap_source: caps
+    baseline_px: 3407.0
+    baselines:
+      '6': 3407.0
+    glyphs:
+    - B
+    - R.36pt
+    - I
+    - N.36pt
+    - G.36pt
+    - P
+    - I.36pt
+    - C
+    - T.36pt
+    - U
+    - R.36pt_2
+    - E.36pt
+    - five
+    - four
+    figure_height_px: 225.0
+    stem_px: 13.0
+    scale: 3.13901
+    stem_units: 40.8
+    figure_height: 706
+specimen_lines:
+- leaf: 346
+  line: 42pt
+  text: 7 GOVERNMENT
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 346
+  line: 36pt
+  text: BRING PICTURE 54
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

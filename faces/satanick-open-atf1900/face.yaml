@@ -1,0 +1,130 @@
+name: satanick-open-atf1900
+title: Satanick Open
+series: Satanick Open
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 514
+leaf_pages:
+  514: 433
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      514:72pt: 12.1
+      514:60pt: 12.0
+      514:36pt: 14.2
+  x_height: 471
+lines:
+  514:72pt:
+    n_caps: 1
+    cap_height_px: 404
+    cap_source: caps
+    baseline_px: 1075
+    baselines:
+      '1': 1075
+    glyphs:
+    - S
+    - a
+    - t
+    - a.72pt
+    - n
+    - i
+    - c
+    - k
+    - eight
+    x_height_px: 272
+    figure_height_px: 390
+    stem_px: 14
+    scale: 1.73267
+    stem_units: 24.3
+    x_height: 471
+    figure_height: 676
+  514:60pt:
+    n_caps: 2
+    cap_height_px: 379.0
+    cap_source: caps
+    baseline_px: 1766.0
+    baselines:
+      '2': 1766.0
+    glyphs:
+    - L
+    - a.60pt
+    - n.60pt
+    - d
+    - three
+    - M
+    - a.60pt_2
+    - r
+    - k.60pt
+    x_height_px: 227.5
+    figure_height_px: 228
+    stem_px: 10.0
+    scale: 1.84697
+    stem_units: 18.5
+    x_height: 420
+    figure_height: 421
+  514:36pt:
+    n_caps: 2
+    cap_height_px: 196.5
+    cap_source: caps
+    baseline_px: 3421.0
+    baselines:
+      '5': 3421.0
+    glyphs:
+    - C
+    - u
+    - n.36pt
+    - a.36pt
+    - r.36pt
+    - d.36pt
+    - ampersand
+    - S.36pt
+    - t.36pt
+    - u.36pt
+    - a.36pt_2
+    - r.36pt_2
+    - t.36pt_2
+    - dollar
+    - two
+    x_height_px: 134.5
+    figure_height_px: 132
+    stem_px: 8.5
+    scale: 3.56234
+    stem_units: 30.3
+    x_height: 479
+    figure_height: 470
+specimen_lines:
+- leaf: 514
+  line: 72pt
+  text: Satanick 8
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 514
+  line: 60pt
+  text: Land 3 Mark
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 514
+  line: 36pt
+  text: Cunard & Stuart $ 2
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

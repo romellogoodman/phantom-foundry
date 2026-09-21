@@ -1,0 +1,182 @@
+name: globe-gothic-atf1912
+title: Globe Gothic
+series: Globe Gothic
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 786
+leaf_pages:
+  786: 764
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      786:120pt: 34.3
+      786:96pt: 42.1
+      786:72pt: 41.2
+      786:60pt: 41.4
+  x_height: 518
+lines:
+  786:120pt:
+    n_caps: 4
+    cap_height_px: 520.0
+    cap_source: caps
+    baseline_px: 870.0
+    baselines:
+      '1': 870.0
+    glyphs:
+    - R
+    - E
+    - D
+    - H
+    - a
+    - t
+    x_height_px: 415.0
+    stem_px: 104.5
+    scale: 1.34615
+    stem_units: 140.7
+    x_height: 559
+  786:96pt:
+    n_caps: 5
+    cap_height_px: 416
+    cap_source: caps
+    baseline_px: 1654
+    baselines:
+      '2': 1654
+    glyphs:
+    - G
+    - o
+    - l
+    - d
+    - M
+    - I
+    - N
+    - E.96pt
+    x_height_px: 413
+    stem_px: 74
+    scale: 1.68269
+    stem_units: 124.5
+    x_height: 695
+  786:72pt:
+    n_caps: 12
+    cap_height_px: 306.0
+    cap_source: caps
+    baseline_px: 2317.5
+    baselines:
+      '3': 2317.5
+      '4': 2725.5
+    glyphs:
+    - H.72pt
+    - U
+    - N.72pt
+    - T
+    - S
+    - K
+    - N.72pt_2
+    - I.72pt
+    - F
+    - E.72pt
+    - M.72pt
+    - o.72pt
+    - d.72pt
+    - e
+    - l.72pt
+    - H.72pt_2
+    - o.72pt_2
+    - u
+    - s
+    - e.72pt
+    - s.72pt
+    x_height_px: 209
+    stem_px: 50.0
+    scale: 2.28758
+    stem_units: 114.4
+    x_height: 478
+  786:60pt:
+    n_caps: 14
+    cap_height_px: 253.5
+    cap_source: caps
+    baseline_px: 3344
+    baselines:
+      '5': 3344
+      '6': 3689
+    glyphs:
+    - R.60pt
+    - E.60pt
+    - S.60pt
+    - U.60pt
+    - M.60pt
+    - E.60pt_2
+    - B
+    - O
+    - N.60pt
+    - D.60pt
+    - S.60pt_2
+    - S.60pt_3
+    - e.60pt
+    - a.60pt
+    - r
+    - c
+    - h
+    - O.60pt
+    - l.60pt
+    - d.60pt
+    - M.60pt_2
+    - i
+    - n
+    - e.60pt_2
+    - r.60pt
+    x_height_px: 172
+    stem_px: 38.0
+    scale: 2.76134
+    stem_units: 104.9
+    x_height: 475
+specimen_lines:
+- leaf: 786
+  line: 120pt
+  text: RED Hat
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 786
+  line: 96pt
+  text: Gold MINE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 786
+  line: 72pt
+  text: HUNTS KNIFE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 786
+  line: 72pt
+  text: Model Houses
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 786
+  line: 60pt
+  text: RESUME BONDS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 786
+  line: 60pt
+  text: Search Old Miner
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

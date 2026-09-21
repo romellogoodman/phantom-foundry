@@ -1,0 +1,148 @@
+name: webster-atf1900
+title: Webster
+series: Webster
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 489
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      489:36pt: 57.6
+      489:24pt: 62.6
+  x_height: 466
+lines:
+  489:36pt:
+    n_caps: 13
+    cap_height_px: 170
+    cap_source: caps
+    baseline_px: 844
+    baselines:
+      '1': 844
+      '2': 1133.5
+    glyphs:
+    - E
+    - N
+    - G
+    - I
+    - N.36pt
+    - E.36pt
+    - E.36pt_2
+    - R
+    - I.36pt
+    - N.36pt_2
+    - G.36pt
+    - M
+    - e
+    - c
+    - h
+    - a
+    - n
+    - i
+    - c.36pt
+    - a.36pt
+    - l
+    - L
+    - e.36pt
+    - s
+    - s.36pt
+    - o
+    - n.36pt
+    - s.36pt_2
+    x_height_px: 112
+    stem_px: 14
+    scale: 4.11765
+    stem_units: 57.6
+    x_height: 461
+  489:24pt:
+    n_caps: 15
+    cap_height_px: 123
+    cap_source: caps
+    baseline_px: 1662.5
+    baselines:
+      '3': 1662.5
+      '4': 1869
+    glyphs:
+    - G.24pt
+    - R.24pt
+    - A
+    - N.24pt
+    - D
+    - B
+    - A.24pt
+    - N.24pt_2
+    - Q
+    - U
+    - E.24pt
+    - T
+    - V
+    - i.24pt
+    - s.24pt
+    - i.24pt_2
+    - t
+    - i.24pt_3
+    - n.24pt
+    - g
+    - E.24pt_2
+    - u
+    - r
+    - o.24pt
+    - p
+    - e.24pt
+    - a.24pt
+    - n.24pt_2
+    - S
+    - t.24pt
+    - a.24pt_2
+    - t.24pt_2
+    - e.24pt_2
+    - s.24pt_2
+    - m
+    - e.24pt_3
+    - n.24pt_3
+    x_height_px: 83.0
+    stem_px: 9
+    scale: 5.69106
+    stem_units: 51.2
+    x_height: 472
+specimen_lines:
+- leaf: 489
+  line: 36pt
+  text: ENGINEERING
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 489
+  line: 36pt
+  text: Mechanical Lessons
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 489
+  line: 24pt
+  text: GRAND BANQU ET
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 489
+  line: 24pt
+  text: Visiting European Statesmen
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

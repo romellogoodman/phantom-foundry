@@ -1,0 +1,121 @@
+name: palo-alto-atf1902a
+title: Palo Alto
+series: Palo Alto
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 516
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      516:24pt: 31.8
+      516:18pt: 35.9
+lines:
+  516:24pt:
+    n_caps: 24
+    cap_height_px: 154.0
+    cap_source: caps
+    baseline_px: 3271.0
+    baselines:
+      '12': 3271.0
+    glyphs:
+    - C
+    - O
+    - N
+    - S
+    - T
+    - I
+    - T.24pt
+    - U
+    - T.24pt_2
+    - I.24pt
+    - O.24pt
+    - N.24pt
+    - R
+    - E
+    - C.24pt
+    - O.24pt_2
+    - N.24pt_2
+    - S.24pt
+    - I.24pt_2
+    - D
+    - E.24pt
+    - R.24pt
+    - E.24pt_2
+    - D.24pt
+    stem_px: 3.0
+    scale: 4.54545
+    stem_units: 13.6
+  516:18pt:
+    n_caps: 22
+    cap_height_px: 97.5
+    cap_source: caps
+    baseline_px: 3783.0
+    baselines:
+      '14': 3783.0
+    glyphs:
+    - E.18pt
+    - A
+    - R.18pt
+    - T.18pt
+    - H
+    - E.18pt_2
+    - N.18pt
+    - W
+    - A.18pt
+    - R.18pt_2
+    - E.18pt_3
+    - dollar
+    - three
+    - A.18pt_2
+    - D.18pt
+    - V
+    - A.18pt_3
+    - N.18pt_2
+    - C.18pt
+    - E.18pt_4
+    - M
+    - E.18pt_5
+    - N.18pt_3
+    - T.18pt_2
+    - dollar.18pt
+    - six
+    - eight
+    - seven
+    figure_height_px: 83.5
+    stem_px: 3.0
+    scale: 7.17949
+    stem_units: 21.5
+    figure_height: 599
+specimen_lines:
+- leaf: 516
+  line: 24pt
+  text: CONSTITUTION ~RECONSIDERED
+  band: 12
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 516
+  line: 18pt
+  text: EARTHENWARE $3 ADVANCEMENT $687
+  band: 14
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,138 @@
+name: old-style-bold-atf1900
+title: Old Style Bold
+series: Old Style Bold
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 570
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      570:48pt: 80.9
+      570:36pt: 59.1
+      570:24pt: 63.4
+  x_height: 491
+lines:
+  570:48pt:
+    n_caps: 3
+    cap_height_px: 251
+    cap_source: caps
+    baseline_px: 979
+    baselines:
+      '1': 979
+    glyphs:
+    - H
+    - E
+    - D
+    - u
+    - g
+    x_height_px: 219.5
+    stem_px: 66
+    scale: 2.78884
+    stem_units: 184.1
+    x_height: 612
+  570:36pt:
+    n_caps: 6
+    cap_height_px: 201.5
+    cap_source: caps
+    baseline_px: 1469.0
+    baselines:
+      '2': 1469.0
+      '3': 1773.5
+    glyphs:
+    - G
+    - E.36pt
+    - T
+    - S
+    - S.36pt
+    - u.36pt
+    - r
+    - e
+    - T.36pt
+    - i
+    - p
+    - s
+    x_height_px: 141.0
+    stem_px: 17.0
+    scale: 3.47395
+    stem_units: 59.1
+    x_height: 490
+  570:24pt:
+    n_caps: 10
+    cap_height_px: 132.5
+    cap_source: caps
+    baseline_px: 2213.5
+    baselines:
+      '4': 2213.5
+      '5': 2433.5
+    glyphs:
+    - C
+    - O
+    - L
+    - U
+    - M
+    - B
+    - I
+    - A
+    - G.24pt
+    - o
+    - o.24pt
+    - d
+    - C.24pt
+    - o.24pt_2
+    - u.24pt
+    - n
+    - t
+    - r.24pt
+    - y
+    x_height_px: 93
+    stem_px: 14.5
+    scale: 5.28302
+    stem_units: 76.6
+    x_height: 491
+specimen_lines:
+- leaf: 570
+  line: 48pt
+  text: HE Dug
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 570
+  line: 36pt
+  text: GETS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 570
+  line: 36pt
+  text: Sure Tips
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 570
+  line: 24pt
+  text: COLUMBIA
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 570
+  line: 24pt
+  text: Good Country
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

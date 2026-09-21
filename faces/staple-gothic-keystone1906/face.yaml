@@ -1,0 +1,130 @@
+name: staple-gothic-keystone1906
+title: Staple Gothic
+series: Staple Gothic
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 202
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      202:72pt: 49.9
+      202:60pt: 45.4
+  x_height: 525
+lines:
+  202:72pt:
+    n_caps: 10
+    cap_height_px: 378.5
+    cap_source: caps
+    baseline_px: 2317.5
+    baselines:
+      '3': 2317.5
+      '4': 2816.5
+    glyphs:
+    - P
+    - U
+    - R
+    - C
+    - H
+    - A
+    - S
+    - E
+    - B
+    - e
+    - l
+    - l.72pt
+    - f
+    - o
+    - r
+    - S.72pt
+    - c
+    - h
+    - o.72pt
+    - o.72pt_2
+    - l.72pt_2
+    x_height_px: 290
+    stem_px: 50.0
+    scale: 1.84941
+    stem_units: 92.5
+    x_height: 536
+  202:60pt:
+    n_caps: 12
+    cap_height_px: 316.0
+    cap_source: caps
+    baseline_px: 1253.0
+    baselines:
+      '1': 1253.0
+      '2': 1669.0
+    glyphs:
+    - B.60pt
+    - E.60pt
+    - W
+    - I
+    - L
+    - D
+    - E.60pt_2
+    - R.60pt
+    - E.60pt_3
+    - D.60pt
+    - L.60pt
+    - o.60pt
+    - s
+    - t
+    - i
+    - n
+    - t.60pt
+    - h.60pt
+    - e.60pt
+    - F
+    - o.60pt_2
+    - r.60pt
+    - e.60pt_2
+    - s.60pt
+    - t.60pt_2
+    x_height_px: 232
+    stem_px: 44.0
+    scale: 2.21519
+    stem_units: 97.5
+    x_height: 514
+specimen_lines:
+- leaf: 202
+  line: 72pt
+  text: PURCHASE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 202
+  line: 72pt
+  text: Bell for School
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 202
+  line: 60pt
+  text: BEWILDERED
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 202
+  line: 60pt
+  text: Lost in the Forest
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

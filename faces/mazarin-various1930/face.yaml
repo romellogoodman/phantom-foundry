@@ -1,0 +1,80 @@
+name: mazarin-various1930
+title: Mazarin
+series: Mazarin
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 112
+leaf_pages:
+  112: 100
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      112:72pt: 50.2
+      112:48pt: 86.9
+lines:
+  112:72pt:
+    n_caps: 6
+    cap_height_px: 307.0
+    cap_source: caps
+    baseline_px: 780.0
+    baselines:
+      '1': 780.0
+    glyphs:
+    - C
+    - H
+    - O
+    - P
+    - I
+    - N
+    stem_px: 43.5
+    scale: 2.28013
+    stem_units: 99.2
+  112:48pt:
+    n_caps: 8
+    cap_height_px: 233.5
+    cap_source: caps
+    baseline_px: 1160.0
+    baselines:
+      '2': 1160.0
+    glyphs:
+    - C.48pt
+    - O.48pt
+    - N.48pt
+    - C.48pt_2
+    - E
+    - R
+    - T
+    - S
+    stem_px: 24.0
+    scale: 2.99786
+    stem_units: 71.9
+specimen_lines:
+- leaf: 112
+  line: 72pt
+  text: CHOPIN
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 112
+  line: 48pt
+  text: CONCERTS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

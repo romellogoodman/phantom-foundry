@@ -1,0 +1,159 @@
+name: recut-caslon-atf1912
+title: Recut Caslon
+series: Recut Caslon
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 338
+leaf_pages:
+  338: 324
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      338:72pt: 29.2
+      338:66pt: 51.6
+      338:48pt: 40.0
+  x_height: 441
+lines:
+  338:72pt:
+    n_caps: 10
+    cap_height_px: 311.5
+    cap_source: caps
+    baseline_px: 1685.0
+    baselines:
+      '3': 1685.0
+      '4': 2086.5
+    glyphs:
+    - S
+    - T
+    - R
+    - A
+    - N
+    - G
+    - L
+    - E
+    - H
+    - a
+    - r
+    - d
+    - e
+    - s
+    - t
+    - M
+    - e.72pt
+    - t.72pt
+    - a.72pt
+    - l
+    x_height_px: 196.5
+    stem_px: 18.0
+    scale: 2.24719
+    stem_units: 40.4
+    x_height: 442
+  338:66pt:
+    n_caps: 9
+    cap_height_px: 278
+    cap_source: caps
+    baseline_px: 2605
+    baselines:
+      '5': 2605
+    glyphs:
+    - M.66pt
+    - E.66pt
+    - C
+    - H.66pt
+    - A.66pt
+    - N.66pt
+    - I
+    - C.66pt
+    - S.66pt
+    stem_px: 13
+    scale: 2.51799
+    stem_units: 32.7
+  338:48pt:
+    n_caps: 14
+    cap_height_px: 210.0
+    cap_source: caps
+    baseline_px: 3398.0
+    baselines:
+      '7': 3398.0
+      '8': 3664.5
+    glyphs:
+    - S.48pt
+    - T.48pt
+    - Y
+    - L.48pt
+    - E.48pt
+    - B
+    - I.48pt
+    - N.48pt
+    - D
+    - I.48pt_2
+    - N.48pt_2
+    - G.48pt
+    - D.48pt
+    - e.48pt
+    - c
+    - o
+    - r.48pt
+    - a.48pt
+    - t.48pt
+    - o.48pt
+    - r.48pt_2
+    - H.48pt
+    - o.48pt_2
+    - l.48pt
+    - i
+    - d.48pt
+    - a.48pt_2
+    - y
+    - s.48pt
+    x_height_px: 132
+    stem_px: 27.5
+    scale: 3.33333
+    stem_units: 91.7
+    x_height: 440
+specimen_lines:
+- leaf: 338
+  line: 72pt
+  text: STRANGLE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 338
+  line: 72pt
+  text: Hardest Metal
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 338
+  line: 66pt
+  text: MECHANICS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 338
+  line: 48pt
+  text: STYLE BINDING
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 338
+  line: 48pt
+  text: Decorator Holidays
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

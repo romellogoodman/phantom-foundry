@@ -1,0 +1,164 @@
+name: condensed-atf1900
+title: Condensed
+series: Condensed
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 584
+leaf_pages:
+  584: 30
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      584:48pt: 37.2
+      584:42pt: 39.8
+      584:30pt: 45.4
+      584:20pt: 55.8
+lines:
+  584:48pt:
+    n_caps: 10
+    cap_height_px: 339.0
+    cap_source: caps
+    baseline_px: 1648.0
+    baselines:
+      '2': 1648.0
+    glyphs:
+    - T
+    - R
+    - A
+    - D
+    - E
+    - R.48pt
+    - I
+    - S
+    - K
+    - S.48pt
+    stem_px: 11.0
+    scale: 2.0649
+    stem_units: 22.7
+  584:42pt:
+    n_caps: 14
+    cap_height_px: 255.0
+    cap_source: caps
+    baseline_px: 2138.0
+    baselines:
+      '3': 2138.0
+    glyphs:
+    - P
+    - R.42pt
+    - E.42pt
+    - C
+    - I.42pt
+    - S.42pt
+    - E.42pt_2
+    - C.42pt
+    - O
+    - R.42pt_2
+    - N
+    - E.42pt_3
+    - R.42pt_3
+    - S.42pt_2
+    stem_px: 4.5
+    scale: 2.7451
+    stem_units: 12.4
+  584:30pt:
+    n_caps: 15
+    cap_height_px: 185
+    cap_source: caps
+    baseline_px: 2607
+    baselines:
+      '4': 2607
+    glyphs:
+    - F
+    - O.30pt
+    - U
+    - N.30pt
+    - D.30pt
+    - R.30pt
+    - Y
+    - L
+    - A.30pt
+    - U.30pt
+    - G
+    - H
+    - I.30pt
+    - N.30pt_2
+    - G.30pt
+    stem_px: 9
+    scale: 3.78378
+    stem_units: 34.1
+  584:20pt:
+    n_caps: 24
+    cap_height_px: 113.0
+    cap_source: caps
+    baseline_px: 2972.5
+    baselines:
+      '5': 2972.5
+    glyphs:
+    - L.20pt
+    - E.20pt
+    - G.20pt
+    - I.20pt
+    - S.20pt
+    - L.20pt_2
+    - A.20pt
+    - T.20pt
+    - I.20pt_2
+    - V
+    - E.20pt_2
+    - G.20pt_2
+    - U.20pt
+    - I.20pt_3
+    - T.20pt_2
+    - A.20pt_2
+    - R.20pt
+    - C.20pt
+    - O.20pt
+    - N.20pt
+    - C.20pt_2
+    - E.20pt_3
+    - R.20pt_2
+    - T.20pt_3
+    stem_px: 7.0
+    scale: 6.19469
+    stem_units: 43.4
+specimen_lines:
+- leaf: 584
+  line: 48pt
+  text: TRADE RISKS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 584
+  line: 42pt
+  text: PRECISE CORNERS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 584
+  line: 30pt
+  text: FOUNDRY LAUGHING
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 584
+  line: 20pt
+  text: LEGISLATIVE GUITAR CONCERT
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

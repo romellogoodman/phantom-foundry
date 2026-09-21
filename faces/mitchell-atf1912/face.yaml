@@ -1,0 +1,120 @@
+name: mitchell-atf1912
+title: Mitchell
+series: Mitchell
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 714
+leaf_pages:
+  714: 692
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      714:36pt: 170.0
+      714:30pt: 175.0
+      714:24pt: 187.1
+lines:
+  714:36pt:
+    n_caps: 10
+    cap_height_px: 175.0
+    cap_source: caps
+    baseline_px: 514.0
+    baselines:
+      '1': 514.0
+    glyphs:
+    - F
+    - I
+    - S
+    - H
+    - E
+    - R
+    - H.36pt
+    - O
+    - M
+    - E.36pt
+    stem_px: 21.0
+    scale: 4.0
+    stem_units: 84.0
+  714:30pt:
+    n_caps: 13
+    cap_height_px: 144
+    cap_source: caps
+    baseline_px: 879
+    baselines:
+      '2': 879
+    glyphs:
+    - S.30pt
+    - I.30pt
+    - N
+    - G
+    - E.30pt
+    - R.30pt
+    - I.30pt_2
+    - M.30pt
+    - P
+    - R.30pt_2
+    - I.30pt_3
+    - N.30pt
+    - T
+    stem_px: 18
+    scale: 4.86111
+    stem_units: 87.5
+  714:24pt:
+    n_caps: 13
+    cap_height_px: 116
+    cap_source: caps
+    baseline_px: 1211
+    baselines:
+      '3': 1211
+    glyphs:
+    - M.24pt
+    - O.24pt
+    - N.24pt
+    - E.24pt
+    - Y
+    - E.24pt_2
+    - X
+    - P.24pt
+    - E.24pt_3
+    - N.24pt_2
+    - D
+    - E.24pt_4
+    - D.24pt
+    stem_px: 15
+    scale: 6.03448
+    stem_units: 90.5
+specimen_lines:
+- leaf: 714
+  line: 36pt
+  text: FISHER HOME
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 714
+  line: 30pt
+  text: SINGER IMPRINT
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 714
+  line: 24pt
+  text: MONEY EXPENDED
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

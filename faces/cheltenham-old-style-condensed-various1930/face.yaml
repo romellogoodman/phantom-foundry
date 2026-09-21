@@ -1,0 +1,152 @@
+name: cheltenham-old-style-condensed-various1930
+title: Cheltenham Old Style Condensed
+series: Cheltenham Old Style Condensed
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 80
+leaf_pages:
+  80: 68
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      80:60pt: 15.0
+      80:48pt: 18.7
+      80:42pt: 17.1
+  x_height: 394
+lines:
+  80:60pt:
+    n_caps: 2
+    cap_height_px: 233.0
+    cap_source: caps
+    baseline_px: 1173.5
+    baselines:
+      '2': 1173.5
+    glyphs:
+    - D
+    - e
+    - l
+    - e.60pt
+    - g
+    - a
+    - t
+    - e.60pt_2
+    - s
+    - t.60pt
+    - o
+    - A
+    - t.60pt_2
+    - t.60pt_3
+    - e.60pt_3
+    - n
+    - d
+    x_height_px: 131
+    stem_px: 17.5
+    scale: 3.00429
+    stem_units: 52.6
+    x_height: 394
+  80:48pt:
+    n_caps: 2
+    cap_height_px: 187.5
+    cap_source: caps
+    baseline_px: 1579.0
+    baselines:
+      '3': 1579.0
+    glyphs:
+    - C
+    - o.48pt
+    - n.48pt
+    - d.48pt
+    - i
+    - t.48pt
+    - i.48pt
+    - o.48pt_2
+    - n.48pt_2
+    - o.48pt_3
+    - f
+    - M
+    - a.48pt
+    - c
+    - h
+    - i.48pt_2
+    - n.48pt_3
+    - e.48pt
+    - r
+    - y
+    x_height_px: 108.0
+    stem_px: 12.5
+    scale: 3.73333
+    stem_units: 46.7
+    x_height: 403
+  80:42pt:
+    n_caps: 3
+    cap_height_px: 164
+    cap_source: caps
+    baseline_px: 1946
+    baselines:
+      '4': 1946
+    glyphs:
+    - S
+    - e.42pt
+    - t.42pt
+    - t.42pt_2
+    - l.42pt
+    - e.42pt_2
+    - m
+    - e.42pt_3
+    - n.42pt
+    - t.42pt_3
+    - o.42pt
+    - f.42pt
+    - G
+    - e.42pt_4
+    - n.42pt_2
+    - e.42pt_5
+    - r.42pt
+    - a.42pt
+    - l.42pt_2
+    - S.42pt
+    - t.42pt_4
+    - r.42pt_2
+    - i.42pt
+    - k
+    - e.42pt_6
+    x_height_px: 90.0
+    stem_px: 11
+    scale: 4.26829
+    stem_units: 47.0
+    x_height: 384
+specimen_lines:
+- leaf: 80
+  line: 60pt
+  text: Delegates to Attend
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 80
+  line: 48pt
+  text: Condition of Machinery
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 80
+  line: 42pt
+  text: Settlement of General Strike
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

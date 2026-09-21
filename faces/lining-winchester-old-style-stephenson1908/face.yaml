@@ -1,0 +1,128 @@
+name: lining-winchester-old-style-stephenson1908
+title: Lining Winchester Old Style.
+series: Lining Winchester Old Style.
+status: proto
+version: 0.1.0
+book: specimensofpoint00step
+source:
+  archive_id: specimensofpoint00step
+  title: 'Specimens of point line type : borders ornaments brass rules &c. &c'
+  creator:
+  - Stephenson, Blake and Company, Ltd
+  - Sir Charles Reed & Sons
+  publisher: 'Toronto : Stephenson, Blake & Co.'
+  date: '1908'
+  ppi: 350
+  url: https://archive.org/details/specimensofpoint00step
+  copyright_status: null
+  contributor: Fisher - University of Toronto
+  leaves:
+  - 74
+leaf_pages:
+  74: 106
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      74:72pt: 50.4
+      74:60pt: 76.9
+      74:48pt: 46.2
+  x_height: 382
+lines:
+  74:72pt:
+    n_caps: 5
+    cap_height_px: 278
+    cap_source: caps
+    baseline_px: 761
+    baselines:
+      '1': 761
+    glyphs:
+    - H
+    - O
+    - M
+    - E
+    - P
+    - r
+    - o
+    - d
+    - u
+    - c
+    - t
+    x_height_px: 156.0
+    stem_px: 28
+    scale: 2.51799
+    stem_units: 70.5
+    x_height: 393
+  74:60pt:
+    n_caps: 12
+    cap_height_px: 227.5
+    cap_source: caps
+    baseline_px: 3101.0
+    baselines:
+      '3': 3101.0
+    glyphs:
+    - C
+    - H.60pt
+    - O.60pt
+    - I
+    - C.60pt
+    - E.60pt
+    - S
+    - E.60pt_2
+    - R
+    - I.60pt
+    - E.60pt_3
+    - S.60pt
+    stem_px: 16.0
+    scale: 3.07692
+    stem_units: 49.2
+  74:48pt:
+    n_caps: 2
+    cap_height_px: 227.5
+    cap_source: caps
+    baseline_px: 3393.5
+    baselines:
+      '4': 3393.5
+    glyphs:
+    - E.48pt
+    - c.48pt
+    - o.48pt
+    - n
+    - o.48pt_2
+    - m
+    - i
+    - c.48pt_2
+    - D
+    - e
+    - s
+    - i.48pt
+    - g
+    - n.48pt
+    - s.48pt
+    x_height_px: 121
+    stem_px: 18.5
+    scale: 3.07692
+    stem_units: 56.9
+    x_height: 372
+specimen_lines:
+- leaf: 74
+  line: 72pt
+  text: HOME Product
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 74
+  line: 60pt
+  text: CHOICE SERIES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 74
+  line: 48pt
+  text: Economic Designs
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

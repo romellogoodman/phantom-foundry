@@ -1,0 +1,150 @@
+name: boldface-atf1902a
+title: Boldface
+series: Boldface
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 553
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      553:48pt: 41.9
+      553:36pt: 61.9
+      553:30pt: 31.3
+  x_height: 463
+lines:
+  553:48pt:
+    n_caps: 5
+    cap_height_px: 234
+    cap_source: caps
+    baseline_px: 896
+    baselines:
+      '1': 896
+    glyphs:
+    - K
+    - I
+    - N
+    - G
+    - R
+    - u
+    - l
+    - e
+    - r
+    - s
+    x_height_px: 149
+    stem_px: 7
+    scale: 2.99145
+    stem_units: 20.9
+    x_height: 446
+  553:36pt:
+    n_caps: 8
+    cap_height_px: 169.5
+    cap_source: caps
+    baseline_px: 1276.5
+    baselines:
+      '2': 1276.5
+    glyphs:
+    - B
+    - a
+    - n
+    - k
+    - e.36pt
+    - r.36pt
+    - C
+    - O
+    - N.36pt
+    - V
+    - I.36pt
+    - C.36pt
+    - T
+    x_height_px: 112
+    stem_px: 10.0
+    scale: 4.12979
+    stem_units: 41.3
+    x_height: 463
+  553:30pt:
+    n_caps: 16
+    cap_height_px: 134.0
+    cap_source: caps
+    baseline_px: 1640
+    baselines:
+      '3': 1640
+      '4': 1853
+    glyphs:
+    - F
+    - A
+    - R.30pt
+    - M
+    - M.30pt
+    - A.30pt
+    - C.30pt
+    - H
+    - I.30pt
+    - N.30pt
+    - E
+    - R.30pt_2
+    - Y
+    - S
+    - a.30pt
+    - v
+    - e.30pt
+    - s.30pt
+    - G.30pt
+    - r.30pt
+    - a.30pt_2
+    - n.30pt
+    - g
+    - e.30pt_2
+    - r.30pt_2
+    - L
+    - a.30pt_3
+    - b
+    - o
+    - r.30pt_3
+    x_height_px: 101.0
+    stem_px: 5.0
+    scale: 5.22388
+    stem_units: 26.1
+    x_height: 528
+specimen_lines:
+- leaf: 553
+  line: 48pt
+  text: KING Rulers
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 553
+  line: 36pt
+  text: Banker CONVICT
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 553
+  line: 30pt
+  text: FARM MACHINERY
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 553
+  line: 30pt
+  text: Saves Granger Labor
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

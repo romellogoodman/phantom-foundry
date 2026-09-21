@@ -1,0 +1,99 @@
+name: lining-britannic-stephenson1908
+title: Lining Britannic.
+series: Lining Britannic.
+status: proto
+version: 0.1.0
+book: specimensofpoint00step
+source:
+  archive_id: specimensofpoint00step
+  title: 'Specimens of point line type : borders ornaments brass rules &c. &c'
+  creator:
+  - Stephenson, Blake and Company, Ltd
+  - Sir Charles Reed & Sons
+  publisher: 'Toronto : Stephenson, Blake & Co.'
+  date: '1908'
+  ppi: 350
+  url: https://archive.org/details/specimensofpoint00step
+  copyright_status: null
+  contributor: Fisher - University of Toronto
+  leaves:
+  - 270
+leaf_pages:
+  270: 358
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      270:42pt: 35.2
+      270:36pt: 52.9
+lines:
+  270:42pt:
+    n_caps: 0
+    cap_height_px: 159
+    cap_source: ascenders
+    baseline_px: 2257
+    baselines:
+      '5': 2257
+    glyphs:
+    - five
+    - six
+    - seven
+    - eight
+    - nine
+    - three
+    - four
+    - five.42pt
+    - six.42pt
+    - seven.42pt
+    - eight.42pt
+    - nine.42pt
+    - zero
+    - five.42pt_2
+    - eight.42pt_2
+    - nine.42pt_2
+    - zero.42pt
+    figure_height_px: 92
+    scale: 4.40252
+    figure_height: 405
+  270:36pt:
+    n_caps: 0
+    cap_height_px: 178.5
+    cap_source: ascenders
+    baseline_px: 1965.0
+    baselines:
+      '4': 1965.0
+    glyphs:
+    - seven.36pt
+    - eight.36pt
+    - nine.36pt
+    - zero.36pt
+    - five.36pt
+    - six.36pt
+    - seven.36pt_2
+    - eight.36pt_2
+    - nine.36pt_2
+    - zero.36pt_2
+    - six.36pt_2
+    - seven.36pt_3
+    - nine.36pt_3
+    - zero.36pt_3
+    figure_height_px: 129.0
+    scale: 3.92157
+    figure_height: 506
+specimen_lines:
+- leaf: 270
+  line: 42pt
+  text: 56789 34567890 58 90
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 270
+  line: 36pt
+  text: 7890 567890 6 790
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

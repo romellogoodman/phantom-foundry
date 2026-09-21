@@ -1,0 +1,130 @@
+name: grasset-atf1906
+title: Grasset
+series: Grasset
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 312
+leaf_pages:
+  312: 262
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      312:60pt: 59.6
+      312:48pt: 33.9
+      312:36pt: 47.0
+  x_height: 439
+lines:
+  312:60pt:
+    n_caps: 6
+    cap_height_px: 223.0
+    cap_source: caps
+    baseline_px: 626.0
+    baselines:
+      '1': 626.0
+    glyphs:
+    - B
+    - R
+    - I
+    - D
+    - E
+    - H
+    - e
+    - a
+    - r
+    - s
+    x_height_px: 134.5
+    stem_px: 37.5
+    scale: 3.13901
+    stem_units: 117.7
+    x_height: 422
+  312:48pt:
+    n_caps: 6
+    cap_height_px: 175.5
+    cap_source: caps
+    baseline_px: 1018.5
+    baselines:
+      '2': 1018.5
+    glyphs:
+    - F
+    - l
+    - o
+    - w
+    - e.48pt
+    - r.48pt
+    - s.48pt
+    - F.48pt
+    - R.48pt
+    - E.48pt
+    - S
+    - H.48pt
+    x_height_px: 110.0
+    stem_px: 22.0
+    scale: 3.9886
+    stem_units: 87.7
+    x_height: 439
+  312:36pt:
+    n_caps: 7
+    cap_height_px: 134
+    cap_source: caps
+    baseline_px: 1359
+    baselines:
+      '3': 1359
+    glyphs:
+    - B.36pt
+    - R.36pt
+    - O
+    - O.36pt
+    - D.36pt
+    - S.36pt
+    - E.36pt
+    - s.36pt
+    - t
+    - a.36pt
+    - b
+    - l.36pt
+    - i
+    - s.36pt_2
+    - h
+    - e.36pt
+    - d
+    x_height_px: 108.0
+    stem_px: 20
+    scale: 5.22388
+    stem_units: 104.5
+    x_height: 564
+specimen_lines:
+- leaf: 312
+  line: 60pt
+  text: BRIDE Hears ~
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 312
+  line: 48pt
+  text: Flowers FRESH
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 312
+  line: 36pt
+  text: BROODS Established
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

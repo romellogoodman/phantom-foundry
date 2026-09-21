@@ -1,0 +1,197 @@
+name: railroad-gothic-atf1912
+title: Railroad Gothic
+series: Railroad Gothic
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 780
+leaf_pages:
+  780: 758
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      780:120pt: 44.7
+      780:96pt: 52.4
+      780:84pt: 59.4
+      780:72pt: 64.4
+      780:60pt: 60.2
+      780:54pt: 74.7
+lines:
+  780:120pt:
+    n_caps: 7
+    cap_height_px: 548
+    cap_source: caps
+    baseline_px: 905
+    baselines:
+      '1': 905
+    glyphs:
+    - R
+    - E
+    - M
+    - I
+    - N
+    - D
+    - S
+    stem_px: 101
+    scale: 1.27737
+    stem_units: 129.0
+  780:96pt:
+    n_caps: 9
+    cap_height_px: 441
+    cap_source: caps
+    baseline_px: 1582
+    baselines:
+      '2': 1582
+    glyphs:
+    - F
+    - U
+    - R.96pt
+    - N.96pt
+    - I.96pt
+    - T
+    - U.96pt
+    - R.96pt_2
+    - E.96pt
+    stem_px: 81
+    scale: 1.5873
+    stem_units: 128.6
+  780:84pt:
+    n_caps: 9
+    cap_height_px: 389
+    cap_source: caps
+    baseline_px: 2206
+    baselines:
+      '3': 2206
+    glyphs:
+    - S.84pt
+    - O
+    - M.84pt
+    - E.84pt
+    - N.84pt
+    - I.84pt
+    - G
+    - H
+    - T.84pt
+    stem_px: 72
+    scale: 1.79949
+    stem_units: 129.6
+  780:72pt:
+    n_caps: 10
+    cap_height_px: 337.0
+    cap_source: caps
+    baseline_px: 2769.0
+    baselines:
+      '4': 2769.0
+    glyphs:
+    - M.72pt
+    - I.72pt
+    - X
+    - E.72pt
+    - R.72pt
+    - S.72pt
+    - H.72pt
+    - O.72pt
+    - M.72pt_2
+    - E.72pt_2
+    stem_px: 65.0
+    scale: 2.07715
+    stem_units: 135.0
+  780:60pt:
+    n_caps: 13
+    cap_height_px: 279
+    cap_source: caps
+    baseline_px: 3261
+    baselines:
+      '5': 3261
+    glyphs:
+    - B
+    - O.60pt
+    - U.60pt
+    - G.60pt
+    - H.60pt
+    - T.60pt
+    - C
+    - A
+    - B.60pt
+    - I.60pt
+    - N.60pt
+    - E.60pt
+    - T.60pt_2
+    stem_px: 54
+    scale: 2.50896
+    stem_units: 135.5
+  780:54pt:
+    n_caps: 14
+    cap_height_px: 253.0
+    cap_source: caps
+    baseline_px: 3718.5
+    baselines:
+      '6': 3718.5
+    glyphs:
+    - T.54pt
+    - R.54pt
+    - U.54pt
+    - S.54pt
+    - T.54pt_2
+    - I.54pt
+    - N.54pt
+    - G.54pt
+    - B.54pt
+    - U.54pt_2
+    - G.54pt_2
+    - L
+    - E.54pt
+    - R.54pt_2
+    stem_px: 48.0
+    scale: 2.7668
+    stem_units: 132.8
+specimen_lines:
+- leaf: 780
+  line: 120pt
+  text: REMINDS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 780
+  line: 96pt
+  text: FURNITURE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 780
+  line: 84pt
+  text: SOME NIGHT
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 780
+  line: 72pt
+  text: MIXERS HOME
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 780
+  line: 60pt
+  text: BOUGHT CABINET
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 780
+  line: 54pt
+  text: TRUSTING BUGLER
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

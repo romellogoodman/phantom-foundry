@@ -1,0 +1,62 @@
+name: duerer-atf1896
+title: Duerer.
+series: Duerer.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 466
+leaf_pages:
+  466: 462
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      466:36pt: 36.4
+lines:
+  466:36pt:
+    n_caps: 10
+    cap_height_px: 231.0
+    cap_source: caps
+    baseline_px: 3609.0
+    baselines:
+      '5': 3609.0
+    glyphs:
+    - D
+    - I
+    - S
+    - C
+    - H
+    - A
+    - R
+    - G
+    - E
+    - D.36pt
+    stem_px: 27.0
+    scale: 3.0303
+    stem_units: 81.8
+specimen_lines:
+- leaf: 466
+  line: 36pt
+  text: DISCHARGED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

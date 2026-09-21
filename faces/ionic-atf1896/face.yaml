@@ -1,0 +1,215 @@
+name: ionic-atf1896
+title: Ionic.
+series: Ionic.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 256
+  - 257
+leaf_pages:
+  256: 252
+  257: 253
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      256:48pt: 12.1
+      256:42pt: 17.4
+      256:32pt: 30.4
+      256:24pt: 32.7
+      257:20pt: 51.0
+  x_height: 510
+lines:
+  256:48pt:
+    n_caps: 1
+    cap_height_px: 290
+    cap_source: caps
+    baseline_px: 2048
+    baselines:
+      '3': 2048
+    glyphs:
+    - G
+    - a
+    - l
+    - l.48pt
+    - e
+    - y
+    - a.48pt
+    - n
+    - d
+    x_height_px: 274.0
+    stem_px: 31
+    scale: 2.41379
+    stem_units: 74.8
+    x_height: 661
+  256:42pt:
+    n_caps: 5
+    cap_height_px: 282
+    cap_source: caps
+    baseline_px: 1640
+    baselines:
+      '2': 1640
+    glyphs:
+    - C
+    - H
+    - A
+    - S
+    - E
+    stem_px: 29
+    scale: 2.48227
+    stem_units: 72.0
+  256:32pt:
+    n_caps: 5
+    cap_height_px: 207
+    cap_source: caps
+    baseline_px: 2557
+    baselines:
+      '4': 2557
+    glyphs:
+    - L
+    - A.32pt
+    - B
+    - O
+    - R
+    stem_px: 30
+    scale: 3.38164
+    stem_units: 101.4
+  256:24pt:
+    n_caps: 10
+    cap_height_px: 150.0
+    cap_source: caps
+    baseline_px: 3341.0
+    baselines:
+      '6': 3341.0
+      '7': 3586.0
+    glyphs:
+    - H.24pt
+    - A.24pt
+    - L.24pt
+    - F
+    - F.24pt
+    - O.24pt
+    - N
+    - T
+    - F.24pt_2
+    - u
+    - r
+    - n.24pt
+    - i
+    - t
+    - u.24pt
+    - r.24pt
+    - e.24pt
+    - five
+    - R.24pt
+    - a.24pt
+    - c
+    - k
+    - s
+    x_height_px: 104.0
+    figure_height_px: 142
+    stem_px: 18.5
+    scale: 4.66667
+    stem_units: 86.3
+    x_height: 485
+    figure_height: 663
+  257:20pt:
+    n_caps: 14
+    cap_height_px: 123.5
+    cap_source: caps
+    baseline_px: 799
+    baselines:
+      '1': 799
+      '2': 1018
+    glyphs:
+    - C.20pt
+    - O.20pt
+    - M
+    - B.20pt
+    - I
+    - N.20pt
+    - A.20pt
+    - T.20pt
+    - I.20pt
+    - O.20pt_2
+    - N.20pt_2
+    - C.20pt_2
+    - h
+    - a.20pt
+    - s.20pt
+    - e.20pt
+    - R.20pt
+    - a.20pt_2
+    - c.20pt
+    - k.20pt
+    - s.20pt_2
+    - comma
+    - a.20pt_3
+    - l.20pt
+    - l.20pt_2
+    - S.20pt
+    - i.20pt
+    - z
+    - e.20pt_2
+    - s.20pt_3
+    x_height_px: 90
+    stem_px: 16.5
+    scale: 5.66802
+    stem_units: 93.5
+    x_height: 510
+specimen_lines:
+- leaf: 256
+  line: 48pt
+  text: Galley and
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 256
+  line: 42pt
+  text: CHASE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 256
+  line: 32pt
+  text: LABOR
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 256
+  line: 24pt
+  text: HALF FONT
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 256
+  line: 24pt
+  text: Furniture 5 Racks
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 257
+  line: 20pt
+  text: COMBINATION
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 257
+  line: 20pt
+  text: Chase Racks, all Sizes
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

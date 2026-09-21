@@ -1,0 +1,155 @@
+name: gothic-no-1-inland1907
+title: Gothic No. 1
+series: Gothic No. 1
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 100
+leaf_pages:
+  100: 92
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      100:48pt: 77.1
+      100:42pt: 106.3
+      100:36pt: 89.7
+  x_height: 497
+lines:
+  100:48pt:
+    n_caps: 4
+    cap_height_px: 281.5
+    cap_source: caps
+    baseline_px: 819.5
+    baselines:
+      '2': 819.5
+    glyphs:
+    - S
+    - E
+    - N
+    - T
+    - a
+    - l
+    - m
+    - o
+    - s
+    - t
+    x_height_px: 196.0
+    stem_px: 57.5
+    scale: 2.48668
+    stem_units: 143.0
+    x_height: 487
+  100:42pt:
+    n_caps: 9
+    cap_height_px: 247
+    cap_source: caps
+    baseline_px: 1210
+    baselines:
+      '3': 1210
+      '4': 1521.0
+    glyphs:
+    - H
+    - O
+    - N.42pt
+    - O.42pt
+    - R
+    - E.42pt
+    - D
+    - G
+    - r
+    - e
+    - a.42pt
+    - t.42pt
+    - e.42pt
+    - r.42pt
+    - M
+    - e.42pt_2
+    - n
+    - two
+    x_height_px: 175.5
+    figure_height_px: 245
+    stem_px: 50
+    scale: 2.83401
+    stem_units: 141.7
+    x_height: 497
+    figure_height: 694
+  100:36pt:
+    n_caps: 10
+    cap_height_px: 203.0
+    cap_source: caps
+    baseline_px: 1875.0
+    baselines:
+      '5': 1875.0
+      '6': 2139.5
+    glyphs:
+    - G.36pt
+    - R.36pt
+    - O.36pt
+    - U
+    - N.36pt
+    - D.36pt
+    - E.36pt
+    - D.36pt_2
+    - B
+    - e.36pt
+    - t.36pt
+    - t.36pt_2
+    - e.36pt_2
+    - r.36pt
+    - S.36pt
+    - y
+    - s.36pt
+    - t.36pt_3
+    - e.36pt_3
+    - m.36pt
+    - three
+    x_height_px: 144.5
+    figure_height_px: 205
+    stem_px: 41.0
+    scale: 3.44828
+    stem_units: 141.4
+    x_height: 498
+    figure_height: 707
+specimen_lines:
+- leaf: 100
+  line: 48pt
+  text: SENTalmost
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 100
+  line: 42pt
+  text: HONORED
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 100
+  line: 42pt
+  text: Greater Men 2
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 100
+  line: 36pt
+  text: GROUNDED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 100
+  line: 36pt
+  text: Better System 3
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,129 @@
+name: houghton-atf1902a
+title: Houghton
+series: Houghton
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 422
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      422:60pt: 25.4
+      422:24pt: 61.9
+  x_height: 476
+lines:
+  422:60pt:
+    n_caps: 1
+    cap_height_px: 413
+    cap_source: caps
+    baseline_px: 1082
+    baselines:
+      '1': 1082
+    glyphs:
+    - R
+    - e
+    - f
+    - r
+    - e.60pt
+    - s
+    - h
+    - m
+    - e.60pt_2
+    - n
+    - t
+    x_height_px: 233.0
+    stem_px: 16
+    scale: 1.69492
+    stem_units: 27.1
+    x_height: 395
+  422:24pt:
+    n_caps: 20
+    cap_height_px: 113.0
+    cap_source: caps
+    baseline_px: 2302
+    baselines:
+      '4': 2302
+      '6': 3233
+    glyphs:
+    - A
+    - e.24pt
+    - r.24pt
+    - o
+    - n.24pt
+    - a
+    - u
+    - t.24pt
+    - s.24pt
+    - D
+    - e.24pt_2
+    - s.24pt_2
+    - c
+    - e.24pt_3
+    - n.24pt_2
+    - d
+    - Q
+    - u.24pt
+    - i
+    - c.24pt
+    - k
+    - l
+    - y
+    - M
+    - A.24pt
+    - T
+    - R.24pt
+    - I
+    - X
+    - W
+    - H
+    - I.24pt
+    - S
+    - P
+    - E
+    - R.24pt_2
+    - I.24pt_2
+    - N
+    - G
+    - S.24pt
+    x_height_px: 90.0
+    stem_px: 8.0
+    scale: 6.19469
+    stem_units: 49.6
+    x_height: 558
+specimen_lines:
+- leaf: 422
+  line: 60pt
+  text: Refreshment
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 422
+  line: 24pt
+  text: Aeronauts Descend Quickly
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 422
+  line: 24pt
+  text: ~ MATRIX~ ~WHISPERINGS~
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

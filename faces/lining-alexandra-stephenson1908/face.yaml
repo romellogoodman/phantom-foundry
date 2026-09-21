@@ -1,0 +1,108 @@
+name: lining-alexandra-stephenson1908
+title: Lining Alexandra.
+series: Lining Alexandra.
+status: proto
+version: 0.1.0
+book: specimensofpoint00step
+source:
+  archive_id: specimensofpoint00step
+  title: 'Specimens of point line type : borders ornaments brass rules &c. &c'
+  creator:
+  - Stephenson, Blake and Company, Ltd
+  - Sir Charles Reed & Sons
+  publisher: 'Toronto : Stephenson, Blake & Co.'
+  date: '1908'
+  ppi: 350
+  url: https://archive.org/details/specimensofpoint00step
+  copyright_status: null
+  contributor: Fisher - University of Toronto
+  leaves:
+  - 172
+leaf_pages:
+  172: 236
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      172:72pt: 48.3
+      172:60pt: 49.2
+  x_height: 548
+lines:
+  172:72pt:
+    n_caps: 3
+    cap_height_px: 290
+    cap_source: caps
+    baseline_px: 781
+    baselines:
+      '1': 781
+    glyphs:
+    - T
+    - h
+    - i
+    - s
+    - Q
+    - u
+    - a
+    - i.72pt
+    - n
+    - t
+    - L
+    - e
+    - t.72pt
+    - t.72pt_2
+    - e.72pt
+    - r
+    x_height_px: 246
+    stem_px: 37
+    scale: 2.41379
+    stem_units: 89.3
+    x_height: 594
+  172:60pt:
+    n_caps: 3
+    cap_height_px: 242
+    cap_source: caps
+    baseline_px: 3504
+    baselines:
+      '5': 3504
+    glyphs:
+    - A
+    - m
+    - e.60pt
+    - r.60pt
+    - i.60pt
+    - c
+    - a.60pt
+    - n.60pt
+    - P
+    - o
+    - i.60pt_2
+    - n.60pt_2
+    - t.60pt
+    - S
+    - y
+    - s.60pt
+    - t.60pt_2
+    - e.60pt_2
+    - m.60pt
+    x_height_px: 173.5
+    stem_px: 29
+    scale: 2.89256
+    stem_units: 83.9
+    x_height: 502
+specimen_lines:
+- leaf: 172
+  line: 72pt
+  text: This Quaint Letter
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 172
+  line: 60pt
+  text: American Point System
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,104 @@
+name: leading-merchandise-atf1912
+title: Leading Merchandise
+series: Leading Merchandise
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 215
+leaf_pages:
+  215: 201
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      215:36pt: 19.7
+lines:
+  215:36pt:
+    n_caps: 48
+    cap_height_px: 178.0
+    cap_source: caps
+    baseline_px: 1837.5
+    baselines:
+      '5': 1837.5
+      '6': 2065.0
+    glyphs:
+    - R
+    - E
+    - F
+    - R.36pt
+    - E.36pt
+    - S
+    - H
+    - I
+    - N
+    - G
+    - Z
+    - E.36pt_2
+    - P
+    - H.36pt
+    - Y
+    - R.36pt_2
+    - S.36pt
+    - B
+    - L
+    - O
+    - W
+    - I.36pt
+    - N.36pt
+    - G.36pt
+    - S.36pt_2
+    - O.36pt
+    - N.36pt_2
+    - G.36pt_2
+    - S.36pt_3
+    - T
+    - E.36pt_3
+    - R.36pt_3
+    - D
+    - E.36pt_4
+    - L.36pt
+    - I.36pt_2
+    - G.36pt_3
+    - H.36pt_2
+    - T.36pt
+    - I.36pt_3
+    - N.36pt_3
+    - G.36pt_4
+    - O.36pt_2
+    - R.36pt_4
+    - P.36pt
+    - H.36pt_3
+    - A
+    - N.36pt_4
+    stem_px: 22.5
+    scale: 3.93258
+    stem_units: 88.5
+specimen_lines:
+- leaf: 215
+  line: 36pt
+  text: REFRESHING ZEPHYRS BLOWING
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 215
+  line: 36pt
+  text: SONGSTER DELIGHTING ORPHAN
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

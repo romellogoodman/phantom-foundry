@@ -1,0 +1,101 @@
+name: john-hancock-extended-keystone1906
+title: John Hancock Extended
+series: John Hancock Extended
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 167
+leaf_pages:
+  167: 50
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      167:60pt: 57.4
+      167:48pt: 48.8
+  x_height: 697
+lines:
+  167:60pt:
+    n_caps: 4
+    cap_height_px: 341.5
+    cap_source: caps
+    baseline_px: 2251
+    baselines:
+      '3': 2251
+      '4': 2746
+    glyphs:
+    - I
+    - C
+    - E
+    - M
+    - o
+    - l
+    - d
+    x_height_px: 339
+    stem_px: 37.0
+    scale: 2.04978
+    stem_units: 75.8
+    x_height: 695
+  167:48pt:
+    n_caps: 4
+    cap_height_px: 272.5
+    cap_source: caps
+    baseline_px: 1166
+    baselines:
+      '1': 1166
+      '2': 1570
+    glyphs:
+    - B
+    - O
+    - X
+    - N
+    - a
+    - i
+    - l.48pt
+    - e
+    - d.48pt
+    x_height_px: 272
+    stem_px: 62.0
+    scale: 2.56881
+    stem_units: 159.3
+    x_height: 699
+specimen_lines:
+- leaf: 167
+  line: 60pt
+  text: ICE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 167
+  line: 60pt
+  text: Mold
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 167
+  line: 48pt
+  text: BOX
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 167
+  line: 48pt
+  text: Nailed
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,66 @@
+name: concave-extended-atf1896
+title: Concave Extended.
+series: Concave Extended.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 416
+leaf_pages:
+  416: 412
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      416:18pt: 84.7
+  x_height: 480
+lines:
+  416:18pt:
+    n_caps: 6
+    cap_height_px: 124.0
+    cap_source: caps
+    baseline_px: 2410.5
+    baselines:
+      '5': 2410.5
+    glyphs:
+    - M
+    - A
+    - R
+    - K
+    - S
+    - F
+    - o
+    - r
+    - m
+    - e
+    - r.18pt
+    x_height_px: 85
+    stem_px: 16.5
+    scale: 5.64516
+    stem_units: 93.1
+    x_height: 480
+specimen_lines:
+- leaf: 416
+  line: 18pt
+  text: MARKS Former
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

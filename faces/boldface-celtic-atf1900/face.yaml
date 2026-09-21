@@ -1,0 +1,186 @@
+name: boldface-celtic-atf1900
+title: Boldface Celtic
+series: Boldface Celtic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 506
+leaf_pages:
+  506: 34
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      506:42pt: 47.3
+      506:36pt: 36.1
+      506:30pt: 30.2
+      506:24pt: 34.3
+  x_height: 530
+lines:
+  506:42pt:
+    n_caps: 5
+    cap_height_px: 237
+    cap_source: caps
+    baseline_px: 903
+    baselines:
+      '1': 903
+    glyphs:
+    - C
+    - O
+    - L
+    - D
+    - P
+    - e
+    - a
+    - r
+    - l
+    x_height_px: 180.5
+    stem_px: 37
+    scale: 2.95359
+    stem_units: 109.3
+    x_height: 533
+  506:36pt:
+    n_caps: 7
+    cap_height_px: 194
+    cap_source: caps
+    baseline_px: 1372
+    baselines:
+      '2': 1372
+    glyphs:
+    - B
+    - o
+    - a.36pt
+    - r.36pt
+    - d
+    - T
+    - E
+    - S
+    - T.36pt
+    - E.36pt
+    - D.36pt
+    x_height_px: 148.0
+    stem_px: 18
+    scale: 3.60825
+    stem_units: 64.9
+    x_height: 534
+  506:30pt:
+    n_caps: 8
+    cap_height_px: 162.0
+    cap_source: caps
+    baseline_px: 1816.0
+    baselines:
+      '3': 1816.0
+    glyphs:
+    - H
+    - U
+    - N
+    - T.30pt
+    - I
+    - N.30pt
+    - G
+    - M
+    - a.30pt
+    - l.30pt
+    - s
+    - t
+    - e.30pt
+    - r.30pt
+    x_height_px: 122.0
+    stem_px: 19.0
+    scale: 4.32099
+    stem_units: 82.1
+    x_height: 527
+  506:24pt:
+    n_caps: 12
+    cap_height_px: 122.5
+    cap_source: caps
+    baseline_px: 2217.0
+    baselines:
+      '4': 2217.0
+      '5': 2420.5
+    glyphs:
+    - S.24pt
+    - E.24pt
+    - N.24pt
+    - A
+    - T.24pt
+    - E.24pt_2
+    - R
+    - U.24pt
+    - M.24pt
+    - O.24pt
+    - I.24pt
+    - n
+    - t.24pt
+    - e.24pt
+    - r.24pt
+    - l.24pt
+    - o.24pt
+    - c
+    - u
+    - t.24pt_2
+    - o.24pt_2
+    - r.24pt_2
+    - y
+    - E.24pt_3
+    - x
+    - e.24pt_2
+    - r.24pt_3
+    - c.24pt
+    - i
+    - s.24pt
+    - e.24pt_3
+    - s.24pt_2
+    - one
+    - two
+    x_height_px: 91.0
+    figure_height_px: 122.0
+    stem_px: 14.5
+    scale: 5.71429
+    stem_units: 82.9
+    x_height: 520
+    figure_height: 697
+specimen_lines:
+- leaf: 506
+  line: 42pt
+  text: COLD Pearl
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 506
+  line: 36pt
+  text: Board TESTED
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 506
+  line: 30pt
+  text: HUNTING Malster
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 506
+  line: 24pt
+  text: SENA TERUMO
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 506
+  line: 24pt
+  text: Interlocutory Exercises 12
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

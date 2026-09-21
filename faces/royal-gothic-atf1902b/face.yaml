@@ -1,0 +1,211 @@
+name: royal-gothic-atf1902b
+title: Royal Gothic
+series: Royal Gothic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp02amer
+source:
+  archive_id: deskbookoftypesp02amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    2, 11-22)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp02amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 61
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      61:48pt: 52.8
+      61:36pt: 76.6
+      61:30pt: 79.2
+      61:24pt: 73.7
+  x_height: 492
+lines:
+  61:48pt:
+    n_caps: 6
+    cap_height_px: 265.0
+    cap_source: caps
+    baseline_px: 893.0
+    baselines:
+      '1': 893.0
+    glyphs:
+    - L
+    - I
+    - G
+    - H
+    - T
+    - R
+    - e
+    - t
+    - u
+    - r
+    - n
+    x_height_px: 178
+    stem_px: 72.0
+    scale: 2.64151
+    stem_units: 190.2
+    x_height: 470
+  61:36pt:
+    n_caps: 7
+    cap_height_px: 201
+    cap_source: caps
+    baseline_px: 1302
+    baselines:
+      '2': 1302
+    glyphs:
+    - M
+    - e.36pt
+    - t.36pt
+    - e.36pt_2
+    - o
+    - r.36pt
+    - S
+    - E
+    - C
+    - O
+    - N
+    - D
+    x_height_px: 139
+    stem_px: 60
+    scale: 3.48259
+    stem_units: 209.0
+    x_height: 484
+  61:30pt:
+    n_caps: 17
+    cap_height_px: 159
+    cap_source: caps
+    baseline_px: 1683.5
+    baselines:
+      '3': 1683.5
+      '4': 1918
+    glyphs:
+    - E.30pt
+    - X
+    - C.30pt
+    - U
+    - R.30pt
+    - S.30pt
+    - I.30pt
+    - O.30pt
+    - N.30pt
+    - N.30pt_2
+    - O.30pt_2
+    - R.30pt_2
+    - T.30pt
+    - H.30pt
+    - R.30pt_3
+    - o.30pt
+    - u.30pt
+    - n.30pt
+    - d
+    - T.30pt_2
+    - r.30pt
+    - i
+    - p
+    - T.30pt_3
+    - i.30pt
+    - c
+    - k
+    - e.30pt
+    - t.30pt
+    - s
+    x_height_px: 117
+    stem_px: 49
+    scale: 4.40252
+    stem_units: 215.7
+    x_height: 515
+  61:24pt:
+    n_caps: 18
+    cap_height_px: 133.0
+    cap_source: caps
+    baseline_px: 2265.0
+    baselines:
+      '5': 2265.0
+      '6': 2459.5
+    glyphs:
+    - B
+    - O.24pt
+    - H.24pt
+    - E.24pt
+    - M.24pt
+    - I.24pt
+    - A
+    - N.24pt
+    - R.24pt
+    - E.24pt_2
+    - T.24pt
+    - U.24pt
+    - R.24pt_2
+    - N.24pt_2
+    - E.24pt_3
+    - D.24pt
+    - R.24pt_3
+    - e.24pt
+    - s.24pt
+    - i.24pt
+    - g
+    - n.24pt
+    - a
+    - t.24pt
+    - i.24pt_2
+    - o.24pt
+    - n.24pt_2
+    - s.24pt_2
+    - T.24pt_2
+    - e.24pt_2
+    - n.24pt_3
+    - d.24pt
+    - e.24pt_3
+    - r.24pt
+    - e.24pt_4
+    - d.24pt_2
+    x_height_px: 95.0
+    stem_px: 41.0
+    scale: 5.26316
+    stem_units: 215.8
+    x_height: 500
+specimen_lines:
+- leaf: 61
+  line: 48pt
+  text: LIGHT Return
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 61
+  line: 36pt
+  text: Meteor SECOND
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 61
+  line: 30pt
+  text: EXCURSION NORTH
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 61
+  line: 30pt
+  text: Round Trip Tickets
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 61
+  line: 24pt
+  text: BOHEMIAN RETURNED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 61
+  line: 24pt
+  text: Resignations Tendered
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

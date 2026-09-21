@@ -1,0 +1,168 @@
+name: bradley-atf1902a
+title: Bradley
+series: Bradley
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 322
+leaf_pages:
+  322: 436
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      322:60pt: 15.8
+      322:48pt: 20.4
+      322:36pt: 16.1
+  x_height: 583
+lines:
+  322:60pt:
+    n_caps: 2
+    cap_height_px: 354.0
+    cap_source: caps
+    baseline_px: 1062.0
+    baselines:
+      '1': 1062.0
+    glyphs:
+    - L
+    - e
+    - a
+    - d
+    - s
+    - t
+    - h
+    - e.60pt
+    - S
+    - t.60pt
+    - y
+    - l
+    - e.60pt_2
+    x_height_px: 325
+    stem_px: 54.5
+    scale: 1.9774
+    stem_units: 107.8
+    x_height: 643
+  322:48pt:
+    n_caps: 0
+    cap_height_px: 275
+    cap_source: ascenders
+    baseline_px: 2530
+    baselines:
+      '4': 2530
+    glyphs:
+    - l.48pt
+    - o
+    - u
+    - d.48pt
+    - i
+    - n
+    - t.48pt
+    - h.48pt
+    - e.48pt
+    - i.48pt
+    - r
+    - p
+    - r.48pt
+    - a.48pt
+    - i.48pt_2
+    - s.48pt
+    - e.48pt_2
+    x_height_px: 229
+    scale: 2.54545
+    x_height: 583
+  322:36pt:
+    n_caps: 3
+    cap_height_px: 217
+    cap_source: caps
+    baseline_px: 3163
+    baselines:
+      '5': 3163
+      '6': 3447.0
+    glyphs:
+    - G
+    - o.36pt
+    - t.36pt
+    - h.36pt
+    - i.36pt
+    - c
+    - w
+    - e.36pt
+    - n.36pt
+    - t.36pt_2
+    - o.36pt_2
+    - u.36pt
+    - t.36pt_3
+    - o.36pt_3
+    - f
+    - f.36pt
+    - a.36pt
+    - s.36pt
+    - h.36pt_2
+    - i.36pt_2
+    - o.36pt_4
+    - n.36pt_2
+    - i.36pt_3
+    - n.36pt_3
+    - G.36pt
+    - e.36pt_2
+    - r.36pt
+    - m
+    - a.36pt_2
+    - n.36pt_4
+    - y.36pt
+    - a.36pt_3
+    - n.36pt_5
+    - d.36pt
+    - F
+    - r.36pt_2
+    - a.36pt_4
+    - n.36pt_6
+    - c.36pt
+    - e.36pt_3
+    - a.36pt_5
+    - t.36pt_4
+    x_height_px: 173
+    stem_px: 19
+    scale: 3.22581
+    stem_units: 61.3
+    x_height: 558
+specimen_lines:
+- leaf: 322
+  line: 60pt
+  text: Leads the Style
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 322
+  line: 48pt
+  text: loud in their praise
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 322
+  line: 36pt
+  text: Gothic went out of fashion
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 322
+  line: 36pt
+  text: in Germany and France at
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

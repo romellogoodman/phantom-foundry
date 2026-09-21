@@ -1,0 +1,176 @@
+name: cheltenham-oldstyle-atf1912
+title: Cheltenham Oldstyle
+series: Cheltenham Oldslyle
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 160
+  - 161
+leaf_pages:
+  160: 146
+  161: 147
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      160:72pt: 11.5
+      160:60pt: 13.9
+      161:30pt: 29.8
+  x_height: 380
+lines:
+  160:72pt:
+    n_caps: 11
+    cap_height_px: 304
+    cap_source: caps
+    baseline_px: 587
+    baselines:
+      '1': 587
+      '2': 987.5
+    glyphs:
+    - N
+    - U
+    - M
+    - B
+    - E
+    - R
+    - I
+    - N.72pt
+    - G
+    - S
+    - t
+    - r
+    - a
+    - n
+    - g
+    - e
+    - M.72pt
+    - a.72pt
+    - c
+    - h
+    - i
+    - n.72pt
+    - e.72pt
+    x_height_px: 164.5
+    stem_px: 18
+    scale: 2.30263
+    stem_units: 41.4
+    x_height: 379
+  160:60pt:
+    n_caps: 12
+    cap_height_px: 252.0
+    cap_source: caps
+    baseline_px: 1554.0
+    baselines:
+      '3': 1554.0
+      '4': 1889.5
+    glyphs:
+    - B.60pt
+    - R.60pt
+    - I.60pt
+    - G.60pt
+    - H
+    - T
+    - H.60pt
+    - O
+    - M.60pt
+    - E.60pt
+    - C
+    - o
+    - m
+    - p
+    - a.60pt
+    - c.60pt
+    - t.60pt
+    - K
+    - i.60pt
+    - n.60pt
+    - g.60pt
+    - d
+    - o.60pt
+    - m.60pt
+    - s
+    x_height_px: 137
+    stem_px: 28.0
+    scale: 2.77778
+    stem_units: 77.8
+    x_height: 381
+  161:30pt:
+    n_caps: 22
+    cap_height_px: 117.5
+    cap_source: caps
+    baseline_px: 1198.0
+    baselines:
+      '4': 1198.0
+    glyphs:
+    - C.30pt
+    - U.30pt
+    - S.30pt
+    - T.30pt
+    - O.30pt
+    - M.30pt
+    - E.30pt
+    - R.30pt
+    - S.30pt_2
+    - R.30pt_2
+    - E.30pt_2
+    - C.30pt_2
+    - O.30pt_2
+    - N.30pt
+    - S.30pt_3
+    - I.30pt
+    - D
+    - E.30pt_3
+    - R.30pt_3
+    - I.30pt_2
+    - N.30pt_2
+    - G.30pt
+    stem_px: 11.5
+    scale: 5.95745
+    stem_units: 68.5
+specimen_lines:
+- leaf: 160
+  line: 72pt
+  text: NUMBERING
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 160
+  line: 72pt
+  text: Strange Machine
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 160
+  line: 60pt
+  text: BRIGHT HOME
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 160
+  line: 60pt
+  text: Compact Kingdoms
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 161
+  line: 30pt
+  text: CUSTOMERS RECONSIDERING
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Cheltenham Oldslyle
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

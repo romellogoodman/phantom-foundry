@@ -1,0 +1,93 @@
+name: a-d-farmer1899
+title: A. D.
+series: A. D.
+status: proto
+version: 0.1.0
+book: abridgedspecimen00adfa
+source:
+  archive_id: abridgedspecimen00adfa
+  title: 'Abridged specimen book : type, borders, brass rules, ornaments and price
+    list of printing machinery, furniture, fixtures and material'
+  creator: A.D. Farmer & Son Type Founding Co
+  publisher: 'Chicago : The Company'
+  date: '1899'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00adfa
+  copyright_status: null
+  contributor: University of Illinois Urbana-Champaign
+  leaves:
+  - 61
+leaf_pages:
+  61: 57
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      61:24pt: 122.7
+      61:20pt: 88.1
+  x_height: 487
+lines:
+  61:24pt:
+    n_caps: 10
+    cap_height_px: 154.0
+    cap_source: caps
+    baseline_px: 2604.0
+    baselines:
+      '4': 2604.0
+    glyphs:
+    - T
+    - A
+    - K
+    - E
+    - N
+    - O
+    - T.24pt
+    - I
+    - C
+    - E.24pt
+    stem_px: 27.0
+    scale: 4.54545
+    stem_units: 122.7
+  61:20pt:
+    n_caps: 0
+    cap_height_px: 151
+    cap_source: ascenders
+    baseline_px: 3328
+    baselines:
+      '6': 3328
+    glyphs:
+    - m
+    - o
+    - s
+    - t
+    - u
+    - s.20pt
+    - e
+    - f
+    - u.20pt
+    - l
+    - t.20pt
+    - o.20pt
+    - t.20pt_2
+    - h
+    - e.20pt
+    x_height_px: 105
+    scale: 4.63576
+    x_height: 487
+specimen_lines:
+- leaf: 61
+  line: 24pt
+  text: TAKE NOTICE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 61
+  line: 20pt
+  text: most useful to the
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

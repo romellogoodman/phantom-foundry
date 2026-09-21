@@ -1,0 +1,132 @@
+name: gothic-atf1898
+title: Gothic
+series: Gothic
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 282
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      282:72pt: 91.8
+      282:48pt: 91.8
+      282:28pt: 83.0
+  x_height: 503
+lines:
+  282:72pt:
+    n_caps: 3
+    cap_height_px: 469
+    cap_source: caps
+    baseline_px: 1167
+    baselines:
+      '2': 1167
+    glyphs:
+    - R
+    - I
+    - M
+    - five
+    figure_height_px: 451
+    stem_px: 117
+    scale: 1.49254
+    stem_units: 174.6
+    figure_height: 673
+  282:48pt:
+    n_caps: 7
+    cap_height_px: 225
+    cap_source: caps
+    baseline_px: 1589
+    baselines:
+      '3': 1589
+    glyphs:
+    - eight
+    - S
+    - C
+    - I.48pt
+    - E
+    - N
+    - C.48pt
+    - E.48pt
+    figure_height_px: 206
+    stem_px: 57
+    scale: 3.11111
+    stem_units: 177.3
+    figure_height: 641
+  282:28pt:
+    n_caps: 11
+    cap_height_px: 135
+    cap_source: caps
+    baseline_px: 1924.5
+    baselines:
+      '4': 1924.5
+      '5': 2138
+    glyphs:
+    - S.28pt
+    - e
+    - c
+    - o
+    - n
+    - d
+    - three
+    - M.28pt
+    - a
+    - t
+    - c.28pt
+    - h
+    - D
+    - E.28pt
+    - S.28pt_2
+    - C.28pt
+    - R.28pt
+    - I.28pt
+    - B
+    - E.28pt_2
+    - D.28pt
+    x_height_px: 97
+    figure_height_px: 135
+    stem_px: 43
+    scale: 5.18519
+    stem_units: 223.0
+    x_height: 503
+    figure_height: 700
+specimen_lines:
+- leaf: 282
+  line: 72pt
+  text: RIM 5
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 282
+  line: 48pt
+  text: 8 SCIENCE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 282
+  line: 28pt
+  text: Second 3 Match
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 282
+  line: 28pt
+  text: DESCRIBED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

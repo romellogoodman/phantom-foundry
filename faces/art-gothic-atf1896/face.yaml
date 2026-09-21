@@ -1,0 +1,102 @@
+name: art-gothic-atf1896
+title: Art Gothic.
+series: Art Gothic.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 383
+leaf_pages:
+  383: 379
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      383:72pt: 43.7
+      383:24pt: 43.5
+  x_height: 423
+lines:
+  383:72pt:
+    n_caps: 2
+    cap_height_px: 464.5
+    cap_source: caps
+    baseline_px: 1086.5
+    baselines:
+      '1': 1086.5
+    glyphs:
+    - F
+    - i
+    - n
+    - e
+    - r
+    - S
+    - a
+    - s
+    - h
+    x_height_px: 236
+    stem_px: 31.0
+    scale: 1.507
+    stem_units: 46.7
+    x_height: 356
+  383:24pt:
+    n_caps: 4
+    cap_height_px: 177.0
+    cap_source: caps
+    baseline_px: 2857.5
+    baselines:
+      '5': 2857.5
+    glyphs:
+    - A
+    - R
+    - o
+    - s.24pt
+    - e.24pt
+    - b
+    - y
+    - a.24pt
+    - n.24pt
+    - y.24pt
+    - O
+    - t
+    - h.24pt
+    - e.24pt_2
+    - r.24pt
+    - N
+    - a.24pt_2
+    - m
+    - e.24pt_3
+    x_height_px: 124
+    stem_px: 14.0
+    scale: 3.9548
+    stem_units: 55.4
+    x_height: 490
+specimen_lines:
+- leaf: 383
+  line: 72pt
+  text: Finer Sash
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 383
+  line: 24pt
+  text: A Rose by any Other Name
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

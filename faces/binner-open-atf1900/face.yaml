@@ -1,0 +1,187 @@
+name: binner-open-atf1900
+title: Binner Open
+series: Binner Open
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 511
+leaf_pages:
+  511: 432
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      511:72pt: 29.7
+      511:60pt: 44.9
+      511:48pt: 43.2
+      511:36pt: 46.0
+      511:24pt: 66.4
+  x_height: 506
+lines:
+  511:72pt:
+    n_caps: 4
+    cap_height_px: 436.5
+    cap_source: caps
+    baseline_px: 1097.0
+    baselines:
+      '1': 1097.0
+    glyphs:
+    - P
+    - e
+    - r
+    - S
+    - O
+    - N
+    x_height_px: 367.0
+    stem_px: 11.0
+    scale: 1.60367
+    stem_units: 17.6
+    x_height: 589
+  511:60pt:
+    n_caps: 4
+    cap_height_px: 343.0
+    cap_source: caps
+    baseline_px: 1709.0
+    baselines:
+      '2': 1709.0
+    glyphs:
+    - B
+    - E
+    - N.60pt
+    - H
+    - u
+    - m
+    - e.60pt
+    x_height_px: 244
+    stem_px: 9.0
+    scale: 2.04082
+    stem_units: 18.4
+    x_height: 498
+  511:48pt:
+    n_caps: 6
+    cap_height_px: 259.0
+    cap_source: caps
+    baseline_px: 2253.0
+    baselines:
+      '3': 2253.0
+    glyphs:
+    - C
+    - a
+    - n
+    - a.48pt
+    - r.48pt
+    - y
+    - B.48pt
+    - I
+    - R
+    - D
+    - S.48pt
+    x_height_px: 161
+    stem_px: 8.0
+    scale: 2.7027
+    stem_units: 21.6
+    x_height: 435
+  511:36pt:
+    n_caps: 7
+    cap_height_px: 213
+    cap_source: caps
+    baseline_px: 2748
+    baselines:
+      '4': 2748
+    glyphs:
+    - S.36pt
+    - I.36pt
+    - N.36pt
+    - G
+    - L
+    - E.36pt
+    - H.36pt
+    - a.36pt
+    - r.36pt
+    - n.36pt
+    - e.36pt
+    - s
+    - s.36pt
+    x_height_px: 154.0
+    stem_px: 7
+    scale: 3.28638
+    stem_units: 23.0
+    x_height: 506
+  511:24pt:
+    n_caps: 12
+    cap_height_px: 126.5
+    cap_source: caps
+    baseline_px: 3138.0
+    baselines:
+      '5': 3138.0
+    glyphs:
+    - M
+    - o
+    - r.24pt
+    - r.24pt_2
+    - o.24pt
+    - C.24pt
+    - a.24pt
+    - s.24pt
+    - t
+    - l
+    - e.24pt
+    - D.24pt
+    - I.24pt
+    - S.24pt
+    - F
+    - I.24pt_2
+    - G.24pt
+    - U
+    - R.24pt
+    - E.24pt
+    - D.24pt_2
+    x_height_px: 93
+    stem_px: 5.0
+    scale: 5.5336
+    stem_units: 27.7
+    x_height: 515
+specimen_lines:
+- leaf: 511
+  line: 72pt
+  text: Per SON
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 511
+  line: 60pt
+  text: BEN Hume
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 511
+  line: 48pt
+  text: Canary BIRDS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 511
+  line: 36pt
+  text: SINGLE Harness
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 511
+  line: 24pt
+  text: Morro Castle DISFIGURED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

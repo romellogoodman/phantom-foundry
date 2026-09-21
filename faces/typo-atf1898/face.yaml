@@ -1,0 +1,66 @@
+name: typo-atf1898
+title: Typo
+series: Typo
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 454
+leaf_pages:
+  454: 75
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      454:60pt: 51.5
+  x_height: 602
+lines:
+  454:60pt:
+    n_caps: 5
+    cap_height_px: 326
+    cap_source: caps
+    baseline_px: 897
+    baselines:
+      '2': 897
+    glyphs:
+    - five
+    - R
+    - h
+    - i
+    - n
+    - e
+    - W
+    - I
+    - N
+    - E
+    x_height_px: 280.5
+    figure_height_px: 312
+    stem_px: 31
+    scale: 2.14724
+    stem_units: 66.6
+    x_height: 602
+    figure_height: 670
+specimen_lines:
+- leaf: 454
+  line: 60pt
+  text: 5 Rhine WINE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

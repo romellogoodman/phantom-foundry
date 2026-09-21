@@ -1,0 +1,81 @@
+name: facade-condensed-atf1898
+title: Facade Condensed
+series: Facade Condensed
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 349
+leaf_pages:
+  349: 14
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      349:24pt: 41.2
+lines:
+  349:24pt:
+    n_caps: 26
+    cap_height_px: 153.0
+    cap_source: caps
+    baseline_px: 1680.0
+    baselines:
+      '4': 1680.0
+    glyphs:
+    - eight
+    - five
+    - W
+    - H
+    - E
+    - N
+    - O
+    - L
+    - D
+    - N.24pt
+    - E.24pt
+    - P
+    - T
+    - U
+    - N.24pt_2
+    - E.24pt_2
+    - S
+    - E.24pt_3
+    - E.24pt_4
+    - M
+    - S.24pt
+    - E.24pt_5
+    - N.24pt_3
+    - R
+    - A
+    - G
+    - E.24pt_6
+    - D.24pt
+    figure_height_px: 155.0
+    stem_px: 10.0
+    scale: 4.57516
+    stem_units: 45.8
+    figure_height: 709
+specimen_lines:
+- leaf: 349
+  line: 24pt
+  text: 85 WHEN OLD NEPTUNE SEEMS ENRAGED
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

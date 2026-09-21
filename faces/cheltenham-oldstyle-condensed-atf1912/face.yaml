@@ -1,0 +1,155 @@
+name: cheltenham-oldstyle-condensed-atf1912
+title: Cheltenham Oldstyle Condensed
+series: Cheltenham Oldstyle Condensed
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 168
+  - 169
+leaf_pages:
+  168: 154
+  169: 155
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      168:72pt: 15.9
+      168:60pt: 19.3
+      168:54pt: 16.2
+  x_height: 385
+lines:
+  168:72pt:
+    n_caps: 14
+    cap_height_px: 308.0
+    cap_source: caps
+    baseline_px: 594.5
+    baselines:
+      '1': 594.5
+      '2': 986.0
+    glyphs:
+    - I
+    - N
+    - T
+    - E
+    - R
+    - M
+    - I.72pt
+    - N.72pt
+    - G
+    - L
+    - E.72pt
+    - S
+    - C
+    - h
+    - e
+    - l
+    - t
+    - e.72pt
+    - n
+    - h.72pt
+    - a
+    - m
+    - D
+    - a.72pt
+    - m.72pt
+    - e.72pt_2
+    x_height_px: 171.0
+    stem_px: 28.0
+    scale: 2.27273
+    stem_units: 63.6
+    x_height: 389
+  168:60pt:
+    n_caps: 13
+    cap_height_px: 254
+    cap_source: caps
+    baseline_px: 1560
+    baselines:
+      '3': 1560
+    glyphs:
+    - H
+    - U
+    - N.60pt
+    - T.60pt
+    - E.60pt
+    - D.60pt
+    - E.60pt_2
+    - R.60pt
+    - M.60pt
+    - I.60pt
+    - N.60pt_2
+    - E.60pt_3
+    - S.60pt
+    stem_px: 16
+    scale: 2.75591
+    stem_units: 44.1
+  168:54pt:
+    n_caps: 2
+    cap_height_px: 258.5
+    cap_source: caps
+    baseline_px: 1887.0
+    baselines:
+      '4': 1887.0
+    glyphs:
+    - C.54pt
+    - h.54pt
+    - i
+    - m.54pt
+    - e.54pt
+    - s
+    - E.54pt
+    - n.54pt
+    - t.54pt
+    - e.54pt_2
+    - r
+    - t.54pt_2
+    - a.54pt
+    - i.54pt
+    - n.54pt_2
+    - m.54pt_2
+    - e.54pt_3
+    - n.54pt_3
+    - t.54pt_3
+    x_height_px: 141
+    stem_px: 19.0
+    scale: 2.70793
+    stem_units: 51.5
+    x_height: 382
+specimen_lines:
+- leaf: 168
+  line: 72pt
+  text: INTERMINGLES
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 168
+  line: 72pt
+  text: Cheltenham Dame
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 168
+  line: 60pt
+  text: HUNTED ERMINES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 168
+  line: 54pt
+  text: Chimes Entertainment
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

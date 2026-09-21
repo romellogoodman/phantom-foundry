@@ -1,0 +1,164 @@
+name: quaint-open-atf1900
+title: Quaint Open
+series: Quaint Open
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 524
+leaf_pages:
+  524: 112
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      524:48pt: 50.2
+      524:36pt: 48.1
+      524:24pt: 51.5
+      524:18pt: 57.3
+lines:
+  524:48pt:
+    n_caps: 10
+    cap_height_px: 328.0
+    cap_source: caps
+    baseline_px: 997.5
+    baselines:
+      '2': 997.5
+    glyphs:
+    - G
+    - R
+    - A
+    - N
+    - D
+    - J
+    - O
+    - K
+    - E
+    - R.48pt
+    stem_px: 4.0
+    scale: 2.13415
+    stem_units: 8.5
+  524:36pt:
+    n_caps: 13
+    cap_height_px: 233
+    cap_source: caps
+    baseline_px: 1566
+    baselines:
+      '3': 1566
+    glyphs:
+    - E.36pt
+    - V
+    - E.36pt_2
+    - N.36pt
+    - I
+    - N.36pt_2
+    - G.36pt
+    - S
+    - E.36pt_3
+    - R.36pt
+    - M
+    - O.36pt
+    - N.36pt_3
+    stem_px: 4
+    scale: 3.00429
+    stem_units: 12.0
+  524:24pt:
+    n_caps: 17
+    cap_height_px: 163
+    cap_source: caps
+    baseline_px: 2049
+    baselines:
+      '4': 2049
+    glyphs:
+    - T
+    - H
+    - I.24pt
+    - R.24pt
+    - D.24pt
+    - N.24pt
+    - A.24pt
+    - T.24pt
+    - I.24pt_2
+    - O.24pt
+    - N.24pt_2
+    - A.24pt_2
+    - L
+    - B
+    - A.24pt_3
+    - N.24pt_3
+    - K.24pt
+    stem_px: 4
+    scale: 4.29448
+    stem_units: 17.2
+  524:18pt:
+    n_caps: 23
+    cap_height_px: 116
+    cap_source: caps
+    baseline_px: 2675
+    baselines:
+      '6': 2675
+    glyphs:
+    - H.18pt
+    - I.18pt
+    - S.18pt
+    - T.18pt
+    - O.18pt
+    - R.18pt
+    - I.18pt_2
+    - C
+    - C.18pt
+    - H.18pt_2
+    - E.18pt
+    - S.18pt_2
+    - T.18pt_2
+    - N.18pt
+    - U
+    - T.18pt_3
+    - S.18pt_3
+    - O.18pt_2
+    - C.18pt_2
+    - I.18pt_3
+    - E.18pt_2
+    - T.18pt_4
+    - Y
+    stem_px: 4
+    scale: 6.03448
+    stem_units: 24.1
+specimen_lines:
+- leaf: 524
+  line: 48pt
+  text: GRAND~JOKER
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 524
+  line: 36pt
+  text: EVENING ~ SERMON
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 524
+  line: 24pt
+  text: THIRD ~ NATIONAL ~ BANK
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 524
+  line: 18pt
+  text: HISTORIC ~ CHESTNUT ~ SOCIETY
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

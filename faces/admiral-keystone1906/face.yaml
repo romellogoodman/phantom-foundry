@@ -1,0 +1,140 @@
+name: admiral-keystone1906
+title: Admiral
+series: Admiral
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 135
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      135:72pt: 41.5
+      135:60pt: 60.5
+      135:48pt: 49.4
+  x_height: 500
+lines:
+  135:72pt:
+    n_caps: 1
+    cap_height_px: 422
+    cap_source: caps
+    baseline_px: 3475
+    baselines:
+      '5': 3475
+    glyphs:
+    - C
+    - o
+    - u
+    - r
+    - t
+    - e
+    - d
+    x_height_px: 301.5
+    stem_px: 28
+    scale: 1.65877
+    stem_units: 46.4
+    x_height: 500
+  135:60pt:
+    n_caps: 7
+    cap_height_px: 347
+    cap_source: caps
+    baseline_px: 2228
+    baselines:
+      '3': 2228
+      '4': 2708.5
+    glyphs:
+    - F
+    - L
+    - U
+    - T
+    - E
+    - O
+    - l
+    - d.60pt
+    - P
+    - r.60pt
+    - i
+    - c
+    - e.60pt
+    x_height_px: 286.5
+    stem_px: 63
+    scale: 2.01729
+    stem_units: 127.1
+    x_height: 578
+  135:48pt:
+    n_caps: 9
+    cap_height_px: 269
+    cap_source: caps
+    baseline_px: 1140
+    baselines:
+      '1': 1140
+      '2': 1530.5
+    glyphs:
+    - S
+    - K
+    - I
+    - L.48pt
+    - L.48pt_2
+    - E.48pt
+    - D
+    - W
+    - o.48pt
+    - r.48pt
+    - k
+    - i.48pt
+    - s
+    - B
+    - e.48pt
+    - s.48pt
+    - t.48pt
+    x_height_px: 186.0
+    stem_px: 48
+    scale: 2.60223
+    stem_units: 124.9
+    x_height: 484
+specimen_lines:
+- leaf: 135
+  line: 72pt
+  text: Cou rted
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 135
+  line: 60pt
+  text: FLUTE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 135
+  line: 60pt
+  text: Old Price
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 135
+  line: 48pt
+  text: SKILLED
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 135
+  line: 48pt
+  text: Work is Best
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

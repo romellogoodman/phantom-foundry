@@ -1,0 +1,126 @@
+name: light-face-extended-atf1896
+title: Light-face Extended.
+series: Light-face Extended.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 248
+leaf_pages:
+  248: 244
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      248:42pt: 37.5
+      248:30pt: 36.1
+      248:20pt: 89.5
+  x_height: 559
+lines:
+  248:42pt:
+    n_caps: 6
+    cap_height_px: 261.0
+    cap_source: caps
+    baseline_px: 1051
+    baselines:
+      '1': 1051
+      '2': 1486
+    glyphs:
+    - R
+    - I
+    - N
+    - G
+    - S
+    - S.42pt
+    - o
+    - l
+    - d
+    - two
+    x_height_px: 253
+    figure_height_px: 253
+    stem_px: 9.5
+    scale: 2.68199
+    stem_units: 25.5
+    x_height: 679
+    figure_height: 679
+  248:30pt:
+    n_caps: 1
+    cap_height_px: 194
+    cap_source: caps
+    baseline_px: 2495
+    baselines:
+      '4': 2495
+    glyphs:
+    - S.30pt
+    - l.30pt
+    - o.30pt
+    - w
+    - three
+    - five
+    x_height_px: 122
+    figure_height_px: 187.0
+    stem_px: 7
+    scale: 3.60825
+    stem_units: 25.3
+    x_height: 440
+    figure_height: 675
+  248:20pt:
+    n_caps: 9
+    cap_height_px: 133
+    cap_source: caps
+    baseline_px: 3081
+    baselines:
+      '5': 3081
+    glyphs:
+    - N.20pt
+    - I.20pt
+    - C
+    - E
+    - R.20pt
+    - B
+    - O
+    - Y
+    - S.20pt
+    stem_px: 6
+    scale: 5.26316
+    stem_units: 31.6
+specimen_lines:
+- leaf: 248
+  line: 42pt
+  text: RINGS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 248
+  line: 42pt
+  text: Sold 2
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 248
+  line: 30pt
+  text: Slow 35
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 248
+  line: 20pt
+  text: NICER BOYS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

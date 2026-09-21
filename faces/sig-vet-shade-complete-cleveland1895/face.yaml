@@ -1,0 +1,56 @@
+name: sig-vet-shade-complete-cleveland1895
+title: Sig.vet Shade Complete
+series: Sig.vet Shade Complete
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 219
+leaf_pages:
+  219: 215
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      219:30pt: 153.5
+lines:
+  219:30pt:
+    n_caps: 0
+    cap_height_px: 134.5
+    cap_source: ascenders
+    baseline_px: 3350
+    baselines:
+      '7': 3350
+    glyphs:
+    - one
+    - two
+    - three
+    - four
+    - five
+    - six
+    - seven
+    figure_height_px: 132
+    scale: 5.20446
+    figure_height: 687
+specimen_lines:
+- leaf: 219
+  line: 30pt
+  text: '1234567'
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,172 @@
+name: caxton-bold-atf1897
+title: Caxton Bold
+series: Eaxton Bold
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 160
+leaf_pages:
+  160: 158
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      160:72pt: 32.5
+      160:60pt: 41.4
+      160:48pt: 73.8
+      160:36pt: 41.6
+      160:30pt: 53.6
+  x_height: 478
+lines:
+  160:72pt:
+    n_caps: 2
+    cap_height_px: 527.0
+    cap_source: caps
+    baseline_px: 1223.5
+    baselines:
+      '1': 1223.5
+    glyphs:
+    - E
+    - N
+    - t
+    - e
+    - r
+    x_height_px: 349
+    stem_px: 14.0
+    scale: 1.32827
+    stem_units: 18.6
+    x_height: 464
+  160:60pt:
+    n_caps: 3
+    cap_height_px: 423
+    cap_source: caps
+    baseline_px: 2034
+    baselines:
+      '2': 2034
+    glyphs:
+    - M
+    - I
+    - S
+    - u
+    - s
+    - e.60pt
+    x_height_px: 299
+    stem_px: 18
+    scale: 1.65485
+    stem_units: 29.8
+    x_height: 495
+  160:48pt:
+    n_caps: 3
+    cap_height_px: 346
+    cap_source: caps
+    baseline_px: 2764
+    baselines:
+      '3': 2764
+    glyphs:
+    - E.48pt
+    - N.48pt
+    - G
+    - i
+    - n
+    - e.48pt
+    - s.48pt
+    x_height_px: 236.5
+    stem_px: 14
+    scale: 2.02312
+    stem_units: 28.3
+    x_height: 478
+  160:36pt:
+    n_caps: 4
+    cap_height_px: 252.5
+    cap_source: caps
+    baseline_px: 3400.0
+    baselines:
+      '4': 3400.0
+    glyphs:
+    - P
+    - R
+    - O
+    - D
+    - u.36pt
+    - c
+    - t.36pt
+    - i.36pt
+    - v
+    - e.36pt
+    x_height_px: 179.5
+    stem_px: 38.0
+    scale: 2.77228
+    stem_units: 105.3
+    x_height: 498
+  160:30pt:
+    n_caps: 5
+    cap_height_px: 196
+    cap_source: caps
+    baseline_px: 3975
+    baselines:
+      '5': 3975
+    glyphs:
+    - F
+    - R.30pt
+    - O.30pt
+    - G.30pt
+    - four
+    - B
+    - r.30pt
+    - o
+    - w
+    - n.30pt
+    x_height_px: 132.5
+    figure_height_px: 194
+    stem_px: 18
+    scale: 3.57143
+    stem_units: 64.3
+    x_height: 473
+    figure_height: 693
+specimen_lines:
+- leaf: 160
+  line: 72pt
+  text: ENter
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 160
+  line: 60pt
+  text: MISuse
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 160
+  line: 48pt
+  text: ENGines
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 160
+  line: 36pt
+  text: PRODuctive
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 160
+  line: 30pt
+  text: FROG 4 Brown
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Eaxton Bold
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

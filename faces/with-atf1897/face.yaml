@@ -1,0 +1,90 @@
+name: with-atf1897
+title: With
+series: With
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 494
+leaf_pages:
+  494: 492
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      494:48pt: 85.0
+      494:42pt: 50.2
+  x_height: 443
+lines:
+  494:48pt:
+    n_caps: 1
+    cap_height_px: 317
+    cap_source: caps
+    baseline_px: 1092
+    baselines:
+      '1': 1092
+    glyphs:
+    - D
+    - e
+    - c
+    - o
+    - r
+    - u
+    - m
+    x_height_px: 222.5
+    stem_px: 20
+    scale: 2.2082
+    stem_units: 44.2
+    x_height: 491
+  494:42pt:
+    n_caps: 2
+    cap_height_px: 279.0
+    cap_source: caps
+    baseline_px: 2462.5
+    baselines:
+      '3': 2462.5
+    glyphs:
+    - N
+    - o.42pt
+    - r.42pt
+    - t
+    - h
+    - R
+    - e.42pt
+    - s
+    - o.42pt_2
+    - r.42pt_2
+    - t.42pt
+    x_height_px: 158
+    stem_px: 4.5
+    scale: 2.50896
+    stem_units: 11.3
+    x_height: 396
+specimen_lines:
+- leaf: 494
+  line: 48pt
+  text: Decorum
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 494
+  line: 42pt
+  text: North Resort
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

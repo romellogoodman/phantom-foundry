@@ -1,0 +1,190 @@
+name: times-gothic-atf1906
+title: Times Gothic
+series: Times Gothic
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 414
+leaf_pages:
+  414: 364
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      414:60pt: 97.7
+      414:54pt: 57.1
+      414:48pt: 85.6
+      414:36pt: 115.1
+  x_height: 553
+lines:
+  414:60pt:
+    n_caps: 8
+    cap_height_px: 258.0
+    cap_source: caps
+    baseline_px: 703.0
+    baselines:
+      '1': 703.0
+      '2': 1037.5
+    glyphs:
+    - M
+    - I
+    - N
+    - I.60pt
+    - N.60pt
+    - G
+    - O
+    - l
+    - d
+    - R
+    - o
+    - c
+    - k
+    - s
+    x_height_px: 222.0
+    stem_px: 59.0
+    scale: 2.71318
+    stem_units: 160.1
+    x_height: 602
+  414:54pt:
+    n_caps: 7
+    cap_height_px: 233
+    cap_source: caps
+    baseline_px: 1504
+    baselines:
+      '3': 1504
+      '4': 1806.0
+    glyphs:
+    - H
+    - O.54pt
+    - M.54pt
+    - E
+    - S
+    - E.54pt
+    - v
+    - e
+    - r
+    - S.54pt
+    - w
+    - e.54pt
+    - e.54pt_2
+    - t
+    x_height_px: 166
+    stem_px: 54
+    scale: 3.00429
+    stem_units: 162.2
+    x_height: 499
+  414:48pt:
+    n_caps: 2
+    cap_height_px: 204.5
+    cap_source: caps
+    baseline_px: 2493.0
+    baselines:
+      '6': 2493.0
+    glyphs:
+    - B
+    - r.48pt
+    - i
+    - g
+    - h
+    - t.48pt
+    - I.48pt
+    - d.48pt
+    - e.48pt
+    - a
+    - s.48pt
+    x_height_px: 200
+    stem_px: 47.5
+    scale: 3.42298
+    stem_units: 162.6
+    x_height: 685
+  414:36pt:
+    n_caps: 11
+    cap_height_px: 149
+    cap_source: caps
+    baseline_px: 3703.5
+    baselines:
+      '10': 3703.5
+      '9': 3495
+    glyphs:
+    - B.36pt
+    - O.36pt
+    - U
+    - N.36pt
+    - D
+    - L
+    - E.36pt
+    - S.36pt
+    - S.36pt_2
+    - M.36pt
+    - i.36pt
+    - n
+    - i.36pt_2
+    - n.36pt
+    - g.36pt
+    - P
+    - r.36pt
+    - o.36pt
+    - d.36pt
+    - u
+    - c.36pt
+    - t.36pt
+    - s.36pt
+    x_height_px: 107.5
+    stem_px: 35
+    scale: 4.69799
+    stem_units: 164.4
+    x_height: 505
+specimen_lines:
+- leaf: 414
+  line: 60pt
+  text: MINING
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 414
+  line: 60pt
+  text: Old Rocks
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 414
+  line: 54pt
+  text: HOMES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 414
+  line: 54pt
+  text: Eve r Sweet
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 414
+  line: 48pt
+  text: Bright Ideas
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 414
+  line: 36pt
+  text: BOUNDLESS
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 414
+  line: 36pt
+  text: Mining Products
+  band: 10
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

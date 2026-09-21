@@ -1,0 +1,127 @@
+name: lothian-millerrichard1921
+title: Lothian.
+series: Lothian.
+status: proto
+version: 0.1.0
+book: printingtypespec00millrich
+source:
+  archive_id: printingtypespec00millrich
+  title: Printing type specimens, comprising a large variety of book and jobbing faces,
+    borders and ornaments
+  creator: Miller & Richard (Firm)
+  publisher: Edinburgh, London
+  date: '[1921?]'
+  ppi: 300
+  url: https://archive.org/details/printingtypespec00millrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 110
+leaf_pages:
+  110: 134
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      110:48pt: 23.6
+      110:42pt: 36.6
+  x_height: 377
+lines:
+  110:48pt:
+    n_caps: 16
+    cap_height_px: 148.5
+    cap_source: caps
+    baseline_px: 472
+    baselines:
+      '1': 472
+      '2': 716
+    glyphs:
+    - A
+    - t
+    - l
+    - a
+    - n
+    - t.48pt
+    - i
+    - c
+    - P
+    - l.48pt
+    - e
+    - a.48pt
+    - s
+    - u
+    - r
+    - e.48pt
+    - S
+    - t.48pt_2
+    - e.48pt_2
+    - a.48pt_2
+    - m
+    - e.48pt_3
+    - r.48pt
+    - W
+    - I
+    - N
+    - T
+    - E
+    - R
+    - S.48pt
+    - E.48pt
+    - R.48pt
+    - V
+    - I.48pt
+    - C
+    - E.48pt_2
+    x_height_px: 80.0
+    stem_px: 24.0
+    scale: 4.7138
+    stem_units: 113.1
+    x_height: 377
+  110:42pt:
+    n_caps: 15
+    cap_height_px: 134
+    cap_source: caps
+    baseline_px: 1249
+    baselines:
+      '4': 1249
+    glyphs:
+    - S.42pt
+    - U
+    - I.42pt
+    - T.42pt
+    - A.42pt
+    - B
+    - L
+    - E.42pt
+    - C.42pt
+    - L.42pt
+    - I.42pt_2
+    - M
+    - A.42pt_2
+    - T.42pt_2
+    - E.42pt_2
+    stem_px: 21
+    scale: 5.22388
+    stem_units: 109.7
+specimen_lines:
+- leaf: 110
+  line: 48pt
+  text: Atlantic Pleasure Steamer
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 110
+  line: 48pt
+  text: WINTER SERVICE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 110
+  line: 42pt
+  text: SUITABLE CLIMATE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

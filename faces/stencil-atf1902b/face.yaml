@@ -1,0 +1,64 @@
+name: stencil-atf1902b
+title: Stencil
+series: Stencil
+status: proto
+version: 0.1.0
+book: deskbookoftypesp02amer
+source:
+  archive_id: deskbookoftypesp02amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    2, 11-22)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp02amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 84
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      84:36pt: 15.4
+  x_height: 501
+lines:
+  84:36pt:
+    n_caps: 6
+    cap_height_px: 181.5
+    cap_source: caps
+    baseline_px: 820.0
+    baselines:
+      '1': 820.0
+    glyphs:
+    - B
+    - R
+    - I
+    - C
+    - K
+    - H
+    - o
+    - u
+    - s
+    - e
+    - s.36pt
+    x_height_px: 130
+    stem_px: 10.0
+    scale: 3.85675
+    stem_units: 38.6
+    x_height: 501
+specimen_lines:
+- leaf: 84
+  line: 36pt
+  text: BRICK Houses
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,111 @@
+name: obelisk-atf1902a
+title: Obelisk
+series: Obelisk
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 443
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      443:54pt: 29.9
+      443:24pt: 119.7
+lines:
+  443:54pt:
+    n_caps: 22
+    cap_height_px: 234.5
+    cap_source: caps
+    baseline_px: 1543.5
+    baselines:
+      '2': 1543.5
+      '4': 2467.0
+    glyphs:
+    - M
+    - U
+    - M.54pt
+    - M.54pt_2
+    - Y
+    - T
+    - O
+    - M.54pt_3
+    - B
+    - S
+    - M.54pt_4
+    - O.54pt
+    - R
+    - N
+    - I
+    - G
+    - S.54pt
+    - T.54pt
+    - R.54pt
+    - O.54pt_2
+    - L
+    - S.54pt_2
+    stem_px: 15.0
+    scale: 2.98507
+    stem_units: 44.8
+  443:24pt:
+    n_caps: 0
+    cap_height_px: 117
+    cap_source: ascenders
+    baseline_px: 3674.5
+    baselines:
+      '7': 3674.5
+    glyphs:
+    - one
+    - two
+    - three
+    - four
+    - five
+    - six
+    - one.24pt
+    - two.24pt
+    - three.24pt
+    - four.24pt
+    - five.24pt
+    - six.24pt
+    - seven
+    - eight
+    - nine
+    - zero
+    figure_height_px: 79.0
+    scale: 5.98291
+    figure_height: 473
+specimen_lines:
+- leaf: 443
+  line: 54pt
+  text: MUMMY TOMBS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 443
+  line: 54pt
+  text: MORNIG STROLS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 443
+  line: 24pt
+  text: 123456 1234567890
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

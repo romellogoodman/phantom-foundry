@@ -1,0 +1,123 @@
+name: one-atf1906
+title: One
+series: One
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 778
+leaf_pages:
+  778: 824
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      778:72pt: 144.5
+      778:48pt: 114.2
+lines:
+  778:72pt:
+    n_caps: 8
+    cap_height_px: 387.5
+    cap_source: caps
+    baseline_px: 2409.0
+    baselines:
+      '6': 2409.0
+      '9': 3714.0
+    glyphs:
+    - A
+    - B
+    - C
+    - D
+    - M
+    - N
+    - O
+    - P
+    stem_px: 3.0
+    scale: 1.80645
+    stem_units: 5.4
+  778:48pt:
+    n_caps: 24
+    cap_height_px: 263.5
+    cap_source: caps
+    baseline_px: 721.5
+    baselines:
+      '1': 721.5
+      '3': 1322.0
+      '4': 1622.5
+      '5': 1909.5
+    glyphs:
+    - A.48pt
+    - B.48pt
+    - C.48pt
+    - D.48pt
+    - E
+    - F
+    - M.48pt
+    - N.48pt
+    - O.48pt
+    - P.48pt
+    - Q
+    - R
+    - S
+    - T
+    - U
+    - V
+    - W
+    - X
+    - S.48pt
+    - T.48pt
+    - Y
+    - Z
+    - W.48pt
+    - X.48pt
+    stem_px: 3.0
+    scale: 2.65655
+    stem_units: 8.0
+specimen_lines:
+- leaf: 778
+  line: 72pt
+  text: ABCD
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 778
+  line: 72pt
+  text: MNOP
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 778
+  line: 48pt
+  text: ABCDEF
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 778
+  line: 48pt
+  text: MNOPQR
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 778
+  line: 48pt
+  text: STUVWX
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 778
+  line: 48pt
+  text: S TYZWX
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

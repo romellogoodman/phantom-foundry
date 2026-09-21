@@ -1,0 +1,256 @@
+name: eccentric-atf1898
+title: Eccentric
+series: Eccentric
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 493
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      493:36pt: 38.4
+      493:24pt: 39.1
+      493:20pt: 31.4
+      493:18pt: 57.4
+lines:
+  493:36pt:
+    n_caps: 21
+    cap_height_px: 228
+    cap_source: caps
+    baseline_px: 878
+    baselines:
+      '2': 878
+      '3': 1155.5
+    glyphs:
+    - M
+    - O
+    - N
+    - T
+    - H
+    - L
+    - Y
+    - E
+    - L.36pt
+    - E.36pt
+    - C
+    - T.36pt
+    - R
+    - I
+    - C.36pt
+    - R.36pt
+    - E.36pt_2
+    - V
+    - I.36pt
+    - E.36pt_3
+    - W
+    stem_px: 15
+    scale: 3.07018
+    stem_units: 46.1
+  493:24pt:
+    n_caps: 12
+    cap_height_px: 152.0
+    cap_source: caps
+    baseline_px: 3392.0
+    baselines:
+      '14': 3392.0
+    glyphs:
+    - S
+    - A
+    - M.24pt
+    - P
+    - L.24pt
+    - E.24pt
+    - B
+    - Y.24pt
+    - M.24pt_2
+    - A.24pt
+    - I.24pt
+    - L.24pt_2
+    stem_px: 11.0
+    scale: 4.60526
+    stem_units: 50.7
+  493:20pt:
+    n_caps: 12
+    cap_height_px: 122.5
+    cap_source: caps
+    baseline_px: 2762.0
+    baselines:
+      '12': 2762.0
+    glyphs:
+    - R.20pt
+    - E.20pt
+    - P.20pt
+    - O.20pt
+    - R.20pt_2
+    - T.20pt
+    - S.20pt
+    - comma
+    - N.20pt
+    - O.20pt_2
+    - T.20pt_2
+    - E.20pt_2
+    - S.20pt_2
+    stem_px: 9.0
+    scale: 5.71429
+    stem_units: 51.4
+  493:18pt:
+    n_caps: 78
+    cap_height_px: 122.0
+    cap_source: caps
+    baseline_px: 2455.0
+    baselines:
+      '10': 2455.0
+      '5': 1690.5
+      '6': 1843.5
+      '8': 2148.5
+      '9': 2302.0
+    glyphs:
+    - D
+    - E.18pt
+    - V.18pt
+    - O.18pt
+    - T.18pt
+    - E.18pt_2
+    - D.18pt
+    - T.18pt_2
+    - O.18pt_2
+    - A.18pt
+    - L.18pt
+    - L.18pt_2
+    - T.18pt_3
+    - H.18pt
+    - U
+    - S.18pt
+    - E.18pt_3
+    - S.18pt_2
+    - O.18pt_3
+    - F
+    - E.18pt_4
+    - L.18pt_3
+    - E.18pt_5
+    - C.18pt
+    - T.18pt_4
+    - R.18pt
+    - I.18pt
+    - C.18pt_2
+    - A.18pt_2
+    - L.18pt_4
+    - T.18pt_5
+    - O.18pt_4
+    - E.18pt_6
+    - L.18pt_5
+    - E.18pt_7
+    - C.18pt_3
+    - T.18pt_6
+    - R.18pt_2
+    - I.18pt_2
+    - C.18pt_4
+    - I.18pt_3
+    - A.18pt_3
+    - N.18pt
+    - S.18pt_3
+    - O.18pt_5
+    - R.18pt_3
+    - J
+    - O.18pt_6
+    - B.18pt
+    - B.18pt_2
+    - E.18pt_8
+    - R.18pt_4
+    - S.18pt_4
+    - comma.18pt
+    - S.18pt_5
+    - P.18pt
+    - E.18pt_9
+    - C.18pt_5
+    - I.18pt_4
+    - A.18pt_4
+    - L.18pt_6
+    - L.18pt_7
+    - Y.18pt
+    - A.18pt_5
+    - R.18pt_5
+    - R.18pt_6
+    - A.18pt_6
+    - N.18pt_2
+    - G
+    - E.18pt_10
+    - D.18pt_2
+    - A.18pt_7
+    - R.18pt_7
+    - T.18pt_7
+    - I.18pt_5
+    - C.18pt_6
+    - L.18pt_8
+    - E.18pt_11
+    - S.18pt_6
+    stem_px: 9.0
+    scale: 5.7377
+    stem_units: 51.6
+specimen_lines:
+- leaf: 493
+  line: 36pt
+  text: ~MONTHLY~
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 493
+  line: 36pt
+  text: ELECTRIC REVIEW
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 493
+  line: 24pt
+  text: ~SAMPLE BY MAIL
+  band: 14
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 493
+  line: 20pt
+  text: REPORTS, NOTES~
+  band: 12
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 493
+  line: 18pt
+  text: DEVOTED TO ALL TH
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 493
+  line: 18pt
+  text: USES OF ELECTRICAL
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 493
+  line: 18pt
+  text: TO ELECTRICIANS OR
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 493
+  line: 18pt
+  text: JOBBERS, SPECIALLY
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 493
+  line: 18pt
+  text: ARRANGED ARTICLES
+  band: 10
+  by: deepseek-v4.1-flash+qwen3.7-flash

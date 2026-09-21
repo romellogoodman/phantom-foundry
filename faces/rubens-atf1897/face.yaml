@@ -1,0 +1,105 @@
+name: rubens-atf1897
+title: Rubens
+series: Rubens
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 420
+leaf_pages:
+  420: 418
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      420:54pt: 18.6
+      420:48pt: 23.5
+  x_height: 597
+lines:
+  420:54pt:
+    n_caps: 7
+    cap_height_px: 414
+    cap_source: caps
+    baseline_px: 2730
+    baselines:
+      '3': 2730
+    glyphs:
+    - T
+    - R
+    - U
+    - S
+    - T.54pt
+    - Y
+    - nine
+    - eight
+    - F
+    - r
+    - i
+    - e
+    - n
+    - d
+    x_height_px: 350
+    figure_height_px: 424.5
+    stem_px: 44
+    scale: 1.69082
+    stem_units: 74.4
+    x_height: 592
+    figure_height: 718
+  420:48pt:
+    n_caps: 9
+    cap_height_px: 358
+    cap_source: caps
+    baseline_px: 3384
+    baselines:
+      '4': 3384
+    glyphs:
+    - S.48pt
+    - E
+    - R.48pt
+    - V
+    - I
+    - C
+    - E.48pt
+    - S.48pt_2
+    - P
+    - e.48pt
+    - r.48pt
+    - f
+    - o
+    - r.48pt_2
+    - m
+    - e.48pt_2
+    - d.48pt
+    x_height_px: 308.5
+    stem_px: 38
+    scale: 1.95531
+    stem_units: 74.3
+    x_height: 603
+specimen_lines:
+- leaf: 420
+  line: 54pt
+  text: TRUSTY 98 Friend
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 420
+  line: 48pt
+  text: SERVICES Performed
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,152 @@
+name: abbot-oldstyle-atf1906
+title: Abbot Oldstyle
+series: Abbot Oldstyle
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 262
+leaf_pages:
+  262: 216
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      262:80pt: 36.7
+      262:72pt: 25.2
+      262:64pt: 24.5
+      262:60pt: 30.3
+  x_height: 538
+lines:
+  262:80pt:
+    n_caps: 8
+    cap_height_px: 124.0
+    cap_source: caps
+    baseline_px: 2632.0
+    baselines:
+      '6': 2632.0
+    glyphs:
+    - E
+    - n
+    - t
+    - i
+    - r
+    - e
+    - P
+    - l
+    - a
+    - i.80pt
+    - n.80pt
+    - H
+    - A
+    - R
+    - K
+    - E.80pt
+    - N
+    x_height_px: 89
+    stem_px: 17.0
+    scale: 5.64516
+    stem_units: 96.0
+    x_height: 502
+  262:72pt:
+    n_caps: 4
+    cap_height_px: 305.0
+    cap_source: caps
+    baseline_px: 670.5
+    baselines:
+      '1': 670.5
+    glyphs:
+    - H.72pt
+    - E.72pt
+    - N.72pt
+    - S
+    - o
+    - l.72pt
+    - d
+    x_height_px: 301
+    stem_px: 22.0
+    scale: 2.29508
+    stem_units: 50.5
+    x_height: 691
+  262:64pt:
+    n_caps: 6
+    cap_height_px: 228.5
+    cap_source: caps
+    baseline_px: 1542.0
+    baselines:
+      '3': 1542.0
+    glyphs:
+    - P.64pt
+    - L
+    - I
+    - E.64pt
+    - D
+    - E.64pt_2
+    - t.64pt
+    - h
+    - e.64pt
+    - r.64pt
+    x_height_px: 187.5
+    stem_px: 43.0
+    scale: 3.06346
+    stem_units: 131.7
+    x_height: 574
+  262:60pt:
+    n_caps: 5
+    cap_height_px: 254
+    cap_source: caps
+    baseline_px: 1116
+    baselines:
+      '2': 1116
+    glyphs:
+    - B
+    - o.60pt
+    - a.60pt
+    - t.60pt
+    - M
+    - A.60pt
+    - I.60pt
+    - N.60pt
+    x_height_px: 174
+    stem_px: 11
+    scale: 2.75591
+    stem_units: 30.3
+    x_height: 480
+specimen_lines:
+- leaf: 262
+  line: 80pt
+  text: Entire Plain HARKEN
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 262
+  line: 72pt
+  text: HEN Sold
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 262
+  line: 64pt
+  text: PLIED Ether
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 262
+  line: 60pt
+  text: Boat MAIN
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

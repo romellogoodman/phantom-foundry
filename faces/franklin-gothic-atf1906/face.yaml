@@ -1,0 +1,186 @@
+name: franklin-gothic-atf1906
+title: Franklin Gothic
+series: Franklin Gothic
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 406
+leaf_pages:
+  406: 356
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      406:72pt: 46.5
+      406:60pt: 49.2
+      406:48pt: 49.4
+      406:42pt: 51.3
+  x_height: 518
+lines:
+  406:72pt:
+    n_caps: 7
+    cap_height_px: 316
+    cap_source: caps
+    baseline_px: 742.5
+    baselines:
+      '1': 742.5
+      '2': 1153
+    glyphs:
+    - B
+    - R
+    - I
+    - C
+    - K
+    - S
+    - D
+    - e
+    - n
+    - m
+    - a
+    - r
+    - k
+    x_height_px: 226.0
+    stem_px: 88
+    scale: 2.21519
+    stem_units: 194.9
+    x_height: 501
+  406:60pt:
+    n_caps: 7
+    cap_height_px: 263
+    cap_source: caps
+    baseline_px: 1668.0
+    baselines:
+      '3': 1668.0
+      '4': 2023
+    glyphs:
+    - R.60pt
+    - E
+    - S.60pt
+    - C.60pt
+    - U
+    - E.60pt
+    - M
+    - a.60pt
+    - n.60pt
+    - i
+    - f
+    - o
+    - l
+    - d
+    - e.60pt
+    - d.60pt
+    x_height_px: 260
+    stem_px: 73
+    scale: 2.6616
+    stem_units: 194.3
+    x_height: 692
+  406:48pt:
+    n_caps: 10
+    cap_height_px: 205.5
+    cap_source: caps
+    baseline_px: 2472.5
+    baselines:
+      '5': 2472.5
+      '6': 2762.5
+    glyphs:
+    - K.48pt
+    - N
+    - I.48pt
+    - G
+    - H
+    - T
+    - E.48pt
+    - D.48pt
+    - N.48pt
+    - e.48pt
+    - w
+    - s
+    - P
+    - o.48pt
+    - l.48pt
+    - i.48pt
+    - t
+    - i.48pt_2
+    - c
+    - a.48pt
+    - l.48pt_2
+    x_height_px: 152
+    stem_px: 58.0
+    scale: 3.40633
+    stem_units: 197.6
+    x_height: 518
+  406:42pt:
+    n_caps: 10
+    cap_height_px: 177.5
+    cap_source: caps
+    baseline_px: 3190.5
+    baselines:
+      '7': 3190.5
+    glyphs:
+    - I.42pt
+    - N.42pt
+    - T.42pt
+    - E.42pt
+    - R.42pt
+    - E.42pt_2
+    - S.42pt
+    - T.42pt_2
+    - E.42pt_3
+    - D.42pt
+    stem_px: 51.0
+    scale: 3.94366
+    stem_units: 201.1
+specimen_lines:
+- leaf: 406
+  line: 72pt
+  text: BRICKS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 406
+  line: 72pt
+  text: Denmark
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 406
+  line: 60pt
+  text: RESCUE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 406
+  line: 60pt
+  text: Manifolded
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 406
+  line: 48pt
+  text: KNIGHTED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 406
+  line: 48pt
+  text: News Political
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 406
+  line: 42pt
+  text: INTERESTED
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

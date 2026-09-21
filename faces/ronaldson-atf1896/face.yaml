@@ -1,0 +1,181 @@
+name: ronaldson-atf1896
+title: Ronaldson.
+series: Ronaldson.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 195
+leaf_pages:
+  195: 191
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      195:48pt: 10.3
+      195:36pt: 24.3
+      195:30pt: 36.8
+      195:24pt: 41.0
+  x_height: 434
+lines:
+  195:48pt:
+    n_caps: 4
+    cap_height_px: 271.5
+    cap_source: caps
+    baseline_px: 908.0
+    baselines:
+      '1': 908.0
+    glyphs:
+    - M
+    - i
+    - n
+    - i.48pt
+    - n.48pt
+    - g
+    - T
+    - I
+    - N
+    x_height_px: 258
+    stem_px: 15.0
+    scale: 2.57827
+    stem_units: 38.7
+    x_height: 665
+  195:36pt:
+    n_caps: 5
+    cap_height_px: 202
+    cap_source: caps
+    baseline_px: 1446
+    baselines:
+      '2': 1446
+    glyphs:
+    - H
+    - A
+    - R
+    - D
+    - L
+    - u
+    - m
+    - b
+    - e
+    - r
+    x_height_px: 125
+    stem_px: 20
+    scale: 3.46535
+    stem_units: 69.3
+    x_height: 433
+  195:30pt:
+    n_caps: 6
+    cap_height_px: 171.0
+    cap_source: caps
+    baseline_px: 1983.5
+    baselines:
+      '3': 1983.5
+    glyphs:
+    - H.30pt
+    - u.30pt
+    - m.30pt
+    - o
+    - r.30pt
+    - o.30pt
+    - u.30pt_2
+    - s
+    - J
+    - O
+    - K
+    - E
+    - S
+    x_height_px: 103
+    stem_px: 11.0
+    scale: 4.09357
+    stem_units: 45.0
+    x_height: 422
+  195:24pt:
+    n_caps: 12
+    cap_height_px: 136.5
+    cap_source: caps
+    baseline_px: 2480.5
+    baselines:
+      '4': 2480.5
+      '5': 2732.0
+    glyphs:
+    - R.24pt
+    - A.24pt
+    - R.24pt_2
+    - E.24pt
+    - P
+    - R.24pt_3
+    - I.24pt
+    - N.24pt
+    - T.24pt
+    - S.24pt
+    - D.24pt
+    - i.24pt
+    - s.24pt
+    - c
+    - o.24pt
+    - v
+    - e.24pt
+    - r.24pt
+    - e.24pt_2
+    - d
+    - i.24pt_2
+    - n.24pt
+    - A.24pt_2
+    - u.24pt
+    - s.24pt_2
+    - t
+    - r.24pt_2
+    - a
+    - l
+    - i.24pt_3
+    - a.24pt
+    x_height_px: 85
+    stem_px: 12.5
+    scale: 5.12821
+    stem_units: 64.1
+    x_height: 436
+specimen_lines:
+- leaf: 195
+  line: 48pt
+  text: Mining TIN
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 195
+  line: 36pt
+  text: HARD Lumber
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 195
+  line: 30pt
+  text: Humorous JOKES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 195
+  line: 24pt
+  text: RARE PRINTS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 195
+  line: 24pt
+  text: Discovered in Australia
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

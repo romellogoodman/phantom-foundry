@@ -1,0 +1,91 @@
+name: quaint-open-boston1889
+title: Quaint Open
+series: Quaint Open
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 294
+leaf_pages:
+  294: 286
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      294:36pt: 49.4
+lines:
+  294:36pt:
+    n_caps: 29
+    cap_height_px: 156
+    cap_source: caps
+    baseline_px: 1721
+    baselines:
+      '2': 1721
+      '3': 1956.0
+    glyphs:
+    - B
+    - R
+    - A
+    - V
+    - E
+    - M
+    - E.36pt
+    - N
+    - nine
+    - one
+    - four
+    - O
+    - L
+    - D
+    - T
+    - I
+    - M.36pt
+    - E.36pt_2
+    - C
+    - H
+    - I.36pt
+    - M.36pt_2
+    - I.36pt_2
+    - N.36pt
+    - G
+    - W
+    - H.36pt
+    - I.36pt_3
+    - S
+    - T.36pt
+    - L.36pt
+    - E.36pt_3
+    figure_height_px: 150
+    stem_px: 3
+    scale: 4.48718
+    stem_units: 13.5
+    figure_height: 673
+specimen_lines:
+- leaf: 294
+  line: 36pt
+  text: BRAVE ~ MEN ~ 9 1 4 ~ OLD ~TIME
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 294
+  line: 36pt
+  text: CHIMING WHISTLE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

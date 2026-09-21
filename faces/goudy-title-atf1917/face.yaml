@@ -1,0 +1,73 @@
+name: goudy-title-atf1917
+title: Goudy Title
+series: Goudy Title
+status: proto
+version: 0.1.0
+book: supplementarycat00daysrich
+source:
+  archive_id: supplementarycat00daysrich
+  title: 'Supplementary catalogue : new type faces, borders, ornaments, brass rule'
+  creator: Daystrom, inc
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '[c1917]'
+  ppi: 400
+  url: https://archive.org/details/supplementarycat00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 44
+leaf_pages:
+  44: 38
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      44:42pt: 16.4
+lines:
+  44:42pt:
+    n_caps: 18
+    cap_height_px: 214.0
+    cap_source: caps
+    baseline_px: 1576.5
+    baselines:
+      '4': 1576.5
+      '6': 2489.5
+    glyphs:
+    - H
+    - U
+    - N
+    - T
+    - S
+    - Y
+    - S.42pt
+    - T.42pt
+    - E
+    - M
+    - M.42pt
+    - E.42pt
+    - N.42pt
+    - T.42pt_2
+    - I
+    - O
+    - N.42pt_2
+    - S.42pt_2
+    stem_px: 15.0
+    scale: 3.27103
+    stem_units: 49.1
+specimen_lines:
+- leaf: 44
+  line: 42pt
+  text: HUNT SYSTEM
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 44
+  line: 42pt
+  text: MENTION S~
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

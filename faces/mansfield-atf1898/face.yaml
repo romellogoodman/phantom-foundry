@@ -1,0 +1,139 @@
+name: mansfield-atf1898
+title: Mansfield
+series: Mansfield
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 458
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      458:48pt: 45.2
+      458:36pt: 39.3
+      458:24pt: 61.1
+  x_height: 414
+lines:
+  458:48pt:
+    n_caps: 2
+    cap_height_px: 317.5
+    cap_source: caps
+    baseline_px: 883.5
+    baselines:
+      '2': 883.5
+    glyphs:
+    - H
+    - e
+    - a
+    - r
+    - d
+    - B
+    - i
+    - r.48pt
+    - d.48pt
+    - s
+    x_height_px: 198.0
+    stem_px: 28.0
+    scale: 2.20472
+    stem_units: 61.7
+    x_height: 437
+  458:36pt:
+    n_caps: 2
+    cap_height_px: 249.5
+    cap_source: caps
+    baseline_px: 1267.5
+    baselines:
+      '3': 1267.5
+    glyphs:
+    - R
+    - e.36pt
+    - v
+    - e.36pt_2
+    - a.36pt
+    - l
+    - four
+    - five
+    - N
+    - o
+    - t
+    - i.36pt
+    - c
+    - e.36pt_3
+    x_height_px: 128.5
+    figure_height_px: 177.5
+    stem_px: 19.5
+    scale: 2.80561
+    stem_units: 54.7
+    x_height: 361
+    figure_height: 498
+  458:24pt:
+    n_caps: 2
+    cap_height_px: 160.5
+    cap_source: caps
+    baseline_px: 1569.5
+    baselines:
+      '4': 1569.5
+    glyphs:
+    - M
+    - a.24pt
+    - c.24pt
+    - h
+    - i.24pt
+    - n
+    - e.24pt
+    - s.24pt
+    - R.24pt
+    - e.24pt_2
+    - m
+    - o.24pt
+    - d.24pt
+    - e.24pt_3
+    - l.24pt
+    - e.24pt_4
+    - d.24pt_2
+    - six
+    - eight
+    - three
+    x_height_px: 95
+    figure_height_px: 125
+    stem_px: 14.5
+    scale: 4.36137
+    stem_units: 63.2
+    x_height: 414
+    figure_height: 545
+specimen_lines:
+- leaf: 458
+  line: 48pt
+  text: Heard Birds
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 458
+  line: 36pt
+  text: Reveal 45 Notice
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 458
+  line: 24pt
+  text: Machines Remodeled 683
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

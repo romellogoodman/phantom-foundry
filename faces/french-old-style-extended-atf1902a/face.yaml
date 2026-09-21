@@ -1,0 +1,202 @@
+name: french-old-style-extended-atf1902a
+title: French Old Style Extended
+series: French Old Style Extended
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 541
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      541:72pt: 59.9
+      541:60pt: 70.2
+      541:48pt: 77.1
+      541:36pt: 64.0
+      541:30pt: 112.8
+      541:18pt: 114.0
+  x_height: 491
+lines:
+  541:72pt:
+    n_caps: 3
+    cap_height_px: 374
+    cap_source: caps
+    baseline_px: 1009
+    baselines:
+      '1': 1009
+    glyphs:
+    - S
+    - a
+    - i
+    - d
+    - N
+    - O
+    x_height_px: 352
+    stem_px: 30
+    scale: 1.87166
+    stem_units: 56.1
+    x_height: 659
+  541:60pt:
+    n_caps: 4
+    cap_height_px: 299.0
+    cap_source: caps
+    baseline_px: 1526.5
+    baselines:
+      '2': 1526.5
+    glyphs:
+    - H
+    - I
+    - D
+    - B
+    - a.60pt
+    - n
+    - d.60pt
+    x_height_px: 203
+    stem_px: 34.0
+    scale: 2.34114
+    stem_units: 79.6
+    x_height: 475
+  541:48pt:
+    n_caps: 5
+    cap_height_px: 245
+    cap_source: caps
+    baseline_px: 2001
+    baselines:
+      '3': 2001
+    glyphs:
+    - M
+    - a.48pt
+    - r
+    - k
+    - R
+    - I.48pt
+    - N.48pt
+    - G
+    x_height_px: 172
+    stem_px: 26
+    scale: 2.85714
+    stem_units: 74.3
+    x_height: 491
+  541:36pt:
+    n_caps: 5
+    cap_height_px: 175
+    cap_source: caps
+    baseline_px: 2414
+    baselines:
+      '4': 2414
+    glyphs:
+    - B.36pt
+    - O.36pt
+    - N.36pt
+    - E
+    - B.36pt_2
+    - r.36pt
+    - e
+    - a.36pt
+    - k.36pt
+    - e.36pt
+    - r.36pt_2
+    - s
+    x_height_px: 126
+    stem_px: 20
+    scale: 4.0
+    stem_units: 80.0
+    x_height: 504
+  541:30pt:
+    n_caps: 7
+    cap_height_px: 149
+    cap_source: caps
+    baseline_px: 2804
+    baselines:
+      '5': 2804
+    glyphs:
+    - H.30pt
+    - e.30pt
+    - r.30pt
+    - o
+    - i.30pt
+    - n.30pt
+    - e.30pt_2
+    - N.30pt
+    - U
+    - M.30pt
+    - B.30pt
+    - E.30pt
+    - R.30pt
+    x_height_px: 104.0
+    stem_px: 9
+    scale: 4.69799
+    stem_units: 42.3
+    x_height: 489
+  541:18pt:
+    n_caps: 10
+    cap_height_px: 89.0
+    cap_source: caps
+    baseline_px: 3166.0
+    baselines:
+      '6': 3166.0
+    glyphs:
+    - H.18pt
+    - E.18pt
+    - R.18pt
+    - O.18pt
+    - R.18pt_2
+    - E.18pt_2
+    - C
+    - O.18pt_2
+    - R.18pt_3
+    - D.18pt
+    stem_px: 11.5
+    scale: 7.86517
+    stem_units: 90.4
+specimen_lines:
+- leaf: 541
+  line: 72pt
+  text: Said NO
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 541
+  line: 60pt
+  text: HID Band
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 541
+  line: 48pt
+  text: Mark RING
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 541
+  line: 36pt
+  text: BONE Breakers
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 541
+  line: 30pt
+  text: Heroine NUMBER
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 541
+  line: 18pt
+  text: HERO RECORD
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

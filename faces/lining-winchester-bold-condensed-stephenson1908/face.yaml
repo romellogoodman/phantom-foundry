@@ -1,0 +1,122 @@
+name: lining-winchester-bold-condensed-stephenson1908
+title: Lining Winchester Bold Condensed.
+series: Lining Winchester Bold Condensed.
+status: proto
+version: 0.1.0
+book: specimensofpoint00step
+source:
+  archive_id: specimensofpoint00step
+  title: 'Specimens of point line type : borders ornaments brass rules &c. &c'
+  creator:
+  - Stephenson, Blake and Company, Ltd
+  - Sir Charles Reed & Sons
+  publisher: 'Toronto : Stephenson, Blake & Co.'
+  date: '1908'
+  ppi: 350
+  url: https://archive.org/details/specimensofpoint00step
+  copyright_status: null
+  contributor: Fisher - University of Toronto
+  leaves:
+  - 77
+leaf_pages:
+  77: 109
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      77:72pt: 38.0
+      77:60pt: 33.8
+  x_height: 413
+lines:
+  77:72pt:
+    n_caps: 6
+    cap_height_px: 276.0
+    cap_source: caps
+    baseline_px: 774.5
+    baselines:
+      '1': 774.5
+    glyphs:
+    - H
+    - O
+    - M
+    - E
+    - S
+    - F
+    - u
+    - r
+    - n
+    - i
+    - s
+    - h
+    - e
+    - d
+    x_height_px: 163.0
+    stem_px: 29.0
+    scale: 2.53623
+    stem_units: 73.6
+    x_height: 413
+  77:60pt:
+    n_caps: 16
+    cap_height_px: 228.0
+    cap_source: caps
+    baseline_px: 3102.0
+    baselines:
+      '3': 3102.0
+      '4': 3398.5
+    glyphs:
+    - B
+    - E.60pt
+    - D
+    - F.60pt
+    - O.60pt
+    - R
+    - D.60pt
+    - G
+    - A
+    - R.60pt
+    - D.60pt_2
+    - E.60pt_2
+    - N
+    - S.60pt
+    - D.60pt_3
+    - i.60pt
+    - a
+    - m
+    - o
+    - n.60pt
+    - d.60pt
+    - O.60pt_2
+    - r.60pt
+    - n.60pt_2
+    - a.60pt
+    - m.60pt
+    - e.60pt
+    - n.60pt_3
+    - t
+    x_height_px: 135
+    stem_px: 36.0
+    scale: 3.07018
+    stem_units: 110.5
+    x_height: 414
+specimen_lines:
+- leaf: 77
+  line: 72pt
+  text: HOMES Furnished
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 77
+  line: 60pt
+  text: BEDFORD GARDENS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 77
+  line: 60pt
+  text: Diamond Ornament
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

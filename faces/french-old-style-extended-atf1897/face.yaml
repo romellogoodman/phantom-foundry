@@ -1,0 +1,129 @@
+name: french-old-style-extended-atf1897
+title: French Old Style Extended
+series: French Style Extended
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 170
+leaf_pages:
+  170: 168
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      170:60pt: 62.1
+      170:48pt: 101.3
+      170:36pt: 68.1
+  x_height: 489
+lines:
+  170:60pt:
+    n_caps: 1
+    cap_height_px: 406
+    cap_source: caps
+    baseline_px: 2072
+    baselines:
+      '2': 2072
+    glyphs:
+    - R
+    - e
+    - c
+    - o
+    - r
+    - d
+    x_height_px: 273
+    stem_px: 43
+    scale: 1.72414
+    stem_units: 74.1
+    x_height: 471
+  170:48pt:
+    n_caps: 1
+    cap_height_px: 318
+    cap_source: caps
+    baseline_px: 2852
+    baselines:
+      '3': 2852
+    glyphs:
+    - D
+    - e.48pt
+    - m
+    - o.48pt
+    - n
+    - s
+    x_height_px: 222
+    stem_px: 39
+    scale: 2.20126
+    stem_units: 85.8
+    x_height: 489
+  170:36pt:
+    n_caps: 8
+    cap_height_px: 236.5
+    cap_source: caps
+    baseline_px: 3555.0
+    baselines:
+      '4': 3555.0
+      '5': 3959.5
+    glyphs:
+    - H
+    - a
+    - r.36pt
+    - d.36pt
+    - four
+    - C
+    - a.36pt
+    - s.36pt
+    - h
+    - B
+    - R.36pt
+    - I
+    - C.36pt
+    - K
+    - S
+    x_height_px: 165.5
+    figure_height_px: 235
+    stem_px: 27.0
+    scale: 2.95983
+    stem_units: 79.9
+    x_height: 490
+    figure_height: 696
+specimen_lines:
+- leaf: 170
+  line: 60pt
+  text: Record
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 170
+  line: 48pt
+  text: Demons
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 170
+  line: 36pt
+  text: Hard 4 Cash
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 170
+  line: 36pt
+  text: BRICKS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: French Style Extended
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

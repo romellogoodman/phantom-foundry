@@ -1,0 +1,139 @@
+name: skeleton-lining-gothic-keystone1906
+title: Skeleton Lining Gothic
+series: Skeleton Lining Gothic
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 189
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      189:36pt: 89.3
+      189:30pt: 89.7
+      189:24pt: 126.9
+lines:
+  189:36pt:
+    n_caps: 15
+    cap_height_px: 243
+    cap_source: caps
+    baseline_px: 3219.5
+    baselines:
+      '7': 3219.5
+      '8': 3526
+    glyphs:
+    - S
+    - E
+    - L
+    - E.36pt
+    - C
+    - T
+    - Q
+    - U
+    - O
+    - T.36pt
+    - A
+    - T.36pt_2
+    - I
+    - O.36pt
+    - N
+    stem_px: 15
+    scale: 2.88066
+    stem_units: 43.2
+  189:30pt:
+    n_caps: 7
+    cap_height_px: 203
+    cap_source: caps
+    baseline_px: 2504
+    baselines:
+      '5': 2504
+    glyphs:
+    - L.30pt
+    - I.30pt
+    - V
+    - E.30pt
+    - O.30pt
+    - A.30pt
+    - K
+    stem_px: 14
+    scale: 3.44828
+    stem_units: 48.3
+  189:24pt:
+    n_caps: 21
+    cap_height_px: 160
+    cap_source: caps
+    baseline_px: 1887.0
+    baselines:
+      '3': 1887.0
+      '4': 2110
+    glyphs:
+    - M
+    - O.24pt
+    - N.24pt
+    - U.24pt
+    - M.24pt
+    - E.24pt
+    - N.24pt_2
+    - T.24pt
+    - I.24pt
+    - M.24pt_2
+    - P
+    - O.24pt_2
+    - S.24pt
+    - I.24pt_2
+    - N.24pt_3
+    - G
+    - S.24pt_2
+    - I.24pt_3
+    - G.24pt
+    - H
+    - T.24pt_2
+    stem_px: 11
+    scale: 4.375
+    stem_units: 48.1
+specimen_lines:
+- leaf: 189
+  line: 36pt
+  text: SELECT
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 189
+  line: 36pt
+  text: QUOTATION
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 189
+  line: 30pt
+  text: LIVE OAK
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 189
+  line: 24pt
+  text: MONUMENT
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 189
+  line: 24pt
+  text: IMPOSING SIGHT
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

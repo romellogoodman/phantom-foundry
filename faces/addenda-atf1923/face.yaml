@@ -1,0 +1,87 @@
+name: addenda-atf1923
+title: Addenda
+series: Addenda
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 1179
+leaf_pages:
+  1179: 875
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      1179:96pt: 11.6
+      1179:84pt: 26.8
+  x_height: 591
+lines:
+  1179:96pt:
+    n_caps: 2
+    cap_height_px: 362.0
+    cap_source: caps
+    baseline_px: 1370.0
+    baselines:
+      '2': 1370.0
+    glyphs:
+    - I
+    - d
+    - y
+    - l
+    - I.96pt
+    - d.96pt
+    - y.96pt
+    - l.96pt
+    x_height_px: 380.0
+    stem_px: 31.5
+    scale: 1.9337
+    stem_units: 60.9
+    x_height: 735
+  1179:84pt:
+    n_caps: 2
+    cap_height_px: 314.0
+    cap_source: caps
+    baseline_px: 1854.0
+    baselines:
+      '3': 1854.0
+    glyphs:
+    - B
+    - e
+    - a
+    - t
+    - B.84pt
+    - e.84pt
+    - a.84pt
+    - t.84pt
+    x_height_px: 200.5
+    stem_px: 28.0
+    scale: 2.2293
+    stem_units: 62.4
+    x_height: 447
+specimen_lines:
+- leaf: 1179
+  line: 96pt
+  text: Idyl Idyl
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 1179
+  line: 84pt
+  text: Beat ~ Beat
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

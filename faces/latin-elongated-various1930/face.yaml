@@ -1,0 +1,188 @@
+name: latin-elongated-various1930
+title: Latin Elongated
+series: Latin Elongated
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 184
+leaf_pages:
+  184: 172
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      184:60pt: 19.9
+      184:48pt: 26.9
+      184:36pt: 30.9
+  x_height: 530
+lines:
+  184:60pt:
+    n_caps: 3
+    cap_height_px: 282
+    cap_source: caps
+    baseline_px: 760
+    baselines:
+      '1': 760
+    glyphs:
+    - N
+    - e
+    - w
+    - S
+    - t
+    - a
+    - n
+    - d
+    - a.60pt
+    - r
+    - d.60pt
+    - W
+    - o
+    - r.60pt
+    - k
+    - s
+    x_height_px: 212
+    stem_px: 17
+    scale: 2.48227
+    stem_units: 42.2
+    x_height: 526
+  184:48pt:
+    n_caps: 6
+    cap_height_px: 182.0
+    cap_source: caps
+    baseline_px: 1124.0
+    baselines:
+      '2': 1124.0
+      '3': 1457.5
+    glyphs:
+    - C
+    - a.48pt
+    - m
+    - b
+    - r.48pt
+    - i
+    - d.48pt
+    - g
+    - e.48pt
+    - E
+    - n.48pt
+    - c
+    - y
+    - c.48pt
+    - l
+    - o.48pt
+    - p
+    - æ
+    - d.48pt_2
+    - i.48pt
+    - a.48pt_2
+    - I
+    - n.48pt_2
+    - H
+    - a.48pt_3
+    - n.48pt_3
+    - d.48pt_3
+    - s.48pt
+    - o.48pt_2
+    - m.48pt
+    - e.48pt_2
+    - P
+    - o.48pt_3
+    - l.48pt
+    - i.48pt_2
+    - s.48pt_2
+    - h
+    - e.48pt_3
+    - d.48pt_4
+    - W.48pt
+    - a.48pt_4
+    - l.48pt_2
+    - n.48pt_4
+    - u
+    - t.48pt
+    x_height_px: 169
+    stem_px: 15.5
+    scale: 3.84615
+    stem_units: 59.6
+    x_height: 650
+  184:36pt:
+    n_caps: 3
+    cap_height_px: 136
+    cap_source: caps
+    baseline_px: 1751
+    baselines:
+      '4': 1751
+    glyphs:
+    - T
+    - h.36pt
+    - e.36pt
+    - C.36pt
+    - o.36pt
+    - m.36pt
+    - p.36pt
+    - l.36pt
+    - e.36pt_2
+    - t.36pt
+    - e.36pt_3
+    - S.36pt
+    - e.36pt_4
+    - t.36pt_2
+    - s.36pt
+    - a.36pt
+    - r.36pt
+    - e.36pt_5
+    - n.36pt
+    - o.36pt_2
+    - w.36pt
+    - o.36pt_3
+    - b.36pt
+    - t.36pt_3
+    - a.36pt_2
+    - i.36pt
+    - n.36pt_2
+    - a.36pt_3
+    - b.36pt_2
+    - l.36pt_2
+    - e.36pt_6
+    x_height_px: 103.0
+    stem_px: 7
+    scale: 5.14706
+    stem_units: 36.0
+    x_height: 530
+specimen_lines:
+- leaf: 184
+  line: 60pt
+  text: New Standard Works
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 184
+  line: 48pt
+  text: Cambridge Encyclopædia
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 184
+  line: 48pt
+  text: In Handsome Polished Walnut
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 184
+  line: 36pt
+  text: The Complete Sets are now obtainable
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,131 @@
+name: raphael-atf1896
+title: Raphael.
+series: Raphael.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 509
+leaf_pages:
+  509: 505
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      509:36pt: 13.1
+      509:24pt: 13.6
+  x_height: 545
+lines:
+  509:36pt:
+    n_caps: 12
+    cap_height_px: 214.5
+    cap_source: caps
+    baseline_px: 786
+    baselines:
+      '1': 786
+      '2': 1084
+    glyphs:
+    - P
+    - A
+    - C
+    - I
+    - N
+    - G
+    - H
+    - O
+    - R
+    - S
+    - E
+    - A.36pt
+    - s
+    - s.36pt
+    - o
+    - r
+    - t
+    - m
+    - e
+    - n
+    - t.36pt
+    - five
+    - eight
+    x_height_px: 167
+    figure_height_px: 211.0
+    stem_px: 4.0
+    scale: 3.2634
+    stem_units: 13.1
+    x_height: 545
+    figure_height: 689
+  509:24pt:
+    n_caps: 22
+    cap_height_px: 154.5
+    cap_source: caps
+    baseline_px: 1491.0
+    baselines:
+      '3': 1491.0
+      '7': 3306.5
+    glyphs:
+    - W
+    - A.24pt
+    - R.24pt
+    - D
+    - C.24pt
+    - O.24pt
+    - N.24pt
+    - V
+    - E.24pt
+    - N.24pt_2
+    - J
+    - O.24pt_2
+    - H.24pt
+    - N.24pt_3
+    - S.24pt
+    - T
+    - O.24pt_3
+    - N.24pt_4
+    - R.24pt_2
+    - A.24pt_2
+    - I.24pt
+    - L
+    stem_px: 4.0
+    scale: 4.53074
+    stem_units: 18.1
+specimen_lines:
+- leaf: 509
+  line: 36pt
+  text: PACING HORSE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 509
+  line: 36pt
+  text: Assortment 58
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 509
+  line: 24pt
+  text: WAR DCONVEN
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 509
+  line: 24pt
+  text: JOHNSTO NRAIL
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

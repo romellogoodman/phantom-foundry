@@ -1,0 +1,79 @@
+name: dkvinnk-cleveland1895
+title: Dkvinnk
+series: Dkvinnk
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 174
+leaf_pages:
+  174: 170
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      174:86pt: 64.3
+  x_height: 492
+lines:
+  174:86pt:
+    n_caps: 8
+    cap_height_px: 185.0
+    cap_source: caps
+    baseline_px: 1472.0
+    baselines:
+      '3': 1472.0
+      '4': 1736.5
+    glyphs:
+    - C
+    - H
+    - O
+    - R
+    - U
+    - S
+    - G
+    - e
+    - n
+    - t
+    - l
+    - e.86pt
+    - three
+    - six
+    - S.86pt
+    - m
+    - i
+    - l.86pt
+    - e.86pt_2
+    x_height_px: 130
+    figure_height_px: 179.0
+    stem_px: 4.0
+    scale: 3.78378
+    stem_units: 15.1
+    x_height: 492
+    figure_height: 677
+specimen_lines:
+- leaf: 174
+  line: 86pt
+  text: CHORUS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 174
+  line: 86pt
+  text: Gentle 36 Smile
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

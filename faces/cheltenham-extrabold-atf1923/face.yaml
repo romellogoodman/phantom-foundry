@@ -1,0 +1,112 @@
+name: cheltenham-extrabold-atf1923
+title: Cheltenham Extrabold
+series: Cheltenham Extrabold
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 417
+leaf_pages:
+  417: 117
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      417:60pt: 94.7
+      417:48pt: 153.5
+  x_height: 699
+lines:
+  417:60pt:
+    n_caps: 12
+    cap_height_px: 133.0
+    cap_source: caps
+    baseline_px: 970
+    baselines:
+      '2': 970
+      '6': 2562
+    glyphs:
+    - W
+    - X
+    - Y
+    - Z
+    - ampersand
+    - dollar
+    - one
+    - two
+    - M
+    - u
+    - l
+    - e
+    - B
+    - U
+    - R
+    - N
+    - E
+    - R.60pt
+    - S
+    x_height_px: 157
+    figure_height_px: 170.0
+    stem_px: 13.0
+    scale: 5.26316
+    stem_units: 68.4
+    x_height: 826
+    figure_height: 895
+  417:48pt:
+    n_caps: 1
+    cap_height_px: 187
+    cap_source: caps
+    baseline_px: 1360
+    baselines:
+      '3': 1360
+    glyphs:
+    - j
+    - k
+    - l.48pt
+    - m
+    - n
+    - o
+    - p
+    - q
+    - S.48pt
+    - a
+    - i
+    - l.48pt_2
+    - e.48pt
+    - d
+    x_height_px: 153
+    stem_px: 27
+    scale: 3.74332
+    stem_units: 101.1
+    x_height: 573
+specimen_lines:
+- leaf: 417
+  line: 60pt
+  text: WXYZ&$12 Mule
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 417
+  line: 60pt
+  text: B U RNERS
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 417
+  line: 48pt
+  text: jklmnopq Sailed
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

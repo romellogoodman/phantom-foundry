@@ -1,0 +1,112 @@
+name: compressed-no-3-various1930
+title: Compressed No. 3
+series: Compressed No
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 166
+leaf_pages:
+  166: 154
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      166:48pt: 16.1
+      166:36pt: 49.2
+  x_height: 577
+lines:
+  166:48pt:
+    n_caps: 2
+    cap_height_px: 173.5
+    cap_source: caps
+    baseline_px: 653.0
+    baselines:
+      '1': 653.0
+    glyphs:
+    - T
+    - r
+    - a
+    - v
+    - e
+    - l
+    - l.48pt
+    - i
+    - n
+    - g
+    - a.48pt
+    - n.48pt
+    - d
+    - T.48pt
+    - o
+    - u
+    - r.48pt
+    - i.48pt
+    - n.48pt_2
+    - g.48pt
+    x_height_px: 118.0
+    stem_px: 10.0
+    scale: 4.03458
+    stem_units: 40.3
+    x_height: 476
+  166:36pt:
+    n_caps: 3
+    cap_height_px: 128
+    cap_source: caps
+    baseline_px: 1345
+    baselines:
+      '4': 1345
+    glyphs:
+    - I
+    - d.36pt
+    - e.36pt
+    - a.36pt
+    - l.36pt
+    - S
+    - k
+    - i.36pt
+    - hyphen
+    - i.36pt_2
+    - n.36pt
+    - g.36pt
+    - S.36pt
+    - l.36pt_2
+    - o.36pt
+    - p
+    - e.36pt_2
+    - s
+    x_height_px: 124.0
+    stem_px: 3
+    scale: 5.46875
+    stem_units: 16.4
+    x_height: 678
+specimen_lines:
+- leaf: 166
+  line: 48pt
+  text: Travelling and Touring
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 166
+  line: 36pt
+  text: Ideal Ski-ing Slopes
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Compressed No
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

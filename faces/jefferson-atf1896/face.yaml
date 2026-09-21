@@ -1,0 +1,184 @@
+name: jefferson-atf1896
+title: Jefferson.
+series: Jefferson.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 448
+leaf_pages:
+  448: 444
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      448:60pt: 24.5
+      448:54pt: 45.4
+      448:48pt: 26.3
+      448:36pt: 47.1
+      448:30pt: 50.3
+  x_height: 485
+lines:
+  448:60pt:
+    n_caps: 4
+    cap_height_px: 399.5
+    cap_source: caps
+    baseline_px: 1036.5
+    baselines:
+      '1': 1036.5
+    glyphs:
+    - H
+    - O
+    - T
+    - R
+    - o
+    - l
+    - l.60pt
+    - s
+    x_height_px: 314.5
+    stem_px: 44.0
+    scale: 1.75219
+    stem_units: 77.1
+    x_height: 551
+  448:54pt:
+    n_caps: 5
+    cap_height_px: 324
+    cap_source: caps
+    baseline_px: 1595
+    baselines:
+      '2': 1595
+    glyphs:
+    - G
+    - o.54pt
+    - n
+    - e
+    - B
+    - A
+    - N
+    - K
+    x_height_px: 221
+    stem_px: 37
+    scale: 2.16049
+    stem_units: 79.9
+    x_height: 477
+  448:48pt:
+    n_caps: 5
+    cap_height_px: 293
+    cap_source: caps
+    baseline_px: 2146
+    baselines:
+      '3': 2146
+    glyphs:
+    - H.48pt
+    - A.48pt
+    - R.48pt
+    - D
+    - T.48pt
+    - i
+    - m
+    - e.48pt
+    - s.48pt
+    x_height_px: 195.5
+    stem_px: 33
+    scale: 2.38908
+    stem_units: 78.8
+    x_height: 467
+  448:36pt:
+    n_caps: 7
+    cap_height_px: 208
+    cap_source: caps
+    baseline_px: 3127
+    baselines:
+      '5': 3127
+    glyphs:
+    - S
+    - U
+    - M
+    - M.36pt
+    - E
+    - R.36pt
+    - S.36pt
+    - h
+    - o.36pt
+    - w
+    - e.36pt
+    - r
+    x_height_px: 144
+    stem_px: 23
+    scale: 3.36538
+    stem_units: 77.4
+    x_height: 485
+  448:30pt:
+    n_caps: 8
+    cap_height_px: 153.0
+    cap_source: caps
+    baseline_px: 3558.0
+    baselines:
+      '6': 3558.0
+    glyphs:
+    - P
+    - a
+    - r.30pt
+    - a.30pt
+    - m.30pt
+    - o.30pt
+    - u
+    - n.30pt
+    - t
+    - S.30pt
+    - E.30pt
+    - C
+    - R.30pt
+    - E.30pt_2
+    - T.30pt
+    - S.30pt_2
+    x_height_px: 116.0
+    stem_px: 15.0
+    scale: 4.57516
+    stem_units: 68.6
+    x_height: 531
+specimen_lines:
+- leaf: 448
+  line: 60pt
+  text: HOT Rolls~
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 448
+  line: 54pt
+  text: Gone BANK
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 448
+  line: 48pt
+  text: HARD Times
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 448
+  line: 36pt
+  text: SU MMER Shower
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 448
+  line: 30pt
+  text: Paramount SECRETS
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

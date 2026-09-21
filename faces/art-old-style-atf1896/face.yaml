@@ -1,0 +1,108 @@
+name: art-old-style-atf1896
+title: Art Old Style.
+series: Art Old Style.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 214
+leaf_pages:
+  214: 210
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      214:36pt: 11.7
+      214:30pt: 19.6
+      214:22pt: 30.2
+lines:
+  214:36pt:
+    n_caps: 6
+    cap_height_px: 239.5
+    cap_source: caps
+    baseline_px: 948.0
+    baselines:
+      '1': 948.0
+    glyphs:
+    - R
+    - I
+    - F
+    - L
+    - E
+    - S
+    stem_px: 29.5
+    scale: 2.92276
+    stem_units: 86.2
+  214:30pt:
+    n_caps: 7
+    cap_height_px: 179
+    cap_source: caps
+    baseline_px: 1846
+    baselines:
+      '3': 1846
+    glyphs:
+    - C
+    - A
+    - R.30pt
+    - E.30pt
+    - F.30pt
+    - U
+    - L.30pt
+    stem_px: 18
+    scale: 3.91061
+    stem_units: 70.4
+  214:22pt:
+    n_caps: 9
+    cap_height_px: 139
+    cap_source: caps
+    baseline_px: 2672
+    baselines:
+      '5': 2672
+    glyphs:
+    - R.22pt
+    - U.22pt
+    - S.22pt
+    - H
+    - I.22pt
+    - N
+    - G
+    - O
+    - F.22pt
+    stem_px: 23
+    scale: 5.03597
+    stem_units: 115.8
+specimen_lines:
+- leaf: 214
+  line: 36pt
+  text: RIFLES
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 214
+  line: 30pt
+  text: CAREFUL
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 214
+  line: 22pt
+  text: RUSHING OF
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

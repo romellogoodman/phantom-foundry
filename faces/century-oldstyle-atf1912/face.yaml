@@ -1,0 +1,154 @@
+name: century-oldstyle-atf1912
+title: Century Oldstyle
+series: Century Oldstyle
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 249
+leaf_pages:
+  249: 235
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      249:36pt: 32.9
+      249:30pt: 35.6
+  x_height: 473
+lines:
+  249:36pt:
+    n_caps: 3
+    cap_height_px: 149
+    cap_source: caps
+    baseline_px: 644
+    baselines:
+      '2': 644
+    glyphs:
+    - S
+    - e
+    - r
+    - i
+    - o
+    - u
+    - s
+    - C
+    - o.36pt
+    - n
+    - d
+    - i.36pt
+    - t
+    - i.36pt_2
+    - o.36pt_2
+    - n.36pt
+    - s.36pt
+    - D
+    - e.36pt
+    - t.36pt
+    - e.36pt_2
+    - c
+    - t.36pt_2
+    - e.36pt_3
+    - d.36pt
+    x_height_px: 99.0
+    stem_px: 10
+    scale: 4.69799
+    stem_units: 47.0
+    x_height: 465
+  249:30pt:
+    n_caps: 25
+    cap_height_px: 118
+    cap_source: caps
+    baseline_px: 993.0
+    baselines:
+      '3': 993.0
+      '4': 1167
+    glyphs:
+    - E
+    - N
+    - T
+    - E.30pt
+    - R
+    - P
+    - R.30pt
+    - I
+    - S.30pt
+    - I.30pt
+    - N.30pt
+    - G
+    - C.30pt
+    - O
+    - U
+    - N.30pt_2
+    - C.30pt_2
+    - I.30pt_2
+    - L
+    - M
+    - E.30pt_2
+    - N.30pt_3
+    - G.30pt
+    - r.30pt
+    - a
+    - d.30pt
+    - u.30pt
+    - a.30pt
+    - t.30pt
+    - i.30pt
+    - n.30pt
+    - g
+    - E.30pt_3
+    - x
+    - e.30pt
+    - r.30pt_2
+    - c.30pt
+    - i.30pt_2
+    - s.30pt
+    - e.30pt_2
+    - U.30pt
+    - n.30pt_2
+    - e.30pt_3
+    - x.30pt
+    - p
+    - l
+    - a.30pt_2
+    - i.30pt_3
+    - n.30pt_3
+    - e.30pt_4
+    - d.30pt_2
+    x_height_px: 81.0
+    stem_px: 8
+    scale: 5.9322
+    stem_units: 47.5
+    x_height: 481
+specimen_lines:
+- leaf: 249
+  line: 36pt
+  text: Serious Conditions Detected
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 249
+  line: 30pt
+  text: ENTERPRISING COUNCILMEN
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 249
+  line: 30pt
+  text: Graduating Exercise Unexplained
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,134 @@
+name: chamfer-condensed-atf1898
+title: Chamfer Condensed
+series: Chamfer Condensed
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 331
+leaf_pages:
+  331: 15
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      331:40pt: 73.4
+      331:36pt: 58.0
+lines:
+  331:40pt:
+    n_caps: 30
+    cap_height_px: 224.0
+    cap_source: caps
+    baseline_px: 1394.0
+    baselines:
+      '3': 1394.0
+      '4': 1887.0
+    glyphs:
+    - G
+    - E
+    - N
+    - U
+    - I
+    - N.40pt
+    - E.40pt
+    - M
+    - I.40pt
+    - N.40pt_2
+    - E.40pt_2
+    - R
+    - A
+    - L
+    - three
+    - zero
+    - H
+    - U.40pt
+    - M.40pt
+    - O
+    - R.40pt
+    - O.40pt
+    - U.40pt_2
+    - S
+    - one
+    - six
+    - C
+    - O.40pt_2
+    - M.40pt_2
+    - E.40pt_3
+    - D
+    - I.40pt_2
+    - A.40pt
+    - N.40pt_3
+    figure_height_px: 240.0
+    stem_px: 18.0
+    scale: 3.125
+    stem_units: 56.2
+    figure_height: 750
+  331:36pt:
+    n_caps: 19
+    cap_height_px: 187
+    cap_source: caps
+    baseline_px: 2369
+    baselines:
+      '5': 2369
+    glyphs:
+    - R.36pt
+    - O.36pt
+    - M.36pt
+    - A.36pt
+    - N.36pt
+    - C.36pt
+    - H.36pt
+    - A.36pt_2
+    - R.36pt_2
+    - I.36pt
+    - O.36pt_2
+    - T
+    - D.36pt
+    - R.36pt_3
+    - I.36pt_2
+    - V
+    - E.36pt
+    - R.36pt_4
+    - S.36pt
+    - nine
+    - one.36pt
+    - six.36pt
+    figure_height_px: 186
+    stem_px: 14
+    scale: 3.74332
+    stem_units: 52.4
+    figure_height: 696
+specimen_lines:
+- leaf: 331
+  line: 40pt
+  text: GENUINE MINERAL 30
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 331
+  line: 40pt
+  text: HUMOROUS 16 COMEDIAN
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 331
+  line: 36pt
+  text: ROMAN CHARIOT DRIVERS 916
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

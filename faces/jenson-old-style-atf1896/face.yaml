@@ -1,0 +1,145 @@
+name: jenson-old-style-atf1896
+title: Jenson Old Style.
+series: Jenson Old Style.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 335
+  - 336
+  - 338
+leaf_pages:
+  335: 331
+  336: 332
+  338: 334
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      335:60pt: 9.2
+      335:54pt: 4.1
+      336:42pt: 15.7
+      336:36pt: 11.7
+  x_height: 516
+lines:
+  335:60pt:
+    n_caps: 6
+    cap_height_px: 381.0
+    cap_source: caps
+    baseline_px: 1741.5
+    baselines:
+      '2': 1741.5
+    glyphs:
+    - B
+    - R
+    - T
+    - I
+    - S
+    - H
+    stem_px: 45.0
+    scale: 1.83727
+    stem_units: 82.7
+  335:54pt:
+    n_caps: 6
+    cap_height_px: 345.0
+    cap_source: caps
+    baseline_px: 2944.5
+    baselines:
+      '4': 2944.5
+    glyphs:
+    - A
+    - M
+    - E
+    - R.54pt
+    - C
+    - A.54pt
+    stem_px: 31.0
+    scale: 2.02899
+    stem_units: 62.9
+  336:42pt:
+    n_caps: 7
+    cap_height_px: 267
+    cap_source: caps
+    baseline_px: 2038
+    baselines:
+      '3': 2038
+    glyphs:
+    - S.42pt
+    - O
+    - M.42pt
+    - E.42pt
+    - R.42pt
+    - A.42pt
+    - C.42pt
+    stem_px: 29
+    scale: 2.62172
+    stem_units: 76.0
+  336:36pt:
+    n_caps: 0
+    cap_height_px: 179
+    cap_source: ascenders
+    baseline_px: 3430.0
+    baselines:
+      '6': 3430.0
+    glyphs:
+    - eight
+    - c
+    - o
+    - l
+    - o.36pt
+    - s
+    - s.36pt
+    - a
+    - l.36pt
+    - s.36pt_2
+    - t
+    - a.36pt
+    - t.36pt
+    - u
+    - e
+    - s.36pt_3
+    x_height_px: 132
+    figure_height_px: 219
+    scale: 3.91061
+    x_height: 516
+    figure_height: 856
+specimen_lines:
+- leaf: 335
+  line: 60pt
+  text: BRTISH
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 335
+  line: 54pt
+  text: AMERCA
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 336
+  line: 42pt
+  text: SOME RAC
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 336
+  line: 36pt
+  text: 8 colossal statues
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

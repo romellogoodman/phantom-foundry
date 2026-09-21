@@ -1,0 +1,130 @@
+name: lining-gothic-cleveland1895
+title: Lining Gothic
+series: Lining Gothic
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 104
+leaf_pages:
+  104: 100
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      104:36pt: 101.0
+      104:30pt: 87.9
+      104:24pt: 136.0
+lines:
+  104:36pt:
+    n_caps: 8
+    cap_height_px: 239.0
+    cap_source: caps
+    baseline_px: 3051.0
+    baselines:
+      '4': 3051.0
+      '5': 3347
+    glyphs:
+    - F
+    - I
+    - N
+    - E
+    - C
+    - A
+    - K
+    - E.36pt
+    - one
+    - two
+    - four
+    - five
+    - eight
+    - nine
+    - six
+    - seven
+    - three
+    - two.36pt
+    - one.36pt
+    figure_height_px: 115
+    stem_px: 48.0
+    scale: 2.92887
+    stem_units: 140.6
+    figure_height: 337
+  104:30pt:
+    n_caps: 9
+    cap_height_px: 199
+    cap_source: caps
+    baseline_px: 2621
+    baselines:
+      '3': 2621
+    glyphs:
+    - W
+    - H
+    - I.30pt
+    - T
+    - E.30pt
+    - R
+    - O
+    - S
+    - E.30pt_2
+    stem_px: 40
+    scale: 3.51759
+    stem_units: 140.7
+  104:24pt:
+    n_caps: 11
+    cap_height_px: 157
+    cap_source: caps
+    baseline_px: 2217
+    baselines:
+      '2': 2217
+    glyphs:
+    - U
+    - S.24pt
+    - E.24pt
+    - N.24pt
+    - I.24pt
+    - C.24pt
+    - E.24pt_2
+    - T.24pt
+    - Y
+    - P
+    - E.24pt_3
+    stem_px: 31
+    scale: 4.4586
+    stem_units: 138.2
+specimen_lines:
+- leaf: 104
+  line: 36pt
+  text: FINE CAKE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 104
+  line: 36pt
+  text: '12458967321'
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 104
+  line: 30pt
+  text: WH ITE ROSE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 104
+  line: 24pt
+  text: USE NICE TYPE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

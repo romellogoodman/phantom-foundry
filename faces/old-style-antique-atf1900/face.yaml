@@ -1,0 +1,180 @@
+name: old-style-antique-atf1900
+title: Old Style Antique
+series: Old Style Antique
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 572
+  - 573
+leaf_pages:
+  573: 1483
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      572:48pt: 37.3
+      572:36pt: 50.6
+      572:30pt: 56.2
+      572:24pt: 130.9
+  x_height: 484
+lines:
+  572:48pt:
+    n_caps: 11
+    cap_height_px: 263
+    cap_source: caps
+    baseline_px: 970
+    baselines:
+      '1': 970
+      '2': 1335.0
+    glyphs:
+    - B
+    - R
+    - O
+    - A
+    - D
+    - S
+    - I
+    - D.48pt
+    - E
+    - S.48pt
+    - t
+    - o
+    - n
+    - e
+    - A.48pt
+    - r
+    - c
+    - h
+    - e.48pt
+    - s
+    x_height_px: 182
+    stem_px: 36
+    scale: 2.6616
+    stem_units: 95.8
+    x_height: 484
+  572:36pt:
+    n_caps: 2
+    cap_height_px: 207.5
+    cap_source: caps
+    baseline_px: 2101.5
+    baselines:
+      '4': 2101.5
+    glyphs:
+    - H
+    - u
+    - n.36pt
+    - t.36pt
+    - i
+    - n.36pt_2
+    - g
+    - G
+    - r.36pt
+    - o.36pt
+    - u.36pt
+    - n.36pt_3
+    - d
+    - s.36pt
+    x_height_px: 139.5
+    stem_px: 30.5
+    scale: 3.37349
+    stem_units: 102.9
+    x_height: 471
+  572:30pt:
+    n_caps: 2
+    cap_height_px: 162.0
+    cap_source: caps
+    baseline_px: 2798.0
+    baselines:
+      '6': 2798.0
+    glyphs:
+    - D.30pt
+    - e.30pt
+    - s.30pt
+    - i.30pt
+    - g.30pt
+    - n.30pt
+    - e.30pt_2
+    - r.30pt
+    - o.30pt
+    - f
+    - F
+    - a
+    - s.30pt_2
+    - h.30pt
+    - i.30pt_2
+    - o.30pt_2
+    - n.30pt_2
+    - s.30pt_3
+    x_height_px: 113.0
+    stem_px: 21.5
+    scale: 4.32099
+    stem_units: 92.9
+    x_height: 488
+  572:24pt:
+    n_caps: 13
+    cap_height_px: 139
+    cap_source: caps
+    baseline_px: 3214
+    baselines:
+      '7': 3214
+    glyphs:
+    - D.24pt
+    - E.24pt
+    - S.24pt
+    - I.24pt
+    - R.24pt
+    - E.24pt_2
+    - D.24pt_2
+    - F.24pt
+    - L
+    - O.24pt
+    - W
+    - E.24pt_3
+    - R.24pt_2
+    stem_px: 21
+    scale: 5.03597
+    stem_units: 105.8
+specimen_lines:
+- leaf: 572
+  line: 48pt
+  text: BROADSIDE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 572
+  line: 48pt
+  text: Stone Arches
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 572
+  line: 36pt
+  text: Hunting Grounds
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 572
+  line: 30pt
+  text: Designer of Fashions
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 572
+  line: 24pt
+  text: DESIRED FLOWER
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

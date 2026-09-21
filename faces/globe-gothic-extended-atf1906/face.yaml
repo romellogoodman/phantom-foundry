@@ -1,0 +1,282 @@
+name: globe-gothic-extended-atf1906
+title: Globe Gothic Extended
+series: Globe Gothic Extended
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 230
+  - 231
+leaf_pages:
+  230: 184
+  231: 185
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      230:72pt: 117.4
+      230:60pt: 82.8
+      230:48pt: 56.2
+      230:42pt: 63.3
+      231:36pt: 84.6
+      231:30pt: 86.4
+  x_height: 514
+lines:
+  230:72pt:
+    n_caps: 4
+    cap_height_px: 316.0
+    cap_source: caps
+    baseline_px: 697.5
+    baselines:
+      '1': 697.5
+    glyphs:
+    - M
+    - I
+    - N
+    - E
+    stem_px: 69.5
+    scale: 2.21519
+    stem_units: 154.0
+  230:60pt:
+    n_caps: 6
+    cap_height_px: 262.0
+    cap_source: caps
+    baseline_px: 1631
+    baselines:
+      '3': 1631
+      '4': 1964
+    glyphs:
+    - D
+    - E.60pt
+    - B
+    - I.60pt
+    - T
+    - N.60pt
+    - a
+    - t
+    - i
+    - o
+    - n
+    - a.60pt
+    - l
+    x_height_px: 193
+    stem_px: 85.0
+    scale: 2.67176
+    stem_units: 227.1
+    x_height: 516
+  230:48pt:
+    n_caps: 6
+    cap_height_px: 205.5
+    cap_source: caps
+    baseline_px: 2443
+    baselines:
+      '5': 2443
+      '6': 2713
+    glyphs:
+    - B.48pt
+    - R
+    - O
+    - A
+    - D.48pt
+    - U
+    - n.48pt
+    - a.48pt
+    - v
+    - o.48pt
+    - i.48pt
+    - d
+    - e
+    - d.48pt
+    x_height_px: 151.0
+    stem_px: 64.0
+    scale: 3.40633
+    stem_units: 218.0
+    x_height: 514
+  230:42pt:
+    n_caps: 8
+    cap_height_px: 177.0
+    cap_source: caps
+    baseline_px: 3161.0
+    baselines:
+      '7': 3161.0
+      '8': 3392
+      '9': 3625
+    glyphs:
+    - D.42pt
+    - R.42pt
+    - A.42pt
+    - G
+    - O.42pt
+    - N.42pt
+    - P
+    - h
+    - o.42pt
+    - t.42pt
+    - o.42pt_2
+    - g
+    - r
+    - a.42pt
+    - p
+    - h.42pt
+    - F
+    - a.42pt_2
+    - s
+    - t.42pt_2
+    - e.42pt
+    - n.42pt
+    - e.42pt_2
+    - r.42pt
+    x_height_px: 130.5
+    stem_px: 57.5
+    scale: 3.9548
+    stem_units: 227.4
+    x_height: 516
+  231:36pt:
+    n_caps: 9
+    cap_height_px: 149
+    cap_source: caps
+    baseline_px: 606.0
+    baselines:
+      '1': 606.0
+      '2': 818
+    glyphs:
+    - H
+    - A.36pt
+    - N.36pt
+    - D.36pt
+    - I.36pt
+    - E.36pt
+    - S
+    - T.36pt
+    - M.36pt
+    - a.36pt
+    - n.36pt
+    - i.36pt
+    - p.36pt
+    - u
+    - l.36pt
+    - a.36pt_2
+    - t.36pt
+    - i.36pt_2
+    - o.36pt
+    - n.36pt_2
+    - s.36pt
+    x_height_px: 109.0
+    stem_px: 49
+    scale: 4.69799
+    stem_units: 230.2
+    x_height: 512
+  231:30pt:
+    n_caps: 10
+    cap_height_px: 121.5
+    cap_source: caps
+    baseline_px: 1192.0
+    baselines:
+      '3': 1192.0
+      '4': 1369.5
+    glyphs:
+    - T.30pt
+    - H.30pt
+    - O.30pt
+    - U.30pt
+    - S.30pt
+    - A.30pt
+    - N.30pt
+    - D.30pt
+    - C
+    - o.30pt
+    - u.30pt
+    - n.30pt
+    - t.30pt
+    - e.30pt
+    - r.30pt
+    - B.30pt
+    - a.30pt
+    - l.30pt
+    - a.30pt_2
+    - n.30pt_2
+    - c
+    - e.30pt_2
+    x_height_px: 89.0
+    stem_px: 37.5
+    scale: 5.76132
+    stem_units: 216.0
+    x_height: 513
+specimen_lines:
+- leaf: 230
+  line: 72pt
+  text: MINE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 230
+  line: 60pt
+  text: DEBIT
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 230
+  line: 60pt
+  text: National
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 230
+  line: 48pt
+  text: BROAD
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 230
+  line: 48pt
+  text: Unavoided
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 230
+  line: 42pt
+  text: DRAGON
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 230
+  line: 42pt
+  text: Photograph
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 230
+  line: 42pt
+  text: Fastener
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 231
+  line: 36pt
+  text: HAN DI EST
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 231
+  line: 36pt
+  text: Manipulations
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 231
+  line: 30pt
+  text: THOUSAND
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 231
+  line: 30pt
+  text: Counter Balance
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

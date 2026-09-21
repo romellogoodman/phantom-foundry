@@ -1,0 +1,96 @@
+name: century-bold-condensed-atf1923
+title: Century Bold Condensed
+series: Century Bold Condensed
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 508
+leaf_pages:
+  508: 208
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      508:42pt: 9.0
+      508:36pt: 211.1
+  x_height: 705
+lines:
+  508:42pt:
+    n_caps: 2
+    cap_height_px: 155.0
+    cap_source: caps
+    baseline_px: 1662.5
+    baselines:
+      '4': 1662.5
+    glyphs:
+    - N
+    - i
+    - g
+    - h
+    - t
+    - B
+    - i.42pt
+    - r
+    - d
+    x_height_px: 156
+    stem_px: 13.5
+    scale: 4.51613
+    stem_units: 61.0
+    x_height: 705
+  508:36pt:
+    n_caps: 18
+    cap_height_px: 99.5
+    cap_source: caps
+    baseline_px: 1972.5
+    baselines:
+      '5': 1972.5
+    glyphs:
+    - M
+    - E
+    - T
+    - H
+    - O
+    - D
+    - I
+    - Z
+    - E.36pt
+    - A
+    - B.36pt
+    - C
+    - D.36pt
+    - E.36pt_2
+    - F
+    - G
+    - H.36pt
+    - I.36pt
+    stem_px: 8.0
+    scale: 7.03518
+    stem_units: 56.3
+specimen_lines:
+- leaf: 508
+  line: 42pt
+  text: Night Bird ~
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 508
+  line: 36pt
+  text: METHODIZE ABCDEFGHI
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

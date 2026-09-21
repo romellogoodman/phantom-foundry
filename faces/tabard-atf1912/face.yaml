@@ -1,0 +1,113 @@
+name: tabard-atf1912
+title: Tabard
+series: Tabard
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 592
+leaf_pages:
+  592: 570
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      592:48pt: 26.1
+      592:42pt: 21.0
+  x_height: 329
+lines:
+  592:48pt:
+    n_caps: 18
+    cap_height_px: 201.0
+    cap_source: caps
+    baseline_px: 1783.0
+    baselines:
+      '3': 1783.0
+    glyphs:
+    - C
+    - O
+    - N
+    - S
+    - I
+    - D
+    - E
+    - R
+    - I.48pt
+    - N.48pt
+    - G
+    - R.48pt
+    - E.48pt
+    - M
+    - A
+    - R.48pt_2
+    - K
+    - S.48pt
+    stem_px: 25.0
+    scale: 3.48259
+    stem_units: 87.1
+  592:42pt:
+    n_caps: 3
+    cap_height_px: 200
+    cap_source: caps
+    baseline_px: 2042
+    baselines:
+      '4': 2042
+    glyphs:
+    - N.42pt
+    - o
+    - b
+    - l
+    - e
+    - m
+    - a
+    - n
+    - P
+    - r
+    - e.42pt
+    - d
+    - i
+    - c
+    - t
+    - e.42pt_2
+    - d.42pt
+    - D.42pt
+    - i.42pt
+    - s
+    - a.42pt
+    - s.42pt
+    - t.42pt
+    - e.42pt_3
+    - r.42pt
+    x_height_px: 94.0
+    stem_px: 25
+    scale: 3.5
+    stem_units: 87.5
+    x_height: 329
+specimen_lines:
+- leaf: 592
+  line: 48pt
+  text: CONSIDERING REMARKS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 592
+  line: 42pt
+  text: Nobleman Predicted Disaster
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

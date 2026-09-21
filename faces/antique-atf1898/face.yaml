@@ -1,0 +1,134 @@
+name: antique-atf1898
+title: Antique
+series: Antique
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 246
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      246:48pt: 23.9
+      246:36pt: 24.8
+      246:30pt: 50.7
+  x_height: 541
+lines:
+  246:48pt:
+    n_caps: 5
+    cap_height_px: 307
+    cap_source: caps
+    baseline_px: 1596
+    baselines:
+      '3': 1596
+      '4': 1990.5
+    glyphs:
+    - R
+    - u
+    - i
+    - n
+    - six
+    - M
+    - O
+    - R.48pt
+    - E
+    x_height_px: 229
+    figure_height_px: 315
+    stem_px: 115
+    scale: 2.28013
+    stem_units: 262.2
+    x_height: 522
+    figure_height: 718
+  246:36pt:
+    n_caps: 6
+    cap_height_px: 226.0
+    cap_source: caps
+    baseline_px: 2428
+    baselines:
+      '5': 2428
+      '6': 2754
+    glyphs:
+    - seven
+    - P
+    - r
+    - o
+    - b
+    - e
+    - s
+    - W
+    - O.36pt
+    - U
+    - N
+    - D
+    x_height_px: 181
+    figure_height_px: 227
+    stem_px: 77.5
+    scale: 3.09735
+    stem_units: 240.0
+    x_height: 561
+    figure_height: 703
+  246:30pt:
+    n_caps: 8
+    cap_height_px: 179.5
+    cap_source: caps
+    baseline_px: 3393.0
+    baselines:
+      '8': 3393.0
+    glyphs:
+    - F
+    - U.30pt
+    - R.30pt
+    - R.30pt_2
+    - I
+    - E.30pt
+    - R.30pt_3
+    - S
+    stem_px: 47.0
+    scale: 3.89972
+    stem_units: 183.3
+specimen_lines:
+- leaf: 246
+  line: 48pt
+  text: Ruin 6
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 246
+  line: 48pt
+  text: MORE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 246
+  line: 36pt
+  text: 7 Probes
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 246
+  line: 36pt
+  text: WOUND
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 246
+  line: 30pt
+  text: FURRIERS
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

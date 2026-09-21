@@ -1,0 +1,137 @@
+name: taylor-gothic-atf1900
+title: Taylor Gothic
+series: Taylor Gothic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 384
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      384:36pt: 50.1
+      384:24pt: 83.5
+  x_height: 448
+lines:
+  384:36pt:
+    n_caps: 14
+    cap_height_px: 209.5
+    cap_source: caps
+    baseline_px: 1751.0
+    baselines:
+      '3': 1751.0
+      '4': 2055.0
+      '5': 2363.0
+    glyphs:
+    - E
+    - X
+    - C
+    - U
+    - R
+    - S
+    - I
+    - O
+    - N
+    - S.36pt
+    - R.36pt
+    - e
+    - t
+    - u
+    - r
+    - n
+    - i
+    - n.36pt
+    - g
+    - D
+    - e.36pt
+    - l
+    - e.36pt_2
+    - g.36pt
+    - a
+    - t.36pt
+    - e.36pt_3
+    - s
+    - B
+    - u.36pt
+    - t.36pt_2
+    - t.36pt_3
+    - e.36pt_4
+    - r.36pt
+    - C.36pt
+    - a.36pt
+    - k
+    - e.36pt_5
+    - s.36pt
+    x_height_px: 134
+    stem_px: 40.0
+    scale: 3.34129
+    stem_units: 133.7
+    x_height: 448
+  384:24pt:
+    n_caps: 17
+    cap_height_px: 109
+    cap_source: caps
+    baseline_px: 2829
+    baselines:
+      '6': 2829
+    glyphs:
+    - D.24pt
+    - A
+    - R.24pt
+    - K
+    - E.24pt
+    - S.24pt
+    - T
+    - I.24pt
+    - N.24pt
+    - D.24pt_2
+    - U.24pt
+    - S.24pt_2
+    - T.24pt
+    - R.24pt_2
+    - I.24pt_2
+    - A.24pt
+    - L
+    stem_px: 24
+    scale: 6.42202
+    stem_units: 154.1
+specimen_lines:
+- leaf: 384
+  line: 36pt
+  text: EXCURSIONS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 384
+  line: 36pt
+  text: Returning Delegates
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 384
+  line: 36pt
+  text: Bu tter Cakes
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 384
+  line: 24pt
+  text: DARKEST INDUSTRIAL
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

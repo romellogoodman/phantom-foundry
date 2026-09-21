@@ -1,0 +1,91 @@
+name: fashion-series-farmer1899
+title: Fashion Series.
+series: Fashion Series.
+status: proto
+version: 0.1.0
+book: abridgedspecimen00adfa
+source:
+  archive_id: abridgedspecimen00adfa
+  title: 'Abridged specimen book : type, borders, brass rules, ornaments and price
+    list of printing machinery, furniture, fixtures and material'
+  creator: A.D. Farmer & Son Type Founding Co
+  publisher: 'Chicago : The Company'
+  date: '1899'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00adfa
+  copyright_status: null
+  contributor: University of Illinois Urbana-Champaign
+  leaves:
+  - 209
+leaf_pages:
+  209: 205
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      209:28pt: 69.5
+      209:22pt: 66.1
+  x_height: 474
+lines:
+  209:28pt:
+    n_caps: 7
+    cap_height_px: 151
+    cap_source: caps
+    baseline_px: 2683
+    baselines:
+      '9': 2683
+    glyphs:
+    - T
+    - H
+    - E
+    - R
+    - A
+    - Y
+    - S
+    stem_px: 10
+    scale: 4.63576
+    stem_units: 46.4
+  209:22pt:
+    n_caps: 2
+    cap_height_px: 127.0
+    cap_source: caps
+    baseline_px: 2330.5
+    baselines:
+      '8': 2330.5
+    glyphs:
+    - M
+    - o
+    - t
+    - h
+    - e
+    - r
+    - s
+    - a
+    - n
+    - d
+    - S.22pt
+    - o.22pt
+    - n.22pt
+    - s.22pt
+    x_height_px: 86.0
+    stem_px: 7.0
+    scale: 5.51181
+    stem_units: 38.6
+    x_height: 474
+specimen_lines:
+- leaf: 209
+  line: 28pt
+  text: THE RAYS
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 209
+  line: 22pt
+  text: Mothers and Sons
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

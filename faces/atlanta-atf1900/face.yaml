@@ -1,0 +1,126 @@
+name: atlanta-atf1900
+title: Atlanta
+series: Atlanta
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 445
+leaf_pages:
+  445: 25
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      445:48pt: 90.4
+      445:42pt: 142.8
+      445:36pt: 170.4
+      445:30pt: 142.1
+lines:
+  445:48pt:
+    n_caps: 5
+    cap_height_px: 329
+    cap_source: caps
+    baseline_px: 984
+    baselines:
+      '1': 984
+    glyphs:
+    - S
+    - O
+    - U
+    - R
+    - S.48pt
+    stem_px: 41
+    scale: 2.12766
+    stem_units: 87.2
+  445:42pt:
+    n_caps: 5
+    cap_height_px: 272
+    cap_source: caps
+    baseline_px: 1518
+    baselines:
+      '2': 1518
+    glyphs:
+    - M
+    - O.42pt
+    - V
+    - E
+    - R.42pt
+    stem_px: 35
+    scale: 2.57353
+    stem_units: 90.1
+  445:36pt:
+    n_caps: 7
+    cap_height_px: 228
+    cap_source: caps
+    baseline_px: 2016
+    baselines:
+      '3': 2016
+    glyphs:
+    - M.36pt
+    - I
+    - N
+    - D
+    - I.36pt
+    - N.36pt
+    - G
+    stem_px: 31
+    scale: 3.07018
+    stem_units: 95.2
+  445:30pt:
+    n_caps: 8
+    cap_height_px: 197.0
+    cap_source: caps
+    baseline_px: 2456.0
+    baselines:
+      '4': 2456.0
+    glyphs:
+    - G.30pt
+    - E.30pt
+    - R.30pt
+    - A
+    - L
+    - I.30pt
+    - N.30pt
+    - E.30pt_2
+    stem_px: 25.0
+    scale: 3.5533
+    stem_units: 88.8
+specimen_lines:
+- leaf: 445
+  line: 48pt
+  text: SOURS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 445
+  line: 42pt
+  text: MOVER
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 445
+  line: 36pt
+  text: MINDING
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 445
+  line: 30pt
+  text: GERALINE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

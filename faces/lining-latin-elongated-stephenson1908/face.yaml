@@ -1,0 +1,99 @@
+name: lining-latin-elongated-stephenson1908
+title: Lining Latin Elongated.
+series: Lining Latin Elongated.
+status: proto
+version: 0.1.0
+book: specimensofpoint00step
+source:
+  archive_id: specimensofpoint00step
+  title: 'Specimens of point line type : borders ornaments brass rules &c. &c'
+  creator:
+  - Stephenson, Blake and Company, Ltd
+  - Sir Charles Reed & Sons
+  publisher: 'Toronto : Stephenson, Blake & Co.'
+  date: '1908'
+  ppi: 350
+  url: https://archive.org/details/specimensofpoint00step
+  copyright_status: null
+  contributor: Fisher - University of Toronto
+  leaves:
+  - 111
+leaf_pages:
+  111: 159
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      111:72pt: 23.1
+  x_height: 531
+lines:
+  111:72pt:
+    n_caps: 19
+    cap_height_px: 273
+    cap_source: caps
+    baseline_px: 777.5
+    baselines:
+      '1': 777.5
+      '2': 1144
+    glyphs:
+    - S
+    - T
+    - E
+    - P
+    - H
+    - E.72pt
+    - N
+    - S.72pt
+    - O
+    - N.72pt
+    - comma
+    - B
+    - L
+    - A
+    - K
+    - E.72pt_2
+    - ampersand
+    - C
+    - o
+    - period
+    - A.72pt
+    - m
+    - e
+    - r
+    - i
+    - c
+    - a
+    - n
+    - P.72pt
+    - o.72pt
+    - i.72pt
+    - n.72pt
+    - t
+    - S.72pt_2
+    - y
+    - s
+    - t.72pt
+    - e.72pt
+    - m.72pt
+    x_height_px: 207
+    stem_px: 18
+    scale: 2.5641
+    stem_units: 46.2
+    x_height: 531
+specimen_lines:
+- leaf: 111
+  line: 72pt
+  text: STEPHENSON, BLAKE & Co.
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 111
+  line: 72pt
+  text: American Point System
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

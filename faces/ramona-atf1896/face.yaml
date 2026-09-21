@@ -1,0 +1,80 @@
+name: ramona-atf1896
+title: Ramona
+series: Ramon A.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 356
+leaf_pages:
+  356: 352
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      356:30pt: 9.6
+  x_height: 571
+lines:
+  356:30pt:
+    n_caps: 3
+    cap_height_px: 146
+    cap_source: caps
+    baseline_px: 2312
+    baselines:
+      '6': 2312
+    glyphs:
+    - S
+    - p
+    - a
+    - r
+    - k
+    - l
+    - i
+    - n
+    - g
+    - T
+    - h
+    - o
+    - u
+    - g.30pt
+    - h.30pt
+    - t
+    - s
+    - o.30pt
+    - f
+    - B
+    - o.30pt_2
+    - y
+    x_height_px: 119
+    stem_px: 7
+    scale: 4.79452
+    stem_units: 33.6
+    x_height: 571
+specimen_lines:
+- leaf: 356
+  line: 30pt
+  text: SparklingThou gh tsofBoy
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Ramon A.
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

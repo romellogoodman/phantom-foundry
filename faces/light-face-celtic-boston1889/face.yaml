@@ -1,0 +1,142 @@
+name: light-face-celtic-boston1889
+title: Light-face Celtic
+series: Light-face Celtic
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 200
+leaf_pages:
+  200: 194
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      200:48pt: 67.9
+      200:36pt: 92.6
+  x_height: 535
+lines:
+  200:48pt:
+    n_caps: 14
+    cap_height_px: 180.5
+    cap_source: caps
+    baseline_px: 971.0
+    baselines:
+      '2': 971.0
+      '3': 1237.5
+    glyphs:
+    - F
+    - I
+    - R
+    - S
+    - T
+    - B
+    - I.48pt
+    - D
+    - D.48pt
+    - I.48pt_2
+    - N
+    - G
+    - H
+    - o
+    - r
+    - s
+    - e
+    - S.48pt
+    - a
+    - l
+    - e.48pt
+    - one
+    - two
+    x_height_px: 137
+    figure_height_px: 179.5
+    stem_px: 18.0
+    scale: 3.87812
+    stem_units: 69.8
+    x_height: 531
+    figure_height: 696
+  200:36pt:
+    n_caps: 16
+    cap_height_px: 136.0
+    cap_source: caps
+    baseline_px: 1572.0
+    baselines:
+      '4': 1572.0
+      '5': 1786.0
+    glyphs:
+    - M
+    - O
+    - R.36pt
+    - N.36pt
+    - I.36pt
+    - N.36pt_2
+    - G.36pt
+    - T.36pt
+    - R.36pt_2
+    - I.36pt_2
+    - B.36pt
+    - U
+    - N.36pt_3
+    - E
+    - R.36pt_3
+    - a.36pt
+    - c
+    - i
+    - n
+    - g
+    - R.36pt_4
+    - e.36pt
+    - p
+    - o.36pt
+    - r.36pt
+    - t
+    - e.36pt_2
+    - r.36pt_2
+    - three
+    - five
+    x_height_px: 105.0
+    figure_height_px: 138.0
+    stem_px: 13.5
+    scale: 5.14706
+    stem_units: 69.5
+    x_height: 540
+    figure_height: 710
+specimen_lines:
+- leaf: 200
+  line: 48pt
+  text: FIRST BIDDING
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 200
+  line: 48pt
+  text: Horse Sale 12
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 200
+  line: 36pt
+  text: MORNING TRIBUNE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 200
+  line: 36pt
+  text: Racing Reporter 35
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

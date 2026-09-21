@@ -1,0 +1,119 @@
+name: childs-atf1900
+title: Childs
+series: Childs
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 440
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      440:60pt: 44.7
+      440:36pt: 58.0
+      440:30pt: 66.7
+  x_height: 471
+lines:
+  440:60pt:
+    n_caps: 4
+    cap_height_px: 344.5
+    cap_source: caps
+    baseline_px: 1049.0
+    baselines:
+      '2': 1049.0
+    glyphs:
+    - O
+    - U
+    - R
+    - G
+    - u
+    - a
+    - r
+    - d
+    x_height_px: 230.0
+    stem_px: 27.0
+    scale: 2.03193
+    stem_units: 54.9
+    x_height: 467
+  440:36pt:
+    n_caps: 6
+    cap_height_px: 205.0
+    cap_source: caps
+    baseline_px: 2212.0
+    baselines:
+      '4': 2212.0
+    glyphs:
+    - G.36pt
+    - R.36pt
+    - A
+    - N
+    - D
+    - M
+    - a.36pt
+    - n
+    - œ
+    - u.36pt
+    - v
+    - r.36pt
+    x_height_px: 139.0
+    stem_px: 19.5
+    scale: 3.41463
+    stem_units: 66.6
+    x_height: 475
+  440:30pt:
+    n_caps: 11
+    cap_height_px: 168
+    cap_source: caps
+    baseline_px: 2757
+    baselines:
+      '5': 2757
+    glyphs:
+    - S
+    - T
+    - O.30pt
+    - U.30pt
+    - T.30pt
+    - D.30pt
+    - A.30pt
+    - R.30pt
+    - I
+    - N.30pt
+    - G.30pt
+    stem_px: 17
+    scale: 4.16667
+    stem_units: 70.8
+specimen_lines:
+- leaf: 440
+  line: 60pt
+  text: OUR Guard
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 440
+  line: 36pt
+  text: GRAN DManœuvr
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 440
+  line: 30pt
+  text: STOUT DARING
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

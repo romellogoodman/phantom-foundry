@@ -1,0 +1,96 @@
+name: goudy-oldstyle-atf1917
+title: Goudy Oldstyle
+series: Goudy Oldstyle
+status: proto
+version: 0.1.0
+book: supplementarycat00daysrich
+source:
+  archive_id: supplementarycat00daysrich
+  title: 'Supplementary catalogue : new type faces, borders, ornaments, brass rule'
+  creator: Daystrom, inc
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '[c1917]'
+  ppi: 400
+  url: https://archive.org/details/supplementarycat00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 40
+leaf_pages:
+  40: 34
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      40:48pt: 17.7
+      40:36pt: 19.2
+lines:
+  40:48pt:
+    n_caps: 13
+    cap_height_px: 198
+    cap_source: caps
+    baseline_px: 585
+    baselines:
+      '1': 585
+    glyphs:
+    - P
+    - R
+    - I
+    - N
+    - T
+    - I.48pt
+    - N.48pt
+    - G
+    - D
+    - E
+    - S
+    - I.48pt_2
+    - G.48pt
+    stem_px: 21
+    scale: 3.53535
+    stem_units: 74.2
+  40:36pt:
+    n_caps: 17
+    cap_height_px: 146
+    cap_source: caps
+    baseline_px: 1817
+    baselines:
+      '5': 1817
+    glyphs:
+    - D.36pt
+    - O
+    - U
+    - B
+    - L
+    - E.36pt
+    - S.36pt
+    - P.36pt
+    - R.36pt
+    - O.36pt
+    - D.36pt_2
+    - U.36pt
+    - C
+    - T.36pt
+    - I.36pt
+    - O.36pt_2
+    - N.36pt
+    stem_px: 14
+    scale: 4.79452
+    stem_units: 67.1
+specimen_lines:
+- leaf: 40
+  line: 48pt
+  text: PRINTING DESIG
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 40
+  line: 36pt
+  text: DOUBLES PRODUCTION
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

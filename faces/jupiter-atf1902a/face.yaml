@@ -1,0 +1,111 @@
+name: jupiter-atf1902a
+title: Jupiter
+series: Jupiter
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 464
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      464:48pt: 32.4
+      464:36pt: 54.7
+  x_height: 327
+lines:
+  464:48pt:
+    n_caps: 10
+    cap_height_px: 216.0
+    cap_source: caps
+    baseline_px: 926
+    baselines:
+      '1': 926
+      '2': 1262
+    glyphs:
+    - A
+    - L
+    - L.48pt
+    - Y
+    - E
+    - A.48pt
+    - R
+    - H
+    - a
+    - v
+    - e
+    - G
+    - u
+    - n
+    - S
+    - p
+    - o
+    - r
+    - t
+    - two
+    - five
+    x_height_px: 101
+    figure_height_px: 223.5
+    stem_px: 9.0
+    scale: 3.24074
+    stem_units: 29.2
+    x_height: 327
+    figure_height: 724
+  464:36pt:
+    n_caps: 12
+    cap_height_px: 153.5
+    cap_source: caps
+    baseline_px: 1798.0
+    baselines:
+      '3': 1798.0
+    glyphs:
+    - L.36pt
+    - U
+    - M
+    - B
+    - E.36pt
+    - R.36pt
+    - R.36pt_2
+    - E.36pt_2
+    - G.36pt
+    - I
+    - O
+    - N
+    stem_px: 8.0
+    scale: 4.56026
+    stem_units: 36.5
+specimen_lines:
+- leaf: 464
+  line: 48pt
+  text: ALL YEAR
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 464
+  line: 48pt
+  text: Have Gun Sport 25
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 464
+  line: 36pt
+  text: LUMBER REGION
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,111 @@
+name: fashion-extra-cond-farmer1899
+title: Fashion Extra Cond.
+series: Fashion Extra Cond.
+status: proto
+version: 0.1.0
+book: abridgedspecimen00adfa
+source:
+  archive_id: abridgedspecimen00adfa
+  title: 'Abridged specimen book : type, borders, brass rules, ornaments and price
+    list of printing machinery, furniture, fixtures and material'
+  creator: A.D. Farmer & Son Type Founding Co
+  publisher: 'Chicago : The Company'
+  date: '1899'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00adfa
+  copyright_status: null
+  contributor: University of Illinois Urbana-Champaign
+  leaves:
+  - 220
+leaf_pages:
+  220: 216
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      220:36pt: 34.3
+      220:30pt: 43.1
+  x_height: 521
+lines:
+  220:36pt:
+    n_caps: 3
+    cap_height_px: 235
+    cap_source: caps
+    baseline_px: 3343
+    baselines:
+      '8': 3343
+    glyphs:
+    - F
+    - a
+    - s
+    - h
+    - i
+    - o
+    - n
+    - P
+    - r
+    - i.36pt
+    - n.36pt
+    - t
+    - e
+    - r.36pt
+    - s.36pt
+    - D
+    - e.36pt
+    - s.36pt_2
+    - i.36pt_2
+    - r.36pt_2
+    - o.36pt
+    - u
+    - s.36pt_3
+    x_height_px: 175.0
+    stem_px: 8
+    scale: 2.97872
+    stem_units: 23.8
+    x_height: 521
+  220:30pt:
+    n_caps: 18
+    cap_height_px: 195.0
+    cap_source: caps
+    baseline_px: 2395.0
+    baselines:
+      '5': 2395.0
+    glyphs:
+    - M
+    - O
+    - O.30pt
+    - N
+    - S
+    - H
+    - I
+    - N.30pt
+    - E
+    - E.30pt
+    - X
+    - C
+    - U
+    - R
+    - S.30pt
+    - I.30pt
+    - O.30pt_2
+    - N.30pt_2
+    stem_px: 7.0
+    scale: 3.58974
+    stem_units: 25.1
+specimen_lines:
+- leaf: 220
+  line: 36pt
+  text: Fashion Printers Desirous
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 220
+  line: 30pt
+  text: MOONSHINE EXCURSION
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

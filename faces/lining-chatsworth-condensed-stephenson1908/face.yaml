@@ -1,0 +1,116 @@
+name: lining-chatsworth-condensed-stephenson1908
+title: Lining Chatsworth Condensed.
+series: Lining Chatsworth Condensed.
+status: proto
+version: 0.1.0
+book: specimensofpoint00step
+source:
+  archive_id: specimensofpoint00step
+  title: 'Specimens of point line type : borders ornaments brass rules &c. &c'
+  creator:
+  - Stephenson, Blake and Company, Ltd
+  - Sir Charles Reed & Sons
+  publisher: 'Toronto : Stephenson, Blake & Co.'
+  date: '1908'
+  ppi: 350
+  url: https://archive.org/details/specimensofpoint00step
+  copyright_status: null
+  contributor: Fisher - University of Toronto
+  leaves:
+  - 127
+leaf_pages:
+  127: 171
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      127:72pt: 32.9
+      127:60pt: 39.9
+  x_height: 536
+lines:
+  127:72pt:
+    n_caps: 7
+    cap_height_px: 277
+    cap_source: caps
+    baseline_px: 723
+    baselines:
+      '1': 723
+    glyphs:
+    - B
+    - R
+    - I
+    - G
+    - H
+    - T
+    - D
+    - e
+    - s
+    - i
+    - g
+    - n
+    x_height_px: 212
+    stem_px: 63
+    scale: 2.52708
+    stem_units: 159.2
+    x_height: 536
+  127:60pt:
+    n_caps: 14
+    cap_height_px: 228.0
+    cap_source: caps
+    baseline_px: 3166.0
+    baselines:
+      '3': 3166.0
+      '4': 3471.5
+    glyphs:
+    - M
+    - O
+    - D.60pt
+    - E
+    - R.60pt
+    - N
+    - M.60pt
+    - E.60pt
+    - T.60pt
+    - H.60pt
+    - O.60pt
+    - D.60pt_2
+    - E.60pt_2
+    - a
+    - s.60pt
+    - t
+    - e.60pt
+    - r
+    - n.60pt
+    - B.60pt
+    - r.60pt
+    - a.60pt
+    - n.60pt_2
+    - c
+    - h
+    x_height_px: 175
+    stem_px: 38.5
+    scale: 3.07018
+    stem_units: 118.2
+    x_height: 537
+specimen_lines:
+- leaf: 127
+  line: 72pt
+  text: BRIGHT Design
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 127
+  line: 60pt
+  text: MODERN METHOD
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 127
+  line: 60pt
+  text: Eastern Branch
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

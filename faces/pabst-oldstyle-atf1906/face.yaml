@@ -1,0 +1,140 @@
+name: pabst-oldstyle-atf1906
+title: Pabst Oldstyle
+series: Pabst Oldstyle
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 302
+leaf_pages:
+  302: 252
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      302:72pt: 35.1
+      302:60pt: 45.1
+      302:48pt: 44.1
+      302:42pt: 67.7
+  x_height: 342
+lines:
+  302:72pt:
+    n_caps: 6
+    cap_height_px: 319.5
+    cap_source: caps
+    baseline_px: 755.0
+    baselines:
+      '1': 755.0
+      '2': 1154.0
+    glyphs:
+    - B
+    - E
+    - N
+    - D
+    - D.72pt
+    - a
+    - r
+    - k
+    - G
+    - l
+    - e
+    - n
+    x_height_px: 156.0
+    stem_px: 49.0
+    scale: 2.19092
+    stem_units: 107.4
+    x_height: 342
+  302:60pt:
+    n_caps: 5
+    cap_height_px: 264
+    cap_source: caps
+    baseline_px: 1756
+    baselines:
+      '3': 1756
+    glyphs:
+    - M
+    - I
+    - N.60pt
+    - E.60pt
+    - R
+    stem_px: 21
+    scale: 2.65152
+    stem_units: 55.7
+  302:48pt:
+    n_caps: 6
+    cap_height_px: 206.5
+    cap_source: caps
+    baseline_px: 2634.0
+    baselines:
+      '5': 2634.0
+    glyphs:
+    - N.48pt
+    - I.48pt
+    - M.48pt
+    - B.48pt
+    - L
+    - E.48pt
+    stem_px: 22.5
+    scale: 3.38983
+    stem_units: 76.3
+  302:42pt:
+    n_caps: 7
+    cap_height_px: 186
+    cap_source: caps
+    baseline_px: 3448
+    baselines:
+      '7': 3448
+    glyphs:
+    - S
+    - U
+    - R.42pt
+    - M.42pt
+    - I.42pt
+    - S.42pt
+    - E.42pt
+    stem_px: 15
+    scale: 3.76344
+    stem_units: 56.5
+specimen_lines:
+- leaf: 302
+  line: 72pt
+  text: BEND
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 302
+  line: 72pt
+  text: Dark Glen
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 302
+  line: 60pt
+  text: MINER
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 302
+  line: 48pt
+  text: NIMBLE
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 302
+  line: 42pt
+  text: SURMIS E
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

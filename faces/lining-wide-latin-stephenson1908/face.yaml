@@ -1,0 +1,148 @@
+name: lining-wide-latin-stephenson1908
+title: Lining Wide Latin.
+series: Lining Wide Latin.
+status: proto
+version: 0.1.0
+book: specimensofpoint00step
+source:
+  archive_id: specimensofpoint00step
+  title: 'Specimens of point line type : borders ornaments brass rules &c. &c'
+  creator:
+  - Stephenson, Blake and Company, Ltd
+  - Sir Charles Reed & Sons
+  publisher: 'Toronto : Stephenson, Blake & Co.'
+  date: '1908'
+  ppi: 350
+  url: https://archive.org/details/specimensofpoint00step
+  copyright_status: null
+  contributor: Fisher - University of Toronto
+  leaves:
+  - 115
+leaf_pages:
+  115: 163
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      115:48pt: 41.9
+      115:42pt: 52.0
+      115:36pt: 58.1
+  x_height: 517
+lines:
+  115:48pt:
+    n_caps: 1
+    cap_height_px: 167
+    cap_source: caps
+    baseline_px: 1481
+    baselines:
+      '4': 1481
+    glyphs:
+    - R
+    - e
+    - m
+    - a
+    - i
+    - n
+    - s
+    x_height_px: 124.0
+    stem_px: 82
+    scale: 4.19162
+    stem_units: 343.7
+    x_height: 520
+  115:42pt:
+    n_caps: 9
+    cap_height_px: 148
+    cap_source: caps
+    baseline_px: 642.0
+    baselines:
+      '1': 642.0
+      '2': 863
+    glyphs:
+    - R.42pt
+    - O
+    - M
+    - A
+    - N
+    - T
+    - I
+    - C
+    - N.42pt
+    - o
+    - m.42pt
+    - i.42pt
+    - n.42pt
+    - a.42pt
+    - t
+    - e.42pt
+    - d
+    x_height_px: 107.5
+    stem_px: 43
+    scale: 4.72973
+    stem_units: 203.4
+    x_height: 508
+  115:36pt:
+    n_caps: 12
+    cap_height_px: 120.5
+    cap_source: caps
+    baseline_px: 1812.0
+    baselines:
+      '5': 1812.0
+      '6': 2017.0
+    glyphs:
+    - B
+    - I.36pt
+    - R.36pt
+    - M.36pt
+    - I.36pt_2
+    - N.36pt
+    - G
+    - H
+    - A.36pt
+    - M.36pt_2
+    - F
+    - r
+    - e.36pt
+    - n.36pt
+    - c
+    - h
+    - M.36pt_3
+    - a.36pt
+    - d.36pt
+    - e.36pt_2
+    x_height_px: 89.0
+    stem_px: 34.0
+    scale: 5.80913
+    stem_units: 197.5
+    x_height: 517
+specimen_lines:
+- leaf: 115
+  line: 48pt
+  text: Remains
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 115
+  line: 42pt
+  text: ROMANTIC
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 115
+  line: 42pt
+  text: Nominated
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 115
+  line: 36pt
+  text: BIRMINGHAM
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 115
+  line: 36pt
+  text: French Made
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

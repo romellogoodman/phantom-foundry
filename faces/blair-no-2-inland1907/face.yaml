@@ -1,0 +1,127 @@
+name: blair-no-2-inland1907
+title: Blair No. 2
+series: Blair No. 2
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 168
+leaf_pages:
+  168: 160
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      168:24pt: 158.5
+      168:18pt: 185.5
+lines:
+  168:24pt:
+    n_caps: 21
+    cap_height_px: 159
+    cap_source: caps
+    baseline_px: 724
+    baselines:
+      '2': 724
+      '3': 941.5
+    glyphs:
+    - N
+    - E
+    - W
+    - E.24pt
+    - F
+    - F.24pt
+    - E.24pt_2
+    - C
+    - T
+    - N.24pt
+    - E.24pt_3
+    - A
+    - T.24pt
+    - P
+    - R
+    - I
+    - N.24pt_2
+    - T.24pt_2
+    - I.24pt
+    - N.24pt_3
+    - G
+    stem_px: 13
+    scale: 4.40252
+    stem_units: 57.2
+  168:18pt:
+    n_caps: 25
+    cap_height_px: 117
+    cap_source: caps
+    baseline_px: 1774
+    baselines:
+      '6': 1774
+      '7': 1948.0
+    glyphs:
+    - C.18pt
+    - A.18pt
+    - S
+    - H
+    - D
+    - I.18pt
+    - S.18pt
+    - C.18pt_2
+    - O
+    - U
+    - N.18pt
+    - S.18pt_2
+    - P.18pt
+    - L
+    - E.18pt
+    - N.18pt_2
+    - D.18pt
+    - I.18pt_2
+    - D.18pt_2
+    - C.18pt_3
+    - H.18pt
+    - A.18pt_2
+    - N.18pt_3
+    - C.18pt_4
+    - E.18pt_2
+    - eight
+    figure_height_px: 119
+    stem_px: 11
+    scale: 5.98291
+    stem_units: 65.8
+    figure_height: 712
+specimen_lines:
+- leaf: 168
+  line: 24pt
+  text: NEW EFFECT
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 168
+  line: 24pt
+  text: NEAT PRINTING
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 168
+  line: 18pt
+  text: CASH D ISCOUN
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 168
+  line: 18pt
+  text: SPLENDID CHANCE 8
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

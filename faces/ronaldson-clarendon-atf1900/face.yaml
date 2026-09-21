@@ -1,0 +1,150 @@
+name: ronaldson-clarendon-atf1900
+title: Ronaldson Clarendon
+series: Ronaldson Clarendon
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 396
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      396:48pt: 37.6
+      396:36pt: 40.4
+      396:30pt: 39.7
+      396:24pt: 68.5
+  x_height: 495
+lines:
+  396:48pt:
+    n_caps: 6
+    cap_height_px: 242.0
+    cap_source: caps
+    baseline_px: 795.5
+    baselines:
+      '1': 795.5
+    glyphs:
+    - R
+    - u
+    - b
+    - b.48pt
+    - e
+    - r
+    - S
+    - H
+    - O
+    - E
+    - S.48pt
+    x_height_px: 171
+    stem_px: 29.0
+    scale: 2.89256
+    stem_units: 83.9
+    x_height: 495
+  396:36pt:
+    n_caps: 7
+    cap_height_px: 182
+    cap_source: caps
+    baseline_px: 1304
+    baselines:
+      '2': 1304
+    glyphs:
+    - H.36pt
+    - O.36pt
+    - N
+    - E.36pt
+    - S.36pt
+    - T
+    - M
+    - e.36pt
+    - r.36pt
+    - c
+    - h
+    - a
+    - n
+    - t
+    x_height_px: 129
+    stem_px: 17
+    scale: 3.84615
+    stem_units: 65.4
+    x_height: 496
+  396:30pt:
+    n_caps: 7
+    cap_height_px: 150
+    cap_source: caps
+    baseline_px: 1756
+    baselines:
+      '3': 1756
+    glyphs:
+    - S.30pt
+    - T.30pt
+    - A
+    - R.30pt
+    - V
+    - A.30pt
+    - T.30pt_2
+    stem_px: 25
+    scale: 4.66667
+    stem_units: 116.7
+  396:24pt:
+    n_caps: 13
+    cap_height_px: 92
+    cap_source: caps
+    baseline_px: 2481
+    baselines:
+      '5': 2481
+    glyphs:
+    - S.24pt
+    - U
+    - G
+    - A.24pt
+    - R.24pt
+    - W
+    - E.24pt
+    - D
+    - D.24pt
+    - I
+    - N.24pt
+    - G.24pt
+    - S.24pt_2
+    stem_px: 13
+    scale: 7.6087
+    stem_units: 98.9
+specimen_lines:
+- leaf: 396
+  line: 48pt
+  text: Rubber SHOES ~
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 396
+  line: 36pt
+  text: HONEST Merchant
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 396
+  line: 30pt
+  text: STARVAT
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 396
+  line: 24pt
+  text: SUGAR WEDDINGS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

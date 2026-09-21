@@ -1,0 +1,205 @@
+name: doric-atf1896
+title: Doric.
+series: Doric.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 414
+  - 415
+leaf_pages:
+  414: 410
+  415: 411
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      414:48pt: 33.7
+      414:42pt: 19.7
+      414:36pt: 21.4
+      414:30pt: 34.1
+      415:20pt: 16.4
+      415:16pt: 37.6
+  x_height: 479
+lines:
+  414:48pt:
+    n_caps: 1
+    cap_height_px: 332
+    cap_source: caps
+    baseline_px: 981
+    baselines:
+      '1': 981
+    glyphs:
+    - T
+    - r
+    - e
+    - a
+    - t
+    - i
+    - s
+    - e.48pt
+    x_height_px: 227
+    stem_px: 51
+    scale: 2.10843
+    stem_units: 107.5
+    x_height: 479
+  414:42pt:
+    n_caps: 5
+    cap_height_px: 267
+    cap_source: caps
+    baseline_px: 1573
+    baselines:
+      '2': 1573
+    glyphs:
+    - B
+    - R
+    - A
+    - S
+    - S.42pt
+    stem_px: 37
+    scale: 2.62172
+    stem_units: 97.0
+  414:36pt:
+    n_caps: 2
+    cap_height_px: 228.5
+    cap_source: caps
+    baseline_px: 2823.5
+    baselines:
+      '5': 2823.5
+    glyphs:
+    - G
+    - i.36pt
+    - a.36pt
+    - n
+    - t.36pt
+    - L
+    - e.36pt
+    - a.36pt_2
+    - d
+    x_height_px: 156
+    stem_px: 38.5
+    scale: 3.06346
+    stem_units: 117.9
+    x_height: 478
+  414:30pt:
+    n_caps: 8
+    cap_height_px: 184.5
+    cap_source: caps
+    baseline_px: 3315.0
+    baselines:
+      '6': 3315.0
+      '7': 3597.0
+    glyphs:
+    - C
+    - U
+    - T.30pt
+    - T.30pt_2
+    - E
+    - R.30pt
+    - A.30pt
+    - l
+    - s.30pt
+    - o
+    - f
+    - r.30pt
+    - R.30pt_2
+    - u
+    - l.30pt
+    - e.30pt
+    x_height_px: 133.0
+    stem_px: 30.0
+    scale: 3.79404
+    stem_units: 113.8
+    x_height: 505
+  415:20pt:
+    n_caps: 7
+    cap_height_px: 149
+    cap_source: caps
+    baseline_px: 807
+    baselines:
+      '1': 807
+    glyphs:
+    - H
+    - E.20pt
+    - A.20pt
+    - D
+    - I
+    - N
+    - G.20pt
+    stem_px: 19
+    scale: 4.69799
+    stem_units: 89.3
+  415:16pt:
+    n_caps: 8
+    cap_height_px: 121.0
+    cap_source: caps
+    baseline_px: 1401.0
+    baselines:
+      '3': 1401.0
+    glyphs:
+    - A.16pt
+    - N.16pt
+    - D.16pt
+    - H.16pt
+    - A.16pt_2
+    - N.16pt_2
+    - D.16pt_2
+    - Y
+    stem_px: 22.0
+    scale: 5.78512
+    stem_units: 127.3
+specimen_lines:
+- leaf: 414
+  line: 48pt
+  text: Treatise
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 414
+  line: 42pt
+  text: BRASS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 414
+  line: 36pt
+  text: Giant Lead
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 414
+  line: 30pt
+  text: CUTTER
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 414
+  line: 30pt
+  text: Also fr Rule
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 415
+  line: 20pt
+  text: HEADING
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 415
+  line: 16pt
+  text: AND HANDY
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

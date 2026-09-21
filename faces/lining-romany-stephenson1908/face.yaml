@@ -1,0 +1,87 @@
+name: lining-romany-stephenson1908
+title: Lining Romany.
+series: Lining Romany.
+status: proto
+version: 0.1.0
+book: specimensofpoint00step
+source:
+  archive_id: specimensofpoint00step
+  title: 'Specimens of point line type : borders ornaments brass rules &c. &c'
+  creator:
+  - Stephenson, Blake and Company, Ltd
+  - Sir Charles Reed & Sons
+  publisher: 'Toronto : Stephenson, Blake & Co.'
+  date: '1908'
+  ppi: 350
+  url: https://archive.org/details/specimensofpoint00step
+  copyright_status: null
+  contributor: Fisher - University of Toronto
+  leaves:
+  - 165
+leaf_pages:
+  165: 231
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      165:60pt: 29.0
+      165:36pt: 46.0
+  x_height: 522
+lines:
+  165:60pt:
+    n_caps: 1
+    cap_height_px: 205
+    cap_source: caps
+    baseline_px: 997
+    baselines:
+      '2': 997
+    glyphs:
+    - R
+    - o
+    - m
+    - a
+    - n
+    x_height_px: 152.0
+    stem_px: 92
+    scale: 3.41463
+    stem_units: 314.1
+    x_height: 519
+  165:36pt:
+    n_caps: 1
+    cap_height_px: 137
+    cap_source: caps
+    baseline_px: 1605
+    baselines:
+      '4': 1605
+    glyphs:
+    - N
+    - o.36pt
+    - m.36pt
+    - i
+    - n.36pt
+    - a.36pt
+    - t
+    - o.36pt_2
+    - r
+    x_height_px: 103.0
+    stem_px: 18
+    scale: 5.10949
+    stem_units: 92.0
+    x_height: 526
+specimen_lines:
+- leaf: 165
+  line: 60pt
+  text: Roman
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 165
+  line: 36pt
+  text: N ominator
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

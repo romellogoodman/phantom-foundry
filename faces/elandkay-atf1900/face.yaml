@@ -1,0 +1,101 @@
+name: elandkay-atf1900
+title: Elandkay
+series: Elandkay
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 471
+leaf_pages:
+  471: 26
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      471:36pt: 58.1
+      471:24pt: 77.5
+lines:
+  471:36pt:
+    n_caps: 14
+    cap_height_px: 229.0
+    cap_source: caps
+    baseline_px: 910.5
+    baselines:
+      '1': 910.5
+    glyphs:
+    - C
+    - H
+    - A
+    - R
+    - M
+    - I
+    - N
+    - G
+    - S
+    - E
+    - R.36pt
+    - I.36pt
+    - E.36pt
+    - S.36pt
+    stem_px: 10.0
+    scale: 3.05677
+    stem_units: 30.6
+  471:24pt:
+    n_caps: 20
+    cap_height_px: 122.0
+    cap_source: caps
+    baseline_px: 1237.0
+    baselines:
+      '2': 1237.0
+    glyphs:
+    - B
+    - E.24pt
+    - S.24pt
+    - T
+    - S.24pt_2
+    - I.24pt
+    - Z
+    - E.24pt_2
+    - S.24pt_3
+    - S.24pt_4
+    - P
+    - R.24pt
+    - I.24pt_2
+    - N.24pt
+    - G.24pt
+    - S.24pt_5
+    - T.24pt
+    - Y
+    - L
+    - E.24pt_3
+    stem_px: 7.0
+    scale: 5.7377
+    stem_units: 40.2
+specimen_lines:
+- leaf: 471
+  line: 36pt
+  text: CHARMING SERIES
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 471
+  line: 24pt
+  text: BEST SIZES SPRING STYLE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

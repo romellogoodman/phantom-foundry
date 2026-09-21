@@ -1,0 +1,156 @@
+name: old-style-cleveland1895
+title: Old Style
+series: Old Style
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 61
+leaf_pages:
+  61: 57
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      61:48pt: 44.3
+      61:40pt: 40.2
+  x_height: 519
+lines:
+  61:48pt:
+    n_caps: 15
+    cap_height_px: 253
+    cap_source: caps
+    baseline_px: 2989.0
+    baselines:
+      '8': 2989.0
+      '9': 3345
+    glyphs:
+    - L
+    - I
+    - N
+    - C
+    - O
+    - L.48pt
+    - N.48pt
+    - comma
+    - G
+    - R
+    - A
+    - N.48pt_2
+    - T
+    - H
+    - e
+    - r
+    - o
+    - e.48pt
+    - s
+    - o.48pt
+    - f
+    - I.48pt
+    - m
+    - m.48pt
+    - o.48pt_2
+    - r.48pt
+    - t
+    - a
+    - l
+    - F
+    - a.48pt
+    - m.48pt_2
+    - e.48pt_2
+    x_height_px: 185
+    stem_px: 14
+    scale: 2.7668
+    stem_units: 38.7
+    x_height: 512
+  61:40pt:
+    n_caps: 20
+    cap_height_px: 209.0
+    cap_source: caps
+    baseline_px: 2195.0
+    baselines:
+      '6': 2195.0
+      '7': 2502.0
+    glyphs:
+    - T.40pt
+    - H.40pt
+    - E
+    - T.40pt_2
+    - I.40pt
+    - M
+    - I.40pt_2
+    - D
+    - A.40pt
+    - N.40pt
+    - D.40pt
+    - B
+    - R.40pt
+    - A.40pt_2
+    - V
+    - E.40pt
+    - A.40pt_3
+    - r.40pt
+    - e.40pt
+    - E.40pt_2
+    - q
+    - u
+    - a.40pt
+    - l.40pt
+    - i
+    - n
+    - t.40pt
+    - h
+    - e.40pt_2
+    - S
+    - i.40pt
+    - l.40pt_2
+    - e.40pt_3
+    - n.40pt
+    - t.40pt_2
+    - G.40pt
+    - r.40pt_2
+    - a.40pt_2
+    - v
+    - e.40pt_4
+    x_height_px: 157.0
+    stem_px: 10.0
+    scale: 3.34928
+    stem_units: 33.5
+    x_height: 526
+specimen_lines:
+- leaf: 61
+  line: 48pt
+  text: LINCOLN, GRANT
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 61
+  line: 48pt
+  text: Heroes of Immortal Fame
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 61
+  line: 40pt
+  text: THE TIMID AND BRAVE
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 61
+  line: 40pt
+  text: Are Equal in the Silent Grave
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

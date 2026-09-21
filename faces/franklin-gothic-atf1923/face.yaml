@@ -1,0 +1,59 @@
+name: franklin-gothic-atf1923
+title: Franklin Gothic
+series: Franklin Gothic
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 764
+leaf_pages:
+  764: 464
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      764:84pt: 8.5
+  x_height: 684
+lines:
+  764:84pt:
+    n_caps: 2
+    cap_height_px: 327.5
+    cap_source: caps
+    baseline_px: 1183.5
+    baselines:
+      '3': 1183.5
+    glyphs:
+    - S
+    - i
+    - f
+    - t
+    - B
+    - o
+    - h
+    x_height_px: 320
+    stem_px: 53.0
+    scale: 2.1374
+    stem_units: 113.3
+    x_height: 684
+specimen_lines:
+- leaf: 764
+  line: 84pt
+  text: Sift Boh ~
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

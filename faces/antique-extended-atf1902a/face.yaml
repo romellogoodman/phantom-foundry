@@ -1,0 +1,125 @@
+name: antique-extended-atf1902a
+title: Antique Extended
+series: Antique Extended
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 602
+leaf_pages:
+  602: 3
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      602:48pt: 38.1
+      602:32pt: 54.8
+      602:24pt: 42.9
+  x_height: 690
+lines:
+  602:48pt:
+    n_caps: 1
+    cap_height_px: 239
+    cap_source: caps
+    baseline_px: 1248
+    baselines:
+      '2': 1248
+    glyphs:
+    - M
+    - a
+    - d
+    - e
+    x_height_px: 178
+    stem_px: 57
+    scale: 2.92887
+    stem_units: 166.9
+    x_height: 521
+  602:32pt:
+    n_caps: 1
+    cap_height_px: 166
+    cap_source: caps
+    baseline_px: 1877
+    baselines:
+      '4': 1877
+    glyphs:
+    - B
+    - r
+    - i
+    - g
+    - h
+    - t
+    x_height_px: 165
+    stem_px: 122
+    scale: 4.21687
+    stem_units: 514.5
+    x_height: 696
+  602:24pt:
+    n_caps: 8
+    cap_height_px: 147.0
+    cap_source: caps
+    baseline_px: 2246
+    baselines:
+      '5': 2246
+      '6': 2452
+    glyphs:
+    - C
+    - H
+    - A
+    - M.24pt
+    - O
+    - I
+    - S
+    - E
+    - m
+    - i.24pt
+    - g.24pt
+    - r.24pt
+    - a.24pt
+    - t.24pt
+    - i.24pt_2
+    - n
+    - g.24pt_2
+    x_height_px: 145
+    stem_px: 40.5
+    scale: 4.7619
+    stem_units: 192.9
+    x_height: 690
+specimen_lines:
+- leaf: 602
+  line: 48pt
+  text: Made
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 602
+  line: 32pt
+  text: Bright
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 602
+  line: 24pt
+  text: CHAMOIS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 602
+  line: 24pt
+  text: Emigrating
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

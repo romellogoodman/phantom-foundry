@@ -1,0 +1,87 @@
+name: menders-atf1912
+title: Menders
+series: Menders
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 329
+leaf_pages:
+  329: 315
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      329:48pt: 56.0
+  x_height: 452
+lines:
+  329:48pt:
+    n_caps: 13
+    cap_height_px: 200
+    cap_source: caps
+    baseline_px: 2455
+    baselines:
+      '5': 2455
+      '6': 2738.0
+    glyphs:
+    - F
+    - I
+    - N
+    - E
+    - I.48pt
+    - M
+    - P
+    - R
+    - I.48pt_2
+    - N.48pt
+    - T
+    - G
+    - u
+    - i
+    - t
+    - a
+    - r
+    - s
+    - a.48pt
+    - n
+    - d
+    - P.48pt
+    - i.48pt
+    - a.48pt_2
+    - n.48pt
+    - o
+    - l
+    - a.48pt_3
+    x_height_px: 129
+    stem_px: 27
+    scale: 3.5
+    stem_units: 94.5
+    x_height: 452
+specimen_lines:
+- leaf: 329
+  line: 48pt
+  text: FINE IMPRINT
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 329
+  line: 48pt
+  text: Guitars and Pianola
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

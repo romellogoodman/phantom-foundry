@@ -1,0 +1,84 @@
+name: garamond-bold-atf1923
+title: Garamond Bold
+series: Garamond Bold
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 322
+leaf_pages:
+  322: 24
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      322:108pt: 16.5
+      322:48pt: 38.9
+  x_height: 407
+lines:
+  322:108pt:
+    n_caps: 4
+    cap_height_px: 318.0
+    cap_source: caps
+    baseline_px: 1281.5
+    baselines:
+      '3': 1281.5
+    glyphs:
+    - E
+    - p
+    - i
+    - c
+    - a
+    - l
+    - B
+    - H
+    - E.108pt
+    x_height_px: 185
+    stem_px: 5.5
+    scale: 2.20126
+    stem_units: 12.1
+    x_height: 407
+  322:48pt:
+    n_caps: 6
+    cap_height_px: 144.0
+    cap_source: caps
+    baseline_px: 1544.0
+    baselines:
+      '4': 1544.0
+    glyphs:
+    - S
+    - E.48pt
+    - R
+    - I
+    - F
+    - S.48pt
+    stem_px: 12.5
+    scale: 4.86111
+    stem_units: 60.8
+specimen_lines:
+- leaf: 322
+  line: 108pt
+  text: Epical BH E
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 322
+  line: 48pt
+  text: SERIFS ~ ~
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

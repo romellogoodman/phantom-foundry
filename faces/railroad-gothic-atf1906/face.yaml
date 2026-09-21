@@ -1,0 +1,226 @@
+name: railroad-gothic-atf1906
+title: Railroad Gothic
+series: Railroad Gothic
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 456
+  - 457
+leaf_pages:
+  456: 406
+  457: 407
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      456:120pt: 55.7
+      456:96pt: 67.6
+      456:84pt: 54.2
+      456:72pt: 58.5
+      456:60pt: 63.4
+      456:54pt: 75.1
+      457:21pt: 69.4
+lines:
+  456:120pt:
+    n_caps: 5
+    cap_height_px: 566
+    cap_source: caps
+    baseline_px: 951
+    baselines:
+      '1': 951
+    glyphs:
+    - C
+    - A
+    - M
+    - E
+    - O
+    stem_px: 104
+    scale: 1.23675
+    stem_units: 128.6
+  456:96pt:
+    n_caps: 6
+    cap_height_px: 455.5
+    cap_source: caps
+    baseline_px: 1596.0
+    baselines:
+      '2': 1596.0
+    glyphs:
+    - L
+    - E.96pt
+    - M.96pt
+    - O.96pt
+    - N
+    - S
+    stem_px: 85.0
+    scale: 1.53677
+    stem_units: 130.6
+  456:84pt:
+    n_caps: 8
+    cap_height_px: 400.5
+    cap_source: caps
+    baseline_px: 2186.5
+    baselines:
+      '3': 2186.5
+    glyphs:
+    - F
+    - O.84pt
+    - U
+    - N.84pt
+    - D
+    - I
+    - N.84pt_2
+    - G
+    stem_px: 74.0
+    scale: 1.74782
+    stem_units: 129.3
+  456:72pt:
+    n_caps: 8
+    cap_height_px: 347.0
+    cap_source: caps
+    baseline_px: 2733.0
+    baselines:
+      '4': 2733.0
+    glyphs:
+    - H
+    - O.72pt
+    - R
+    - S.72pt
+    - E.72pt
+    - C.72pt
+    - A.72pt
+    - R.72pt
+    stem_px: 67.0
+    scale: 2.01729
+    stem_units: 135.2
+  456:60pt:
+    n_caps: 10
+    cap_height_px: 287.0
+    cap_source: caps
+    baseline_px: 3203.0
+    baselines:
+      '5': 3203.0
+    glyphs:
+    - G.60pt
+    - O.60pt
+    - L.60pt
+    - D.60pt
+    - M.60pt
+    - I.60pt
+    - N.60pt
+    - E.60pt
+    - R.60pt
+    - S.60pt
+    stem_px: 56.0
+    scale: 2.43902
+    stem_units: 136.6
+  456:54pt:
+    n_caps: 11
+    cap_height_px: 261
+    cap_source: caps
+    baseline_px: 3654
+    baselines:
+      '6': 3654
+    glyphs:
+    - C.54pt
+    - H.54pt
+    - I.54pt
+    - M.54pt
+    - E.54pt
+    - S.54pt
+    - M.54pt_2
+    - U.54pt
+    - S.54pt_2
+    - I.54pt_2
+    - C.54pt_2
+    stem_px: 50
+    scale: 2.68199
+    stem_units: 134.1
+  457:21pt:
+    n_caps: 24
+    cap_height_px: 121.0
+    cap_source: caps
+    baseline_px: 1802.0
+    baselines:
+      '3': 1802.0
+    glyphs:
+    - P
+    - E.21pt
+    - R.21pt
+    - F.21pt
+    - E.21pt_2
+    - C.21pt
+    - T
+    - I.21pt
+    - O.21pt
+    - N.21pt
+    - I.21pt_2
+    - N.21pt_2
+    - T.21pt
+    - Y
+    - P.21pt
+    - E.21pt_3
+    - F.21pt_2
+    - O.21pt_2
+    - U.21pt
+    - N.21pt_3
+    - D.21pt
+    - I.21pt_3
+    - N.21pt_4
+    - G.21pt
+    stem_px: 24.0
+    scale: 5.78512
+    stem_units: 138.8
+specimen_lines:
+- leaf: 456
+  line: 120pt
+  text: CAMEO
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 456
+  line: 96pt
+  text: LEMONS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 456
+  line: 84pt
+  text: FOUNDING
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 456
+  line: 72pt
+  text: HORSE CAR
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 456
+  line: 60pt
+  text: GOLD MINERS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 456
+  line: 54pt
+  text: CHIMES MUSIC
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 457
+  line: 21pt
+  text: PERFECTION IN TYPEFOUNDING
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

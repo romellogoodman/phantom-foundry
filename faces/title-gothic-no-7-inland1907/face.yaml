@@ -1,0 +1,142 @@
+name: title-gothic-no-7-inland1907
+title: Title Gothic No. 7
+series: Title Gothic No. 7
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 103
+leaf_pages:
+  103: 95
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      103:20pt: 142.0
+      103:18pt: 133.9
+lines:
+  103:20pt:
+    n_caps: 27
+    cap_height_px: 138
+    cap_source: caps
+    baseline_px: 675.0
+    baselines:
+      '2': 675.0
+      '3': 852
+    glyphs:
+    - M
+    - O
+    - D
+    - E
+    - R
+    - N
+    - M.20pt
+    - E.20pt
+    - T
+    - H
+    - O.20pt
+    - D.20pt
+    - I
+    - M.20pt_2
+    - P
+    - R.20pt
+    - O.20pt_2
+    - V
+    - E.20pt_2
+    - D.20pt_2
+    - D.20pt_3
+    - E.20pt_3
+    - S
+    - I.20pt
+    - G
+    - N.20pt
+    - S.20pt
+    - seven
+    - nine
+    figure_height_px: 140.0
+    stem_px: 18
+    scale: 5.07246
+    stem_units: 91.3
+    figure_height: 710
+  103:18pt:
+    n_caps: 33
+    cap_height_px: 115
+    cap_source: caps
+    baseline_px: 1151.0
+    baselines:
+      '4': 1151.0
+      '5': 1298
+    glyphs:
+    - N.18pt
+    - O.18pt
+    - W
+    - V.18pt
+    - E.18pt
+    - R.18pt
+    - Y
+    - P.18pt
+    - O.18pt_2
+    - P.18pt_2
+    - U
+    - L
+    - A
+    - R.18pt_2
+    - O.18pt_3
+    - L.18pt
+    - D.18pt
+    - G.18pt
+    - O.18pt_4
+    - T.18pt
+    - H.18pt
+    - I.18pt
+    - C
+    - S.18pt
+    - R.18pt_3
+    - E.18pt_2
+    - M.18pt
+    - O.18pt_5
+    - D.18pt_2
+    - E.18pt_3
+    - L.18pt_2
+    - E.18pt_4
+    - D.18pt_3
+    stem_px: 15
+    scale: 6.08696
+    stem_units: 91.3
+specimen_lines:
+- leaf: 103
+  line: 20pt
+  text: MODERN METHOD
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 103
+  line: 20pt
+  text: IMPROVED DESIGNS 79
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 103
+  line: 18pt
+  text: NOW VERY POPULAR
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 103
+  line: 18pt
+  text: OLD GOTHICS REMODELED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

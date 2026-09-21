@@ -1,0 +1,145 @@
+name: two-line-letter-atf1902a
+title: Two-line Letter
+series: Two-line Letter
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 561
+leaf_pages:
+  561: 64
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      561:48pt: 50.7
+      561:42pt: 32.3
+      561:30pt: 48.0
+      561:22pt: 56.5
+lines:
+  561:48pt:
+    n_caps: 8
+    cap_height_px: 283.0
+    cap_source: caps
+    baseline_px: 900.0
+    baselines:
+      '1': 900.0
+    glyphs:
+    - T
+    - R
+    - I
+    - B
+    - U
+    - N
+    - E
+    - S
+    stem_px: 15.0
+    scale: 2.4735
+    stem_units: 37.1
+  561:42pt:
+    n_caps: 9
+    cap_height_px: 260
+    cap_source: caps
+    baseline_px: 1293
+    baselines:
+      '2': 1293
+    glyphs:
+    - S.42pt
+    - P
+    - E.42pt
+    - C
+    - I.42pt
+    - M
+    - E.42pt_2
+    - N.42pt
+    - S.42pt_2
+    stem_px: 5
+    scale: 2.69231
+    stem_units: 13.5
+  561:30pt:
+    n_caps: 11
+    cap_height_px: 175
+    cap_source: caps
+    baseline_px: 1634
+    baselines:
+      '3': 1634
+    glyphs:
+    - C.30pt
+    - H
+    - O
+    - I.30pt
+    - R.30pt
+    - H.30pt
+    - O.30pt
+    - N.30pt
+    - E.30pt
+    - S.30pt
+    - T.30pt
+    stem_px: 12
+    scale: 4.0
+    stem_units: 48.0
+  561:22pt:
+    n_caps: 15
+    cap_height_px: 124
+    cap_source: caps
+    baseline_px: 1929
+    baselines:
+      '4': 1929
+    glyphs:
+    - D
+    - U.22pt
+    - T.22pt
+    - I.22pt
+    - F
+    - U.22pt_2
+    - L
+    - B.22pt
+    - E.22pt
+    - L.22pt
+    - I.22pt_2
+    - E.22pt_2
+    - V
+    - E.22pt_3
+    - D.22pt
+    stem_px: 13.0
+    scale: 5.64516
+    stem_units: 73.4
+specimen_lines:
+- leaf: 561
+  line: 48pt
+  text: TRIBUNE S
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 561
+  line: 42pt
+  text: SPECIMENS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 561
+  line: 30pt
+  text: C HOI R HONEST
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 561
+  line: 22pt
+  text: DUTIFUL BELI EVED
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,65 @@
+name: columbian-atf1900
+title: Columbian
+series: Columbian
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 456
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      456:60pt: 45.2
+  x_height: 446
+lines:
+  456:60pt:
+    n_caps: 2
+    cap_height_px: 309.5
+    cap_source: caps
+    baseline_px: 1061.0
+    baselines:
+      '1': 1061.0
+    glyphs:
+    - R
+    - i
+    - v
+    - e
+    - r
+    - s
+    - i.60pt
+    - d
+    - e.60pt
+    - T
+    - r.60pt
+    - a
+    - m
+    x_height_px: 197
+    stem_px: 11.0
+    scale: 2.26171
+    stem_units: 24.9
+    x_height: 446
+specimen_lines:
+- leaf: 456
+  line: 60pt
+  text: Riversi deTram
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

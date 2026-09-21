@@ -1,0 +1,218 @@
+name: round-gothic-atf1900
+title: Round Gothic
+series: Round Gothic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 656
+leaf_pages:
+  656: 72
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      656:60pt: 34.5
+      656:48pt: 37.0
+      656:36pt: 34.3
+      656:30pt: 47.5
+      656:22pt: 47.1
+  x_height: 477
+lines:
+  656:60pt:
+    n_caps: 5
+    cap_height_px: 345
+    cap_source: caps
+    baseline_px: 1051
+    baselines:
+      '1': 1051
+    glyphs:
+    - M
+    - I
+    - N
+    - E
+    - H
+    - u
+    - n
+    - t
+    - e
+    - r
+    - s
+    x_height_px: 235.0
+    stem_px: 71
+    scale: 2.02899
+    stem_units: 144.1
+    x_height: 477
+  656:48pt:
+    n_caps: 7
+    cap_height_px: 284
+    cap_source: caps
+    baseline_px: 1545
+    baselines:
+      '2': 1545
+    glyphs:
+    - G
+    - e.48pt
+    - n.48pt
+    - e.48pt_2
+    - r.48pt
+    - a
+    - l
+    - D
+    - E.48pt
+    - P
+    - O
+    - T
+    - S
+    x_height_px: 193.0
+    stem_px: 61
+    scale: 2.46479
+    stem_units: 150.4
+    x_height: 476
+  656:36pt:
+    n_caps: 7
+    cap_height_px: 214
+    cap_source: caps
+    baseline_px: 1960
+    baselines:
+      '3': 1960
+    glyphs:
+    - A
+    - U
+    - T.36pt
+    - U.36pt
+    - M.36pt
+    - N.36pt
+    - A.36pt
+    - m
+    - u.36pt
+    - s.36pt
+    - e.36pt
+    - m.36pt
+    - e.36pt_2
+    - n.36pt
+    - t.36pt
+    - s.36pt_2
+    x_height_px: 145
+    stem_px: 46
+    scale: 3.27103
+    stem_units: 150.5
+    x_height: 474
+  656:30pt:
+    n_caps: 10
+    cap_height_px: 162.0
+    cap_source: caps
+    baseline_px: 2328.0
+    baselines:
+      '4': 2328.0
+    glyphs:
+    - E.30pt
+    - n.30pt
+    - l.30pt
+    - a.30pt
+    - r.30pt
+    - g
+    - e.30pt
+    - d
+    - H.30pt
+    - a.30pt_2
+    - r.30pt_2
+    - b
+    - o
+    - r.30pt_3
+    - D.30pt
+    - R
+    - E.30pt_2
+    - D.30pt_2
+    - G.30pt
+    - I.30pt
+    - N.30pt
+    - G.30pt_2
+    x_height_px: 110.5
+    stem_px: 36.0
+    scale: 4.32099
+    stem_units: 155.6
+    x_height: 477
+  656:22pt:
+    n_caps: 13
+    cap_height_px: 119
+    cap_source: caps
+    baseline_px: 2695
+    baselines:
+      '5': 2695
+    glyphs:
+    - T.22pt
+    - h
+    - e.22pt
+    - a.22pt
+    - t.22pt
+    - r.22pt
+    - e.22pt_2
+    - B
+    - U.22pt
+    - R.22pt
+    - N.22pt
+    - S.22pt
+    - P.22pt
+    - r.22pt_2
+    - a.22pt_2
+    - c
+    - t.22pt_2
+    - i
+    - c.22pt
+    - a.22pt_3
+    - l.22pt
+    - T.22pt_2
+    - R.22pt_2
+    - A.22pt
+    - D.22pt
+    - E.22pt
+    - R.22pt_3
+    x_height_px: 94.0
+    stem_px: 26
+    scale: 5.88235
+    stem_units: 152.9
+    x_height: 553
+specimen_lines:
+- leaf: 656
+  line: 60pt
+  text: MINE Hunters
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 656
+  line: 48pt
+  text: General DEPOTS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 656
+  line: 36pt
+  text: AUTUMN Amusements
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 656
+  line: 30pt
+  text: Enlarged Harbor DREDGING
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 656
+  line: 22pt
+  text: Theatre BURNS Practical TRADER
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

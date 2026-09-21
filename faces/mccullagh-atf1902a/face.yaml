@@ -1,0 +1,185 @@
+name: mccullagh-atf1902a
+title: Mccullagh
+series: Mccullagh
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 358
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      358:72pt: 15.6
+      358:60pt: 19.4
+      358:48pt: 28.6
+      358:42pt: 15.6
+  x_height: 622
+lines:
+  358:72pt:
+    n_caps: 5
+    cap_height_px: 381
+    cap_source: caps
+    baseline_px: 1029
+    baselines:
+      '1': 1029
+    glyphs:
+    - H
+    - O
+    - U
+    - R
+    - C
+    - l
+    - o
+    - c
+    - k
+    - s
+    x_height_px: 331
+    stem_px: 57
+    scale: 1.83727
+    stem_units: 104.7
+    x_height: 608
+  358:60pt:
+    n_caps: 6
+    cap_height_px: 324.5
+    cap_source: caps
+    baseline_px: 1749.5
+    baselines:
+      '2': 1749.5
+    glyphs:
+    - A
+    - n
+    - t
+    - i
+    - q
+    - u
+    - e
+    - B
+    - A.60pt
+    - R.60pt
+    - G
+    - E
+    x_height_px: 303.5
+    stem_px: 47.5
+    scale: 2.15716
+    stem_units: 102.5
+    x_height: 655
+  358:48pt:
+    n_caps: 2
+    cap_height_px: 257.0
+    cap_source: caps
+    baseline_px: 2782.0
+    baselines:
+      '4': 2782.0
+    glyphs:
+    - M
+    - o.48pt
+    - u.48pt
+    - n.48pt
+    - t.48pt
+    - a
+    - i.48pt
+    - n.48pt_2
+    - C.48pt
+    - l.48pt
+    - i.48pt_2
+    - m
+    - b
+    - e.48pt
+    - r
+    - s.48pt
+    x_height_px: 225.5
+    stem_px: 26.5
+    scale: 2.72374
+    stem_units: 72.2
+    x_height: 614
+  358:42pt:
+    n_caps: 14
+    cap_height_px: 224.0
+    cap_source: caps
+    baseline_px: 3418.5
+    baselines:
+      '5': 3418.5
+      '6': 3751.0
+    glyphs:
+    - U.42pt
+    - N
+    - G.42pt
+    - O.42pt
+    - V
+    - E.42pt
+    - R.42pt
+    - N.42pt
+    - A.42pt
+    - B.42pt
+    - L
+    - E.42pt_2
+    - C.42pt
+    - o.42pt
+    - n.42pt
+    - d
+    - i.42pt
+    - t.42pt
+    - i.42pt_2
+    - o.42pt_2
+    - n.42pt_2
+    - s.42pt
+    - D
+    - e.42pt
+    - s.42pt_2
+    - c.42pt
+    - r.42pt
+    - i.42pt_3
+    - b.42pt
+    - e.42pt_2
+    - d.42pt
+    x_height_px: 202
+    stem_px: 33.0
+    scale: 3.125
+    stem_units: 103.1
+    x_height: 631
+specimen_lines:
+- leaf: 358
+  line: 72pt
+  text: HOUR Clocks
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 358
+  line: 60pt
+  text: Antique BARGE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 358
+  line: 48pt
+  text: Mountain Climbers
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 358
+  line: 42pt
+  text: UNGOVERNABLE
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 358
+  line: 42pt
+  text: Conditions Described
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

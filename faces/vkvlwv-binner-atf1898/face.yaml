@@ -1,0 +1,112 @@
+name: vkvlwv-binner-atf1898
+title: Vkvlwv Binner
+series: Vkvlwv Binner
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 408
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      408:60pt: 32.3
+      408:54pt: 31.4
+  x_height: 490
+lines:
+  408:60pt:
+    n_caps: 6
+    cap_height_px: 325.0
+    cap_source: caps
+    baseline_px: 2076
+    baselines:
+      '4': 2076
+      '5': 2494
+    glyphs:
+    - two
+    - D
+    - o
+    - v
+    - e
+    - r
+    - H
+    - U
+    - N
+    - T
+    - S
+    x_height_px: 234.5
+    figure_height_px: 325
+    stem_px: 72.5
+    scale: 2.15385
+    stem_units: 156.2
+    x_height: 505
+    figure_height: 700
+  408:54pt:
+    n_caps: 7
+    cap_height_px: 290
+    cap_source: caps
+    baseline_px: 2981
+    baselines:
+      '6': 2981
+      '7': 3364.5
+    glyphs:
+    - P
+    - l
+    - o.54pt
+    - w
+    - e.54pt
+    - d
+    - six
+    - D.54pt
+    - R
+    - O
+    - V
+    - E
+    - R.54pt
+    x_height_px: 197
+    figure_height_px: 281
+    stem_px: 90
+    scale: 2.41379
+    stem_units: 217.2
+    x_height: 476
+    figure_height: 678
+specimen_lines:
+- leaf: 408
+  line: 60pt
+  text: 2 Dover
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 408
+  line: 60pt
+  text: HUNTS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 408
+  line: 54pt
+  text: Plowed 6
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 408
+  line: 54pt
+  text: DROVER
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

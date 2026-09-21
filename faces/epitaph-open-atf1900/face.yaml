@@ -1,0 +1,138 @@
+name: epitaph-open-atf1900
+title: Epitaph Open
+series: Epitaph Open
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 525
+leaf_pages:
+  525: 453
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      525:48pt: 50.3
+      525:36pt: 64.4
+      525:24pt: 78.7
+lines:
+  525:48pt:
+    n_caps: 21
+    cap_height_px: 292
+    cap_source: caps
+    baseline_px: 1006
+    baselines:
+      '1': 1006
+      '5': 3376.0
+    glyphs:
+    - M
+    - A
+    - C
+    - H
+    - I
+    - N
+    - E
+    - R
+    - Y
+    - H.48pt
+    - A.48pt
+    - N.48pt
+    - D
+    - S
+    - O
+    - M.48pt
+    - E.48pt
+    - F
+    - A.48pt_2
+    - C.48pt
+    - E.48pt_2
+    stem_px: 12
+    scale: 2.39726
+    stem_units: 28.8
+  525:36pt:
+    n_caps: 11
+    cap_height_px: 239
+    cap_source: caps
+    baseline_px: 1489
+    baselines:
+      '2': 1489
+    glyphs:
+    - B
+    - O.36pt
+    - Y.36pt
+    - L
+    - O.36pt_2
+    - A.36pt
+    - N.36pt
+    - S.36pt
+    - G
+    - U
+    - N.36pt_2
+    stem_px: 8
+    scale: 2.92887
+    stem_units: 23.4
+  525:24pt:
+    n_caps: 16
+    cap_height_px: 169.0
+    cap_source: caps
+    baseline_px: 1905.5
+    baselines:
+      '3': 1905.5
+    glyphs:
+    - H.24pt
+    - U.24pt
+    - N.24pt
+    - T
+    - S.24pt
+    - L.24pt
+    - E.24pt
+    - G.24pt
+    - A.24pt
+    - L.24pt_2
+    - N.24pt_2
+    - O.24pt
+    - T.24pt
+    - I.24pt
+    - C.24pt
+    - E.24pt_2
+    stem_px: 7.0
+    scale: 4.14201
+    stem_units: 29.0
+specimen_lines:
+- leaf: 525
+  line: 48pt
+  text: MACHINERY
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 525
+  line: 48pt
+  text: HANDSOME F ACE
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 525
+  line: 36pt
+  text: BOY LOANS GUN
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 525
+  line: 24pt
+  text: HUNTS LEGAL NOTICE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

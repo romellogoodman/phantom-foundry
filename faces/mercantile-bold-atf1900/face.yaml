@@ -1,0 +1,151 @@
+name: mercantile-bold-atf1900
+title: Mercantile Bold
+series: Mercantile Bold
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 497
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      497:48pt: 35.0
+      497:36pt: 41.7
+      497:24pt: 52.2
+      497:20pt: 50.8
+lines:
+  497:48pt:
+    n_caps: 7
+    cap_height_px: 300
+    cap_source: caps
+    baseline_px: 999
+    baselines:
+      '1': 999
+    glyphs:
+    - C
+    - H
+    - I
+    - C.48pt
+    - A
+    - G
+    - O
+    stem_px: 21
+    scale: 2.33333
+    stem_units: 49.0
+  497:36pt:
+    n_caps: 3
+    cap_height_px: 218
+    cap_source: caps
+    baseline_px: 1885
+    baselines:
+      '3': 1885
+    glyphs:
+    - F
+    - O.36pt
+    - R
+    - one
+    - nine
+    - zero
+    - two
+    figure_height_px: 221.0
+    stem_px: 29
+    scale: 3.21101
+    stem_units: 93.1
+    figure_height: 710
+  497:24pt:
+    n_caps: 18
+    cap_height_px: 161.0
+    cap_source: caps
+    baseline_px: 2371
+    baselines:
+      '4': 2371
+      '5': 2635
+    glyphs:
+    - R.24pt
+    - U
+    - S
+    - H.24pt
+    - E
+    - D
+    - A.24pt
+    - L
+    - O.24pt
+    - N
+    - G.24pt
+    - W
+    - E.24pt
+    - S.24pt
+    - T
+    - E.24pt_2
+    - R.24pt_2
+    - N.24pt
+    stem_px: 6.0
+    scale: 4.34783
+    stem_units: 26.1
+  497:20pt:
+    n_caps: 11
+    cap_height_px: 124
+    cap_source: caps
+    baseline_px: 3317
+    baselines:
+      '7': 3317
+    glyphs:
+    - U.20pt
+    - S.20pt
+    - E.20pt
+    - F.20pt
+    - U.20pt_2
+    - L.20pt
+    - T.20pt
+    - Y
+    - P
+    - E.20pt_2
+    - S.20pt_2
+    stem_px: 8
+    scale: 5.64516
+    stem_units: 45.2
+specimen_lines:
+- leaf: 497
+  line: 48pt
+  text: CHICAGO
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 497
+  line: 36pt
+  text: FOR 1902
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 497
+  line: 24pt
+  text: RUSHED ALON G
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 497
+  line: 24pt
+  text: WESTERN~
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 497
+  line: 20pt
+  text: USEFUL TYPES
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,135 @@
+name: morris-boston1889
+title: Morris
+series: Morris
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 184
+leaf_pages:
+  184: 178
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      184:40pt: 52.1
+      184:30pt: 50.0
+lines:
+  184:40pt:
+    n_caps: 35
+    cap_height_px: 188
+    cap_source: caps
+    baseline_px: 886.0
+    baselines:
+      '2': 886.0
+      '3': 1135
+    glyphs:
+    - B
+    - U
+    - I
+    - L
+    - D
+    - I.40pt
+    - N
+    - G
+    - C
+    - O
+    - N.40pt
+    - T
+    - R
+    - A
+    - C.40pt
+    - T.40pt
+    - O.40pt
+    - R.40pt
+    - U.40pt
+    - N.40pt_2
+    - I.40pt_2
+    - Q
+    - U.40pt_2
+    - E
+    - G.40pt
+    - O.40pt_2
+    - T.40pt_2
+    - H
+    - I.40pt_3
+    - C.40pt_2
+    - M
+    - O.40pt_3
+    - D.40pt
+    - E.40pt
+    - L.40pt
+    stem_px: 13
+    scale: 3.7234
+    stem_units: 48.4
+  184:30pt:
+    n_caps: 26
+    cap_height_px: 112.0
+    cap_source: caps
+    baseline_px: 2494.0
+    baselines:
+      '4': 2494.0
+    glyphs:
+    - O.30pt
+    - R.30pt
+    - I.30pt
+    - G.30pt
+    - I.30pt_2
+    - N.30pt
+    - A.30pt
+    - L.30pt
+    - S
+    - T.30pt
+    - O.30pt_2
+    - R.30pt_2
+    - I.30pt_3
+    - E.30pt
+    - S.30pt
+    - D.30pt
+    - I.30pt_4
+    - S.30pt_2
+    - T.30pt_2
+    - R.30pt_3
+    - I.30pt_5
+    - B.30pt
+    - U.30pt
+    - T.30pt_3
+    - E.30pt_2
+    - D.30pt_2
+    stem_px: 12.0
+    scale: 6.25
+    stem_units: 75.0
+specimen_lines:
+- leaf: 184
+  line: 40pt
+  text: BUILDING CONTRACTOR
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 184
+  line: 40pt
+  text: UNIQUE GOTHIC MODEL
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 184
+  line: 30pt
+  text: ORIGINAL STORIES DISTRIBUTED
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

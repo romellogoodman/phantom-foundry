@@ -1,0 +1,121 @@
+name: mortised-atf1900
+title: Mortised
+series: Mortised
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 442
+leaf_pages:
+  442: 48
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      442:48pt: 35.7
+      442:24pt: 40.1
+      442:18pt: 64.4
+lines:
+  442:48pt:
+    n_caps: 8
+    cap_height_px: 333.5
+    cap_source: caps
+    baseline_px: 993.0
+    baselines:
+      '2': 993.0
+    glyphs:
+    - M
+    - O
+    - R
+    - T
+    - I
+    - S
+    - E
+    - D
+    stem_px: 21
+    scale: 2.09895
+    stem_units: 44.1
+  442:24pt:
+    n_caps: 12
+    cap_height_px: 166.0
+    cap_source: caps
+    baseline_px: 1868.5
+    baselines:
+      '4': 1868.5
+    glyphs:
+    - P
+    - A
+    - T.24pt
+    - E.24pt
+    - R.24pt
+    - N
+    - A.24pt
+    - L
+    - R.24pt_2
+    - E.24pt_2
+    - G
+    - A.24pt_2
+    stem_px: 14.0
+    scale: 4.21687
+    stem_units: 59.0
+  442:18pt:
+    n_caps: 17
+    cap_height_px: 87
+    cap_source: caps
+    baseline_px: 2220
+    baselines:
+      '5': 2220
+    glyphs:
+    - P.18pt
+    - A.18pt
+    - T.18pt
+    - R.18pt
+    - I.18pt
+    - A.18pt_2
+    - R.18pt_2
+    - C
+    - H
+    - R.18pt_3
+    - U
+    - R.18pt_4
+    - A.18pt_3
+    - L.18pt
+    - H.18pt
+    - O.18pt
+    - M.18pt
+    stem_px: 13
+    scale: 8.04598
+    stem_units: 104.6
+specimen_lines:
+- leaf: 442
+  line: 48pt
+  text: MORTISE D
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 442
+  line: 24pt
+  text: PATERN ALREGA
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 442
+  line: 18pt
+  text: PATRIAR CHRUR ALHOM
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

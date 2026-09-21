@@ -1,0 +1,115 @@
+name: old-style-extended-atf1902a
+title: Old Style Extended
+series: Old Style Extended
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 543
+leaf_pages:
+  543: 890
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      543:48pt: 85.4
+      543:36pt: 101.2
+      543:24pt: 124.7
+  x_height: 470
+lines:
+  543:48pt:
+    n_caps: 4
+    cap_height_px: 254.0
+    cap_source: caps
+    baseline_px: 910.5
+    baselines:
+      '1': 910.5
+    glyphs:
+    - O
+    - N
+    - E
+    - L
+    - i
+    - n
+    - e
+    x_height_px: 167
+    stem_px: 13.0
+    scale: 2.75591
+    stem_units: 35.8
+    x_height: 460
+  543:36pt:
+    n_caps: 5
+    cap_height_px: 166
+    cap_source: caps
+    baseline_px: 1403
+    baselines:
+      '2': 1403
+    glyphs:
+    - L.36pt
+    - e.36pt
+    - a
+    - d
+    - e.36pt_2
+    - r
+    - R
+    - U
+    - S
+    - H
+    x_height_px: 114
+    stem_px: 18
+    scale: 4.21687
+    stem_units: 75.9
+    x_height: 481
+  543:24pt:
+    n_caps: 8
+    cap_height_px: 123.5
+    cap_source: caps
+    baseline_px: 1844.5
+    baselines:
+      '3': 1844.5
+    glyphs:
+    - T
+    - R.24pt
+    - O.24pt
+    - U.24pt
+    - B
+    - L.24pt
+    - E.24pt
+    - S.24pt
+    stem_px: 10.5
+    scale: 5.66802
+    stem_units: 59.5
+specimen_lines:
+- leaf: 543
+  line: 48pt
+  text: ONE Line
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 543
+  line: 36pt
+  text: Leader RUSH
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 543
+  line: 24pt
+  text: TROUBLES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,82 @@
+name: scribner-boston1889
+title: Scribner
+series: Scribner
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 212
+leaf_pages:
+  212: 206
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      212:30pt: 69.5
+lines:
+  212:30pt:
+    n_caps: 31
+    cap_height_px: 131
+    cap_source: caps
+    baseline_px: 885
+    baselines:
+      '2': 885
+    glyphs:
+    - P
+    - U
+    - B
+    - L
+    - I
+    - S
+    - H
+    - E
+    - D
+    - N
+    - E.30pt
+    - W
+    - E.30pt_2
+    - S.30pt
+    - T
+    - S.30pt_2
+    - C
+    - I.30pt
+    - E.30pt_3
+    - N.30pt
+    - T.30pt
+    - I.30pt_2
+    - F
+    - I.30pt_3
+    - C.30pt
+    - R
+    - E.30pt_4
+    - P.30pt
+    - O
+    - R.30pt
+    - T.30pt_2
+    stem_px: 8
+    scale: 5.34351
+    stem_units: 42.7
+specimen_lines:
+- leaf: 212
+  line: 30pt
+  text: PUBLISHED NEWEST SCIENTIFIC REPORT
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

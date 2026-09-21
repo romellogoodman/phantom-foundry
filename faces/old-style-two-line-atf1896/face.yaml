@@ -1,0 +1,121 @@
+name: old-style-two-line-atf1896
+title: Old Style Two-line.
+series: Old Style Two-line.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 197
+leaf_pages:
+  197: 193
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      197:28pt: 83.3
+      197:22pt: 65.6
+      197:18pt: 77.5
+lines:
+  197:28pt:
+    n_caps: 9
+    cap_height_px: 210
+    cap_source: caps
+    baseline_px: 976
+    baselines:
+      '1': 976
+    glyphs:
+    - F
+    - O
+    - R
+    - S
+    - A
+    - K
+    - I
+    - N
+    - G
+    stem_px: 16
+    scale: 3.33333
+    stem_units: 53.3
+  197:22pt:
+    n_caps: 11
+    cap_height_px: 160
+    cap_source: caps
+    baseline_px: 1444
+    baselines:
+      '2': 1444
+    glyphs:
+    - D
+    - E
+    - F.22pt
+    - E.22pt
+    - A.22pt
+    - T
+    - S.22pt
+    - T.22pt
+    - H
+    - E.22pt_2
+    - M
+    stem_px: 11
+    scale: 4.375
+    stem_units: 48.1
+  197:18pt:
+    n_caps: 12
+    cap_height_px: 126.5
+    cap_source: caps
+    baseline_px: 1879.0
+    baselines:
+      '3': 1879.0
+    glyphs:
+    - S.18pt
+    - E.18pt
+    - A.18pt
+    - L
+    - R.18pt
+    - O.18pt
+    - C
+    - K.18pt
+    - five
+    - L.18pt
+    - O.18pt_2
+    - V
+    - E.18pt_2
+    figure_height_px: 126
+    stem_px: 9.0
+    scale: 5.5336
+    stem_units: 49.8
+    figure_height: 697
+specimen_lines:
+- leaf: 197
+  line: 28pt
+  text: FORSAKING
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 197
+  line: 22pt
+  text: DEFEATS THEM
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 197
+  line: 18pt
+  text: SEAL ROCK 5 LOVE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

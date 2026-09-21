@@ -1,0 +1,124 @@
+name: turius-atf1902b
+title: Turius
+series: Turius
+status: proto
+version: 0.1.0
+book: deskbookoftypesp02amer
+source:
+  archive_id: deskbookoftypesp02amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    2, 11-22)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp02amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 60
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      60:72pt: 62.0
+      60:60pt: 45.5
+      60:48pt: 53.1
+lines:
+  60:72pt:
+    n_caps: 7
+    cap_height_px: 463
+    cap_source: caps
+    baseline_px: 1071
+    baselines:
+      '1': 1071
+    glyphs:
+    - N
+    - I
+    - N.72pt
+    - E
+    - F
+    - O
+    - R
+    - dollar
+    - four
+    figure_height_px: 465
+    stem_px: 65
+    scale: 1.51188
+    stem_units: 98.3
+    figure_height: 703
+  60:60pt:
+    n_caps: 10
+    cap_height_px: 377.0
+    cap_source: caps
+    baseline_px: 1702.0
+    baselines:
+      '2': 1702.0
+    glyphs:
+    - W
+    - A
+    - R.60pt
+    - N.60pt
+    - six
+    - P
+    - E.60pt
+    - O.60pt
+    - P.60pt
+    - L
+    - E.60pt_2
+    figure_height_px: 386
+    stem_px: 49.5
+    scale: 1.85676
+    stem_units: 91.9
+    figure_height: 717
+  60:48pt:
+    n_caps: 13
+    cap_height_px: 303
+    cap_source: caps
+    baseline_px: 2265
+    baselines:
+      '3': 2265
+    glyphs:
+    - eight
+    - H
+    - A.48pt
+    - R.48pt
+    - E.48pt
+    - S
+    - R.48pt_2
+    - U
+    - N.48pt
+    - F.48pt
+    - I.48pt
+    - R.48pt_3
+    - S.48pt
+    - T
+    figure_height_px: 309
+    stem_px: 37
+    scale: 2.31023
+    stem_units: 85.5
+    figure_height: 714
+specimen_lines:
+- leaf: 60
+  line: 72pt
+  text: NINE FOR $4
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 60
+  line: 60pt
+  text: WARN 6 PEOPLE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 60
+  line: 48pt
+  text: 8 HARES RUN FIRST
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

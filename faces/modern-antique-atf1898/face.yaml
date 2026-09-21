@@ -1,0 +1,209 @@
+name: modern-antique-atf1898
+title: Modern Antique
+series: Modern Antique
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 262
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      262:72pt: 37.4
+      262:60pt: 52.3
+      262:48pt: 38.9
+      262:42pt: 49.1
+      262:36pt: 51.1
+  x_height: 496
+lines:
+  262:72pt:
+    n_caps: 4
+    cap_height_px: 374.0
+    cap_source: caps
+    baseline_px: 943.5
+    baselines:
+      '2': 943.5
+    glyphs:
+    - B
+    - I
+    - R
+    - D
+    - eight
+    figure_height_px: 386
+    stem_px: 60.5
+    scale: 1.87166
+    stem_units: 113.2
+    figure_height: 722
+  262:60pt:
+    n_caps: 1
+    cap_height_px: 321
+    cap_source: caps
+    baseline_px: 1489
+    baselines:
+      '3': 1489
+    glyphs:
+    - C
+    - o
+    - r
+    - n
+    - e
+    - r.60pt
+    - seven
+    x_height_px: 221
+    figure_height_px: 310
+    stem_px: 24
+    scale: 2.18069
+    stem_units: 52.3
+    x_height: 482
+    figure_height: 676
+  262:48pt:
+    n_caps: 4
+    cap_height_px: 252.0
+    cap_source: caps
+    baseline_px: 1953.5
+    baselines:
+      '4': 1953.5
+    glyphs:
+    - S
+    - a
+    - i
+    - d
+    - five
+    - N
+    - E
+    - T
+    x_height_px: 252
+    figure_height_px: 249
+    stem_px: 23.5
+    scale: 2.77778
+    stem_units: 65.3
+    x_height: 700
+    figure_height: 692
+  262:42pt:
+    n_caps: 10
+    cap_height_px: 214.0
+    cap_source: caps
+    baseline_px: 2411.0
+    baselines:
+      '5': 2411.0
+      '6': 2706.0
+    glyphs:
+    - R.42pt
+    - a.42pt
+    - c
+    - e.42pt
+    - four
+    - R.42pt_2
+    - u
+    - l
+    - e.42pt_2
+    - s
+    - G
+    - L
+    - E.42pt
+    - N.42pt
+    - D.42pt
+    - A
+    - L.42pt
+    - E.42pt_2
+    x_height_px: 152
+    figure_height_px: 212
+    stem_px: 27.5
+    scale: 3.27103
+    stem_units: 90.0
+    x_height: 497
+    figure_height: 693
+  262:36pt:
+    n_caps: 12
+    cap_height_px: 178.0
+    cap_source: caps
+    baseline_px: 3120.0
+    baselines:
+      '7': 3120.0
+      '8': 3376.5
+    glyphs:
+    - C.36pt
+    - r.36pt
+    - i.36pt
+    - m
+    - s.36pt
+    - o.36pt
+    - n.36pt
+    - six
+    - D.36pt
+    - u.36pt
+    - d.36pt
+    - e.36pt
+    - S.36pt
+    - O
+    - M
+    - E.36pt
+    - M.36pt
+    - O.36pt
+    - N.36pt
+    - T.36pt
+    - H
+    - S.36pt_2
+    x_height_px: 126
+    figure_height_px: 175
+    stem_px: 18.5
+    scale: 3.93258
+    stem_units: 72.8
+    x_height: 496
+    figure_height: 688
+specimen_lines:
+- leaf: 262
+  line: 72pt
+  text: BIRD 8
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 262
+  line: 60pt
+  text: Corner 7
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 262
+  line: 48pt
+  text: Said 5 NET
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 262
+  line: 42pt
+  text: Race 4 Rules
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 262
+  line: 42pt
+  text: GLEN DALE
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 262
+  line: 36pt
+  text: Crimson 6 Dude
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 262
+  line: 36pt
+  text: SOME MONTHS
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

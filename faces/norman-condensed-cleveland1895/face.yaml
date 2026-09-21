@@ -1,0 +1,107 @@
+name: norman-condensed-cleveland1895
+title: Norman Condensed
+series: Norman
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 130
+leaf_pages:
+  130: 126
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      130:24pt: 65.6
+      130:22pt: 49.6
+lines:
+  130:24pt:
+    n_caps: 14
+    cap_height_px: 160.0
+    cap_source: caps
+    baseline_px: 2875.0
+    baselines:
+      '2': 2875.0
+    glyphs:
+    - T
+    - H
+    - E
+    - L
+    - I
+    - F
+    - E.24pt
+    - O
+    - F.24pt
+    - M
+    - O.24pt
+    - S
+    - E.24pt_2
+    - S.24pt
+    - two
+    - five
+    figure_height_px: 159.5
+    stem_px: 6.0
+    scale: 4.375
+    stem_units: 26.2
+    figure_height: 698
+  130:22pt:
+    n_caps: 14
+    cap_height_px: 127.0
+    cap_source: caps
+    baseline_px: 2415.0
+    baselines:
+      '1': 2415.0
+    glyphs:
+    - one
+    - two.22pt
+    - W
+    - H.22pt
+    - Y
+    - D
+    - O.22pt
+    - B
+    - O.22pt_2
+    - Y.22pt
+    - S.22pt
+    - D.22pt
+    - R
+    - I.22pt
+    - N
+    - K
+    - three
+    - four
+    figure_height_px: 126.0
+    stem_px: 6.0
+    scale: 5.51181
+    stem_units: 33.1
+    figure_height: 694
+specimen_lines:
+- leaf: 130
+  line: 24pt
+  text: THE LIFE OF MOSES 25
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 130
+  line: 22pt
+  text: 1 2 WHY DO BOYS DRINK 34
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Norman
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

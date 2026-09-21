@@ -1,0 +1,181 @@
+name: title-gothic-no-5-inland1907
+title: Title Gothic No. 5
+series: Title Gothic No. 5
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 101
+leaf_pages:
+  101: 93
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      101:42pt: 53.0
+      101:36pt: 98.4
+      101:30pt: 102.7
+      101:24pt: 103.3
+      101:20pt: 112.9
+lines:
+  101:42pt:
+    n_caps: 8
+    cap_height_px: 284.0
+    cap_source: caps
+    baseline_px: 853.5
+    baselines:
+      '2': 853.5
+    glyphs:
+    - S
+    - T
+    - A
+    - N
+    - D
+    - A.42pt
+    - R
+    - D.42pt
+    stem_px: 57.0
+    scale: 2.46479
+    stem_units: 140.5
+  101:36pt:
+    n_caps: 9
+    cap_height_px: 249
+    cap_source: caps
+    baseline_px: 1294
+    baselines:
+      '3': 1294
+    glyphs:
+    - L
+    - I
+    - N.36pt
+    - E
+    - S.36pt
+    - B
+    - E.36pt
+    - S.36pt_2
+    - T.36pt
+    stem_px: 51
+    scale: 2.81124
+    stem_units: 143.4
+  101:30pt:
+    n_caps: 10
+    cap_height_px: 204.5
+    cap_source: caps
+    baseline_px: 1690.0
+    baselines:
+      '4': 1690.0
+    glyphs:
+    - G
+    - O
+    - T.30pt
+    - H
+    - I.30pt
+    - C
+    - F
+    - A.30pt
+    - C.30pt
+    - E.30pt
+    - one
+    figure_height_px: 202
+    stem_px: 42.5
+    scale: 3.42298
+    stem_units: 145.5
+    figure_height: 691
+  101:24pt:
+    n_caps: 12
+    cap_height_px: 166.0
+    cap_source: caps
+    baseline_px: 2048.0
+    baselines:
+      '5': 2048.0
+    glyphs:
+    - S.24pt
+    - O.24pt
+    - M
+    - E.24pt
+    - M.24pt
+    - A.24pt
+    - T.24pt
+    - E.24pt_2
+    - R.24pt
+    - I.24pt
+    - A.24pt_2
+    - L.24pt
+    - two
+    figure_height_px: 161
+    stem_px: 33.5
+    scale: 4.21687
+    stem_units: 141.3
+    figure_height: 679
+  101:20pt:
+    n_caps: 16
+    cap_height_px: 124.0
+    cap_source: caps
+    baseline_px: 2364.0
+    baselines:
+      '6': 2364.0
+    glyphs:
+    - B.20pt
+    - U
+    - Y
+    - S.20pt
+    - S.20pt_2
+    - T.20pt
+    - A.20pt
+    - N.20pt
+    - D.20pt
+    - A.20pt_2
+    - R.20pt
+    - D.20pt_2
+    - L.20pt
+    - I.20pt
+    - N.20pt_2
+    - E.20pt
+    - three
+    figure_height_px: 123
+    stem_px: 25.0
+    scale: 5.64516
+    stem_units: 141.1
+    figure_height: 694
+specimen_lines:
+- leaf: 101
+  line: 42pt
+  text: STAN DARD
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 101
+  line: 36pt
+  text: LINES BEST
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 101
+  line: 30pt
+  text: GOTHIC FACE 1
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 101
+  line: 24pt
+  text: SOME MATERIAL 2
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 101
+  line: 20pt
+  text: BUYS STANDARD LINE 3
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

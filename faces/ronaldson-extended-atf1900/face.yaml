@@ -1,0 +1,124 @@
+name: ronaldson-extended-atf1900
+title: Ronaldson Extended
+series: Ronaldson Extended
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 568
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      568:48pt: 49.0
+      568:36pt: 53.7
+      568:30pt: 57.3
+  x_height: 497
+lines:
+  568:48pt:
+    n_caps: 5
+    cap_height_px: 243
+    cap_source: caps
+    baseline_px: 919
+    baselines:
+      '1': 919
+    glyphs:
+    - F
+    - O
+    - U
+    - R
+    - G
+    - i
+    - r
+    - l
+    - s
+    x_height_px: 198.0
+    stem_px: 17
+    scale: 2.88066
+    stem_units: 49.0
+    x_height: 570
+  568:36pt:
+    n_caps: 6
+    cap_height_px: 182.5
+    cap_source: caps
+    baseline_px: 1415.5
+    baselines:
+      '2': 1415.5
+    glyphs:
+    - R.36pt
+    - o
+    - u
+    - n
+    - d
+    - N
+    - E
+    - S
+    - T
+    - S.36pt
+    x_height_px: 125.0
+    stem_px: 12.5
+    scale: 3.83562
+    stem_units: 47.9
+    x_height: 479
+  568:30pt:
+    n_caps: 2
+    cap_height_px: 146.5
+    cap_source: caps
+    baseline_px: 2084.0
+    baselines:
+      '4': 2084.0
+    glyphs:
+    - N.30pt
+    - a
+    - t
+    - i.30pt
+    - o.30pt
+    - n.30pt
+    - a.30pt
+    - l.30pt
+    - R.30pt
+    - e
+    - v
+    - e.30pt
+    - n.30pt_2
+    - u.30pt
+    - e.30pt_2
+    x_height_px: 104
+    stem_px: 12.5
+    scale: 4.77816
+    stem_units: 59.7
+    x_height: 497
+specimen_lines:
+- leaf: 568
+  line: 48pt
+  text: FOUR Girls ~
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 568
+  line: 36pt
+  text: Round N ESTS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 568
+  line: 30pt
+  text: National R evenue
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

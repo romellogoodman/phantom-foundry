@@ -1,0 +1,140 @@
+name: edwards-scries-inland1897
+title: Edwards Scries
+series: Edwards Scries
+status: proto
+version: 0.1.0
+book: specimenbookcata00inlauoft
+source:
+  archive_id: specimenbookcata00inlauoft
+  title: Specimen book and catalog; a price list of printers' supplies, showing types
+    and rules in which are embodied all the latest ideas that enable the printer to
+    produce superior work ..
+  creator: Inland Type Foundry, St. Louis
+  publisher: St. Louis, Inland Type Foundry
+  date: '1897'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inlauoft
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: Robarts - University of Toronto
+  leaves:
+  - 112
+leaf_pages:
+  112: 110
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      112:48pt: 62.7
+      112:30pt: 66.7
+  x_height: 518
+lines:
+  112:48pt:
+    n_caps: 7
+    cap_height_px: 279
+    cap_source: caps
+    baseline_px: 1849.5
+    baselines:
+      '4': 1849.5
+      '5': 2221
+    glyphs:
+    - B
+    - O
+    - L
+    - D
+    - E
+    - R
+    - E.48pt
+    - n
+    - g
+    - r
+    - a
+    - v
+    - e
+    - four
+    x_height_px: 199.0
+    figure_height_px: 286
+    stem_px: 68
+    scale: 2.50896
+    stem_units: 170.6
+    x_height: 499
+    figure_height: 718
+  112:30pt:
+    n_caps: 22
+    cap_height_px: 178.5
+    cap_source: caps
+    baseline_px: 2593
+    baselines:
+      '6': 2593
+      '7': 2862.0
+      '8': 3207
+    glyphs:
+    - P
+    - R.30pt
+    - I
+    - N
+    - T
+    - D.30pt
+    - A
+    - R.30pt_2
+    - K
+    - M
+    - a.30pt
+    - d
+    - e.30pt
+    - B.30pt
+    - l
+    - a.30pt_2
+    - c
+    - k
+    - one
+    - six
+    - U
+    - N.30pt
+    - I.30pt
+    - F
+    - O.30pt
+    - R.30pt_3
+    - M.30pt
+    - L.30pt
+    - I.30pt_2
+    - N.30pt_2
+    - E.30pt
+    x_height_px: 137
+    figure_height_px: 192.5
+    stem_px: 43.0
+    scale: 3.92157
+    stem_units: 168.6
+    x_height: 537
+    figure_height: 755
+specimen_lines:
+- leaf: 112
+  line: 48pt
+  text: BOLDER
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 112
+  line: 48pt
+  text: Engrave 4
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 112
+  line: 30pt
+  text: PRINT DARK
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 112
+  line: 30pt
+  text: Made Black 1 6
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 112
+  line: 30pt
+  text: UNIFORM LINE
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash

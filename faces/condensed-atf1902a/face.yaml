@@ -1,0 +1,133 @@
+name: condensed-atf1902a
+title: Condensed
+series: Condensed
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 560
+leaf_pages:
+  560: 1
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      560:48pt: 37.2
+      560:42pt: 40.6
+      560:18pt: 51.9
+lines:
+  560:48pt:
+    n_caps: 10
+    cap_height_px: 320.0
+    cap_source: caps
+    baseline_px: 1557.0
+    baselines:
+      '2': 1557.0
+    glyphs:
+    - T
+    - R
+    - A
+    - D
+    - E
+    - R.48pt
+    - I
+    - S
+    - K
+    - S.48pt
+    stem_px: 11.0
+    scale: 2.1875
+    stem_units: 24.1
+  560:42pt:
+    n_caps: 14
+    cap_height_px: 241.5
+    cap_source: caps
+    baseline_px: 2019.0
+    baselines:
+      '3': 2019.0
+    glyphs:
+    - P
+    - R.42pt
+    - E.42pt
+    - C
+    - I.42pt
+    - S.42pt
+    - E.42pt_2
+    - C.42pt
+    - O
+    - R.42pt_2
+    - N
+    - E.42pt_3
+    - R.42pt_3
+    - S.42pt_2
+    stem_px: 4.0
+    scale: 2.89855
+    stem_units: 11.6
+  560:18pt:
+    n_caps: 24
+    cap_height_px: 108.0
+    cap_source: caps
+    baseline_px: 2811.0
+    baselines:
+      '5': 2811.0
+    glyphs:
+    - L
+    - E.18pt
+    - G
+    - I.18pt
+    - S.18pt
+    - L.18pt
+    - A.18pt
+    - T.18pt
+    - I.18pt_2
+    - V
+    - E.18pt_2
+    - G.18pt
+    - U
+    - I.18pt_3
+    - T.18pt_2
+    - A.18pt_2
+    - R.18pt
+    - C.18pt
+    - O.18pt
+    - N.18pt
+    - C.18pt_2
+    - E.18pt_3
+    - R.18pt_2
+    - T.18pt_3
+    stem_px: 7.0
+    scale: 6.48148
+    stem_units: 45.4
+specimen_lines:
+- leaf: 560
+  line: 48pt
+  text: TRADE RISKS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 560
+  line: 42pt
+  text: PRECISE CORNERS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 560
+  line: 18pt
+  text: LEGISLATIVE GUITAR CONCERT
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

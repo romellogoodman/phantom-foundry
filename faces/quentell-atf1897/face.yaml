@@ -1,0 +1,267 @@
+name: quentell-atf1897
+title: Quentell
+series: Quentell
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 351
+  - 352
+leaf_pages:
+  351: 349
+  352: 350
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      351:72pt: 71.1
+      351:60pt: 78.5
+      351:54pt: 55.6
+      352:48pt: 67.9
+      352:42pt: 79.2
+      352:36pt: 67.6
+      352:30pt: 72.5
+  x_height: 484
+lines:
+  351:72pt:
+    n_caps: 4
+    cap_height_px: 497.0
+    cap_source: caps
+    baseline_px: 1154.0
+    baselines:
+      '1': 1154.0
+    glyphs:
+    - B
+    - I
+    - G
+    - R
+    - u
+    - n
+    x_height_px: 338.0
+    stem_px: 102.0
+    scale: 1.40845
+    stem_units: 143.7
+    x_height: 476
+  351:60pt:
+    n_caps: 8
+    cap_height_px: 428.0
+    cap_source: caps
+    baseline_px: 2029
+    baselines:
+      '2': 2029
+      '3': 2599
+    glyphs:
+    - G.60pt
+    - R.60pt
+    - I.60pt
+    - N
+    - D
+    - E
+    - R.60pt_2
+    - B.60pt
+    - l
+    - o
+    - t
+    - c
+    - h
+    x_height_px: 397
+    stem_px: 87.5
+    scale: 1.63551
+    stem_units: 143.1
+    x_height: 649
+  351:54pt:
+    n_caps: 9
+    cap_height_px: 378
+    cap_source: caps
+    baseline_px: 3415.0
+    baselines:
+      '4': 3415.0
+      '5': 3926
+    glyphs:
+    - M
+    - I.54pt
+    - R.54pt
+    - A
+    - C
+    - L
+    - E.54pt
+    - S
+    - E.54pt_2
+    - n.54pt
+    - d
+    - u.54pt
+    - r
+    - e
+    - d.54pt
+    x_height_px: 261.0
+    stem_px: 78
+    scale: 1.85185
+    stem_units: 144.4
+    x_height: 483
+  352:48pt:
+    n_caps: 5
+    cap_height_px: 330
+    cap_source: caps
+    baseline_px: 1029
+    baselines:
+      '1': 1029
+    glyphs:
+    - H
+    - O
+    - M.48pt
+    - E.48pt
+    - R.48pt
+    - o.48pt
+    - a
+    - d.48pt
+    x_height_px: 228
+    stem_px: 67
+    scale: 2.12121
+    stem_units: 142.1
+    x_height: 484
+  352:42pt:
+    n_caps: 9
+    cap_height_px: 283
+    cap_source: caps
+    baseline_px: 1704
+    baselines:
+      '2': 1704
+    glyphs:
+    - B.42pt
+    - O.42pt
+    - R.42pt
+    - N.42pt
+    - G.42pt
+    - R.42pt_2
+    - E.42pt
+    - A.42pt
+    - T
+    stem_px: 61
+    scale: 2.4735
+    stem_units: 150.9
+  352:36pt:
+    n_caps: 13
+    cap_height_px: 238
+    cap_source: caps
+    baseline_px: 2726
+    baselines:
+      '4': 2726
+      '5': 3077.0
+    glyphs:
+    - N.36pt
+    - O.36pt
+    - B.36pt
+    - L.36pt
+    - E.36pt
+    - A.36pt
+    - N.36pt_2
+    - T.36pt
+    - O.36pt_2
+    - N.36pt_3
+    - Y
+    - R.36pt
+    - a.36pt
+    - c.36pt
+    - e.36pt
+    - s
+    - H.36pt
+    - o.36pt
+    - m
+    - e.36pt_2
+    x_height_px: 167
+    stem_px: 42
+    scale: 2.94118
+    stem_units: 123.5
+    x_height: 491
+  352:30pt:
+    n_caps: 13
+    cap_height_px: 193
+    cap_source: caps
+    baseline_px: 3649
+    baselines:
+      '6': 3649
+    glyphs:
+    - A.30pt
+    - U
+    - G.30pt
+    - U.30pt
+    - S.30pt
+    - T.30pt
+    - R.30pt
+    - A.30pt_2
+    - M.30pt
+    - B.30pt
+    - L.30pt
+    - E.30pt
+    - S.30pt_2
+    stem_px: 23
+    scale: 3.62694
+    stem_units: 83.4
+specimen_lines:
+- leaf: 351
+  line: 72pt
+  text: BIG Run
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 351
+  line: 60pt
+  text: GRINDER
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 351
+  line: 60pt
+  text: Blotch
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 351
+  line: 54pt
+  text: M I RACLES
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 351
+  line: 54pt
+  text: Endured
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 352
+  line: 48pt
+  text: HOME Road
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 352
+  line: 42pt
+  text: BORN GREAT
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 352
+  line: 36pt
+  text: NOBLE ANTONY
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 352
+  line: 36pt
+  text: Races Home
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 352
+  line: 30pt
+  text: AUGUST RAMBLES
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

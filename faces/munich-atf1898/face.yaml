@@ -1,0 +1,113 @@
+name: munich-atf1898
+title: Munich
+series: Munich
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 183
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      183:36pt: 66.7
+      183:30pt: 51.3
+  x_height: 529
+lines:
+  183:36pt:
+    n_caps: 5
+    cap_height_px: 168
+    cap_source: caps
+    baseline_px: 1175
+    baselines:
+      '3': 1175
+    glyphs:
+    - B
+    - a
+    - s
+    - k
+    - e
+    - t
+    - s.36pt
+    - four
+    - eight
+    - W
+    - R
+    - A
+    - P
+    x_height_px: 128.5
+    figure_height_px: 167.0
+    stem_px: 15
+    scale: 4.16667
+    stem_units: 62.5
+    x_height: 535
+    figure_height: 696
+  183:30pt:
+    n_caps: 12
+    cap_height_px: 136.5
+    cap_source: caps
+    baseline_px: 3140.0
+    baselines:
+      '7': 3140.0
+    glyphs:
+    - O
+    - G
+    - D
+    - E
+    - N
+    - S
+    - B.30pt
+    - U
+    - R.30pt
+    - G.30pt
+    - H
+    - two
+    - seven
+    - M
+    - a.30pt
+    - n
+    - u
+    - f
+    - a.30pt_2
+    - c
+    - t.30pt
+    - u.30pt
+    - r
+    - e.30pt
+    x_height_px: 102.0
+    figure_height_px: 118.0
+    stem_px: 10.0
+    scale: 5.12821
+    stem_units: 51.3
+    x_height: 523
+    figure_height: 605
+specimen_lines:
+- leaf: 183
+  line: 36pt
+  text: Baskets 48 WRAP
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 183
+  line: 30pt
+  text: OGDENSBURGH 27 Manufacture
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

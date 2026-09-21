@@ -1,0 +1,102 @@
+name: erebus-atf1902a
+title: Erebus
+series: Erebus
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 405
+leaf_pages:
+  405: 453
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      405:36pt: 38.0
+      405:24pt: 46.7
+lines:
+  405:36pt:
+    n_caps: 14
+    cap_height_px: 166.0
+    cap_source: caps
+    baseline_px: 2813.5
+    baselines:
+      '5': 2813.5
+    glyphs:
+    - D
+    - E
+    - D.36pt
+    - I
+    - C
+    - A
+    - T
+    - E.36pt
+    - T.36pt
+    - O
+    - N
+    - O.36pt
+    - B
+    - L
+    stem_px: 28.0
+    scale: 4.21687
+    stem_units: 118.1
+  405:24pt:
+    n_caps: 20
+    cap_height_px: 105.0
+    cap_source: caps
+    baseline_px: 3511.5
+    baselines:
+      '7': 3511.5
+    glyphs:
+    - R
+    - O.24pt
+    - M
+    - A.24pt
+    - N.24pt
+    - E.24pt
+    - S
+    - Q
+    - U
+    - E.24pt_2
+    - M.24pt
+    - U.24pt
+    - S.24pt
+    - I.24pt
+    - C.24pt
+    - A.24pt_2
+    - L.24pt
+    - C.24pt_2
+    - A.24pt_3
+    - D.24pt
+    stem_px: 18.0
+    scale: 6.66667
+    stem_units: 120.0
+specimen_lines:
+- leaf: 405
+  line: 36pt
+  text: DEDICA TE TONOBL
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 405
+  line: 24pt
+  text: ROMANESQU EMUSIC ALCAD
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,83 @@
+name: teniers-boston1889
+title: Teniers
+series: Teniers
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 185
+leaf_pages:
+  185: 179
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      185:54pt: 25.8
+lines:
+  185:54pt:
+    n_caps: 28
+    cap_height_px: 135.5
+    cap_source: caps
+    baseline_px: 1607.5
+    baselines:
+      '4': 1607.5
+    glyphs:
+    - S
+    - U
+    - M
+    - M.54pt
+    - E
+    - R
+    - M.54pt_2
+    - O
+    - R.54pt
+    - N
+    - I
+    - N.54pt
+    - G
+    - H
+    - A
+    - R.54pt_2
+    - B
+    - O.54pt
+    - R.54pt_3
+    - D
+    - I.54pt
+    - V
+    - E.54pt
+    - R.54pt_4
+    - S.54pt
+    - I.54pt_2
+    - O.54pt_2
+    - N.54pt_2
+    - three
+    - eight
+    figure_height_px: 193.5
+    stem_px: 13.0
+    scale: 5.16605
+    stem_units: 67.2
+    figure_height: 1000
+specimen_lines:
+- leaf: 185
+  line: 54pt
+  text: SUMMER MORNING HARBOR DIVERSION 38
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

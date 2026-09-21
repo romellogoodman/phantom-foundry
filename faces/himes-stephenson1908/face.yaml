@@ -1,0 +1,59 @@
+name: himes-stephenson1908
+title: Himes
+series: Himes
+status: proto
+version: 0.1.0
+book: specimensofpoint00step
+source:
+  archive_id: specimensofpoint00step
+  title: 'Specimens of point line type : borders ornaments brass rules &c. &c'
+  creator:
+  - Stephenson, Blake and Company, Ltd
+  - Sir Charles Reed & Sons
+  publisher: 'Toronto : Stephenson, Blake & Co.'
+  date: '1908'
+  ppi: 350
+  url: https://archive.org/details/specimensofpoint00step
+  copyright_status: null
+  contributor: Fisher - University of Toronto
+  leaves:
+  - 148
+leaf_pages:
+  148: 190
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      148:30pt: 166.5
+lines:
+  148:30pt:
+    n_caps: 8
+    cap_height_px: 164.0
+    cap_source: caps
+    baseline_px: 1630.0
+    baselines:
+      '3': 1630.0
+    glyphs:
+    - M
+    - A
+    - R
+    - I
+    - N
+    - E
+    - R.30pt
+    - S
+    stem_px: 17.5
+    scale: 4.26829
+    stem_units: 74.7
+specimen_lines:
+- leaf: 148
+  line: 30pt
+  text: MARINERS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

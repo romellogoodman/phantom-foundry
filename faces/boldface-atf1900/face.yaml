@@ -1,0 +1,122 @@
+name: boldface-atf1900
+title: Boldface
+series: Boldface
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 579
+leaf_pages:
+  579: 65
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      579:30pt: 29.5
+      579:24pt: 38.9
+  x_height: 526
+lines:
+  579:30pt:
+    n_caps: 16
+    cap_height_px: 142.5
+    cap_source: caps
+    baseline_px: 1727
+    baselines:
+      '3': 1727
+      '4': 1947
+    glyphs:
+    - F
+    - A
+    - R
+    - M
+    - M.30pt
+    - A.30pt
+    - C
+    - H
+    - I
+    - N
+    - E
+    - R.30pt
+    - Y
+    - S
+    - a
+    - v
+    - e
+    - s
+    - G
+    - r
+    - a.30pt
+    - n
+    - g
+    - e.30pt
+    - r.30pt
+    - L
+    - a.30pt_2
+    - b
+    - o
+    - r.30pt_2
+    x_height_px: 107.0
+    stem_px: 6.0
+    scale: 4.91228
+    stem_units: 29.5
+    x_height: 526
+  579:24pt:
+    n_caps: 16
+    cap_height_px: 108.0
+    cap_source: caps
+    baseline_px: 2322.0
+    baselines:
+      '5': 2322.0
+    glyphs:
+    - G.24pt
+    - R.24pt
+    - E.24pt
+    - A.24pt
+    - T
+    - M.24pt
+    - E.24pt_2
+    - N.24pt
+    - M.24pt_2
+    - I.24pt
+    - C.24pt
+    - R.24pt_2
+    - O
+    - S.24pt
+    - C.24pt_2
+    - O.24pt
+    stem_px: 4.5
+    scale: 6.48148
+    stem_units: 29.2
+specimen_lines:
+- leaf: 579
+  line: 30pt
+  text: FARM MACHINERY
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 579
+  line: 30pt
+  text: Saves Granger Labor
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 579
+  line: 24pt
+  text: GREAT MEN MICROSCO
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

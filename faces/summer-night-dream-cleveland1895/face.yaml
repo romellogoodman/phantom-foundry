@@ -1,0 +1,115 @@
+name: summer-night-dream-cleveland1895
+title: Summer Night Dream
+series: Summer Night Dream
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 184
+leaf_pages:
+  184: 180
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      184:60pt: 20.3
+      184:54pt: 21.6
+  x_height: 608
+lines:
+  184:60pt:
+    n_caps: 6
+    cap_height_px: 327.0
+    cap_source: caps
+    baseline_px: 3217.5
+    baselines:
+      '7': 3217.5
+    glyphs:
+    - H
+    - O
+    - T
+    - E
+    - L
+    - B
+    - u
+    - i
+    - l
+    - d
+    - e
+    - r
+    x_height_px: 271.5
+    stem_px: 42.5
+    scale: 2.14067
+    stem_units: 91.0
+    x_height: 581
+  184:54pt:
+    n_caps: 11
+    cap_height_px: 291
+    cap_source: caps
+    baseline_px: 2263
+    baselines:
+      '5': 2263
+      '6': 2639.5
+    glyphs:
+    - Y
+    - E.54pt
+    - A
+    - R
+    - B.54pt
+    - O.54pt
+    - O.54pt_2
+    - K
+    - S
+    - C
+    - r.54pt
+    - y
+    - s
+    - t
+    - a
+    - l.54pt
+    - S.54pt
+    - l.54pt_2
+    - i.54pt
+    - p
+    - p.54pt
+    - e.54pt
+    - r.54pt_2
+    - two
+    x_height_px: 264.0
+    figure_height_px: 284
+    stem_px: 21
+    scale: 2.4055
+    stem_units: 50.5
+    x_height: 635
+    figure_height: 683
+specimen_lines:
+- leaf: 184
+  line: 60pt
+  text: HOTEL Builder
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 184
+  line: 54pt
+  text: YEAR BOOKS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 184
+  line: 54pt
+  text: Crystal Slipper 2
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

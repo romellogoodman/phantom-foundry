@@ -1,0 +1,102 @@
+name: templar-boston1889
+title: Templar
+series: Templar
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 206
+leaf_pages:
+  206: 200
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      206:40pt: 47.0
+  x_height: 501
+lines:
+  206:40pt:
+    n_caps: 21
+    cap_height_px: 134
+    cap_source: caps
+    baseline_px: 1025
+    baselines:
+      '2': 1025
+      '3': 1273.5
+    glyphs:
+    - M
+    - O
+    - D
+    - E
+    - R
+    - N
+    - T
+    - Y
+    - P
+    - E.40pt
+    - F
+    - O.40pt
+    - U
+    - N.40pt
+    - D.40pt
+    - R.40pt
+    - I
+    - E.40pt_2
+    - S
+    - E.40pt_3
+    - n
+    - t
+    - e
+    - r
+    - t.40pt
+    - a
+    - i
+    - n.40pt
+    - e.40pt
+    - d
+    - H
+    - u
+    - n.40pt_2
+    - d.40pt
+    - r.40pt
+    - e.40pt_2
+    - d.40pt_2
+    - s
+    - six
+    - five
+    x_height_px: 96
+    figure_height_px: 139.5
+    stem_px: 5
+    scale: 5.22388
+    stem_units: 26.1
+    x_height: 501
+    figure_height: 729
+specimen_lines:
+- leaf: 206
+  line: 40pt
+  text: MODERN ~~~ TYPE ~~~ FOUNDRIES
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 206
+  line: 40pt
+  text: ~Entertained Hundreds 65~
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

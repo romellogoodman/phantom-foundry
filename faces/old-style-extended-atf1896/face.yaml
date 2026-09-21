@@ -1,0 +1,162 @@
+name: old-style-extended-atf1896
+title: Old Style Extended.
+series: Old Style Extended.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 204
+  - 205
+leaf_pages:
+  204: 200
+  205: 201
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      204:48pt: 65.8
+      204:36pt: 98.1
+      205:24pt: 119.0
+  x_height: 551
+lines:
+  204:48pt:
+    n_caps: 6
+    cap_height_px: 298.0
+    cap_source: caps
+    baseline_px: 2271
+    baselines:
+      '3': 2271
+      '4': 2663
+    glyphs:
+    - G
+    - I
+    - V
+    - E
+    - S
+    - F
+    - i
+    - r
+    - s
+    - t
+    - five
+    x_height_px: 234.5
+    figure_height_px: 303
+    stem_px: 13.0
+    scale: 2.34899
+    stem_units: 30.5
+    x_height: 551
+    figure_height: 712
+  204:36pt:
+    n_caps: 8
+    cap_height_px: 207.0
+    cap_source: caps
+    baseline_px: 3138
+    baselines:
+      '5': 3138
+      '6': 3452
+    glyphs:
+    - P
+    - O
+    - N
+    - T
+    - I.36pt
+    - F.36pt
+    - F.36pt_2
+    - R
+    - e
+    - g
+    - a
+    - r.36pt
+    - d
+    - three
+    x_height_px: 140
+    figure_height_px: 202
+    stem_px: 20.0
+    scale: 3.38164
+    stem_units: 67.6
+    x_height: 473
+    figure_height: 683
+  205:24pt:
+    n_caps: 11
+    cap_height_px: 150
+    cap_source: caps
+    baseline_px: 706
+    baselines:
+      '1': 706
+      '2': 941.5
+    glyphs:
+    - G.24pt
+    - O.24pt
+    - V.24pt
+    - E.24pt
+    - R.24pt
+    - N.24pt
+    - O.24pt_2
+    - R.24pt_2
+    - S.24pt
+    - R.24pt_3
+    - i.24pt
+    - c
+    - h
+    - M
+    - i.24pt_2
+    - n
+    - e.24pt
+    - five.24pt
+    x_height_px: 118.0
+    figure_height_px: 158
+    stem_px: 13
+    scale: 4.66667
+    stem_units: 60.7
+    x_height: 551
+    figure_height: 737
+specimen_lines:
+- leaf: 204
+  line: 48pt
+  text: GIVES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 204
+  line: 48pt
+  text: Fi rst 5
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 204
+  line: 36pt
+  text: PONTIFF
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 204
+  line: 36pt
+  text: Regard 3
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 205
+  line: 24pt
+  text: GOVERNORS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 205
+  line: 24pt
+  text: Rich Mine 5
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

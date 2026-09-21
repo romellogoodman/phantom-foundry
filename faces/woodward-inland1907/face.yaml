@@ -1,0 +1,164 @@
+name: woodward-inland1907
+title: Woodward
+series: Woodward
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 86
+leaf_pages:
+  86: 78
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      86:60pt: 66.8
+      86:48pt: 72.8
+      86:36pt: 63.3
+      86:24pt: 73.7
+  x_height: 490
+lines:
+  86:60pt:
+    n_caps: 3
+    cap_height_px: 377
+    cap_source: caps
+    baseline_px: 989
+    baselines:
+      '2': 989
+    glyphs:
+    - O
+    - U
+    - R
+    - t
+    - i
+    - m
+    - e
+    - l
+    x_height_px: 347
+    stem_px: 54
+    scale: 1.85676
+    stem_units: 100.3
+    x_height: 644
+  86:48pt:
+    n_caps: 4
+    cap_height_px: 288.5
+    cap_source: caps
+    baseline_px: 1481.0
+    baselines:
+      '3': 1481.0
+    glyphs:
+    - M
+    - O.48pt
+    - S
+    - T
+    - l.48pt
+    - i.48pt
+    - n
+    - e.48pt
+    - s
+    - two
+    x_height_px: 200
+    figure_height_px: 276
+    stem_px: 37.0
+    scale: 2.42634
+    stem_units: 89.8
+    x_height: 485
+    figure_height: 670
+  86:36pt:
+    n_caps: 6
+    cap_height_px: 199.0
+    cap_source: caps
+    baseline_px: 1883.0
+    baselines:
+      '4': 1883.0
+    glyphs:
+    - M.36pt
+    - O.36pt
+    - N
+    - E
+    - Y
+    - i.36pt
+    - s.36pt
+    - S.36pt
+    - a
+    - v
+    - e.36pt
+    - d
+    - three
+    x_height_px: 141.0
+    figure_height_px: 196
+    stem_px: 16.5
+    scale: 3.51759
+    stem_units: 58.0
+    x_height: 496
+    figure_height: 689
+  86:24pt:
+    n_caps: 8
+    cap_height_px: 133.0
+    cap_source: caps
+    baseline_px: 2594.0
+    baselines:
+      '6': 2594.0
+    glyphs:
+    - H
+    - O.24pt
+    - W
+    - M.24pt
+    - U.24pt
+    - C
+    - H.24pt
+    - S.24pt
+    - y
+    - s.24pt
+    - t.24pt
+    - e.24pt
+    - m.24pt
+    - a.24pt
+    - t.24pt_2
+    - i.24pt
+    - c
+    - nine
+    x_height_px: 91
+    figure_height_px: 128
+    stem_px: 16.0
+    scale: 5.26316
+    stem_units: 84.2
+    x_height: 479
+    figure_height: 674
+specimen_lines:
+- leaf: 86
+  line: 60pt
+  text: OUR time l
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 86
+  line: 48pt
+  text: MOST lines 2
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 86
+  line: 36pt
+  text: MONEY is Saved 3
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 86
+  line: 24pt
+  text: HOW MUCH Systematic 9
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

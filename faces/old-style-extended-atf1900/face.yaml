@@ -1,0 +1,137 @@
+name: old-style-extended-atf1900
+title: Old Style Extended
+series: Old Style Extended
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 569
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      569:48pt: 86.5
+      569:36pt: 96.3
+      569:24pt: 95.1
+  x_height: 468
+lines:
+  569:48pt:
+    n_caps: 4
+    cap_height_px: 267.0
+    cap_source: caps
+    baseline_px: 983.0
+    baselines:
+      '1': 983.0
+    glyphs:
+    - O
+    - N
+    - E
+    - L
+    - i
+    - n
+    - e
+    x_height_px: 178
+    stem_px: 14.5
+    scale: 2.62172
+    stem_units: 38.0
+    x_height: 467
+  569:36pt:
+    n_caps: 5
+    cap_height_px: 178
+    cap_source: caps
+    baseline_px: 1498
+    baselines:
+      '2': 1498
+    glyphs:
+    - L.36pt
+    - e.36pt
+    - a
+    - d
+    - e.36pt_2
+    - r
+    - R
+    - U
+    - S
+    - H
+    x_height_px: 122
+    stem_px: 15
+    scale: 3.93258
+    stem_units: 59.0
+    x_height: 480
+  569:24pt:
+    n_caps: 10
+    cap_height_px: 132.5
+    cap_source: caps
+    baseline_px: 1968.5
+    baselines:
+      '3': 1968.5
+      '4': 2173.0
+    glyphs:
+    - T
+    - R.24pt
+    - O.24pt
+    - U.24pt
+    - B
+    - L.24pt
+    - E.24pt
+    - S.24pt
+    - C
+    - u
+    - s
+    - t
+    - o
+    - m
+    - a.24pt
+    - r.24pt
+    - y
+    - T.24pt
+    - r.24pt_2
+    - i.24pt
+    - b
+    - u.24pt
+    - t.24pt
+    - e.24pt
+    x_height_px: 88.5
+    stem_px: 12.5
+    scale: 5.28302
+    stem_units: 66.0
+    x_height: 468
+specimen_lines:
+- leaf: 569
+  line: 48pt
+  text: ONE Line
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 569
+  line: 36pt
+  text: Leader RUSH
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 569
+  line: 24pt
+  text: TROUBLES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 569
+  line: 24pt
+  text: Customary Tribute
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

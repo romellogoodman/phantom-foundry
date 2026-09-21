@@ -1,0 +1,30 @@
+{
+  "face": "lining-richelieu-keystone1906",
+  "labeled": [
+    {
+      "leaf": 222,
+      "band": 3,
+      "line": "24pt",
+      "text": "FISTIC Glove sMatch",
+      "by": "deepseek-v4.1-flash+qwen3.7-flash",
+      "added": 17,
+      "kept": 0
+    }
+  ],
+  "already": [],
+  "skipped": [
+    {
+      "leaf": 222,
+      "band": 5,
+      "why": "no reading",
+      "ocr": "BRIGHT Musket",
+      "n": 11
+    },
+    {
+      "leaf": 222,
+      "band": 4,
+      "why": "reading has 14 characters, band has 12 boxes",
+      "text": "Pink Rose SOCIAL"
+    }
+  ]
+}

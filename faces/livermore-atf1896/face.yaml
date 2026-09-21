@@ -1,0 +1,101 @@
+name: livermore-atf1896
+title: Livermore.
+series: Livermore.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 348
+  - 349
+leaf_pages:
+  348: 344
+  349: 345
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      348:30pt: 18.1
+      349:24pt: 18.3
+  x_height: 422
+lines:
+  348:30pt:
+    n_caps: 2
+    cap_height_px: 154.5
+    cap_source: caps
+    baseline_px: 3007.0
+    baselines:
+      '5': 3007.0
+    glyphs:
+    - S
+    - p
+    - e
+    - c
+    - i
+    - m
+    - e.30pt
+    - n
+    - s
+    - o
+    - f
+    - L
+    x_height_px: 89.5
+    stem_px: 23.5
+    scale: 4.53074
+    stem_units: 106.5
+    x_height: 406
+  349:24pt:
+    n_caps: 0
+    cap_height_px: 115
+    cap_source: ascenders
+    baseline_px: 931
+    baselines:
+      '2': 931
+    glyphs:
+    - l
+    - o.24pt
+    - c.24pt
+    - a
+    - t
+    - e.24pt
+    - d
+    - i.24pt
+    - n.24pt
+    - p.24pt
+    - r
+    - i.24pt_2
+    - n.24pt_2
+    - c.24pt_2
+    - i.24pt_3
+    x_height_px: 72
+    scale: 6.08696
+    x_height: 438
+specimen_lines:
+- leaf: 348
+  line: 30pt
+  text: Specime ns ofL
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 349
+  line: 24pt
+  text: locat e dinpri nci
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

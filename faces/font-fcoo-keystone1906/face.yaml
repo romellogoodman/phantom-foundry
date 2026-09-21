@@ -1,0 +1,119 @@
+name: font-fcoo-keystone1906
+title: Font Fcoo
+series: Font Fcoo
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 166
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      166:48pt: 89.0
+      166:42pt: 63.2
+      166:36pt: 87.3
+  x_height: 533
+lines:
+  166:48pt:
+    n_caps: 4
+    cap_height_px: 228.0
+    cap_source: caps
+    baseline_px: 3201.5
+    baselines:
+      '7': 3201.5
+    glyphs:
+    - B
+    - E
+    - S
+    - T
+    stem_px: 49.0
+    scale: 3.07018
+    stem_units: 150.4
+  166:42pt:
+    n_caps: 1
+    cap_height_px: 227
+    cap_source: caps
+    baseline_px: 3510
+    baselines:
+      '8': 3510
+    glyphs:
+    - N
+    - a
+    - t
+    - u
+    - r
+    - a.42pt
+    - l
+    x_height_px: 173.5
+    stem_px: 22
+    scale: 3.0837
+    stem_units: 67.8
+    x_height: 535
+  166:36pt:
+    n_caps: 6
+    cap_height_px: 184.5
+    cap_source: caps
+    baseline_px: 2389
+    baselines:
+      '5': 2389
+      '6': 2663
+    glyphs:
+    - M
+    - A
+    - I
+    - D
+    - S.36pt
+    - C
+    - o
+    - n
+    - s
+    - t.36pt
+    - a.36pt
+    - n.36pt
+    - t.36pt_2
+    x_height_px: 140
+    stem_px: 21.0
+    scale: 3.79404
+    stem_units: 79.7
+    x_height: 531
+specimen_lines:
+- leaf: 166
+  line: 48pt
+  text: BEST
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 166
+  line: 42pt
+  text: Natural
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 166
+  line: 36pt
+  text: MAIDS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 166
+  line: 36pt
+  text: Constant
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

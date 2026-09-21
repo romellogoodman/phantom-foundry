@@ -1,0 +1,131 @@
+name: copley-boston1889
+title: Copley
+series: Copley
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 117
+leaf_pages:
+  117: 111
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      117:48pt: 28.4
+      117:36pt: 43.4
+lines:
+  117:48pt:
+    n_caps: 19
+    cap_height_px: 197
+    cap_source: caps
+    baseline_px: 1079
+    baselines:
+      '2': 1079
+      '3': 1386.0
+    glyphs:
+    - S
+    - I
+    - N
+    - G
+    - I.48pt
+    - N.48pt
+    - G.48pt
+    - B
+    - I.48pt_2
+    - R
+    - D
+    - B.48pt
+    - U
+    - R.48pt
+    - N.48pt_2
+    - five
+    - T
+    - O
+    - N.48pt_3
+    - S.48pt
+    figure_height_px: 201
+    stem_px: 19
+    scale: 3.5533
+    stem_units: 67.5
+    figure_height: 714
+  117:36pt:
+    n_caps: 24
+    cap_height_px: 145.0
+    cap_source: caps
+    baseline_px: 1743.5
+    baselines:
+      '4': 1743.5
+      '6': 2207.0
+    glyphs:
+    - S.36pt
+    - I.36pt
+    - M
+    - O.36pt
+    - N.36pt
+    - B.36pt
+    - O.36pt_2
+    - N.36pt_2
+    - D.36pt
+    - ampersand
+    - S.36pt_2
+    - O.36pt_3
+    - N.36pt_3
+    - M.36pt
+    - A
+    - N.36pt_4
+    - S.36pt_3
+    - I.36pt_2
+    - O.36pt_4
+    - N.36pt_5
+    - H
+    - O.36pt_5
+    - U.36pt
+    - S.36pt_4
+    - E
+    - four
+    - five.36pt
+    figure_height_px: 146.0
+    stem_px: 6.5
+    scale: 4.82759
+    stem_units: 31.4
+    figure_height: 705
+specimen_lines:
+- leaf: 117
+  line: 48pt
+  text: SINGING BIRD
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 117
+  line: 48pt
+  text: BURN 5 TONS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 117
+  line: 36pt
+  text: SIMON BOND & SON
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 117
+  line: 36pt
+  text: MANSION HOUSE 45
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,125 @@
+name: o-s-grotesque-condensed-millerrichard1921
+title: O.s. Grotesque Condensed.
+series: O.s. Grotesque Condensed.
+status: proto
+version: 0.1.0
+book: printingtypespec00millrich
+source:
+  archive_id: printingtypespec00millrich
+  title: Printing type specimens, comprising a large variety of book and jobbing faces,
+    borders and ornaments
+  creator: Miller & Richard (Firm)
+  publisher: Edinburgh, London
+  date: '[1921?]'
+  ppi: 300
+  url: https://archive.org/details/printingtypespec00millrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 132
+leaf_pages:
+  132: 200
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      132:48pt: 46.7
+      132:42pt: 84.2
+  x_height: 508
+lines:
+  132:48pt:
+    n_caps: 11
+    cap_height_px: 150
+    cap_source: caps
+    baseline_px: 474
+    baselines:
+      '1': 474
+      '2': 768.5
+    glyphs:
+    - I
+    - n
+    - s
+    - u
+    - r
+    - a
+    - n.48pt
+    - c
+    - e
+    - P
+    - O
+    - L
+    - I.48pt
+    - C
+    - I.48pt_2
+    - E
+    - S
+    - C.48pt
+    - h
+    - o
+    - i
+    - c.48pt
+    - e.48pt
+    - M
+    - u.48pt
+    - s.48pt
+    - i.48pt
+    - c.48pt_2
+    x_height_px: 106
+    stem_px: 36
+    scale: 4.66667
+    stem_units: 168.0
+    x_height: 495
+  132:42pt:
+    n_caps: 10
+    cap_height_px: 133.0
+    cap_source: caps
+    baseline_px: 2795.0
+    baselines:
+      '5': 2795.0
+    glyphs:
+    - H
+    - i.42pt
+    - s.42pt
+    - t
+    - o.42pt
+    - r.42pt
+    - i.42pt_2
+    - c.42pt
+    - a.42pt
+    - l
+    - T
+    - R
+    - A
+    - D
+    - I.42pt
+    - T.42pt
+    - I.42pt_2
+    - O.42pt
+    - N
+    x_height_px: 99
+    stem_px: 33.0
+    scale: 5.26316
+    stem_units: 173.7
+    x_height: 521
+specimen_lines:
+- leaf: 132
+  line: 48pt
+  text: Insurance POLICIES
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 132
+  line: 48pt
+  text: Choice Music ~~~~~~~~~~~~
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 132
+  line: 42pt
+  text: Historical TRADITION
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

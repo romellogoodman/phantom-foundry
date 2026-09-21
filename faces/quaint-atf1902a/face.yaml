@@ -1,0 +1,98 @@
+name: quaint-atf1902a
+title: Quaint
+series: Quaint
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 401
+leaf_pages:
+  401: 2
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      401:36pt: 53.6
+      401:24pt: 51.9
+lines:
+  401:36pt:
+    n_caps: 13
+    cap_height_px: 222
+    cap_source: caps
+    baseline_px: 1564
+    baselines:
+      '2': 1564
+    glyphs:
+    - E
+    - V
+    - E.36pt
+    - N
+    - I
+    - N.36pt
+    - G
+    - S
+    - E.36pt_2
+    - R
+    - M
+    - O
+    - N.36pt_2
+    stem_px: 29
+    scale: 3.15315
+    stem_units: 91.4
+  401:24pt:
+    n_caps: 17
+    cap_height_px: 155
+    cap_source: caps
+    baseline_px: 2020
+    baselines:
+      '3': 2020
+    glyphs:
+    - T
+    - H
+    - I.24pt
+    - R.24pt
+    - D
+    - N.24pt
+    - A
+    - T.24pt
+    - I.24pt_2
+    - O.24pt
+    - N.24pt_2
+    - A.24pt
+    - L
+    - B
+    - A.24pt_2
+    - N.24pt_3
+    - K
+    stem_px: 23
+    scale: 4.51613
+    stem_units: 103.9
+specimen_lines:
+- leaf: 401
+  line: 36pt
+  text: EVENING ~ SERMON
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 401
+  line: 24pt
+  text: THIRD ~ NATIONAL ~ BANK
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

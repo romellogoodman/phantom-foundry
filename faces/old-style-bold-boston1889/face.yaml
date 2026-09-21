@@ -1,0 +1,109 @@
+name: old-style-bold-boston1889
+title: Old Style Bold
+series: Old Stile Bold
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 112
+leaf_pages:
+  112: 106
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      112:48pt: 54.7
+      112:36pt: 76.6
+  x_height: 630
+lines:
+  112:48pt:
+    n_caps: 9
+    cap_height_px: 179
+    cap_source: caps
+    baseline_px: 895.0
+    baselines:
+      '2': 895.0
+      '3': 1157
+    glyphs:
+    - F
+    - I
+    - N
+    - E
+    - M
+    - E.48pt
+    - N.48pt
+    - U
+    - O
+    - b
+    - t
+    - a
+    - i
+    - n
+    - e
+    - d
+    - three
+    x_height_px: 161
+    figure_height_px: 175
+    stem_px: 7
+    scale: 3.91061
+    stem_units: 27.4
+    x_height: 630
+    figure_height: 684
+  112:36pt:
+    n_caps: 10
+    cap_height_px: 128.0
+    cap_source: caps
+    baseline_px: 1479.0
+    baselines:
+      '4': 1479.0
+    glyphs:
+    - M.36pt
+    - E.36pt
+    - N.36pt
+    - D
+    - E.36pt_2
+    - D.36pt
+    - R
+    - O.36pt
+    - P
+    - E.36pt_3
+    stem_px: 18.0
+    scale: 5.46875
+    stem_units: 98.4
+specimen_lines:
+- leaf: 112
+  line: 48pt
+  text: FINE MENU
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 112
+  line: 48pt
+  text: Obtained 3
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 112
+  line: 36pt
+  text: MENDED ROPE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Old Stile Bold
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

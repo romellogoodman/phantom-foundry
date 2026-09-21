@@ -1,0 +1,109 @@
+name: ronaldson-condensed-atf1896
+title: Ronaldson Condensed.
+series: Ronaldson Condensed.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 194
+leaf_pages:
+  194: 190
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      194:48pt: 31.0
+      194:24pt: 36.0
+  x_height: 479
+lines:
+  194:48pt:
+    n_caps: 6
+    cap_height_px: 271.0
+    cap_source: caps
+    baseline_px: 923.0
+    baselines:
+      '1': 923.0
+    glyphs:
+    - M
+    - o
+    - d
+    - e
+    - r
+    - n
+    - H
+    - O
+    - U
+    - S
+    - E
+    x_height_px: 183
+    stem_px: 8.5
+    scale: 2.58303
+    stem_units: 22.0
+    x_height: 473
+  194:24pt:
+    n_caps: 10
+    cap_height_px: 136.0
+    cap_source: caps
+    baseline_px: 2283.5
+    baselines:
+      '4': 2283.5
+    glyphs:
+    - S.24pt
+    - o.24pt
+    - l
+    - d.24pt
+    - i
+    - e.24pt
+    - r.24pt
+    - s
+    - C
+    - R
+    - O.24pt
+    - S.24pt_2
+    - S.24pt_3
+    - I
+    - N
+    - G
+    - B
+    - a
+    - y
+    - o.24pt_2
+    - n.24pt
+    - e.24pt_2
+    - t
+    - s.24pt
+    x_height_px: 94.5
+    stem_px: 7.0
+    scale: 5.14706
+    stem_units: 36.0
+    x_height: 486
+specimen_lines:
+- leaf: 194
+  line: 48pt
+  text: Modern HOUSE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 194
+  line: 24pt
+  text: Soldiers CROSSING Bayonets
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

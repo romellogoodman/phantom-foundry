@@ -1,0 +1,70 @@
+name: childs-atf1898
+title: Childs
+series: Childs
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 470
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      470:30pt: 77.8
+  x_height: 601
+lines:
+  470:30pt:
+    n_caps: 7
+    cap_height_px: 135
+    cap_source: caps
+    baseline_px: 2801
+    baselines:
+      '6': 2801
+    glyphs:
+    - M
+    - i
+    - c
+    - h
+    - i.30pt
+    - g
+    - a
+    - n
+    - two
+    - T
+    - R
+    - I
+    - B
+    - E
+    - S
+    x_height_px: 116
+    figure_height_px: 115
+    stem_px: 19
+    scale: 5.18519
+    stem_units: 98.5
+    x_height: 601
+    figure_height: 596
+specimen_lines:
+- leaf: 470
+  line: 30pt
+  text: Michigan 2 TRIBES
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

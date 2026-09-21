@@ -1,0 +1,124 @@
+name: childs-cleveland1895
+title: Childs
+series: Childs
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 199
+leaf_pages:
+  199: 195
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      199:60pt: 26.2
+      199:48pt: 34.7
+      199:36pt: 49.1
+  x_height: 481
+lines:
+  199:60pt:
+    n_caps: 4
+    cap_height_px: 321.0
+    cap_source: caps
+    baseline_px: 3324.5
+    baselines:
+      '8': 3324.5
+    glyphs:
+    - N
+    - E
+    - W
+    - F
+    - o
+    - r
+    - t
+    - s
+    x_height_px: 215.5
+    stem_px: 17.0
+    scale: 2.18069
+    stem_units: 37.1
+    x_height: 470
+  199:48pt:
+    n_caps: 5
+    cap_height_px: 262
+    cap_source: caps
+    baseline_px: 2609
+    baselines:
+      '7': 2609
+    glyphs:
+    - F.48pt
+    - r.48pt
+    - e
+    - i
+    - g
+    - h
+    - t.48pt
+    - D
+    - O
+    - C
+    - K
+    x_height_px: 231.5
+    stem_px: 24
+    scale: 2.67176
+    stem_units: 64.1
+    x_height: 619
+  199:36pt:
+    n_caps: 6
+    cap_height_px: 199.5
+    cap_source: caps
+    baseline_px: 1970.0
+    baselines:
+      '6': 1970.0
+    glyphs:
+    - C.36pt
+    - O.36pt
+    - M
+    - I
+    - C.36pt_2
+    - V
+    - a
+    - l
+    - e.36pt
+    - n
+    - t.36pt
+    - i.36pt
+    - n.36pt
+    - e.36pt_2
+    - s.36pt
+    x_height_px: 137
+    stem_px: 14.5
+    scale: 3.50877
+    stem_units: 50.9
+    x_height: 481
+specimen_lines:
+- leaf: 199
+  line: 60pt
+  text: NEW Forts
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 199
+  line: 48pt
+  text: Freight DOCK
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 199
+  line: 36pt
+  text: COMIC Valentines
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

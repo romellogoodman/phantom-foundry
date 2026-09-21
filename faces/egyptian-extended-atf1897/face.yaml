@@ -1,0 +1,97 @@
+name: egyptian-extended-atf1897
+title: Egyptian Extended
+series: Egyptian Extended
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 240
+leaf_pages:
+  240: 238
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      240:48pt: 45.2
+      240:18pt: 56.9
+  x_height: 504
+lines:
+  240:48pt:
+    n_caps: 1
+    cap_height_px: 325
+    cap_source: caps
+    baseline_px: 1114
+    baselines:
+      '1': 1114
+    glyphs:
+    - B
+    - e
+    - a
+    - t
+    - e.48pt
+    - n
+    - nine
+    x_height_px: 236
+    figure_height_px: 333
+    stem_px: 43
+    scale: 2.15385
+    stem_units: 92.6
+    x_height: 508
+    figure_height: 717
+  240:18pt:
+    n_caps: 8
+    cap_height_px: 123.0
+    cap_source: caps
+    baseline_px: 2568.5
+    baselines:
+      '4': 2568.5
+    glyphs:
+    - F
+    - R
+    - A
+    - M
+    - O
+    - S
+    - E
+    - two
+    - T
+    - e.18pt
+    - c
+    - o
+    - m
+    - a.18pt
+    x_height_px: 88
+    figure_height_px: 123
+    stem_px: 21.0
+    scale: 5.69106
+    stem_units: 119.5
+    x_height: 501
+    figure_height: 700
+specimen_lines:
+- leaf: 240
+  line: 48pt
+  text: Beaten 9
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 240
+  line: 18pt
+  text: FRAMOSE 2 Tecoma
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

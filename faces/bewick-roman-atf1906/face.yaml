@@ -1,0 +1,218 @@
+name: bewick-roman-atf1906
+title: Bewick Roman
+series: Bewick Roman
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 258
+  - 259
+leaf_pages:
+  258: 212
+  259: 213
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      258:72pt: 19.8
+      258:60pt: 23.9
+      258:48pt: 17.0
+      258:36pt: 28.0
+      259:30pt: 23.0
+  x_height: 382
+lines:
+  258:72pt:
+    n_caps: 9
+    cap_height_px: 318
+    cap_source: caps
+    baseline_px: 781
+    baselines:
+      '1': 781
+      '2': 1188.0
+    glyphs:
+    - N
+    - O
+    - R
+    - T
+    - H
+    - E
+    - R.72pt
+    - B
+    - r
+    - u
+    - t
+    - i
+    - s
+    - h
+    - P
+    - l
+    - a
+    - n
+    - s.72pt
+    x_height_px: 175.5
+    stem_px: 57
+    scale: 2.20126
+    stem_units: 125.5
+    x_height: 386
+  258:60pt:
+    n_caps: 8
+    cap_height_px: 263.5
+    cap_source: caps
+    baseline_px: 1714.0
+    baselines:
+      '3': 1714.0
+    glyphs:
+    - M
+    - O.60pt
+    - L
+    - E.60pt
+    - S
+    - T.60pt
+    - E.60pt_2
+    - R.60pt
+    stem_px: 23.0
+    scale: 2.65655
+    stem_units: 61.1
+  258:48pt:
+    n_caps: 10
+    cap_height_px: 206.0
+    cap_source: caps
+    baseline_px: 2523.5
+    baselines:
+      '5': 2523.5
+    glyphs:
+    - F
+    - R.48pt
+    - E.48pt
+    - N.48pt
+    - C
+    - H.48pt
+    - M.48pt
+    - A
+    - I
+    - D
+    stem_px: 13.0
+    scale: 3.39806
+    stem_units: 44.2
+  258:36pt:
+    n_caps: 17
+    cap_height_px: 150
+    cap_source: caps
+    baseline_px: 3207.0
+    baselines:
+      '7': 3207.0
+      '9': 3616
+    glyphs:
+    - H.36pt
+    - U
+    - N.36pt
+    - G
+    - A.36pt
+    - R.36pt
+    - I.36pt
+    - A.36pt_2
+    - N.36pt_2
+    - C.36pt
+    - H.36pt_2
+    - I.36pt_2
+    - L.36pt
+    - D.36pt
+    - P.36pt
+    - l.36pt
+    - e
+    - a.36pt
+    - s.36pt
+    - e.36pt
+    - T.36pt
+    - h.36pt
+    - o
+    - s.36pt_2
+    - e.36pt_2
+    - H.36pt_3
+    - e.36pt_3
+    - r.36pt
+    - e.36pt_4
+    x_height_px: 81.0
+    stem_px: 19
+    scale: 4.66667
+    stem_units: 88.7
+    x_height: 378
+  259:30pt:
+    n_caps: 15
+    cap_height_px: 122
+    cap_source: caps
+    baseline_px: 565
+    baselines:
+      '1': 565
+    glyphs:
+    - I.30pt
+    - N.30pt
+    - C.30pt
+    - A.30pt
+    - N.30pt_2
+    - D.30pt
+    - E.30pt
+    - S.30pt
+    - C.30pt_2
+    - E.30pt_2
+    - N.30pt_3
+    - T.30pt
+    - L.30pt
+    - I.30pt_2
+    - G.30pt
+    stem_px: 9
+    scale: 5.7377
+    stem_units: 51.6
+specimen_lines:
+- leaf: 258
+  line: 72pt
+  text: NORTHER
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 258
+  line: 72pt
+  text: Brutish Plans
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 258
+  line: 60pt
+  text: MOLESTER
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 258
+  line: 48pt
+  text: FRENCH MAID
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 258
+  line: 36pt
+  text: HUNGARIAN CHILD
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 258
+  line: 36pt
+  text: Please Those Here
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 259
+  line: 30pt
+  text: INCANDESCE NTLIG
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

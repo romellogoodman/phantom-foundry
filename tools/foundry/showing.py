@@ -35,6 +35,17 @@ def category(name: str) -> str:
     return "display"
 
 
+def _suspect(checks: dict, glyphs: list, d: dict) -> bool:
+    """A face read by models whose cuts disagree with each other too often to be
+    one typeface read right: 15% or more of its cuts fail the label audit. In
+    practice these are not faces at all but a running head taken for a series
+    ("Copper Alloy Type"), so the "face" mixes every design on those pages.
+    Kept and rebuilt like any other; not listed until a person has looked."""
+    flags = sum(1 for i in checks.get("items", []) if i.get("check") == "label")
+    by_models = any("flash" in (l.get("by") or "") for l in d.get("specimen_lines", []))
+    return bool(by_models and flags >= 4 and flags >= 0.15 * max(1, len(glyphs)))
+
+
 def summary(face: Face) -> dict | None:
     fj = face.proofs / "face.json"
     if not fj.exists():
@@ -67,6 +78,7 @@ def summary(face: Face) -> dict | None:
         "checks": {"status": checks["status"], "warnings": checks.get("warnings", 0), "infos": checks.get("infos", 0),
                    "items": checks.get("items", [])},
         "readers": sorted({l.get("by") or "human" for l in d.get("specimen_lines", [])}),
+        "suspect": _suspect(checks, glyphs, d),
     }
 
 

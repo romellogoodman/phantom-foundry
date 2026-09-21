@@ -1,0 +1,98 @@
+name: grange-millerrichard1921
+title: Grange.
+series: Grange.
+status: proto
+version: 0.1.0
+book: printingtypespec00millrich
+source:
+  archive_id: printingtypespec00millrich
+  title: Printing type specimens, comprising a large variety of book and jobbing faces,
+    borders and ornaments
+  creator: Miller & Richard (Firm)
+  publisher: Edinburgh, London
+  date: '[1921?]'
+  ppi: 300
+  url: https://archive.org/details/printingtypespec00millrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 172
+leaf_pages:
+  172: 286
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      172:48pt: 48.4
+      172:42pt: 73.0
+lines:
+  172:48pt:
+    n_caps: 15
+    cap_height_px: 159
+    cap_source: caps
+    baseline_px: 512
+    baselines:
+      '1': 512
+    glyphs:
+    - A
+    - R
+    - T
+    - I
+    - S
+    - T.48pt
+    - I.48pt
+    - C
+    - D
+    - I.48pt_2
+    - S.48pt
+    - P
+    - L
+    - A.48pt
+    - Y
+    stem_px: 21
+    scale: 4.40252
+    stem_units: 92.5
+  172:42pt:
+    n_caps: 16
+    cap_height_px: 139.0
+    cap_source: caps
+    baseline_px: 2855.5
+    baselines:
+      '3': 2855.5
+    glyphs:
+    - S.42pt
+    - P.42pt
+    - L.42pt
+    - E
+    - N
+    - D.42pt
+    - I.42pt
+    - D.42pt_2
+    - F
+    - E.42pt
+    - A.42pt
+    - T.42pt
+    - U
+    - R.42pt
+    - E.42pt_2
+    - S.42pt_2
+    stem_px: 18.0
+    scale: 5.03597
+    stem_units: 90.6
+specimen_lines:
+- leaf: 172
+  line: 48pt
+  text: ARTISTIC~DISPLAY
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 172
+  line: 42pt
+  text: SPLENDID~FEATURES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

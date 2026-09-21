@@ -1,0 +1,146 @@
+name: olympia-inland1907
+title: Olympia
+series: Olympia
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 177
+leaf_pages:
+  177: 169
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      177:30pt: 95.1
+      177:24pt: 78.5
+      177:18pt: 100.8
+lines:
+  177:30pt:
+    n_caps: 11
+    cap_height_px: 206
+    cap_source: caps
+    baseline_px: 764
+    baselines:
+      '2': 764
+    glyphs:
+    - T
+    - H
+    - E
+    - S
+    - U
+    - P
+    - E.30pt
+    - R
+    - I
+    - O
+    - R.30pt
+    stem_px: 30
+    scale: 3.39806
+    stem_units: 101.9
+  177:24pt:
+    n_caps: 14
+    cap_height_px: 165.0
+    cap_source: caps
+    baseline_px: 1094.5
+    baselines:
+      '3': 1094.5
+    glyphs:
+    - E.24pt
+    - X
+    - C
+    - E.24pt_2
+    - L
+    - S.24pt
+    - P.24pt
+    - R.24pt
+    - O.24pt
+    - D
+    - U.24pt
+    - C.24pt
+    - T.24pt
+    - S.24pt_2
+    stem_px: 25.0
+    scale: 4.24242
+    stem_units: 106.1
+  177:18pt:
+    n_caps: 29
+    cap_height_px: 118
+    cap_source: caps
+    baseline_px: 1371.5
+    baselines:
+      '4': 1371.5
+      '5': 1548
+    glyphs:
+    - O.18pt
+    - U.18pt
+    - R.18pt
+    - S.18pt
+    - T.18pt
+    - A
+    - N
+    - D.18pt
+    - A.18pt
+    - R.18pt_2
+    - D.18pt_2
+    - S.18pt_2
+    - M
+    - A.18pt_2
+    - K
+    - E.18pt
+    - F
+    - O.18pt_2
+    - R.18pt_3
+    - P.18pt
+    - E.18pt_2
+    - R.18pt_4
+    - F.18pt
+    - E.18pt_3
+    - C.18pt
+    - T.18pt_2
+    - I.18pt
+    - O.18pt_3
+    - N.18pt
+    - two
+    figure_height_px: 119
+    stem_px: 18
+    scale: 5.9322
+    stem_units: 106.8
+    figure_height: 706
+specimen_lines:
+- leaf: 177
+  line: 30pt
+  text: THE SUPERIOR
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 177
+  line: 24pt
+  text: EXCELS PRODUCTS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 177
+  line: 18pt
+  text: OUR STANDARDS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 177
+  line: 18pt
+  text: MAKE FOR PERFECTION 2
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

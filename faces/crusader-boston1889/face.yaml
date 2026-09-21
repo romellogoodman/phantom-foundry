@@ -1,0 +1,60 @@
+name: crusader-boston1889
+title: Crusader
+series: Crusader
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 289
+leaf_pages:
+  289: 281
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      289:48pt: 92.0
+lines:
+  289:48pt:
+    n_caps: 5
+    cap_height_px: 213
+    cap_source: caps
+    baseline_px: 1596
+    baselines:
+      '3': 1596
+    glyphs:
+    - B
+    - O
+    - U
+    - N
+    - D
+    - five
+    - eight
+    figure_height_px: 213.0
+    stem_px: 12
+    scale: 3.28638
+    stem_units: 39.4
+    figure_height: 700
+specimen_lines:
+- leaf: 289
+  line: 48pt
+  text: ~BOUND~58~
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

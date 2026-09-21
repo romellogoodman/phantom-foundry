@@ -1,0 +1,267 @@
+name: rugged-roman-atf1917
+title: Rugged Roman
+series: Rugged Roman
+status: proto
+version: 0.1.0
+book: supplementarycat00daysrich
+source:
+  archive_id: supplementarycat00daysrich
+  title: 'Supplementary catalogue : new type faces, borders, ornaments, brass rule'
+  creator: Daystrom, inc
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '[c1917]'
+  ppi: 400
+  url: https://archive.org/details/supplementarycat00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 52
+  - 53
+leaf_pages:
+  52: 46
+  53: 47
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      52:72pt: 17.6
+      52:48pt: 16.8
+      52:42pt: 19.6
+      53:36pt: 18.7
+      53:30pt: 23.0
+  x_height: 528
+lines:
+  52:72pt:
+    n_caps: 9
+    cap_height_px: 319
+    cap_source: caps
+    baseline_px: 709
+    baselines:
+      '1': 709
+    glyphs:
+    - M
+    - O
+    - D
+    - E
+    - R
+    - N
+    - I
+    - Z
+    - E.72pt
+    stem_px: 41
+    scale: 2.19436
+    stem_units: 90.0
+  52:48pt:
+    n_caps: 13
+    cap_height_px: 208
+    cap_source: caps
+    baseline_px: 2573
+    baselines:
+      '5': 2573
+    glyphs:
+    - G
+    - R.48pt
+    - E.48pt
+    - A
+    - T
+    - I.48pt
+    - N.48pt
+    - V
+    - E.48pt_2
+    - N.48pt_2
+    - T.48pt
+    - O.48pt
+    - R.48pt_2
+    stem_px: 35
+    scale: 3.36538
+    stem_units: 117.8
+  52:42pt:
+    n_caps: 17
+    cap_height_px: 179
+    cap_source: caps
+    baseline_px: 3346
+    baselines:
+      '7': 3346
+      '8': 3598.0
+    glyphs:
+    - R.42pt
+    - E.42pt
+    - M.42pt
+    - E.42pt_2
+    - D.42pt
+    - I.42pt
+    - E.42pt_3
+    - S
+    - C
+    - H
+    - A.42pt
+    - N.42pt
+    - G.42pt
+    - E.42pt_4
+    - D.42pt_2
+    - S.42pt
+    - t
+    - i
+    - m
+    - u
+    - l
+    - a
+    - t.42pt
+    - e
+    - s
+    - W
+    - o
+    - r
+    - k
+    - i.42pt
+    - n
+    - g
+    - m.42pt
+    - e.42pt
+    - n.42pt
+    x_height_px: 135.0
+    stem_px: 26
+    scale: 3.91061
+    stem_units: 101.7
+    x_height: 528
+  53:36pt:
+    n_caps: 3
+    cap_height_px: 150
+    cap_source: caps
+    baseline_px: 812
+    baselines:
+      '2': 812
+    glyphs:
+    - E.36pt
+    - n.36pt
+    - c
+    - o.36pt
+    - u.36pt
+    - r.36pt
+    - a.36pt
+    - g.36pt
+    - e.36pt
+    - H.36pt
+    - u.36pt_2
+    - n.36pt_2
+    - d
+    - r.36pt_2
+    - e.36pt_2
+    - d.36pt
+    - A.36pt
+    - r.36pt_3
+    - t.36pt
+    - i.36pt
+    - s.36pt
+    - t.36pt_2
+    - s.36pt_2
+    x_height_px: 113.0
+    stem_px: 22
+    scale: 4.66667
+    stem_units: 102.7
+    x_height: 527
+  53:30pt:
+    n_caps: 25
+    cap_height_px: 122
+    cap_source: caps
+    baseline_px: 1387.0
+    baselines:
+      '4': 1387.0
+      '6': 1737
+    glyphs:
+    - S.30pt
+    - P
+    - L
+    - E.30pt
+    - N.30pt
+    - D.30pt
+    - I.30pt
+    - D.30pt_2
+    - P.30pt
+    - R.30pt
+    - O.30pt
+    - G.30pt
+    - R.30pt_2
+    - A.30pt
+    - M.30pt
+    - O.30pt_2
+    - F
+    - F.30pt
+    - E.30pt_2
+    - R.30pt_3
+    - E.30pt_3
+    - D.30pt_3
+    - H.30pt
+    - u.30pt
+    - n.30pt
+    - d.30pt
+    - r.30pt
+    - e.30pt
+    - d.30pt_2
+    - s.30pt
+    - A.30pt_2
+    - p
+    - p.30pt
+    - l.30pt
+    - a.30pt
+    - u.30pt_2
+    - d.30pt_3
+    - e.30pt_2
+    - d.30pt_4
+    - a.30pt_2
+    - n.30pt_2
+    - d.30pt_5
+    - C.30pt
+    - h
+    - e.30pt_3
+    - e.30pt_4
+    - r.30pt_2
+    - e.30pt_5
+    - d.30pt_6
+    x_height_px: 92.0
+    stem_px: 21
+    scale: 5.7377
+    stem_units: 120.5
+    x_height: 528
+specimen_lines:
+- leaf: 52
+  line: 72pt
+  text: MODERNIZE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 52
+  line: 48pt
+  text: GREAT INVENTOR
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 52
+  line: 42pt
+  text: REMEDIES CHANGED
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 52
+  line: 42pt
+  text: Stimulates Workingmen
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 53
+  line: 36pt
+  text: Encourage Hundred Artists
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 53
+  line: 30pt
+  text: SPLENDID PROGRAM OFFERED
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 53
+  line: 30pt
+  text: Hundreds Applauded and Cheered
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

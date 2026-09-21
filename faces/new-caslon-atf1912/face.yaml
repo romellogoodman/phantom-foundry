@@ -1,0 +1,98 @@
+name: new-caslon-atf1912
+title: New Caslon
+series: New Gaslon
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 346
+leaf_pages:
+  346: 332
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      346:60pt: 32.9
+  x_height: 442
+lines:
+  346:60pt:
+    n_caps: 12
+    cap_height_px: 276.5
+    cap_source: caps
+    baseline_px: 2923.5
+    baselines:
+      '5': 2923.5
+      '6': 3310.5
+      '7': 3654.5
+    glyphs:
+    - M
+    - O
+    - R
+    - P
+    - H
+    - E
+    - U
+    - S
+    - Q
+    - u
+    - a
+    - i
+    - n
+    - t
+    - A
+    - n.60pt
+    - i.60pt
+    - m
+    - a.60pt
+    - l
+    - M.60pt
+    - a.60pt_2
+    - d
+    - e
+    - D
+    - e.60pt
+    - m.60pt
+    - a.60pt_3
+    - n.60pt_2
+    - d.60pt
+    x_height_px: 174.5
+    stem_px: 21.0
+    scale: 2.53165
+    stem_units: 53.2
+    x_height: 442
+specimen_lines:
+- leaf: 346
+  line: 60pt
+  text: MORPHEUS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 346
+  line: 60pt
+  text: Quaint Animal
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 346
+  line: 60pt
+  text: Made Demand
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: New Gaslon
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

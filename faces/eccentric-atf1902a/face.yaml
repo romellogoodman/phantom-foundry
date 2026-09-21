@@ -1,0 +1,86 @@
+name: eccentric-atf1902a
+title: Eccentric
+series: Eccentric
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 444
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      444:24pt: 46.4
+      444:18pt: 162.0
+lines:
+  444:24pt:
+    n_caps: 9
+    cap_height_px: 151
+    cap_source: caps
+    baseline_px: 1435
+    baselines:
+      '3': 1435
+    glyphs:
+    - O
+    - N
+    - S
+    - L
+    - A
+    - U
+    - G
+    - H
+    - T
+    stem_px: 11
+    scale: 4.63576
+    stem_units: 51.0
+  444:18pt:
+    n_caps: 0
+    cap_height_px: 121
+    cap_source: ascenders
+    baseline_px: 1944.0
+    baselines:
+      '5': 1944.0
+    glyphs:
+    - one
+    - two
+    - three
+    - four
+    - five
+    - six
+    - seven
+    - eight
+    - nine
+    - zero
+    figure_height_px: 119.5
+    scale: 5.78512
+    figure_height: 691
+specimen_lines:
+- leaf: 444
+  line: 24pt
+  text: ~ ONSLAUGHT ~
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 444
+  line: 18pt
+  text: ~1234567890~
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

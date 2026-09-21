@@ -1,0 +1,95 @@
+name: hercules-farmer1899
+title: Hercules.
+series: Hercules.
+status: proto
+version: 0.1.0
+book: abridgedspecimen00adfa
+source:
+  archive_id: abridgedspecimen00adfa
+  title: 'Abridged specimen book : type, borders, brass rules, ornaments and price
+    list of printing machinery, furniture, fixtures and material'
+  creator: A.D. Farmer & Son Type Founding Co
+  publisher: 'Chicago : The Company'
+  date: '1899'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00adfa
+  copyright_status: null
+  contributor: University of Illinois Urbana-Champaign
+  leaves:
+  - 125
+leaf_pages:
+  125: 121
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      125:48pt: 20.6
+      125:36pt: 24.4
+  x_height: 568
+lines:
+  125:48pt:
+    n_caps: 3
+    cap_height_px: 323
+    cap_source: caps
+    baseline_px: 3231
+    baselines:
+      '6': 3231
+    glyphs:
+    - D
+    - I
+    - S
+    - t
+    - a
+    - n
+    - t.48pt
+    - four
+    x_height_px: 277.0
+    figure_height_px: 316
+    stem_px: 76
+    scale: 2.16718
+    stem_units: 164.7
+    x_height: 600
+    figure_height: 685
+  125:36pt:
+    n_caps: 2
+    cap_height_px: 229.5
+    cap_source: caps
+    baseline_px: 2689.0
+    baselines:
+      '5': 2689.0
+    glyphs:
+    - P
+    - r
+    - i
+    - c
+    - e
+    - L
+    - i.36pt
+    - s
+    - t.36pt
+    - nine
+    - eight
+    x_height_px: 176
+    figure_height_px: 221.0
+    stem_px: 55.5
+    scale: 3.05011
+    stem_units: 169.3
+    x_height: 537
+    figure_height: 674
+specimen_lines:
+- leaf: 125
+  line: 48pt
+  text: DIStant 4
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 125
+  line: 36pt
+  text: Price List 98
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

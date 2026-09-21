@@ -1,0 +1,123 @@
+name: devinne-shaded-cleveland1895
+title: DeVinne Shaded
+series: Dkvinnk Shadkd
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 174
+leaf_pages:
+  174: 170
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      174:42pt: 54.1
+      174:24pt: 65.5
+  x_height: 493
+lines:
+  174:42pt:
+    n_caps: 8
+    cap_height_px: 220.0
+    cap_source: caps
+    baseline_px: 2202.5
+    baselines:
+      '5': 2202.5
+      '6': 2504.0
+    glyphs:
+    - J
+    - A
+    - C
+    - Q
+    - U
+    - E
+    - K
+    - e
+    - l
+    - t
+    - i
+    - c
+    - two
+    - T
+    - r
+    - a
+    - i.42pt
+    - n
+    x_height_px: 153
+    figure_height_px: 215
+    stem_px: 4.0
+    scale: 3.18182
+    stem_units: 12.7
+    x_height: 487
+    figure_height: 684
+  174:24pt:
+    n_caps: 2
+    cap_height_px: 117.5
+    cap_source: caps
+    baseline_px: 1051.0
+    baselines:
+      '2': 1051.0
+    glyphs:
+    - S
+    - c.24pt
+    - i.24pt
+    - e.24pt
+    - n.24pt
+    - t.24pt
+    - i.24pt_2
+    - f
+    - i.24pt_3
+    - c.24pt_2
+    - dollar
+    - eight
+    - two.24pt
+    - A.24pt
+    - d
+    - v
+    - a.24pt
+    - n.24pt_2
+    - c.24pt_3
+    - e.24pt_2
+    - s
+    x_height_px: 84.0
+    figure_height_px: 117.5
+    stem_px: 3.0
+    scale: 5.95745
+    stem_units: 17.9
+    x_height: 500
+    figure_height: 700
+specimen_lines:
+- leaf: 174
+  line: 42pt
+  text: JACQUE
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 174
+  line: 42pt
+  text: Keltic 2 Train
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 174
+  line: 24pt
+  text: Scientific $82 Advances
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Dkvinnk Shadkd
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

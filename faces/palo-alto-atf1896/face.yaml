@@ -1,0 +1,68 @@
+name: palo-alto-atf1896
+title: Palo Alto.
+series: Palo Alto.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 505
+leaf_pages:
+  505: 501
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      505:18pt: 29.8
+lines:
+  505:18pt:
+    n_caps: 16
+    cap_height_px: 141.0
+    cap_source: caps
+    baseline_px: 2861.0
+    baselines:
+      '7': 2861.0
+    glyphs:
+    - P
+    - E
+    - A
+    - C
+    - H
+    - B
+    - L
+    - O
+    - W
+    - N
+    - C.18pt
+    - U
+    - R
+    - I
+    - O.18pt
+    - S
+    stem_px: 4.0
+    scale: 4.96454
+    stem_units: 19.9
+specimen_lines:
+- leaf: 505
+  line: 18pt
+  text: PEACHBLOWN CURIOS
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

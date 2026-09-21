@@ -1,0 +1,116 @@
+name: german-title-extra-condensed-atf1896
+title: German Title Extra Condensed.
+series: German Title Extra Condensed.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 546
+leaf_pages:
+  546: 542
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      546:24pt: 36.2
+      546:20pt: 32.9
+      546:18pt: 52.5
+lines:
+  546:24pt:
+    n_caps: 0
+    cap_height_px: 174
+    cap_source: ascenders
+    baseline_px: 1093.0
+    baselines:
+      '2': 1093.0
+    glyphs:
+    - one
+    - two
+    - three
+    - four
+    - five
+    - six
+    - seven
+    - eight
+    - nine
+    - zero
+    figure_height_px: 173.0
+    scale: 4.02299
+    figure_height: 696
+  546:20pt:
+    n_caps: 0
+    cap_height_px: 149
+    cap_source: ascenders
+    baseline_px: 1740.0
+    baselines:
+      '4': 1740.0
+    glyphs:
+    - one.20pt
+    - two.20pt
+    - three.20pt
+    - four.20pt
+    - five.20pt
+    - six.20pt
+    - seven.20pt
+    - eight.20pt
+    - nine.20pt
+    - zero.20pt
+    figure_height_px: 147.0
+    scale: 4.69799
+    figure_height: 691
+  546:18pt:
+    n_caps: 0
+    cap_height_px: 120
+    cap_source: ascenders
+    baseline_px: 2350.0
+    baselines:
+      '6': 2350.0
+    glyphs:
+    - one.18pt
+    - two.18pt
+    - three.18pt
+    - four.18pt
+    - five.18pt
+    - six.18pt
+    - seven.18pt
+    - eight.18pt
+    - nine.18pt
+    - zero.18pt
+    figure_height_px: 118.5
+    scale: 5.83333
+    figure_height: 691
+specimen_lines:
+- leaf: 546
+  line: 24pt
+  text: '1234567890'
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 546
+  line: 20pt
+  text: '1234567890'
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 546
+  line: 18pt
+  text: '1234567890'
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

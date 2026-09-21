@@ -1,0 +1,91 @@
+name: poster-clarendon-farmer1899
+title: Poster Clarendon.
+series: Poster Clarendon.
+status: proto
+version: 0.1.0
+book: abridgedspecimen00adfa
+source:
+  archive_id: abridgedspecimen00adfa
+  title: 'Abridged specimen book : type, borders, brass rules, ornaments and price
+    list of printing machinery, furniture, fixtures and material'
+  creator: A.D. Farmer & Son Type Founding Co
+  publisher: 'Chicago : The Company'
+  date: '1899'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00adfa
+  copyright_status: null
+  contributor: University of Illinois Urbana-Champaign
+  leaves:
+  - 60
+leaf_pages:
+  60: 56
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      60:28pt: 45.0
+  x_height: 470
+lines:
+  60:28pt:
+    n_caps: 13
+    cap_height_px: 140
+    cap_source: caps
+    baseline_px: 2930
+    baselines:
+      '6': 2930
+      '8': 3322
+    glyphs:
+    - T
+    - H
+    - E
+    - G
+    - O
+    - V
+    - E.28pt
+    - R
+    - N
+    - M
+    - E.28pt_2
+    - N.28pt
+    - T.28pt
+    - m
+    - u
+    - s
+    - t
+    - b
+    - e
+    - a
+    - b.28pt
+    - s.28pt
+    - o
+    - l
+    - u.28pt
+    - t.28pt
+    - e.28pt
+    - i
+    - n
+    - i.28pt
+    - t.28pt_2
+    - s.28pt_2
+    x_height_px: 94
+    stem_px: 19
+    scale: 5.0
+    stem_units: 95.0
+    x_height: 470
+specimen_lines:
+- leaf: 60
+  line: 28pt
+  text: THE GOVERNMENT
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 60
+  line: 28pt
+  text: must be absolute in its
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

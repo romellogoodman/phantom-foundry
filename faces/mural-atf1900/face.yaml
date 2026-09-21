@@ -1,0 +1,218 @@
+name: mural-atf1900
+title: Mural
+series: Mural
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 460
+leaf_pages:
+  460: 759
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      460:48pt: 64.8
+      460:42pt: 60.6
+      460:36pt: 80.4
+      460:30pt: 87.5
+      460:24pt: 70.8
+      460:20pt: 86.1
+lines:
+  460:48pt:
+    n_caps: 9
+    cap_height_px: 335
+    cap_source: caps
+    baseline_px: 985
+    baselines:
+      '2': 985
+    glyphs:
+    - M
+    - O
+    - N
+    - U
+    - M.48pt
+    - E
+    - N.48pt
+    - T
+    - S
+    stem_px: 19
+    scale: 2.08955
+    stem_units: 39.7
+  460:42pt:
+    n_caps: 11
+    cap_height_px: 277
+    cap_source: caps
+    baseline_px: 1498
+    baselines:
+      '3': 1498
+    glyphs:
+    - G
+    - R
+    - A
+    - N.42pt
+    - D
+    - H
+    - E.42pt
+    - I
+    - G.42pt
+    - H.42pt
+    - T.42pt
+    stem_px: 17
+    scale: 2.52708
+    stem_units: 43.0
+  460:36pt:
+    n_caps: 11
+    cap_height_px: 235
+    cap_source: caps
+    baseline_px: 1972
+    baselines:
+      '4': 1972
+    glyphs:
+    - D.36pt
+    - U.36pt
+    - S.36pt
+    - T.36pt
+    - E.36pt
+    - R.36pt
+    - B
+    - R.36pt_2
+    - U.36pt_2
+    - S.36pt_2
+    - H.36pt
+    stem_px: 16
+    scale: 2.97872
+    stem_units: 47.7
+  460:30pt:
+    n_caps: 16
+    cap_height_px: 200.0
+    cap_source: caps
+    baseline_px: 2425.5
+    baselines:
+      '5': 2425.5
+    glyphs:
+    - I.30pt
+    - N.30pt
+    - C
+    - R.30pt
+    - E.30pt
+    - A.30pt
+    - S.30pt
+    - E.30pt_2
+    - E.30pt_3
+    - X
+    - E.30pt_4
+    - R.30pt_2
+    - T.30pt
+    - I.30pt_2
+    - O.30pt
+    - N.30pt_2
+    stem_px: 14.0
+    scale: 3.5
+    stem_units: 49.0
+  460:24pt:
+    n_caps: 16
+    cap_height_px: 168.0
+    cap_source: caps
+    baseline_px: 2826.0
+    baselines:
+      '6': 2826.0
+    glyphs:
+    - B.24pt
+    - E.24pt
+    - A.24pt
+    - M.24pt
+    - S.24pt
+    - R.24pt
+    - E.24pt_2
+    - M.24pt_2
+    - A.24pt_2
+    - I.24pt
+    - N.24pt
+    - W
+    - H.24pt
+    - I.24pt_2
+    - T.24pt
+    - E.24pt_3
+    stem_px: 11.0
+    scale: 4.16667
+    stem_units: 45.8
+  460:20pt:
+    n_caps: 20
+    cap_height_px: 122.0
+    cap_source: caps
+    baseline_px: 3219.5
+    baselines:
+      '7': 3219.5
+    glyphs:
+    - E.20pt
+    - X.20pt
+    - A.20pt
+    - C.20pt
+    - T.20pt
+    - F
+    - O.20pt
+    - R.20pt
+    - C.20pt_2
+    - E.20pt_2
+    - M.20pt
+    - A.20pt_2
+    - I.20pt
+    - D.20pt
+    - S.20pt
+    - K
+    - N.20pt
+    - O.20pt_2
+    - W.20pt
+    - N.20pt_2
+    stem_px: 10.0
+    scale: 5.7377
+    stem_units: 57.4
+specimen_lines:
+- leaf: 460
+  line: 48pt
+  text: MONUMENTS ~
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 460
+  line: 42pt
+  text: GRAND HEIGHT
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 460
+  line: 36pt
+  text: DUSTER [AND] BRUSH
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 460
+  line: 30pt
+  text: INCREASE EXERTION
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 460
+  line: 24pt
+  text: BEAMS REMAIN WHITE
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 460
+  line: 20pt
+  text: EXACT FORCE MAIDS KNOWN
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

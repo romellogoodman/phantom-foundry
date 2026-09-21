@@ -1,0 +1,90 @@
+name: crusader-atf1898
+title: Crusader
+series: Crusader
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 445
+leaf_pages:
+  445: 63
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      445:36pt: 75.1
+      445:24pt: 84.5
+lines:
+  445:36pt:
+    n_caps: 6
+    cap_height_px: 214.5
+    cap_source: caps
+    baseline_px: 1960.0
+    baselines:
+      '4': 1960.0
+    glyphs:
+    - R
+    - O
+    - A
+    - D
+    - S
+    - I
+    - six
+    figure_height_px: 207
+    stem_px: 23.0
+    scale: 3.2634
+    stem_units: 75.1
+    figure_height: 676
+  445:24pt:
+    n_caps: 8
+    cap_height_px: 161.5
+    cap_source: caps
+    baseline_px: 2361.5
+    baselines:
+      '5': 2361.5
+    glyphs:
+    - D.24pt
+    - O.24pt
+    - G
+    - S.24pt
+    - ♥
+    - eight
+    - ♦
+    - B
+    - I.24pt
+    - T
+    - E
+    figure_height_px: 159
+    stem_px: 17.5
+    scale: 4.33437
+    stem_units: 75.9
+    figure_height: 689
+specimen_lines:
+- leaf: 445
+  line: 36pt
+  text: ROADS I 6
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 445
+  line: 24pt
+  text: DOGS ♥8 ♦BITE
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

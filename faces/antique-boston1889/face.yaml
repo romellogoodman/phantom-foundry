@@ -1,0 +1,184 @@
+name: antique-boston1889
+title: Antique
+series: Antique No
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 139
+  - 140
+  - 141
+leaf_pages:
+  139: 133
+  140: 134
+  141: 135
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      139:48pt: 19.0
+      140:48pt: 32.2
+      140:36pt: 38.0
+  x_height: 541
+lines:
+  139:48pt:
+    n_caps: 5
+    cap_height_px: 221
+    cap_source: caps
+    baseline_px: 977
+    baselines:
+      '2': 977
+    glyphs:
+    - H
+    - a
+    - t
+    - M
+    - O
+    - B
+    - R
+    - o
+    - d
+    x_height_px: 186.0
+    stem_px: 84
+    scale: 3.16742
+    stem_units: 266.1
+    x_height: 589
+  140:48pt:
+    n_caps: 15
+    cap_height_px: 185
+    cap_source: caps
+    baseline_px: 914
+    baselines:
+      '2': 914
+      '3': 1172.5
+    glyphs:
+    - F
+    - O.48pt
+    - R.48pt
+    - E
+    - I
+    - G
+    - N
+    - C
+    - H.48pt
+    - E.48pt
+    - C.48pt
+    - K
+    - S
+    - N.48pt
+    - o.48pt
+    - t.48pt
+    - e
+    - C.48pt_2
+    - a.48pt
+    - s
+    - h
+    - e.48pt
+    - d.48pt
+    - six
+    - three
+    x_height_px: 143.0
+    figure_height_px: 186.5
+    stem_px: 22
+    scale: 3.78378
+    stem_units: 83.2
+    x_height: 541
+    figure_height: 706
+  140:36pt:
+    n_caps: 20
+    cap_height_px: 129.0
+    cap_source: caps
+    baseline_px: 1507
+    baselines:
+      '4': 1507
+      '5': 1702
+    glyphs:
+    - S.36pt
+    - E.36pt
+    - N.36pt
+    - T
+    - E.36pt_2
+    - N.36pt_2
+    - C.36pt
+    - E.36pt_3
+    - O.36pt
+    - F.36pt
+    - T.36pt
+    - E.36pt_4
+    - A
+    - C.36pt_2
+    - H.36pt
+    - E.36pt_5
+    - R.36pt
+    - R.36pt_2
+    - e.36pt
+    - s.36pt
+    - t.36pt
+    - i
+    - n
+    - g
+    - T.36pt_2
+    - w
+    - o.36pt
+    - M.36pt
+    - o.36pt_2
+    - n.36pt
+    - t.36pt_2
+    - h.36pt
+    - s.36pt_2
+    - five
+    - eight
+    x_height_px: 93
+    figure_height_px: 128.5
+    stem_px: 13.5
+    scale: 5.42636
+    stem_units: 73.3
+    x_height: 505
+    figure_height: 697
+specimen_lines:
+- leaf: 139
+  line: 48pt
+  text: Hat MOB Rod
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 140
+  line: 48pt
+  text: FOREIGN CHECKS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 140
+  line: 48pt
+  text: Note Cashed 63
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 140
+  line: 36pt
+  text: SENTENCE OF TEACHER
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 140
+  line: 36pt
+  text: Resting Two Months 58
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Antique No
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

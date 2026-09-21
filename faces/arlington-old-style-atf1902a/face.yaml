@@ -1,0 +1,120 @@
+name: arlington-old-style-atf1902a
+title: Arlington Old Style
+series: Arlington Old Style
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 334
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      334:72pt: 32.3
+      334:60pt: 37.9
+  x_height: 503
+lines:
+  334:72pt:
+    n_caps: 8
+    cap_height_px: 400.5
+    cap_source: caps
+    baseline_px: 1071
+    baselines:
+      '1': 1071
+      '2': 1588
+    glyphs:
+    - F
+    - I
+    - N
+    - A
+    - N.72pt
+    - C
+    - E
+    - R
+    - e
+    - p
+    - o
+    - r
+    - t
+    - e.72pt
+    - r.72pt
+    - s
+    x_height_px: 283.0
+    stem_px: 48.0
+    scale: 1.74782
+    stem_units: 83.9
+    x_height: 495
+  334:60pt:
+    n_caps: 10
+    cap_height_px: 323.5
+    cap_source: caps
+    baseline_px: 2924
+    baselines:
+      '4': 2924
+      '6': 3779
+    glyphs:
+    - I.60pt
+    - N.60pt
+    - S
+    - P
+    - E.60pt
+    - C.60pt
+    - T
+    - O
+    - R.60pt
+    - E.60pt_2
+    - x
+    - p.60pt
+    - l
+    - a
+    - n
+    - a.60pt
+    - t.60pt
+    - i
+    - o.60pt
+    - n.60pt
+    x_height_px: 236.0
+    stem_px: 51.5
+    scale: 2.16383
+    stem_units: 111.4
+    x_height: 511
+specimen_lines:
+- leaf: 334
+  line: 72pt
+  text: FINANCE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 334
+  line: 72pt
+  text: Reporters
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 334
+  line: 60pt
+  text: INSPECTOR
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 334
+  line: 60pt
+  text: Explanation
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

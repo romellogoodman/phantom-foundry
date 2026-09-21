@@ -1,0 +1,146 @@
+name: latin-antique-boston1889
+title: Latin Antique
+series: Latin Antique
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 145
+leaf_pages:
+  145: 139
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      145:48pt: 72.2
+      145:36pt: 95.0
+  x_height: 494
+lines:
+  145:48pt:
+    n_caps: 13
+    cap_height_px: 194
+    cap_source: caps
+    baseline_px: 922
+    baselines:
+      '2': 922
+      '3': 1196.0
+    glyphs:
+    - L
+    - O
+    - N
+    - D
+    - O.48pt
+    - N.48pt
+    - B
+    - E
+    - A
+    - C
+    - H
+    - F
+    - a
+    - s
+    - t
+    - G
+    - o
+    - n
+    - d
+    - o.48pt
+    - l
+    - a.48pt
+    - four
+    x_height_px: 138
+    figure_height_px: 187
+    stem_px: 30
+    scale: 3.60825
+    stem_units: 108.2
+    x_height: 498
+    figure_height: 675
+  145:36pt:
+    n_caps: 18
+    cap_height_px: 140.0
+    cap_source: caps
+    baseline_px: 1530.0
+    baselines:
+      '4': 1530.0
+      '5': 1746.5
+    glyphs:
+    - E.36pt
+    - X
+    - C.36pt
+    - E.36pt_2
+    - L.36pt
+    - L.36pt_2
+    - E.36pt_3
+    - N.36pt
+    - T
+    - A.36pt
+    - N.36pt_2
+    - T.36pt
+    - I
+    - Q
+    - U
+    - E.36pt_4
+    - M
+    - o.36pt
+    - d.36pt
+    - e
+    - l.36pt
+    - P
+    - r
+    - o.36pt_2
+    - d.36pt_2
+    - u
+    - c
+    - t.36pt
+    - i
+    - o.36pt_3
+    - n.36pt
+    - s.36pt
+    - five
+    - zero
+    x_height_px: 98.0
+    figure_height_px: 138.0
+    stem_px: 18.0
+    scale: 5.0
+    stem_units: 90.0
+    x_height: 490
+    figure_height: 690
+specimen_lines:
+- leaf: 145
+  line: 48pt
+  text: LONDON BEACH
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 145
+  line: 48pt
+  text: Fast Gondola 4
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 145
+  line: 36pt
+  text: EXCELLENT ANTIQUE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 145
+  line: 36pt
+  text: Model Productions 50
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

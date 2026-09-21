@@ -1,0 +1,147 @@
+name: roman-no-2-boston1889
+title: Roman No. 2
+series: Roman No
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 128
+leaf_pages:
+  128: 122
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      128:48pt: 32.2
+      128:40pt: 71.0
+      128:36pt: 40.2
+  x_height: 680
+lines:
+  128:48pt:
+    n_caps: 14
+    cap_height_px: 174.0
+    cap_source: caps
+    baseline_px: 912
+    baselines:
+      '2': 912
+      '3': 1175
+    glyphs:
+    - C
+    - O
+    - M
+    - M.48pt
+    - O.48pt
+    - N
+    - U
+    - N.48pt
+    - I
+    - O.48pt_2
+    - N.48pt_2
+    - M.48pt_2
+    - a
+    - d
+    - B
+    - a.48pt
+    - n
+    - d.48pt
+    - i
+    - t
+    - S
+    x_height_px: 169
+    stem_px: 4.0
+    scale: 4.02299
+    stem_units: 16.1
+    x_height: 680
+  128:40pt:
+    n_caps: 14
+    cap_height_px: 138.0
+    cap_source: caps
+    baseline_px: 1510.5
+    baselines:
+      '4': 1510.5
+    glyphs:
+    - C.40pt
+    - L
+    - O.40pt
+    - S.40pt
+    - E
+    - L.40pt
+    - E.40pt
+    - A
+    - D
+    - S.40pt_2
+    - T
+    - O.40pt_2
+    - R
+    - E.40pt_2
+    stem_px: 13.0
+    scale: 5.07246
+    stem_units: 65.9
+  128:36pt:
+    n_caps: 15
+    cap_height_px: 122
+    cap_source: caps
+    baseline_px: 2049
+    baselines:
+      '6': 2049
+    glyphs:
+    - R.36pt
+    - O.36pt
+    - U.36pt
+    - N.36pt
+    - D.36pt
+    - S.36pt
+    - T.36pt
+    - O.36pt_2
+    - N.36pt_2
+    - E.36pt
+    - C.36pt
+    - H
+    - E.36pt_2
+    - S.36pt_2
+    - T.36pt_2
+    stem_px: 6
+    scale: 5.7377
+    stem_units: 34.4
+specimen_lines:
+- leaf: 128
+  line: 48pt
+  text: COMMON UNION
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 128
+  line: 48pt
+  text: Mad Bandit S
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 128
+  line: 40pt
+  text: CLOSE LEAD STORE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 128
+  line: 36pt
+  text: ROUND STONE CHEST
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Roman No
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

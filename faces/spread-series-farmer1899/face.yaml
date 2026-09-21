@@ -1,0 +1,103 @@
+name: spread-series-farmer1899
+title: Spread Series.
+series: Spread Series.
+status: proto
+version: 0.1.0
+book: abridgedspecimen00adfa
+source:
+  archive_id: abridgedspecimen00adfa
+  title: 'Abridged specimen book : type, borders, brass rules, ornaments and price
+    list of printing machinery, furniture, fixtures and material'
+  creator: A.D. Farmer & Son Type Founding Co
+  publisher: 'Chicago : The Company'
+  date: '1899'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00adfa
+  copyright_status: null
+  contributor: University of Illinois Urbana-Champaign
+  leaves:
+  - 208
+leaf_pages:
+  208: 204
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      208:36pt: 181.0
+      208:28pt: 105.3
+      208:24pt: 177.7
+lines:
+  208:36pt:
+    n_caps: 5
+    cap_height_px: 205
+    cap_source: caps
+    baseline_px: 3338
+    baselines:
+      '3': 3338
+    glyphs:
+    - O
+    - N
+    - L
+    - I
+    - D
+    stem_px: 62
+    scale: 3.41463
+    stem_units: 211.7
+  208:28pt:
+    n_caps: 6
+    cap_height_px: 169.5
+    cap_source: caps
+    baseline_px: 2863.5
+    baselines:
+      '2': 2863.5
+    glyphs:
+    - B
+    - E
+    - E.28pt
+    - F
+    - L.28pt
+    - Y
+    stem_px: 39.5
+    scale: 4.12979
+    stem_units: 163.1
+  208:24pt:
+    n_caps: 8
+    cap_height_px: 132.0
+    cap_source: caps
+    baseline_px: 2418.0
+    baselines:
+      '1': 2418.0
+    glyphs:
+    - S
+    - I.24pt
+    - D.24pt
+    - E.24pt
+    - L.24pt
+    - A
+    - C
+    - E.24pt_2
+    stem_px: 25.5
+    scale: 5.30303
+    stem_units: 135.2
+specimen_lines:
+- leaf: 208
+  line: 36pt
+  text: ON LID
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 208
+  line: 28pt
+  text: BEE FLY
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 208
+  line: 24pt
+  text: SIDE LACE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

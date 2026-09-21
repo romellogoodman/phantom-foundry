@@ -1,0 +1,70 @@
+name: archaic-atf1896
+title: Archaic.
+series: Archaic.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 480
+leaf_pages:
+  480: 476
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      480:30pt: 41.0
+  x_height: 480
+lines:
+  480:30pt:
+    n_caps: 8
+    cap_height_px: 188.0
+    cap_source: caps
+    baseline_px: 1353.5
+    baselines:
+      '2': 1353.5
+    glyphs:
+    - O
+    - r
+    - i
+    - e
+    - n
+    - t
+    - a
+    - l
+    - N
+    - O.30pt
+    - V
+    - I
+    - C
+    - E
+    - S
+    x_height_px: 129
+    stem_px: 12.5
+    scale: 3.7234
+    stem_units: 46.5
+    x_height: 480
+specimen_lines:
+- leaf: 480
+  line: 30pt
+  text: Oriental NOVICES
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

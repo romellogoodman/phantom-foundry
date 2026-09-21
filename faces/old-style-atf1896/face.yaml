@@ -1,0 +1,95 @@
+name: old-style-atf1896
+title: Old Style
+series: Old Style
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 558
+  - 563
+leaf_pages:
+  558: 554
+  563: 559
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      563:72pt: 34.5
+      558:48pt: 63.5
+  x_height: 479
+lines:
+  563:72pt:
+    n_caps: 5
+    cap_height_px: 457
+    cap_source: caps
+    baseline_px: 1188.0
+    baselines:
+      '1': 1188.0
+      '2': 1790
+    glyphs:
+    - M
+    - U
+    - S
+    - E
+    - I
+    - t
+    - e
+    - m
+    x_height_px: 313
+    stem_px: 16
+    scale: 1.53173
+    stem_units: 24.5
+    x_height: 479
+  558:48pt:
+    n_caps: 7
+    cap_height_px: 270
+    cap_source: caps
+    baseline_px: 984
+    baselines:
+      '1': 984
+    glyphs:
+    - F
+    - O
+    - R
+    - E.48pt
+    - S.48pt
+    - T
+    - S.48pt_2
+    stem_px: 14
+    scale: 2.59259
+    stem_units: 36.3
+specimen_lines:
+- leaf: 563
+  line: 72pt
+  text: MUSE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 563
+  line: 72pt
+  text: Item
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 558
+  line: 48pt
+  text: FORESTS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

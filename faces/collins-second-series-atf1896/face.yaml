@@ -1,0 +1,55 @@
+name: collins-second-series-atf1896
+title: Collins Second Series.
+series: Collins Second Series.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 600
+leaf_pages:
+  600: 596
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps: {}
+lines: {}
+specimen_lines:
+- leaf: 600
+  line: 36pt
+  text: ~~~~~~~
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 600
+  line: 30pt
+  text: ~~~
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 600
+  line: 24pt
+  text: ~~~~~~~~~~~
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 600
+  line: 24pt
+  text: ~~~~~~
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

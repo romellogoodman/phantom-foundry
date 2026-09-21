@@ -1,0 +1,166 @@
+name: roundhead-atf1900
+title: Roundhead
+series: Roundhead
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 436
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      436:48pt: 43.5
+      436:36pt: 48.4
+      436:24pt: 44.8
+  x_height: 416
+lines:
+  436:48pt:
+    n_caps: 1
+    cap_height_px: 338
+    cap_source: caps
+    baseline_px: 973
+    baselines:
+      '2': 973
+    glyphs:
+    - P
+    - a
+    - r
+    - s
+    - i
+    - m
+    - o
+    - n
+    - i.48pt
+    - o.48pt
+    - u
+    - s.48pt
+    x_height_px: 201
+    stem_px: 46
+    scale: 2.07101
+    stem_units: 95.3
+    x_height: 416
+  436:36pt:
+    n_caps: 3
+    cap_height_px: 246
+    cap_source: caps
+    baseline_px: 1858
+    baselines:
+      '4': 1858
+      '5': 2146.5
+    glyphs:
+    - R
+    - e
+    - c
+    - o.36pt
+    - m.36pt
+    - m.36pt_2
+    - e.36pt
+    - n.36pt
+    - d
+    - a.36pt
+    - b
+    - l
+    - e.36pt_2
+    - C
+    - a.36pt_2
+    - l.36pt
+    - i.36pt
+    - s.36pt
+    - t
+    - h
+    - e.36pt_3
+    - n.36pt_2
+    - i.36pt_2
+    - c.36pt
+    - a.36pt_3
+    - l.36pt_2
+    - E
+    - n.36pt_3
+    - t.36pt
+    - e.36pt_4
+    - r.36pt
+    - t.36pt_2
+    - a.36pt_4
+    - i.36pt_3
+    - n.36pt_4
+    - m.36pt_3
+    - e.36pt_5
+    - n.36pt_5
+    - t.36pt_3
+    x_height_px: 147.0
+    stem_px: 34
+    scale: 2.84553
+    stem_units: 96.7
+    x_height: 418
+  436:24pt:
+    n_caps: 2
+    cap_height_px: 172.0
+    cap_source: caps
+    baseline_px: 2582.0
+    baselines:
+      '6': 2582.0
+    glyphs:
+    - C.24pt
+    - u.24pt
+    - r.24pt
+    - b.24pt
+    - s.24pt
+    - t.24pt
+    - o.24pt
+    - n.24pt
+    - e.24pt
+    - A
+    - m.24pt
+    - u.24pt_2
+    - s.24pt_2
+    - e.24pt_2
+    - m.24pt_2
+    - e.24pt_3
+    - n.24pt_2
+    - t.24pt_2
+    - s.24pt_3
+    x_height_px: 101
+    stem_px: 24.0
+    scale: 4.06977
+    stem_units: 97.7
+    x_height: 411
+specimen_lines:
+- leaf: 436
+  line: 48pt
+  text: Parsimonious
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 436
+  line: 36pt
+  text: Recommendable
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 436
+  line: 36pt
+  text: Calisthenical Entertainment
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 436
+  line: 24pt
+  text: Curbstone Amusements
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

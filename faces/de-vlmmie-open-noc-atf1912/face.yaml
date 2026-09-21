@@ -1,0 +1,101 @@
+name: de-vlmmie-open-noc-atf1912
+title: De Vlmmie Open Noc
+series: De Vlmmie Open Noc
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 624
+leaf_pages:
+  624: 602
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      624:48pt: 45.3
+      624:42pt: 50.5
+  x_height: 488
+lines:
+  624:48pt:
+    n_caps: 5
+    cap_height_px: 201
+    cap_source: caps
+    baseline_px: 1951
+    baselines:
+      '4': 1951
+    glyphs:
+    - Q
+    - u
+    - e
+    - s
+    - t
+    - i
+    - o
+    - n
+    - e.48pt
+    - d
+    - K
+    - I
+    - N
+    - G
+    x_height_px: 138
+    stem_px: 9
+    scale: 3.48259
+    stem_units: 31.3
+    x_height: 481
+  624:42pt:
+    n_caps: 8
+    cap_height_px: 166.5
+    cap_source: caps
+    baseline_px: 2340.0
+    baselines:
+      '5': 2340.0
+    glyphs:
+    - P
+    - U
+    - B
+    - L
+    - I.42pt
+    - S
+    - H
+    - M
+    - a
+    - g
+    - a.42pt
+    - z
+    - i.42pt
+    - n.42pt
+    - e.42pt
+    x_height_px: 118
+    stem_px: 7.0
+    scale: 4.2042
+    stem_units: 29.4
+    x_height: 496
+specimen_lines:
+- leaf: 624
+  line: 48pt
+  text: Questioned KING
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 624
+  line: 42pt
+  text: PUBLISH Magazine
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

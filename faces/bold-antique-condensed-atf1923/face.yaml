@@ -1,0 +1,90 @@
+name: bold-antique-condensed-atf1923
+title: Bold Antique Condensed
+series: Bold Antique Condensed
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 807
+leaf_pages:
+  807: 507
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      807:60pt: 8.8
+      807:42pt: 961.0
+  x_height: 687
+lines:
+  807:60pt:
+    n_caps: 6
+    cap_height_px: 239.5
+    cap_source: caps
+    baseline_px: 1011.0
+    baselines:
+      '2': 1011.0
+    glyphs:
+    - P
+    - r
+    - o
+    - d
+    - M
+    - R
+    - A
+    - I
+    - D
+    x_height_px: 235
+    stem_px: 40.5
+    scale: 2.92276
+    stem_units: 118.4
+    x_height: 687
+  807:42pt:
+    n_caps: 12
+    cap_height_px: 59.0
+    cap_source: caps
+    baseline_px: 2315.5
+    baselines:
+      '6': 2315.5
+    glyphs:
+    - O
+    - P.42pt
+    - Q
+    - R.42pt
+    - S
+    - T
+    - U
+    - D.42pt
+    - R.42pt_2
+    - E
+    - A.42pt
+    - M.42pt
+    stem_px: 16.0
+    scale: 11.86441
+    stem_units: 189.8
+specimen_lines:
+- leaf: 807
+  line: 60pt
+  text: Prod M RAID
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 807
+  line: 42pt
+  text: OPQRSTU DREAM
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,111 @@
+name: quaint-open-atf1896
+title: Quaint Open.
+series: Quaint Open.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 465
+leaf_pages:
+  465: 461
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      465:54pt: 39.7
+      465:48pt: 20.4
+      465:36pt: 41.6
+lines:
+  465:54pt:
+    n_caps: 4
+    cap_height_px: 387.5
+    cap_source: caps
+    baseline_px: 3529.0
+    baselines:
+      '5': 3529.0
+    glyphs:
+    - H
+    - H.54pt
+    - H.54pt_2
+    - H.54pt_3
+    stem_px: 6.5
+    scale: 1.80645
+    stem_units: 11.7
+  465:48pt:
+    n_caps: 6
+    cap_height_px: 378.0
+    cap_source: caps
+    baseline_px: 974.5
+    baselines:
+      '1': 974.5
+    glyphs:
+    - R
+    - E
+    - D
+    - two
+    - M
+    - A
+    - N
+    figure_height_px: 356
+    stem_px: 7.5
+    scale: 1.85185
+    stem_units: 13.9
+    figure_height: 659
+  465:36pt:
+    n_caps: 8
+    cap_height_px: 269.0
+    cap_source: caps
+    baseline_px: 1444.0
+    baselines:
+      '2': 1444.0
+    glyphs:
+    - H.36pt
+    - A.36pt
+    - N.36pt
+    - D.36pt
+    - five
+    - four
+    - B
+    - I
+    - T
+    - E.36pt
+    figure_height_px: 257.0
+    stem_px: 7.0
+    scale: 2.60223
+    stem_units: 18.2
+    figure_height: 669
+specimen_lines:
+- leaf: 465
+  line: 54pt
+  text: HHHH
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 465
+  line: 48pt
+  text: RED 2 MAN
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 465
+  line: 36pt
+  text: HAND 54 BITE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

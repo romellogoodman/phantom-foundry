@@ -1,0 +1,115 @@
+name: cloister-oldstyle-atf1923
+title: Cloister Oldstyle
+series: Cloister Oldstyle
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 368
+leaf_pages:
+  368: 66
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      368:42pt: 13.7
+      368:36pt: 28.6
+  x_height: 587
+lines:
+  368:42pt:
+    n_caps: 4
+    cap_height_px: 128.0
+    cap_source: caps
+    baseline_px: 1498.0
+    baselines:
+      '4': 1498.0
+    glyphs:
+    - R
+    - e
+    - d
+    - I
+    - N
+    - K
+    x_height_px: 109.0
+    stem_px: 13.5
+    scale: 5.46875
+    stem_units: 73.8
+    x_height: 596
+  368:36pt:
+    n_caps: 24
+    cap_height_px: 110.0
+    cap_source: caps
+    baseline_px: 1796
+    baselines:
+      '5': 1796
+      '6': 2068
+    glyphs:
+    - I.36pt
+    - M
+    - P
+    - O
+    - R.36pt
+    - T
+    - S
+    - A
+    - B
+    - C
+    - D
+    - E
+    - F
+    - G
+    - H
+    - E.36pt
+    - i
+    - g
+    - h
+    - t
+    - h.36pt
+    - B.36pt
+    - o
+    - a
+    - t.36pt
+    - P.36pt
+    - Q
+    - R.36pt_2
+    - R.36pt_3
+    - S.36pt
+    - T.36pt
+    - T.36pt_2
+    x_height_px: 91.0
+    stem_px: 6.5
+    scale: 6.36364
+    stem_units: 41.4
+    x_height: 579
+specimen_lines:
+- leaf: 368
+  line: 42pt
+  text: Red INK
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 368
+  line: 36pt
+  text: IMPORTS AB C D EFG H
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 368
+  line: 36pt
+  text: EighthBoat P Q R R S T T
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

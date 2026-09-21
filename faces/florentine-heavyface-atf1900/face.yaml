@@ -1,0 +1,151 @@
+name: florentine-heavyface-atf1900
+title: Florentine Heavyface
+series: Florentine Heavyface
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 400
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      400:36pt: 60.4
+      400:24pt: 75.4
+  x_height: 540
+lines:
+  400:36pt:
+    n_caps: 12
+    cap_height_px: 197.0
+    cap_source: caps
+    baseline_px: 1644.0
+    baselines:
+      '3': 1644.0
+      '4': 1925.5
+    glyphs:
+    - P
+    - O
+    - R
+    - T
+    - S
+    - M
+    - O.36pt
+    - U
+    - T.36pt
+    - H
+    - C
+    - r
+    - u
+    - i
+    - s
+    - e
+    - r.36pt
+    - eight
+    - three
+    - S.36pt
+    - t
+    - a
+    - t.36pt
+    - i.36pt
+    - o
+    - n
+    x_height_px: 152.5
+    figure_height_px: 187.0
+    stem_px: 36.0
+    scale: 3.5533
+    stem_units: 127.9
+    x_height: 542
+    figure_height: 664
+  400:24pt:
+    n_caps: 17
+    cap_height_px: 130
+    cap_source: caps
+    baseline_px: 2324
+    baselines:
+      '5': 2324
+      '6': 2541.5
+    glyphs:
+    - R.24pt
+    - E
+    - G
+    - U.24pt
+    - L
+    - A
+    - R.24pt_2
+    - S.24pt
+    - O.24pt
+    - L.24pt
+    - D
+    - I
+    - E.24pt
+    - R.24pt_3
+    - S.24pt_2
+    - G.24pt
+    - e.24pt
+    - n.24pt
+    - t.24pt
+    - l
+    - e.24pt_2
+    - m
+    - a.24pt
+    - n.24pt_2
+    - l.24pt
+    - y
+    - two
+    - five
+    - C.24pt
+    - h
+    - a.24pt_2
+    - r.24pt
+    - a.24pt_3
+    - c
+    - t.24pt_2
+    - e.24pt_3
+    - r.24pt_2
+    - s.24pt
+    x_height_px: 100
+    figure_height_px: 123.0
+    stem_px: 28
+    scale: 5.38462
+    stem_units: 150.8
+    x_height: 538
+    figure_height: 662
+specimen_lines:
+- leaf: 400
+  line: 36pt
+  text: PORTSMOUTH
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 400
+  line: 36pt
+  text: Cruiser 83 Station
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 400
+  line: 24pt
+  text: REGULAR SOLDIERS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 400
+  line: 24pt
+  text: Gentlemanly 25 Characters
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

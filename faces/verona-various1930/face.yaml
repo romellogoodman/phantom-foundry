@@ -1,0 +1,100 @@
+name: verona-various1930
+title: Verona
+series: Verona
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 70
+leaf_pages:
+  70: 58
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      70:60pt: 38.0
+      70:36pt: 36.0
+  x_height: 443
+lines:
+  70:60pt:
+    n_caps: 2
+    cap_height_px: 230.0
+    cap_source: caps
+    baseline_px: 1207.0
+    baselines:
+      '2': 1207.0
+    glyphs:
+    - B
+    - u
+    - l
+    - b
+    - a
+    - n
+    - d
+    - S
+    - e
+    - e.60pt
+    - d.60pt
+    x_height_px: 146
+    stem_px: 18.0
+    scale: 3.04348
+    stem_units: 54.8
+    x_height: 444
+  70:36pt:
+    n_caps: 3
+    cap_height_px: 136
+    cap_source: caps
+    baseline_px: 2309
+    baselines:
+      '5': 2309
+    glyphs:
+    - A
+    - u.36pt
+    - t
+    - u.36pt_2
+    - m
+    - n.36pt
+    - G
+    - l.36pt
+    - a.36pt
+    - d.36pt
+    - i
+    - o
+    - l.36pt_2
+    - i.36pt
+    - S.36pt
+    - h
+    - o.36pt
+    - w
+    x_height_px: 86
+    stem_px: 8
+    scale: 5.14706
+    stem_units: 41.2
+    x_height: 443
+specimen_lines:
+- leaf: 70
+  line: 60pt
+  text: Bulb and Seed
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 70
+  line: 36pt
+  text: Autumn Gladioli Show
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

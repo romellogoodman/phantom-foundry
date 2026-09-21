@@ -1,0 +1,73 @@
+name: rubkns-cleveland1895
+title: Rubkns
+series: Rubkns
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 203
+leaf_pages:
+  203: 199
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      203:48pt: 22.1
+  x_height: 710
+lines:
+  203:48pt:
+    n_caps: 9
+    cap_height_px: 269
+    cap_source: caps
+    baseline_px: 1757
+    baselines:
+      '4': 1757
+    glyphs:
+    - B
+    - U
+    - I
+    - L
+    - D
+    - I.48pt
+    - N
+    - G
+    - four
+    - five
+    - A
+    - u
+    - d
+    - i
+    - t
+    - o
+    - r
+    - i.48pt
+    - u.48pt
+    x_height_px: 273.0
+    figure_height_px: 290.5
+    stem_px: 29
+    scale: 2.60223
+    stem_units: 75.5
+    x_height: 710
+    figure_height: 756
+specimen_lines:
+- leaf: 203
+  line: 48pt
+  text: BUILDIN G4 5Auditoriu
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

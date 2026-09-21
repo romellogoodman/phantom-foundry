@@ -1,0 +1,131 @@
+name: breton-boston1889
+title: Breton
+series: Breton
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 138
+leaf_pages:
+  138: 132
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      138:48pt: 32.3
+      138:40pt: 47.9
+  x_height: 612
+lines:
+  138:48pt:
+    n_caps: 10
+    cap_height_px: 216.5
+    cap_source: caps
+    baseline_px: 965
+    baselines:
+      '2': 965
+      '3': 1263
+    glyphs:
+    - H
+    - O
+    - S
+    - E
+    - R
+    - I
+    - N
+    - G
+    - S.48pt
+    - B
+    - i
+    - n
+    - d
+    - i.48pt
+    - n.48pt
+    - g
+    - three
+    x_height_px: 214.0
+    figure_height_px: 218
+    stem_px: 51.5
+    scale: 3.23326
+    stem_units: 166.5
+    x_height: 692
+    figure_height: 705
+  138:40pt:
+    n_caps: 14
+    cap_height_px: 146.0
+    cap_source: caps
+    baseline_px: 1611.5
+    baselines:
+      '4': 1611.5
+      '5': 1839.5
+    glyphs:
+    - S.40pt
+    - I.40pt
+    - N.40pt
+    - G.40pt
+    - S.40pt_2
+    - O.40pt
+    - M
+    - E.40pt
+    - M.40pt
+    - O.40pt_2
+    - R.40pt
+    - E.40pt_2
+    - H.40pt
+    - i.40pt
+    - r
+    - e
+    - d.40pt
+    - two
+    - six
+    - H.40pt_2
+    - o
+    - r.40pt
+    - s
+    - e.40pt
+    - s.40pt
+    x_height_px: 111
+    figure_height_px: 147.0
+    stem_px: 30.5
+    scale: 4.79452
+    stem_units: 146.2
+    x_height: 532
+    figure_height: 705
+specimen_lines:
+- leaf: 138
+  line: 48pt
+  text: HOSE RINGS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 138
+  line: 48pt
+  text: Binding 3
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 138
+  line: 40pt
+  text: SING SOME MORE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 138
+  line: 40pt
+  text: Hired 26 Horses
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,176 @@
+name: quaint-gothic-atf1902a
+title: Quaint Gothic
+series: Quaint Gothic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 414
+leaf_pages:
+  414: 7
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      414:48pt: 73.8
+      414:36pt: 75.9
+      414:30pt: 111.7
+      414:20pt: 144.1
+lines:
+  414:48pt:
+    n_caps: 21
+    cap_height_px: 280
+    cap_source: caps
+    baseline_px: 972
+    baselines:
+      '1': 972
+      '4': 2723.5
+    glyphs:
+    - H
+    - O
+    - R
+    - S
+    - E
+    - S.48pt
+    - A
+    - L
+    - E.48pt
+    - K
+    - I
+    - N
+    - E.48pt_2
+    - T
+    - O.48pt
+    - S.48pt_2
+    - C
+    - O.48pt_2
+    - P
+    - E.48pt_3
+    - S.48pt_3
+    stem_px: 32
+    scale: 2.5
+    stem_units: 80.0
+  414:36pt:
+    n_caps: 12
+    cap_height_px: 207.5
+    cap_source: caps
+    baseline_px: 1396.5
+    baselines:
+      '2': 1396.5
+    glyphs:
+    - A.36pt
+    - U
+    - T.36pt
+    - U.36pt
+    - M
+    - N.36pt
+    - C.36pt
+    - R.36pt
+    - U.36pt_2
+    - I.36pt
+    - S.36pt
+    - E.36pt
+    stem_px: 23.5
+    scale: 3.37349
+    stem_units: 79.3
+  414:30pt:
+    n_caps: 14
+    cap_height_px: 175.5
+    cap_source: caps
+    baseline_px: 3140.0
+    baselines:
+      '5': 3140.0
+    glyphs:
+    - H.30pt
+    - O.30pt
+    - M.30pt
+    - E.30pt
+    - R.30pt
+    - S.30pt
+    - F
+    - O.30pt_2
+    - R.30pt_2
+    - E.30pt_2
+    - S.30pt_2
+    - T.30pt
+    - E.30pt_3
+    - R.30pt_3
+    stem_px: 23.5
+    scale: 3.9886
+    stem_units: 93.7
+  414:20pt:
+    n_caps: 21
+    cap_height_px: 102
+    cap_source: caps
+    baseline_px: 3457
+    baselines:
+      '6': 3457
+    glyphs:
+    - B
+    - R.20pt
+    - I.20pt
+    - C.20pt
+    - K.20pt
+    - W
+    - O.20pt
+    - R.20pt_2
+    - K.20pt_2
+    - G
+    - R.20pt_3
+    - A.20pt
+    - N.20pt
+    - D
+    - W.20pt
+    - R.20pt_4
+    - I.20pt_2
+    - N.20pt_2
+    - K.20pt_3
+    - L.20pt
+    - E.20pt
+    stem_px: 15
+    scale: 6.86275
+    stem_units: 102.9
+specimen_lines:
+- leaf: 414
+  line: 48pt
+  text: HORSE SALE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 414
+  line: 48pt
+  text: KINETOSCOPES
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 414
+  line: 36pt
+  text: AUTUMN CRUISE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 414
+  line: 30pt
+  text: HOMERS FORESTER
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 414
+  line: 20pt
+  text: BRICK WORK GRAND WRINKLE
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

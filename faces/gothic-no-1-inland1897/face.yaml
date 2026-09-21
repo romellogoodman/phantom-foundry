@@ -1,0 +1,118 @@
+name: gothic-no-1-inland1897
+title: Gothic No. 1
+series: Gothic No.
+status: proto
+version: 0.1.0
+book: specimenbookcata00inlauoft
+source:
+  archive_id: specimenbookcata00inlauoft
+  title: Specimen book and catalog; a price list of printers' supplies, showing types
+    and rules in which are embodied all the latest ideas that enable the printer to
+    produce superior work ..
+  creator: Inland Type Foundry, St. Louis
+  publisher: St. Louis, Inland Type Foundry
+  date: '1897'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inlauoft
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: Robarts - University of Toronto
+  leaves:
+  - 92
+leaf_pages:
+  92: 90
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      92:30pt: 107.2
+      92:24pt: 128.6
+  x_height: 534
+lines:
+  92:30pt:
+    n_caps: 11
+    cap_height_px: 160
+    cap_source: caps
+    baseline_px: 2195
+    baselines:
+      '6': 2195
+      '7': 2426.0
+    glyphs:
+    - C
+    - O
+    - M
+    - P
+    - O.30pt
+    - S
+    - I
+    - N
+    - G
+    - S.30pt
+    - t
+    - a
+    - n
+    - d
+    - a.30pt
+    - r
+    - d.30pt
+    - L
+    - i
+    - n.30pt
+    - i.30pt
+    - n.30pt_2
+    - g
+    - three
+    x_height_px: 122.0
+    figure_height_px: 153
+    stem_px: 31
+    scale: 4.375
+    stem_units: 135.6
+    x_height: 534
+    figure_height: 669
+  92:24pt:
+    n_caps: 12
+    cap_height_px: 117.0
+    cap_source: caps
+    baseline_px: 2769.0
+    baselines:
+      '8': 2769.0
+    glyphs:
+    - P.24pt
+    - R
+    - I.24pt
+    - N.24pt
+    - T
+    - E
+    - R.24pt
+    - F
+    - I.24pt_2
+    - N.24pt_2
+    - D
+    - S.24pt
+    stem_px: 23.0
+    scale: 5.98291
+    stem_units: 137.6
+specimen_lines:
+- leaf: 92
+  line: 30pt
+  text: COMPOSING
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 92
+  line: 30pt
+  text: Standard Lining 3
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 92
+  line: 24pt
+  text: PRINTER FINDS
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Gothic No.
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

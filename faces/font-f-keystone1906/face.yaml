@@ -1,0 +1,196 @@
+name: font-f-keystone1906
+title: Font F
+series: Font F
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 159
+  - 187
+  - 223
+  - 285
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      223:84pt: 28.8
+      285:36pt: 42.7
+      187:30pt: 78.9
+      187:24pt: 92.6
+      285:24pt: 65.3
+  x_height: 474
+lines:
+  223:84pt:
+    n_caps: 1
+    cap_height_px: 462
+    cap_source: caps
+    baseline_px: 3509
+    baselines:
+      '5': 3509
+    glyphs:
+    - B
+    - o
+    - l
+    - t
+    - e
+    - d
+    x_height_px: 444
+    stem_px: 73
+    scale: 1.51515
+    stem_units: 110.6
+    x_height: 673
+  285:36pt:
+    n_caps: 11
+    cap_height_px: 164
+    cap_source: caps
+    baseline_px: 3251
+    baselines:
+      '4': 3251
+      '5': 3542.0
+    glyphs:
+    - A
+    - N
+    - T
+    - E
+    - L
+    - O
+    - P
+    - E.36pt
+    - S
+    - F
+    - l.36pt
+    - e.36pt
+    - e.36pt_2
+    - i
+    - n
+    - g
+    - i.36pt
+    - n.36pt
+    - H
+    - a
+    - s
+    - t.36pt
+    - e.36pt_3
+    x_height_px: 108.5
+    stem_px: 14
+    scale: 4.26829
+    stem_units: 59.8
+    x_height: 463
+  187:30pt:
+    n_caps: 3
+    cap_height_px: 204
+    cap_source: caps
+    baseline_px: 2789
+    baselines:
+      '7': 2789
+    glyphs:
+    - F.30pt
+    - o.30pt
+    - u
+    - r
+    - N.30pt
+    - o.30pt_2
+    - b
+    - l.30pt
+    - e.30pt
+    - M
+    - e.30pt_2
+    - n.30pt
+    x_height_px: 138
+    stem_px: 14
+    scale: 3.43137
+    stem_units: 48.0
+    x_height: 474
+  187:24pt:
+    n_caps: 10
+    cap_height_px: 162.5
+    cap_source: caps
+    baseline_px: 1675.0
+    baselines:
+      '3': 1675.0
+    glyphs:
+    - F.24pt
+    - I
+    - N.24pt
+    - E.24pt
+    - S.24pt
+    - T.24pt
+    - T.24pt_2
+    - Y
+    - P.24pt
+    - E.24pt_2
+    stem_px: 12.0
+    scale: 4.30769
+    stem_units: 51.7
+  285:24pt:
+    n_caps: 11
+    cap_height_px: 118
+    cap_source: caps
+    baseline_px: 2615
+    baselines:
+      '2': 2615
+    glyphs:
+    - B.24pt
+    - U
+    - F.24pt_2
+    - F.24pt_3
+    - A.24pt
+    - L.24pt
+    - O.24pt
+    - H.24pt
+    - E.24pt_3
+    - R
+    - D
+    stem_px: 10
+    scale: 5.9322
+    stem_units: 59.3
+specimen_lines:
+- leaf: 223
+  line: 84pt
+  text: Bolted
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 285
+  line: 36pt
+  text: ANTELOPES
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 285
+  line: 36pt
+  text: Fleeing in Haste
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 187
+  line: 30pt
+  text: Four Noble Men
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 187
+  line: 24pt
+  text: FINEST TYPE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 285
+  line: 24pt
+  text: BUFFALO HERD
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

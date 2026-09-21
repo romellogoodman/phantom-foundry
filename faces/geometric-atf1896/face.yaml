@@ -1,0 +1,63 @@
+name: geometric-atf1896
+title: Geometric.
+series: Geometric.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 369
+leaf_pages:
+  369: 365
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      369:24pt: 79.4
+lines:
+  369:24pt:
+    n_caps: 11
+    cap_height_px: 141
+    cap_source: caps
+    baseline_px: 758
+    baselines:
+      '1': 758
+    glyphs:
+    - G
+    - E
+    - O
+    - M
+    - E.24pt
+    - T
+    - R
+    - I
+    - C
+    - A
+    - L
+    stem_px: 7
+    scale: 4.96454
+    stem_units: 34.8
+specimen_lines:
+- leaf: 369
+  line: 24pt
+  text: GE OMETRICAL
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

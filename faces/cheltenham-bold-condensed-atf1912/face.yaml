@@ -1,0 +1,141 @@
+name: cheltenham-bold-condensed-atf1912
+title: Cheltenham Bold Condensed
+series: Cheltenham Bold Condensed
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 200
+leaf_pages:
+  200: 186
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      200:72pt: 16.0
+      200:66pt: 15.2
+  x_height: 418
+lines:
+  200:72pt:
+    n_caps: 27
+    cap_height_px: 306
+    cap_source: caps
+    baseline_px: 575.0
+    baselines:
+      '1': 575.0
+      '2': 963.5
+      '3': 1546
+    glyphs:
+    - E
+    - X
+    - T
+    - I
+    - N
+    - G
+    - U
+    - I.72pt
+    - S
+    - H
+    - E.72pt
+    - R
+    - H.72pt
+    - o
+    - m
+    - e
+    - P
+    - r
+    - o.72pt
+    - t
+    - e.72pt
+    - c
+    - t.72pt
+    - i
+    - o.72pt_2
+    - n
+    - M
+    - O
+    - D
+    - E.72pt_2
+    - R.72pt
+    - N.72pt
+    - D.72pt
+    - E.72pt_3
+    - S.72pt
+    - I.72pt_2
+    - G.72pt
+    - N.72pt_2
+    - S.72pt_2
+    x_height_px: 183.0
+    stem_px: 37
+    scale: 2.28758
+    stem_units: 84.6
+    x_height: 419
+  200:66pt:
+    n_caps: 2
+    cap_height_px: 253.5
+    cap_source: caps
+    baseline_px: 1875.5
+    baselines:
+      '4': 1875.5
+    glyphs:
+    - P.66pt
+    - r.66pt
+    - a
+    - c.66pt
+    - t.66pt
+    - i.66pt
+    - c.66pt_2
+    - a.66pt
+    - l
+    - E.66pt
+    - q
+    - u
+    - i.66pt_2
+    - p
+    - m.66pt
+    - e.66pt
+    - n.66pt
+    - t.66pt_2
+    x_height_px: 151.0
+    stem_px: 32.5
+    scale: 2.76134
+    stem_units: 89.7
+    x_height: 417
+specimen_lines:
+- leaf: 200
+  line: 72pt
+  text: EXTINGUISHER
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 200
+  line: 72pt
+  text: Home Protection
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 200
+  line: 72pt
+  text: MODERN DESIGNS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 200
+  line: 66pt
+  text: Practical Equipment
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

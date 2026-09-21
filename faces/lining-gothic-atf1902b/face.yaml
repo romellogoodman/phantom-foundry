@@ -1,0 +1,203 @@
+name: lining-gothic-atf1902b
+title: Lining Gothic
+series: Lining Gothic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp02amer
+source:
+  archive_id: deskbookoftypesp02amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    2, 11-22)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp02amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 43
+  - 44
+  - 47
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      43:30pt: 80.1
+      44:30pt: 104.5
+      43:24pt: 96.9
+      44:24pt: 107.5
+      47:24pt: 92.0
+  x_height: 474
+lines:
+  43:30pt:
+    n_caps: 6
+    cap_height_px: 201.0
+    cap_source: caps
+    baseline_px: 1348.5
+    baselines:
+      '2': 1348.5
+    glyphs:
+    - H
+    - e
+    - a
+    - d
+    - m
+    - o
+    - s
+    - t
+    - B
+    - E
+    - A
+    - U
+    - S
+    x_height_px: 136
+    stem_px: 13.0
+    scale: 3.48259
+    stem_units: 45.3
+    x_height: 474
+  44:30pt:
+    n_caps: 7
+    cap_height_px: 201
+    cap_source: caps
+    baseline_px: 1318
+    baselines:
+      '2': 1318
+    glyphs:
+    - M
+    - o.30pt
+    - u
+    - n
+    - t.30pt
+    - e.30pt
+    - d.30pt
+    - S.30pt
+    - H.30pt
+    - E.30pt
+    - I
+    - K
+    - S.30pt_2
+    x_height_px: 136.0
+    stem_px: 21
+    scale: 3.48259
+    stem_units: 73.1
+    x_height: 474
+  43:24pt:
+    n_caps: 7
+    cap_height_px: 159
+    cap_source: caps
+    baseline_px: 1774
+    baselines:
+      '3': 1774
+    glyphs:
+    - M.24pt
+    - O
+    - D
+    - E.24pt
+    - R
+    - N
+    - H.24pt
+    - o.24pt
+    - m.24pt
+    - e.24pt
+    - s.24pt
+    - t.24pt
+    - e.24pt_2
+    - a.24pt
+    - d.24pt
+    x_height_px: 107.5
+    stem_px: 9
+    scale: 4.40252
+    stem_units: 39.6
+    x_height: 473
+  44:24pt:
+    n_caps: 8
+    cap_height_px: 159.5
+    cap_source: caps
+    baseline_px: 1755.0
+    baselines:
+      '3': 1755.0
+    glyphs:
+    - T
+    - R.24pt
+    - A.24pt
+    - I.24pt
+    - N.24pt
+    - E.24pt_2
+    - D.24pt
+    - E.24pt_3
+    - l
+    - e.24pt_3
+    - p
+    - h
+    - a.24pt_2
+    - n.24pt
+    - t.24pt_2
+    - s.24pt_2
+    x_height_px: 123.0
+    stem_px: 17.0
+    scale: 4.38871
+    stem_units: 74.6
+    x_height: 540
+  47:24pt:
+    n_caps: 7
+    cap_height_px: 156
+    cap_source: caps
+    baseline_px: 1712
+    baselines:
+      '3': 1712
+    glyphs:
+    - H.24pt_2
+    - E.24pt_4
+    - R.24pt_2
+    - O.24pt
+    - I.24pt_2
+    - C
+    - A.24pt_2
+    - d.24pt_2
+    - v
+    - e.24pt_4
+    - n.24pt_2
+    - t.24pt_3
+    - u.24pt
+    - r
+    - e.24pt_5
+    x_height_px: 104.5
+    stem_px: 30
+    scale: 4.48718
+    stem_units: 134.6
+    x_height: 469
+specimen_lines:
+- leaf: 43
+  line: 30pt
+  text: Headmost BEAUS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 44
+  line: 30pt
+  text: Mounted SHEIKS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 43
+  line: 24pt
+  text: MODERN Homestead
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 44
+  line: 24pt
+  text: TRAINED Elephants
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 47
+  line: 24pt
+  text: H EROIC Adventure
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

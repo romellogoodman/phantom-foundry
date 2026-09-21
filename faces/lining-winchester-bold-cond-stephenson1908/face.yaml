@@ -1,0 +1,112 @@
+name: lining-winchester-bold-cond-stephenson1908
+title: Lining Winchester Bold Cond.
+series: Lining Winchester Bold Cond.
+status: proto
+version: 0.1.0
+book: specimensofpoint00step
+source:
+  archive_id: specimensofpoint00step
+  title: 'Specimens of point line type : borders ornaments brass rules &c. &c'
+  creator:
+  - Stephenson, Blake and Company, Ltd
+  - Sir Charles Reed & Sons
+  publisher: 'Toronto : Stephenson, Blake & Co.'
+  date: '1908'
+  ppi: 350
+  url: https://archive.org/details/specimensofpoint00step
+  copyright_status: null
+  contributor: Fisher - University of Toronto
+  leaves:
+  - 264
+leaf_pages:
+  264: 352
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      264:72pt: 27.1
+      264:48pt: 53.3
+lines:
+  264:72pt:
+    n_caps: 0
+    cap_height_px: 284
+    cap_source: ascenders
+    baseline_px: 875
+    baselines:
+      '1': 875
+      '2': 1277
+    glyphs:
+    - six
+    - eight
+    - nine
+    - zero
+    - eight.72pt
+    - nine.72pt
+    - zero.72pt
+    - six.72pt
+    - eight.72pt_2
+    - nine.72pt_2
+    - zero.72pt_2
+    - five
+    - six.72pt_2
+    - eight.72pt_3
+    - zero.72pt_3
+    - six.72pt_3
+    - eight.72pt_4
+    - zero.72pt_4
+    - five.72pt
+    - six.72pt_4
+    - eight.72pt_5
+    - zero.72pt_5
+    figure_height_px: 258.5
+    scale: 2.46479
+    figure_height: 637
+  264:48pt:
+    n_caps: 0
+    cap_height_px: 184
+    cap_source: ascenders
+    baseline_px: 1618.5
+    baselines:
+      '3': 1618.5
+    glyphs:
+    - three
+    - four
+    - five.48pt
+    - seven
+    - eight.48pt
+    - zero.48pt
+    - seven.48pt
+    - eight.48pt_2
+    - nine.48pt
+    - zero.48pt_2
+    - three.48pt
+    - four.48pt
+    - five.48pt_2
+    - seven.48pt_2
+    - eight.48pt_3
+    - zero.48pt_3
+    figure_height_px: 182.5
+    scale: 3.80435
+    figure_height: 694
+specimen_lines:
+- leaf: 264
+  line: 72pt
+  text: 6890 890 6890
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 264
+  line: 72pt
+  text: 5680 680 5680
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 264
+  line: 48pt
+  text: 345780 7890 345780
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

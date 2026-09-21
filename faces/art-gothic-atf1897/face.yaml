@@ -1,0 +1,103 @@
+name: art-gothic-atf1897
+title: Art Gothic
+series: Hrt Gothie
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 444
+leaf_pages:
+  444: 442
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      444:72pt: 46.5
+      444:30pt: 50.5
+  x_height: 424
+lines:
+  444:72pt:
+    n_caps: 2
+    cap_height_px: 512.0
+    cap_source: caps
+    baseline_px: 1318.0
+    baselines:
+      '1': 1318.0
+    glyphs:
+    - F
+    - i
+    - n
+    - e
+    - r
+    - S
+    - a
+    - s
+    - h
+    x_height_px: 260
+    stem_px: 33.0
+    scale: 1.36719
+    stem_units: 45.1
+    x_height: 355
+  444:30pt:
+    n_caps: 4
+    cap_height_px: 194.0
+    cap_source: caps
+    baseline_px: 3365.0
+    baselines:
+      '5': 3365.0
+    glyphs:
+    - A
+    - R
+    - o
+    - s.30pt
+    - e.30pt
+    - b
+    - y
+    - a.30pt
+    - n.30pt
+    - y.30pt
+    - O
+    - t
+    - h.30pt
+    - e.30pt_2
+    - r.30pt
+    - N
+    - a.30pt_2
+    - m
+    - e.30pt_3
+    x_height_px: 137
+    stem_px: 14.0
+    scale: 3.60825
+    stem_units: 50.5
+    x_height: 494
+specimen_lines:
+- leaf: 444
+  line: 72pt
+  text: Finer Sash
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 444
+  line: 30pt
+  text: A Rose by any Other Name
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Hrt Gothie
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

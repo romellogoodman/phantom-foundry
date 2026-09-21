@@ -1,0 +1,89 @@
+name: childs-atf1902a
+title: Childs
+series: Childs
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 412
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      412:60pt: 47.0
+      412:24pt: 66.5
+  x_height: 468
+lines:
+  412:60pt:
+    n_caps: 4
+    cap_height_px: 328.0
+    cap_source: caps
+    baseline_px: 1050.5
+    baselines:
+      '1': 1050.5
+    glyphs:
+    - O
+    - U
+    - R
+    - G
+    - u
+    - a
+    - r
+    - d
+    x_height_px: 219.5
+    stem_px: 25.0
+    scale: 2.13415
+    stem_units: 53.4
+    x_height: 468
+  412:24pt:
+    n_caps: 11
+    cap_height_px: 158
+    cap_source: caps
+    baseline_px: 2667
+    baselines:
+      '4': 2667
+    glyphs:
+    - S
+    - T
+    - O.24pt
+    - U.24pt
+    - T.24pt
+    - D
+    - A
+    - R.24pt
+    - I
+    - N
+    - G.24pt
+    stem_px: 16
+    scale: 4.43038
+    stem_units: 70.9
+specimen_lines:
+- leaf: 412
+  line: 60pt
+  text: OUR Guard
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 412
+  line: 24pt
+  text: STOUT DARING
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

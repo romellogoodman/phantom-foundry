@@ -1,0 +1,272 @@
+name: strathmore-oldstyle-atf1912
+title: Strathmore Oldstyle
+series: Strathmore Oldstyle
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 636
+leaf_pages:
+  636: 614
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      636:72pt: 25.0
+      636:60pt: 24.5
+      636:54pt: 28.8
+      636:48pt: 31.0
+      636:42pt: 36.0
+  x_height: 432
+lines:
+  636:72pt:
+    n_caps: 6
+    cap_height_px: 308.0
+    cap_source: caps
+    baseline_px: 622.0
+    baselines:
+      '1': 622.0
+    glyphs:
+    - P
+    - R
+    - I
+    - N
+    - T
+    - S
+    - h
+    - o
+    - p
+    x_height_px: 264
+    stem_px: 39.5
+    scale: 2.27273
+    stem_units: 89.8
+    x_height: 600
+  636:60pt:
+    n_caps: 12
+    cap_height_px: 257.0
+    cap_source: caps
+    baseline_px: 1142.5
+    baselines:
+      '2': 1142.5
+      '3': 1478.5
+    glyphs:
+    - E
+    - X
+    - T.60pt
+    - I.60pt
+    - N.60pt
+    - G
+    - U
+    - I.60pt_2
+    - S.60pt
+    - H
+    - N.60pt_2
+    - i
+    - n
+    - e
+    - t
+    - y
+    - B
+    - u
+    - r
+    - g
+    - l
+    - a
+    - r.60pt
+    x_height_px: 160
+    stem_px: 25.0
+    scale: 2.72374
+    stem_units: 68.1
+    x_height: 436
+  636:54pt:
+    n_caps: 12
+    cap_height_px: 231.0
+    cap_source: caps
+    baseline_px: 1976.5
+    baselines:
+      '4': 1976.5
+      '5': 2276.5
+    glyphs:
+    - R.54pt
+    - E.54pt
+    - B.54pt
+    - O
+    - U.54pt
+    - N.54pt
+    - D
+    - I.54pt
+    - N.54pt_2
+    - G.54pt
+    - C
+    - o.54pt
+    - n.54pt
+    - t.54pt
+    - r.54pt
+    - a.54pt
+    - r.54pt_2
+    - y.54pt
+    - P.54pt
+    - i.54pt
+    - l.54pt
+    - g.54pt
+    - r.54pt_3
+    - i.54pt_2
+    - m
+    - s
+    x_height_px: 141.5
+    stem_px: 29.5
+    scale: 3.0303
+    stem_units: 89.4
+    x_height: 429
+  636:48pt:
+    n_caps: 13
+    cap_height_px: 203
+    cap_source: caps
+    baseline_px: 2732
+    baselines:
+      '6': 2732
+      '7': 3001.0
+    glyphs:
+    - E.48pt
+    - N.48pt
+    - C.48pt
+    - O.48pt
+    - U.48pt
+    - R.48pt
+    - A
+    - G.48pt
+    - I.48pt
+    - N.48pt_2
+    - G.48pt_2
+    - M
+    - e.48pt
+    - a.48pt
+    - s.48pt
+    - u.48pt
+    - r.48pt
+    - e.48pt_2
+    - E.48pt_2
+    - l.48pt
+    - e.48pt_3
+    - c
+    - t.48pt
+    - r.48pt_2
+    - i.48pt
+    - c.48pt
+    - i.48pt_2
+    - t.48pt_2
+    - y.48pt
+    x_height_px: 123.0
+    stem_px: 10
+    scale: 3.44828
+    stem_units: 34.5
+    x_height: 424
+  636:42pt:
+    n_caps: 15
+    cap_height_px: 175
+    cap_source: caps
+    baseline_px: 3432
+    baselines:
+      '8': 3432
+      '9': 3667.5
+    glyphs:
+    - M.42pt
+    - A.42pt
+    - C.42pt
+    - H.42pt
+    - I.42pt
+    - N.42pt
+    - E.42pt
+    - R.42pt
+    - U.42pt
+    - I.42pt_2
+    - N.42pt_2
+    - E.42pt_2
+    - D.42pt
+    - D.42pt_2
+    - i.42pt
+    - s.42pt
+    - t.42pt
+    - u.42pt
+    - r.42pt
+    - b
+    - e.42pt
+    - d
+    - C.42pt_2
+    - o.42pt
+    - m.42pt
+    - p.42pt
+    - o.42pt_2
+    - s.42pt_2
+    - i.42pt_2
+    - t.42pt_2
+    - o.42pt_3
+    - r.42pt_2
+    x_height_px: 108
+    stem_px: 11
+    scale: 4.0
+    stem_units: 44.0
+    x_height: 432
+specimen_lines:
+- leaf: 636
+  line: 72pt
+  text: PRINT Shop
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 636
+  line: 60pt
+  text: EXTINGUISH
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 636
+  line: 60pt
+  text: Ninety Burglar
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 636
+  line: 54pt
+  text: REBOUNDING
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 636
+  line: 54pt
+  text: ContraryPilgrims
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 636
+  line: 48pt
+  text: ENCOURAGING
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 636
+  line: 48pt
+  text: Measure Electricity
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 636
+  line: 42pt
+  text: MACHINE RUINED
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 636
+  line: 42pt
+  text: Disturbed Compositor
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

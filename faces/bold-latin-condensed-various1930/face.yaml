@@ -1,0 +1,96 @@
+name: bold-latin-condensed-various1930
+title: Bold Latin Condensed
+series: Bold Latin Condensed
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 183
+leaf_pages:
+  183: 171
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      183:60pt: 30.0
+      183:48pt: 34.6
+  x_height: 508
+lines:
+  183:60pt:
+    n_caps: 2
+    cap_height_px: 280.0
+    cap_source: caps
+    baseline_px: 775.5
+    baselines:
+      '1': 775.5
+    glyphs:
+    - S
+    - t
+    - a
+    - t.60pt
+    - e
+    - s
+    - L
+    - i
+    - n
+    - e.60pt
+    x_height_px: 203.5
+    stem_px: 29.5
+    scale: 2.5
+    stem_units: 73.8
+    x_height: 509
+  183:48pt:
+    n_caps: 3
+    cap_height_px: 172
+    cap_source: caps
+    baseline_px: 1136
+    baselines:
+      '2': 1136
+    glyphs:
+    - F
+    - a.48pt
+    - s.48pt
+    - t.48pt
+    - O
+    - c
+    - e.48pt
+    - a.48pt_2
+    - n.48pt
+    - L.48pt
+    - i.48pt
+    - n.48pt_2
+    - e.48pt_2
+    - r
+    - s.48pt_2
+    x_height_px: 124.5
+    stem_px: 27
+    scale: 4.06977
+    stem_units: 109.9
+    x_height: 507
+specimen_lines:
+- leaf: 183
+  line: 60pt
+  text: States Line
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 183
+  line: 48pt
+  text: Fast Ocean Liners
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

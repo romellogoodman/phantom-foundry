@@ -1,0 +1,95 @@
+name: skjald-atf1896
+title: Skjald.
+series: Skjald.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 486
+leaf_pages:
+  486: 482
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      486:60pt: 31.0
+      486:36pt: 40.1
+  x_height: 521
+lines:
+  486:60pt:
+    n_caps: 1
+    cap_height_px: 406
+    cap_source: caps
+    baseline_px: 1131
+    baselines:
+      '1': 1131
+    glyphs:
+    - P
+    - o
+    - s
+    - t
+    - e
+    - d
+    - six
+    x_height_px: 328
+    figure_height_px: 409
+    stem_px: 42
+    scale: 1.72414
+    stem_units: 72.4
+    x_height: 566
+    figure_height: 705
+  486:36pt:
+    n_caps: 2
+    cap_height_px: 262.0
+    cap_source: caps
+    baseline_px: 3549.5
+    baselines:
+      '5': 3549.5
+    glyphs:
+    - G
+    - r
+    - e.36pt
+    - a
+    - t.36pt
+    - four
+    - F
+    - o.36pt
+    - r.36pt
+    - m
+    x_height_px: 178
+    figure_height_px: 239
+    stem_px: 16.5
+    scale: 2.67176
+    stem_units: 44.1
+    x_height: 476
+    figure_height: 639
+specimen_lines:
+- leaf: 486
+  line: 60pt
+  text: Posted 6
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 486
+  line: 36pt
+  text: Great 4 Form
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,110 @@
+name: moslem-atf1898
+title: Moslem
+series: Moslem
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 457
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      457:40pt: 39.3
+      457:28pt: 54.6
+lines:
+  457:40pt:
+    n_caps: 19
+    cap_height_px: 214
+    cap_source: caps
+    baseline_px: 2143
+    baselines:
+      '5': 2143
+    glyphs:
+    - T
+    - H
+    - O
+    - R
+    - O.40pt
+    - U
+    - G
+    - H.40pt
+    - L
+    - Y
+    - S
+    - U.40pt
+    - B
+    - J
+    - U.40pt_2
+    - G.40pt
+    - A
+    - T.40pt
+    - E
+    stem_px: 12
+    scale: 3.27103
+    stem_units: 39.3
+  457:28pt:
+    n_caps: 24
+    cap_height_px: 141.0
+    cap_source: caps
+    baseline_px: 2820.0
+    baselines:
+      '7': 2820.0
+    glyphs:
+    - T.28pt
+    - R.28pt
+    - A.28pt
+    - N
+    - S.28pt
+    - P
+    - O.28pt
+    - R.28pt_2
+    - T.28pt_2
+    - S.28pt_2
+    - W
+    - E.28pt
+    - S.28pt_3
+    - T.28pt_3
+    - E.28pt_2
+    - R.28pt_3
+    - N.28pt
+    - P.28pt
+    - R.28pt_4
+    - O.28pt_2
+    - D
+    - U.28pt
+    - C
+    - E.28pt_3
+    stem_px: 8.0
+    scale: 4.96454
+    stem_units: 39.7
+specimen_lines:
+- leaf: 457
+  line: 40pt
+  text: THOROUGHLY SUBJUGATE
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 457
+  line: 28pt
+  text: TRANSPORTS WESTERN PRODUCE
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

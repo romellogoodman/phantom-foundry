@@ -1,0 +1,102 @@
+name: nubian-boston1889
+title: Nubian
+series: Nubian
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 218
+leaf_pages:
+  218: 212
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      218:48pt: 38.0
+      218:36pt: 52.3
+  x_height: 493
+lines:
+  218:48pt:
+    n_caps: 2
+    cap_height_px: 166.0
+    cap_source: caps
+    baseline_px: 1193.0
+    baselines:
+      '3': 1193.0
+    glyphs:
+    - S
+    - t
+    - e
+    - a
+    - m
+    - e.48pt
+    - d
+    - F
+    - i
+    - s
+    - h
+    - e.48pt_2
+    - s.48pt
+    x_height_px: 117
+    stem_px: 14.0
+    scale: 4.21687
+    stem_units: 59.0
+    x_height: 493
+  218:36pt:
+    n_caps: 18
+    cap_height_px: 87.0
+    cap_source: caps
+    baseline_px: 1507.0
+    baselines:
+      '4': 1507.0
+    glyphs:
+    - N
+    - I
+    - N.36pt
+    - E
+    - M
+    - E.36pt
+    - N.36pt_2
+    - L
+    - I.36pt
+    - G
+    - H
+    - T
+    - S.36pt
+    - H.36pt
+    - I.36pt_2
+    - N.36pt_3
+    - E.36pt_2
+    - S.36pt_2
+    stem_px: 7.0
+    scale: 8.04598
+    stem_units: 56.3
+specimen_lines:
+- leaf: 218
+  line: 48pt
+  text: Steamed Fishes
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 218
+  line: 36pt
+  text: NINE MEN LIGHT SHINES
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

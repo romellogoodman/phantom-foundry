@@ -1,0 +1,106 @@
+name: light-copperplate-gothic-atf1912
+title: Light Copperplate Gothic
+series: Light Copperplate Gothic
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 696
+leaf_pages:
+  696: 674
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      696:30pt: 24.5
+      696:24pt: 133.5
+lines:
+  696:30pt:
+    n_caps: 23
+    cap_height_px: 143
+    cap_source: caps
+    baseline_px: 2945
+    baselines:
+      '3': 2945
+    glyphs:
+    - M
+    - E
+    - R
+    - I
+    - T
+    - O
+    - R.30pt
+    - I.30pt
+    - O.30pt
+    - U
+    - S
+    - D
+    - E.30pt
+    - S.30pt
+    - I.30pt_2
+    - G
+    - N
+    - S.30pt_2
+    - C
+    - A
+    - B
+    - I.30pt_3
+    - N.30pt
+    stem_px: 6
+    scale: 4.8951
+    stem_units: 29.4
+  696:24pt:
+    n_caps: 16
+    cap_height_px: 118.0
+    cap_source: caps
+    baseline_px: 461.5
+    baselines:
+      '1': 461.5
+    glyphs:
+    - H
+    - U.24pt
+    - M.24pt
+    - O.24pt
+    - R.24pt
+    - O.24pt_2
+    - U.24pt_2
+    - S.24pt
+    - Q
+    - U.24pt_3
+    - E.24pt
+    - S.24pt_2
+    - T.24pt
+    - I.24pt
+    - O.24pt_3
+    - N.24pt
+    stem_px: 12.5
+    scale: 5.9322
+    stem_units: 74.2
+specimen_lines:
+- leaf: 696
+  line: 30pt
+  text: MERITOR IOUSDES IGNSCABIN
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 696
+  line: 24pt
+  text: HUMOROUS QUESTION
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

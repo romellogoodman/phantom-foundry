@@ -1,0 +1,119 @@
+name: renaissant-atf1898
+title: Renaissant
+series: Renaissant
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 452
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      452:30pt: 52.5
+      452:24pt: 72.2
+  x_height: 560
+lines:
+  452:30pt:
+    n_caps: 12
+    cap_height_px: 200.0
+    cap_source: caps
+    baseline_px: 1354.5
+    baselines:
+      '3': 1354.5
+      '4': 1723.5
+    glyphs:
+    - P
+    - a
+    - s
+    - t
+    - u
+    - r
+    - e
+    - two
+    - G
+    - R
+    - A
+    - I
+    - N
+    - L
+    - A.30pt
+    - U
+    - R.30pt
+    - A.30pt_2
+    - five
+    - L.30pt
+    - a.30pt
+    - u.30pt
+    - g
+    - h
+    - i
+    - n
+    - g.30pt
+    x_height_px: 160
+    figure_height_px: 171.0
+    stem_px: 15.0
+    scale: 3.5
+    stem_units: 52.5
+    x_height: 560
+    figure_height: 598
+  452:24pt:
+    n_caps: 14
+    cap_height_px: 126.0
+    cap_source: caps
+    baseline_px: 2232.0
+    baselines:
+      '6': 2232.0
+    glyphs:
+    - C
+    - O
+    - L.24pt
+    - O.24pt
+    - R.24pt
+    - E
+    - D
+    - D.24pt
+    - E.24pt
+    - S
+    - I.24pt
+    - G.24pt
+    - N.24pt
+    - S.24pt
+    stem_px: 10.5
+    scale: 5.55556
+    stem_units: 58.3
+specimen_lines:
+- leaf: 452
+  line: 30pt
+  text: Pasture 2 GRAIN
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 452
+  line: 30pt
+  text: LAURA 5 Laughing
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 452
+  line: 24pt
+  text: ~COLORED ~DESIGNS~
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

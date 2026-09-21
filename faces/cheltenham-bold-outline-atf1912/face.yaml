@@ -1,0 +1,156 @@
+name: cheltenham-bold-outline-atf1912
+title: Cheltenham Bold Outline
+series: Cheltenham Bold Outline
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 222
+leaf_pages:
+  222: 208
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      222:72pt: 14.8
+      222:60pt: 13.8
+      222:48pt: 17.5
+  x_height: 531
+lines:
+  222:72pt:
+    n_caps: 10
+    cap_height_px: 308.0
+    cap_source: caps
+    baseline_px: 580.5
+    baselines:
+      '1': 580.5
+      '2': 992.0
+    glyphs:
+    - B
+    - E
+    - N
+    - D
+    - R
+    - O
+    - D.72pt
+    - S
+    - H
+    - i
+    - g
+    - h
+    - e
+    - s
+    - t
+    - R.72pt
+    - a
+    - k
+    x_height_px: 250.5
+    stem_px: 10.0
+    scale: 2.27273
+    stem_units: 22.7
+    x_height: 569
+  222:60pt:
+    n_caps: 12
+    cap_height_px: 254.0
+    cap_source: caps
+    baseline_px: 1546.5
+    baselines:
+      '3': 1546.5
+      '4': 1891.0
+    glyphs:
+    - M
+    - I
+    - N.60pt
+    - E.60pt
+    - S.60pt
+    - U
+    - N.60pt_2
+    - K
+    - E.60pt_2
+    - N.60pt_3
+    - R.60pt
+    - e.60pt
+    - t.60pt
+    - u
+    - r
+    - n
+    - e.60pt_2
+    - d
+    - B.60pt
+    - r.60pt
+    - i.60pt
+    - g.60pt
+    - h.60pt
+    - t.60pt_2
+    x_height_px: 179.0
+    stem_px: 8.0
+    scale: 2.75591
+    stem_units: 22.0
+    x_height: 493
+  222:48pt:
+    n_caps: 13
+    cap_height_px: 200
+    cap_source: caps
+    baseline_px: 2376
+    baselines:
+      '5': 2376
+    glyphs:
+    - E.48pt
+    - A
+    - R.48pt
+    - N.48pt
+    - E.48pt_2
+    - D.48pt
+    - P
+    - E.48pt_3
+    - N.48pt_2
+    - S.48pt
+    - I.48pt
+    - O.48pt
+    - N.48pt_3
+    stem_px: 7
+    scale: 3.5
+    stem_units: 24.5
+specimen_lines:
+- leaf: 222
+  line: 72pt
+  text: BEND RODS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 222
+  line: 72pt
+  text: Highest Rak
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 222
+  line: 60pt
+  text: MINE SUNKEN
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 222
+  line: 60pt
+  text: Returned Bright
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 222
+  line: 48pt
+  text: EARNED PENSION
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

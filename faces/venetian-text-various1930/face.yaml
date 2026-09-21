@@ -1,0 +1,67 @@
+name: venetian-text-various1930
+title: Venetian Text
+series: Venetian Text
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 157
+leaf_pages:
+  157: 145
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      157:48pt: 35.1
+  x_height: 586
+lines:
+  157:48pt:
+    n_caps: 2
+    cap_height_px: 199.5
+    cap_source: caps
+    baseline_px: 1111.0
+    baselines:
+      '2': 1111.0
+    glyphs:
+    - M
+    - o
+    - n
+    - a
+    - s
+    - t
+    - e
+    - r
+    - y
+    - G
+    - a.48pt
+    - r.48pt
+    - d
+    - e.48pt
+    - n.48pt
+    x_height_px: 167
+    stem_px: 22.5
+    scale: 3.50877
+    stem_units: 78.9
+    x_height: 586
+specimen_lines:
+- leaf: 157
+  line: 48pt
+  text: Monastery Garden
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,63 @@
+name: globe-gothic-extended-atf1923
+title: Globe Gothic Extended
+series: Globe Gothic Extended
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 799
+leaf_pages:
+  799: 499
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      799:60pt: 68.5
+  x_height: 869
+lines:
+  799:60pt:
+    n_caps: 9
+    cap_height_px: 143
+    cap_source: caps
+    baseline_px: 1015
+    baselines:
+      '2': 1015
+    glyphs:
+    - N
+    - o
+    - v
+    - M
+    - I
+    - N.60pt
+    - O
+    - R
+    - S
+    - I.60pt
+    - R.60pt
+    x_height_px: 177.5
+    stem_px: 29
+    scale: 4.8951
+    stem_units: 142.0
+    x_height: 869
+specimen_lines:
+- leaf: 799
+  line: 60pt
+  text: Nov MINOR SI R
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

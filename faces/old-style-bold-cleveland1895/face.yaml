@@ -1,0 +1,146 @@
+name: old-style-bold-cleveland1895
+title: Old Style Bold
+series: Old Style Bold
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 193
+leaf_pages:
+  193: 189
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      193:48pt: 60.4
+      193:36pt: 62.6
+      193:24pt: 64.4
+  x_height: 494
+lines:
+  193:48pt:
+    n_caps: 5
+    cap_height_px: 255
+    cap_source: caps
+    baseline_px: 2969.0
+    baselines:
+      '7': 2969.0
+      '8': 3328
+    glyphs:
+    - T
+    - I
+    - C
+    - K
+    - F
+    - a
+    - s
+    - t
+    - e
+    - n
+    x_height_px: 175
+    stem_px: 18
+    scale: 2.7451
+    stem_units: 49.4
+    x_height: 480
+  193:36pt:
+    n_caps: 7
+    cap_height_px: 190
+    cap_source: caps
+    baseline_px: 2210
+    baselines:
+      '5': 2210
+      '6': 2487.5
+    glyphs:
+    - S
+    - E
+    - I.36pt
+    - N
+    - E.36pt
+    - F.36pt
+    - i
+    - n.36pt
+    - L
+    - a.36pt
+    - k
+    - e.36pt
+    x_height_px: 134
+    stem_px: 10
+    scale: 3.68421
+    stem_units: 36.8
+    x_height: 494
+  193:24pt:
+    n_caps: 7
+    cap_height_px: 125
+    cap_source: caps
+    baseline_px: 1635
+    baselines:
+      '3': 1635
+      '4': 1798.0
+    glyphs:
+    - F.24pt
+    - O
+    - U
+    - N.24pt
+    - D
+    - P
+    - l
+    - a.24pt
+    - n.24pt
+    - t.24pt
+    - e.24pt
+    - r
+    - P.24pt
+    - i.24pt
+    - n.24pt_2
+    - t.24pt_2
+    x_height_px: 90
+    stem_px: 30
+    scale: 5.6
+    stem_units: 168.0
+    x_height: 504
+specimen_lines:
+- leaf: 193
+  line: 48pt
+  text: TICK
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 193
+  line: 48pt
+  text: Fasten
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 193
+  line: 36pt
+  text: SEINE
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 193
+  line: 36pt
+  text: F in Lake
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 193
+  line: 24pt
+  text: FO UND
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 193
+  line: 24pt
+  text: Planter Pint
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,62 @@
+name: tudor-black-various1930
+title: Tudor Black
+series: Tudor Black
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 156
+leaf_pages:
+  156: 144
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      156:72pt: 41.8
+  x_height: 467
+lines:
+  156:72pt:
+    n_caps: 2
+    cap_height_px: 285.0
+    cap_source: caps
+    baseline_px: 785.5
+    baselines:
+      '1': 785.5
+    glyphs:
+    - P
+    - e
+    - a
+    - c
+    - e.72pt
+    - t
+    - o
+    - A
+    - l
+    - l.72pt
+    x_height_px: 190.0
+    stem_px: 16.0
+    scale: 2.45614
+    stem_units: 39.3
+    x_height: 467
+specimen_lines:
+- leaf: 156
+  line: 72pt
+  text: Peace to All
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

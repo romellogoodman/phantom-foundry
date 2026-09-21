@@ -1,0 +1,149 @@
+name: victoria-atf1900
+title: Victoria
+series: Victoria
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 446
+leaf_pages:
+  446: 25
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      446:48pt: 90.8
+      446:42pt: 103.3
+      446:24pt: 83.8
+      446:18pt: 128.0
+lines:
+  446:48pt:
+    n_caps: 8
+    cap_height_px: 316.0
+    cap_source: caps
+    baseline_px: 989.5
+    baselines:
+      '1': 989.5
+    glyphs:
+    - V
+    - I
+    - C
+    - T
+    - O
+    - R
+    - I.48pt
+    - A
+    stem_px: 41.0
+    scale: 2.21519
+    stem_units: 90.8
+  446:42pt:
+    n_caps: 8
+    cap_height_px: 271.0
+    cap_source: caps
+    baseline_px: 1538.0
+    baselines:
+      '2': 1538.0
+    glyphs:
+    - C.42pt
+    - O.42pt
+    - N
+    - S
+    - T.42pt
+    - R.42pt
+    - U
+    - E
+    stem_px: 32.5
+    scale: 2.58303
+    stem_units: 83.9
+  446:24pt:
+    n_caps: 13
+    cap_height_px: 167
+    cap_source: caps
+    baseline_px: 2899
+    baselines:
+      '5': 2899
+    glyphs:
+    - B
+    - A.24pt
+    - N.24pt
+    - K
+    - E.24pt
+    - R.24pt
+    - L
+    - I.24pt
+    - M
+    - I.24pt_2
+    - T.24pt
+    - E.24pt_2
+    - D
+    stem_px: 23
+    scale: 4.19162
+    stem_units: 96.4
+  446:18pt:
+    n_caps: 19
+    cap_height_px: 93
+    cap_source: caps
+    baseline_px: 3280
+    baselines:
+      '6': 3280
+    glyphs:
+    - S.18pt
+    - P
+    - A.18pt
+    - R.18pt
+    - R.18pt_2
+    - O.18pt
+    - W
+    - S.18pt_2
+    - C.18pt
+    - O.18pt_2
+    - N.18pt
+    - J
+    - U.18pt
+    - N.18pt_2
+    - C.18pt_2
+    - T.18pt
+    - I.18pt
+    - V.18pt
+    - E.18pt
+    stem_px: 15
+    scale: 7.52688
+    stem_units: 112.9
+specimen_lines:
+- leaf: 446
+  line: 48pt
+  text: VICTORIA
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 446
+  line: 42pt
+  text: CONSTRUE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 446
+  line: 24pt
+  text: BANKER LIMITED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 446
+  line: 18pt
+  text: SPARROWS CONJUNCTIVE
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

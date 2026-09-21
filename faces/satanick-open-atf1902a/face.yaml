@@ -1,0 +1,104 @@
+name: satanick-open-atf1902a
+title: Satanick Open
+series: Satanick Open
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 496
+leaf_pages:
+  496: 453
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      496:54pt: 9.9
+      496:36pt: 14.9
+  x_height: 480
+lines:
+  496:54pt:
+    n_caps: 2
+    cap_height_px: 283.5
+    cap_source: caps
+    baseline_px: 2244.5
+    baselines:
+      '3': 2244.5
+    glyphs:
+    - six
+    - D
+    - e
+    - a
+    - d
+    - S
+    - o
+    - l
+    - d.54pt
+    - i
+    - e.54pt
+    - r
+    x_height_px: 196
+    figure_height_px: 276
+    stem_px: 10.0
+    scale: 2.46914
+    stem_units: 24.7
+    x_height: 484
+    figure_height: 681
+  496:36pt:
+    n_caps: 2
+    cap_height_px: 187.5
+    cap_source: caps
+    baseline_px: 3284.0
+    baselines:
+      '5': 3284.0
+    glyphs:
+    - C
+    - u
+    - n
+    - a.36pt
+    - r.36pt
+    - d.36pt
+    - ampersand
+    - S.36pt
+    - t
+    - u.36pt
+    - a.36pt_2
+    - r.36pt_2
+    - t.36pt
+    - dollar
+    - two
+    x_height_px: 127.5
+    figure_height_px: 126
+    stem_px: 7.5
+    scale: 3.73333
+    stem_units: 28.0
+    x_height: 476
+    figure_height: 470
+specimen_lines:
+- leaf: 496
+  line: 54pt
+  text: 6 Dead Soldier
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 496
+  line: 36pt
+  text: Cunard & Stuart $ 2
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

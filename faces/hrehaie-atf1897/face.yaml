@@ -1,0 +1,133 @@
+name: hrehaie-atf1897
+title: Hrehaie
+series: Hrehaie
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 447
+leaf_pages:
+  447: 445
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      447:36pt: 50.7
+      447:30pt: 44.4
+      447:24pt: 60.8
+  x_height: 485
+lines:
+  447:36pt:
+    n_caps: 6
+    cap_height_px: 248.5
+    cap_source: caps
+    baseline_px: 962.5
+    baselines:
+      '1': 962.5
+    glyphs:
+    - G
+    - R
+    - E
+    - A
+    - T
+    - R.36pt
+    - u
+    - m
+    - o
+    - r
+    - s
+    x_height_px: 172
+    stem_px: 17.0
+    scale: 2.8169
+    stem_units: 47.9
+    x_height: 485
+  447:30pt:
+    n_caps: 8
+    cap_height_px: 205.0
+    cap_source: caps
+    baseline_px: 1509.0
+    baselines:
+      '2': 1509.0
+    glyphs:
+    - O
+    - r.30pt
+    - i
+    - e
+    - n
+    - t
+    - a
+    - l
+    - I
+    - M
+    - P
+    - O.30pt
+    - R.30pt
+    - T.30pt
+    - S
+    x_height_px: 144
+    stem_px: 16.0
+    scale: 3.41463
+    stem_units: 54.6
+    x_height: 492
+  447:24pt:
+    n_caps: 9
+    cap_height_px: 167
+    cap_source: caps
+    baseline_px: 2014
+    baselines:
+      '3': 2014
+    glyphs:
+    - E.24pt
+    - G.24pt
+    - Y
+    - P.24pt
+    - T.24pt
+    - I.24pt
+    - A.24pt
+    - N
+    - M.24pt
+    - o.24pt
+    - n.24pt
+    - u.24pt
+    - m.24pt
+    - e.24pt
+    - n.24pt_2
+    - t.24pt
+    x_height_px: 115
+    stem_px: 10
+    scale: 4.19162
+    stem_units: 41.9
+    x_height: 482
+specimen_lines:
+- leaf: 447
+  line: 36pt
+  text: GREAT Rumors
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 447
+  line: 30pt
+  text: Oriental IMPORTS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 447
+  line: 24pt
+  text: EGYPTIAN Monument
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

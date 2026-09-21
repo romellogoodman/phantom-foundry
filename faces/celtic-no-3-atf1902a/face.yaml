@@ -1,0 +1,90 @@
+name: celtic-no-3-atf1902a
+title: Celtic No 3
+series: Celtic No
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 468
+leaf_pages:
+  468: 678
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      468:24pt: 63.2
+  x_height: 496
+lines:
+  468:24pt:
+    n_caps: 13
+    cap_height_px: 144
+    cap_source: caps
+    baseline_px: 829.5
+    baselines:
+      '1': 829.5
+      '2': 1053
+    glyphs:
+    - P
+    - R
+    - O
+    - M
+    - I
+    - N
+    - E
+    - N.24pt
+    - C
+    - E.24pt
+    - G
+    - r
+    - e
+    - a
+    - t
+    - N.24pt_2
+    - a.24pt
+    - t.24pt
+    - u
+    - r.24pt
+    - a.24pt_2
+    - l
+    - L
+    - a.24pt_3
+    - k
+    - e.24pt
+    - s
+    x_height_px: 102.0
+    stem_px: 6
+    scale: 4.86111
+    stem_units: 29.2
+    x_height: 496
+specimen_lines:
+- leaf: 468
+  line: 24pt
+  text: PROMINENCE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 468
+  line: 24pt
+  text: Great Natural Lake s
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Celtic No
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

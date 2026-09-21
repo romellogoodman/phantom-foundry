@@ -1,0 +1,139 @@
+name: victoria-atf1896
+title: Victoria.
+series: Victoria.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 454
+leaf_pages:
+  454: 450
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      454:48pt: 71.0
+      454:42pt: 114.8
+      454:36pt: 97.3
+      454:30pt: 122.3
+lines:
+  454:48pt:
+    n_caps: 5
+    cap_height_px: 365
+    cap_source: caps
+    baseline_px: 982
+    baselines:
+      '1': 982
+    glyphs:
+    - R
+    - A
+    - N
+    - K
+    - S
+    stem_px: 46
+    scale: 1.91781
+    stem_units: 88.2
+  454:42pt:
+    n_caps: 5
+    cap_height_px: 308
+    cap_source: caps
+    baseline_px: 1947
+    baselines:
+      '3': 1947
+    glyphs:
+    - C
+    - H
+    - I
+    - L
+    - D
+    stem_px: 38
+    scale: 2.27273
+    stem_units: 86.4
+  454:36pt:
+    n_caps: 13
+    cap_height_px: 259
+    cap_source: caps
+    baseline_px: 2457
+    baselines:
+      '4': 2457
+      '5': 2801.5
+    glyphs:
+    - S.36pt
+    - H.36pt
+    - E
+    - A.36pt
+    - R.36pt
+    - E.36pt
+    - R.36pt_2
+    - L.36pt
+    - O
+    - O.36pt
+    - K.36pt
+    - E.36pt_2
+    - D.36pt
+    stem_px: 33
+    scale: 2.7027
+    stem_units: 89.2
+  454:30pt:
+    n_caps: 7
+    cap_height_px: 226
+    cap_source: caps
+    baseline_px: 3563
+    baselines:
+      '7': 3563
+    glyphs:
+    - L.30pt
+    - O.30pt
+    - N.30pt
+    - G
+    - I.30pt
+    - N.30pt_2
+    - G.30pt
+    stem_px: 30
+    scale: 3.09735
+    stem_units: 92.9
+specimen_lines:
+- leaf: 454
+  line: 48pt
+  text: RANKS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 454
+  line: 42pt
+  text: CHILD
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 454
+  line: 36pt
+  text: SHEARER
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 454
+  line: 36pt
+  text: LOOKED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 454
+  line: 30pt
+  text: LONGING
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

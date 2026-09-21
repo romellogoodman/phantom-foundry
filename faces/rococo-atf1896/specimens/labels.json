@@ -1,0 +1,44 @@
+{
+  "face": "rococo-atf1896",
+  "labeled": [
+    {
+      "leaf": 430,
+      "band": 8,
+      "line": "18pt",
+      "text": "~CLEAR ~ CONSCIENCE~",
+      "by": "deepseek-v4.1-flash+qwen3.7-flash",
+      "added": 15,
+      "kept": 0
+    }
+  ],
+  "already": [],
+  "skipped": [
+    {
+      "leaf": 430,
+      "band": 1,
+      "why": "reading has 9 characters, band has 8 boxes",
+      "text": "CONGRESS ~"
+    },
+    {
+      "leaf": 430,
+      "band": 5,
+      "why": "no reading",
+      "ocr": null,
+      "n": 12
+    },
+    {
+      "leaf": 430,
+      "band": 7,
+      "why": "no reading",
+      "ocr": "HONBSTY 1 INTBGfilTY",
+      "n": 17
+    },
+    {
+      "leaf": 430,
+      "band": 9,
+      "why": "no reading",
+      "ocr": null,
+      "n": 12
+    }
+  ]
+}

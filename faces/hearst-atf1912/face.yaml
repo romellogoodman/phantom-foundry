@@ -1,0 +1,210 @@
+name: hearst-atf1912
+title: Hearst
+series: Hearst
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 558
+leaf_pages:
+  558: 536
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      558:72pt: 19.0
+      558:66pt: 32.5
+      558:54pt: 34.0
+      558:36pt: 34.0
+      558:30pt: 46.7
+  x_height: 501
+lines:
+  558:72pt:
+    n_caps: 5
+    cap_height_px: 313
+    cap_source: caps
+    baseline_px: 566
+    baselines:
+      '1': 566
+    glyphs:
+    - N
+    - I
+    - C
+    - E
+    - R
+    - i
+    - d
+    - e
+    x_height_px: 310
+    stem_px: 26
+    scale: 2.23642
+    stem_units: 58.1
+    x_height: 693
+  558:66pt:
+    n_caps: 6
+    cap_height_px: 280.0
+    cap_source: caps
+    baseline_px: 1049.0
+    baselines:
+      '2': 1049.0
+    glyphs:
+    - K
+    - i.66pt
+    - n
+    - d.66pt
+    - G
+    - I.66pt
+    - R.66pt
+    - L
+    - S
+    x_height_px: 277
+    stem_px: 51.5
+    scale: 2.5
+    stem_units: 128.8
+    x_height: 692
+  558:54pt:
+    n_caps: 5
+    cap_height_px: 216
+    cap_source: caps
+    baseline_px: 1469
+    baselines:
+      '3': 1469
+    glyphs:
+    - H
+    - O
+    - M
+    - E.54pt
+    - L.54pt
+    - e.54pt
+    - a
+    - s
+    - e.54pt_2
+    - d.54pt
+    x_height_px: 153
+    stem_px: 40
+    scale: 3.24074
+    stem_units: 129.6
+    x_height: 496
+  558:36pt:
+    n_caps: 19
+    cap_height_px: 144
+    cap_source: caps
+    baseline_px: 1818.5
+    baselines:
+      '4': 1818.5
+      '7': 3203
+    glyphs:
+    - I.36pt
+    - n.36pt
+    - t
+    - e.36pt
+    - r
+    - e.36pt_2
+    - s.36pt
+    - t.36pt
+    - i.36pt
+    - n.36pt_2
+    - g
+    - L.36pt
+    - E.36pt
+    - C.36pt
+    - T
+    - U
+    - R.36pt
+    - E.36pt_2
+    - P
+    - R.36pt_2
+    - O.36pt
+    - M.36pt
+    - I.36pt_2
+    - N.36pt
+    - E.36pt_3
+    - N.36pt_2
+    - T.36pt
+    - P.36pt
+    - R.36pt_3
+    x_height_px: 103.0
+    stem_px: 10
+    scale: 4.86111
+    stem_units: 48.6
+    x_height: 501
+  558:30pt:
+    n_caps: 10
+    cap_height_px: 120.0
+    cap_source: caps
+    baseline_px: 2147.0
+    baselines:
+      '5': 2147.0
+    glyphs:
+    - M.30pt
+    - E.30pt
+    - C.30pt
+    - H.30pt
+    - A
+    - N.30pt
+    - I.30pt
+    - C.30pt_2
+    - S.30pt
+    - C.30pt_3
+    - o
+    - n.30pt
+    - s.30pt
+    - i.30pt
+    - d.30pt
+    - e.30pt
+    - r.30pt
+    - e.30pt_2
+    - d.30pt_2
+    x_height_px: 85
+    stem_px: 12.5
+    scale: 5.83333
+    stem_units: 72.9
+    x_height: 496
+specimen_lines:
+- leaf: 558
+  line: 72pt
+  text: NICE Ride
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 558
+  line: 66pt
+  text: Kind GIRLS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 558
+  line: 54pt
+  text: HOME Leased
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 558
+  line: 36pt
+  text: Interesting LECTURE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 558
+  line: 36pt
+  text: PROMIN ENTPR
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 558
+  line: 30pt
+  text: MECHANICS Considered
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,135 @@
+name: extended-clarendon-atf1900
+title: Extended Clarendon
+series: Extended Clarendon
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 620
+leaf_pages:
+  620: 25
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      620:30pt: 63.6
+      620:24pt: 73.1
+      620:20pt: 67.6
+lines:
+  620:30pt:
+    n_caps: 8
+    cap_height_px: 165.0
+    cap_source: caps
+    baseline_px: 854.0
+    baselines:
+      '2': 854.0
+    glyphs:
+    - P
+    - R
+    - I
+    - N
+    - T
+    - I.30pt
+    - N.30pt
+    - G
+    stem_px: 25.0
+    scale: 4.24242
+    stem_units: 106.1
+  620:24pt:
+    n_caps: 14
+    cap_height_px: 134.0
+    cap_source: caps
+    baseline_px: 1488.0
+    baselines:
+      '4': 1488.0
+      '5': 1721.5
+    glyphs:
+    - G.24pt
+    - O
+    - L
+    - D
+    - B
+    - A
+    - N.24pt
+    - K
+    - H
+    - E
+    - S
+    - T.24pt
+    - O.24pt
+    - N.24pt_2
+    stem_px: 20.0
+    scale: 5.22388
+    stem_units: 104.5
+  620:20pt:
+    n_caps: 17
+    cap_height_px: 119
+    cap_source: caps
+    baseline_px: 2063.0
+    baselines:
+      '6': 2063.0
+      '7': 2268
+    glyphs:
+    - R.20pt
+    - I.20pt
+    - G.20pt
+    - H.20pt
+    - T.20pt
+    - W
+    - O.20pt
+    - R.20pt_2
+    - D.20pt
+    - S.20pt
+    - F
+    - O.20pt_2
+    - O.20pt_3
+    - L.20pt
+    - E.20pt
+    - R.20pt_3
+    - S.20pt_2
+    stem_px: 16
+    scale: 5.88235
+    stem_units: 94.1
+specimen_lines:
+- leaf: 620
+  line: 30pt
+  text: PRINTING
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 620
+  line: 24pt
+  text: GOLD BANK
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 620
+  line: 24pt
+  text: HESTON
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 620
+  line: 20pt
+  text: RIGHT WORDS
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 620
+  line: 20pt
+  text: FOOLERS
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

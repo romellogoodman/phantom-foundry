@@ -1,0 +1,62 @@
+name: latin-extended-atf1897
+title: Latin Extended
+series: Lhtin Extended
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 256
+leaf_pages:
+  256: 254
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      256:30pt: 57.6
+  x_height: 500
+lines:
+  256:30pt:
+    n_caps: 1
+    cap_height_px: 231
+    cap_source: caps
+    baseline_px: 1531
+    baselines:
+      '2': 1531
+    glyphs:
+    - F
+    - r
+    - a
+    - n
+    - c
+    - e
+    x_height_px: 165
+    stem_px: 33
+    scale: 3.0303
+    stem_units: 100.0
+    x_height: 500
+specimen_lines:
+- leaf: 256
+  line: 30pt
+  text: France
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Lhtin Extended
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

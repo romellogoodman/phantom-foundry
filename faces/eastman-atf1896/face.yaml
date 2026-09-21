@@ -1,0 +1,107 @@
+name: eastman-atf1896
+title: Eastman.
+series: Eastman.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 221
+  - 223
+leaf_pages:
+  221: 217
+  223: 219
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      221:72pt: 49.7
+      221:60pt: 42.1
+  x_height: 688
+lines:
+  221:72pt:
+    n_caps: 4
+    cap_height_px: 422.5
+    cap_source: caps
+    baseline_px: 1041
+    baselines:
+      '1': 1041
+      '2': 1648
+    glyphs:
+    - P
+    - E
+    - N
+    - U
+    - p
+    - h
+    - e
+    - l
+    - d
+    x_height_px: 422
+    stem_px: 14.0
+    scale: 1.6568
+    stem_units: 23.2
+    x_height: 699
+  221:60pt:
+    n_caps: 5
+    cap_height_px: 349
+    cap_source: caps
+    baseline_px: 2493
+    baselines:
+      '3': 2493
+      '4': 3014.0
+    glyphs:
+    - N.60pt
+    - O
+    - W
+    - A
+    - l.60pt
+    - l.60pt_2
+    - S
+    - i
+    - n
+    - g
+    x_height_px: 338
+    stem_px: 11
+    scale: 2.00573
+    stem_units: 22.1
+    x_height: 678
+specimen_lines:
+- leaf: 221
+  line: 72pt
+  text: PEN
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 221
+  line: 72pt
+  text: Upheld
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 221
+  line: 60pt
+  text: NOW
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 221
+  line: 60pt
+  text: All Sing
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

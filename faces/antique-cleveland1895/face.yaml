@@ -1,0 +1,182 @@
+name: antique-cleveland1895
+title: Antique
+series: Antique
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 82
+leaf_pages:
+  82: 78
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      82:60pt: 19.9
+      82:48pt: 25.2
+      82:30pt: 38.6
+      82:24pt: 31.0
+  x_height: 468
+lines:
+  82:60pt:
+    n_caps: 5
+    cap_height_px: 386
+    cap_source: caps
+    baseline_px: 3408
+    baselines:
+      '7': 3408
+    glyphs:
+    - F
+    - I
+    - N
+    - E
+    - R
+    - o
+    - b
+    - e
+    - two
+    - three
+    x_height_px: 264
+    figure_height_px: 385.5
+    stem_px: 36
+    scale: 1.81347
+    stem_units: 65.3
+    x_height: 479
+    figure_height: 699
+  82:48pt:
+    n_caps: 5
+    cap_height_px: 305
+    cap_source: caps
+    baseline_px: 2837
+    baselines:
+      '6': 2837
+    glyphs:
+    - eight
+    - four
+    - E.48pt
+    - n
+    - d
+    - u
+    - r
+    - e.48pt
+    - F.48pt
+    - A
+    - D
+    - S
+    x_height_px: 199
+    figure_height_px: 305.5
+    stem_px: 23
+    scale: 2.29508
+    stem_units: 52.8
+    x_height: 457
+    figure_height: 701
+  82:30pt:
+    n_caps: 8
+    cap_height_px: 181.5
+    cap_source: caps
+    baseline_px: 1858.0
+    baselines:
+      '4': 1858.0
+    glyphs:
+    - R.30pt
+    - O
+    - L
+    - L.30pt
+    - I.30pt
+    - N.30pt
+    - G
+    - I.30pt_2
+    - n.30pt
+    - c
+    - r.30pt
+    - e.30pt
+    - a
+    - s
+    - e.30pt_2
+    - eight.30pt
+    x_height_px: 132
+    figure_height_px: 180
+    stem_px: 17.5
+    scale: 3.85675
+    stem_units: 67.5
+    x_height: 509
+    figure_height: 694
+  82:24pt:
+    n_caps: 6
+    cap_height_px: 135.5
+    cap_source: caps
+    baseline_px: 1481.0
+    baselines:
+      '3': 1481.0
+    glyphs:
+    - five
+    - I.24pt
+    - n.24pt
+    - o.24pt
+    - u.24pt
+    - r.24pt
+    - P
+    - l
+    - e.24pt
+    - a.24pt
+    - s.24pt
+    - u.24pt_2
+    - r.24pt_2
+    - e.24pt_2
+    - s.24pt_2
+    - six
+    - nine
+    - C
+    - o.24pt_2
+    - r.24pt_3
+    - r.24pt_4
+    - u.24pt_3
+    - p
+    - t
+    - U
+    - S.24pt
+    - E.24pt
+    x_height_px: 65.0
+    figure_height_px: 87
+    stem_px: 10.0
+    scale: 5.16605
+    stem_units: 51.7
+    x_height: 336
+    figure_height: 449
+specimen_lines:
+- leaf: 82
+  line: 60pt
+  text: FINE Robe 23
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 82
+  line: 48pt
+  text: 84 Endure FADS
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 82
+  line: 30pt
+  text: ROLLING Increase 8
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 82
+  line: 24pt
+  text: 5 In our Pleasures 6 9 CorruptUSE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

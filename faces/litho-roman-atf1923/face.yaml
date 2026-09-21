@@ -1,0 +1,96 @@
+name: litho-roman-atf1923
+title: Litho Roman
+series: Litho Roman
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 548
+leaf_pages:
+  548: 248
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      548:72pt: 27.6
+      548:36pt: 32.3
+  x_height: 602
+lines:
+  548:72pt:
+    n_caps: 9
+    cap_height_px: 266
+    cap_source: caps
+    baseline_px: 925
+    baselines:
+      '2': 925
+    glyphs:
+    - K
+    - i
+    - l
+    - o
+    - S
+    - T
+    - U
+    - V
+    - W
+    - X
+    - Y
+    - Z
+    - ampersand
+    - dollar
+    - one
+    - two
+    x_height_px: 244
+    figure_height_px: 271.0
+    stem_px: 8
+    scale: 2.63158
+    stem_units: 21.1
+    x_height: 642
+    figure_height: 713
+  548:36pt:
+    n_caps: 1
+    cap_height_px: 130
+    cap_source: caps
+    baseline_px: 1562
+    baselines:
+      '4': 1562
+    glyphs:
+    - B
+    - r
+    - i.36pt
+    - g
+    - a
+    - d
+    - e
+    x_height_px: 104.5
+    stem_px: 31
+    scale: 5.38462
+    stem_units: 166.9
+    x_height: 563
+specimen_lines:
+- leaf: 548
+  line: 72pt
+  text: Kilo STUVWXYZ&$12
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 548
+  line: 36pt
+  text: Brigade ~~~
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

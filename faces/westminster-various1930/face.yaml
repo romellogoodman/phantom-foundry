@@ -1,0 +1,108 @@
+name: westminster-various1930
+title: Westminster
+series: Westminster
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 74
+leaf_pages:
+  74: 62
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      74:48pt: 49.9
+      74:36pt: 51.5
+  x_height: 517
+lines:
+  74:48pt:
+    n_caps: 2
+    cap_height_px: 182.5
+    cap_source: caps
+    baseline_px: 1433.0
+    baselines:
+      '3': 1433.0
+    glyphs:
+    - M
+    - i
+    - l
+    - i.48pt
+    - t
+    - a
+    - r
+    - y
+    - B
+    - a.48pt
+    - n
+    - d
+    - s
+    - a.48pt_2
+    - n.48pt
+    - d.48pt
+    x_height_px: 119.5
+    stem_px: 19.0
+    scale: 3.83562
+    stem_units: 72.9
+    x_height: 458
+  74:36pt:
+    n_caps: 3
+    cap_height_px: 136
+    cap_source: caps
+    baseline_px: 2023
+    baselines:
+      '5': 2023
+    glyphs:
+    - S
+    - i.36pt
+    - n.36pt
+    - g
+    - i.36pt_2
+    - n.36pt_2
+    - g.36pt
+    - b
+    - y.36pt
+    - V
+    - i.36pt_3
+    - l.36pt
+    - l.36pt_2
+    - a.36pt
+    - g.36pt_2
+    - e
+    - C
+    - h
+    - o
+    - i.36pt_4
+    - r.36pt
+    x_height_px: 112.0
+    stem_px: 15
+    scale: 5.14706
+    stem_units: 77.2
+    x_height: 576
+specimen_lines:
+- leaf: 74
+  line: 48pt
+  text: Military Bands and
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 74
+  line: 36pt
+  text: Singing by Village Choir
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,175 @@
+name: encore-extended-keystone1906
+title: Encore Extended
+series: Encore Extended
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 130
+  - 131
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      131:42pt: 45.1
+      131:36pt: 76.1
+      131:30pt: 59.1
+      131:24pt: 92.6
+  x_height: 550
+lines:
+  131:42pt:
+    n_caps: 7
+    cap_height_px: 233
+    cap_source: caps
+    baseline_px: 3143
+    baselines:
+      '7': 3143
+      '8': 3470.0
+    glyphs:
+    - R
+    - U
+    - N
+    - O
+    - F
+    - H
+    - a
+    - r
+    - d
+    - L
+    - u
+    - c
+    - k
+    x_height_px: 185.0
+    stem_px: 38
+    scale: 3.00429
+    stem_units: 114.2
+    x_height: 556
+  131:36pt:
+    n_caps: 10
+    cap_height_px: 184.0
+    cap_source: caps
+    baseline_px: 2322
+    baselines:
+      '5': 2322
+      '6': 2610
+    glyphs:
+    - R.36pt
+    - U.36pt
+    - B
+    - B.36pt
+    - E
+    - R.36pt_2
+    - S
+    - N.36pt
+    - o
+    - w
+    - O.36pt
+    - n
+    - S.36pt
+    - a.36pt
+    - l
+    - e
+    x_height_px: 144.5
+    stem_px: 27.0
+    scale: 3.80435
+    stem_units: 102.7
+    x_height: 550
+  131:30pt:
+    n_caps: 2
+    cap_height_px: 154.0
+    cap_source: caps
+    baseline_px: 1861.5
+    baselines:
+      '4': 1861.5
+    glyphs:
+    - O.30pt
+    - v
+    - e.30pt
+    - r.30pt
+    - t
+    - h
+    - e.30pt_2
+    - P
+    - a.30pt
+    - c.30pt
+    - i
+    - f
+    - i.30pt
+    - c.30pt_2
+    x_height_px: 121.0
+    stem_px: 26.5
+    scale: 4.54545
+    stem_units: 120.5
+    x_height: 550
+  131:24pt:
+    n_caps: 11
+    cap_height_px: 121
+    cap_source: caps
+    baseline_px: 981
+    baselines:
+      '1': 981
+    glyphs:
+    - F.24pt
+    - I
+    - G
+    - U.24pt
+    - R.24pt
+    - E.24pt
+    - S.24pt
+    - C
+    - A
+    - S.24pt_2
+    - T
+    stem_px: 18
+    scale: 5.78512
+    stem_units: 104.1
+specimen_lines:
+- leaf: 131
+  line: 42pt
+  text: RUN OF ~
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 131
+  line: 42pt
+  text: Hard Luck
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 131
+  line: 36pt
+  text: RUBBERS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 131
+  line: 36pt
+  text: Now On Sale
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 131
+  line: 30pt
+  text: Over the Pacific
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 131
+  line: 24pt
+  text: FIGURES CAST
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

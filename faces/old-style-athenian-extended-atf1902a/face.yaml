@@ -1,0 +1,130 @@
+name: old-style-athenian-extended-atf1902a
+title: Old Style Athenian Extended
+series: Old Style Athenian Extended
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 435
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      435:48pt: 50.2
+      435:36pt: 50.5
+      435:24pt: 77.0
+  x_height: 559
+lines:
+  435:48pt:
+    n_caps: 3
+    cap_height_px: 286
+    cap_source: caps
+    baseline_px: 975
+    baselines:
+      '1': 975
+    glyphs:
+    - I
+    - N
+    - D
+    - i
+    - k
+    - e
+    x_height_px: 297
+    stem_px: 13
+    scale: 2.44755
+    stem_units: 31.8
+    x_height: 727
+  435:36pt:
+    n_caps: 4
+    cap_height_px: 208.0
+    cap_source: caps
+    baseline_px: 1468.0
+    baselines:
+      '2': 1468.0
+    glyphs:
+    - P
+    - u
+    - r
+    - e.36pt
+    - T
+    - I.36pt
+    - N.36pt
+    x_height_px: 166
+    stem_px: 14.5
+    scale: 3.36538
+    stem_units: 48.8
+    x_height: 559
+  435:24pt:
+    n_caps: 9
+    cap_height_px: 150
+    cap_source: caps
+    baseline_px: 1899
+    baselines:
+      '3': 1899
+      '4': 2110.0
+    glyphs:
+    - I.24pt
+    - R
+    - O
+    - N.24pt
+    - O.24pt
+    - R.24pt
+    - E
+    - S
+    - t
+    - e.24pt
+    - e.24pt_2
+    - l
+    - t.24pt
+    - o
+    - n
+    - M
+    - i.24pt
+    - n.24pt
+    - e.24pt_3
+    - s
+    x_height_px: 113
+    stem_px: 10
+    scale: 4.66667
+    stem_units: 46.7
+    x_height: 527
+specimen_lines:
+- leaf: 435
+  line: 48pt
+  text: IN Dike
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 435
+  line: 36pt
+  text: Pure TIN
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 435
+  line: 24pt
+  text: IRON ORE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 435
+  line: 24pt
+  text: Steelton Mines
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

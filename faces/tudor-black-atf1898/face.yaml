@@ -1,0 +1,87 @@
+name: tudor-black-atf1898
+title: Tudor Black
+series: Tudor Black
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 596
+  - 597
+leaf_pages:
+  597: 97
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      596:36pt: 57.2
+  x_height: 509
+lines:
+  596:36pt:
+    n_caps: 4
+    cap_height_px: 177.5
+    cap_source: caps
+    baseline_px: 3113.5
+    baselines:
+      '7': 3113.5
+      '8': 3378.5
+    glyphs:
+    - T
+    - u
+    - d
+    - o
+    - r
+    - one
+    - three
+    - B
+    - l
+    - a
+    - c
+    - k
+    - S
+    - t
+    - a.36pt
+    - t.36pt
+    - e
+    - o.36pt
+    - f
+    - M
+    - a.36pt_2
+    - i
+    - n
+    - e.36pt
+    x_height_px: 129.0
+    figure_height_px: 174.0
+    stem_px: 10.0
+    scale: 3.94366
+    stem_units: 39.4
+    x_height: 509
+    figure_height: 686
+specimen_lines:
+- leaf: 596
+  line: 36pt
+  text: Tudor 13 Black
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 596
+  line: 36pt
+  text: State of Maine
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,101 @@
+name: cheltenham-bold-shaded-various1930
+title: Cheltenham Bold Shaded
+series: Cheltenham Bold Shaded
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 130
+leaf_pages:
+  130: 118
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      130:72pt: 21.8
+  x_height: 433
+lines:
+  130:72pt:
+    n_caps: 5
+    cap_height_px: 241
+    cap_source: caps
+    baseline_px: 770
+    baselines:
+      '1': 770
+      '2': 1197.5
+      '3': 1579.0
+    glyphs:
+    - M
+    - a
+    - n
+    - c
+    - h
+    - e
+    - s
+    - t
+    - e.72pt
+    - r
+    - S
+    - m
+    - o
+    - k
+    - e.72pt_2
+    - C
+    - l
+    - o.72pt
+    - u
+    - d
+    - s.72pt
+    - I
+    - n.72pt
+    - d.72pt
+    - u.72pt
+    - s.72pt_2
+    - t.72pt
+    - r.72pt
+    - i
+    - a.72pt
+    - l.72pt
+    - C.72pt
+    - e.72pt_3
+    - n.72pt_2
+    - t.72pt_2
+    - r.72pt_2
+    - e.72pt_4
+    x_height_px: 149.0
+    stem_px: 3
+    scale: 2.90456
+    stem_units: 8.7
+    x_height: 433
+specimen_lines:
+- leaf: 130
+  line: 72pt
+  text: Manchester
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 130
+  line: 72pt
+  text: Smoke Clouds
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 130
+  line: 72pt
+  text: Industrial Centre
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

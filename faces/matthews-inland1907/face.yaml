@@ -1,0 +1,152 @@
+name: matthews-inland1907
+title: Matthews
+series: Matthews
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 98
+leaf_pages:
+  98: 90
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      98:60pt: 74.5
+      98:48pt: 56.5
+      98:36pt: 72.4
+      98:30pt: 71.5
+  x_height: 526
+lines:
+  98:60pt:
+    n_caps: 3
+    cap_height_px: 371
+    cap_source: caps
+    baseline_px: 1552
+    baselines:
+      '3': 1552
+    glyphs:
+    - R
+    - E
+    - M
+    - a
+    - i
+    - n
+    - s
+    x_height_px: 279.0
+    stem_px: 141
+    scale: 1.88679
+    stem_units: 266.0
+    x_height: 526
+  98:48pt:
+    n_caps: 4
+    cap_height_px: 285.0
+    cap_source: caps
+    baseline_px: 2011.5
+    baselines:
+      '4': 2011.5
+    glyphs:
+    - P
+    - R.48pt
+    - O
+    - D
+    - u
+    - c
+    - t
+    - s.48pt
+    - one
+    x_height_px: 212.0
+    figure_height_px: 289
+    stem_px: 103.5
+    scale: 2.45614
+    stem_units: 254.2
+    x_height: 521
+    figure_height: 710
+  98:36pt:
+    n_caps: 5
+    cap_height_px: 203
+    cap_source: caps
+    baseline_px: 2382
+    baselines:
+      '5': 2382
+    glyphs:
+    - S
+    - U
+    - R.36pt
+    - R.36pt_2
+    - O.36pt
+    - u.36pt
+    - n.36pt
+    - d
+    - i.36pt
+    - n.36pt_2
+    - g
+    - two
+    x_height_px: 171.5
+    figure_height_px: 202
+    stem_px: 60
+    scale: 3.44828
+    stem_units: 206.9
+    x_height: 591
+    figure_height: 697
+  98:30pt:
+    n_caps: 13
+    cap_height_px: 137
+    cap_source: caps
+    baseline_px: 2753
+    baselines:
+      '6': 2753
+    glyphs:
+    - D.30pt
+    - E.30pt
+    - S.30pt
+    - I
+    - G
+    - N
+    - P.30pt
+    - R.30pt
+    - O.30pt
+    - D.30pt_2
+    - U.30pt
+    - C
+    - T
+    stem_px: 46
+    scale: 5.10949
+    stem_units: 235.0
+specimen_lines:
+- leaf: 98
+  line: 60pt
+  text: REMains
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 98
+  line: 48pt
+  text: PRODucts 1
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 98
+  line: 36pt
+  text: SURROunding 2
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 98
+  line: 30pt
+  text: DESIGN PRODUCT
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

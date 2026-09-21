@@ -1,0 +1,114 @@
+name: condensed-no-1-atf1896
+title: Condensed No. 1
+series: Condensed
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 561
+leaf_pages:
+  561: 557
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      561:54pt: 24.2
+      561:48pt: 27.6
+  x_height: 460
+lines:
+  561:54pt:
+    n_caps: 7
+    cap_height_px: 391
+    cap_source: caps
+    baseline_px: 3064
+    baselines:
+      '4': 3064
+    glyphs:
+    - P
+    - L
+    - A
+    - C
+    - E
+    - R
+    - S
+    stem_px: 8
+    scale: 1.79028
+    stem_units: 14.3
+  561:48pt:
+    n_caps: 16
+    cap_height_px: 355.5
+    cap_source: caps
+    baseline_px: 1069.0
+    baselines:
+      '1': 1069.0
+      '2': 1822.0
+      '3': 2274.0
+    glyphs:
+    - T
+    - H
+    - E.48pt
+    - S.48pt
+    - U
+    - N
+    - D
+    - A.48pt
+    - V
+    - I
+    - D.48pt
+    - S.48pt_2
+    - O
+    - N.48pt
+    - T.48pt
+    - h
+    - e
+    - B
+    - e.48pt
+    - e.48pt_2
+    x_height_px: 233.5
+    stem_px: 9.5
+    scale: 1.96906
+    stem_units: 18.7
+    x_height: 460
+specimen_lines:
+- leaf: 561
+  line: 54pt
+  text: PLACERS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 561
+  line: 48pt
+  text: THE SUN
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 561
+  line: 48pt
+  text: DAVIDSON
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 561
+  line: 48pt
+  text: The Bee
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Condensed
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

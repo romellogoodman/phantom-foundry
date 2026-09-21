@@ -1,0 +1,207 @@
+name: bookman-oldstyle-atf1906
+title: Bookman Oldstyle
+series: Bookman Oldstyle
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 292
+leaf_pages:
+  292: 242
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      292:72pt: 22.4
+      292:60pt: 16.0
+      292:48pt: 24.5
+      292:36pt: 31.8
+      292:30pt: 8.5
+  x_height: 532
+lines:
+  292:72pt:
+    n_caps: 4
+    cap_height_px: 312.0
+    cap_source: caps
+    baseline_px: 740.0
+    baselines:
+      '1': 740.0
+    glyphs:
+    - S
+    - I
+    - R
+    - B
+    - l
+    - a
+    - n
+    - k
+    x_height_px: 259.0
+    stem_px: 38.0
+    scale: 2.24359
+    stem_units: 85.3
+    x_height: 581
+  292:60pt:
+    n_caps: 4
+    cap_height_px: 263.0
+    cap_source: caps
+    baseline_px: 1257.5
+    baselines:
+      '2': 1257.5
+    glyphs:
+    - R.60pt
+    - e
+    - l.60pt
+    - i
+    - s
+    - h
+    - G
+    - U
+    - N
+    x_height_px: 258
+    stem_px: 26.5
+    scale: 2.6616
+    stem_units: 70.5
+    x_height: 687
+  292:48pt:
+    n_caps: 9
+    cap_height_px: 200
+    cap_source: caps
+    baseline_px: 1710
+    baselines:
+      '3': 1710
+      '4': 1990.0
+    glyphs:
+    - B.48pt
+    - A
+    - R.48pt
+    - G.48pt
+    - A.48pt
+    - I.48pt
+    - N.48pt
+    - D
+    - i.48pt
+    - a.48pt
+    - m
+    - o
+    - n.48pt
+    - d
+    - S.48pt
+    - t
+    - u
+    - d.48pt
+    - s.48pt
+    x_height_px: 138.0
+    stem_px: 25
+    scale: 3.5
+    stem_units: 87.5
+    x_height: 483
+  292:36pt:
+    n_caps: 11
+    cap_height_px: 154
+    cap_source: caps
+    baseline_px: 2396.0
+    baselines:
+      '5': 2396.0
+      '6': 2605
+    glyphs:
+    - S.36pt
+    - O
+    - U.36pt
+    - V
+    - E
+    - N.36pt
+    - I.36pt
+    - R.36pt
+    - M
+    - o.36pt
+    - d.36pt
+    - e.36pt
+    - r
+    - n.36pt
+    - P
+    - r.36pt
+    - i.36pt
+    - n.36pt_2
+    - t.36pt
+    - e.36pt_2
+    - d.36pt_2
+    - A.36pt
+    - r.36pt_2
+    - t.36pt_2
+    x_height_px: 106
+    stem_px: 16
+    scale: 4.54545
+    stem_units: 72.7
+    x_height: 482
+  292:30pt:
+    n_caps: 8
+    cap_height_px: 123.5
+    cap_source: caps
+    baseline_px: 2983.5
+    baselines:
+      '7': 2983.5
+    glyphs:
+    - G.30pt
+    - R.30pt
+    - A.30pt
+    - N.30pt
+    - D.30pt
+    - P.30pt
+    - R.30pt_2
+    - I.30pt
+    stem_px: 18.0
+    scale: 5.66802
+    stem_units: 102.0
+specimen_lines:
+- leaf: 292
+  line: 72pt
+  text: SIR Blank
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 292
+  line: 60pt
+  text: Relish GUN
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 292
+  line: 48pt
+  text: BARGAIN
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 292
+  line: 48pt
+  text: Diamond Studs
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 292
+  line: 36pt
+  text: SOUVENIR
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 292
+  line: 36pt
+  text: Modern Printed Art
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 292
+  line: 30pt
+  text: GRA NDPRI
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,243 @@
+name: pontiac-atf1912
+title: Pontiac
+series: Pontiac
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 660
+leaf_pages:
+  660: 638
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      660:72pt: 36.8
+      660:60pt: 38.7
+      660:48pt: 38.7
+      660:42pt: 40.7
+      660:36pt: 48.6
+  x_height: 503
+lines:
+  660:72pt:
+    n_caps: 8
+    cap_height_px: 304.5
+    cap_source: caps
+    baseline_px: 619.0
+    baselines:
+      '1': 619.0
+    glyphs:
+    - F
+    - R
+    - I
+    - E
+    - N
+    - D
+    - S
+    - D.72pt
+    - e
+    - p
+    - a
+    - r
+    - t
+    - i
+    - n
+    - g
+    x_height_px: 240.5
+    stem_px: 37.5
+    scale: 2.29885
+    stem_units: 86.2
+    x_height: 553
+  660:60pt:
+    n_caps: 8
+    cap_height_px: 253.0
+    cap_source: caps
+    baseline_px: 1076.0
+    baselines:
+      '2': 1076.0
+    glyphs:
+    - H
+    - a.60pt
+    - n.60pt
+    - d
+    - s
+    - o
+    - m
+    - e.60pt
+    - s.60pt
+    - t.60pt
+    - G
+    - A
+    - R.60pt
+    - D.60pt
+    - E.60pt
+    - N.60pt
+    - S.60pt
+    x_height_px: 180
+    stem_px: 28.0
+    scale: 2.7668
+    stem_units: 77.5
+    x_height: 498
+  660:48pt:
+    n_caps: 11
+    cap_height_px: 199
+    cap_source: caps
+    baseline_px: 1475
+    baselines:
+      '3': 1475
+    glyphs:
+    - C
+    - H.48pt
+    - R.48pt
+    - I.48pt
+    - S.48pt
+    - T
+    - M
+    - A.48pt
+    - S.48pt_2
+    - P
+    - r.48pt
+    - e.48pt
+    - s.48pt
+    - e.48pt_2
+    - n.48pt
+    - t.48pt
+    - S.48pt_3
+    - t.48pt_2
+    - o.48pt
+    - l
+    - e.48pt_3
+    - n.48pt_2
+    x_height_px: 143
+    stem_px: 17
+    scale: 3.51759
+    stem_units: 59.8
+    x_height: 503
+  660:42pt:
+    n_caps: 11
+    cap_height_px: 172
+    cap_source: caps
+    baseline_px: 1848
+    baselines:
+      '4': 1848
+    glyphs:
+    - B
+    - e.42pt
+    - a.42pt
+    - u
+    - t.42pt
+    - i.42pt
+    - f
+    - u.42pt
+    - l.42pt
+    - P.42pt
+    - a.42pt_2
+    - m.42pt
+    - p.42pt
+    - h
+    - l.42pt_2
+    - e.42pt_2
+    - t.42pt_2
+    - s.42pt
+    - R.42pt
+    - E.42pt
+    - P.42pt_2
+    - R.42pt_2
+    - I.42pt
+    - N.42pt
+    - T.42pt
+    - E.42pt_2
+    - D.42pt
+    x_height_px: 137.0
+    stem_px: 26
+    scale: 4.06977
+    stem_units: 105.8
+    x_height: 558
+  660:36pt:
+    n_caps: 17
+    cap_height_px: 144
+    cap_source: caps
+    baseline_px: 2198
+    baselines:
+      '5': 2198
+    glyphs:
+    - Q
+    - U
+    - E.36pt
+    - S.36pt
+    - T.36pt
+    - I.36pt
+    - O
+    - N.36pt
+    - E.36pt_2
+    - D.36pt
+    - E.36pt_3
+    - I.36pt_2
+    - G.36pt
+    - H.36pt
+    - T.36pt_2
+    - B.36pt
+    - r.36pt
+    - a.36pt
+    - z
+    - i.36pt
+    - l.36pt
+    - i.36pt_2
+    - a.36pt_2
+    - n.36pt
+    - A.36pt
+    - r.36pt_2
+    - t.36pt
+    - i.36pt_3
+    - s.36pt
+    - a.36pt_3
+    - n.36pt_2
+    - s.36pt_2
+    x_height_px: 101
+    stem_px: 19
+    scale: 4.86111
+    stem_units: 92.4
+    x_height: 491
+specimen_lines:
+- leaf: 660
+  line: 72pt
+  text: FRIENDS Departing
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 660
+  line: 60pt
+  text: Handsomest GARDENS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 660
+  line: 48pt
+  text: CHRISTMAS Present Stolen
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 660
+  line: 42pt
+  text: Beautiful Pamphlets REPRINTED
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 660
+  line: 36pt
+  text: QUESTIONED EIGHT Brazilian Artisans
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

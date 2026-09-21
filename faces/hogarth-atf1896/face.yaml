@@ -1,0 +1,146 @@
+name: hogarth-atf1896
+title: Hogarth
+series: Hoqarth.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 471
+leaf_pages:
+  471: 467
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      471:72pt: 29.2
+      471:36pt: 63.6
+      471:24pt: 34.0
+  x_height: 622
+lines:
+  471:72pt:
+    n_caps: 4
+    cap_height_px: 408.0
+    cap_source: caps
+    baseline_px: 1033.0
+    baselines:
+      '1': 1033.0
+    glyphs:
+    - B
+    - I
+    - D
+    - F
+    - i
+    - r
+    - s
+    - t
+    x_height_px: 321.5
+    stem_px: 54.0
+    scale: 1.71569
+    stem_units: 92.6
+    x_height: 552
+  471:36pt:
+    n_caps: 12
+    cap_height_px: 187.0
+    cap_source: caps
+    baseline_px: 2079.5
+    baselines:
+      '3': 2079.5
+      '4': 2429.0
+    glyphs:
+    - C
+    - O
+    - M
+    - I.36pt
+    - N
+    - G
+    - R
+    - O.36pt
+    - V
+    - E
+    - T
+    - h
+    - i.36pt
+    - c
+    - k
+    - P
+    - a
+    - s.36pt
+    - t.36pt
+    x_height_px: 185
+    stem_px: 26.5
+    scale: 3.74332
+    stem_units: 99.2
+    x_height: 693
+  471:24pt:
+    n_caps: 19
+    cap_height_px: 103
+    cap_source: caps
+    baseline_px: 3411
+    baselines:
+      '7': 3411
+    glyphs:
+    - C.24pt
+    - O.24pt
+    - M.24pt
+    - M.24pt_2
+    - E.24pt
+    - N.24pt
+    - D.24pt
+    - A
+    - B.24pt
+    - L
+    - E.24pt_2
+    - N.24pt_2
+    - E.24pt_3
+    - A.24pt
+    - T.24pt
+    - N.24pt_3
+    - E.24pt_4
+    - S
+    - S.24pt
+    stem_px: 19
+    scale: 6.79612
+    stem_units: 129.1
+specimen_lines:
+- leaf: 471
+  line: 72pt
+  text: BID First
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 471
+  line: 36pt
+  text: COMING ROVE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 471
+  line: 36pt
+  text: Thick [and] Past
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 471
+  line: 24pt
+  text: COMMENDABLE NEATNESS
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Hoqarth.
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

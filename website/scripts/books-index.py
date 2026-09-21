@@ -47,8 +47,10 @@ def main():
         if not bid:
             continue
         founded[bid] = founded.get(bid, 0) + 1
-        if (fy.parent / "proofs" / "face.json").exists():
-            built[bid] = built.get(bid, 0) + 1
+    showing = ROOT / "showing" / "showing.json"          # a strike counts when the site lists it
+    for f in json.loads(showing.read_text())["faces_list"] if showing.exists() else []:
+        if not f.get("suspect"):
+            built[f["book"]] = built.get(f["book"], 0) + 1
     books = []
     for by in sorted((ROOT / "books").glob("*/book.yaml")):
         b = yaml.safe_load(by.read_text()) or {}

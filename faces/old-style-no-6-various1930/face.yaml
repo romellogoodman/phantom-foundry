@@ -1,0 +1,135 @@
+name: old-style-no-6-various1930
+title: Old Style No. 6
+series: Old Style No
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 162
+leaf_pages:
+  162: 150
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      162:48pt: 45.9
+      162:36pt: 39.3
+  x_height: 483
+lines:
+  162:48pt:
+    n_caps: 2
+    cap_height_px: 183.0
+    cap_source: caps
+    baseline_px: 646.5
+    baselines:
+      '1': 646.5
+    glyphs:
+    - F
+    - o
+    - r
+    - t
+    - h
+    - e
+    - P
+    - r.48pt
+    - o.48pt
+    - d
+    - u
+    - c
+    - t.48pt
+    - i
+    - o.48pt_2
+    - n
+    - o.48pt_3
+    - f
+    x_height_px: 126.5
+    stem_px: 15.5
+    scale: 3.82514
+    stem_units: 59.3
+    x_height: 484
+  162:36pt:
+    n_caps: 4
+    cap_height_px: 133.5
+    cap_source: caps
+    baseline_px: 1218
+    baselines:
+      '3': 1218
+      '4': 1398
+    glyphs:
+    - M
+    - a
+    - y
+    - b
+    - e.36pt
+    - R
+    - e.36pt_2
+    - g
+    - i.36pt
+    - s
+    - t.36pt
+    - e.36pt_3
+    - r.36pt
+    - e.36pt_4
+    - d.36pt
+    - a.36pt
+    - n.36pt
+    - d.36pt_2
+    - M.36pt
+    - a.36pt_2
+    - d.36pt_3
+    - e.36pt_5
+    - R.36pt
+    - e.36pt_6
+    - a.36pt_3
+    - d.36pt_4
+    - y.36pt
+    - i.36pt_2
+    - n.36pt_2
+    - l
+    - e.36pt_7
+    - s.36pt
+    - s.36pt_2
+    - t.36pt_2
+    - i.36pt_3
+    - m
+    - e.36pt_8
+    x_height_px: 92
+    stem_px: 11.0
+    scale: 5.24345
+    stem_units: 57.7
+    x_height: 482
+specimen_lines:
+- leaf: 162
+  line: 48pt
+  text: For the Production of
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 162
+  line: 36pt
+  text: May be Registered and Made
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 162
+  line: 36pt
+  text: Ready in less time
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Old Style No
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

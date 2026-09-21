@@ -1,0 +1,134 @@
+name: winchester-bold-condensed-various1930
+title: Winchester Bold Condensed
+series: Winchester Bold Condensed
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 86
+leaf_pages:
+  86: 74
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      86:60pt: 36.1
+      86:48pt: 38.7
+  x_height: 481
+lines:
+  86:60pt:
+    n_caps: 2
+    cap_height_px: 232.5
+    cap_source: caps
+    baseline_px: 1508.5
+    baselines:
+      '3': 1508.5
+    glyphs:
+    - T
+    - h
+    - r
+    - i
+    - l
+    - l.60pt
+    - i.60pt
+    - n
+    - g
+    - A
+    - c
+    - c.60pt
+    - o
+    - u
+    - n.60pt
+    - t
+    x_height_px: 164.0
+    stem_px: 30.0
+    scale: 3.01075
+    stem_units: 90.3
+    x_height: 494
+  86:48pt:
+    n_caps: 6
+    cap_height_px: 163.0
+    cap_source: caps
+    baseline_px: 1859
+    baselines:
+      '4': 1859
+      '5': 2168
+    glyphs:
+    - E
+    - n.48pt
+    - g.48pt
+    - l.48pt
+    - i.48pt
+    - s
+    - h.48pt
+    - F
+    - l.48pt_2
+    - a
+    - g.48pt_2
+    - U
+    - n.48pt_2
+    - f
+    - u.48pt
+    - r.48pt
+    - l.48pt_3
+    - e
+    - d
+    - W
+    - o.48pt
+    - n.48pt_3
+    - d.48pt
+    - e.48pt
+    - r.48pt_2
+    - f.48pt
+    - u.48pt_2
+    - l.48pt_4
+    - S
+    - n.48pt_4
+    - o.48pt_2
+    - w
+    - M
+    - o.48pt_3
+    - u.48pt_3
+    - n.48pt_5
+    - t.48pt
+    - a.48pt
+    - i.48pt_2
+    - n.48pt_6
+    - s.48pt
+    x_height_px: 109
+    stem_px: 15.5
+    scale: 4.29448
+    stem_units: 66.6
+    x_height: 468
+specimen_lines:
+- leaf: 86
+  line: 60pt
+  text: ThrillingAccount
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 86
+  line: 48pt
+  text: English Flag Unfurled
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 86
+  line: 48pt
+  text: Wonderful Snow Mountains
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

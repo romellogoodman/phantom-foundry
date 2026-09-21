@@ -1,0 +1,128 @@
+name: golf-series-farmer1899
+title: Golf Series.
+series: Golf Series.
+status: proto
+version: 0.1.0
+book: abridgedspecimen00adfa
+source:
+  archive_id: abridgedspecimen00adfa
+  title: 'Abridged specimen book : type, borders, brass rules, ornaments and price
+    list of printing machinery, furniture, fixtures and material'
+  creator: A.D. Farmer & Son Type Founding Co
+  publisher: 'Chicago : The Company'
+  date: '1899'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00adfa
+  copyright_status: null
+  contributor: University of Illinois Urbana-Champaign
+  leaves:
+  - 129
+leaf_pages:
+  129: 125
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      129:36pt: 54.0
+      129:30pt: 38.9
+  x_height: 460
+lines:
+  129:36pt:
+    n_caps: 8
+    cap_height_px: 194.5
+    cap_source: caps
+    baseline_px: 2238.0
+    baselines:
+      '7': 2238.0
+      '8': 2490.0
+    glyphs:
+    - C
+    - O
+    - L
+    - L.36pt
+    - A
+    - R
+    - K
+    - i
+    - n
+    - g
+    - i.36pt
+    - s
+    - S
+    - u
+    - p
+    - r
+    - e
+    - m
+    - e.36pt
+    x_height_px: 126
+    stem_px: 18.5
+    scale: 3.59897
+    stem_units: 66.6
+    x_height: 453
+  129:30pt:
+    n_caps: 11
+    cap_height_px: 153
+    cap_source: caps
+    baseline_px: 1680.0
+    baselines:
+      '5': 1680.0
+      '6': 1889
+    glyphs:
+    - C.30pt
+    - A.30pt
+    - S.30pt
+    - T
+    - P
+    - L.30pt
+    - U
+    - G
+    - F
+    - i.30pt
+    - n.30pt
+    - e.30pt
+    - W
+    - h
+    - e.30pt_2
+    - a
+    - t
+    - M
+    - a.30pt
+    - r.30pt
+    - k
+    - e.30pt_3
+    - t.30pt
+    - s.30pt
+    - period
+    x_height_px: 102
+    stem_px: 13
+    scale: 4.57516
+    stem_units: 59.5
+    x_height: 467
+specimen_lines:
+- leaf: 129
+  line: 36pt
+  text: COLLAR
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 129
+  line: 36pt
+  text: King is Supreme
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 129
+  line: 30pt
+  text: CAST PLUG
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 129
+  line: 30pt
+  text: Fine Wheat Markets.
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

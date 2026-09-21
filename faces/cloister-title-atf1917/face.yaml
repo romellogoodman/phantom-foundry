@@ -1,0 +1,122 @@
+name: cloister-title-atf1917
+title: Cloister Title
+series: Cloister Title
+status: proto
+version: 0.1.0
+book: supplementarycat00daysrich
+source:
+  archive_id: supplementarycat00daysrich
+  title: 'Supplementary catalogue : new type faces, borders, ornaments, brass rule'
+  creator: Daystrom, inc
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '[c1917]'
+  ppi: 400
+  url: https://archive.org/details/supplementarycat00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 24
+leaf_pages:
+  24: 18
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      24:48pt: 25.1
+      24:42pt: 21.7
+      24:30pt: 16.7
+lines:
+  24:48pt:
+    n_caps: 10
+    cap_height_px: 251.0
+    cap_source: caps
+    baseline_px: 638.5
+    baselines:
+      '1': 638.5
+    glyphs:
+    - D
+    - E
+    - R
+    - I
+    - D.48pt
+    - E.48pt
+    - S
+    - M
+    - E.48pt_2
+    - N
+    stem_px: 18.5
+    scale: 2.78884
+    stem_units: 51.6
+  24:42pt:
+    n_caps: 12
+    cap_height_px: 209.5
+    cap_source: caps
+    baseline_px: 1051.0
+    baselines:
+      '2': 1051.0
+    glyphs:
+    - H
+    - I.42pt
+    - D.42pt
+    - E.42pt
+    - C
+    - O
+    - M.42pt
+    - P
+    - O.42pt
+    - S.42pt
+    - E.42pt_2
+    - R.42pt
+    stem_px: 24.0
+    scale: 3.34129
+    stem_units: 80.2
+  24:30pt:
+    n_caps: 17
+    cap_height_px: 147
+    cap_source: caps
+    baseline_px: 1761
+    baselines:
+      '4': 1761
+    glyphs:
+    - E.30pt
+    - N.30pt
+    - S.30pt
+    - U
+    - R.30pt
+    - E.30pt_2
+    - F
+    - I.30pt
+    - N.30pt_2
+    - E.30pt_3
+    - R.30pt_2
+    - E.30pt_4
+    - T
+    - U.30pt
+    - R.30pt_3
+    - N.30pt_3
+    - S.30pt_2
+    stem_px: 11
+    scale: 4.7619
+    stem_units: 52.4
+specimen_lines:
+- leaf: 24
+  line: 48pt
+  text: DERIDES MEN
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 24
+  line: 42pt
+  text: HIDE COMPOSER
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 24
+  line: 30pt
+  text: ENSURE FINE RETURNS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,125 @@
+name: lining-antique-atf1900
+title: Lining Antique
+series: Lining Antique
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 617
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      617:30pt: 36.5
+      617:24pt: 45.8
+      617:18pt: 39.2
+lines:
+  617:30pt:
+    n_caps: 12
+    cap_height_px: 211.0
+    cap_source: caps
+    baseline_px: 1464.5
+    baselines:
+      '2': 1464.5
+    glyphs:
+    - P
+    - R
+    - E
+    - M
+    - I
+    - E.30pt
+    - R.30pt
+    - S
+    - H
+    - I.30pt
+    - P.30pt
+    - S.30pt
+    stem_px: 14.0
+    scale: 3.31754
+    stem_units: 46.4
+  617:24pt:
+    n_caps: 13
+    cap_height_px: 168
+    cap_source: caps
+    baseline_px: 1919
+    baselines:
+      '3': 1919
+    glyphs:
+    - T
+    - R.24pt
+    - A
+    - N
+    - Q
+    - U
+    - I.24pt
+    - L
+    - W
+    - O
+    - M.24pt
+    - E.24pt
+    - N.24pt
+    stem_px: 12
+    scale: 4.16667
+    stem_units: 50.0
+  617:18pt:
+    n_caps: 17
+    cap_height_px: 125
+    cap_source: caps
+    baseline_px: 2315
+    baselines:
+      '4': 2315
+    glyphs:
+    - F
+    - R.18pt
+    - A.18pt
+    - G
+    - R.18pt_2
+    - A.18pt_2
+    - N.18pt
+    - T.18pt
+    - P.18pt
+    - E.18pt
+    - R.18pt_3
+    - F.18pt
+    - U.18pt
+    - M.18pt
+    - E.18pt_2
+    - R.18pt_4
+    - Y
+    stem_px: 10
+    scale: 5.6
+    stem_units: 56.0
+specimen_lines:
+- leaf: 617
+  line: 30pt
+  text: PREMIERSHIPS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 617
+  line: 24pt
+  text: TRANQUIL WOMEN
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 617
+  line: 18pt
+  text: FRAGRANT PERFUMERY
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

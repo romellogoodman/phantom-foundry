@@ -1,0 +1,65 @@
+name: century-bold-extended-atf1923
+title: Century Bold Extended
+series: Century Bold Extended
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 509
+leaf_pages:
+  509: 209
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      509:36pt: 21.4
+  x_height: 676
+lines:
+  509:36pt:
+    n_caps: 7
+    cap_height_px: 131
+    cap_source: caps
+    baseline_px: 2230
+    baselines:
+      '6': 2230
+    glyphs:
+    - N
+    - O
+    - P
+    - Q
+    - R
+    - S
+    - E
+    - p
+    - i
+    - s
+    - t
+    - l
+    - e
+    x_height_px: 126.5
+    stem_px: 6
+    scale: 5.34351
+    stem_units: 32.1
+    x_height: 676
+specimen_lines:
+- leaf: 509
+  line: 36pt
+  text: N O P Q R S Epistle
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

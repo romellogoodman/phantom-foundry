@@ -1,0 +1,121 @@
+name: lettgrauprh-wih-atf1912
+title: Lettgrauprh Wih
+series: Lettgrauprh Wih
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 826
+leaf_pages:
+  826: 804
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      826:42pt: 15.6
+      826:36pt: 18.7
+  x_height: 466
+lines:
+  826:42pt:
+    n_caps: 2
+    cap_height_px: 179.0
+    cap_source: caps
+    baseline_px: 1813.0
+    baselines:
+      '4': 1813.0
+    glyphs:
+    - E
+    - x
+    - t
+    - r
+    - a
+    - o
+    - r.42pt
+    - d
+    - i
+    - n
+    - a.42pt
+    - r.42pt_2
+    - y
+    - S
+    - t.42pt
+    - a.42pt_2
+    - t.42pt_2
+    - e
+    - m
+    - e.42pt
+    - n.42pt
+    - t.42pt_3
+    - s
+    x_height_px: 119
+    stem_px: 4.5
+    scale: 3.91061
+    stem_units: 17.6
+    x_height: 465
+  826:36pt:
+    n_caps: 3
+    cap_height_px: 150
+    cap_source: caps
+    baseline_px: 2143
+    baselines:
+      '5': 2143
+    glyphs:
+    - S.36pt
+    - o.36pt
+    - c
+    - i.36pt
+    - e.36pt
+    - t.36pt
+    - y.36pt
+    - E.36pt
+    - n.36pt
+    - t.36pt_2
+    - e.36pt_2
+    - r.36pt
+    - t.36pt_3
+    - a.36pt
+    - i.36pt_2
+    - n.36pt_2
+    - m.36pt
+    - e.36pt_3
+    - n.36pt_3
+    - t.36pt_4
+    - s.36pt
+    - G
+    - i.36pt_3
+    - v
+    - e.36pt_4
+    - n.36pt_4
+    x_height_px: 100
+    stem_px: 3
+    scale: 4.66667
+    stem_units: 14.0
+    x_height: 467
+specimen_lines:
+- leaf: 826
+  line: 42pt
+  text: Extraordinary Statements
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 826
+  line: 36pt
+  text: Society Entertainments Given
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

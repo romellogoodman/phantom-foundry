@@ -1,0 +1,79 @@
+name: mitchell-no-1-inland1907
+title: Mitchell No. 1
+series: Mitchell No. 1
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 166
+leaf_pages:
+  166: 158
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      166:24pt: 180.5
+lines:
+  166:24pt:
+    n_caps: 21
+    cap_height_px: 159
+    cap_source: caps
+    baseline_px: 1903
+    baselines:
+      '5': 1903
+      '6': 2121.5
+    glyphs:
+    - I
+    - S
+    - E
+    - X
+    - H
+    - I.24pt
+    - B
+    - I.24pt_2
+    - T
+    - E.24pt
+    - D
+    - L
+    - E.24pt_2
+    - G
+    - I.24pt_3
+    - B.24pt
+    - L.24pt
+    - E.24pt_3
+    - A
+    - N
+    - D.24pt
+    - three
+    figure_height_px: 165
+    stem_px: 22
+    scale: 4.40252
+    stem_units: 96.9
+    figure_height: 726
+specimen_lines:
+- leaf: 166
+  line: 24pt
+  text: IS EXHIBITED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 166
+  line: 24pt
+  text: LEGIBLE AND 3
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

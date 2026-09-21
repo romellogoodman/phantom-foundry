@@ -1,0 +1,91 @@
+name: ioa-atf1897
+title: Ioa
+series: Ioa
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 313
+leaf_pages:
+  313: 311
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      313:24pt: 58.7
+  x_height: 430
+lines:
+  313:24pt:
+    n_caps: 14
+    cap_height_px: 179.0
+    cap_source: caps
+    baseline_px: 2180.5
+    baselines:
+      '3': 2180.5
+      '4': 2435.0
+    glyphs:
+    - G
+    - e
+    - n
+    - e.24pt
+    - r
+    - o
+    - u
+    - s
+    - nine
+    - C
+    - h
+    - r.24pt
+    - i
+    - s.24pt
+    - t
+    - m
+    - a
+    - s.24pt_2
+    - P
+    - R
+    - A
+    - I
+    - S
+    - E
+    - G.24pt
+    - I.24pt
+    - V
+    - I.24pt_2
+    - N
+    - G.24pt_2
+    x_height_px: 110
+    figure_height_px: 170
+    stem_px: 37.0
+    scale: 3.91061
+    stem_units: 144.7
+    x_height: 430
+    figure_height: 665
+specimen_lines:
+- leaf: 313
+  line: 24pt
+  text: Generous 9 Christmas
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 313
+  line: 24pt
+  text: PRAISE GIVING
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,157 @@
+name: exxknded-old-inland1907
+title: Exxknded Old
+series: Exxknded Old
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 57
+leaf_pages:
+  57: 49
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      57:48pt: 70.0
+      57:30pt: 62.1
+      57:24pt: 74.0
+  x_height: 618
+lines:
+  57:48pt:
+    n_caps: 3
+    cap_height_px: 250
+    cap_source: caps
+    baseline_px: 771
+    baselines:
+      '2': 771
+    glyphs:
+    - R
+    - E
+    - D
+    - p
+    - r
+    - i
+    - n
+    - t
+    x_height_px: 228
+    stem_px: 33
+    scale: 2.8
+    stem_units: 92.4
+    x_height: 638
+  57:30pt:
+    n_caps: 10
+    cap_height_px: 169.0
+    cap_source: caps
+    baseline_px: 1543
+    baselines:
+      '4': 1543
+      '5': 1779
+    glyphs:
+    - L
+    - E.30pt
+    - T
+    - T.30pt
+    - E.30pt_2
+    - R.30pt
+    - S
+    - O
+    - f
+    - W
+    - i.30pt
+    - d
+    - e
+    - F
+    - a
+    - c
+    - e.30pt
+    - eight
+    x_height_px: 118
+    figure_height_px: 168
+    stem_px: 16.5
+    scale: 4.14201
+    stem_units: 68.3
+    x_height: 489
+    figure_height: 696
+  57:24pt:
+    n_caps: 12
+    cap_height_px: 132.5
+    cap_source: caps
+    baseline_px: 2117
+    baselines:
+      '6': 2117
+      '7': 2312
+    glyphs:
+    - F.24pt
+    - I
+    - L.24pt
+    - L.24pt_2
+    - S.24pt
+    - P
+    - A
+    - C
+    - E.24pt
+    - W.24pt
+    - i.24pt
+    - d.24pt
+    - e.24pt
+    - I.24pt
+    - n.24pt
+    - L.24pt_3
+    - a.24pt
+    - t.24pt
+    - i.24pt_2
+    - t.24pt_2
+    - u
+    - d.24pt_2
+    - e.24pt_2
+    - six
+    - one
+    x_height_px: 117
+    figure_height_px: 128.0
+    stem_px: 14.0
+    scale: 5.28302
+    stem_units: 74.0
+    x_height: 618
+    figure_height: 676
+specimen_lines:
+- leaf: 57
+  line: 48pt
+  text: RED print
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 57
+  line: 30pt
+  text: LETTERS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 57
+  line: 30pt
+  text: Of Wide Face 8
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 57
+  line: 24pt
+  text: FILL SPACE
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 57
+  line: 24pt
+  text: Wide In Latitude 61
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,134 @@
+name: binner-open-atf1898
+title: Binner Open
+series: Binner Open
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 387
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      387:30pt: 43.3
+      387:18pt: 58.3
+  x_height: 506
+lines:
+  387:30pt:
+    n_caps: 11
+    cap_height_px: 202
+    cap_source: caps
+    baseline_px: 919.5
+    baselines:
+      '2': 919.5
+      '3': 1214
+    glyphs:
+    - E
+    - x
+    - t
+    - r
+    - a
+    - B
+    - r.30pt
+    - e
+    - a.30pt
+    - d
+    - U
+    - N
+    - D
+    - E.30pt
+    - R
+    - L
+    - I
+    - E.30pt_2
+    - S
+    x_height_px: 145.5
+    stem_px: 6
+    scale: 3.46535
+    stem_units: 20.8
+    x_height: 504
+  387:18pt:
+    n_caps: 16
+    cap_height_px: 120.0
+    cap_source: caps
+    baseline_px: 1626.0
+    baselines:
+      '4': 1626.0
+      '6': 2042.5
+    glyphs:
+    - H
+    - e.18pt
+    - a.18pt
+    - v
+    - i
+    - e.18pt_2
+    - s
+    - t.18pt
+    - O
+    - v.18pt
+    - e.18pt_3
+    - r.18pt
+    - s.18pt
+    - h
+    - o
+    - e.18pt_4
+    - s.18pt_2
+    - U.18pt
+    - M
+    - P
+    - I.18pt
+    - R.18pt
+    - E.18pt
+    - S.18pt
+    - D.18pt
+    - E.18pt_2
+    - C
+    - I.18pt_2
+    - D.18pt_2
+    - E.18pt_3
+    - D.18pt_3
+    x_height_px: 87
+    stem_px: 5.0
+    scale: 5.83333
+    stem_units: 29.2
+    x_height: 508
+specimen_lines:
+- leaf: 387
+  line: 30pt
+  text: Extra Bread
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 387
+  line: 30pt
+  text: UNDERLIES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 387
+  line: 18pt
+  text: Heaviest Overshoes
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 387
+  line: 18pt
+  text: UMPIRES DECIDED
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

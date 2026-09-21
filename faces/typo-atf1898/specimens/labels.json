@@ -1,0 +1,44 @@
+{
+  "face": "typo-atf1898",
+  "labeled": [
+    {
+      "leaf": 454,
+      "band": 2,
+      "line": "60pt",
+      "text": "5 Rhine WINE",
+      "by": "deepseek-v4.1-flash+qwen3.7-flash+ocr",
+      "added": 10,
+      "kept": 0
+    }
+  ],
+  "already": [],
+  "skipped": [
+    {
+      "leaf": 454,
+      "band": 3,
+      "why": "reading has 13 characters, band has 12 boxes",
+      "text": "MARCH 9 Further"
+    },
+    {
+      "leaf": 454,
+      "band": 4,
+      "why": "no reading",
+      "ocr": "Beautiful DANCER 8",
+      "n": 14
+    },
+    {
+      "leaf": 454,
+      "band": 5,
+      "why": "no reading",
+      "ocr": "SEVERAL 16 Productions",
+      "n": 19
+    },
+    {
+      "leaf": 454,
+      "band": 6,
+      "why": "no reading",
+      "ocr": "Discontinued 39 OPERATIONS",
+      "n": 23
+    }
+  ]
+}

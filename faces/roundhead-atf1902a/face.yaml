@@ -1,0 +1,135 @@
+name: roundhead-atf1902a
+title: Roundhead
+series: Roundhead
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 408
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      408:48pt: 43.5
+      408:36pt: 54.1
+      408:24pt: 51.9
+  x_height: 417
+lines:
+  408:48pt:
+    n_caps: 1
+    cap_height_px: 322
+    cap_source: caps
+    baseline_px: 972
+    baselines:
+      '1': 972
+    glyphs:
+    - P
+    - a
+    - r
+    - s
+    - i
+    - m
+    - o
+    - n
+    - i.48pt
+    - o.48pt
+    - u
+    - s.48pt
+    x_height_px: 192
+    stem_px: 43
+    scale: 2.17391
+    stem_units: 93.5
+    x_height: 417
+  408:36pt:
+    n_caps: 1
+    cap_height_px: 233
+    cap_source: caps
+    baseline_px: 1811
+    baselines:
+      '3': 1811
+    glyphs:
+    - R
+    - e
+    - c
+    - o.36pt
+    - m.36pt
+    - m.36pt_2
+    - e.36pt
+    - n.36pt
+    - d
+    - a.36pt
+    - b
+    - l
+    - e.36pt_2
+    x_height_px: 139.0
+    stem_px: 33
+    scale: 3.00429
+    stem_units: 99.1
+    x_height: 418
+  408:24pt:
+    n_caps: 2
+    cap_height_px: 162.0
+    cap_source: caps
+    baseline_px: 2494.5
+    baselines:
+      '5': 2494.5
+    glyphs:
+    - C
+    - u.24pt
+    - r.24pt
+    - b.24pt
+    - s.24pt
+    - t
+    - o.24pt
+    - n.24pt
+    - e.24pt
+    - A
+    - m.24pt
+    - u.24pt_2
+    - s.24pt_2
+    - e.24pt_2
+    - m.24pt_2
+    - e.24pt_3
+    - n.24pt_2
+    - t.24pt
+    - s.24pt_3
+    x_height_px: 96
+    stem_px: 22.0
+    scale: 4.32099
+    stem_units: 95.1
+    x_height: 415
+specimen_lines:
+- leaf: 408
+  line: 48pt
+  text: Parsimonious
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 408
+  line: 36pt
+  text: Recommendable
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 408
+  line: 24pt
+  text: Curbstone Amusements
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,113 @@
+name: cooper-black-various1930
+title: Cooper Black
+series: Cooper Black
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 114
+leaf_pages:
+  114: 102
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      114:72pt: 11.3
+      114:60pt: 16.7
+  x_height: 519
+lines:
+  114:72pt:
+    n_caps: 3
+    cap_height_px: 278
+    cap_source: caps
+    baseline_px: 764.0
+    baselines:
+      '1': 764.0
+      '2': 1121
+    glyphs:
+    - N
+    - e
+    - w
+    - C
+    - o
+    - i
+    - l
+    - P
+    - a
+    - t
+    - e.72pt
+    - n
+    - t.72pt
+    x_height_px: 207.0
+    stem_px: 68
+    scale: 2.51799
+    stem_units: 171.2
+    x_height: 521
+  114:60pt:
+    n_caps: 2
+    cap_height_px: 231.0
+    cap_source: caps
+    baseline_px: 1989
+    baselines:
+      '4': 1989
+      '5': 2288
+    glyphs:
+    - W
+    - i.60pt
+    - r
+    - e.60pt
+    - l.60pt
+    - e.60pt_2
+    - s
+    - s.60pt
+    - t.60pt
+    - o.60pt
+    - A
+    - m
+    - e.60pt_3
+    - r.60pt
+    - i.60pt_2
+    - c
+    - a.60pt
+    x_height_px: 171
+    stem_px: 43.0
+    scale: 3.0303
+    stem_units: 130.3
+    x_height: 518
+specimen_lines:
+- leaf: 114
+  line: 72pt
+  text: New Coil
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 114
+  line: 72pt
+  text: Patent
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 114
+  line: 60pt
+  text: Wireless to
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 114
+  line: 60pt
+  text: America
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

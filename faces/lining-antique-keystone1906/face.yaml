@@ -1,0 +1,115 @@
+name: lining-antique-keystone1906
+title: Lining Antique
+series: Lining Antique
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 215
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      215:30pt: 109.6
+      215:24pt: 100.6
+      215:18pt: 124.6
+lines:
+  215:30pt:
+    n_caps: 8
+    cap_height_px: 198.0
+    cap_source: caps
+    baseline_px: 3544.0
+    baselines:
+      '3': 3544.0
+    glyphs:
+    - C
+    - O
+    - M
+    - P
+    - O.30pt
+    - S
+    - E
+    - R
+    stem_px: 29.0
+    scale: 3.53535
+    stem_units: 102.5
+  215:24pt:
+    n_caps: 10
+    cap_height_px: 156.5
+    cap_source: caps
+    baseline_px: 3201.0
+    baselines:
+      '2': 3201.0
+    glyphs:
+    - N
+    - O.24pt
+    - B
+    - L
+    - E.24pt
+    - Y
+    - O.24pt_2
+    - U
+    - T
+    - H
+    stem_px: 25.0
+    scale: 4.47284
+    stem_units: 111.8
+  215:18pt:
+    n_caps: 13
+    cap_height_px: 118
+    cap_source: caps
+    baseline_px: 2893
+    baselines:
+      '1': 2893
+    glyphs:
+    - S.18pt
+    - T.18pt
+    - R.18pt
+    - A
+    - N.18pt
+    - G
+    - E.18pt
+    - H.18pt
+    - O.18pt
+    - U.18pt
+    - S.18pt_2
+    - E.18pt_2
+    - S.18pt_3
+    stem_px: 18
+    scale: 5.9322
+    stem_units: 106.8
+specimen_lines:
+- leaf: 215
+  line: 30pt
+  text: COMPOSER
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 215
+  line: 24pt
+  text: NOBLE YOUTH
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 215
+  line: 18pt
+  text: STRANGE HOUSES
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

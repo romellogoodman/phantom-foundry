@@ -1,0 +1,177 @@
+name: de-vinne-shaded-atf1897
+title: De Vinne Shaded
+series: De Yinne Shrdeo
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 371
+leaf_pages:
+  371: 369
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      371:48pt: 71.2
+      371:42pt: 58.1
+      371:36pt: 93.0
+      371:24pt: 47.8
+      371:18pt: 102.4
+  x_height: 492
+lines:
+  371:48pt:
+    n_caps: 8
+    cap_height_px: 295.0
+    cap_source: caps
+    baseline_px: 1347.5
+    baselines:
+      '2': 1347.5
+    glyphs:
+    - M
+    - I
+    - N
+    - I.48pt
+    - S
+    - T
+    - E
+    - R
+    stem_px: 5.5
+    scale: 2.37288
+    stem_units: 13.1
+  371:42pt:
+    n_caps: 1
+    cap_height_px: 289
+    cap_source: caps
+    baseline_px: 940
+    baselines:
+      '1': 940
+    glyphs:
+    - S.42pt
+    - e
+    - m
+    - i
+    - n
+    - o
+    - l
+    - e.42pt
+    - five
+    x_height_px: 203
+    figure_height_px: 271
+    stem_px: 5
+    scale: 2.42215
+    stem_units: 12.1
+    x_height: 492
+    figure_height: 656
+  371:36pt:
+    n_caps: 8
+    cap_height_px: 248.5
+    cap_source: caps
+    baseline_px: 2227.5
+    baselines:
+      '4': 2227.5
+    glyphs:
+    - L
+    - E.36pt
+    - M.36pt
+    - O
+    - N.36pt
+    - A
+    - D
+    - E.36pt_2
+    stem_px: 5.0
+    scale: 2.8169
+    stem_units: 14.1
+  371:24pt:
+    n_caps: 13
+    cap_height_px: 161
+    cap_source: caps
+    baseline_px: 2903
+    baselines:
+      '6': 2903
+    glyphs:
+    - M.24pt
+    - E.24pt
+    - X
+    - I.24pt
+    - C
+    - A.24pt
+    - N.24pt
+    - D.24pt
+    - O.24pt
+    - C.24pt
+    - T.24pt
+    - O.24pt_2
+    - R.24pt
+    stem_px: 3
+    scale: 4.34783
+    stem_units: 13.0
+  371:18pt:
+    n_caps: 13
+    cap_height_px: 123
+    cap_source: caps
+    baseline_px: 3490
+    baselines:
+      '8': 3490
+    glyphs:
+    - P
+    - U
+    - B
+    - L.18pt
+    - I.18pt
+    - C.18pt
+    - S.18pt
+    - O.18pt
+    - L.18pt_2
+    - D.18pt
+    - I.18pt_2
+    - E.18pt
+    - R.18pt
+    stem_px: 3
+    scale: 5.69106
+    stem_units: 17.1
+specimen_lines:
+- leaf: 371
+  line: 48pt
+  text: MINISTER
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 371
+  line: 42pt
+  text: Seminole 5
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 371
+  line: 36pt
+  text: LEMONADE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 371
+  line: 24pt
+  text: MEXICAN DOCTOR
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 371
+  line: 18pt
+  text: PUBLIC SOLDIER
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: De Yinne Shrdeo
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

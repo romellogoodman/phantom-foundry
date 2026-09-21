@@ -1,0 +1,77 @@
+name: hamburg-atf1902b
+title: Hamburg
+series: Hamburg
+status: proto
+version: 0.1.0
+book: deskbookoftypesp02amer
+source:
+  archive_id: deskbookoftypesp02amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    2, 11-22)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp02amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 100
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      100:24pt: 26.8
+  x_height: 456
+lines:
+  100:24pt:
+    n_caps: 2
+    cap_height_px: 156.5
+    cap_source: caps
+    baseline_px: 1357.5
+    baselines:
+      '3': 1357.5
+    glyphs:
+    - P
+    - e
+    - r
+    - s
+    - i
+    - s.24pt
+    - t
+    - e.24pt
+    - n
+    - t.24pt
+    - W
+    - a
+    - s.24pt_2
+    - h
+    - i.24pt
+    - n.24pt
+    - g
+    - t.24pt_2
+    - o
+    - n.24pt_2
+    - i.24pt_2
+    - a.24pt
+    - n.24pt_3
+    - s.24pt_3
+    x_height_px: 102.0
+    stem_px: 3.0
+    scale: 4.47284
+    stem_units: 13.4
+    x_height: 456
+specimen_lines:
+- leaf: 100
+  line: 24pt
+  text: P ersistent W as hingtonians
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

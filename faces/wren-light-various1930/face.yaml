@@ -1,0 +1,64 @@
+name: wren-light-various1930
+title: Wren Light
+series: Wren Light
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 96
+leaf_pages:
+  96: 84
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      96:60pt: 33.6
+  x_height: 380
+lines:
+  96:60pt:
+    n_caps: 2
+    cap_height_px: 239.5
+    cap_source: caps
+    baseline_px: 717.5
+    baselines:
+      '1': 717.5
+    glyphs:
+    - D
+    - e
+    - t
+    - a
+    - c
+    - h
+    - e.60pt
+    - d
+    - H
+    - o
+    - m
+    - e.60pt_2
+    x_height_px: 130.0
+    stem_px: 21.5
+    scale: 2.92276
+    stem_units: 62.8
+    x_height: 380
+specimen_lines:
+- leaf: 96
+  line: 60pt
+  text: Detached Home
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

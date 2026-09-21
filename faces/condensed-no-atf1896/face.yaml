@@ -1,0 +1,86 @@
+name: condensed-no-atf1896
+title: Condensed No
+series: Condensed No
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 562
+leaf_pages:
+  562: 558
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      562:60pt: 41.3
+  x_height: 482
+lines:
+  562:60pt:
+    n_caps: 12
+    cap_height_px: 407.0
+    cap_source: caps
+    baseline_px: 2510.5
+    baselines:
+      '3': 2510.5
+      '4': 3130
+      '5': 3579
+    glyphs:
+    - A
+    - L
+    - K
+    - A.60pt
+    - L.60pt
+    - I
+    - A.60pt_2
+    - R
+    - G
+    - U
+    - S
+    - B
+    - u
+    - l
+    - l.60pt
+    - e
+    - t
+    - i
+    - n
+    x_height_px: 280
+    stem_px: 12.5
+    scale: 1.7199
+    stem_units: 21.5
+    x_height: 482
+specimen_lines:
+- leaf: 562
+  line: 60pt
+  text: ALKALI
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 562
+  line: 60pt
+  text: ARGUS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 562
+  line: 60pt
+  text: Bulletin
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

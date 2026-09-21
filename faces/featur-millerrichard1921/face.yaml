@@ -1,0 +1,102 @@
+name: featur-millerrichard1921
+title: Featur
+series: Featur
+status: proto
+version: 0.1.0
+book: printingtypespec00millrich
+source:
+  archive_id: printingtypespec00millrich
+  title: Printing type specimens, comprising a large variety of book and jobbing faces,
+    borders and ornaments
+  creator: Miller & Richard (Firm)
+  publisher: Edinburgh, London
+  date: '[1921?]'
+  ppi: 300
+  url: https://archive.org/details/printingtypespec00millrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 150
+leaf_pages:
+  150: 218
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      150:42pt: 128.0
+      150:36pt: 158.3
+  x_height: 528
+lines:
+  150:42pt:
+    n_caps: 9
+    cap_height_px: 134
+    cap_source: caps
+    baseline_px: 1128.5
+    baselines:
+      '3': 1128.5
+      '4': 1362
+    glyphs:
+    - N
+    - o
+    - t
+    - e
+    - d
+    - B
+    - a
+    - n
+    - d.42pt
+    - s
+    - P
+    - E
+    - R
+    - F
+    - O
+    - R.42pt
+    - M
+    x_height_px: 101.0
+    stem_px: 49
+    scale: 5.22388
+    stem_units: 256.0
+    x_height: 528
+  150:36pt:
+    n_caps: 9
+    cap_height_px: 115
+    cap_source: caps
+    baseline_px: 1879
+    baselines:
+      '6': 1879
+    glyphs:
+    - C
+    - E.36pt
+    - L
+    - E.36pt_2
+    - B.36pt
+    - R.36pt
+    - A
+    - T
+    - E.36pt_3
+    stem_px: 40
+    scale: 6.08696
+    stem_units: 243.5
+specimen_lines:
+- leaf: 150
+  line: 42pt
+  text: Noted Bands
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 150
+  line: 42pt
+  text: PERFORM
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 150
+  line: 36pt
+  text: CELEBRATE
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

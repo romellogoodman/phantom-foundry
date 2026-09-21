@@ -1,0 +1,75 @@
+name: heintzemann-atf1902b
+title: Heintzemann
+series: Heintzemann
+status: proto
+version: 0.1.0
+book: deskbookoftypesp02amer
+source:
+  archive_id: deskbookoftypesp02amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    2, 11-22)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp02amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 115
+leaf_pages:
+  115: 8
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      115:30pt: 38.2
+  x_height: 503
+lines:
+  115:30pt:
+    n_caps: 3
+    cap_height_px: 165
+    cap_source: caps
+    baseline_px: 753
+    baselines:
+      '1': 753
+    glyphs:
+    - E
+    - w
+    - i
+    - g
+    - e
+    - r
+    - R
+    - a
+    - m
+    - p
+    - f
+    - u
+    - m.30pt
+    - F
+    - r.30pt
+    - e.30pt
+    - i.30pt
+    - h
+    - e.30pt_2
+    - i.30pt_2
+    - t
+    x_height_px: 118.5
+    stem_px: 3
+    scale: 4.24242
+    stem_units: 12.7
+    x_height: 503
+specimen_lines:
+- leaf: 115
+  line: 30pt
+  text: Ewiger Rampf um Freiheit
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,84 @@
+name: poster-de-yinme-eonoeivseo-atf1897
+title: Poster De Yinme Eonoeivseo
+series: Poster De Yinme Eonoeivseo
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 601
+leaf_pages:
+  601: 599
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      601:42pt: 52.9
+      601:36pt: 57.4
+lines:
+  601:42pt:
+    n_caps: 8
+    cap_height_px: 291.0
+    cap_source: caps
+    baseline_px: 1012.5
+    baselines:
+      '1': 1012.5
+    glyphs:
+    - S
+    - E
+    - R
+    - V
+    - I
+    - C
+    - E.42pt
+    - S.42pt
+    stem_px: 21.0
+    scale: 2.4055
+    stem_units: 50.5
+  601:36pt:
+    n_caps: 9
+    cap_height_px: 244
+    cap_source: caps
+    baseline_px: 2895
+    baselines:
+      '5': 2895
+    glyphs:
+    - P
+    - O
+    - L
+    - I.36pt
+    - T
+    - I.36pt_2
+    - C.36pt
+    - A
+    - L.36pt
+    stem_px: 41
+    scale: 2.86885
+    stem_units: 117.6
+specimen_lines:
+- leaf: 601
+  line: 42pt
+  text: SERVICES
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 601
+  line: 36pt
+  text: POLITICAL
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

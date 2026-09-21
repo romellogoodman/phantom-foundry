@@ -1,0 +1,112 @@
+name: two-line-figures-inland1907
+title: Two-Line Figures
+series: Ttoo-line Fiqunes
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 223
+  - 225
+leaf_pages:
+  223: 215
+  225: 217
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      223:30pt: 97.9
+      223:20pt: 70.7
+  x_height: 671
+lines:
+  223:30pt:
+    n_caps: 0
+    cap_height_px: 143
+    cap_source: ascenders
+    baseline_px: 4102
+    baselines:
+      '9': 4102
+    glyphs:
+    - dollar
+    - one
+    - five
+    - c
+    - dollar.30pt
+    - nine
+    - two
+    - five.30pt
+    - c.30pt
+    - dollar.30pt_2
+    - two.30pt
+    - three
+    - four
+    x_height_px: 138.5
+    figure_height_px: 202.0
+    scale: 4.8951
+    x_height: 678
+    figure_height: 989
+  223:20pt:
+    n_caps: 0
+    cap_height_px: 99
+    cap_source: ascenders
+    baseline_px: 1596
+    baselines:
+      '3': 1596
+    glyphs:
+    - dollar.20pt
+    - one.20pt
+    - period
+    - seven
+    - five.20pt
+    - one.20pt_2
+    - zero
+    - c.20pt
+    - dollar.20pt_2
+    - two.20pt
+    - five.20pt_2
+    - seven.20pt
+    - period.20pt
+    - six
+    - zero.20pt
+    - three.20pt
+    - nine.20pt
+    - c.20pt_2
+    - dollar.20pt_3
+    - two.20pt_2
+    - five.20pt_3
+    - three.20pt_2
+    - c.20pt_3
+    x_height_px: 94
+    figure_height_px: 132
+    scale: 7.07071
+    x_height: 665
+    figure_height: 933
+specimen_lines:
+- leaf: 223
+  line: 30pt
+  text: $15c $92 5c $234
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 223
+  line: 20pt
+  text: $1.75 10c $257.60 39c $25 3c
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Ttoo-line Fiqunes
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

@@ -1,0 +1,116 @@
+name: condensed-gothic-no-4-inland1897
+title: Condensed Gothic No. 4
+series: Condensed Gothic No. 4
+status: proto
+version: 0.1.0
+book: specimenbookcata00inlauoft
+source:
+  archive_id: specimenbookcata00inlauoft
+  title: Specimen book and catalog; a price list of printers' supplies, showing types
+    and rules in which are embodied all the latest ideas that enable the printer to
+    produce superior work ..
+  creator: Inland Type Foundry, St. Louis
+  publisher: St. Louis, Inland Type Foundry
+  date: '1897'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inlauoft
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: Robarts - University of Toronto
+  leaves:
+  - 146
+leaf_pages:
+  146: 256
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      146:36pt: 62.6
+      146:30pt: 64.5
+  x_height: 462
+lines:
+  146:36pt:
+    n_caps: 7
+    cap_height_px: 190
+    cap_source: caps
+    baseline_px: 773
+    baselines:
+      '2': 773
+    glyphs:
+    - P
+    - U
+    - R
+    - E
+    - S
+    - T
+    - S.36pt
+    - e
+    - n
+    - t
+    - i
+    - m
+    - e.36pt
+    - n.36pt
+    - t.36pt
+    - one
+    - nine
+    x_height_px: 124.0
+    figure_height_px: 189.5
+    stem_px: 28
+    scale: 3.68421
+    stem_units: 103.2
+    x_height: 457
+    figure_height: 698
+  146:30pt:
+    n_caps: 9
+    cap_height_px: 141
+    cap_source: caps
+    baseline_px: 1110
+    baselines:
+      '3': 1110
+    glyphs:
+    - T.30pt
+    - I
+    - N
+    - T.30pt_2
+    - O
+    - Y
+    - S.30pt
+    - f
+    - o
+    - r
+    - G
+    - r.30pt
+    - o.30pt
+    - w
+    - n.30pt
+    - B
+    - a
+    - b
+    - i.30pt
+    - e.30pt
+    - s
+    - seven
+    x_height_px: 94.0
+    figure_height_px: 140
+    stem_px: 23
+    scale: 4.96454
+    stem_units: 114.2
+    x_height: 467
+    figure_height: 695
+specimen_lines:
+- leaf: 146
+  line: 36pt
+  text: PUREST Sentiment 19
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 146
+  line: 30pt
+  text: TIN TOYS for Grown Babies 7
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

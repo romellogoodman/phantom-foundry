@@ -1,0 +1,196 @@
+name: eastman-atf1900
+title: Eastman
+series: Eastman
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 394
+  - 395
+leaf_pages:
+  395: 1
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      394:72pt: 50.1
+      394:60pt: 35.4
+      394:48pt: 53.5
+      395:30pt: 25.5
+  x_height: 480
+lines:
+  394:72pt:
+    n_caps: 6
+    cap_height_px: 363.0
+    cap_source: caps
+    baseline_px: 931
+    baselines:
+      '2': 931
+      '3': 1457
+    glyphs:
+    - M
+    - I
+    - N
+    - E
+    - S
+    - E.72pt
+    - n
+    - h
+    - a
+    - n.72pt
+    - c
+    - e
+    - d
+    x_height_px: 249
+    stem_px: 13.5
+    scale: 1.92837
+    stem_units: 26.0
+    x_height: 480
+  394:60pt:
+    n_caps: 6
+    cap_height_px: 296.5
+    cap_source: caps
+    baseline_px: 2273.0
+    baselines:
+      '4': 2273.0
+    glyphs:
+    - D
+    - R
+    - E.60pt
+    - A
+    - M.60pt
+    - S.60pt
+    stem_px: 18.5
+    scale: 2.36088
+    stem_units: 43.7
+  394:48pt:
+    n_caps: 9
+    cap_height_px: 242
+    cap_source: caps
+    baseline_px: 3442
+    baselines:
+      '6': 3442
+      '7': 3808.0
+    glyphs:
+    - F
+    - I.48pt
+    - C
+    - T
+    - I.48pt_2
+    - O
+    - N.48pt
+    - G
+    - h.48pt
+    - o
+    - s
+    - t
+    - S.48pt
+    - t.48pt
+    - o.48pt
+    - r
+    - i
+    - e.48pt
+    - s.48pt
+    x_height_px: 172.5
+    stem_px: 29
+    scale: 2.89256
+    stem_units: 83.9
+    x_height: 499
+  395:30pt:
+    n_caps: 12
+    cap_height_px: 151.0
+    cap_source: caps
+    baseline_px: 1489.5
+    baselines:
+      '3': 1489.5
+      '4': 1725.0
+    glyphs:
+    - G.30pt
+    - Y
+    - M.30pt
+    - N.30pt
+    - A.30pt
+    - S.30pt
+    - T.30pt
+    - I.30pt
+    - C.30pt
+    - S.30pt_2
+    - I.30pt_2
+    - n.30pt
+    - t.30pt
+    - e.30pt
+    - r.30pt
+    - e.30pt_2
+    - s.30pt
+    - t.30pt_2
+    - i.30pt
+    - n.30pt_2
+    - g
+    - T.30pt_2
+    - o.30pt
+    - u
+    - r.30pt_2
+    - n.30pt_3
+    - a.30pt
+    - m
+    - e.30pt_3
+    - n.30pt_4
+    - t.30pt_3
+    x_height_px: 103
+    stem_px: 12.0
+    scale: 4.63576
+    stem_units: 55.6
+    x_height: 477
+specimen_lines:
+- leaf: 394
+  line: 72pt
+  text: MINES ~
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 394
+  line: 72pt
+  text: Enhanced
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 394
+  line: 60pt
+  text: DREAMS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 394
+  line: 48pt
+  text: FICTION
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 394
+  line: 48pt
+  text: Ghost Stories
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 395
+  line: 30pt
+  text: GYMNASTICS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 395
+  line: 30pt
+  text: Interesting Tournament
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

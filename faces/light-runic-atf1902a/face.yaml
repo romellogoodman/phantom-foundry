@@ -1,0 +1,170 @@
+name: light-runic-atf1902a
+title: Light Runic
+series: Light Runic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 486
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      486:60pt: 43.6
+      486:42pt: 58.9
+      486:36pt: 54.6
+      486:24pt: 54.2
+  x_height: 482
+lines:
+  486:60pt:
+    n_caps: 5
+    cap_height_px: 305
+    cap_source: caps
+    baseline_px: 959
+    baselines:
+      '1': 959
+    glyphs:
+    - T
+    - I
+    - M
+    - E
+    - R
+    - e
+    - c
+    - o
+    - r
+    - d
+    - s
+    x_height_px: 210.0
+    stem_px: 28
+    scale: 2.29508
+    stem_units: 64.3
+    x_height: 482
+  486:42pt:
+    n_caps: 6
+    cap_height_px: 255.5
+    cap_source: caps
+    baseline_px: 1441.0
+    baselines:
+      '2': 1441.0
+    glyphs:
+    - M.42pt
+    - a
+    - n
+    - s.42pt
+    - i
+    - o.42pt
+    - n.42pt
+    - H
+    - O
+    - U
+    - S
+    - E.42pt
+    x_height_px: 174.0
+    stem_px: 19.5
+    scale: 2.73973
+    stem_units: 53.4
+    x_height: 477
+  486:36pt:
+    n_caps: 7
+    cap_height_px: 218
+    cap_source: caps
+    baseline_px: 1895
+    baselines:
+      '3': 1895
+    glyphs:
+    - R.36pt
+    - U.36pt
+    - I.36pt
+    - N
+    - E.36pt
+    - D
+    - L
+    - a.36pt
+    - n.36pt
+    - d.36pt
+    - l
+    - o.36pt
+    - r.36pt
+    - d.36pt_2
+    x_height_px: 150
+    stem_px: 21
+    scale: 3.21101
+    stem_units: 67.4
+    x_height: 482
+  486:24pt:
+    n_caps: 11
+    cap_height_px: 142
+    cap_source: caps
+    baseline_px: 2692
+    baselines:
+      '5': 2692
+    glyphs:
+    - I.24pt
+    - N.24pt
+    - D.24pt
+    - U.24pt
+    - S.24pt
+    - T.24pt
+    - R.24pt
+    - I.24pt_2
+    - A
+    - L.24pt
+    - O.24pt
+    - r.24pt
+    - g
+    - a.24pt
+    - n.24pt
+    - i.24pt
+    - z
+    - a.24pt_2
+    - t
+    - i.24pt_2
+    - o.24pt
+    - n.24pt_2
+    - s.24pt
+    x_height_px: 98.0
+    stem_px: 15
+    scale: 4.92958
+    stem_units: 73.9
+    x_height: 483
+specimen_lines:
+- leaf: 486
+  line: 60pt
+  text: TIME Records
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 486
+  line: 42pt
+  text: Mansion HOUSE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 486
+  line: 36pt
+  text: RUINED Landlord
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 486
+  line: 24pt
+  text: INDUSTRIAL Organizations
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

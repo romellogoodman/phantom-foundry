@@ -1,0 +1,102 @@
+name: yonkers-atf1902b
+title: Yonkers
+series: Yonkers
+status: proto
+version: 0.1.0
+book: deskbookoftypesp02amer
+source:
+  archive_id: deskbookoftypesp02amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    2, 11-22)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp02amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 98
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      98:48pt: 42.9
+      98:30pt: 60.8
+  x_height: 459
+lines:
+  98:48pt:
+    n_caps: 2
+    cap_height_px: 253.0
+    cap_source: caps
+    baseline_px: 849.5
+    baselines:
+      '1': 849.5
+    glyphs:
+    - O
+    - r
+    - i
+    - e
+    - n
+    - t
+    - a
+    - l
+    - S
+    - t.48pt
+    - r.48pt
+    - e.48pt
+    - a.48pt
+    - m
+    x_height_px: 162.0
+    stem_px: 9.5
+    scale: 2.7668
+    stem_units: 26.3
+    x_height: 448
+  98:30pt:
+    n_caps: 2
+    cap_height_px: 155.5
+    cap_source: caps
+    baseline_px: 1861.0
+    baselines:
+      '3': 1861.0
+    glyphs:
+    - S.30pt
+    - o
+    - u
+    - t.30pt
+    - h
+    - e.30pt
+    - r.30pt
+    - n.30pt
+    - C
+    - h.30pt
+    - i.30pt
+    - v
+    - a.30pt
+    - l.30pt
+    - r.30pt_2
+    - y
+    x_height_px: 104.5
+    stem_px: 5.5
+    scale: 4.50161
+    stem_units: 24.8
+    x_height: 470
+specimen_lines:
+- leaf: 98
+  line: 48pt
+  text: Oriental Stream
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 98
+  line: 30pt
+  text: Southern Chivalry
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

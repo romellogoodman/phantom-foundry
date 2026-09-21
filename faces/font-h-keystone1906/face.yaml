@@ -1,0 +1,129 @@
+name: font-h-keystone1906
+title: Font H
+series: Font H
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 128
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      128:36pt: 42.8
+      128:30pt: 43.2
+  x_height: 568
+lines:
+  128:36pt:
+    n_caps: 13
+    cap_height_px: 180
+    cap_source: caps
+    baseline_px: 2371
+    baselines:
+      '5': 2371
+    glyphs:
+    - B
+    - A
+    - C
+    - K
+    - T
+    - O
+    - T.36pt
+    - H
+    - E
+    - B.36pt
+    - E.36pt
+    - S
+    - T.36pt_2
+    stem_px: 18
+    scale: 3.88889
+    stem_units: 70.0
+  128:30pt:
+    n_caps: 20
+    cap_height_px: 146.0
+    cap_source: caps
+    baseline_px: 1658.0
+    baselines:
+      '3': 1658.0
+      '4': 1892.5
+    glyphs:
+    - B.30pt
+    - E.30pt
+    - T.30pt
+    - T.30pt_2
+    - E.30pt_2
+    - R
+    - G
+    - R.30pt
+    - A.30pt
+    - D
+    - E.30pt_3
+    - F
+    - A.30pt_2
+    - C.30pt
+    - E.30pt_4
+    - S.30pt
+    - T.30pt_3
+    - h
+    - e
+    - P
+    - r
+    - i
+    - d
+    - e.30pt
+    - o
+    - f
+    - M
+    - o.30pt
+    - d.30pt
+    - e.30pt_2
+    - r.30pt
+    - n
+    - P.30pt
+    - r.30pt_2
+    - i.30pt
+    - n.30pt
+    - t
+    - e.30pt_3
+    - r.30pt_3
+    - s
+    x_height_px: 118.5
+    stem_px: 15.0
+    scale: 4.79452
+    stem_units: 71.9
+    x_height: 568
+specimen_lines:
+- leaf: 128
+  line: 36pt
+  text: BACK TO THE BEST
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 128
+  line: 30pt
+  text: BETTER GRADE FACES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 128
+  line: 30pt
+  text: The Pride of Modern Printers
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,145 @@
+name: durable-millerrichard1921
+title: Durable
+series: Durable
+status: proto
+version: 0.1.0
+book: printingtypespec00millrich
+source:
+  archive_id: printingtypespec00millrich
+  title: Printing type specimens, comprising a large variety of book and jobbing faces,
+    borders and ornaments
+  creator: Miller & Richard (Firm)
+  publisher: Edinburgh, London
+  date: '[1921?]'
+  ppi: 300
+  url: https://archive.org/details/printingtypespec00millrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 102
+leaf_pages:
+  102: 126
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      102:60pt: 67.0
+      102:48pt: 49.4
+      102:42pt: 38.5
+  x_height: 483
+lines:
+  102:60pt:
+    n_caps: 6
+    cap_height_px: 198.5
+    cap_source: caps
+    baseline_px: 1611.5
+    baselines:
+      '4': 1611.5
+    glyphs:
+    - D
+    - E
+    - S
+    - I
+    - G
+    - N
+    stem_px: 54.5
+    scale: 3.52645
+    stem_units: 192.2
+  102:48pt:
+    n_caps: 9
+    cap_height_px: 156
+    cap_source: caps
+    baseline_px: 1973.0
+    baselines:
+      '5': 1973.0
+      '6': 2230
+    glyphs:
+    - T
+    - r
+    - a
+    - d
+    - e
+    - H
+    - o
+    - u
+    - s
+    - e.48pt
+    - R
+    - E.48pt
+    - T.48pt
+    - U
+    - R.48pt
+    - N.48pt
+    - S.48pt
+    x_height_px: 108.0
+    stem_px: 49
+    scale: 4.48718
+    stem_units: 219.9
+    x_height: 485
+  102:42pt:
+    n_caps: 10
+    cap_height_px: 136.5
+    cap_source: caps
+    baseline_px: 2571.0
+    baselines:
+      '7': 2571.0
+      '8': 2796.5
+    glyphs:
+    - S.42pt
+    - e.42pt
+    - a.42pt
+    - s.42pt
+    - i
+    - d.42pt
+    - e.42pt_2
+    - R.42pt
+    - e.42pt_3
+    - s.42pt_2
+    - o.42pt
+    - r.42pt
+    - t
+    - B
+    - R.42pt_2
+    - I.42pt
+    - G.42pt
+    - H.42pt
+    - T.42pt
+    - O
+    - N.42pt
+    x_height_px: 94
+    stem_px: 44.0
+    scale: 5.12821
+    stem_units: 225.6
+    x_height: 482
+specimen_lines:
+- leaf: 102
+  line: 60pt
+  text: DESIGN
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 102
+  line: 48pt
+  text: Trade House
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 102
+  line: 48pt
+  text: RETURNS
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 102
+  line: 42pt
+  text: Seaside Resort
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 102
+  line: 42pt
+  text: BRIGHTON
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

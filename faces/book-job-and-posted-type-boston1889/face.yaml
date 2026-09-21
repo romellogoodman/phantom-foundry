@@ -1,0 +1,112 @@
+name: book-job-and-posted-type-boston1889
+title: Book. Job and Posted Type.
+series: Book. Job and Posted Type.
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 75
+leaf_pages:
+  75: 69
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      75:48pt: 35.0
+  x_height: 468
+lines:
+  75:48pt:
+    n_caps: 14
+    cap_height_px: 160.0
+    cap_source: caps
+    baseline_px: 3329
+    baselines:
+      '10': 3329
+      '3': 1514.0
+      '6': 2251
+    glyphs:
+    - N
+    - e
+    - w
+    - E
+    - n
+    - g
+    - l
+    - a
+    - n.48pt
+    - d
+    - comma
+    - a.48pt
+    - n.48pt_2
+    - d.48pt
+    - i
+    - t
+    - M
+    - e.48pt
+    - t.48pt
+    - a.48pt_2
+    - l.48pt
+    - comma.48pt
+    - t.48pt_2
+    - h
+    - e.48pt_2
+    - a.48pt_3
+    - c
+    - c.48pt
+    - u
+    - r
+    - a.48pt_4
+    - c.48pt_2
+    - y
+    - o
+    - f
+    - U
+    - S
+    - E.48pt
+    - F
+    - U.48pt
+    - L
+    - S.48pt
+    - T
+    - Y
+    - L.48pt
+    - E.48pt_2
+    x_height_px: 107.0
+    stem_px: 9.0
+    scale: 4.375
+    stem_units: 39.4
+    x_height: 468
+specimen_lines:
+- leaf: 75
+  line: 48pt
+  text: New England, and it
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 75
+  line: 48pt
+  text: Metal, the accuracy of
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 75
+  line: 48pt
+  text: USEFUL STYLE
+  band: 10
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

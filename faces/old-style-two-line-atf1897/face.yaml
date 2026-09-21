@@ -1,0 +1,80 @@
+name: old-style-two-line-atf1897
+title: Old Style Two-Line
+series: Style Two-line
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 147
+leaf_pages:
+  147: 145
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      147:20pt: 44.9
+lines:
+  147:20pt:
+    n_caps: 21
+    cap_height_px: 156
+    cap_source: caps
+    baseline_px: 2000.0
+    baselines:
+      '3': 2000.0
+      '4': 2353
+    glyphs:
+    - B
+    - U
+    - R
+    - I
+    - E
+    - D
+    - A
+    - M
+    - I.20pt
+    - S
+    - E.20pt
+    - R.20pt
+    - U.20pt
+    - N
+    - M.20pt
+    - O
+    - U.20pt_2
+    - R.20pt_2
+    - N.20pt
+    - E.20pt_2
+    - D.20pt
+    stem_px: 8
+    scale: 4.48718
+    stem_units: 35.9
+specimen_lines:
+- leaf: 147
+  line: 20pt
+  text: BURIED A MISER
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 147
+  line: 20pt
+  text: UNMOURNED
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Style Two-line
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

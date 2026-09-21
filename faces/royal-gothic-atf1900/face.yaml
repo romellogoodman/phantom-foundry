@@ -1,0 +1,247 @@
+name: royal-gothic-atf1900
+title: Royal Gothic
+series: Royal Gothic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 657
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      657:48pt: 55.3
+      657:36pt: 76.3
+      657:30pt: 74.6
+      657:24pt: 69.0
+      657:18pt: 80.4
+  x_height: 497
+lines:
+  657:48pt:
+    n_caps: 6
+    cap_height_px: 278.5
+    cap_source: caps
+    baseline_px: 999.0
+    baselines:
+      '1': 999.0
+    glyphs:
+    - L
+    - I
+    - G
+    - H
+    - T
+    - R
+    - e
+    - t
+    - u
+    - r
+    - n
+    x_height_px: 189
+    stem_px: 74.5
+    scale: 2.51346
+    stem_units: 187.3
+    x_height: 475
+  657:36pt:
+    n_caps: 7
+    cap_height_px: 211
+    cap_source: caps
+    baseline_px: 1427
+    baselines:
+      '2': 1427
+    glyphs:
+    - M
+    - e.36pt
+    - t.36pt
+    - e.36pt_2
+    - o
+    - r.36pt
+    - S
+    - E
+    - C
+    - O
+    - N
+    - D
+    x_height_px: 148
+    stem_px: 61
+    scale: 3.31754
+    stem_units: 202.4
+    x_height: 491
+  657:30pt:
+    n_caps: 17
+    cap_height_px: 169
+    cap_source: caps
+    baseline_px: 1832.5
+    baselines:
+      '3': 1832.5
+      '4': 2081
+    glyphs:
+    - E.30pt
+    - X
+    - C.30pt
+    - U
+    - R.30pt
+    - S.30pt
+    - I.30pt
+    - O.30pt
+    - N.30pt
+    - N.30pt_2
+    - O.30pt_2
+    - R.30pt_2
+    - T.30pt
+    - H.30pt
+    - R.30pt_3
+    - o.30pt
+    - u.30pt
+    - n.30pt
+    - d
+    - T.30pt_2
+    - r.30pt
+    - i
+    - p
+    - T.30pt_3
+    - i.30pt
+    - c
+    - k
+    - e.30pt
+    - t.30pt
+    - s
+    x_height_px: 125
+    stem_px: 51
+    scale: 4.14201
+    stem_units: 211.2
+    x_height: 518
+  657:24pt:
+    n_caps: 18
+    cap_height_px: 142.0
+    cap_source: caps
+    baseline_px: 2448.5
+    baselines:
+      '5': 2448.5
+      '6': 2650.5
+    glyphs:
+    - B
+    - O.24pt
+    - H.24pt
+    - E.24pt
+    - M.24pt
+    - I.24pt
+    - A
+    - N.24pt
+    - R.24pt
+    - E.24pt_2
+    - T.24pt
+    - U.24pt
+    - R.24pt_2
+    - N.24pt_2
+    - E.24pt_3
+    - D.24pt
+    - R.24pt_3
+    - e.24pt
+    - s.24pt
+    - i.24pt
+    - g
+    - n.24pt
+    - a
+    - t.24pt
+    - i.24pt_2
+    - o.24pt
+    - n.24pt_2
+    - s.24pt_2
+    - T.24pt_2
+    - e.24pt_2
+    - n.24pt_3
+    - d.24pt
+    - e.24pt_3
+    - r.24pt
+    - e.24pt_4
+    - d.24pt_2
+    x_height_px: 102.0
+    stem_px: 43.0
+    scale: 4.92958
+    stem_units: 212.0
+    x_height: 503
+  657:18pt:
+    n_caps: 20
+    cap_height_px: 104.5
+    cap_source: caps
+    baseline_px: 3028.5
+    baselines:
+      '7': 3028.5
+    glyphs:
+    - C.18pt
+    - H.18pt
+    - R.18pt
+    - I.18pt
+    - S.18pt
+    - T.18pt
+    - M.18pt
+    - A.18pt
+    - S.18pt_2
+    - G.18pt
+    - R.18pt_2
+    - E.18pt
+    - A.18pt_2
+    - T.18pt_2
+    - P
+    - O.18pt
+    - L.18pt
+    - I.18pt_2
+    - C.18pt_2
+    - E.18pt_2
+    stem_px: 32.0
+    scale: 6.69856
+    stem_units: 214.4
+specimen_lines:
+- leaf: 657
+  line: 48pt
+  text: LIGHT Return
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 657
+  line: 36pt
+  text: Meteor SECOND
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 657
+  line: 30pt
+  text: EXCURSION NORTH
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 657
+  line: 30pt
+  text: Round Trip Tickets
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 657
+  line: 24pt
+  text: BOHEMIAN RETURNED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 657
+  line: 24pt
+  text: Resignations Tendered
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 657
+  line: 18pt
+  text: CHRISTMAS GREAT POLICE
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

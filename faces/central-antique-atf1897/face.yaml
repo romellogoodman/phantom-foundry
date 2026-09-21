@@ -1,0 +1,162 @@
+name: central-antique-atf1897
+title: Central Antique
+series: Eentrhl Antique
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 208
+leaf_pages:
+  208: 206
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      208:54pt: 51.6
+      208:48pt: 68.2
+      208:42pt: 51.7
+      208:36pt: 54.3
+  x_height: 515
+lines:
+  208:54pt:
+    n_caps: 1
+    cap_height_px: 407
+    cap_source: caps
+    baseline_px: 1127
+    baselines:
+      '1': 1127
+    glyphs:
+    - R
+    - e
+    - a
+    - s
+    - o
+    - n
+    x_height_px: 294
+    stem_px: 22
+    scale: 1.7199
+    stem_units: 37.8
+    x_height: 506
+  208:48pt:
+    n_caps: 5
+    cap_height_px: 344
+    cap_source: caps
+    baseline_px: 1758
+    baselines:
+      '2': 1758
+    glyphs:
+    - H
+    - O
+    - M
+    - E
+    - S
+    stem_px: 19
+    scale: 2.03488
+    stem_units: 38.7
+  208:42pt:
+    n_caps: 7
+    cap_height_px: 291
+    cap_source: caps
+    baseline_px: 2778.5
+    baselines:
+      '4': 2778.5
+      '5': 3161
+    glyphs:
+    - G
+    - R.42pt
+    - O.42pt
+    - U
+    - N
+    - D
+    - B
+    - r
+    - e.42pt
+    - a.42pt
+    - s.42pt
+    - t
+    x_height_px: 214
+    stem_px: 18
+    scale: 2.4055
+    stem_units: 43.3
+    x_height: 515
+  208:36pt:
+    n_caps: 9
+    cap_height_px: 232
+    cap_source: caps
+    baseline_px: 3668.5
+    baselines:
+      '6': 3668.5
+      '7': 3998
+    glyphs:
+    - E.36pt
+    - A
+    - S.36pt
+    - T
+    - S.36pt_2
+    - I
+    - D.36pt
+    - E.36pt_2
+    - P
+    - u
+    - r.36pt
+    - c
+    - h
+    - a.36pt
+    - s.36pt
+    - e.36pt
+    x_height_px: 172
+    stem_px: 16
+    scale: 3.01724
+    stem_units: 48.3
+    x_height: 519
+specimen_lines:
+- leaf: 208
+  line: 54pt
+  text: Reason
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 208
+  line: 48pt
+  text: HOMES
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 208
+  line: 42pt
+  text: GROUND
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 208
+  line: 42pt
+  text: Breast
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 208
+  line: 36pt
+  text: EAST SIDE
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 208
+  line: 36pt
+  text: Purcha se
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Eentrhl Antique
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

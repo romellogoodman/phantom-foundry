@@ -1,0 +1,201 @@
+name: lippincott-atf1900
+title: Lippincott
+series: Lippincott
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 397
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      397:60pt: 25.1
+      397:48pt: 23.1
+      397:36pt: 31.2
+      397:30pt: 36.4
+      397:24pt: 56.0
+  x_height: 481
+lines:
+  397:60pt:
+    n_caps: 6
+    cap_height_px: 334.5
+    cap_source: caps
+    baseline_px: 909.0
+    baselines:
+      '1': 909.0
+    glyphs:
+    - B
+    - R
+    - I
+    - S
+    - K
+    - D
+    - a
+    - m
+    - e
+    - s
+    x_height_px: 227.5
+    stem_px: 42.5
+    scale: 2.09268
+    stem_units: 88.9
+    x_height: 476
+  397:48pt:
+    n_caps: 7
+    cap_height_px: 273
+    cap_source: caps
+    baseline_px: 1445
+    baselines:
+      '2': 1445
+    glyphs:
+    - R.48pt
+    - a.48pt
+    - r
+    - e.48pt
+    - M
+    - U
+    - S.48pt
+    - I.48pt
+    - C
+    - B.48pt
+    - o
+    - x
+    x_height_px: 185
+    stem_px: 14
+    scale: 2.5641
+    stem_units: 35.9
+    x_height: 474
+  397:36pt:
+    n_caps: 9
+    cap_height_px: 202
+    cap_source: caps
+    baseline_px: 1900
+    baselines:
+      '3': 1900
+    glyphs:
+    - A
+    - s.36pt
+    - p
+    - i
+    - r.36pt
+    - a.36pt
+    - n
+    - t
+    - s.36pt_2
+    - E
+    - X
+    - A.36pt
+    - M.36pt
+    - I.36pt
+    - N
+    - E.36pt
+    - D.36pt
+    x_height_px: 140.5
+    stem_px: 11
+    scale: 3.46535
+    stem_units: 38.1
+    x_height: 487
+  397:30pt:
+    n_caps: 9
+    cap_height_px: 173
+    cap_source: caps
+    baseline_px: 2322
+    baselines:
+      '4': 2322
+    glyphs:
+    - Q
+    - u
+    - a.30pt
+    - i.30pt
+    - n.30pt
+    - t.30pt
+    - H
+    - A.30pt
+    - M.30pt
+    - B.30pt
+    - U.30pt
+    - R.30pt
+    - G
+    - S.30pt
+    - t.30pt_2
+    - o.30pt
+    - n.30pt_2
+    - e.30pt
+    - s.30pt
+    x_height_px: 121.5
+    stem_px: 13
+    scale: 4.04624
+    stem_units: 52.6
+    x_height: 492
+  397:24pt:
+    n_caps: 17
+    cap_height_px: 100
+    cap_source: caps
+    baseline_px: 2734
+    baselines:
+      '5': 2734
+    glyphs:
+    - U.24pt
+    - R.24pt
+    - C.24pt
+    - H.24pt
+    - I.24pt
+    - N.24pt
+    - S.24pt
+    - A.24pt
+    - N.24pt_2
+    - T
+    - I.24pt_2
+    - Q.24pt
+    - U.24pt_2
+    - A.24pt_2
+    - T.24pt
+    - E.24pt
+    - D.24pt
+    stem_px: 9
+    scale: 7.0
+    stem_units: 63.0
+specimen_lines:
+- leaf: 397
+  line: 60pt
+  text: BRISK Dames
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 397
+  line: 48pt
+  text: Rare MUSIC Box
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 397
+  line: 36pt
+  text: Aspirants EXAMINED
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 397
+  line: 30pt
+  text: Quaint HAMBURG Stones
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 397
+  line: 24pt
+  text: URCHINS ANTIQUATED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

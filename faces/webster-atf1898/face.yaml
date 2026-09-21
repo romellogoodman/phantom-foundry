@@ -1,0 +1,91 @@
+name: webster-atf1898
+title: Webster
+series: Webster
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 505
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      505:36pt: 59.4
+      505:24pt: 103.7
+lines:
+  505:36pt:
+    n_caps: 10
+    cap_height_px: 165.0
+    cap_source: caps
+    baseline_px: 1049.5
+    baselines:
+      '3': 1049.5
+    glyphs:
+    - A
+    - S
+    - T
+    - R
+    - O
+    - L
+    - O.36pt
+    - G
+    - E
+    - R.36pt
+    stem_px: 12.0
+    scale: 4.24242
+    stem_units: 50.9
+  505:24pt:
+    n_caps: 14
+    cap_height_px: 108.0
+    cap_source: caps
+    baseline_px: 1663.5
+    baselines:
+      '5': 1663.5
+    glyphs:
+    - S.24pt
+    - A.24pt
+    - L.24pt
+    - E.24pt
+    - M
+    - D
+    - E.24pt_2
+    - L.24pt_2
+    - U
+    - S.24pt_2
+    - I
+    - O.24pt
+    - N
+    - S.24pt_3
+    stem_px: 8.0
+    scale: 6.48148
+    stem_units: 51.9
+specimen_lines:
+- leaf: 505
+  line: 36pt
+  text: ASTROLOGER
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 505
+  line: 24pt
+  text: SALEM DELUSIONS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

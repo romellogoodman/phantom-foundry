@@ -1,0 +1,110 @@
+name: old-style-condensed-atf1898
+title: Old Style Condensed
+series: Old Style Condensed
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 158
+  - 159
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      158:42pt: 50.4
+      159:24pt: 61.6
+  x_height: 475
+lines:
+  158:42pt:
+    n_caps: 6
+    cap_height_px: 208.5
+    cap_source: caps
+    baseline_px: 3292.0
+    baselines:
+      '6': 3292.0
+    glyphs:
+    - six
+    - one
+    - P
+    - h
+    - r
+    - a
+    - s
+    - e
+    - F
+    - I
+    - R
+    - S
+    - T
+    x_height_px: 143
+    figure_height_px: 162.0
+    stem_px: 15.5
+    scale: 3.35731
+    stem_units: 52.0
+    x_height: 480
+    figure_height: 544
+  159:24pt:
+    n_caps: 8
+    cap_height_px: 125.0
+    cap_source: caps
+    baseline_px: 1679.5
+    baselines:
+      '4': 1679.5
+    glyphs:
+    - T.24pt
+    - r.24pt
+    - e.24pt
+    - a.24pt
+    - c
+    - h.24pt
+    - e.24pt_2
+    - r.24pt_2
+    - o
+    - u
+    - s.24pt
+    - H
+    - U
+    - N
+    - T.24pt_2
+    - I.24pt
+    - N.24pt
+    - G
+    - five
+    - two
+    x_height_px: 84.0
+    figure_height_px: 103.0
+    stem_px: 8.5
+    scale: 5.6
+    stem_units: 47.6
+    x_height: 470
+    figure_height: 577
+specimen_lines:
+- leaf: 158
+  line: 42pt
+  text: 61 Phrase FIRST
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 159
+  line: 24pt
+  text: Treacherous HUNTING 52
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

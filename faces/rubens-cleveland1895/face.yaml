@@ -1,0 +1,115 @@
+name: rubens-cleveland1895
+title: Rubens
+series: Rubens
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 203
+leaf_pages:
+  203: 199
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      203:60pt: 12.0
+      203:42pt: 18.3
+  x_height: 639
+lines:
+  203:60pt:
+    n_caps: 8
+    cap_height_px: 351.0
+    cap_source: caps
+    baseline_px: 2487.0
+    baselines:
+      '5': 2487.0
+    glyphs:
+    - seven
+    - five
+    - A
+    - n
+    - i
+    - m
+    - a
+    - l
+    - s
+    - F
+    - I
+    - G
+    - U
+    - R
+    - E
+    - D
+    x_height_px: 297.5
+    figure_height_px: 352.0
+    stem_px: 34.5
+    scale: 1.9943
+    stem_units: 68.8
+    x_height: 593
+    figure_height: 702
+  203:42pt:
+    n_caps: 11
+    cap_height_px: 229
+    cap_source: caps
+    baseline_px: 1093
+    baselines:
+      '3': 1093
+    glyphs:
+    - C
+    - d
+    - l.42pt
+    - o
+    - y
+    - M
+    - e
+    - a.42pt
+    - l.42pt_2
+    - i.42pt
+    - n.42pt
+    - g
+    - comma
+    - P
+    - A.42pt
+    - P.42pt
+    - E.42pt
+    - R.42pt
+    - F.42pt
+    - O
+    - L
+    - D.42pt
+    - seven.42pt
+    - five.42pt
+    x_height_px: 224.0
+    figure_height_px: 232.0
+    stem_px: 25
+    scale: 3.05677
+    stem_units: 76.4
+    x_height: 685
+    figure_height: 709
+specimen_lines:
+- leaf: 203
+  line: 60pt
+  text: 75 Animals FIGURED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 203
+  line: 42pt
+  text: Cdloy Mealing, PAPER FOLD 75
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,237 @@
+name: french-doric-atf1896
+title: French Doric.
+series: French Doric.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 440
+  - 441
+leaf_pages:
+  440: 436
+  441: 437
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      440:42pt: 59.4
+      440:36pt: 78.3
+      441:30pt: 64.7
+      441:22pt: 66.9
+  x_height: 556
+lines:
+  440:42pt:
+    n_caps: 1
+    cap_height_px: 271
+    cap_source: caps
+    baseline_px: 2508
+    baselines:
+      '4': 2508
+    glyphs:
+    - S
+    - e
+    - l
+    - e.42pt
+    - c
+    - t
+    - i
+    - o
+    - n
+    - s
+    - three
+    - two
+    x_height_px: 194
+    figure_height_px: 266.5
+    stem_px: 23
+    scale: 2.58303
+    stem_units: 59.4
+    x_height: 501
+    figure_height: 688
+  440:36pt:
+    n_caps: 12
+    cap_height_px: 210.0
+    cap_source: caps
+    baseline_px: 3215.5
+    baselines:
+      '5': 3215.5
+      '6': 3577.0
+    glyphs:
+    - S.36pt
+    - O
+    - L
+    - I
+    - C
+    - I.36pt
+    - T
+    - O.36pt
+    - U
+    - S.36pt_2
+    - P
+    - u
+    - b
+    - l.36pt
+    - i.36pt
+    - s.36pt
+    - h
+    - seven
+    - P.36pt
+    - r
+    - i.36pt_2
+    - n.36pt
+    - t.36pt
+    - s.36pt_2
+    x_height_px: 175
+    figure_height_px: 210
+    stem_px: 22.0
+    scale: 3.33333
+    stem_units: 73.3
+    x_height: 583
+    figure_height: 700
+  441:30pt:
+    n_caps: 13
+    cap_height_px: 173
+    cap_source: caps
+    baseline_px: 826
+    baselines:
+      '1': 826
+      '2': 1161.0
+    glyphs:
+    - C.30pt
+    - O.30pt
+    - N
+    - C.30pt_2
+    - I.30pt
+    - L.30pt
+    - I.30pt_2
+    - A
+    - T.30pt
+    - O.30pt_2
+    - R
+    - B
+    - u.30pt
+    - i.30pt
+    - l.30pt
+    - d
+    - i.30pt_2
+    - n.30pt
+    - g
+    - five
+    - four
+    - C.30pt_3
+    - o.30pt
+    - l.30pt_2
+    - l.30pt_3
+    - e.30pt
+    - g.30pt
+    - e.30pt_2
+    - s.30pt
+    x_height_px: 170.5
+    figure_height_px: 174.0
+    stem_px: 19
+    scale: 4.04624
+    stem_units: 76.9
+    x_height: 690
+    figure_height: 704
+  441:22pt:
+    n_caps: 13
+    cap_height_px: 136
+    cap_source: caps
+    baseline_px: 1753
+    baselines:
+      '3': 1753
+      '4': 2039.5
+    glyphs:
+    - W
+    - H
+    - A.22pt
+    - L.22pt
+    - E
+    - R.22pt
+    - E.22pt
+    - S.22pt
+    - O.22pt
+    - L.22pt_2
+    - D
+    - S.22pt_2
+    - u.22pt
+    - p
+    - p.22pt
+    - o.22pt
+    - s.22pt
+    - i.22pt
+    - n.22pt
+    - g.22pt
+    - eight
+    - E.22pt_2
+    - n.22pt_2
+    - t.22pt
+    - h.22pt
+    - u.22pt_2
+    - s.22pt_2
+    - i.22pt_2
+    - a
+    - s.22pt_3
+    - t.22pt_2
+    - s.22pt_4
+    x_height_px: 103.0
+    figure_height_px: 136
+    stem_px: 16
+    scale: 5.14706
+    stem_units: 82.4
+    x_height: 530
+    figure_height: 700
+specimen_lines:
+- leaf: 440
+  line: 42pt
+  text: Selections 32
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 440
+  line: 36pt
+  text: SOLICITOUS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 440
+  line: 36pt
+  text: Publish 7 Prints
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 441
+  line: 30pt
+  text: CONCILIATOR
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 441
+  line: 30pt
+  text: Building 54 Colleges
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 441
+  line: 22pt
+  text: WHA LE RESOLD
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 441
+  line: 22pt
+  text: Supposing 8 Enthusiasts
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

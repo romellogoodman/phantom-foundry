@@ -1,0 +1,150 @@
+name: celtic-no-3-atf1900
+title: Celtic No 3
+series: Celtic No
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 492
+leaf_pages:
+  492: 678
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      492:24pt: 70.9
+      492:18pt: 103.8
+  x_height: 587
+lines:
+  492:24pt:
+    n_caps: 14
+    cap_height_px: 118.5
+    cap_source: caps
+    baseline_px: 1073
+    baselines:
+      '3': 1073
+      '4': 1307
+    glyphs:
+    - G
+    - r
+    - e
+    - a
+    - t
+    - N
+    - a.24pt
+    - t.24pt
+    - u
+    - r.24pt
+    - a.24pt_2
+    - l
+    - L
+    - a.24pt_3
+    - k
+    - e.24pt
+    - s
+    - R
+    - U
+    - S
+    - T
+    - I
+    - C
+    - H
+    - O
+    - M
+    - E
+    - S.24pt
+    x_height_px: 107.5
+    stem_px: 8.5
+    scale: 5.90717
+    stem_units: 50.2
+    x_height: 635
+  492:18pt:
+    n_caps: 16
+    cap_height_px: 118.0
+    cap_source: caps
+    baseline_px: 1759
+    baselines:
+      '5': 1759
+      '6': 1950
+    glyphs:
+    - S.18pt
+    - U.18pt
+    - M.18pt
+    - M.18pt_2
+    - E.18pt
+    - R.18pt
+    - T.18pt
+    - O.18pt
+    - U.18pt_2
+    - R.18pt_2
+    - I.18pt
+    - S.18pt_2
+    - T.18pt_2
+    - R.18pt_3
+    - e.18pt
+    - l.18pt
+    - i
+    - a.18pt
+    - b
+    - l.18pt_2
+    - e.18pt_2
+    - P
+    - a.18pt_2
+    - c
+    - i.18pt
+    - f
+    - i.18pt_2
+    - c.18pt
+    - S.18pt_3
+    - t.18pt
+    - e.18pt_3
+    - a.18pt_3
+    - m
+    - e.18pt_4
+    - r.18pt
+    x_height_px: 91
+    stem_px: 8.0
+    scale: 5.9322
+    stem_units: 47.5
+    x_height: 540
+specimen_lines:
+- leaf: 492
+  line: 24pt
+  text: Great Natural Lakes
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 492
+  line: 24pt
+  text: RUSTIC HOMES
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 492
+  line: 18pt
+  text: SUMMER TOURIST
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 492
+  line: 18pt
+  text: Reliable Pacific Steamer
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Celtic No
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

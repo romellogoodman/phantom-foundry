@@ -1,0 +1,71 @@
+name: old-style-no-12-boston1889
+title: Old Style No. 12
+series: Old Style No
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 108
+leaf_pages:
+  108: 102
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      108:42pt: 38.9
+lines:
+  108:42pt:
+    n_caps: 17
+    cap_height_px: 162
+    cap_source: caps
+    baseline_px: 879
+    baselines:
+      '2': 879
+    glyphs:
+    - S
+    - E
+    - L
+    - E.42pt
+    - C
+    - T
+    - I
+    - N
+    - S.42pt
+    - C.42pt
+    - R
+    - I.42pt
+    - P
+    - T.42pt
+    - I.42pt_2
+    - O
+    - N.42pt
+    stem_px: 15
+    scale: 4.32099
+    stem_units: 64.8
+specimen_lines:
+- leaf: 108
+  line: 42pt
+  text: SELECT INSCRIPTION
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Old Style No
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

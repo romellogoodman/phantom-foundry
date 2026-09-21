@@ -1,0 +1,58 @@
+name: atlanta-atf1902a
+title: Atlanta
+series: Atlanta
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 419
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      419:30pt: 151.4
+lines:
+  419:30pt:
+    n_caps: 8
+    cap_height_px: 185.0
+    cap_source: caps
+    baseline_px: 2403.0
+    baselines:
+      '4': 2403.0
+    glyphs:
+    - G
+    - E
+    - R
+    - A
+    - L
+    - I
+    - N
+    - E.30pt
+    stem_px: 23.5
+    scale: 3.78378
+    stem_units: 88.9
+specimen_lines:
+- leaf: 419
+  line: 30pt
+  text: GERALINE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

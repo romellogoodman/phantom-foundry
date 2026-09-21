@@ -1,0 +1,88 @@
+name: duerer-atf1897
+title: Duerer
+series: Ouerer
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 418
+leaf_pages:
+  418: 416
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      418:36pt: 41.3
+  x_height: 584
+lines:
+  418:36pt:
+    n_caps: 12
+    cap_height_px: 254.0
+    cap_source: caps
+    baseline_px: 3592.0
+    baselines:
+      '4': 3592.0
+      '5': 4032.0
+    glyphs:
+    - B
+    - a
+    - n
+    - k
+    - e
+    - r
+    - s
+    - four
+    - W
+    - a.36pt
+    - n.36pt
+    - t
+    - e.36pt
+    - d
+    - D
+    - I
+    - S
+    - C
+    - H
+    - A
+    - R
+    - G
+    - E
+    - D.36pt
+    x_height_px: 212
+    figure_height_px: 255
+    stem_px: 28.5
+    scale: 2.75591
+    stem_units: 78.5
+    x_height: 584
+    figure_height: 703
+specimen_lines:
+- leaf: 418
+  line: 36pt
+  text: Bankers 4 Wanted
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 418
+  line: 36pt
+  text: DISCHARGED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Ouerer
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

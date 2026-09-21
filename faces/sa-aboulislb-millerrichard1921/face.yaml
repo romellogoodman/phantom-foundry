@@ -1,0 +1,131 @@
+name: sa-aboulislb-millerrichard1921
+title: Sa-aboulislb
+series: Sa-aboulislb
+status: proto
+version: 0.1.0
+book: printingtypespec00millrich
+source:
+  archive_id: printingtypespec00millrich
+  title: Printing type specimens, comprising a large variety of book and jobbing faces,
+    borders and ornaments
+  creator: Miller & Richard (Firm)
+  publisher: Edinburgh, London
+  date: '[1921?]'
+  ppi: 300
+  url: https://archive.org/details/printingtypespec00millrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 118
+leaf_pages:
+  118: 190
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      118:60pt: 65.5
+      118:48pt: 43.5
+      118:42pt: 66.2
+lines:
+  118:60pt:
+    n_caps: 14
+    cap_height_px: 219.0
+    cap_source: caps
+    baseline_px: 1492.5
+    baselines:
+      '3': 1492.5
+    glyphs:
+    - B
+    - R
+    - I
+    - T
+    - I.60pt
+    - S
+    - H
+    - C
+    - R.60pt
+    - U
+    - I.60pt_2
+    - S.60pt
+    - E
+    - R.60pt_2
+    stem_px: 45.0
+    scale: 3.19635
+    stem_units: 143.8
+  118:48pt:
+    n_caps: 14
+    cap_height_px: 177.0
+    cap_source: caps
+    baseline_px: 1813.0
+    baselines:
+      '4': 1813.0
+    glyphs:
+    - E.48pt
+    - S.48pt
+    - C.48pt
+    - O
+    - R.48pt
+    - T.48pt
+    - S.48pt_2
+    - R.48pt_2
+    - O.48pt
+    - Y
+    - A
+    - L
+    - T.48pt_2
+    - Y.48pt
+    stem_px: 34.0
+    scale: 3.9548
+    stem_units: 134.5
+  118:42pt:
+    n_caps: 19
+    cap_height_px: 148
+    cap_source: caps
+    baseline_px: 2814
+    baselines:
+      '6': 2814
+    glyphs:
+    - C.42pt
+    - E.42pt
+    - L.42pt
+    - E.42pt_2
+    - B.42pt
+    - R.42pt
+    - A.42pt
+    - T.42pt
+    - E.42pt_3
+    - D
+    - C.42pt_2
+    - O.42pt
+    - M
+    - P
+    - O.42pt_2
+    - S.42pt
+    - E.42pt_4
+    - R.42pt_2
+    - S.42pt_2
+    stem_px: 30
+    scale: 4.72973
+    stem_units: 141.9
+specimen_lines:
+- leaf: 118
+  line: 60pt
+  text: BRITISH CRUISER
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 118
+  line: 48pt
+  text: ESCORTS ROYALTY
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 118
+  line: 42pt
+  text: CELEBRATED COMPOSERS
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,69 @@
+name: century-oldstyle-bold-condensed-atf1923
+title: Century Oldstyle Bold Condensed
+series: Century Oldstyle Bold Condensed
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 500
+leaf_pages:
+  500: 200
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      500:30pt: 128.0
+  x_height: 623
+lines:
+  500:30pt:
+    n_caps: 7
+    cap_height_px: 164
+    cap_source: caps
+    baseline_px: 2910
+    baselines:
+      '6': 2910
+    glyphs:
+    - H
+    - E
+    - R
+    - D
+    - I
+    - N
+    - G
+    - k
+    - l
+    - m
+    - n
+    - o
+    - p
+    - q
+    - r
+    - s
+    - t
+    x_height_px: 146.0
+    stem_px: 17
+    scale: 4.26829
+    stem_units: 72.6
+    x_height: 623
+specimen_lines:
+- leaf: 500
+  line: 30pt
+  text: HERDIN Gklmnopqrst
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,139 @@
+name: corbitt-inland1907
+title: Corbitt
+series: Corbitt
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 124
+leaf_pages:
+  124: 116
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      124:60pt: 52.7
+      124:48pt: 54.0
+      124:36pt: 69.3
+  x_height: 516
+lines:
+  124:60pt:
+    n_caps: 7
+    cap_height_px: 372
+    cap_source: caps
+    baseline_px: 2122
+    baselines:
+      '4': 2122
+      '5': 2567.5
+    glyphs:
+    - F
+    - U
+    - N
+    - D
+    - S
+    - N.60pt
+    - i
+    - n
+    - e
+    - A
+    - d
+    - s
+    x_height_px: 275
+    stem_px: 46
+    scale: 1.88172
+    stem_units: 86.6
+    x_height: 517
+  124:48pt:
+    n_caps: 7
+    cap_height_px: 285
+    cap_source: caps
+    baseline_px: 3066.5
+    baselines:
+      '6': 3066.5
+      '7': 3436
+    glyphs:
+    - M
+    - A.48pt
+    - K
+    - E
+    - R
+    - S.48pt
+    - G
+    - a
+    - r
+    - n.48pt
+    - i.48pt
+    - s.48pt
+    - h
+    - e.48pt
+    - d.48pt
+    - one
+    x_height_px: 210.0
+    figure_height_px: 285
+    stem_px: 37
+    scale: 2.45614
+    stem_units: 90.9
+    x_height: 516
+    figure_height: 700
+  124:36pt:
+    n_caps: 9
+    cap_height_px: 197
+    cap_source: caps
+    baseline_px: 3840
+    baselines:
+      '8': 3840
+    glyphs:
+    - I
+    - N.36pt
+    - T
+    - R.36pt
+    - O
+    - D.36pt
+    - U.36pt
+    - C
+    - E.36pt
+    stem_px: 61
+    scale: 3.5533
+    stem_units: 216.8
+specimen_lines:
+- leaf: 124
+  line: 60pt
+  text: FUNDS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 124
+  line: 60pt
+  text: Nine Ads
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 124
+  line: 48pt
+  text: MAKERS
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 124
+  line: 48pt
+  text: Garnished 1
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 124
+  line: 36pt
+  text: INTRODUCE
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,115 @@
+name: old-style-boston1889
+title: Old Style
+series: Old Style
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 109
+leaf_pages:
+  109: 103
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      109:48pt: 113.0
+      109:36pt: 110.8
+  x_height: 505
+lines:
+  109:48pt:
+    n_caps: 10
+    cap_height_px: 158.0
+    cap_source: caps
+    baseline_px: 2419.0
+    baselines:
+      '2': 2419.0
+    glyphs:
+    - Q
+    - U
+    - I
+    - R
+    - E
+    - S
+    - O
+    - N
+    - G
+    - S.48pt
+    stem_px: 9.5
+    scale: 4.43038
+    stem_units: 42.1
+  109:36pt:
+    n_caps: 14
+    cap_height_px: 120.0
+    cap_source: caps
+    baseline_px: 2971.5
+    baselines:
+      '4': 2971.5
+      '5': 3168.0
+    glyphs:
+    - S.36pt
+    - E.36pt
+    - N.36pt
+    - D
+    - H
+    - O.36pt
+    - M
+    - E.36pt_2
+    - M.36pt
+    - O.36pt_2
+    - R.36pt
+    - E.36pt_3
+    - M.36pt_2
+    - i
+    - x
+    - e
+    - d
+    - L
+    - i.36pt
+    - q
+    - u
+    - o
+    - r
+    - s
+    - two
+    - three
+    x_height_px: 86.5
+    figure_height_px: 117.5
+    stem_px: 9.5
+    scale: 5.83333
+    stem_units: 55.4
+    x_height: 505
+    figure_height: 685
+specimen_lines:
+- leaf: 109
+  line: 48pt
+  text: QUIRE SONGS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 109
+  line: 36pt
+  text: SEND HOME MORE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 109
+  line: 36pt
+  text: Mixed Liquors 23
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,68 @@
+name: extra-condensed-atf1902a
+title: Extra Condensed
+series: Extra Condensed
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 564
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      564:120pt: 13.1
+  x_height: 588
+lines:
+  564:120pt:
+    n_caps: 7
+    cap_height_px: 643
+    cap_source: caps
+    baseline_px: 1275
+    baselines:
+      '1': 1275
+    glyphs:
+    - B
+    - R
+    - I
+    - G
+    - H
+    - T
+    - a
+    - n
+    - d
+    - S
+    - o
+    - r
+    - d.120pt
+    - i
+    - d.120pt_2
+    x_height_px: 540.5
+    stem_px: 18
+    scale: 1.08865
+    stem_units: 19.6
+    x_height: 588
+specimen_lines:
+- leaf: 564
+  line: 120pt
+  text: BRIGHTandSordid
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

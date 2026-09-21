@@ -1,0 +1,98 @@
+name: it-is-supposed-atf1900
+title: It Is Supposed
+series: It Is Supposed
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 231
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      231:30pt: 50.7
+  x_height: 659
+lines:
+  231:30pt:
+    n_caps: 1
+    cap_height_px: 152
+    cap_source: caps
+    baseline_px: 2830.0
+    baselines:
+      '13': 2830.0
+      '14': 3038
+    glyphs:
+    - s
+    - i
+    - m
+    - p
+    - l
+    - i.30pt
+    - c
+    - i.30pt_2
+    - t
+    - y
+    - a
+    - n
+    - d
+    - b
+    - e
+    - a.30pt
+    - u
+    - t.30pt
+    - y.30pt
+    - period
+    - V
+    - e.30pt
+    - r
+    - y.30pt_2
+    - f
+    - e.30pt_2
+    - w
+    - p.30pt
+    - e.30pt_3
+    - o
+    - p.30pt_2
+    - l.30pt
+    - e.30pt_4
+    - one
+    - two
+    - three
+    - four
+    - five
+    x_height_px: 143
+    figure_height_px: 148
+    stem_px: 9
+    scale: 4.60526
+    stem_units: 41.4
+    x_height: 659
+    figure_height: 682
+specimen_lines:
+- leaf: 231
+  line: 30pt
+  text: simplicity and beauty.
+  band: 13
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 231
+  line: 30pt
+  text: Very few people 1 2345
+  band: 14
+  by: deepseek-v4.1-flash+qwen3.7-flash

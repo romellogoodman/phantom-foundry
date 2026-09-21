@@ -1,0 +1,123 @@
+name: jupiter-atf1896
+title: Jupiter.
+series: Jupiter.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 384
+leaf_pages:
+  384: 380
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      384:48pt: 21.4
+      384:36pt: 41.4
+      384:24pt: 40.6
+  x_height: 383
+lines:
+  384:48pt:
+    n_caps: 4
+    cap_height_px: 262.0
+    cap_source: caps
+    baseline_px: 867.0
+    baselines:
+      '1': 867.0
+    glyphs:
+    - N
+    - E
+    - W
+    - H
+    - o
+    - m
+    - e
+    - s
+    x_height_px: 143.5
+    stem_px: 9.0
+    scale: 2.67176
+    stem_units: 24.0
+    x_height: 383
+  384:36pt:
+    n_caps: 11
+    cap_height_px: 186
+    cap_source: caps
+    baseline_px: 1310
+    baselines:
+      '2': 1310
+    glyphs:
+    - P
+    - I
+    - C
+    - T
+    - U
+    - R
+    - E.36pt
+    - B
+    - O
+    - O.36pt
+    - K
+    stem_px: 11
+    scale: 3.76344
+    stem_units: 41.4
+  384:24pt:
+    n_caps: 15
+    cap_height_px: 138
+    cap_source: caps
+    baseline_px: 2028
+    baselines:
+      '4': 2028
+    glyphs:
+    - C.24pt
+    - L
+    - A
+    - S
+    - S.24pt
+    - I.24pt
+    - C.24pt_2
+    - A.24pt
+    - L.24pt
+    - W.24pt
+    - R.24pt
+    - I.24pt_2
+    - T.24pt
+    - E.24pt
+    - R.24pt_2
+    stem_px: 11
+    scale: 5.07246
+    stem_units: 55.8
+specimen_lines:
+- leaf: 384
+  line: 48pt
+  text: NEW ~ Homes
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 384
+  line: 36pt
+  text: PICTURE BOOK
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 384
+  line: 24pt
+  text: CLASSICAL WRITER
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

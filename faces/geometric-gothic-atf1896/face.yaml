@@ -1,0 +1,155 @@
+name: geometric-gothic-atf1896
+title: Geometric Gothic.
+series: Geometric Gothic.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 372
+leaf_pages:
+  372: 368
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      372:48pt: 106.0
+      372:36pt: 111.4
+      372:24pt: 111.1
+  x_height: 460
+lines:
+  372:48pt:
+    n_caps: 7
+    cap_height_px: 317
+    cap_source: caps
+    baseline_px: 910.0
+    baselines:
+      '1': 910.0
+      '2': 1320
+    glyphs:
+    - S
+    - C
+    - H
+    - E
+    - M
+    - E.48pt
+    - P
+    - l
+    - a
+    - n
+    - n.48pt
+    - e
+    - d
+    - three
+    x_height_px: 207.0
+    figure_height_px: 305
+    stem_px: 44
+    scale: 2.2082
+    stem_units: 97.2
+    x_height: 457
+    figure_height: 674
+  372:36pt:
+    n_caps: 9
+    cap_height_px: 220
+    cap_source: caps
+    baseline_px: 1762
+    baselines:
+      '3': 1762
+    glyphs:
+    - F
+    - A
+    - R
+    - C.36pt
+    - H.36pt
+    - I
+    - M.36pt
+    - E.36pt
+    - S.36pt
+    stem_px: 32
+    scale: 3.18182
+    stem_units: 101.8
+  372:24pt:
+    n_caps: 13
+    cap_height_px: 148
+    cap_source: caps
+    baseline_px: 2444
+    baselines:
+      '5': 2444
+      '6': 2670.0
+    glyphs:
+    - S.24pt
+    - P.24pt
+    - A.24pt
+    - S.24pt_2
+    - M.24pt
+    - C.24pt
+    - H.24pt
+    - A.24pt_2
+    - R.24pt
+    - M.24pt_2
+    - S.24pt_3
+    - Q
+    - u
+    - a.24pt
+    - c
+    - k
+    - D
+    - o
+    - c.24pt
+    - t
+    - o.24pt
+    - r
+    - dollar
+    - eight
+    - five
+    x_height_px: 98
+    figure_height_px: 139.5
+    stem_px: 25
+    scale: 4.72973
+    stem_units: 118.2
+    x_height: 464
+    figure_height: 660
+specimen_lines:
+- leaf: 372
+  line: 48pt
+  text: SCHEME
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 372
+  line: 48pt
+  text: Planned 3
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 372
+  line: 36pt
+  text: FAR CHIMES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 372
+  line: 24pt
+  text: SPASM CHARMS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 372
+  line: 24pt
+  text: Quack Doctor $85
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

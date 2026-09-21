@@ -1,0 +1,101 @@
+name: polo-atf1902a
+title: Polo
+series: Polo
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 410
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      410:60pt: 48.0
+      410:36pt: 52.0
+  x_height: 478
+lines:
+  410:60pt:
+    n_caps: 1
+    cap_height_px: 277
+    cap_source: caps
+    baseline_px: 1005
+    baselines:
+      '1': 1005
+    glyphs:
+    - D
+    - e
+    - m
+    - o
+    - n
+    - s
+    - t
+    - r
+    - a
+    - t.60pt
+    - i
+    - o.60pt
+    - n.60pt
+    x_height_px: 210.0
+    stem_px: 30
+    scale: 2.52708
+    stem_units: 75.8
+    x_height: 531
+  410:36pt:
+    n_caps: 2
+    cap_height_px: 202.0
+    cap_source: caps
+    baseline_px: 2151.0
+    baselines:
+      '3': 2151.0
+    glyphs:
+    - S
+    - a.36pt
+    - p
+    - i.36pt
+    - e.36pt
+    - n.36pt
+    - t.36pt
+    - J
+    - u
+    - v
+    - e.36pt_2
+    - n.36pt_2
+    - i.36pt_2
+    - l
+    - e.36pt_3
+    - s.36pt
+    x_height_px: 122.5
+    stem_px: 22.0
+    scale: 3.46535
+    stem_units: 76.2
+    x_height: 425
+specimen_lines:
+- leaf: 410
+  line: 60pt
+  text: Demonstration
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 410
+  line: 36pt
+  text: Sapient J uveniles
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

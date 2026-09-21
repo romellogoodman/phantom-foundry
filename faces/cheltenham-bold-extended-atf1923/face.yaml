@@ -1,0 +1,88 @@
+name: cheltenham-bold-extended-atf1923
+title: Cheltenham Bold Extended
+series: Cheltenham Bold Extended
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 416
+leaf_pages:
+  416: 116
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      416:72pt: 66.2
+      416:42pt: 26.1
+  x_height: 619
+lines:
+  416:72pt:
+    n_caps: 9
+    cap_height_px: 280
+    cap_source: caps
+    baseline_px: 1028
+    baselines:
+      '2': 1028
+    glyphs:
+    - H
+    - a
+    - i
+    - l
+    - O
+    - P
+    - Q
+    - R
+    - S
+    - T
+    - U
+    - V
+    x_height_px: 278
+    stem_px: 13
+    scale: 2.5
+    stem_units: 32.5
+    x_height: 695
+  416:42pt:
+    n_caps: 1
+    cap_height_px: 161
+    cap_source: caps
+    baseline_px: 1666
+    baselines:
+      '4': 1666
+    glyphs:
+    - S.42pt
+    - p
+    - e
+    - c
+    - k
+    x_height_px: 125.0
+    stem_px: 23
+    scale: 4.34783
+    stem_units: 100.0
+    x_height: 543
+specimen_lines:
+- leaf: 416
+  line: 72pt
+  text: Hail OPQRSTUV
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 416
+  line: 42pt
+  text: Speck ~
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

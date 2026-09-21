@@ -1,0 +1,84 @@
+name: iga-atf1896
+title: Iga
+series: Iga
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 244
+leaf_pages:
+  244: 240
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      244:30pt: 36.8
+  x_height: 467
+lines:
+  244:30pt:
+    n_caps: 13
+    cap_height_px: 171
+    cap_source: caps
+    baseline_px: 3323.5
+    baselines:
+      '6': 3323.5
+      '7': 3606
+    glyphs:
+    - C
+    - H
+    - O
+    - I
+    - C.30pt
+    - E
+    - F
+    - R
+    - I.30pt
+    - E.30pt
+    - N
+    - D
+    - D.30pt
+    - o
+    - l
+    - l.30pt
+    - a
+    - r
+    - s
+    - five
+    - six
+    x_height_px: 114.0
+    figure_height_px: 169.5
+    stem_px: 22
+    scale: 4.09357
+    stem_units: 90.1
+    x_height: 467
+    figure_height: 694
+specimen_lines:
+- leaf: 244
+  line: 30pt
+  text: CHOICE FRIEND
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 244
+  line: 30pt
+  text: Dollars 56
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

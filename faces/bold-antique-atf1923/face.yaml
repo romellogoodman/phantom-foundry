@@ -1,0 +1,107 @@
+name: bold-antique-atf1923
+title: Bold Antique
+series: Bold Antique
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 806
+leaf_pages:
+  806: 506
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      806:42pt: 150.8
+  x_height: 840
+lines:
+  806:42pt:
+    n_caps: 17
+    cap_height_px: 130
+    cap_source: caps
+    baseline_px: 2281
+    baselines:
+      '6': 2281
+      '7': 2589
+      '8': 2916
+    glyphs:
+    - R
+    - E
+    - N
+    - D
+    - O
+    - P
+    - Q
+    - R.42pt
+    - S
+    - T
+    - U
+    - G
+    - o
+    - t
+    - h
+    - i
+    - c
+    - one
+    - two
+    - three
+    - four
+    - five
+    - six
+    - seven
+    - eight
+    - nine
+    - zero
+    - D.42pt
+    - R.42pt_2
+    - I
+    - N.42pt
+    - K
+    - j
+    - k
+    - l
+    - m
+    - n
+    - o.42pt
+    - p
+    - q
+    - r
+    x_height_px: 156.0
+    figure_height_px: 52.0
+    stem_px: 19
+    scale: 5.38462
+    stem_units: 102.3
+    x_height: 840
+    figure_height: 280
+specimen_lines:
+- leaf: 806
+  line: 42pt
+  text: REND OPQRSTU
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 806
+  line: 42pt
+  text: Gothic 1234567890
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 806
+  line: 42pt
+  text: DRINK j kl mnop q r
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash

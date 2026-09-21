@@ -1,0 +1,83 @@
+name: victoria-atf1902a
+title: Victoria
+series: Victoria
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 420
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      420:48pt: 90.2
+      420:42pt: 106.0
+lines:
+  420:48pt:
+    n_caps: 8
+    cap_height_px: 302.5
+    cap_source: caps
+    baseline_px: 1010.5
+    baselines:
+      '1': 1010.5
+    glyphs:
+    - V
+    - I
+    - C
+    - T
+    - O
+    - R
+    - I.48pt
+    - A
+    stem_px: 38.5
+    scale: 2.31405
+    stem_units: 89.1
+  420:42pt:
+    n_caps: 8
+    cap_height_px: 257.5
+    cap_source: caps
+    baseline_px: 1528.0
+    baselines:
+      '2': 1528.0
+    glyphs:
+    - C.42pt
+    - O.42pt
+    - N
+    - S
+    - T.42pt
+    - R.42pt
+    - U
+    - E
+    stem_px: 31.0
+    scale: 2.71845
+    stem_units: 84.3
+specimen_lines:
+- leaf: 420
+  line: 48pt
+  text: VICTORIA
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 420
+  line: 42pt
+  text: CONSTRUE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

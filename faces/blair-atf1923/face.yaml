@@ -1,0 +1,127 @@
+name: blair-atf1923
+title: Blair
+series: Blair
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 672
+leaf_pages:
+  672: 372
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      672:36pt: 144.8
+      672:24pt: 296.2
+      672:18pt: 83.1
+lines:
+  672:36pt:
+    n_caps: 20
+    cap_height_px: 43.5
+    cap_source: caps
+    baseline_px: 1330.0
+    baselines:
+      '4': 1330.0
+    glyphs:
+    - M
+    - O
+    - R
+    - T
+    - G
+    - A
+    - G.36pt
+    - E
+    - B
+    - I
+    - G.36pt_2
+    - S
+    - I.36pt
+    - P
+    - H
+    - O.36pt
+    - N
+    - C
+    - O.36pt_2
+    - N.36pt
+    stem_px: 4.0
+    scale: 16.09195
+    stem_units: 64.4
+  672:24pt:
+    n_caps: 10
+    cap_height_px: 78.0
+    cap_source: caps
+    baseline_px: 860.0
+    baselines:
+      '2': 860.0
+    glyphs:
+    - S.24pt
+    - Q
+    - U
+    - I.24pt
+    - R.24pt
+    - M.24pt
+    - W
+    - X
+    - Y
+    - Z
+    - ampersand
+    - dollar
+    - one
+    - two
+    - three
+    figure_height_px: 49
+    stem_px: 7.0
+    scale: 8.97436
+    stem_units: 62.8
+    figure_height: 440
+  672:18pt:
+    n_caps: 7
+    cap_height_px: 118
+    cap_source: caps
+    baseline_px: 1083
+    baselines:
+      '3': 1083
+    glyphs:
+    - R.18pt
+    - E.18pt
+    - P.18pt
+    - E.18pt_2
+    - N.18pt
+    - T.18pt
+    - S.18pt
+    stem_px: 6
+    scale: 5.9322
+    stem_units: 35.6
+specimen_lines:
+- leaf: 672
+  line: 36pt
+  text: MORTGAG EBIGSIPHO NCO N
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 672
+  line: 24pt
+  text: SQUIR MWXYZ&$12 3
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 672
+  line: 18pt
+  text: REPENTS ~
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

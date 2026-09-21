@@ -1,0 +1,69 @@
+name: saxon-black-various1930
+title: Saxon Black
+series: Saxon Black
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 155
+leaf_pages:
+  155: 143
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      155:48pt: 15.8
+  x_height: 465
+lines:
+  155:48pt:
+    n_caps: 2
+    cap_height_px: 177.5
+    cap_source: caps
+    baseline_px: 1476.5
+    baselines:
+      '3': 1476.5
+    glyphs:
+    - W
+    - e
+    - s
+    - t
+    - m
+    - i
+    - n
+    - s.48pt
+    - t.48pt
+    - e.48pt
+    - r
+    - C
+    - l
+    - e.48pt_2
+    - r.48pt
+    - g
+    - y
+    x_height_px: 118
+    stem_px: 3.0
+    scale: 3.94366
+    stem_units: 11.8
+    x_height: 465
+specimen_lines:
+- leaf: 155
+  line: 48pt
+  text: Westminster Clergy
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

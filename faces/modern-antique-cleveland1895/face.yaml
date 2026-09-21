@@ -1,0 +1,142 @@
+name: modern-antique-cleveland1895
+title: Modern Antique
+series: Modern Antique
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 120
+leaf_pages:
+  120: 116
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      120:36pt: 46.8
+      120:30pt: 58.7
+  x_height: 495
+lines:
+  120:36pt:
+    n_caps: 12
+    cap_height_px: 179.5
+    cap_source: caps
+    baseline_px: 3023.0
+    baselines:
+      '4': 3023.0
+      '5': 3345.0
+    glyphs:
+    - C
+    - O
+    - M
+    - M.36pt
+    - I
+    - S
+    - S.36pt
+    - I.36pt
+    - O.36pt
+    - N
+    - G
+    - r
+    - a
+    - i
+    - n
+    - M.36pt_2
+    - e
+    - r.36pt
+    - c
+    - h
+    - a.36pt
+    - n.36pt
+    - t
+    - s
+    - three
+    x_height_px: 126.0
+    figure_height_px: 176
+    stem_px: 18.0
+    scale: 3.89972
+    stem_units: 70.2
+    x_height: 491
+    figure_height: 686
+  120:30pt:
+    n_caps: 14
+    cap_height_px: 143.0
+    cap_source: caps
+    baseline_px: 2165.0
+    baselines:
+      '2': 2165.0
+      '3': 2444.5
+    glyphs:
+    - E
+    - M.30pt
+    - B
+    - R
+    - O.30pt
+    - I.30pt
+    - D
+    - E.30pt
+    - R.30pt
+    - I.30pt_2
+    - E.30pt_2
+    - S.30pt
+    - N.30pt
+    - u
+    - m
+    - e.30pt
+    - r.30pt
+    - o
+    - u.30pt
+    - s.30pt
+    - P
+    - a.30pt
+    - t.30pt
+    - t.30pt_2
+    - e.30pt_2
+    - r.30pt_2
+    - n.30pt
+    - s.30pt_2
+    - one
+    - seven
+    x_height_px: 102.0
+    figure_height_px: 142.5
+    stem_px: 23.0
+    scale: 4.8951
+    stem_units: 112.6
+    x_height: 499
+    figure_height: 698
+specimen_lines:
+- leaf: 120
+  line: 36pt
+  text: COMMISSION
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 120
+  line: 36pt
+  text: Grain Merchants 3
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 120
+  line: 30pt
+  text: EMBROIDERIES
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 120
+  line: 30pt
+  text: Numerous Patterns 1 7
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

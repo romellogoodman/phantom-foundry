@@ -1,0 +1,255 @@
+name: jenson-condensed-atf1906
+title: Jenson Condensed
+series: Jenson Condensed
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 358
+  - 359
+leaf_pages:
+  358: 308
+  359: 309
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      358:120pt: 12.9
+      358:96pt: 11.7
+      358:72pt: 13.2
+      358:60pt: 13.4
+      358:48pt: 17.0
+      359:36pt: 18.7
+  x_height: 546
+lines:
+  358:120pt:
+    n_caps: 4
+    cap_height_px: 517.5
+    cap_source: caps
+    baseline_px: 1757.0
+    baselines:
+      '2': 1757.0
+    glyphs:
+    - B
+    - u
+    - i
+    - l
+    - d
+    - S
+    - I
+    - X
+    x_height_px: 504.0
+    stem_px: 54.0
+    scale: 1.35266
+    stem_units: 73.0
+    x_height: 682
+  358:96pt:
+    n_caps: 5
+    cap_height_px: 418
+    cap_source: caps
+    baseline_px: 2370
+    baselines:
+      '3': 2370
+    glyphs:
+    - N
+    - I.96pt
+    - C
+    - E
+    - B.96pt
+    - l.96pt
+    - o
+    - c
+    - k
+    x_height_px: 346.0
+    stem_px: 44
+    scale: 1.67464
+    stem_units: 73.7
+    x_height: 579
+  358:72pt:
+    n_caps: 5
+    cap_height_px: 317
+    cap_source: caps
+    baseline_px: 2847
+    baselines:
+      '4': 2847
+    glyphs:
+    - M
+    - e
+    - t
+    - h
+    - o.72pt
+    - d.72pt
+    - s
+    - R
+    - U
+    - I.72pt
+    - N.72pt
+    x_height_px: 248.5
+    stem_px: 24
+    scale: 2.2082
+    stem_units: 53.0
+    x_height: 549
+  358:60pt:
+    n_caps: 5
+    cap_height_px: 261
+    cap_source: caps
+    baseline_px: 3294
+    baselines:
+      '5': 3294
+    glyphs:
+    - M.60pt
+    - O
+    - R.60pt
+    - E.60pt
+    - D
+    - i.60pt
+    - p
+    - l.60pt
+    - o.60pt
+    - m
+    - a
+    - t.60pt
+    - s.60pt
+    x_height_px: 202.5
+    stem_px: 28
+    scale: 2.68199
+    stem_units: 75.1
+    x_height: 543
+  358:48pt:
+    n_caps: 6
+    cap_height_px: 206.0
+    cap_source: caps
+    baseline_px: 3683.5
+    baselines:
+      '6': 3683.5
+    glyphs:
+    - I.48pt
+    - r
+    - r.48pt
+    - e.48pt
+    - s.48pt
+    - p.48pt
+    - o.48pt
+    - n
+    - s.48pt_2
+    - i.48pt
+    - b
+    - l.48pt
+    - e.48pt_2
+    - C.48pt
+    - R.48pt
+    - O.48pt
+    - W
+    - N.48pt
+    x_height_px: 136.0
+    stem_px: 21.5
+    scale: 3.39806
+    stem_units: 73.1
+    x_height: 462
+  359:36pt:
+    n_caps: 17
+    cap_height_px: 150
+    cap_source: caps
+    baseline_px: 1134.0
+    baselines:
+      '3': 1134.0
+      '4': 1343
+    glyphs:
+    - S.36pt
+    - T
+    - U.36pt
+    - D.36pt
+    - I.36pt
+    - O.36pt
+    - U.36pt_2
+    - S.36pt_2
+    - N.36pt
+    - A
+    - T.36pt
+    - I.36pt_2
+    - O.36pt_2
+    - N.36pt_2
+    - P
+    - r.36pt
+    - o.36pt
+    - g
+    - r.36pt_2
+    - e.36pt
+    - s.36pt
+    - s.36pt_2
+    - i.36pt
+    - v
+    - e.36pt_2
+    - I.36pt_3
+    - s.36pt_3
+    - l.36pt
+    - e.36pt_3
+    - s.36pt_4
+    - D.36pt_2
+    - e.36pt_4
+    - t.36pt
+    - e.36pt_5
+    - r.36pt_3
+    - m.36pt
+    - i.36pt_2
+    - n.36pt
+    - e.36pt_6
+    - d.36pt
+    x_height_px: 100
+    stem_px: 18
+    scale: 4.66667
+    stem_units: 84.0
+    x_height: 467
+specimen_lines:
+- leaf: 358
+  line: 120pt
+  text: Build SIX
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 358
+  line: 96pt
+  text: NICE Block
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 358
+  line: 72pt
+  text: Methods RUIN
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 358
+  line: 60pt
+  text: MORE Diplomats
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 358
+  line: 48pt
+  text: Irresponsible CROWN
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 359
+  line: 36pt
+  text: STUDIOUS NATION
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 359
+  line: 36pt
+  text: Progressive Isles Determined
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

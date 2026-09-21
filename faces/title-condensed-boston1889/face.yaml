@@ -1,0 +1,72 @@
+name: title-condensed-boston1889
+title: Title Condensed
+series: Title Condensed
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 134
+leaf_pages:
+  134: 128
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      134:60pt: 33.8
+  x_height: 461
+lines:
+  134:60pt:
+    n_caps: 8
+    cap_height_px: 228.0
+    cap_source: caps
+    baseline_px: 905.0
+    baselines:
+      '2': 905.0
+    glyphs:
+    - O
+    - m
+    - a
+    - h
+    - a.60pt
+    - T
+    - R
+    - A
+    - I
+    - N
+    - S
+    - E
+    - a.60pt_2
+    - r
+    - l
+    - i
+    - e
+    - r.60pt
+    x_height_px: 150.0
+    stem_px: 9.5
+    scale: 3.07018
+    stem_units: 29.2
+    x_height: 461
+specimen_lines:
+- leaf: 134
+  line: 60pt
+  text: Omaha TRAINS Earlier
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

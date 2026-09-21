@@ -1,0 +1,125 @@
+name: copperplate-gothic-shaded-atf1917
+title: Copperplate Gothic Shaded
+series: Copperplate Gothic Shaded
+status: proto
+version: 0.1.0
+book: supplementarycat00daysrich
+source:
+  archive_id: supplementarycat00daysrich
+  title: 'Supplementary catalogue : new type faces, borders, ornaments, brass rule'
+  creator: Daystrom, inc
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '[c1917]'
+  ppi: 400
+  url: https://archive.org/details/supplementarycat00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 134
+leaf_pages:
+  134: 128
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      134:36pt: 34.1
+      134:30pt: 50.2
+      134:24pt: 44.1
+lines:
+  134:36pt:
+    n_caps: 11
+    cap_height_px: 185
+    cap_source: caps
+    baseline_px: 804
+    baselines:
+      '2': 804
+    glyphs:
+    - N
+    - A
+    - M
+    - E
+    - S
+    - B
+    - R
+    - O
+    - K
+    - E.36pt
+    - R.36pt
+    stem_px: 5
+    scale: 3.78378
+    stem_units: 18.9
+  134:30pt:
+    n_caps: 14
+    cap_height_px: 153.5
+    cap_source: caps
+    baseline_px: 1128.0
+    baselines:
+      '3': 1128.0
+    glyphs:
+    - G
+    - R.30pt
+    - A.30pt
+    - N.30pt
+    - D
+    - D.30pt
+    - I
+    - S.30pt
+    - C
+    - O.30pt
+    - U
+    - R.30pt_2
+    - S.30pt_2
+    - E.30pt
+    stem_px: 8.0
+    scale: 4.56026
+    stem_units: 36.5
+  134:24pt:
+    n_caps: 17
+    cap_height_px: 127
+    cap_source: caps
+    baseline_px: 1629
+    baselines:
+      '5': 1629
+    glyphs:
+    - S.24pt
+    - T
+    - R.24pt
+    - E.24pt
+    - N.24pt
+    - U.24pt
+    - O.24pt
+    - U.24pt_2
+    - S.24pt_2
+    - M.24pt
+    - E.24pt_2
+    - C.24pt
+    - H
+    - A.24pt
+    - N.24pt_2
+    - I.24pt
+    - C.24pt_2
+    stem_px: 13
+    scale: 5.51181
+    stem_units: 71.7
+specimen_lines:
+- leaf: 134
+  line: 36pt
+  text: NAMES BROKER
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 134
+  line: 30pt
+  text: GRAND DISCOURSE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 134
+  line: 24pt
+  text: STRENUOUS MECHANIC
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

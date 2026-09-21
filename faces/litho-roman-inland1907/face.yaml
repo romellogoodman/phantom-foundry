@@ -1,0 +1,112 @@
+name: litho-roman-inland1907
+title: Litho Roman
+series: Liitho Roman
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 172
+leaf_pages:
+  172: 164
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      172:60pt: 31.8
+      172:48pt: 27.1
+  x_height: 432
+lines:
+  172:60pt:
+    n_caps: 7
+    cap_height_px: 374
+    cap_source: caps
+    baseline_px: 2176
+    baselines:
+      '4': 2176
+      '5': 2658.5
+    glyphs:
+    - B
+    - R
+    - I
+    - N
+    - G
+    - N.60pt
+    - e
+    - w
+    - F
+    - a
+    - c
+    - e.60pt
+    x_height_px: 230
+    stem_px: 37
+    scale: 1.87166
+    stem_units: 69.3
+    x_height: 430
+  172:48pt:
+    n_caps: 7
+    cap_height_px: 284
+    cap_source: caps
+    baseline_px: 3241.0
+    baselines:
+      '6': 3241.0
+      '8': 4004
+    glyphs:
+    - B.48pt
+    - R.48pt
+    - I.48pt
+    - G.48pt
+    - H
+    - T
+    - U
+    - s
+    - e.48pt
+    - f
+    - u
+    - l
+    - i
+    - n
+    x_height_px: 176
+    stem_px: 62
+    scale: 2.46479
+    stem_units: 152.8
+    x_height: 434
+specimen_lines:
+- leaf: 172
+  line: 60pt
+  text: BRING
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 172
+  line: 60pt
+  text: New Face
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 172
+  line: 48pt
+  text: BRIGHT
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 172
+  line: 48pt
+  text: Useful in
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Liitho Roman
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

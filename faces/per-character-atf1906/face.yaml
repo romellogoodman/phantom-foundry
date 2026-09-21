@@ -1,0 +1,166 @@
+name: per-character-atf1906
+title: Per Character
+series: Per Character
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 777
+leaf_pages:
+  777: 823
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      777:72pt: 140.0
+      777:60pt: 128.1
+      777:48pt: 98.2
+lines:
+  777:72pt:
+    n_caps: 10
+    cap_height_px: 385.0
+    cap_source: caps
+    baseline_px: 3208
+    baselines:
+      '7': 3208
+      '8': 3656
+    glyphs:
+    - A
+    - B
+    - C
+    - D
+    - E
+    - F
+    - G
+    - H
+    - I
+    - J
+    stem_px: 3.0
+    scale: 1.81818
+    stem_units: 5.5
+  777:60pt:
+    n_caps: 18
+    cap_height_px: 322.5
+    cap_source: caps
+    baseline_px: 1868.5
+    baselines:
+      '4': 1868.5
+      '5': 2262.0
+      '6': 2659.5
+    glyphs:
+    - A.60pt
+    - B.60pt
+    - C.60pt
+    - D.60pt
+    - E.60pt
+    - F.60pt
+    - G.60pt
+    - H.60pt
+    - I.60pt
+    - J.60pt
+    - K
+    - L
+    - M
+    - N
+    - O
+    - P
+    - Q
+    - R
+    stem_px: 3.0
+    scale: 2.17054
+    stem_units: 6.5
+  777:48pt:
+    n_caps: 24
+    cap_height_px: 249.5
+    cap_source: caps
+    baseline_px: 739.0
+    baselines:
+      '1': 739.0
+      '2': 1056.0
+      '3': 1373.0
+    glyphs:
+    - A.48pt
+    - B.48pt
+    - C.48pt
+    - D.48pt
+    - E.48pt
+    - F.48pt
+    - G.48pt
+    - H.48pt
+    - I.48pt
+    - J.48pt
+    - K.48pt
+    - L.48pt
+    - M.48pt
+    - N.48pt
+    - O.48pt
+    - P.48pt
+    - Q.48pt
+    - R.48pt
+    - S
+    - T
+    - U
+    - V
+    - W
+    - Y
+    stem_px: 3.0
+    scale: 2.80561
+    stem_units: 8.4
+specimen_lines:
+- leaf: 777
+  line: 72pt
+  text: ABCDE
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 777
+  line: 72pt
+  text: FGHIJ
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 777
+  line: 60pt
+  text: ABCDEF
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 777
+  line: 60pt
+  text: GHIJKL
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 777
+  line: 60pt
+  text: MNOPQR
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 777
+  line: 48pt
+  text: ABCDEFGH
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 777
+  line: 48pt
+  text: IJKLMNOP
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 777
+  line: 48pt
+  text: QRSTUVWY
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

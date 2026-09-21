@@ -1,0 +1,134 @@
+name: alfereta-atf1900
+title: Alfereta
+series: Alfereta
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 303
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      303:36pt: 69.1
+      303:30pt: 36.6
+  x_height: 398
+lines:
+  303:36pt:
+    n_caps: 2
+    cap_height_px: 202.5
+    cap_source: caps
+    baseline_px: 819.0
+    baselines:
+      '1': 819.0
+    glyphs:
+    - N
+    - a
+    - t
+    - i
+    - o
+    - n
+    - a.36pt
+    - l
+    - C
+    - a.36pt_2
+    - n.36pt
+    - d
+    - i.36pt
+    - d.36pt
+    - a.36pt_3
+    - t.36pt
+    - e
+    x_height_px: 116
+    stem_px: 8.5
+    scale: 3.45679
+    stem_units: 29.4
+    x_height: 401
+  303:30pt:
+    n_caps: 5
+    cap_height_px: 172
+    cap_source: caps
+    baseline_px: 1570
+    baselines:
+      '3': 1570
+      '4': 1803.5
+    glyphs:
+    - M
+    - u
+    - s
+    - i.30pt
+    - c
+    - a.30pt
+    - l.30pt
+    - F
+    - e.30pt
+    - s.30pt
+    - t.30pt
+    - i.30pt_2
+    - v
+    - a.30pt_2
+    - l.30pt_2
+    - O
+    - p
+    - e.30pt_2
+    - n.30pt
+    - e.30pt_3
+    - d.30pt
+    - O.30pt
+    - r
+    - c.30pt
+    - h
+    - e.30pt_4
+    - s.30pt_2
+    - t.30pt_2
+    - r.30pt
+    - a.30pt_3
+    - l.30pt_3
+    - E
+    - x
+    - e.30pt_5
+    - r.30pt_2
+    - c.30pt_2
+    - i.30pt_3
+    - s.30pt_3
+    - e.30pt_6
+    - s.30pt_4
+    x_height_px: 97
+    stem_px: 10
+    scale: 4.06977
+    stem_units: 40.7
+    x_height: 395
+specimen_lines:
+- leaf: 303
+  line: 36pt
+  text: National Candidate
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 303
+  line: 30pt
+  text: Musical Festival Opened
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 303
+  line: 30pt
+  text: Orchestral Exercises
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

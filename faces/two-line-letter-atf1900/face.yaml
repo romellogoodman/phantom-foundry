@@ -1,0 +1,186 @@
+name: two-line-letter-atf1900
+title: Two-line Letter
+series: Two-line Letter
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 585
+leaf_pages:
+  585: 64
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      585:42pt: 29.5
+      585:36pt: 46.8
+      585:22pt: 48.1
+      585:20pt: 45.2
+      585:18pt: 68.1
+lines:
+  585:42pt:
+    n_caps: 9
+    cap_height_px: 273
+    cap_source: caps
+    baseline_px: 1388
+    baselines:
+      '2': 1388
+    glyphs:
+    - S
+    - P
+    - E
+    - C
+    - I
+    - M
+    - E.42pt
+    - N
+    - S.42pt
+    stem_px: 5
+    scale: 2.5641
+    stem_units: 12.8
+  585:36pt:
+    n_caps: 11
+    cap_height_px: 187
+    cap_source: caps
+    baseline_px: 1753
+    baselines:
+      '3': 1753
+    glyphs:
+    - C.36pt
+    - H
+    - O
+    - I.36pt
+    - R
+    - H.36pt
+    - O.36pt
+    - N.36pt
+    - E.36pt
+    - S.36pt
+    - T
+    stem_px: 11
+    scale: 3.74332
+    stem_units: 41.2
+  585:22pt:
+    n_caps: 15
+    cap_height_px: 131
+    cap_source: caps
+    baseline_px: 2065
+    baselines:
+      '4': 2065
+    glyphs:
+    - D
+    - U
+    - T.22pt
+    - I.22pt
+    - F
+    - U.22pt
+    - L
+    - B
+    - E.22pt
+    - L.22pt
+    - I.22pt_2
+    - E.22pt_2
+    - V
+    - E.22pt_3
+    - D.22pt
+    stem_px: 14
+    scale: 5.34351
+    stem_units: 74.8
+  585:20pt:
+    n_caps: 16
+    cap_height_px: 108.5
+    cap_source: caps
+    baseline_px: 3538.5
+    baselines:
+      '6': 3538.5
+    glyphs:
+    - C.20pt
+    - O.20pt
+    - U.20pt
+    - N.20pt
+    - T.20pt
+    - R.20pt
+    - Y
+    - H.20pt
+    - O.20pt_2
+    - T.20pt_2
+    - D.20pt
+    - R.20pt_2
+    - I.20pt
+    - N.20pt_2
+    - K
+    - S.20pt
+    stem_px: 11.5
+    scale: 6.45161
+    stem_units: 74.2
+  585:18pt:
+    n_caps: 17
+    cap_height_px: 113
+    cap_source: caps
+    baseline_px: 2330
+    baselines:
+      '5': 2330
+    glyphs:
+    - R.18pt
+    - A
+    - R.18pt_2
+    - E.18pt
+    - G
+    - E.18pt_2
+    - M.18pt
+    - S.18pt
+    - T.18pt
+    - I.18pt
+    - G.18pt
+    - E.18pt_3
+    - R.18pt_3
+    - S.18pt_2
+    - H.18pt
+    - O.18pt
+    - W
+    stem_px: 10
+    scale: 6.19469
+    stem_units: 61.9
+specimen_lines:
+- leaf: 585
+  line: 42pt
+  text: SPECIMENS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 585
+  line: 36pt
+  text: CHOI R HONEST
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 585
+  line: 22pt
+  text: DUTIFUL BELIEVED
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 585
+  line: 20pt
+  text: COUNTRY HOT DRINKS
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 585
+  line: 18pt
+  text: RARE GEMS TIGER SHOW
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

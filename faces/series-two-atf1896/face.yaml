@@ -1,0 +1,69 @@
+name: series-two-atf1896
+title: Series Two.
+series: Series Two.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 493
+leaf_pages:
+  493: 489
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      493:20pt: 83.2
+lines:
+  493:20pt:
+    n_caps: 12
+    cap_height_px: 143.0
+    cap_source: caps
+    baseline_px: 3041.5
+    baselines:
+      '6': 3041.5
+    glyphs:
+    - P
+    - R
+    - I
+    - C
+    - E
+    - D
+    - R.20pt
+    - U
+    - B
+    - I.20pt
+    - E.20pt
+    - S
+    stem_px: 23.5
+    scale: 4.8951
+    stem_units: 115.0
+specimen_lines:
+- leaf: 493
+  line: 20pt
+  text: PRICED RUBIES
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 493
+  line: 20pt
+  text: ~~~~
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

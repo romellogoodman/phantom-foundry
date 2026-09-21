@@ -1,0 +1,125 @@
+name: foster-gothic-atf1900
+title: Foster Gothic
+series: Foster Gothic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 459
+leaf_pages:
+  459: 1
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      459:48pt: 36.5
+      459:36pt: 38.0
+      459:30pt: 49.5
+lines:
+  459:48pt:
+    n_caps: 10
+    cap_height_px: 335.5
+    cap_source: caps
+    baseline_px: 978.0
+    baselines:
+      '1': 978.0
+    glyphs:
+    - N
+    - O
+    - R
+    - T
+    - H
+    - R.48pt
+    - A
+    - N.48pt
+    - G
+    - E
+    stem_px: 19.0
+    scale: 2.08644
+    stem_units: 39.6
+  459:36pt:
+    n_caps: 10
+    cap_height_px: 258.0
+    cap_source: caps
+    baseline_px: 1433.0
+    baselines:
+      '2': 1433.0
+    glyphs:
+    - H.36pt
+    - U
+    - N.36pt
+    - T.36pt
+    - S
+    - five
+    - eight
+    - six
+    - B
+    - E.36pt
+    - A.36pt
+    - R.36pt
+    - S.36pt
+    figure_height_px: 256
+    stem_px: 16.0
+    scale: 2.71318
+    stem_units: 43.4
+    figure_height: 695
+  459:30pt:
+    n_caps: 16
+    cap_height_px: 191.0
+    cap_source: caps
+    baseline_px: 1858.5
+    baselines:
+      '3': 1858.5
+    glyphs:
+    - R.30pt
+    - E.30pt
+    - F
+    - O.30pt
+    - R.30pt_2
+    - M
+    - E.30pt_2
+    - D
+    - C
+    - U.30pt
+    - S.30pt
+    - T.30pt
+    - O.30pt_2
+    - M.30pt
+    - E.30pt_3
+    - R.30pt_3
+    stem_px: 13.0
+    scale: 3.66492
+    stem_units: 47.6
+specimen_lines:
+- leaf: 459
+  line: 48pt
+  text: NORTH RANGE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 459
+  line: 36pt
+  text: HUNTS 586 BEARS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 459
+  line: 30pt
+  text: REFORMED CUSTOMER
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,97 @@
+name: poster-abbey-farmer1899
+title: Poster Abbey.
+series: Poster Abbey.
+status: proto
+version: 0.1.0
+book: abridgedspecimen00adfa
+source:
+  archive_id: abridgedspecimen00adfa
+  title: 'Abridged specimen book : type, borders, brass rules, ornaments and price
+    list of printing machinery, furniture, fixtures and material'
+  creator: A.D. Farmer & Son Type Founding Co
+  publisher: 'Chicago : The Company'
+  date: '1899'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00adfa
+  copyright_status: null
+  contributor: University of Illinois Urbana-Champaign
+  leaves:
+  - 59
+leaf_pages:
+  59: 55
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      59:24pt: 72.0
+      59:18pt: 97.4
+  x_height: 500
+lines:
+  59:24pt:
+    n_caps: 0
+    cap_height_px: 155.5
+    cap_source: ascenders
+    baseline_px: 3370.0
+    baselines:
+      '4': 3370.0
+    glyphs:
+    - s
+    - h
+    - o
+    - w
+    - n
+    - h.24pt
+    - e
+    - r
+    - e.24pt
+    - i
+    - n.24pt
+    - a
+    - n.24pt_2
+    - d
+    x_height_px: 111.0
+    scale: 4.50161
+    x_height: 500
+  59:18pt:
+    n_caps: 15
+    cap_height_px: 115
+    cap_source: caps
+    baseline_px: 2060
+    baselines:
+      '1': 2060
+    glyphs:
+    - A
+    - M
+    - E
+    - R
+    - I
+    - C
+    - A.18pt
+    - N
+    - P
+    - R.18pt
+    - I.18pt
+    - N.18pt
+    - T
+    - E.18pt
+    - R.18pt_2
+    stem_px: 11
+    scale: 6.08696
+    stem_units: 67.0
+specimen_lines:
+- leaf: 59
+  line: 24pt
+  text: shown herein and
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 59
+  line: 18pt
+  text: AMERICAN PRINTER
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

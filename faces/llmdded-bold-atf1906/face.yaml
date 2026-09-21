@@ -1,0 +1,207 @@
+name: llmdded-bold-atf1906
+title: Llmdded Bold
+series: Llmdded Bold
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 352
+leaf_pages:
+  352: 302
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      352:72pt: 25.0
+      352:60pt: 21.4
+      352:54pt: 12.4
+      352:48pt: 13.9
+      352:42pt: 12.0
+      352:36pt: 28.5
+  x_height: 480
+lines:
+  352:72pt:
+    n_caps: 2
+    cap_height_px: 308.5
+    cap_source: caps
+    baseline_px: 698.5
+    baselines:
+      '1': 698.5
+    glyphs:
+    - I
+    - c
+    - e
+    - R
+    - a
+    - i
+    - l
+    x_height_px: 214
+    stem_px: 131.0
+    scale: 2.26904
+    stem_units: 297.2
+    x_height: 486
+  352:60pt:
+    n_caps: 2
+    cap_height_px: 261.5
+    cap_source: caps
+    baseline_px: 1122.5
+    baselines:
+      '2': 1122.5
+    glyphs:
+    - N
+    - e.60pt
+    - a.60pt
+    - t
+    - B
+    - o
+    - a.60pt_2
+    - t.60pt
+    x_height_px: 177.0
+    stem_px: 67.5
+    scale: 2.67686
+    stem_units: 180.7
+    x_height: 474
+  352:54pt:
+    n_caps: 2
+    cap_height_px: 226.5
+    cap_source: caps
+    baseline_px: 1493.0
+    baselines:
+      '3': 1493.0
+    glyphs:
+    - K
+    - i.54pt
+    - d
+    - G
+    - l.54pt
+    - o.54pt
+    - v
+    - e.54pt
+    - s
+    x_height_px: 159
+    stem_px: 69.0
+    scale: 3.09051
+    stem_units: 213.2
+    x_height: 491
+  352:48pt:
+    n_caps: 2
+    cap_height_px: 201.0
+    cap_source: caps
+    baseline_px: 1843.5
+    baselines:
+      '4': 1843.5
+    glyphs:
+    - E
+    - a.48pt
+    - s.48pt
+    - t.48pt
+    - e.48pt
+    - r
+    - n
+    - G.48pt
+    - i.48pt
+    - r.48pt
+    - l.48pt
+    x_height_px: 138
+    stem_px: 45.5
+    scale: 3.48259
+    stem_units: 158.5
+    x_height: 481
+  352:42pt:
+    n_caps: 2
+    cap_height_px: 174.5
+    cap_source: caps
+    baseline_px: 2159.5
+    baselines:
+      '5': 2159.5
+    glyphs:
+    - N.42pt
+    - e.42pt
+    - w
+    - S
+    - t.42pt
+    - e.42pt_2
+    - a.42pt
+    - m
+    - e.42pt_3
+    - r.42pt
+    - s.42pt
+    x_height_px: 119
+    stem_px: 29.0
+    scale: 4.01146
+    stem_units: 116.3
+    x_height: 477
+  352:36pt:
+    n_caps: 2
+    cap_height_px: 147.5
+    cap_source: caps
+    baseline_px: 2454.0
+    baselines:
+      '6': 2454.0
+    glyphs:
+    - H
+    - o.36pt
+    - n.36pt
+    - o.36pt_2
+    - r.36pt
+    - a.36pt
+    - b
+    - l.36pt
+    - e.36pt
+    - R.36pt
+    - a.36pt_2
+    - c.36pt
+    - e.36pt_2
+    x_height_px: 101
+    stem_px: 62.0
+    scale: 4.74576
+    stem_units: 294.2
+    x_height: 479
+specimen_lines:
+- leaf: 352
+  line: 72pt
+  text: Ice Rail
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 352
+  line: 60pt
+  text: Neat Boat
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 352
+  line: 54pt
+  text: Kid Gloves
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 352
+  line: 48pt
+  text: Eastern Girl
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 352
+  line: 42pt
+  text: New Steamers
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 352
+  line: 36pt
+  text: Honorable Race
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

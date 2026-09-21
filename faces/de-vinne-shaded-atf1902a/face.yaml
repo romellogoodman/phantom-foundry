@@ -1,0 +1,152 @@
+name: de-vinne-shaded-atf1902a
+title: De Vinne Shaded
+series: De Vinne Shaded
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 509
+leaf_pages:
+  509: 29
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      509:72pt: 69.4
+      509:60pt: 23.7
+      509:42pt: 56.4
+      509:36pt: 46.3
+  x_height: 577
+lines:
+  509:72pt:
+    n_caps: 4
+    cap_height_px: 373.0
+    cap_source: caps
+    baseline_px: 1064.0
+    baselines:
+      '1': 1064.0
+    glyphs:
+    - H
+    - I
+    - S
+    - D
+    - i
+    - s
+    - h
+    x_height_px: 365
+    stem_px: 9.0
+    scale: 1.87668
+    stem_units: 16.9
+    x_height: 685
+  509:60pt:
+    n_caps: 4
+    cap_height_px: 325.0
+    cap_source: caps
+    baseline_px: 1593.5
+    baselines:
+      '2': 1593.5
+    glyphs:
+    - D.60pt
+    - e
+    - a
+    - d
+    - M
+    - E
+    - T
+    x_height_px: 229
+    stem_px: 8.0
+    scale: 2.15385
+    stem_units: 17.2
+    x_height: 493
+  509:42pt:
+    n_caps: 6
+    cap_height_px: 223.5
+    cap_source: caps
+    baseline_px: 2964.5
+    baselines:
+      '5': 2964.5
+    glyphs:
+    - T.42pt
+    - R
+    - I.42pt
+    - E.42pt
+    - D.42pt
+    - A
+    - r
+    - t
+    - i.42pt
+    - c
+    - l
+    - e.42pt
+    x_height_px: 181.5
+    stem_px: 4.0
+    scale: 3.13199
+    stem_units: 12.5
+    x_height: 568
+  509:36pt:
+    n_caps: 9
+    cap_height_px: 136
+    cap_source: caps
+    baseline_px: 3363
+    baselines:
+      '6': 3363
+    glyphs:
+    - L
+    - a.36pt
+    - d.36pt
+    - H.36pt
+    - I.36pt
+    - T.36pt
+    - H.36pt_2
+    - A.36pt
+    - R.36pt
+    - D.36pt
+    - E.36pt
+    - a.36pt_2
+    - r.36pt
+    - t.36pt
+    - h.36pt
+    x_height_px: 114.0
+    stem_px: 3
+    scale: 5.14706
+    stem_units: 15.4
+    x_height: 587
+specimen_lines:
+- leaf: 509
+  line: 72pt
+  text: HIS Dish
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 509
+  line: 60pt
+  text: Dead MET
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 509
+  line: 42pt
+  text: TR IE DArticle
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 509
+  line: 36pt
+  text: Lad H I T HARD Earth
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

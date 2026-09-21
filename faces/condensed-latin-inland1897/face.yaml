@@ -1,0 +1,115 @@
+name: condensed-latin-inland1897
+title: Condensed Latin
+series: Condensed Latin
+status: proto
+version: 0.1.0
+book: specimenbookcata00inlauoft
+source:
+  archive_id: specimenbookcata00inlauoft
+  title: Specimen book and catalog; a price list of printers' supplies, showing types
+    and rules in which are embodied all the latest ideas that enable the printer to
+    produce superior work ..
+  creator: Inland Type Foundry, St. Louis
+  publisher: St. Louis, Inland Type Foundry
+  date: '1897'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inlauoft
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: Robarts - University of Toronto
+  leaves:
+  - 80
+leaf_pages:
+  80: 78
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      80:36pt: 37.7
+      80:24pt: 62.6
+  x_height: 694
+lines:
+  80:36pt:
+    n_caps: 10
+    cap_height_px: 185.5
+    cap_source: caps
+    baseline_px: 1265.0
+    baselines:
+      '3': 1265.0
+    glyphs:
+    - S
+    - T
+    - A
+    - N
+    - D
+    - A.36pt
+    - R
+    - D.36pt
+    - L
+    - i
+    - n
+    - i.36pt
+    - n.36pt
+    - g
+    - T.36pt
+    - y
+    - p
+    - e
+    - nine
+    - five
+    x_height_px: 184.0
+    figure_height_px: 188.5
+    stem_px: 16.0
+    scale: 3.77358
+    stem_units: 60.4
+    x_height: 694
+    figure_height: 711
+  80:24pt:
+    n_caps: 22
+    cap_height_px: 123.0
+    cap_source: caps
+    baseline_px: 1637.0
+    baselines:
+      '4': 1637.0
+    glyphs:
+    - S.24pt
+    - U
+    - P
+    - E
+    - R.24pt
+    - I
+    - O
+    - R.24pt_2
+    - A.24pt
+    - S.24pt_2
+    - T.24pt
+    - O.24pt
+    - D.24pt
+    - U.24pt
+    - R.24pt_3
+    - A.24pt_2
+    - B
+    - I.24pt
+    - L.24pt
+    - I.24pt_2
+    - T.24pt_2
+    - Y
+    stem_px: 12.5
+    scale: 5.69106
+    stem_units: 71.1
+specimen_lines:
+- leaf: 80
+  line: 36pt
+  text: STANDARD Lining Type 95
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 80
+  line: 24pt
+  text: SUPERIOR AS TO DURABILITY
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

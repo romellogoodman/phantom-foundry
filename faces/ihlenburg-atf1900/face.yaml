@@ -1,0 +1,53 @@
+name: ihlenburg-atf1900
+title: Ihlenburg
+series: Ihlenburg
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 707
+leaf_pages:
+  707: 1432
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      707:72pt: 5.8
+lines:
+  707:72pt:
+    n_caps: 3
+    cap_height_px: 359
+    cap_source: caps
+    baseline_px: 3308
+    baselines:
+      '7': 3308
+    glyphs:
+    - G
+    - S
+    - P
+    stem_px: 8
+    scale: 1.94986
+    stem_units: 15.6
+specimen_lines:
+- leaf: 707
+  line: 72pt
+  text: G SP
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

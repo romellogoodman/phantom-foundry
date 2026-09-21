@@ -1,0 +1,92 @@
+name: camelot-old-style-atf1900
+title: Camelot Old Style
+series: Camelot Old Style
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 473
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      473:30pt: 35.2
+lines:
+  473:30pt:
+    n_caps: 37
+    cap_height_px: 159
+    cap_source: caps
+    baseline_px: 843.5
+    baselines:
+      '1': 843.5
+      '2': 1085
+    glyphs:
+    - J
+    - O
+    - U
+    - R
+    - N
+    - E
+    - Y
+    - S
+    - N.30pt
+    - O.30pt
+    - R.30pt
+    - T
+    - H
+    - O.30pt_2
+    - F
+    - T.30pt
+    - H.30pt
+    - E.30pt
+    - P
+    - E.30pt_2
+    - M
+    - A
+    - Q
+    - U.30pt
+    - I
+    - D
+    - R.30pt_2
+    - I.30pt
+    - V
+    - E.30pt_3
+    - R.30pt_3
+    - D.30pt
+    - U.30pt_2
+    - R.30pt_4
+    - I.30pt_2
+    - N.30pt_2
+    - G
+    stem_px: 11
+    scale: 4.40252
+    stem_units: 48.4
+specimen_lines:
+- leaf: 473
+  line: 30pt
+  text: JOURNEYS NORTH OF THE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 473
+  line: 30pt
+  text: PEMAQUID RIVER DURING
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

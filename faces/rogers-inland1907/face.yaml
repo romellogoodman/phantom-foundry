@@ -1,0 +1,144 @@
+name: rogers-inland1907
+title: Rogers
+series: Rogers
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 134
+leaf_pages:
+  134: 126
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      134:60pt: 30.7
+      134:48pt: 35.5
+      134:30pt: 50.0
+  x_height: 463
+lines:
+  134:60pt:
+    n_caps: 3
+    cap_height_px: 387
+    cap_source: caps
+    baseline_px: 1568
+    baselines:
+      '3': 1568
+    glyphs:
+    - N
+    - O
+    - R
+    - m
+    - a
+    - n
+    x_height_px: 250
+    stem_px: 45
+    scale: 1.80879
+    stem_units: 81.4
+    x_height: 452
+  134:48pt:
+    n_caps: 4
+    cap_height_px: 295.5
+    cap_source: caps
+    baseline_px: 2042.0
+    baselines:
+      '4': 2042.0
+    glyphs:
+    - P
+    - R.48pt
+    - O.48pt
+    - C
+    - u
+    - r
+    - e
+    - d
+    - one
+    x_height_px: 195.5
+    figure_height_px: 288
+    stem_px: 46.0
+    scale: 2.36887
+    stem_units: 109.0
+    x_height: 463
+    figure_height: 682
+  134:30pt:
+    n_caps: 17
+    cap_height_px: 154
+    cap_source: caps
+    baseline_px: 2796
+    baselines:
+      '6': 2796
+      '7': 3019.5
+    glyphs:
+    - U
+    - S
+    - E
+    - F
+    - U.30pt
+    - L
+    - S.30pt
+    - P.30pt
+    - E.30pt
+    - C.30pt
+    - I
+    - A
+    - L.30pt
+    - L.30pt_2
+    - e.30pt
+    - t
+    - t.30pt
+    - e.30pt_2
+    - r.30pt
+    - F.30pt
+    - o
+    - r.30pt_2
+    - U.30pt_2
+    - s
+    - e.30pt_3
+    - o.30pt
+    - n.30pt
+    - C.30pt_2
+    - a.30pt
+    - r.30pt_3
+    - d.30pt
+    x_height_px: 110.0
+    stem_px: 13
+    scale: 4.54545
+    stem_units: 59.1
+    x_height: 500
+specimen_lines:
+- leaf: 134
+  line: 60pt
+  text: NORman
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 134
+  line: 48pt
+  text: PROCured 1
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 134
+  line: 30pt
+  text: USEFUL SPECIAL
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 134
+  line: 30pt
+  text: Letter For Use on Card
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

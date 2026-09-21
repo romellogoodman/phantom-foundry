@@ -1,0 +1,93 @@
+name: plorciuine-bold-atf1912
+title: Plorciuine Bold
+series: Plorciuine Bold
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 601
+leaf_pages:
+  601: 579
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      601:48pt: 56.9
+  x_height: 547
+lines:
+  601:48pt:
+    n_caps: 19
+    cap_height_px: 197
+    cap_source: caps
+    baseline_px: 1291.5
+    baselines:
+      '3': 1291.5
+      '4': 1562
+    glyphs:
+    - S
+    - P
+    - R
+    - I
+    - N
+    - G
+    - T
+    - I.48pt
+    - M
+    - E
+    - P.48pt
+    - O
+    - E.48pt
+    - T.48pt
+    - R.48pt
+    - Y
+    - C
+    - o
+    - p
+    - y
+    - E.48pt_2
+    - l
+    - e
+    - g
+    - a
+    - n
+    - t
+    - D
+    - e.48pt
+    - s
+    - i
+    - g.48pt
+    - n.48pt
+    - s.48pt
+    x_height_px: 154
+    stem_px: 32
+    scale: 3.5533
+    stem_units: 113.7
+    x_height: 547
+specimen_lines:
+- leaf: 601
+  line: 48pt
+  text: SPRINGTIME POETRY
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 601
+  line: 48pt
+  text: Copy Elegant Designs
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

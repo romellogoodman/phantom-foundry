@@ -1,0 +1,81 @@
+name: single-letter-atf1912
+title: Single Letter
+series: Single Letter
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 978
+leaf_pages:
+  978: 948
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      978:48pt: 393.8
+      978:30pt: 574.0
+lines:
+  978:48pt:
+    n_caps: 6
+    cap_height_px: 240.0
+    cap_source: caps
+    baseline_px: 1215.0
+    baselines:
+      '2': 1215.0
+    glyphs:
+    - A
+    - B
+    - C
+    - D
+    - E
+    - F
+    stem_px: 3.0
+    scale: 2.91667
+    stem_units: 8.8
+  978:30pt:
+    n_caps: 8
+    cap_height_px: 150.0
+    cap_source: caps
+    baseline_px: 1989.0
+    baselines:
+      '4': 1989.0
+    glyphs:
+    - A.30pt
+    - B.30pt
+    - C.30pt
+    - D.30pt
+    - E.30pt
+    - F.30pt
+    - G
+    - H
+    stem_px: 3.0
+    scale: 4.66667
+    stem_units: 14.0
+specimen_lines:
+- leaf: 978
+  line: 48pt
+  text: ABCDEF
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 978
+  line: 30pt
+  text: ABCDEFGH
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,90 @@
+name: motto-scries-atf1923
+title: Motto Scries
+series: Motto Scries
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 754
+leaf_pages:
+  754: 454
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      754:36pt: 37.1
+  x_height: 345
+lines:
+  754:36pt:
+    n_caps: 8
+    cap_height_px: 132.0
+    cap_source: caps
+    baseline_px: 1057
+    baselines:
+      '3': 1057
+      '4': 1252
+    glyphs:
+    - B
+    - R
+    - U
+    - I
+    - S
+    - E
+    - D
+    - l
+    - m
+    - n
+    - o
+    - p
+    - q
+    - r
+    - s
+    - t
+    - u
+    - v
+    - w
+    - x
+    - y
+    - z
+    - E.36pt
+    - x.36pt
+    - p.36pt
+    - i
+    - r.36pt
+    - a
+    - t.36pt
+    - i.36pt
+    - o.36pt
+    - n.36pt
+    x_height_px: 65.0
+    stem_px: 17.0
+    scale: 5.30303
+    stem_units: 90.2
+    x_height: 345
+specimen_lines:
+- leaf: 754
+  line: 36pt
+  text: BRUISED l m n opqrstuvwxy z
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 754
+  line: 36pt
+  text: Expiration ~ ? ~
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

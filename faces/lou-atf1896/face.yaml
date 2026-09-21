@@ -1,0 +1,159 @@
+name: lou-atf1896
+title: Lou
+series: Lou
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 254
+leaf_pages:
+  254: 250
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      254:48pt: 98.7
+      254:36pt: 94.5
+      254:24pt: 67.7
+  x_height: 510
+lines:
+  254:48pt:
+    n_caps: 6
+    cap_height_px: 312.0
+    cap_source: caps
+    baseline_px: 996
+    baselines:
+      '1': 996
+      '2': 1395
+    glyphs:
+    - P
+    - A
+    - L
+    - M
+    - S
+    - I
+    - o
+    - n
+    - e
+    - two
+    x_height_px: 224
+    figure_height_px: 316
+    stem_px: 33.5
+    scale: 2.24359
+    stem_units: 75.2
+    x_height: 503
+    figure_height: 709
+  254:36pt:
+    n_caps: 8
+    cap_height_px: 226.0
+    cap_source: caps
+    baseline_px: 1929
+    baselines:
+      '3': 1929
+      '4': 2260
+    glyphs:
+    - H
+    - I.36pt
+    - G
+    - H.36pt
+    - E
+    - S.36pt
+    - T
+    - T.36pt
+    - e.36pt
+    - s
+    - t
+    - eight
+    - seven
+    x_height_px: 165
+    figure_height_px: 229.0
+    stem_px: 26.0
+    scale: 3.09735
+    stem_units: 80.5
+    x_height: 511
+    figure_height: 709
+  254:24pt:
+    n_caps: 11
+    cap_height_px: 155
+    cap_source: caps
+    baseline_px: 2729.5
+    baselines:
+      '5': 2729.5
+      '6': 2980
+    glyphs:
+    - V
+    - A.24pt
+    - L.24pt
+    - K
+    - Y
+    - R
+    - I.24pt
+    - E.24pt
+    - I.24pt_2
+    - I.24pt_3
+    - R.24pt
+    - a
+    - i
+    - l
+    - r
+    - o.24pt
+    - a.24pt
+    - d
+    - eight.24pt
+    x_height_px: 113
+    figure_height_px: 156
+    stem_px: 24
+    scale: 4.51613
+    stem_units: 108.4
+    x_height: 510
+    figure_height: 705
+specimen_lines:
+- leaf: 254
+  line: 48pt
+  text: PALMS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 254
+  line: 48pt
+  text: Ione 2
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 254
+  line: 36pt
+  text: HIGHEST
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 254
+  line: 36pt
+  text: Test 87
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 254
+  line: 24pt
+  text: VALKYRIE II
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 254
+  line: 24pt
+  text: Railroad 8
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,119 @@
+name: wedding-gothic-atf1912
+title: Wedding Gothic
+series: Wedding Gothic
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 712
+leaf_pages:
+  712: 690
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      712:36pt: 124.9
+      712:30pt: 123.1
+      712:24pt: 160.9
+lines:
+  712:36pt:
+    n_caps: 11
+    cap_height_px: 171
+    cap_source: caps
+    baseline_px: 530
+    baselines:
+      '1': 530
+    glyphs:
+    - R
+    - E
+    - D
+    - E.36pt
+    - S
+    - I
+    - G
+    - N
+    - I.36pt
+    - N.36pt
+    - G.36pt
+    stem_px: 14
+    scale: 4.09357
+    stem_units: 57.3
+  712:30pt:
+    n_caps: 12
+    cap_height_px: 145.0
+    cap_source: caps
+    baseline_px: 895.5
+    baselines:
+      '2': 895.5
+    glyphs:
+    - G.30pt
+    - O
+    - T
+    - H
+    - I.30pt
+    - C
+    - D.30pt
+    - E.30pt
+    - S.30pt
+    - I.30pt_2
+    - G.30pt_2
+    - N.30pt
+    stem_px: 12.0
+    scale: 4.82759
+    stem_units: 57.9
+  712:24pt:
+    n_caps: 12
+    cap_height_px: 117.5
+    cap_source: caps
+    baseline_px: 1240.0
+    baselines:
+      '3': 1240.0
+    glyphs:
+    - F
+    - O.24pt
+    - R.24pt
+    - M
+    - O.24pt_2
+    - D.24pt
+    - E.24pt
+    - R.24pt_2
+    - N.24pt
+    - C.24pt
+    - U
+    - T.24pt
+    stem_px: 10.0
+    scale: 5.95745
+    stem_units: 59.6
+specimen_lines:
+- leaf: 712
+  line: 36pt
+  text: REDESIGNING
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 712
+  line: 30pt
+  text: GOTHIC DESIGN
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 712
+  line: 24pt
+  text: FOR MODERN CUT
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

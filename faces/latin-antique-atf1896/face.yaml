@@ -1,0 +1,170 @@
+name: latin-antique-atf1896
+title: Latin Antique.
+series: Latin Antique.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 408
+leaf_pages:
+  408: 404
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      408:36pt: 57.4
+      408:30pt: 70.2
+      408:22pt: 65.2
+  x_height: 569
+lines:
+  408:36pt:
+    n_caps: 9
+    cap_height_px: 244
+    cap_source: caps
+    baseline_px: 1594
+    baselines:
+      '2': 1594
+      '3': 1947.5
+    glyphs:
+    - R
+    - E
+    - D
+    - D.36pt
+    - E.36pt
+    - C
+    - K
+    - T
+    - h
+    - e
+    - five
+    - C.36pt
+    - a
+    - t
+    x_height_px: 198.5
+    figure_height_px: 239
+    stem_px: 43
+    scale: 2.86885
+    stem_units: 123.4
+    x_height: 569
+    figure_height: 686
+  408:30pt:
+    n_caps: 10
+    cap_height_px: 189.5
+    cap_source: caps
+    baseline_px: 2521.0
+    baselines:
+      '4': 2521.0
+      '5': 2805.5
+    glyphs:
+    - K.30pt
+    - I
+    - N
+    - G
+    - one
+    - four
+    - C.30pt
+    - O
+    - L
+    - E.30pt
+    - C.30pt_2
+    - a.30pt
+    - m
+    - e.30pt
+    - H
+    - i
+    - g
+    - h.30pt
+    x_height_px: 165.5
+    figure_height_px: 188.5
+    stem_px: 29.0
+    scale: 3.69393
+    stem_units: 107.1
+    x_height: 611
+    figure_height: 696
+  408:22pt:
+    n_caps: 12
+    cap_height_px: 145.0
+    cap_source: caps
+    baseline_px: 3353.0
+    baselines:
+      '6': 3353.0
+      '7': 3585.5
+    glyphs:
+    - W
+    - H.22pt
+    - O.22pt
+    - S
+    - E.22pt
+    - two
+    - M
+    - E.22pt_2
+    - R.22pt
+    - R.22pt_2
+    - Y
+    - H.22pt_2
+    - a.22pt
+    - u
+    - n
+    - t.22pt
+    - s
+    - G.22pt
+    - r
+    - e.22pt
+    - w
+    x_height_px: 109.0
+    figure_height_px: 141
+    stem_px: 23.5
+    scale: 4.82759
+    stem_units: 113.4
+    x_height: 526
+    figure_height: 681
+specimen_lines:
+- leaf: 408
+  line: 36pt
+  text: RED DECK
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 408
+  line: 36pt
+  text: The 5 Cat
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 408
+  line: 30pt
+  text: KING 14 COLE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 408
+  line: 30pt
+  text: Came High
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 408
+  line: 22pt
+  text: WHOSE 2 MERRY
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 408
+  line: 22pt
+  text: H au nts Grew
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

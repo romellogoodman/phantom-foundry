@@ -1,0 +1,58 @@
+name: caslon-lightface-atf1923
+title: Caslon Lightface
+series: Caslon Lightface
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 454
+leaf_pages:
+  454: 154
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      454:48pt: 46.9
+  x_height: 641
+lines:
+  454:48pt:
+    n_caps: 1
+    cap_height_px: 179
+    cap_source: caps
+    baseline_px: 1297
+    baselines:
+      '3': 1297
+    glyphs:
+    - D
+    - i
+    - n
+    - g
+    - l
+    - e
+    x_height_px: 164
+    stem_px: 21
+    scale: 3.91061
+    stem_units: 82.1
+    x_height: 641
+specimen_lines:
+- leaf: 454
+  line: 48pt
+  text: Dingle ~ ~~
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

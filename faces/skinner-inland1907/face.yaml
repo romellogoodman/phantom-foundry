@@ -1,0 +1,90 @@
+name: skinner-inland1907
+title: Skinner
+series: Skinner
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 175
+leaf_pages:
+  175: 167
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      175:24pt: 50.7
+  x_height: 507
+lines:
+  175:24pt:
+    n_caps: 14
+    cap_height_px: 138.0
+    cap_source: caps
+    baseline_px: 1319
+    baselines:
+      '4': 1319
+      '5': 1512
+    glyphs:
+    - F
+    - I
+    - N
+    - E
+    - L
+    - E.24pt
+    - T
+    - T.24pt
+    - E.24pt_2
+    - R
+    - S
+    - N.24pt
+    - o
+    - P
+    - r
+    - o.24pt
+    - g
+    - r.24pt
+    - e
+    - s
+    - s.24pt
+    - E.24pt_3
+    - f
+    - f.24pt
+    - e.24pt
+    - c
+    - t
+    - e.24pt_2
+    - d
+    - eight
+    x_height_px: 100
+    figure_height_px: 135
+    stem_px: 13.0
+    scale: 5.07246
+    stem_units: 65.9
+    x_height: 507
+    figure_height: 685
+specimen_lines:
+- leaf: 175
+  line: 24pt
+  text: FINE LETTERS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 175
+  line: 24pt
+  text: No Progress Effected 8
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

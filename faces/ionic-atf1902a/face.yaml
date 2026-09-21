@@ -1,0 +1,185 @@
+name: ionic-atf1902a
+title: Ionic
+series: Ionic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 578
+  - 579
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      578:42pt: 28.5
+      578:36pt: 35.2
+      579:36pt: 29.7
+      579:24pt: 42.6
+  x_height: 499
+lines:
+  578:42pt:
+    n_caps: 10
+    cap_height_px: 233.5
+    cap_source: caps
+    baseline_px: 1788.5
+    baselines:
+      '3': 1788.5
+      '4': 2077.5
+    glyphs:
+    - D
+    - A
+    - M
+    - A.42pt
+    - G
+    - I
+    - N
+    - G.42pt
+    - F
+    - i
+    - n
+    - e
+    - H
+    - a
+    - r
+    - v
+    - e.42pt
+    - s
+    - t
+    x_height_px: 167
+    stem_px: 27.5
+    scale: 2.99786
+    stem_units: 82.4
+    x_height: 501
+  578:36pt:
+    n_caps: 12
+    cap_height_px: 169.0
+    cap_source: caps
+    baseline_px: 2479.0
+    baselines:
+      '5': 2479.0
+    glyphs:
+    - H.36pt
+    - A.36pt
+    - N.36pt
+    - D.36pt
+    - Y
+    - C
+    - U
+    - R
+    - T
+    - A.36pt_2
+    - I.36pt
+    - S
+    stem_px: 14.0
+    scale: 4.14201
+    stem_units: 58.0
+  579:36pt:
+    n_caps: 10
+    cap_height_px: 165.0
+    cap_source: caps
+    baseline_px: 1717.5
+    baselines:
+      '3': 1717.5
+      '4': 1965.0
+    glyphs:
+    - P
+    - R.36pt
+    - O
+    - D.36pt_2
+    - U.36pt
+    - C.36pt
+    - T.36pt
+    - S.36pt
+    - S.36pt_2
+    - i.36pt
+    - b
+    - e.36pt
+    - r.36pt
+    - i.36pt_2
+    - a.36pt
+    - n.36pt
+    - D.36pt_3
+    - i.36pt_3
+    - a.36pt_2
+    - m
+    - o
+    - n.36pt_2
+    - d
+    - s.36pt
+    x_height_px: 117.5
+    stem_px: 27.0
+    scale: 4.24242
+    stem_units: 114.5
+    x_height: 498
+  579:24pt:
+    n_caps: 11
+    cap_height_px: 115
+    cap_source: caps
+    baseline_px: 2380
+    baselines:
+      '5': 2380
+    glyphs:
+    - S.24pt
+    - H.24pt
+    - I.24pt
+    - P.24pt
+    - S.24pt_2
+    - S.24pt_3
+    - I.24pt_2
+    - L
+    - E
+    - N.24pt
+    - T.24pt
+    stem_px: 15
+    scale: 6.08696
+    stem_units: 91.3
+specimen_lines:
+- leaf: 578
+  line: 42pt
+  text: DAMAGING
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 578
+  line: 42pt
+  text: Fine Harvest
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 578
+  line: 36pt
+  text: HANDY CURTAIS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 579
+  line: 36pt
+  text: PRODUCTS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 579
+  line: 36pt
+  text: Siberian Diamonds
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 579
+  line: 24pt
+  text: SHIPS SILENT
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

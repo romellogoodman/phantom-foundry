@@ -1,0 +1,183 @@
+name: ronaldson-extended-atf1896
+title: Ronaldson Extended.
+series: Ronaldson Extended.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 202
+  - 203
+leaf_pages:
+  202: 198
+  203: 199
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      202:48pt: 69.7
+      202:36pt: 49.0
+      202:30pt: 69.6
+      202:24pt: 51.4
+  x_height: 504
+lines:
+  202:48pt:
+    n_caps: 4
+    cap_height_px: 271.0
+    cap_source: caps
+    baseline_px: 873.0
+    baselines:
+      '1': 873.0
+    glyphs:
+    - D
+    - U
+    - K
+    - E
+    stem_px: 9.0
+    scale: 2.58303
+    stem_units: 23.2
+  202:36pt:
+    n_caps: 7
+    cap_height_px: 200
+    cap_source: caps
+    baseline_px: 1823
+    baselines:
+      '3': 1823
+      '4': 2138.5
+    glyphs:
+    - D.36pt
+    - A
+    - N
+    - D.36pt_2
+    - Y
+    - B
+    - u
+    - t
+    - a
+    - D.36pt_3
+    - u.36pt
+    - d
+    - e
+    x_height_px: 146.5
+    stem_px: 26
+    scale: 3.5
+    stem_units: 91.0
+    x_height: 513
+  202:30pt:
+    n_caps: 7
+    cap_height_px: 171
+    cap_source: caps
+    baseline_px: 2621
+    baselines:
+      '5': 2621
+      '6': 2885.5
+    glyphs:
+    - M
+    - U.30pt
+    - S
+    - I
+    - C
+    - H
+    - a.30pt
+    - t.30pt
+    - h
+    - C.30pt
+    - h.30pt
+    - a.30pt_2
+    - r
+    - m
+    - s
+    x_height_px: 120.0
+    stem_px: 10
+    scale: 4.09357
+    stem_units: 40.9
+    x_height: 491
+  202:24pt:
+    n_caps: 10
+    cap_height_px: 143.0
+    cap_source: caps
+    baseline_px: 3298.5
+    baselines:
+      '7': 3298.5
+      '8': 3512.5
+    glyphs:
+    - B.24pt
+    - A.24pt
+    - S.24pt
+    - E.24pt
+    - B.24pt_2
+    - A.24pt_2
+    - L
+    - L.24pt
+    - O
+    - v
+    - e.24pt
+    - r.24pt
+    - t.24pt
+    - h.24pt
+    - e.24pt_2
+    - F
+    - i
+    - e.24pt_3
+    - l
+    - d.24pt
+    - s.24pt
+    x_height_px: 103
+    stem_px: 14.0
+    scale: 4.8951
+    stem_units: 68.5
+    x_height: 504
+specimen_lines:
+- leaf: 202
+  line: 48pt
+  text: DUKE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 202
+  line: 36pt
+  text: DANDY
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 202
+  line: 36pt
+  text: But a Dude
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 202
+  line: 30pt
+  text: MUSIC
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 202
+  line: 30pt
+  text: HathCharms
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 202
+  line: 24pt
+  text: BASE BALL
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 202
+  line: 24pt
+  text: Over the Fields
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

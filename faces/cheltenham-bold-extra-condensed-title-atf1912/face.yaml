@@ -1,0 +1,133 @@
+name: cheltenham-bold-extra-condensed-title-atf1912
+title: Cheltenham Bold Extra Condensed Title
+series: Cheltenham Bold Extra Condensed Title
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 214
+leaf_pages:
+  214: 200
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      214:96pt: 8.7
+      214:84pt: 8.4
+      214:72pt: 7.7
+lines:
+  214:96pt:
+    n_caps: 10
+    cap_height_px: 480.0
+    cap_source: caps
+    baseline_px: 797.0
+    baselines:
+      '1': 797.0
+    glyphs:
+    - S
+    - K
+    - I
+    - R
+    - M
+    - I.96pt
+    - S.96pt
+    - H
+    - E
+    - R.96pt
+    stem_px: 55.0
+    scale: 1.45833
+    stem_units: 80.2
+  214:84pt:
+    n_caps: 21
+    cap_height_px: 417
+    cap_source: caps
+    baseline_px: 1389.5
+    baselines:
+      '2': 1389.5
+      '3': 1865
+    glyphs:
+    - M.84pt
+    - U
+    - S.84pt
+    - T
+    - R.84pt
+    - E.84pt
+    - T.84pt
+    - U.84pt
+    - R.84pt_2
+    - N
+    - P
+    - R.84pt_3
+    - I.84pt
+    - N.84pt
+    - T.84pt_2
+    - S.84pt_2
+    - C
+    - L
+    - E.84pt_2
+    - A
+    - R.84pt_4
+    stem_px: 37
+    scale: 1.67866
+    stem_units: 62.1
+  214:72pt:
+    n_caps: 12
+    cap_height_px: 361.5
+    cap_source: caps
+    baseline_px: 2400.5
+    baselines:
+      '4': 2400.5
+    glyphs:
+    - R.72pt
+    - I.72pt
+    - C.72pt
+    - H.72pt
+    - L.72pt
+    - E.72pt
+    - A.72pt
+    - D
+    - M.72pt
+    - I.72pt_2
+    - N.72pt
+    - E.72pt_2
+    stem_px: 39.5
+    scale: 1.93638
+    stem_units: 76.5
+specimen_lines:
+- leaf: 214
+  line: 96pt
+  text: SKIRMISHER
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 214
+  line: 84pt
+  text: MUST RETURN
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 214
+  line: 84pt
+  text: PRINTS CLEAR
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 214
+  line: 72pt
+  text: RICH LEAD MINE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

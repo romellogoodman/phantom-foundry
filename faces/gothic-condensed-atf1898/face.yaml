@@ -1,0 +1,196 @@
+name: gothic-condensed-atf1898
+title: Gothic Condensed
+series: Gothic Condensed
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 284
+  - 296
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      296:60pt: 39.7
+      296:48pt: 51.6
+      296:42pt: 66.4
+      296:36pt: 59.6
+      296:30pt: 67.2
+lines:
+  296:60pt:
+    n_caps: 8
+    cap_height_px: 379.0
+    cap_source: caps
+    baseline_px: 1046.0
+    baselines:
+      '2': 1046.0
+    glyphs:
+    - K
+    - I
+    - N
+    - G
+    - R
+    - O
+    - B
+    - E
+    - seven
+    figure_height_px: 377
+    stem_px: 50.0
+    scale: 1.84697
+    stem_units: 92.3
+    figure_height: 696
+  296:48pt:
+    n_caps: 16
+    cap_height_px: 312.0
+    cap_source: caps
+    baseline_px: 1569.5
+    baselines:
+      '3': 1569.5
+      '4': 2099.0
+    glyphs:
+    - H
+    - I.48pt
+    - R.48pt
+    - E.48pt
+    - eight
+    - L
+    - O.48pt
+    - V
+    - E.48pt_2
+    - S
+    - U
+    - N.48pt
+    - S.48pt
+    - H.48pt
+    - I.48pt_2
+    - N.48pt_2
+    - E.48pt_3
+    - six
+    figure_height_px: 317.5
+    stem_px: 53.0
+    scale: 2.24359
+    stem_units: 118.9
+    figure_height: 712
+  296:42pt:
+    n_caps: 9
+    cap_height_px: 232
+    cap_source: caps
+    baseline_px: 2540
+    baselines:
+      '5': 2540
+    glyphs:
+    - Y
+    - E.42pt
+    - A
+    - R.42pt
+    - five
+    - A.42pt
+    - F
+    - T
+    - E.42pt_2
+    - R.42pt_2
+    figure_height_px: 237
+    stem_px: 44
+    scale: 3.01724
+    stem_units: 132.8
+    figure_height: 715
+  296:36pt:
+    n_caps: 10
+    cap_height_px: 223.0
+    cap_source: caps
+    baseline_px: 2982.0
+    baselines:
+      '6': 2982.0
+    glyphs:
+    - S.36pt
+    - H.36pt
+    - I.36pt
+    - R.36pt
+    - K.36pt
+    - three
+    - Y.36pt
+    - O.36pt
+    - U.36pt
+    - T.36pt
+    - H.36pt_2
+    figure_height_px: 223
+    stem_px: 38.0
+    scale: 3.13901
+    stem_units: 119.3
+    figure_height: 700
+  296:30pt:
+    n_caps: 11
+    cap_height_px: 177
+    cap_source: caps
+    baseline_px: 3368
+    baselines:
+      '7': 3368
+    glyphs:
+    - J
+    - O.30pt
+    - R.30pt
+    - D
+    - A.30pt
+    - N.30pt
+    - one
+    - six.30pt
+    - M
+    - A.30pt_2
+    - R.30pt_2
+    - S.30pt
+    - H.30pt
+    figure_height_px: 178.5
+    stem_px: 33
+    scale: 3.9548
+    stem_units: 130.5
+    figure_height: 706
+specimen_lines:
+- leaf: 296
+  line: 60pt
+  text: KING ROBE 7
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 296
+  line: 48pt
+  text: HIRE 8 LOVE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 296
+  line: 48pt
+  text: SUNSHINE 6
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 296
+  line: 42pt
+  text: YEAR 5 AFTER
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 296
+  line: 36pt
+  text: SHIRK 3 YOUTH
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 296
+  line: 30pt
+  text: JORDAN 16 MARSH
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

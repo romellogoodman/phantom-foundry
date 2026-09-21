@@ -1,0 +1,109 @@
+name: tudor-black-outline-keystone1906
+title: Tudor Black Outline
+series: Tudor Black Outline
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 282
+  - 283
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      283:42pt: 44.7
+      282:20pt: 38.3
+  x_height: 587
+lines:
+  283:42pt:
+    n_caps: 3
+    cap_height_px: 219
+    cap_source: caps
+    baseline_px: 1814.0
+    baselines:
+      '3': 1814.0
+      '4': 2120
+    glyphs:
+    - R
+    - a
+    - r
+    - e
+    - I
+    - m
+    - p
+    - r.42pt
+    - i
+    - n
+    - t
+    - G
+    - u
+    - t.42pt
+    - e.42pt
+    - n.42pt
+    - b
+    - e.42pt_2
+    - r.42pt_2
+    - g
+    x_height_px: 170
+    stem_px: 7
+    scale: 3.19635
+    stem_units: 22.4
+    x_height: 543
+  282:20pt:
+    n_caps: 2
+    cap_height_px: 128.0
+    cap_source: caps
+    baseline_px: 2650.0
+    baselines:
+      '3': 2650.0
+    glyphs:
+    - A
+    - n.20pt
+    - d
+    - Q
+    - u.20pt
+    - a.20pt
+    - l
+    - i.20pt
+    - t.20pt
+    - y
+    x_height_px: 115.5
+    stem_px: 6.0
+    scale: 5.46875
+    stem_units: 32.8
+    x_height: 632
+specimen_lines:
+- leaf: 283
+  line: 42pt
+  text: Rare Imprint
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 283
+  line: 42pt
+  text: Gutenberg
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 282
+  line: 20pt
+  text: And Quality
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

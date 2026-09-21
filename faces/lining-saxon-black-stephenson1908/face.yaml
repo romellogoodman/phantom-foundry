@@ -1,0 +1,109 @@
+name: lining-saxon-black-stephenson1908
+title: Lining Saxon Black.
+series: Lining Saxon Black.
+status: proto
+version: 0.1.0
+book: specimensofpoint00step
+source:
+  archive_id: specimensofpoint00step
+  title: 'Specimens of point line type : borders ornaments brass rules &c. &c'
+  creator:
+  - Stephenson, Blake and Company, Ltd
+  - Sir Charles Reed & Sons
+  publisher: 'Toronto : Stephenson, Blake & Co.'
+  date: '1908'
+  ppi: 350
+  url: https://archive.org/details/specimensofpoint00step
+  copyright_status: null
+  contributor: Fisher - University of Toronto
+  leaves:
+  - 204
+leaf_pages:
+  204: 286
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      204:60pt: 23.3
+      204:48pt: 12.7
+  x_height: 393
+lines:
+  204:60pt:
+    n_caps: 2
+    cap_height_px: 240.5
+    cap_source: caps
+    baseline_px: 1244.0
+    baselines:
+      '2': 1244.0
+    glyphs:
+    - B
+    - i
+    - r
+    - m
+    - i.60pt
+    - n
+    - g
+    - h
+    - a
+    - m.60pt
+    - C
+    - o
+    - u
+    - r.60pt
+    - i.60pt_2
+    - e
+    - r.60pt_2
+    x_height_px: 145
+    stem_px: 3.5
+    scale: 2.9106
+    stem_units: 10.2
+    x_height: 422
+  204:48pt:
+    n_caps: 2
+    cap_height_px: 220.5
+    cap_source: caps
+    baseline_px: 1932.5
+    baselines:
+      '4': 1932.5
+    glyphs:
+    - A
+    - m.48pt
+    - e.48pt
+    - r.48pt
+    - i.48pt
+    - c
+    - a.48pt
+    - n.48pt
+    - P
+    - r.48pt_2
+    - o.48pt
+    - d
+    - u.48pt
+    - c.48pt
+    - t
+    - i.48pt_2
+    - o.48pt_2
+    - n.48pt_2
+    - s
+    x_height_px: 115
+    stem_px: 6.0
+    scale: 3.1746
+    stem_units: 19.0
+    x_height: 365
+specimen_lines:
+- leaf: 204
+  line: 60pt
+  text: B irmingham Courier
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 204
+  line: 48pt
+  text: American~ P roductions
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,70 @@
+name: raphael-atf1900
+title: Raphael
+series: Raphael
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 675
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      675:24pt: 15.6
+lines:
+  675:24pt:
+    n_caps: 21
+    cap_height_px: 135
+    cap_source: caps
+    baseline_px: 1501
+    baselines:
+      '3': 1501
+    glyphs:
+    - G
+    - R
+    - A
+    - N
+    - D
+    - H
+    - I
+    - S
+    - T
+    - O
+    - R.24pt
+    - I.24pt
+    - C
+    - A.24pt
+    - L
+    - E
+    - V
+    - E.24pt
+    - N.24pt
+    - T.24pt
+    - S.24pt
+    stem_px: 3
+    scale: 5.18519
+    stem_units: 15.6
+specimen_lines:
+- leaf: 675
+  line: 24pt
+  text: GRAND HISTORICAL EVENTS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

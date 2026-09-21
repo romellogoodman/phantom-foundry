@@ -1,0 +1,73 @@
+name: heintzemann-atf1897
+title: Heintzemann
+series: Heiivtzemaivn
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 631
+leaf_pages:
+  631: 629
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      631:30pt: 38.6
+  x_height: 512
+lines:
+  631:30pt:
+    n_caps: 2
+    cap_height_px: 217.5
+    cap_source: caps
+    baseline_px: 929.0
+    baselines:
+      '1': 929.0
+    glyphs:
+    - L
+    - o
+    - b
+    - l
+    - i
+    - e
+    - d
+    - e.30pt
+    - r
+    - a
+    - m
+    - M
+    - l.30pt
+    - t
+    - a.30pt
+    - r.30pt
+    - e.30pt_2
+    x_height_px: 159
+    stem_px: 7.0
+    scale: 3.21839
+    stem_units: 22.5
+    x_height: 512
+specimen_lines:
+- leaf: 631
+  line: 30pt
+  text: Loblieder am Mltare
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Heiivtzemaivn
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

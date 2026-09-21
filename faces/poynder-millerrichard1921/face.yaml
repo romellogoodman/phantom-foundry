@@ -1,0 +1,227 @@
+name: poynder-millerrichard1921
+title: Poynder.
+series: Poynder.
+status: proto
+version: 0.1.0
+book: printingtypespec00millrich
+source:
+  archive_id: printingtypespec00millrich
+  title: Printing type specimens, comprising a large variety of book and jobbing faces,
+    borders and ornaments
+  creator: Miller & Richard (Firm)
+  publisher: Edinburgh, London
+  date: '[1921?]'
+  ppi: 300
+  url: https://archive.org/details/printingtypespec00millrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 182
+  - 265
+leaf_pages:
+  182: 296
+  265: 389
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      182:66pt: 68.2
+      265:48pt: 43.2
+      182:42pt: 67.7
+      265:42pt: 20.8
+  x_height: 500
+lines:
+  182:66pt:
+    n_caps: 12
+    cap_height_px: 154.0
+    cap_source: caps
+    baseline_px: 783.0
+    baselines:
+      '2': 783.0
+    glyphs:
+    - I
+    - N
+    - S
+    - T
+    - I.66pt
+    - T.66pt
+    - U
+    - T.66pt_2
+    - I.66pt_2
+    - O
+    - N.66pt
+    - S.66pt
+    stem_px: 23.0
+    scale: 4.54545
+    stem_units: 104.5
+  265:48pt:
+    n_caps: 0
+    cap_height_px: 154
+    cap_source: ascenders
+    baseline_px: 569
+    baselines:
+      '1': 569
+      '2': 791
+      '3': 1888
+    glyphs:
+    - two
+    - three
+    - four
+    - five
+    - six
+    - one
+    - two.48pt
+    - three.48pt
+    - four.48pt
+    - five.48pt
+    - six.48pt
+    - two.48pt_2
+    - three.48pt_2
+    - four.48pt_2
+    - five.48pt_2
+    - six.48pt_2
+    - seven
+    - one.48pt
+    - two.48pt_3
+    - three.48pt_3
+    - four.48pt_3
+    - five.48pt_3
+    - six.48pt_3
+    - seven.48pt
+    - one.48pt_2
+    - two.48pt_4
+    - three.48pt_4
+    - four.48pt_4
+    - five.48pt_4
+    - six.48pt_4
+    - seven.48pt_2
+    - eight
+    - nine
+    - two.48pt_5
+    - three.48pt_5
+    - four.48pt_5
+    - five.48pt_5
+    - six.48pt_5
+    - seven.48pt_3
+    - eight.48pt
+    - nine.48pt
+    figure_height_px: 150
+    scale: 4.54545
+    figure_height: 682
+  182:42pt:
+    n_caps: 14
+    cap_height_px: 134.5
+    cap_source: caps
+    baseline_px: 1087.5
+    baselines:
+      '3': 1087.5
+      '4': 1306.0
+    glyphs:
+    - C
+    - e
+    - l
+    - e.42pt
+    - b
+    - r
+    - a
+    - t
+    - e.42pt_2
+    - d
+    - M
+    - o
+    - n
+    - u
+    - m
+    - e.42pt_3
+    - n.42pt
+    - t.42pt
+    - A
+    - R
+    - C.42pt
+    - H
+    - I.42pt
+    - T.42pt
+    - E
+    - C.42pt_2
+    - T.42pt_2
+    - U.42pt
+    - R.42pt
+    - E.42pt
+    x_height_px: 96.0
+    stem_px: 16.5
+    scale: 5.20446
+    stem_units: 85.9
+    x_height: 500
+  265:42pt:
+    n_caps: 0
+    cap_height_px: 134.5
+    cap_source: ascenders
+    baseline_px: 2110.0
+    baselines:
+      '4': 2110.0
+    glyphs:
+    - one.42pt
+    - two.42pt
+    - three.42pt
+    - four.42pt
+    - five.42pt
+    - six.42pt
+    - seven.42pt
+    - eight.42pt
+    - nine.42pt
+    - zero
+    - one.42pt_2
+    - two.42pt_2
+    - three.42pt_2
+    - four.42pt_2
+    - five.42pt_2
+    - six.42pt_2
+    - seven.42pt_2
+    - eight.42pt_2
+    - nine.42pt_2
+    - zero.42pt
+    figure_height_px: 132.0
+    scale: 5.20446
+    figure_height: 687
+specimen_lines:
+- leaf: 182
+  line: 66pt
+  text: INSTITUTIONS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 265
+  line: 48pt
+  text: 23456 123456
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 265
+  line: 48pt
+  text: 234567 1 234567
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 265
+  line: 48pt
+  text: 123456789 23456789
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 182
+  line: 42pt
+  text: Celebrated Monument
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 182
+  line: 42pt
+  text: ARCHITECTURE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 265
+  line: 42pt
+  text: 1 234567890 1 234567890
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

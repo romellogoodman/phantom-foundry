@@ -1,0 +1,252 @@
+name: tudor-black-atf1902b
+title: Tudor Black
+series: Tudor Black
+status: proto
+version: 0.1.0
+book: deskbookoftypesp02amer
+source:
+  archive_id: deskbookoftypesp02amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    2, 11-22)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp02amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 92
+  - 93
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      92:72pt: 37.2
+      92:48pt: 59.0
+      92:40pt: 53.6
+      92:36pt: 59.7
+      92:30pt: 54.0
+      93:24pt: 46.8
+  x_height: 508
+lines:
+  92:72pt:
+    n_caps: 2
+    cap_height_px: 395.5
+    cap_source: caps
+    baseline_px: 1016.5
+    baselines:
+      '1': 1016.5
+    glyphs:
+    - P
+    - a
+    - r
+    - k
+    - E
+    - c
+    - h
+    - o
+    x_height_px: 265.5
+    stem_px: 18.0
+    scale: 1.76991
+    stem_units: 31.9
+    x_height: 470
+  92:48pt:
+    n_caps: 3
+    cap_height_px: 255
+    cap_source: caps
+    baseline_px: 1608
+    baselines:
+      '2': 1608
+      '3': 1970.5
+    glyphs:
+    - U
+    - m
+    - p
+    - i
+    - r.48pt
+    - e
+    - s
+    - E.48pt
+    - i.48pt
+    - g
+    - h.48pt
+    - t
+    - a.48pt
+    - n
+    - d
+    - T
+    - e.48pt
+    - n.48pt
+    x_height_px: 185
+    stem_px: 6
+    scale: 2.7451
+    stem_units: 16.5
+    x_height: 508
+  92:40pt:
+    n_caps: 2
+    cap_height_px: 215.5
+    cap_source: caps
+    baseline_px: 2864.0
+    baselines:
+      '5': 2864.0
+    glyphs:
+    - S
+    - t.40pt
+    - o.40pt
+    - l
+    - e.40pt
+    - t.40pt_2
+    - h.40pt
+    - e.40pt_2
+    - G
+    - a.40pt
+    - m.40pt
+    - e.40pt_3
+    - s.40pt
+    x_height_px: 168
+    stem_px: 8.5
+    scale: 3.24826
+    stem_units: 27.6
+    x_height: 546
+  92:36pt:
+    n_caps: 2
+    cap_height_px: 176.0
+    cap_source: caps
+    baseline_px: 3414.5
+    baselines:
+      '6': 3414.5
+    glyphs:
+    - D
+    - i.36pt
+    - v
+    - i.36pt_2
+    - d.36pt
+    - e.36pt
+    - A
+    - m.36pt
+    - o.36pt
+    - n.36pt
+    - g.36pt
+    x_height_px: 128
+    stem_px: 8.5
+    scale: 3.97727
+    stem_units: 33.8
+    x_height: 509
+  92:30pt:
+    n_caps: 3
+    cap_height_px: 175
+    cap_source: caps
+    baseline_px: 3692
+    baselines:
+      '7': 3692
+    glyphs:
+    - G.30pt
+    - r.30pt
+    - a.30pt
+    - n.30pt
+    - d.30pt
+    - S.30pt
+    - t.30pt
+    - a.30pt_2
+    - n.30pt_2
+    - d.30pt_2
+    - M
+    - o.30pt
+    - n.30pt_3
+    - e.30pt
+    - y
+    x_height_px: 129.0
+    stem_px: 11
+    scale: 4.0
+    stem_units: 44.0
+    x_height: 516
+  93:24pt:
+    n_caps: 4
+    cap_height_px: 149.5
+    cap_source: caps
+    baseline_px: 747.0
+    baselines:
+      '1': 747.0
+      '3': 1172.0
+    glyphs:
+    - E.24pt
+    - m.24pt
+    - i.24pt
+    - n.24pt
+    - e.24pt
+    - n.24pt_2
+    - t.24pt
+    - C
+    - e.24pt_2
+    - n.24pt_3
+    - s.24pt
+    - u
+    - r.24pt
+    - e.24pt_3
+    - M.24pt
+    - a.24pt
+    - t.24pt_2
+    - i.24pt_2
+    - o.24pt
+    - n.24pt_4
+    - P.24pt
+    - r.24pt_2
+    - o.24pt_2
+    - v.24pt
+    - e.24pt_4
+    - s.24pt_2
+    x_height_px: 108.0
+    stem_px: 9.5
+    scale: 4.68227
+    stem_units: 44.5
+    x_height: 506
+specimen_lines:
+- leaf: 92
+  line: 72pt
+  text: Park Echo
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 92
+  line: 48pt
+  text: Umpires
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 92
+  line: 48pt
+  text: Eight and Ten
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 92
+  line: 40pt
+  text: Stole the Games
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 92
+  line: 36pt
+  text: Divide Among
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 92
+  line: 30pt
+  text: Grand Stand Money
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 93
+  line: 24pt
+  text: Eminent Censure
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 93
+  line: 24pt
+  text: Mation Proves
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

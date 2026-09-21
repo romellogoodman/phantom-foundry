@@ -1,0 +1,140 @@
+name: french-elzevir-no-1-atf1902a
+title: French Elzevir No 1
+series: French Elzevir No I
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 539
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      539:48pt: 43.1
+      539:42pt: 88.4
+      539:24pt: 81.8
+  x_height: 472
+lines:
+  539:48pt:
+    n_caps: 5
+    cap_height_px: 276
+    cap_source: caps
+    baseline_px: 919
+    baselines:
+      '1': 919
+    glyphs:
+    - R
+    - I
+    - C
+    - H
+    - M
+    - a
+    - r
+    - k
+    - e
+    - t
+    - s
+    x_height_px: 185.0
+    stem_px: 25
+    scale: 2.53623
+    stem_units: 63.4
+    x_height: 469
+  539:42pt:
+    n_caps: 7
+    cap_height_px: 198
+    cap_source: caps
+    baseline_px: 1393
+    baselines:
+      '2': 1393
+    glyphs:
+    - B
+    - u
+    - r.42pt
+    - n
+    - i
+    - s.42pt
+    - h
+    - e.42pt
+    - d
+    - S
+    - I.42pt
+    - G
+    - N
+    - A
+    - L
+    x_height_px: 133.5
+    stem_px: 16
+    scale: 3.53535
+    stem_units: 56.6
+    x_height: 472
+  539:24pt:
+    n_caps: 10
+    cap_height_px: 137.0
+    cap_source: caps
+    baseline_px: 1786.5
+    baselines:
+      '3': 1786.5
+    glyphs:
+    - A.24pt
+    - M.24pt
+    - E
+    - R.24pt
+    - I.24pt
+    - C.24pt
+    - A.24pt_2
+    - N.24pt
+    - T
+    - y
+    - p
+    - e.24pt
+    - F
+    - o
+    - u.24pt
+    - n.24pt
+    - d.24pt
+    - e.24pt_2
+    - r.24pt
+    - s.24pt
+    x_height_px: 94.0
+    stem_px: 10.0
+    scale: 5.10949
+    stem_units: 51.1
+    x_height: 480
+specimen_lines:
+- leaf: 539
+  line: 48pt
+  text: RI C H Markets
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 539
+  line: 42pt
+  text: Burnished SIGNAL
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 539
+  line: 24pt
+  text: AMERICAN Type Founders
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: French Elzevir No I
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

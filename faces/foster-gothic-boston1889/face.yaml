@@ -1,0 +1,111 @@
+name: foster-gothic-boston1889
+title: Foster Gothic
+series: Foster Gothic
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 293
+leaf_pages:
+  293: 285
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      293:36pt: 44.8
+      293:24pt: 69.4
+lines:
+  293:36pt:
+    n_caps: 17
+    cap_height_px: 172
+    cap_source: caps
+    baseline_px: 847
+    baselines:
+      '1': 847
+    glyphs:
+    - C
+    - O
+    - U
+    - P
+    - L
+    - E
+    - U.36pt
+    - N
+    - I
+    - Q
+    - U.36pt_2
+    - E.36pt
+    - W
+    - O.36pt
+    - M
+    - E.36pt_2
+    - N.36pt
+    - eight
+    - nine
+    figure_height_px: 170.5
+    stem_px: 10
+    scale: 4.06977
+    stem_units: 40.7
+    figure_height: 694
+  293:24pt:
+    n_caps: 18
+    cap_height_px: 116.0
+    cap_source: caps
+    baseline_px: 1123.0
+    baselines:
+      '2': 1123.0
+    glyphs:
+    - N.24pt
+    - E.24pt
+    - W.24pt
+    - Y
+    - E.24pt_2
+    - A
+    - R
+    - C.24pt
+    - A.24pt
+    - L.24pt
+    - L.24pt_2
+    - R.24pt
+    - E.24pt_3
+    - D
+    - W.24pt_2
+    - I.24pt
+    - N.24pt_2
+    - E.24pt_4
+    - one
+    - eight.24pt
+    figure_height_px: 114.0
+    stem_px: 8.0
+    scale: 6.03448
+    stem_units: 48.3
+    figure_height: 688
+specimen_lines:
+- leaf: 293
+  line: 36pt
+  text: COUPLE ~ UNIQUE ~ WOMEN 89
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 293
+  line: 24pt
+  text: NEW ~ YEAR ~ CALL ~ RED ~ WINE 18
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

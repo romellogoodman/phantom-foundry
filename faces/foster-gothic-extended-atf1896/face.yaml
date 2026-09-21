@@ -1,0 +1,86 @@
+name: foster-gothic-extended-atf1896
+title: Foster Gothic Extended.
+series: Foster Gothic Extended.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 489
+leaf_pages:
+  489: 485
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      489:48pt: 55.0
+      489:18pt: 81.8
+lines:
+  489:48pt:
+    n_caps: 4
+    cap_height_px: 369.0
+    cap_source: caps
+    baseline_px: 1064.0
+    baselines:
+      '1': 1064.0
+    glyphs:
+    - D
+    - O
+    - W
+    - N
+    stem_px: 38.5
+    scale: 1.89702
+    stem_units: 73.0
+  489:18pt:
+    n_caps: 9
+    cap_height_px: 137
+    cap_source: caps
+    baseline_px: 2570
+    baselines:
+      '4': 2570
+    glyphs:
+    - M
+    - I
+    - N.18pt
+    - T
+    - S
+    - nine
+    - seven
+    - S.18pt
+    - N.18pt_2
+    - U
+    - G
+    figure_height_px: 140.0
+    stem_px: 17
+    scale: 5.10949
+    stem_units: 86.9
+    figure_height: 715
+specimen_lines:
+- leaf: 489
+  line: 48pt
+  text: DOWN
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 489
+  line: 18pt
+  text: MINTS 97 SNUG
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

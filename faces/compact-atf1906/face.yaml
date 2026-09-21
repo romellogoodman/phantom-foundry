@@ -1,0 +1,186 @@
+name: compact-atf1906
+title: Compact
+series: Compact
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 468
+leaf_pages:
+  468: 418
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      468:48pt: 27.5
+      468:36pt: 28.0
+      468:30pt: 28.5
+  x_height: 560
+lines:
+  468:48pt:
+    n_caps: 3
+    cap_height_px: 178
+    cap_source: caps
+    baseline_px: 1853
+    baselines:
+      '5': 1853
+    glyphs:
+    - M
+    - a
+    - r
+    - v
+    - e
+    - l
+    - o
+    - u
+    - s
+    - M.48pt
+    - o.48pt
+    - o.48pt_2
+    - n
+    - l.48pt
+    - i
+    - g
+    - h
+    - t
+    - E
+    - x
+    - c
+    - u.48pt
+    - r.48pt
+    - s.48pt
+    - i.48pt
+    x_height_px: 174.5
+    stem_px: 9
+    scale: 3.93258
+    stem_units: 35.4
+    x_height: 686
+  468:36pt:
+    n_caps: 4
+    cap_height_px: 150.0
+    cap_source: caps
+    baseline_px: 2172.0
+    baselines:
+      '6': 2172.0
+    glyphs:
+    - B
+    - o.36pt
+    - h.36pt
+    - e.36pt
+    - m
+    - i.36pt
+    - a.36pt
+    - n.36pt
+    - s.36pt
+    - C
+    - r.36pt
+    - e.36pt_2
+    - a.36pt_2
+    - t.36pt
+    - e.36pt_3
+    - d
+    - G
+    - r.36pt_2
+    - e.36pt_4
+    - a.36pt_3
+    - t.36pt_2
+    - D
+    - i.36pt_2
+    - s.36pt_2
+    - t.36pt_3
+    - u.36pt
+    - r.36pt_3
+    - b
+    - a.36pt_4
+    - n.36pt_2
+    - c.36pt
+    - e.36pt_5
+    x_height_px: 120.0
+    stem_px: 17.5
+    scale: 4.66667
+    stem_units: 81.7
+    x_height: 560
+  468:30pt:
+    n_caps: 4
+    cap_height_px: 123.0
+    cap_source: caps
+    baseline_px: 2470.5
+    baselines:
+      '8': 2470.5
+    glyphs:
+    - R
+    - e.30pt
+    - c.30pt
+    - e.30pt_2
+    - n.30pt
+    - t.30pt
+    - I
+    - n.30pt_2
+    - v.30pt
+    - e.30pt_3
+    - s.30pt
+    - t.30pt_2
+    - i.30pt
+    - g.30pt
+    - a.30pt
+    - t.30pt_3
+    - i.30pt_2
+    - o.30pt
+    - n.30pt_3
+    - E.30pt
+    - x.30pt
+    - o.30pt_2
+    - n.30pt_4
+    - e.30pt_4
+    - r.30pt
+    - a.30pt_2
+    - t.30pt_4
+    - e.30pt_5
+    - d.30pt
+    - M.30pt
+    - e.30pt_6
+    - c.30pt_2
+    - h.30pt
+    - a.30pt_3
+    - n.30pt_5
+    - i.30pt_3
+    - c.30pt_3
+    - s.30pt_2
+    x_height_px: 98.0
+    stem_px: 12.5
+    scale: 5.69106
+    stem_units: 71.1
+    x_height: 558
+specimen_lines:
+- leaf: 468
+  line: 48pt
+  text: Marvelous Moonlight Excursi
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 468
+  line: 36pt
+  text: Bohemians Created Great Disturbance
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 468
+  line: 30pt
+  text: Recent Investigation Exonerated Mechanics
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash

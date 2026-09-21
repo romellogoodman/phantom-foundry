@@ -1,0 +1,112 @@
+name: gothic-wide-atf1902b
+title: Gothic Wide
+series: Gothic Wide
+status: proto
+version: 0.1.0
+book: deskbookoftypesp02amer
+source:
+  archive_id: deskbookoftypesp02amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    2, 11-22)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp02amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 76
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      76:36pt: 223.0
+      76:30pt: 226.1
+      76:24pt: 222.7
+lines:
+  76:36pt:
+    n_caps: 8
+    cap_height_px: 191.5
+    cap_source: caps
+    baseline_px: 799.0
+    baselines:
+      '1': 799.0
+    glyphs:
+    - D
+    - I
+    - R
+    - E
+    - C
+    - T
+    - O
+    - R.36pt
+    stem_px: 25.0
+    scale: 3.65535
+    stem_units: 91.4
+  76:30pt:
+    n_caps: 9
+    cap_height_px: 161
+    cap_source: caps
+    baseline_px: 1244
+    baselines:
+      '2': 1244
+    glyphs:
+    - A
+    - M
+    - E.30pt
+    - R.30pt
+    - I.30pt
+    - C.30pt
+    - A.30pt
+    - N
+    - S
+    stem_px: 20
+    scale: 4.34783
+    stem_units: 87.0
+  76:24pt:
+    n_caps: 11
+    cap_height_px: 132
+    cap_source: caps
+    baseline_px: 1644
+    baselines:
+      '3': 1644
+    glyphs:
+    - F
+    - A.24pt
+    - L
+    - L.24pt
+    - D.24pt
+    - E.24pt
+    - S.24pt
+    - I.24pt
+    - G
+    - N.24pt
+    - S.24pt_2
+    stem_px: 20
+    scale: 5.30303
+    stem_units: 106.1
+specimen_lines:
+- leaf: 76
+  line: 36pt
+  text: DIRECTOR
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 76
+  line: 30pt
+  text: AMERICANS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 76
+  line: 24pt
+  text: FALL DESIGNS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

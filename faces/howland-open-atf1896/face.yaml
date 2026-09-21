@@ -1,0 +1,174 @@
+name: howland-open-atf1896
+title: Howland Open.
+series: Howland Open.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 428
+  - 429
+leaf_pages:
+  428: 424
+  429: 425
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      428:48pt: 32.6
+      428:42pt: 25.5
+      429:30pt: 31.2
+  x_height: 561
+lines:
+  428:48pt:
+    n_caps: 12
+    cap_height_px: 301.0
+    cap_source: caps
+    baseline_px: 2189.5
+    baselines:
+      '2': 2189.5
+      '3': 2612.0
+    glyphs:
+    - N
+    - O
+    - B
+    - L
+    - E
+    - H
+    - O.48pt
+    - R
+    - S
+    - E.48pt
+    - F
+    - r
+    - i
+    - e
+    - n
+    - d
+    - nine
+    - zero
+    - J
+    - o
+    - h
+    - n.48pt
+    x_height_px: 243.0
+    figure_height_px: 295.0
+    stem_px: 9.0
+    scale: 2.32558
+    stem_units: 20.9
+    x_height: 565
+    figure_height: 686
+  428:42pt:
+    n_caps: 15
+    cap_height_px: 247
+    cap_source: caps
+    baseline_px: 3116
+    baselines:
+      '4': 3116
+      '5': 3481.0
+    glyphs:
+    - E.42pt
+    - N.42pt
+    - G
+    - L.42pt
+    - I
+    - S.42pt
+    - H.42pt
+    - P
+    - O.42pt
+    - E.42pt_2
+    - T
+    - R.42pt
+    - Y
+    - B.42pt
+    - u
+    - r.42pt
+    - n.42pt
+    - i.42pt
+    - n.42pt_2
+    - g
+    - dollar
+    - five
+    - N.42pt_2
+    - a
+    - p
+    - t
+    - h.42pt
+    - a.42pt
+    x_height_px: 197
+    figure_height_px: 246
+    stem_px: 8
+    scale: 2.83401
+    stem_units: 22.7
+    x_height: 558
+    figure_height: 697
+  429:30pt:
+    n_caps: 15
+    cap_height_px: 202
+    cap_source: caps
+    baseline_px: 779
+    baselines:
+      '1': 779
+    glyphs:
+    - H.30pt
+    - I.30pt
+    - S.30pt
+    - T.30pt
+    - O.30pt
+    - R.30pt
+    - I.30pt_2
+    - C
+    - M
+    - O.30pt_2
+    - N.30pt
+    - S.30pt_2
+    - T.30pt_2
+    - E.30pt
+    - R.30pt_2
+    stem_px: 7
+    scale: 3.46535
+    stem_units: 24.3
+specimen_lines:
+- leaf: 428
+  line: 48pt
+  text: NOBLE HORSE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 428
+  line: 48pt
+  text: Friend 90 John
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 428
+  line: 42pt
+  text: ENGLISH POETRY
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 428
+  line: 42pt
+  text: Burning $5 Naptha
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 429
+  line: 30pt
+  text: HISTORIC MONSTER
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

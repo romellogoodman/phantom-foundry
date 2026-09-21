@@ -1,0 +1,173 @@
+name: old-style-bold-atf1896
+title: Old Style Bold.
+series: Old Style Bold.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 206
+  - 207
+leaf_pages:
+  206: 202
+  207: 203
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      206:48pt: 37.5
+      206:36pt: 63.9
+      206:24pt: 65.9
+      207:18pt: 86.0
+  x_height: 490
+lines:
+  206:48pt:
+    n_caps: 5
+    cap_height_px: 308
+    cap_source: caps
+    baseline_px: 912.0
+    baselines:
+      '1': 912.0
+      '2': 1404
+    glyphs:
+    - M
+    - I
+    - N
+    - E
+    - G
+    - a
+    - m
+    - p
+    x_height_px: 213
+    stem_px: 11
+    scale: 2.27273
+    stem_units: 25.0
+    x_height: 484
+  206:36pt:
+    n_caps: 6
+    cap_height_px: 230.0
+    cap_source: caps
+    baseline_px: 2129
+    baselines:
+      '3': 2129
+      '4': 2551
+    glyphs:
+    - V
+    - O
+    - T
+    - E.36pt
+    - R
+    - E.36pt_2
+    - a.36pt
+    - s
+    - i
+    - e
+    - s.36pt
+    - t
+    x_height_px: 161.0
+    stem_px: 19.5
+    scale: 3.04348
+    stem_units: 59.3
+    x_height: 490
+  206:24pt:
+    n_caps: 9
+    cap_height_px: 154
+    cap_source: caps
+    baseline_px: 3187
+    baselines:
+      '5': 3187
+      '6': 3501.5
+    glyphs:
+    - T.24pt
+    - H
+    - I.24pt
+    - S
+    - O.24pt
+    - N.24pt
+    - E.24pt
+    - D
+    - a.24pt
+    - y
+    - S.24pt
+    - o
+    - m.24pt
+    - e.24pt
+    x_height_px: 108
+    stem_px: 21
+    scale: 4.54545
+    stem_units: 95.5
+    x_height: 491
+  207:18pt:
+    n_caps: 9
+    cap_height_px: 114
+    cap_source: caps
+    baseline_px: 668
+    baselines:
+      '1': 668
+    glyphs:
+    - F
+    - R.18pt
+    - E.18pt
+    - S.18pt
+    - H.18pt
+    - P
+    - I.18pt
+    - E.18pt_2
+    - S.18pt_2
+    stem_px: 12
+    scale: 6.14035
+    stem_units: 73.7
+specimen_lines:
+- leaf: 206
+  line: 48pt
+  text: MINE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 206
+  line: 48pt
+  text: Gamp
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 206
+  line: 36pt
+  text: VOTER
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 206
+  line: 36pt
+  text: Easiest
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 206
+  line: 24pt
+  text: THIS ONE
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 206
+  line: 24pt
+  text: Day Some
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 207
+  line: 18pt
+  text: FRESH PIES
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

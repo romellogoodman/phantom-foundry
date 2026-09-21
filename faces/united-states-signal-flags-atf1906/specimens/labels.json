@@ -1,0 +1,61 @@
+{
+  "face": "united-states-signal-flags-atf1906",
+  "labeled": [
+    {
+      "leaf": 666,
+      "band": 2,
+      "line": "36pt",
+      "text": "~~~~~",
+      "by": "deepseek-v4.1-flash+qwen3.7-flash",
+      "added": 0,
+      "kept": 0
+    },
+    {
+      "leaf": 666,
+      "band": 5,
+      "line": "36pt",
+      "text": "~~~~",
+      "by": "deepseek-v4.1-flash+qwen3.7-flash",
+      "added": 0,
+      "kept": 0
+    },
+    {
+      "leaf": 666,
+      "band": 6,
+      "line": "36pt",
+      "text": "~~~~~",
+      "by": "deepseek-v4.1-flash+qwen3.7-flash",
+      "added": 0,
+      "kept": 0
+    }
+  ],
+  "already": [],
+  "skipped": [
+    {
+      "leaf": 666,
+      "band": 7,
+      "why": "no reading",
+      "ocr": null,
+      "n": 17
+    },
+    {
+      "leaf": 666,
+      "band": 1,
+      "why": "no reading",
+      "ocr": "^ ^ ^",
+      "n": 6
+    },
+    {
+      "leaf": 666,
+      "band": 4,
+      "why": "reading has 48 characters, band has 10 boxes",
+      "text": "CLEARFAIRNO CHANGECLOUDYRAINSNOWWARMCOLDWINDSTORM"
+    },
+    {
+      "leaf": 666,
+      "band": 3,
+      "why": "reading has 17 characters, band has 11 boxes",
+      "text": "~BLUEBLUE~~~~~~~~"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+name: lining-light-face-gothic-cleveland1895
+title: Lining Light Face Gothic
+series: Lining Light Face Gothic
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 96
+leaf_pages:
+  96: 92
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      96:30pt: 149.4
+      96:24pt: 137.1
+lines:
+  96:30pt:
+    n_caps: 7
+    cap_height_px: 178
+    cap_source: caps
+    baseline_px: 3356
+    baselines:
+      '4': 3356
+    glyphs:
+    - three
+    - C
+    - A
+    - R
+    - H
+    - E
+    - R.30pt
+    - E.30pt
+    - two
+    figure_height_px: 180.0
+    stem_px: 13
+    scale: 3.93258
+    stem_units: 51.1
+    figure_height: 708
+  96:24pt:
+    n_caps: 9
+    cap_height_px: 143
+    cap_source: caps
+    baseline_px: 2898
+    baselines:
+      '3': 2898
+    glyphs:
+    - T
+    - R.24pt
+    - U
+    - T.24pt
+    - H.24pt
+    - two.24pt
+    - three.24pt
+    - five
+    - A.24pt
+    - M
+    - E.24pt
+    - S
+    figure_height_px: 144
+    stem_px: 10
+    scale: 4.8951
+    stem_units: 49.0
+    figure_height: 705
+specimen_lines:
+- leaf: 96
+  line: 30pt
+  text: 3 CAR HERE 2
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 96
+  line: 24pt
+  text: TRUTH 235 AMES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

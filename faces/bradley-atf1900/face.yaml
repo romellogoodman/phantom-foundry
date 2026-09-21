@@ -1,0 +1,134 @@
+name: bradley-atf1900
+title: Bradley
+series: Bradley
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 356
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      356:48pt: 16.9
+      356:36pt: 18.4
+  x_height: 566
+lines:
+  356:48pt:
+    n_caps: 0
+    cap_height_px: 290
+    cap_source: ascenders
+    baseline_px: 2525
+    baselines:
+      '4': 2525
+    glyphs:
+    - l
+    - o
+    - u
+    - d
+    - i
+    - n
+    - t
+    - h
+    - e
+    - i.48pt
+    - r
+    - p
+    - r.48pt
+    - a
+    - i.48pt_2
+    - s
+    - e.48pt
+    x_height_px: 240
+    scale: 2.41379
+    x_height: 579
+  356:36pt:
+    n_caps: 3
+    cap_height_px: 228
+    cap_source: caps
+    baseline_px: 3202
+    baselines:
+      '5': 3202
+      '6': 3497.5
+    glyphs:
+    - G
+    - o.36pt
+    - t.36pt
+    - h.36pt
+    - i.36pt
+    - c
+    - w
+    - e.36pt
+    - n.36pt
+    - t.36pt_2
+    - o.36pt_2
+    - u.36pt
+    - t.36pt_3
+    - o.36pt_3
+    - f
+    - f.36pt
+    - a.36pt
+    - s.36pt
+    - h.36pt_2
+    - i.36pt_2
+    - o.36pt_4
+    - n.36pt_2
+    - i.36pt_3
+    - n.36pt_3
+    - G.36pt
+    - e.36pt_2
+    - r.36pt
+    - m
+    - a.36pt_2
+    - n.36pt_4
+    - y
+    - a.36pt_3
+    - n.36pt_5
+    - d.36pt
+    - F
+    - r.36pt_2
+    - a.36pt_4
+    - n.36pt_6
+    - c.36pt
+    - e.36pt_3
+    - a.36pt_5
+    - t.36pt_4
+    x_height_px: 180
+    stem_px: 20
+    scale: 3.07018
+    stem_units: 61.4
+    x_height: 553
+specimen_lines:
+- leaf: 356
+  line: 48pt
+  text: loud in their praise
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 356
+  line: 36pt
+  text: Gothic went out of fashion
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 356
+  line: 36pt
+  text: in Germany and France at
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

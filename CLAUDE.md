@@ -74,7 +74,7 @@ a book:    shelve → catalog → found → read | read-models → label --auto 
   largest size first — the first showing of a letter gets the plain name, later
   sizes become `.six`/`.eight` alternates (unencoded).
 - A founded proto commits only its record — `face.yaml`, `CHANGELOG.md`, `glyphs/manifest.csv`,
-  `specimens/*.json`, `log/`, `svg/arrow/` — and `found` writes a `.gitignore` in the face for the rest
+  `specimens/*.json`, the decisions' logs (`log/found|label|rename….jsonl`; not the per-build stage logs), `svg/arrow/` — and `found` writes a `.gitignore` in the face for the rest
   (cuts, potrace SVGs, UFO, `dist/`, `proofs/`). With the book shelved, `foundry build <face>` relinks
   the scans and rebuilds all of it identically. Delete that `.gitignore` when a face goes to draft:
   from then on its UFO is hand-edited and everything is committed. A fresh clone gets fonts and

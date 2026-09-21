@@ -1,0 +1,103 @@
+name: lining-title-nos-524-and-534-atf1906
+title: Lining Title Nos. 524 and 534
+series: Lining Title Nos. and
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 548
+leaf_pages:
+  548: 498
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      548:48pt: 46.7
+      548:42pt: 33.8
+lines:
+  548:48pt:
+    n_caps: 17
+    cap_height_px: 225
+    cap_source: caps
+    baseline_px: 581.5
+    baselines:
+      '2': 581.5
+      '3': 1011
+    glyphs:
+    - M
+    - E
+    - T
+    - H
+    - O
+    - D
+    - I
+    - C
+    - F
+    - U
+    - R
+    - N
+    - I.48pt
+    - S
+    - H.48pt
+    - E.48pt
+    - S.48pt
+    stem_px: 5
+    scale: 3.11111
+    stem_units: 15.6
+  548:42pt:
+    n_caps: 10
+    cap_height_px: 165.5
+    cap_source: caps
+    baseline_px: 1403.5
+    baselines:
+      '4': 1403.5
+    glyphs:
+    - M.42pt
+    - A
+    - N.42pt
+    - Y
+    - J
+    - U.42pt
+    - D.42pt
+    - G
+    - E.42pt
+    - S.42pt
+    stem_px: 3.5
+    scale: 4.22961
+    stem_units: 14.8
+specimen_lines:
+- leaf: 548
+  line: 48pt
+  text: METHODIC ~
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 548
+  line: 48pt
+  text: FURNISHES ~
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 548
+  line: 42pt
+  text: MANY JUDGES ~
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Lining Title Nos. and
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

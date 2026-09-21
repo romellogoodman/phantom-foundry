@@ -1,0 +1,76 @@
+name: yierorm-irauie-atf1897
+title: Yierorm Irauie
+series: Yierorm Irauie
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 484
+leaf_pages:
+  484: 482
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      484:18pt: 56.0
+lines:
+  484:18pt:
+    n_caps: 20
+    cap_height_px: 125.0
+    cap_source: caps
+    baseline_px: 3163
+    baselines:
+      '7': 3163
+      '8': 3365
+    glyphs:
+    - B
+    - L
+    - U
+    - E
+    - M
+    - O
+    - U.18pt
+    - N
+    - T
+    - A
+    - I
+    - H
+    - I.18pt
+    - G
+    - H.18pt
+    - P
+    - O.18pt
+    - I.18pt_2
+    - N.18pt
+    - T.18pt
+    stem_px: 13.0
+    scale: 5.6
+    stem_units: 72.8
+specimen_lines:
+- leaf: 484
+  line: 18pt
+  text: BL UE MO UNTAI
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 484
+  line: 18pt
+  text: HIGH POINT
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

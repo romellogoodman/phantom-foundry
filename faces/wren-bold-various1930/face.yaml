@@ -1,0 +1,97 @@
+name: wren-bold-various1930
+title: Wren Bold
+series: Wren Bold
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 97
+leaf_pages:
+  97: 85
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      97:60pt: 20.3
+      97:48pt: 26.0
+  x_height: 388
+lines:
+  97:60pt:
+    n_caps: 2
+    cap_height_px: 241.5
+    cap_source: caps
+    baseline_px: 702.0
+    baselines:
+      '1': 702.0
+    glyphs:
+    - F
+    - a
+    - m
+    - o
+    - u
+    - s
+    - M
+    - u.60pt
+    - s.60pt
+    - i
+    - c
+    x_height_px: 133
+    stem_px: 13.5
+    scale: 2.89855
+    stem_units: 39.1
+    x_height: 386
+  97:48pt:
+    n_caps: 2
+    cap_height_px: 188.5
+    cap_source: caps
+    baseline_px: 1042.0
+    baselines:
+      '2': 1042.0
+    glyphs:
+    - F.48pt
+    - u.48pt
+    - g
+    - u.48pt_2
+    - e
+    - a.48pt
+    - n
+    - d
+    - P
+    - r
+    - e.48pt
+    - l
+    - u.48pt_3
+    - d.48pt
+    - e.48pt_2
+    x_height_px: 105
+    stem_px: 19.0
+    scale: 3.71353
+    stem_units: 70.6
+    x_height: 390
+specimen_lines:
+- leaf: 97
+  line: 60pt
+  text: Famous Music
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 97
+  line: 48pt
+  text: Fugue and Prelude
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

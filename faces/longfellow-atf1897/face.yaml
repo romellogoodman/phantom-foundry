@@ -1,0 +1,189 @@
+name: longfellow-atf1897
+title: Longfellow
+series: Longfellow
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 498
+  - 499
+leaf_pages:
+  498: 496
+  499: 497
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      498:60pt: 18.7
+      498:54pt: 25.8
+      499:30pt: 31.2
+      499:18pt: 39.3
+  x_height: 480
+lines:
+  498:60pt:
+    n_caps: 2
+    cap_height_px: 449.5
+    cap_source: caps
+    baseline_px: 2074.0
+    baselines:
+      '2': 2074.0
+    glyphs:
+    - M
+    - o
+    - d
+    - e
+    - r
+    - n
+    - C
+    - h
+    - a
+    - i
+    - r.60pt
+    x_height_px: 307
+    stem_px: 13.5
+    scale: 1.55729
+    stem_units: 21.0
+    x_height: 478
+  498:54pt:
+    n_caps: 2
+    cap_height_px: 393.5
+    cap_source: caps
+    baseline_px: 2771.5
+    baselines:
+      '3': 2771.5
+    glyphs:
+    - C.54pt
+    - o.54pt
+    - r.54pt
+    - r.54pt_2
+    - e.54pt
+    - c
+    - t
+    - S
+    - h.54pt
+    - a.54pt
+    - d.54pt
+    - e.54pt_2
+    x_height_px: 272.5
+    stem_px: 16.0
+    scale: 1.77891
+    stem_units: 28.5
+    x_height: 485
+  499:30pt:
+    n_caps: 3
+    cap_height_px: 224
+    cap_source: caps
+    baseline_px: 1531
+    baselines:
+      '2': 1531
+    glyphs:
+    - F
+    - a.30pt
+    - m
+    - o.30pt
+    - u
+    - s
+    - S.30pt
+    - e.30pt
+    - a.30pt_2
+    - s.30pt
+    - i.30pt
+    - d.30pt
+    - e.30pt_2
+    - R
+    - e.30pt_3
+    - s.30pt_2
+    - o.30pt_2
+    - r.30pt
+    - t.30pt
+    - s.30pt_3
+    x_height_px: 153
+    stem_px: 10
+    scale: 3.125
+    stem_units: 31.2
+    x_height: 478
+  499:18pt:
+    n_caps: 4
+    cap_height_px: 133.5
+    cap_source: caps
+    baseline_px: 2896.0
+    baselines:
+      '6': 2896.0
+    glyphs:
+    - C.18pt
+    - e.18pt
+    - d.18pt
+    - a.18pt
+    - r.18pt
+    - v
+    - i.18pt
+    - l
+    - l.18pt
+    - e.18pt_2
+    - E
+    - l.18pt_2
+    - e.18pt_3
+    - c.18pt
+    - t.18pt
+    - r.18pt_2
+    - i.18pt_2
+    - c.18pt_2
+    - T
+    - r.18pt_3
+    - a.18pt_2
+    - c.18pt_3
+    - t.18pt_2
+    - i.18pt_3
+    - o.18pt
+    - n.18pt
+    - R.18pt
+    - a.18pt_3
+    - i.18pt_4
+    - l.18pt_3
+    - r.18pt_4
+    - o.18pt_2
+    - a.18pt_4
+    - d.18pt_2
+    x_height_px: 92.0
+    stem_px: 11.5
+    scale: 5.24345
+    stem_units: 60.3
+    x_height: 482
+specimen_lines:
+- leaf: 498
+  line: 60pt
+  text: Modern Chair
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 498
+  line: 54pt
+  text: Correc tShade
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 499
+  line: 30pt
+  text: Famous Seaside Resorts
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 499
+  line: 18pt
+  text: Cedarville Electric Traction Railroad
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,84 @@
+name: crayonette-keystone1906
+title: Crayonette
+series: Crayonette
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 286
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      286:36pt: 12.2
+  x_height: 293
+lines:
+  286:36pt:
+    n_caps: 3
+    cap_height_px: 229
+    cap_source: caps
+    baseline_px: 3288
+    baselines:
+      '7': 3288
+      '8': 3555.0
+    glyphs:
+    - D
+    - i
+    - s
+    - c
+    - o
+    - u
+    - n
+    - t
+    - e
+    - d
+    - R
+    - a
+    - i.36pt
+    - l
+    - r
+    - o.36pt
+    - a.36pt
+    - d.36pt
+    - C
+    - o.36pt_2
+    - u.36pt
+    - p
+    - o.36pt_3
+    - n.36pt
+    - s.36pt
+    x_height_px: 96.0
+    stem_px: 10
+    scale: 3.05677
+    stem_units: 30.6
+    x_height: 293
+specimen_lines:
+- leaf: 286
+  line: 36pt
+  text: Discounted
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 286
+  line: 36pt
+  text: Railroad Coupons
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash

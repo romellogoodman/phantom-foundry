@@ -1,0 +1,55 @@
+name: erebus-and-hades-atf1898
+title: Erebus and Hades
+series: Erebus and Hades
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 392
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      392:66pt: 10.8
+lines:
+  392:66pt:
+    n_caps: 5
+    cap_height_px: 162
+    cap_source: caps
+    baseline_px: 3353
+    baselines:
+      '7': 3353
+    glyphs:
+    - H
+    - H.66pt
+    - H.66pt_2
+    - H.66pt_3
+    - H.66pt_4
+    stem_px: 28
+    scale: 4.32099
+    stem_units: 121.0
+specimen_lines:
+- leaf: 392
+  line: 66pt
+  text: HHHH H[HHHH]
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

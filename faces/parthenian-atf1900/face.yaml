@@ -1,0 +1,208 @@
+name: parthenian-atf1900
+title: Parthenian
+series: Parthenian
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 552
+  - 553
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      552:72pt: 54.5
+      552:60pt: 64.8
+      552:48pt: 92.3
+      553:36pt: 136.0
+      553:24pt: 95.7
+  x_height: 476
+lines:
+  552:72pt:
+    n_caps: 6
+    cap_height_px: 346.5
+    cap_source: caps
+    baseline_px: 1061
+    baselines:
+      '1': 1061
+      '2': 1584
+    glyphs:
+    - S
+    - I
+    - R
+    - E
+    - D
+    - B
+    - l
+    - o
+    - n
+    - d
+    - e
+    x_height_px: 236
+    stem_px: 25.5
+    scale: 2.0202
+    stem_units: 51.5
+    x_height: 477
+  552:60pt:
+    n_caps: 5
+    cap_height_px: 297
+    cap_source: caps
+    baseline_px: 2374
+    baselines:
+      '3': 2374
+    glyphs:
+    - G
+    - R.60pt
+    - A
+    - N
+    - T
+    stem_px: 14
+    scale: 2.3569
+    stem_units: 33.0
+  552:48pt:
+    n_caps: 7
+    cap_height_px: 239
+    cap_source: caps
+    baseline_px: 3542.0
+    baselines:
+      '5': 3542.0
+      '6': 3942
+    glyphs:
+    - E.48pt
+    - N.48pt
+    - D.48pt
+    - U
+    - R.48pt
+    - E.48pt_2
+    - C
+    - o.48pt
+    - l.48pt
+    - u
+    - m
+    - b
+    - u.48pt
+    - s
+    x_height_px: 156
+    stem_px: 7
+    scale: 2.92887
+    stem_units: 20.5
+    x_height: 457
+  553:36pt:
+    n_caps: 8
+    cap_height_px: 175.0
+    cap_source: caps
+    baseline_px: 839.5
+    baselines:
+      '1': 839.5
+    glyphs:
+    - F
+    - R.36pt
+    - E.36pt
+    - E.36pt_2
+    - C.36pt
+    - U.36pt
+    - B.36pt
+    - A.36pt
+    stem_px: 9.0
+    scale: 4.0
+    stem_units: 36.0
+  553:24pt:
+    n_caps: 14
+    cap_height_px: 128.0
+    cap_source: caps
+    baseline_px: 1565
+    baselines:
+      '3': 1565
+      '5': 1963
+    glyphs:
+    - M
+    - O
+    - D.24pt
+    - E.24pt
+    - R.24pt
+    - N.24pt
+    - C.24pt
+    - H
+    - A.24pt
+    - R.24pt_2
+    - M.24pt
+    - U.24pt
+    - n.24pt
+    - i
+    - t
+    - e.24pt
+    - d.24pt
+    - S.24pt
+    - t.24pt
+    - a
+    - t.24pt_2
+    - e.24pt_2
+    - s.24pt
+    - B.24pt
+    - a.24pt
+    - n.24pt_2
+    - k
+    x_height_px: 87
+    stem_px: 4.5
+    scale: 5.46875
+    stem_units: 24.6
+    x_height: 476
+specimen_lines:
+- leaf: 552
+  line: 72pt
+  text: SIRED
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 552
+  line: 72pt
+  text: Blonde
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 552
+  line: 60pt
+  text: GRANT
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 552
+  line: 48pt
+  text: ENDURE
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 552
+  line: 48pt
+  text: Columbus
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 553
+  line: 36pt
+  text: FREE CUBA
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 553
+  line: 24pt
+  text: MODERN CHARM
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 553
+  line: 24pt
+  text: United States Bank
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

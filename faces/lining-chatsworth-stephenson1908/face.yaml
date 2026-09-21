@@ -1,0 +1,92 @@
+name: lining-chatsworth-stephenson1908
+title: Lining Chatsworth.
+series: Lining Chatsworth.
+status: proto
+version: 0.1.0
+book: specimensofpoint00step
+source:
+  archive_id: specimensofpoint00step
+  title: 'Specimens of point line type : borders ornaments brass rules &c. &c'
+  creator:
+  - Stephenson, Blake and Company, Ltd
+  - Sir Charles Reed & Sons
+  publisher: 'Toronto : Stephenson, Blake & Co.'
+  date: '1908'
+  ppi: 350
+  url: https://archive.org/details/specimensofpoint00step
+  copyright_status: null
+  contributor: Fisher - University of Toronto
+  leaves:
+  - 126
+leaf_pages:
+  126: 170
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      126:72pt: 22.7
+      126:60pt: 30.6
+  x_height: 536
+lines:
+  126:72pt:
+    n_caps: 6
+    cap_height_px: 277.0
+    cap_source: caps
+    baseline_px: 735.5
+    baselines:
+      '1': 735.5
+    glyphs:
+    - P
+    - R
+    - I
+    - C
+    - E
+    - C.72pt
+    - a
+    - r
+    - d
+    - s
+    x_height_px: 212.0
+    stem_px: 51.5
+    scale: 2.52708
+    stem_units: 130.1
+    x_height: 536
+  126:60pt:
+    n_caps: 11
+    cap_height_px: 229
+    cap_source: caps
+    baseline_px: 3179
+    baselines:
+      '3': 3179
+    glyphs:
+    - M
+    - E.60pt
+    - R.60pt
+    - C.60pt
+    - H
+    - A
+    - N
+    - D
+    - I.60pt
+    - S
+    - E.60pt_2
+    stem_px: 25
+    scale: 3.05677
+    stem_units: 76.4
+specimen_lines:
+- leaf: 126
+  line: 72pt
+  text: PRICE Cards
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 126
+  line: 60pt
+  text: MERCHANDISE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,102 @@
+name: sylvan-text-atf1896
+title: Sylvan Text.
+series: Sylvan Text.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 514
+leaf_pages:
+  514: 510
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      514:48pt: 36.1
+      514:24pt: 46.2
+  x_height: 445
+lines:
+  514:48pt:
+    n_caps: 2
+    cap_height_px: 310.5
+    cap_source: caps
+    baseline_px: 955.0
+    baselines:
+      '1': 955.0
+    glyphs:
+    - E
+    - a
+    - s
+    - t
+    - W
+    - i
+    - n
+    - d
+    - s.48pt
+    x_height_px: 199
+    stem_px: 12.5
+    scale: 2.25443
+    stem_units: 28.2
+    x_height: 449
+  514:24pt:
+    n_caps: 3
+    cap_height_px: 144
+    cap_source: caps
+    baseline_px: 2115
+    baselines:
+      '4': 2115
+    glyphs:
+    - M
+    - o
+    - n.24pt
+    - d.24pt
+    - a.24pt
+    - y
+    - E.24pt
+    - v
+    - e
+    - n.24pt_2
+    - i.24pt
+    - n.24pt_3
+    - g
+    - R
+    - e.24pt
+    - p
+    - o.24pt
+    - r
+    - t.24pt
+    x_height_px: 91.0
+    stem_px: 8
+    scale: 4.86111
+    stem_units: 38.9
+    x_height: 442
+specimen_lines:
+- leaf: 514
+  line: 48pt
+  text: East Winds
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 514
+  line: 24pt
+  text: Monday Evening Report
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

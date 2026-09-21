@@ -1,0 +1,217 @@
+name: tiw-atf1906
+title: Tiw
+series: Tiw
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 652
+leaf_pages:
+  652: 704
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      652:72pt: 131.6
+      652:60pt: 46.5
+      652:48pt: 48.8
+      652:42pt: 42.2
+      652:36pt: 42.9
+      652:30pt: 70.3
+lines:
+  652:72pt:
+    n_caps: 0
+    cap_height_px: 308.5
+    cap_source: ascenders
+    baseline_px: 708
+    baselines:
+      '1': 708
+    glyphs:
+    - one
+    - two
+    - three
+    - two.72pt
+    - three.72pt
+    - four
+    - five
+    figure_height_px: 307
+    scale: 2.26904
+    figure_height: 697
+  652:60pt:
+    n_caps: 0
+    cap_height_px: 256
+    cap_source: ascenders
+    baseline_px: 1207.0
+    baselines:
+      '2': 1207.0
+    glyphs:
+    - two.60pt
+    - three.60pt
+    - four.60pt
+    - five.60pt
+    - one.60pt
+    - two.60pt_2
+    - three.60pt_2
+    - four.60pt_2
+    - five.60pt_2
+    - six
+    figure_height_px: 254.0
+    scale: 2.73438
+    figure_height: 695
+  652:48pt:
+    n_caps: 0
+    cap_height_px: 201.0
+    cap_source: ascenders
+    baseline_px: 1681
+    baselines:
+      '3': 1681
+    glyphs:
+    - five.48pt
+    - six.48pt
+    - seven
+    - eight
+    - nine
+    - zero
+    - one.48pt
+    - two.48pt
+    - three.48pt
+    - four.48pt
+    - five.48pt_2
+    - six.48pt_2
+    - seven.48pt
+    figure_height_px: 201
+    scale: 3.48259
+    figure_height: 700
+  652:42pt:
+    n_caps: 0
+    cap_height_px: 174.0
+    cap_source: ascenders
+    baseline_px: 2098.5
+    baselines:
+      '4': 2098.5
+    glyphs:
+    - one.42pt
+    - two.42pt
+    - three.42pt
+    - four.42pt
+    - five.42pt
+    - six.42pt
+    - one.42pt_2
+    - two.42pt_2
+    - three.42pt_2
+    - four.42pt_2
+    - five.42pt_2
+    - six.42pt_2
+    - seven.42pt
+    - eight.42pt
+    figure_height_px: 173.0
+    scale: 4.02299
+    figure_height: 696
+  652:36pt:
+    n_caps: 0
+    cap_height_px: 147.0
+    cap_source: ascenders
+    baseline_px: 2527.0
+    baselines:
+      '5': 2527.0
+    glyphs:
+    - three.36pt
+    - four.36pt
+    - five.36pt
+    - six.36pt
+    - seven.36pt
+    - eight.36pt
+    - nine.36pt
+    - zero.36pt
+    - one.36pt
+    - two.36pt
+    - three.36pt_2
+    - four.36pt_2
+    - five.36pt_2
+    - six.36pt_2
+    - seven.36pt_2
+    - eight.36pt_2
+    - nine.36pt_2
+    - zero.36pt_2
+    figure_height_px: 146.0
+    scale: 4.7619
+    figure_height: 695
+  652:30pt:
+    n_caps: 0
+    cap_height_px: 119.5
+    cap_source: ascenders
+    baseline_px: 2943.0
+    baselines:
+      '6': 2943.0
+    glyphs:
+    - one.30pt
+    - two.30pt
+    - three.30pt
+    - four.30pt
+    - five.30pt
+    - six.30pt
+    - seven.30pt
+    - eight.30pt
+    - nine.30pt
+    - one.30pt_2
+    - two.30pt_2
+    - three.30pt_2
+    - four.30pt_2
+    - five.30pt_2
+    - six.30pt_2
+    - seven.30pt_2
+    - eight.30pt_2
+    - nine.30pt_2
+    - zero.30pt
+    - dollar
+    figure_height_px: 119
+    scale: 5.85774
+    figure_height: 697
+specimen_lines:
+- leaf: 652
+  line: 72pt
+  text: 12 3234 5
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 652
+  line: 60pt
+  text: 234 5 1 23456
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 652
+  line: 48pt
+  text: 567890 1 23456 7
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 652
+  line: 42pt
+  text: 1 2345 6 1 234567 8
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 652
+  line: 36pt
+  text: 3456789 0 1 23456789 0
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 652
+  line: 30pt
+  text: 1 23456789 1 234567890 $
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,131 @@
+name: tudor-black-atf1896
+title: Tudor Black.
+series: Tudor Black.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 516
+  - 517
+leaf_pages:
+  516: 512
+  517: 513
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      516:42pt: 58.8
+      516:36pt: 45.7
+      516:24pt: 31.5
+  x_height: 528
+lines:
+  516:42pt:
+    n_caps: 2
+    cap_height_px: 268.0
+    cap_source: caps
+    baseline_px: 1563.0
+    baselines:
+      '2': 1563.0
+    glyphs:
+    - A
+    - l
+    - l.42pt
+    - three
+    - D
+    - a
+    - y
+    x_height_px: 253.5
+    figure_height_px: 267
+    stem_px: 11.0
+    scale: 2.61194
+    stem_units: 28.7
+    x_height: 662
+    figure_height: 697
+  516:36pt:
+    n_caps: 2
+    cap_height_px: 214.5
+    cap_source: caps
+    baseline_px: 2812.5
+    baselines:
+      '5': 2812.5
+    glyphs:
+    - V
+    - i
+    - r
+    - g
+    - i.36pt
+    - n
+    - s
+    - W
+    - a.36pt
+    - s.36pt
+    - t
+    - e
+    x_height_px: 154.5
+    stem_px: 6.0
+    scale: 3.2634
+    stem_units: 19.6
+    x_height: 504
+  516:24pt:
+    n_caps: 2
+    cap_height_px: 177.5
+    cap_source: caps
+    baseline_px: 3618.5
+    baselines:
+      '7': 3618.5
+    glyphs:
+    - U
+    - n.24pt
+    - i.24pt
+    - o
+    - n.24pt_2
+    - i.24pt_2
+    - s.24pt
+    - t.24pt
+    - R
+    - e.24pt
+    - v
+    - i.24pt_3
+    - e.24pt_2
+    - w
+    - s.24pt_2
+    x_height_px: 134
+    stem_px: 13.5
+    scale: 3.94366
+    stem_units: 53.2
+    x_height: 528
+specimen_lines:
+- leaf: 516
+  line: 42pt
+  text: All 3 Day
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 516
+  line: 36pt
+  text: Virgins Waste
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 516
+  line: 24pt
+  text: Unionist Reviews
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

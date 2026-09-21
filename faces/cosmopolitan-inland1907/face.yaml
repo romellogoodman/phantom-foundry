@@ -1,0 +1,63 @@
+name: cosmopolitan-inland1907
+title: Cosmopolitan
+series: Cosmopolitan
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 178
+leaf_pages:
+  178: 170
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      178:48pt: 18.8
+  x_height: 414
+lines:
+  178:48pt:
+    n_caps: 2
+    cap_height_px: 260.5
+    cap_source: caps
+    baseline_px: 1415.5
+    baselines:
+      '3': 1415.5
+    glyphs:
+    - N
+    - e
+    - a
+    - t
+    - F
+    - a.48pt
+    - c
+    - e.48pt
+    - three
+    x_height_px: 154.0
+    figure_height_px: 249
+    stem_px: 14.0
+    scale: 2.68714
+    stem_units: 37.6
+    x_height: 414
+    figure_height: 669
+specimen_lines:
+- leaf: 178
+  line: 48pt
+  text: Neat Face 3
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,265 @@
+name: roycroft-atf1906
+title: Roycroft
+series: Roycroft
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 322
+  - 323
+leaf_pages:
+  322: 272
+  323: 273
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      322:120pt: 15.4
+      322:96pt: 11.3
+      322:72pt: 19.6
+      323:60pt: 14.6
+      323:48pt: 20.2
+      323:42pt: 23.5
+      323:36pt: 32.2
+      323:30pt: 23.1
+  x_height: 549
+lines:
+  322:120pt:
+    n_caps: 5
+    cap_height_px: 546
+    cap_source: caps
+    baseline_px: 929.0
+    baselines:
+      '1': 929.0
+      '2': 1584
+    glyphs:
+    - S
+    - E
+    - N
+    - D
+    - M
+    - a
+    - t
+    - r
+    - i
+    - x
+    x_height_px: 376
+    stem_px: 70
+    scale: 1.28205
+    stem_units: 89.7
+    x_height: 482
+  322:96pt:
+    n_caps: 6
+    cap_height_px: 433.5
+    cap_source: caps
+    baseline_px: 2227
+    baselines:
+      '3': 2227
+      '4': 2759
+    glyphs:
+    - B
+    - R
+    - I
+    - N.96pt
+    - K
+    - H
+    - a.96pt
+    - r.96pt
+    - k
+    - t.96pt
+    - h
+    x_height_px: 382
+    stem_px: 83.0
+    scale: 1.61476
+    stem_units: 134.0
+    x_height: 617
+  322:72pt:
+    n_caps: 6
+    cap_height_px: 321.0
+    cap_source: caps
+    baseline_px: 3267.0
+    baselines:
+      '5': 3267.0
+    glyphs:
+    - B.72pt
+    - U
+    - N.72pt
+    - K.72pt
+    - E.72pt
+    - R.72pt
+    stem_px: 52.0
+    scale: 2.18069
+    stem_units: 113.4
+  323:60pt:
+    n_caps: 7
+    cap_height_px: 264
+    cap_source: caps
+    baseline_px: 665
+    baselines:
+      '1': 665
+    glyphs:
+    - P
+    - R.60pt
+    - I.60pt
+    - N.60pt
+    - C
+    - E.60pt
+    - S.60pt
+    stem_px: 45
+    scale: 2.65152
+    stem_units: 119.3
+  323:48pt:
+    n_caps: 7
+    cap_height_px: 208
+    cap_source: caps
+    baseline_px: 1360
+    baselines:
+      '3': 1360
+    glyphs:
+    - M.48pt
+    - I.48pt
+    - T
+    - E.48pt
+    - B.48pt
+    - O
+    - X
+    stem_px: 41
+    scale: 3.36538
+    stem_units: 138.0
+  323:42pt:
+    n_caps: 10
+    cap_height_px: 178.5
+    cap_source: caps
+    baseline_px: 1966.0
+    baselines:
+      '5': 1966.0
+    glyphs:
+    - H.42pt
+    - E.42pt
+    - R.42pt
+    - B.42pt
+    - O.42pt
+    - R.42pt_2
+    - I.42pt
+    - Z
+    - E.42pt_2
+    - D.42pt
+    stem_px: 36.5
+    scale: 3.92157
+    stem_units: 143.1
+  323:36pt:
+    n_caps: 11
+    cap_height_px: 152
+    cap_source: caps
+    baseline_px: 2512
+    baselines:
+      '7': 2512
+    glyphs:
+    - N.36pt
+    - E.36pt
+    - I.36pt
+    - G
+    - H.36pt
+    - B.36pt
+    - E.36pt_2
+    - C.36pt
+    - O.36pt
+    - M.36pt
+    - E.36pt_3
+    stem_px: 24
+    scale: 4.60526
+    stem_units: 110.5
+  323:30pt:
+    n_caps: 15
+    cap_height_px: 121
+    cap_source: caps
+    baseline_px: 2983
+    baselines:
+      '9': 2983
+    glyphs:
+    - S.30pt
+    - M.30pt
+    - I.30pt
+    - R.30pt
+    - K.30pt
+    - I.30pt_2
+    - N.30pt
+    - G.30pt
+    - G.30pt_2
+    - E.30pt
+    - R.30pt_2
+    - M.30pt_2
+    - A
+    - N.30pt_2
+    - S.30pt_2
+    stem_px: 22
+    scale: 5.78512
+    stem_units: 127.3
+specimen_lines:
+- leaf: 322
+  line: 120pt
+  text: SEND
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 322
+  line: 120pt
+  text: Matrix
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 322
+  line: 96pt
+  text: BRINK
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 322
+  line: 96pt
+  text: Harkth
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 322
+  line: 72pt
+  text: BUNKER
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 323
+  line: 60pt
+  text: PRINCES
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 323
+  line: 48pt
+  text: MITEBOX
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 323
+  line: 42pt
+  text: HERBORIZED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 323
+  line: 36pt
+  text: NEIGH BECOME
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 323
+  line: 30pt
+  text: SMIRKING GERMANS
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

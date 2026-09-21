@@ -1,0 +1,109 @@
+name: gothic-condensed-atf1902b
+title: Gothic Condensed
+series: Gothic Condensed
+status: proto
+version: 0.1.0
+book: deskbookoftypesp02amer
+source:
+  archive_id: deskbookoftypesp02amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    2, 11-22)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp02amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 53
+leaf_pages:
+  53: 834
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      53:36pt: 59.8
+      53:24pt: 95.6
+lines:
+  53:36pt:
+    n_caps: 17
+    cap_height_px: 234
+    cap_source: caps
+    baseline_px: 817
+    baselines:
+      '1': 817
+    glyphs:
+    - F
+    - A
+    - S
+    - T
+    - I
+    - D
+    - I.36pt
+    - O
+    - U
+    - S.36pt
+    - D.36pt
+    - A.36pt
+    - M
+    - S.36pt_2
+    - E
+    - L
+    - S.36pt_3
+    stem_px: 18
+    scale: 2.99145
+    stem_units: 53.8
+  53:24pt:
+    n_caps: 24
+    cap_height_px: 124.5
+    cap_source: caps
+    baseline_px: 1149.0
+    baselines:
+      '2': 1149.0
+    glyphs:
+    - B
+    - E.24pt
+    - W
+    - I.24pt
+    - L.24pt
+    - D.24pt
+    - E.24pt_2
+    - R
+    - E.24pt_3
+    - D.24pt_2
+    - S.24pt
+    - U.24pt
+    - P
+    - E.24pt_4
+    - R.24pt
+    - I.24pt_2
+    - O.24pt
+    - R.24pt_2
+    - C
+    - H
+    - E.24pt_5
+    - E.24pt_6
+    - S.24pt_2
+    - E.24pt_7
+    stem_px: 11.0
+    scale: 5.62249
+    stem_units: 61.8
+specimen_lines:
+- leaf: 53
+  line: 36pt
+  text: FASTIDIOUS DAMSELS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 53
+  line: 24pt
+  text: BEWILDERED SUPERIOR CHEESE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

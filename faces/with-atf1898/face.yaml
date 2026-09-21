@@ -1,0 +1,139 @@
+name: with-atf1898
+title: With
+series: With
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 500
+  - 733
+leaf_pages:
+  500: 6
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      733:72pt: 125.4
+      733:60pt: 120.9
+      733:48pt: 123.0
+      500:24pt: 61.5
+lines:
+  733:72pt:
+    n_caps: 6
+    cap_height_px: 441.0
+    cap_source: caps
+    baseline_px: 1077.5
+    baselines:
+      '2': 1077.5
+    glyphs:
+    - A
+    - B
+    - C
+    - D
+    - E
+    - F
+    stem_px: 17.5
+    scale: 1.5873
+    stem_units: 27.8
+  733:60pt:
+    n_caps: 5
+    cap_height_px: 382
+    cap_source: caps
+    baseline_px: 3432
+    baselines:
+      '6': 3432
+    glyphs:
+    - B.60pt
+    - C.60pt
+    - M
+    - R
+    - S
+    stem_px: 7
+    scale: 1.83246
+    stem_units: 12.8
+  733:48pt:
+    n_caps: 13
+    cap_height_px: 330
+    cap_source: caps
+    baseline_px: 1708.0
+    baselines:
+      '3': 1708.0
+      '4': 2295
+    glyphs:
+    - G
+    - H
+    - I
+    - J
+    - K
+    - M.48pt
+    - P
+    - S.48pt
+    - G.48pt
+    - H.48pt
+    - K.48pt
+    - O
+    - S.48pt_2
+    stem_px: 5
+    scale: 2.12121
+    stem_units: 10.6
+  500:24pt:
+    n_caps: 6
+    cap_height_px: 148.0
+    cap_source: caps
+    baseline_px: 1731.0
+    baselines:
+      '4': 1731.0
+    glyphs:
+    - S.24pt
+    - P.24pt
+    - O.24pt
+    - R.24pt
+    - T
+    - S.24pt_2
+    stem_px: 10.0
+    scale: 4.72973
+    stem_units: 47.3
+specimen_lines:
+- leaf: 733
+  line: 72pt
+  text: ABCDEF
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 733
+  line: 60pt
+  text: BCMRS
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 733
+  line: 48pt
+  text: GHIJKMPS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 733
+  line: 48pt
+  text: GHKOS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 500
+  line: 24pt
+  text: SPORTS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

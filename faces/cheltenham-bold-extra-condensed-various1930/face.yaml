@@ -1,0 +1,68 @@
+name: cheltenham-bold-extra-condensed-various1930
+title: Cheltenham Bold Extra Condensed
+series: Cheltenham Bold Extra Condensed
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 88
+  - 89
+leaf_pages:
+  88: 76
+  89: 77
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      88:84pt: 9.3
+  x_height: 436
+lines:
+  88:84pt:
+    n_caps: 2
+    cap_height_px: 338.5
+    cap_source: caps
+    baseline_px: 1373.5
+    baselines:
+      '2': 1373.5
+    glyphs:
+    - F
+    - a
+    - s
+    - h
+    - i
+    - o
+    - n
+    - a.84pt
+    - b
+    - l
+    - e
+    - C
+    - u
+    - t
+    x_height_px: 211.0
+    stem_px: 28.5
+    scale: 2.06795
+    stem_units: 58.9
+    x_height: 436
+specimen_lines:
+- leaf: 88
+  line: 84pt
+  text: Fashionable Cut
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

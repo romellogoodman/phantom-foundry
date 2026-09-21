@@ -1,0 +1,125 @@
+name: ronaldson-extended-atf1898
+title: Ronaldson Extended
+series: Ronaldson Extended
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 180
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      180:48pt: 42.8
+      180:30pt: 81.8
+      180:24pt: 98.7
+  x_height: 481
+lines:
+  180:48pt:
+    n_caps: 1
+    cap_height_px: 229
+    cap_source: caps
+    baseline_px: 813
+    baselines:
+      '2': 813
+    glyphs:
+    - U
+    - n
+    - d
+    - e
+    - r
+    - six
+    - five
+    x_height_px: 157.5
+    figure_height_px: 223.0
+    stem_px: 3
+    scale: 3.05677
+    stem_units: 9.2
+    x_height: 481
+    figure_height: 682
+  180:30pt:
+    n_caps: 5
+    cap_height_px: 137
+    cap_source: caps
+    baseline_px: 1567
+    baselines:
+      '4': 1567
+    glyphs:
+    - S
+    - I
+    - D
+    - E
+    - six.30pt
+    - four
+    - P
+    - i
+    - p
+    - e.30pt
+    x_height_px: 136
+    figure_height_px: 132.5
+    stem_px: 16
+    scale: 5.10949
+    stem_units: 81.8
+    x_height: 695
+    figure_height: 677
+  180:24pt:
+    n_caps: 5
+    cap_height_px: 117
+    cap_source: caps
+    baseline_px: 1907
+    baselines:
+      '5': 1907
+    glyphs:
+    - two
+    - eight
+    - G
+    - r.24pt
+    - a
+    - n.24pt
+    - d.24pt
+    - T
+    - I.24pt
+    - M
+    - E.24pt
+    x_height_px: 79.0
+    figure_height_px: 98.0
+    stem_px: 10
+    scale: 5.98291
+    stem_units: 59.8
+    x_height: 473
+    figure_height: 586
+specimen_lines:
+- leaf: 180
+  line: 48pt
+  text: Under 65
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 180
+  line: 30pt
+  text: SIDE 64 Pipe
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 180
+  line: 24pt
+  text: 28 Grand TIME
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

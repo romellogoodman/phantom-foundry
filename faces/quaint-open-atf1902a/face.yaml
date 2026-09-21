@@ -1,0 +1,124 @@
+name: quaint-open-atf1902a
+title: Quaint Open
+series: Quaint Open
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 506
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      506:48pt: 47.9
+      506:36pt: 50.7
+      506:24pt: 56.5
+lines:
+  506:48pt:
+    n_caps: 10
+    cap_height_px: 314.0
+    cap_source: caps
+    baseline_px: 986.0
+    baselines:
+      '1': 986.0
+    glyphs:
+    - G
+    - R
+    - A
+    - N
+    - D
+    - J
+    - O
+    - K
+    - E
+    - R.48pt
+    stem_px: 4.0
+    scale: 2.2293
+    stem_units: 8.9
+  506:36pt:
+    n_caps: 13
+    cap_height_px: 221
+    cap_source: caps
+    baseline_px: 1525
+    baselines:
+      '2': 1525
+    glyphs:
+    - E.36pt
+    - V
+    - E.36pt_2
+    - N.36pt
+    - I
+    - N.36pt_2
+    - G.36pt
+    - S
+    - E.36pt_3
+    - R.36pt
+    - M
+    - O.36pt
+    - N.36pt_3
+    stem_px: 4
+    scale: 3.16742
+    stem_units: 12.7
+  506:24pt:
+    n_caps: 17
+    cap_height_px: 155
+    cap_source: caps
+    baseline_px: 1982
+    baselines:
+      '3': 1982
+    glyphs:
+    - T
+    - H
+    - I.24pt
+    - R.24pt
+    - D.24pt
+    - N.24pt
+    - A.24pt
+    - T.24pt
+    - I.24pt_2
+    - O.24pt
+    - N.24pt_2
+    - A.24pt_2
+    - L
+    - B
+    - A.24pt_3
+    - N.24pt_3
+    - K.24pt
+    stem_px: 3
+    scale: 4.51613
+    stem_units: 13.5
+specimen_lines:
+- leaf: 506
+  line: 48pt
+  text: GRAND~JOKER
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 506
+  line: 36pt
+  text: EVENING ~ SERMON
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 506
+  line: 24pt
+  text: THIRD ~ NATIONAL ~ BANK
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,114 @@
+name: epitaph-atf1900
+title: Epitaph
+series: Epitaph
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 432
+leaf_pages:
+  432: 48
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      432:48pt: 66.0
+      432:36pt: 83.1
+      432:24pt: 75.2
+lines:
+  432:48pt:
+    n_caps: 7
+    cap_height_px: 334
+    cap_source: caps
+    baseline_px: 1055
+    baselines:
+      '1': 1055
+    glyphs:
+    - M
+    - A
+    - R
+    - C
+    - H
+    - E
+    - D
+    - two
+    figure_height_px: 336
+    stem_px: 55
+    scale: 2.09581
+    stem_units: 115.3
+    figure_height: 704
+  432:36pt:
+    n_caps: 12
+    cap_height_px: 236.0
+    cap_source: caps
+    baseline_px: 1639.0
+    baselines:
+      '2': 1639.0
+    glyphs:
+    - H.36pt
+    - O
+    - R.36pt
+    - S
+    - E.36pt
+    - S.36pt
+    - D.36pt
+    - R.36pt_2
+    - I
+    - V
+    - E.36pt_2
+    - N
+    stem_px: 41.5
+    scale: 2.9661
+    stem_units: 123.1
+  432:24pt:
+    n_caps: 8
+    cap_height_px: 167.5
+    cap_source: caps
+    baseline_px: 2431.0
+    baselines:
+      '4': 2431.0
+    glyphs:
+    - D.24pt
+    - E.24pt
+    - P
+    - A.24pt
+    - R.24pt
+    - T
+    - E.24pt_2
+    - D.24pt_2
+    stem_px: 32.0
+    scale: 4.1791
+    stem_units: 133.7
+specimen_lines:
+- leaf: 432
+  line: 48pt
+  text: MARCHED 2
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 432
+  line: 36pt
+  text: HORSES DRIVEN
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 432
+  line: 24pt
+  text: ~ DEPARTED ~
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

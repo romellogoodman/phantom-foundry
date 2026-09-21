@@ -23,11 +23,24 @@ TYPES = {".otf": "font/otf", ".ttf": "font/ttf", ".json": "application/json", ".
 CACHE = {"index.json": "public, max-age=300", "books.json": "public, max-age=300"}
 
 
+def site_index() -> Path:
+    """The showing, as the site needs it: strikes a person has not yet looked at and the label audit
+    doubts (`suspect`) are left out, and each strike's list of check items is dropped (4 MB of it)."""
+    showing = json.loads((ROOT / "showing" / "showing.json").read_text())
+    faces = [{**f, "checks": {k: v for k, v in f["checks"].items() if k != "items"}}
+             for f in showing["faces_list"] if not f.get("suspect")]
+    out = SITE / ".site-index.json"
+    out.write_text(json.dumps({**showing, "faces": len(faces), "faces_list": faces}, ensure_ascii=False))
+    return out
+
+
 def wanted():
     """(key in the bucket, local file) for everything the site reads."""
+    index = site_index()
+    listed = {f["name"] for f in json.loads(index.read_text())["faces_list"]}
     for face in sorted((ROOT / "faces").iterdir()):
         proofs = face / "proofs"
-        if not (proofs / "face.json").exists():
+        if face.name not in listed or not (proofs / "face.json").exists():
             continue
         for f in sorted((face / "dist").glob("*.[ot]tf")):
             yield f"fonts/{f.name}", f
@@ -39,7 +52,7 @@ def wanted():
                 for f in sorted((face / sub).rglob("*")):
                     if f.is_file():
                         yield f"proofs/{face.name}/{f.relative_to(face)}", f
-    yield "proofs/index.json", ROOT / "showing" / "showing.json"
+    yield "proofs/index.json", index
     yield "proofs/books.json", SITE / "public" / "proofs" / "books.json"
 
 

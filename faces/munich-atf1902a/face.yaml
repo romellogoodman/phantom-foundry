@@ -1,0 +1,182 @@
+name: munich-atf1902a
+title: Munich
+series: Munich
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 471
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      471:48pt: 50.7
+      471:36pt: 44.5
+      471:24pt: 49.0
+  x_height: 485
+lines:
+  471:48pt:
+    n_caps: 7
+    cap_height_px: 221
+    cap_source: caps
+    baseline_px: 873
+    baselines:
+      '1': 873
+    glyphs:
+    - M
+    - O
+    - D
+    - E
+    - R
+    - N
+    - C
+    - h
+    - a
+    - r
+    - a.48pt
+    - c
+    - t
+    - e
+    - r.48pt
+    x_height_px: 151.5
+    stem_px: 6
+    scale: 3.16742
+    stem_units: 19.0
+    x_height: 480
+  471:36pt:
+    n_caps: 23
+    cap_height_px: 173
+    cap_source: caps
+    baseline_px: 1282
+    baselines:
+      '2': 1282
+      '5': 3066.5
+    glyphs:
+    - U
+    - n
+    - i
+    - q
+    - u
+    - e.36pt
+    - G
+    - e.36pt_2
+    - n.36pt
+    - t.36pt
+    - l
+    - e.36pt_3
+    - M.36pt
+    - U.36pt
+    - L
+    - C.36pt
+    - O.36pt
+    - H
+    - Y
+    - B
+    - a.36pt
+    - r.36pt
+    - b
+    - e.36pt_4
+    - r.36pt_2
+    - s
+    - A
+    - d
+    - v
+    - e.36pt_5
+    - r.36pt_3
+    - t.36pt_2
+    - i.36pt
+    - s.36pt
+    - e.36pt_6
+    - Q
+    - U.36pt_2
+    - I
+    - E.36pt
+    - T
+    - S
+    - H.36pt
+    - A.36pt
+    - V
+    - E.36pt_2
+    - R.36pt
+    - S.36pt
+    x_height_px: 135.0
+    stem_px: 6
+    scale: 4.04624
+    stem_units: 24.3
+    x_height: 546
+  471:24pt:
+    n_caps: 12
+    cap_height_px: 128.5
+    cap_source: caps
+    baseline_px: 1644.0
+    baselines:
+      '3': 1644.0
+    glyphs:
+    - G.24pt
+    - A.24pt
+    - T.24pt
+    - H.24pt
+    - E.24pt
+    - R.24pt
+    - B.24pt
+    - E.24pt_2
+    - A.24pt_2
+    - R.24pt_2
+    - A.24pt_3
+    - b.24pt
+    - o
+    - a.24pt
+    - r.24pt
+    - d.24pt
+    - t.24pt
+    - h.24pt
+    - e.24pt
+    - B.24pt_2
+    - o.24pt
+    - a.24pt_2
+    - t.24pt_2
+    x_height_px: 89
+    stem_px: 14.0
+    scale: 5.44747
+    stem_units: 76.3
+    x_height: 485
+specimen_lines:
+- leaf: 471
+  line: 48pt
+  text: MODERN Character
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 471
+  line: 36pt
+  text: Unique Gentle MULCOHY
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 471
+  line: 36pt
+  text: Barbers Advertise QUIET SHAVERS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 471
+  line: 24pt
+  text: GATHER BEAR Aboard the Boat
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

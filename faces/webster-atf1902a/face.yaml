@@ -1,0 +1,116 @@
+name: webster-atf1902a
+title: Webster
+series: Webster
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 465
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      465:36pt: 65.6
+      465:24pt: 66.4
+  x_height: 459
+lines:
+  465:36pt:
+    n_caps: 13
+    cap_height_px: 160
+    cap_source: caps
+    baseline_px: 858
+    baselines:
+      '1': 858
+      '2': 1126.0
+    glyphs:
+    - E
+    - N
+    - G
+    - I
+    - N.36pt
+    - E.36pt
+    - E.36pt_2
+    - R
+    - I.36pt
+    - N.36pt_2
+    - G.36pt
+    - M
+    - e
+    - c
+    - h
+    - a
+    - n
+    - i
+    - c.36pt
+    - a.36pt
+    - l
+    - L
+    - e.36pt
+    - s
+    - s.36pt
+    - o
+    - n.36pt
+    - s.36pt_2
+    x_height_px: 105
+    stem_px: 12
+    scale: 4.375
+    stem_units: 52.5
+    x_height: 459
+  465:24pt:
+    n_caps: 12
+    cap_height_px: 116.0
+    cap_source: caps
+    baseline_px: 1634.5
+    baselines:
+      '3': 1634.5
+    glyphs:
+    - G.24pt
+    - R.24pt
+    - A
+    - N.24pt
+    - D
+    - B
+    - A.24pt
+    - N.24pt_2
+    - Q
+    - U
+    - E.24pt
+    - T
+    stem_px: 8.5
+    scale: 6.03448
+    stem_units: 51.3
+specimen_lines:
+- leaf: 465
+  line: 36pt
+  text: ENGINEERING
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 465
+  line: 36pt
+  text: Mechanical Lessons
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 465
+  line: 24pt
+  text: GRAND BANQU ET
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

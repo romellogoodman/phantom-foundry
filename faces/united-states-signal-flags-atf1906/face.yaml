@@ -1,0 +1,48 @@
+name: united-states-signal-flags-atf1906
+title: United States Signal Flags
+series: United States Signal Flags
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 666
+leaf_pages:
+  666: 718
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps: {}
+lines: {}
+specimen_lines:
+- leaf: 666
+  line: 36pt
+  text: ~~~~~
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 666
+  line: 36pt
+  text: ~~~~
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 666
+  line: 36pt
+  text: ~~~~~
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

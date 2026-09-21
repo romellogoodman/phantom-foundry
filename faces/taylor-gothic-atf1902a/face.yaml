@@ -1,0 +1,141 @@
+name: taylor-gothic-atf1902a
+title: Taylor Gothic
+series: Taylor Gothic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 356
+leaf_pages:
+  356: 1
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      356:48pt: 55.1
+      356:42pt: 83.2
+      356:18pt: 81.6
+  x_height: 455
+lines:
+  356:48pt:
+    n_caps: 10
+    cap_height_px: 267.0
+    cap_source: caps
+    baseline_px: 932.0
+    baselines:
+      '1': 932.0
+      '2': 1286.5
+    glyphs:
+    - P
+    - L
+    - E
+    - A
+    - S
+    - I
+    - N
+    - G
+    - N.48pt
+    - e
+    - w
+    - e.48pt
+    - s
+    - t
+    - M
+    - a
+    - s.48pt
+    - t.48pt
+    - e.48pt_2
+    - r
+    x_height_px: 173.5
+    stem_px: 43.5
+    scale: 2.62172
+    stem_units: 114.0
+    x_height: 455
+  356:42pt:
+    n_caps: 10
+    cap_height_px: 202.0
+    cap_source: caps
+    baseline_px: 1787.5
+    baselines:
+      '3': 1787.5
+    glyphs:
+    - E.42pt
+    - X
+    - C
+    - U
+    - R
+    - S.42pt
+    - I.42pt
+    - O
+    - N.42pt
+    - S.42pt_2
+    stem_px: 34.5
+    scale: 3.46535
+    stem_units: 119.6
+  356:18pt:
+    n_caps: 17
+    cap_height_px: 103
+    cap_source: caps
+    baseline_px: 2807
+    baselines:
+      '6': 2807
+    glyphs:
+    - D
+    - A.18pt
+    - R.18pt
+    - K
+    - E.18pt
+    - S.18pt
+    - T
+    - I.18pt
+    - N.18pt
+    - D.18pt
+    - U.18pt
+    - S.18pt_2
+    - T.18pt
+    - R.18pt_2
+    - I.18pt_2
+    - A.18pt_2
+    - L.18pt
+    stem_px: 23
+    scale: 6.79612
+    stem_units: 156.3
+specimen_lines:
+- leaf: 356
+  line: 48pt
+  text: PLEASING
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 356
+  line: 48pt
+  text: Newest Master
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 356
+  line: 42pt
+  text: EXCURSIONS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 356
+  line: 18pt
+  text: DARKEST INDUSTRIAL
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

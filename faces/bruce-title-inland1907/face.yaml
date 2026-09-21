@@ -1,0 +1,126 @@
+name: bruce-title-inland1907
+title: Bruce Title
+series: Bruce Title
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 174
+leaf_pages:
+  174: 166
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      174:24pt: 50.6
+      174:20pt: 55.8
+lines:
+  174:24pt:
+    n_caps: 19
+    cap_height_px: 166
+    cap_source: caps
+    baseline_px: 748
+    baselines:
+      '2': 748
+      '3': 982.0
+    glyphs:
+    - N
+    - E
+    - W
+    - L
+    - E.24pt
+    - T
+    - T.24pt
+    - E.24pt_2
+    - R
+    - M
+    - O
+    - D
+    - E.24pt_3
+    - R.24pt
+    - N.24pt
+    - F
+    - A
+    - C
+    - E.24pt_4
+    - two
+    figure_height_px: 169
+    stem_px: 17
+    scale: 4.21687
+    stem_units: 71.7
+    figure_height: 713
+  174:20pt:
+    n_caps: 23
+    cap_height_px: 138
+    cap_source: caps
+    baseline_px: 1344
+    baselines:
+      '4': 1344
+      '5': 1534.5
+    glyphs:
+    - E.20pt
+    - X
+    - C.20pt
+    - E.20pt_2
+    - L.20pt
+    - O.20pt
+    - T.20pt
+    - H
+    - E.20pt_3
+    - R.20pt
+    - S
+    - T.20pt_2
+    - H.20pt
+    - E.20pt_4
+    - B
+    - E.20pt_5
+    - S.20pt
+    - T.20pt_3
+    - M.20pt
+    - O.20pt_2
+    - D.20pt
+    - E.20pt_6
+    - L.20pt_2
+    - three
+    figure_height_px: 137
+    stem_px: 16
+    scale: 5.07246
+    stem_units: 81.2
+    figure_height: 695
+specimen_lines:
+- leaf: 174
+  line: 24pt
+  text: NEW LETTER
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 174
+  line: 24pt
+  text: MODERN FACE 2
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 174
+  line: 20pt
+  text: EXCEL OTHERS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 174
+  line: 20pt
+  text: THE BEST MODEL 3
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

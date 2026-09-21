@@ -1,0 +1,216 @@
+name: edihfl-millerrichard1921
+title: Edihfl.
+series: Edihfl.
+status: proto
+version: 0.1.0
+book: printingtypespec00millrich
+source:
+  archive_id: printingtypespec00millrich
+  title: Printing type specimens, comprising a large variety of book and jobbing faces,
+    borders and ornaments
+  creator: Miller & Richard (Firm)
+  publisher: Edinburgh, London
+  date: '[1921?]'
+  ppi: 300
+  url: https://archive.org/details/printingtypespec00millrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 264
+leaf_pages:
+  264: 388
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      264:60pt: 50.2
+      264:48pt: 41.3
+      264:42pt: 185.3
+      264:30pt: 56.2
+lines:
+  264:60pt:
+    n_caps: 0
+    cap_height_px: 223.0
+    cap_source: ascenders
+    baseline_px: 1059.0
+    baselines:
+      '2': 1059.0
+    glyphs:
+    - one
+    - two
+    - three
+    - four
+    - one.60pt
+    - two.60pt
+    - three.60pt
+    - four.60pt
+    - five
+    - six
+    - seven
+    - eight
+    figure_height_px: 128.0
+    scale: 3.13901
+    figure_height: 402
+  264:48pt:
+    n_caps: 0
+    cap_height_px: 178.0
+    cap_source: ascenders
+    baseline_px: 1393.0
+    baselines:
+      '3': 1393.0
+      '5': 1936.5
+    glyphs:
+    - one.48pt
+    - two.48pt
+    - three.48pt
+    - four.48pt
+    - five.48pt
+    - one.48pt_2
+    - two.48pt_2
+    - three.48pt_2
+    - four.48pt_2
+    - five.48pt_2
+    - six.48pt
+    - seven.48pt
+    - eight.48pt
+    - one.48pt_3
+    - two.48pt_3
+    - three.48pt_3
+    - four.48pt_3
+    - five.48pt_3
+    - six.48pt_2
+    - seven.48pt_2
+    - eight.48pt_2
+    - nine
+    - two.48pt_4
+    - three.48pt_4
+    - four.48pt_4
+    - five.48pt_4
+    - six.48pt_3
+    - seven.48pt_3
+    - one.48pt_4
+    - two.48pt_5
+    - three.48pt_5
+    - four.48pt_5
+    - five.48pt_5
+    - six.48pt_4
+    - seven.48pt_4
+    - eight.48pt_3
+    figure_height_px: 129.0
+    scale: 3.93258
+    figure_height: 507
+  264:42pt:
+    n_caps: 13
+    cap_height_px: 34
+    cap_source: caps
+    baseline_px: 1687
+    baselines:
+      '4': 1687
+      '6': 2166.0
+    glyphs:
+    - two.42pt
+    - three.42pt
+    - four.42pt
+    - five.42pt
+    - six.42pt
+    - C
+    - O
+    - N
+    - D
+    - E
+    - N.42pt
+    - S
+    - E.42pt
+    - D.42pt
+    - E.42pt_2
+    - D.42pt_2
+    - I
+    - N.42pt_2
+    - two.42pt_2
+    - three.42pt_2
+    - four.42pt_2
+    - five.42pt_2
+    - six.42pt_2
+    - seven.42pt
+    - eight.42pt
+    - two.42pt_3
+    - three.42pt_3
+    - four.42pt_3
+    - five.42pt_3
+    - six.42pt_3
+    - seven.42pt_2
+    - eight.42pt_2
+    - nine.42pt
+    - zero
+    figure_height_px: 148
+    stem_px: 6
+    scale: 20.58824
+    stem_units: 123.5
+    figure_height: 3047
+  264:30pt:
+    n_caps: 0
+    cap_height_px: 124.5
+    cap_source: ascenders
+    baseline_px: 2369
+    baselines:
+      '7': 2369
+    glyphs:
+    - one.30pt
+    - two.30pt
+    - three.30pt
+    - four.30pt
+    - five.30pt
+    - six.30pt
+    - seven.30pt
+    - eight.30pt
+    - nine.30pt
+    - one.30pt_2
+    - two.30pt_2
+    - three.30pt_2
+    - four.30pt_2
+    - five.30pt_2
+    - six.30pt_2
+    - seven.30pt_2
+    - eight.30pt_2
+    - nine.30pt_2
+    - zero.30pt
+    figure_height_px: 122
+    scale: 5.62249
+    figure_height: 686
+specimen_lines:
+- leaf: 264
+  line: 60pt
+  text: 1234 12345678
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 264
+  line: 48pt
+  text: 1 2 3 4 5 1 2345678 123456789
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 264
+  line: 48pt
+  text: 234567 12345678
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 264
+  line: 42pt
+  text: 2 3 4 5 6 CONDENSED ED IN
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 264
+  line: 42pt
+  text: 2345678 234567890
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 264
+  line: 30pt
+  text: 123456789 1 234567890
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

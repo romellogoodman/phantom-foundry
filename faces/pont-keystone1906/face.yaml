@@ -1,0 +1,140 @@
+name: pont-keystone1906
+title: Pont
+series: Pont
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 201
+  - 263
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      201:48pt: 47.1
+      263:30pt: 29.1
+  x_height: 500
+lines:
+  201:48pt:
+    n_caps: 14
+    cap_height_px: 238.0
+    cap_source: caps
+    baseline_px: 3199
+    baselines:
+      '7': 3199
+      '8': 3525
+    glyphs:
+    - W
+    - O
+    - R
+    - N
+    - O.48pt
+    - U
+    - T
+    - T.48pt
+    - Y
+    - P
+    - E
+    - S
+    - h
+    - o
+    - u
+    - l
+    - d
+    - B
+    - e
+    - D
+    - i
+    - s
+    - c
+    - a
+    - r
+    - d.48pt
+    - e.48pt
+    - d.48pt_2
+    x_height_px: 174.0
+    stem_px: 34.0
+    scale: 2.94118
+    stem_units: 100.0
+    x_height: 512
+  263:30pt:
+    n_caps: 10
+    cap_height_px: 144.5
+    cap_source: caps
+    baseline_px: 3097.0
+    baselines:
+      '6': 3097.0
+      '8': 3540
+    glyphs:
+    - R.30pt
+    - H
+    - E.30pt
+    - T.30pt
+    - O.30pt
+    - R.30pt_2
+    - I
+    - C
+    - A
+    - L
+    - i.30pt
+    - n
+    - t
+    - e.30pt
+    - r.30pt
+    - e.30pt_2
+    - s.30pt
+    - t.30pt
+    - t.30pt_2
+    - h.30pt
+    - o.30pt
+    - u.30pt
+    - s.30pt_2
+    - a.30pt
+    - n.30pt
+    - d.30pt
+    - s.30pt_3
+    x_height_px: 101
+    stem_px: 11.0
+    scale: 4.84429
+    stem_units: 53.3
+    x_height: 489
+specimen_lines:
+- leaf: 201
+  line: 48pt
+  text: WORN OUT TYPE
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 201
+  line: 48pt
+  text: Should Be Discarded
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 263
+  line: 30pt
+  text: RHETORICAL
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 263
+  line: 30pt
+  text: interest thousands
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

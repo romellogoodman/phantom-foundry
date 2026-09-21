@@ -1,0 +1,143 @@
+name: carlton-various1930
+title: Carlton
+series: Carlton
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 99
+leaf_pages:
+  99: 87
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      99:60pt: 47.7
+      99:48pt: 60.9
+      99:36pt: 48.3
+  x_height: 357
+lines:
+  99:60pt:
+    n_caps: 3
+    cap_height_px: 235
+    cap_source: caps
+    baseline_px: 702
+    baselines:
+      '1': 702
+    glyphs:
+    - T
+    - h
+    - e
+    - F
+    - i
+    - e.60pt
+    - l
+    - d
+    - o
+    - f
+    - S
+    - p
+    - o.60pt
+    - r
+    - t
+    x_height_px: 162.0
+    stem_px: 14
+    scale: 2.97872
+    stem_units: 41.7
+    x_height: 483
+  99:48pt:
+    n_caps: 3
+    cap_height_px: 184
+    cap_source: caps
+    baseline_px: 1046
+    baselines:
+      '2': 1046
+    glyphs:
+    - O
+    - u
+    - r.48pt
+    - P
+    - r.48pt_2
+    - e.48pt
+    - m
+    - i.48pt
+    - e.48pt_2
+    - r.48pt_3
+    - B
+    - a
+    - t.48pt
+    - s
+    - m.48pt
+    - a.48pt
+    - n
+    x_height_px: 93.0
+    stem_px: 11
+    scale: 3.80435
+    stem_units: 41.8
+    x_height: 354
+  99:36pt:
+    n_caps: 3
+    cap_height_px: 145
+    cap_source: caps
+    baseline_px: 1345
+    baselines:
+      '3': 1345
+    glyphs:
+    - R
+    - e.36pt
+    - c
+    - o.36pt
+    - r.36pt
+    - d.36pt
+    - C
+    - r.36pt_2
+    - o.36pt_2
+    - w
+    - d.36pt_2
+    - a.36pt
+    - t.36pt
+    - S.36pt
+    - o.36pt_3
+    - u.36pt
+    - t.36pt_2
+    - h.36pt
+    - e.36pt_2
+    - n.36pt
+    - d.36pt_3
+    x_height_px: 74.0
+    stem_px: 8
+    scale: 4.82759
+    stem_units: 38.6
+    x_height: 357
+specimen_lines:
+- leaf: 99
+  line: 60pt
+  text: The Field of Sport
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 99
+  line: 48pt
+  text: Our Premier Batsman
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 99
+  line: 36pt
+  text: Record Crowd at Southend
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

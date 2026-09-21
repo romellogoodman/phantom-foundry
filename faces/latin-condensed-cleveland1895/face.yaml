@@ -1,0 +1,60 @@
+name: latin-condensed-cleveland1895
+title: Latin Condensed
+series: Latin
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 122
+leaf_pages:
+  122: 118
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      122:48pt: 22.0
+lines:
+  122:48pt:
+    n_caps: 8
+    cap_height_px: 254.0
+    cap_source: caps
+    baseline_px: 3000.5
+    baselines:
+      '7': 3000.5
+    glyphs:
+    - L
+    - I
+    - N
+    - G
+    - U
+    - I.48pt
+    - S
+    - T
+    stem_px: 20.5
+    scale: 2.75591
+    stem_units: 56.5
+specimen_lines:
+- leaf: 122
+  line: 48pt
+  text: ~LINGUIST~
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Latin
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

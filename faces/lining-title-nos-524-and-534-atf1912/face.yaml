@@ -1,0 +1,94 @@
+name: lining-title-nos-524-and-534-atf1912
+title: Lining Title Nos. 524 and 534
+series: Lining Title Nos. and
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 670
+leaf_pages:
+  670: 648
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      670:42pt: 31.3
+      670:36pt: 39.6
+lines:
+  670:42pt:
+    n_caps: 11
+    cap_height_px: 201
+    cap_source: caps
+    baseline_px: 943
+    baselines:
+      '2': 943
+    glyphs:
+    - R
+    - E
+    - B
+    - U
+    - R.42pt
+    - N
+    - I
+    - S
+    - H
+    - E.42pt
+    - D
+    stem_px: 5
+    scale: 3.48259
+    stem_units: 17.4
+  670:36pt:
+    n_caps: 13
+    cap_height_px: 159
+    cap_source: caps
+    baseline_px: 1307
+    baselines:
+      '3': 1307
+    glyphs:
+    - W
+    - H.36pt
+    - I.36pt
+    - S.36pt
+    - T
+    - L
+    - E.36pt
+    - B.36pt
+    - R.36pt
+    - O
+    - K
+    - E.36pt_2
+    - N.36pt
+    stem_px: 13
+    scale: 4.40252
+    stem_units: 57.2
+specimen_lines:
+- leaf: 670
+  line: 42pt
+  text: REBURNISHED
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 670
+  line: 36pt
+  text: WH ISTLE BROKEN
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Lining Title Nos. and
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

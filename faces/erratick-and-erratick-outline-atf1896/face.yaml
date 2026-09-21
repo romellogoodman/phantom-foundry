@@ -1,0 +1,174 @@
+name: erratick-and-erratick-outline-atf1896
+title: Erratick and Erratick Outline.
+series: Erratick and Erratick Outline.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 460
+  - 461
+leaf_pages:
+  460: 456
+  461: 457
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      460:72pt: 23.1
+      460:42pt: 43.3
+      460:36pt: 27.2
+      461:24pt: 39.1
+      461:20pt: 53.6
+  x_height: 552
+lines:
+  460:72pt:
+    n_caps: 4
+    cap_height_px: 334.0
+    cap_source: caps
+    baseline_px: 1510.5
+    baselines:
+      '2': 1510.5
+    glyphs:
+    - H
+    - U
+    - R
+    - T
+    stem_px: 29.5
+    scale: 2.09581
+    stem_units: 61.8
+  460:42pt:
+    n_caps: 6
+    cap_height_px: 258.5
+    cap_source: caps
+    baseline_px: 2132.0
+    baselines:
+      '3': 2132.0
+      '4': 2593.5
+    glyphs:
+    - P
+    - u
+    - n
+    - six
+    - seven
+    - B
+    - a
+    - g
+    - C
+    - A
+    - G
+    - E
+    x_height_px: 204.0
+    figure_height_px: 248.5
+    stem_px: 25.5
+    scale: 2.70793
+    stem_units: 69.1
+    x_height: 552
+    figure_height: 673
+  460:36pt:
+    n_caps: 6
+    cap_height_px: 206.0
+    cap_source: caps
+    baseline_px: 3536.0
+    baselines:
+      '6': 3536.0
+    glyphs:
+    - M
+    - A.36pt
+    - L
+    - D
+    - E.36pt
+    - N
+    stem_px: 21.0
+    scale: 3.39806
+    stem_units: 71.4
+  461:24pt:
+    n_caps: 8
+    cap_height_px: 161.0
+    cap_source: caps
+    baseline_px: 1106.5
+    baselines:
+      '2': 1106.5
+    glyphs:
+    - H.24pt
+    - A.24pt
+    - N.24pt
+    - D.24pt
+    - S
+    - O
+    - M.24pt
+    - E.24pt
+    stem_px: 18.0
+    scale: 4.34783
+    stem_units: 78.3
+  461:20pt:
+    n_caps: 11
+    cap_height_px: 124
+    cap_source: caps
+    baseline_px: 1723
+    baselines:
+      '4': 1723
+    glyphs:
+    - C.20pt
+    - O.20pt
+    - M.20pt
+    - P.20pt
+    - O.20pt_2
+    - S.20pt
+    - I
+    - T.20pt
+    - O.20pt_3
+    - R.20pt
+    - S.20pt_2
+    stem_px: 10
+    scale: 5.64516
+    stem_units: 56.5
+specimen_lines:
+- leaf: 460
+  line: 72pt
+  text: HURT
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 460
+  line: 42pt
+  text: Pun 67 Bag
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 460
+  line: 42pt
+  text: CAGE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 460
+  line: 36pt
+  text: MALDEN
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 461
+  line: 24pt
+  text: HANDSOME
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 461
+  line: 20pt
+  text: COMPOSITORS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

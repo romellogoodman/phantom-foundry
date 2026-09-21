@@ -1,0 +1,231 @@
+name: french-clarendon-atf1896
+title: French Clarendon.
+series: French Clarendon.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 396
+  - 397
+leaf_pages:
+  396: 392
+  397: 393
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      396:48pt: 38.9
+      396:36pt: 35.6
+      396:30pt: 26.3
+      397:24pt: 38.6
+      397:18pt: 30.2
+  x_height: 501
+lines:
+  396:48pt:
+    n_caps: 10
+    cap_height_px: 306.0
+    cap_source: caps
+    baseline_px: 1033.0
+    baselines:
+      '1': 1033.0
+      '2': 1519.5
+    glyphs:
+    - W
+    - I
+    - T
+    - H
+    - E
+    - R
+    - E.48pt
+    - L
+    - C
+    - a
+    - t
+    - one
+    - two
+    - B
+    - e
+    - d
+    x_height_px: 266.0
+    figure_height_px: 310.0
+    stem_px: 26.5
+    scale: 2.28758
+    stem_units: 60.6
+    x_height: 608
+    figure_height: 709
+  396:36pt:
+    n_caps: 11
+    cap_height_px: 236
+    cap_source: caps
+    baseline_px: 2221
+    baselines:
+      '3': 2221
+      '4': 2620.5
+    glyphs:
+    - B.36pt
+    - U
+    - T.36pt
+    - T.36pt_2
+    - E.36pt
+    - R.36pt
+    - N
+    - U.36pt
+    - T.36pt_3
+    - exclam
+    - C.36pt
+    - o
+    - l
+    - d.36pt
+    - three
+    - C.36pt_2
+    - r
+    - e.36pt
+    - a.36pt
+    - m
+    x_height_px: 167
+    figure_height_px: 233
+    stem_px: 20
+    scale: 2.9661
+    stem_units: 59.3
+    x_height: 495
+    figure_height: 691
+  396:30pt:
+    n_caps: 1
+    cap_height_px: 186
+    cap_source: caps
+    baseline_px: 3611
+    baselines:
+      '6': 3611
+    glyphs:
+    - W.30pt
+    - i
+    - c
+    - k
+    - e.30pt
+    - r.30pt
+    - s
+    - h
+    - a.30pt
+    - m.30pt
+    - four
+    - five
+    x_height_px: 133
+    figure_height_px: 188.0
+    stem_px: 17
+    scale: 3.76344
+    stem_units: 64.0
+    x_height: 501
+    figure_height: 708
+  397:24pt:
+    n_caps: 17
+    cap_height_px: 145
+    cap_source: caps
+    baseline_px: 869
+    baselines:
+      '1': 869
+    glyphs:
+    - S
+    - P
+    - E.24pt
+    - C.24pt
+    - I.24pt
+    - M
+    - E.24pt_2
+    - N.24pt
+    - O
+    - F
+    - S.24pt
+    - C.24pt_2
+    - R.24pt
+    - I.24pt_2
+    - P.24pt
+    - T.24pt
+    - S.24pt_2
+    stem_px: 13
+    scale: 4.82759
+    stem_units: 62.8
+  397:18pt:
+    n_caps: 19
+    cap_height_px: 116
+    cap_source: caps
+    baseline_px: 1543
+    baselines:
+      '3': 1543
+    glyphs:
+    - L.18pt
+    - A
+    - R.18pt
+    - G
+    - E.18pt
+    - S.18pt
+    - T.18pt
+    - N.18pt
+    - E.18pt_2
+    - W.18pt
+    - T.18pt_2
+    - Y
+    - P.18pt
+    - E.18pt_3
+    - F.18pt
+    - O.18pt
+    - U.18pt
+    - N.18pt_2
+    - D
+    stem_px: 11
+    scale: 6.03448
+    stem_units: 66.4
+specimen_lines:
+- leaf: 396
+  line: 48pt
+  text: WITHEREL
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 396
+  line: 48pt
+  text: Cat 12 Bed
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 396
+  line: 36pt
+  text: BUTTERNUT!
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 396
+  line: 36pt
+  text: Cold 3 Cream
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 396
+  line: 30pt
+  text: Wickersham 45
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 397
+  line: 24pt
+  text: SPECIMEN OF SCRIPTS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 397
+  line: 18pt
+  text: LARGES TNE WTYP EFOUND
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

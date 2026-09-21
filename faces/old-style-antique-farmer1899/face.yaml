@@ -1,0 +1,90 @@
+name: old-style-antique-farmer1899
+title: Old Style Antique.
+series: Old Style Antique.
+status: proto
+version: 0.1.0
+book: abridgedspecimen00adfa
+source:
+  archive_id: abridgedspecimen00adfa
+  title: 'Abridged specimen book : type, borders, brass rules, ornaments and price
+    list of printing machinery, furniture, fixtures and material'
+  creator: A.D. Farmer & Son Type Founding Co
+  publisher: 'Chicago : The Company'
+  date: '1899'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00adfa
+  copyright_status: null
+  contributor: University of Illinois Urbana-Champaign
+  leaves:
+  - 158
+leaf_pages:
+  158: 154
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      158:36pt: 53.0
+      158:28pt: 87.5
+  x_height: 461
+lines:
+  158:36pt:
+    n_caps: 5
+    cap_height_px: 198
+    cap_source: caps
+    baseline_px: 3307
+    baselines:
+      '9': 3307
+    glyphs:
+    - M
+    - I
+    - L
+    - K
+    - C
+    - a
+    - r
+    - t
+    - s
+    - eight
+    x_height_px: 130.5
+    figure_height_px: 194
+    stem_px: 21
+    scale: 3.53535
+    stem_units: 74.2
+    x_height: 461
+    figure_height: 686
+  158:28pt:
+    n_caps: 8
+    cap_height_px: 148.0
+    cap_source: caps
+    baseline_px: 2677.5
+    baselines:
+      '7': 2677.5
+    glyphs:
+    - O
+    - L.28pt
+    - D
+    - S
+    - T
+    - Y
+    - L.28pt_2
+    - E
+    stem_px: 21.5
+    scale: 4.72973
+    stem_units: 101.7
+specimen_lines:
+- leaf: 158
+  line: 36pt
+  text: MILK Carts 8
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 158
+  line: 28pt
+  text: OLD STYLE
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

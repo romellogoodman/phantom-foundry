@@ -1,0 +1,126 @@
+name: avil-inland1907
+title: Avil
+series: Avil
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 142
+leaf_pages:
+  142: 134
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      142:72pt: 31.8
+      142:60pt: 20.5
+      142:54pt: 29.3
+  x_height: 370
+lines:
+  142:72pt:
+    n_caps: 5
+    cap_height_px: 418
+    cap_source: caps
+    baseline_px: 1094
+    baselines:
+      '2': 1094
+    glyphs:
+    - C
+    - H
+    - O
+    - R
+    - D
+    stem_px: 51
+    scale: 1.67464
+    stem_units: 85.4
+  142:60pt:
+    n_caps: 6
+    cap_height_px: 376.5
+    cap_source: caps
+    baseline_px: 2304.5
+    baselines:
+      '4': 2304.5
+    glyphs:
+    - R.60pt
+    - E
+    - S
+    - U
+    - M
+    - E.60pt
+    stem_px: 26.0
+    scale: 1.85923
+    stem_units: 48.3
+  142:54pt:
+    n_caps: 10
+    cap_height_px: 286.5
+    cap_source: caps
+    baseline_px: 3795.5
+    baselines:
+      '7': 3795.5
+      '8': 4190.5
+    glyphs:
+    - C.54pt
+    - O.54pt
+    - M.54pt
+    - B
+    - I
+    - N
+    - E.54pt
+    - D.54pt
+    - M.54pt_2
+    - o
+    - d
+    - e
+    - l
+    - S.54pt
+    - c
+    - h
+    - e.54pt
+    - m
+    - e.54pt_2
+    - s
+    - seven
+    x_height_px: 151.5
+    figure_height_px: 291
+    stem_px: 21.0
+    scale: 2.44328
+    stem_units: 51.3
+    x_height: 370
+    figure_height: 711
+specimen_lines:
+- leaf: 142
+  line: 72pt
+  text: CHORD
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 142
+  line: 60pt
+  text: RESUME
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 142
+  line: 54pt
+  text: COMBINED
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 142
+  line: 54pt
+  text: Model Schemes 7
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

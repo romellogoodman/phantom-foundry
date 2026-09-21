@@ -1,0 +1,107 @@
+name: french-clarendon-extended-atf1896
+title: French Clarendon Extended.
+series: French Clarendon Extended.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 400
+  - 401
+leaf_pages:
+  400: 396
+  401: 397
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      400:36pt: 59.0
+      400:24pt: 35.0
+      400:20pt: 52.2
+lines:
+  400:36pt:
+    n_caps: 4
+    cap_height_px: 273.0
+    cap_source: caps
+    baseline_px: 964.0
+    baselines:
+      '1': 964.0
+    glyphs:
+    - S
+    - E
+    - N
+    - T
+    stem_px: 25.0
+    scale: 2.5641
+    stem_units: 64.1
+  400:24pt:
+    n_caps: 7
+    cap_height_px: 160
+    cap_source: caps
+    baseline_px: 2697
+    baselines:
+      '5': 2697
+    glyphs:
+    - P
+    - E.24pt
+    - N.24pt
+    - S.24pt
+    - I
+    - O
+    - N.24pt_2
+    stem_px: 15
+    scale: 4.375
+    stem_units: 65.6
+  400:20pt:
+    n_caps: 8
+    cap_height_px: 127.5
+    cap_source: caps
+    baseline_px: 3409.0
+    baselines:
+      '7': 3409.0
+    glyphs:
+    - L
+    - O.20pt
+    - S.20pt
+    - T.20pt
+    - F
+    - I.20pt
+    - N.20pt
+    - E.20pt
+    stem_px: 12.0
+    scale: 5.4902
+    stem_units: 65.9
+specimen_lines:
+- leaf: 400
+  line: 36pt
+  text: SENT
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 400
+  line: 24pt
+  text: PENSION
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 400
+  line: 20pt
+  text: LOST FINE
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,151 @@
+name: french-old-style-no-1-atf1902a
+title: French Old Style No 1
+series: French Old Style No I
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 540
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      540:60pt: 95.6
+      540:48pt: 105.6
+      540:36pt: 117.4
+      540:24pt: 128.1
+lines:
+  540:60pt:
+    n_caps: 7
+    cap_height_px: 333
+    cap_source: caps
+    baseline_px: 1610
+    baselines:
+      '2': 1610
+    glyphs:
+    - R
+    - A
+    - N
+    - C
+    - H
+    - E
+    - S
+    stem_px: 20
+    scale: 2.1021
+    stem_units: 42.0
+  540:48pt:
+    n_caps: 9
+    cap_height_px: 275
+    cap_source: caps
+    baseline_px: 2132
+    baselines:
+      '3': 2132
+    glyphs:
+    - M
+    - E.48pt
+    - A.48pt
+    - S.48pt
+    - U
+    - R.48pt
+    - I
+    - N.48pt
+    - G
+    stem_px: 16
+    scale: 2.54545
+    stem_units: 40.7
+  540:36pt:
+    n_caps: 13
+    cap_height_px: 167
+    cap_source: caps
+    baseline_px: 2536
+    baselines:
+      '4': 2536
+    glyphs:
+    - H.36pt
+    - I.36pt
+    - N.36pt
+    - G.36pt
+    - E.36pt
+    - S.36pt
+    - B
+    - U.36pt
+    - R.36pt
+    - N.36pt_2
+    - I.36pt_2
+    - S.36pt_2
+    - H.36pt_2
+    stem_px: 14
+    scale: 4.19162
+    stem_units: 58.7
+  540:24pt:
+    n_caps: 18
+    cap_height_px: 112.0
+    cap_source: caps
+    baseline_px: 2878.0
+    baselines:
+      '5': 2878.0
+    glyphs:
+    - R.24pt
+    - E.24pt
+    - S.24pt
+    - O
+    - U.24pt
+    - R.24pt_2
+    - C.24pt
+    - E.24pt_2
+    - C.24pt_2
+    - O.24pt
+    - N.24pt
+    - V
+    - E.24pt_3
+    - R.24pt_3
+    - S.24pt_2
+    - I.24pt
+    - O.24pt_2
+    - N.24pt_2
+    stem_px: 9.0
+    scale: 6.25
+    stem_units: 56.2
+specimen_lines:
+- leaf: 540
+  line: 60pt
+  text: RANCHES
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 540
+  line: 48pt
+  text: MEASURING
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 540
+  line: 36pt
+  text: HINGES BURNISH
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 540
+  line: 24pt
+  text: RESOURCE CONVERSION
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: French Old Style No I
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

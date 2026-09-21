@@ -1,0 +1,134 @@
+name: o-s-grotesque-millerrichard1921
+title: O.S. Grotesque
+series: O.s. Grotesq.ue.
+status: proto
+version: 0.1.0
+book: printingtypespec00millrich
+source:
+  archive_id: printingtypespec00millrich
+  title: Printing type specimens, comprising a large variety of book and jobbing faces,
+    borders and ornaments
+  creator: Miller & Richard (Firm)
+  publisher: Edinburgh, London
+  date: '[1921?]'
+  ppi: 300
+  url: https://archive.org/details/printingtypespec00millrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 130
+leaf_pages:
+  130: 198
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      130:48pt: 107.5
+      130:42pt: 84.7
+  x_height: 498
+lines:
+  130:48pt:
+    n_caps: 12
+    cap_height_px: 140.0
+    cap_source: caps
+    baseline_px: 476.5
+    baselines:
+      '1': 476.5
+      '2': 707.0
+    glyphs:
+    - G
+    - a
+    - r
+    - d
+    - e
+    - n
+    - F
+    - l
+    - o
+    - w
+    - e.48pt
+    - r.48pt
+    - s
+    - V
+    - A
+    - R
+    - I
+    - E
+    - G.48pt
+    - A.48pt
+    - T
+    - E.48pt
+    - D
+    x_height_px: 101
+    stem_px: 36.0
+    scale: 5.0
+    stem_units: 180.0
+    x_height: 505
+  130:42pt:
+    n_caps: 11
+    cap_height_px: 124
+    cap_source: caps
+    baseline_px: 1016.5
+    baselines:
+      '3': 1016.5
+      '4': 1224
+    glyphs:
+    - A.42pt
+    - m
+    - a.42pt
+    - t
+    - e.42pt
+    - u
+    - r.42pt
+    - E.42pt
+    - n.42pt
+    - t.42pt
+    - r.42pt_2
+    - a.42pt_2
+    - n.42pt_2
+    - t.42pt_2
+    - s.42pt
+    - L
+    - O
+    - C
+    - A.42pt_2
+    - L.42pt
+    - S
+    - H
+    - O.42pt
+    - W
+    x_height_px: 87
+    stem_px: 32
+    scale: 5.64516
+    stem_units: 180.6
+    x_height: 491
+specimen_lines:
+- leaf: 130
+  line: 48pt
+  text: Garden Flowers
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 130
+  line: 48pt
+  text: VARIEGATED
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 130
+  line: 42pt
+  text: Amateur Entrants
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 130
+  line: 42pt
+  text: LOCAL SHOW
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: O.s. Grotesq.ue.
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

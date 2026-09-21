@@ -112,8 +112,9 @@ proofs/             QA output, checks.json, the publishable artifacts, and the w
 - **What is committed.** A face is a small record of decisions and a large
   body of output computed from it. The record cannot be made again: `face.yaml`,
   `glyphs/manifest.csv` (which box is which letter), `specimens/*.json` (the
-  surveys and labels `justify` measures printed gaps from), `log/` (`justify`
-  also reads `label.jsonl`), `construct.yaml`, `CHANGELOG.md`, `svg/arrow/`
+  surveys and labels `justify` measures printed gaps from), the decisions' logs
+  (`log/found|label|rename.jsonl`; `justify` reads `label.jsonl`; the per-build
+  stage logs are rewritten by every build and are not kept for protos), `construct.yaml`, `CHANGELOG.md`, `svg/arrow/`
   (paid, not deterministic), and at book level `book.yaml` and `readings.json`.
   Everything else — cuts, potrace traces, UFO, fonts, proofs, survey sheets —
   is rebuilt by `foundry build`, which first links any missing source leaf from

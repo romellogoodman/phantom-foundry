@@ -1,0 +1,256 @@
+name: trajan-bold-millerrichard1921
+title: Trajan Bold.
+series: Trajan Bold.
+status: proto
+version: 0.1.0
+book: printingtypespec00millrich
+source:
+  archive_id: printingtypespec00millrich
+  title: Printing type specimens, comprising a large variety of book and jobbing faces,
+    borders and ornaments
+  creator: Miller & Richard (Firm)
+  publisher: Edinburgh, London
+  date: '[1921?]'
+  ppi: 300
+  url: https://archive.org/details/printingtypespec00millrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 214
+  - 215
+leaf_pages:
+  214: 324
+  215: 325
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      214:72pt: 45.3
+      215:72pt: 35.4
+      214:60pt: 51.4
+      215:60pt: 52.6
+      214:48pt: 48.7
+      215:42pt: 57.9
+  x_height: 453
+lines:
+  214:72pt:
+    n_caps: 8
+    cap_height_px: 232.0
+    cap_source: caps
+    baseline_px: 1610.5
+    baselines:
+      '4': 1610.5
+    glyphs:
+    - P
+    - R
+    - I
+    - N
+    - T
+    - I.72pt
+    - N.72pt
+    - G
+    stem_px: 41.5
+    scale: 3.01724
+    stem_units: 125.2
+  215:72pt:
+    n_caps: 2
+    cap_height_px: 237.0
+    cap_source: caps
+    baseline_px: 1603.5
+    baselines:
+      '4': 1603.5
+    glyphs:
+    - H
+    - e
+    - a
+    - d
+    - G.72pt
+    - u
+    - a.72pt
+    - r
+    - d.72pt
+    x_height_px: 148
+    stem_px: 42.0
+    scale: 2.95359
+    stem_units: 124.1
+    x_height: 437
+  214:60pt:
+    n_caps: 10
+    cap_height_px: 190.5
+    cap_source: caps
+    baseline_px: 527.5
+    baselines:
+      '1': 527.5
+    glyphs:
+    - M
+    - E
+    - T.60pt
+    - E.60pt
+    - O
+    - R.60pt
+    - I.60pt
+    - T.60pt_2
+    - E.60pt_2
+    - S
+    stem_px: 26.5
+    scale: 3.67454
+    stem_units: 97.4
+  215:60pt:
+    n_caps: 2
+    cap_height_px: 193.0
+    cap_source: caps
+    baseline_px: 505.5
+    baselines:
+      '1': 505.5
+    glyphs:
+    - G.60pt
+    - r.60pt
+    - e.60pt
+    - a.60pt
+    - t
+    - e.60pt_2
+    - r.60pt_2
+    - B
+    - r.60pt_3
+    - i
+    - t.60pt
+    - a.60pt_2
+    - i.60pt
+    - n
+    x_height_px: 126.0
+    stem_px: 34.0
+    scale: 3.62694
+    stem_units: 123.3
+    x_height: 457
+  214:48pt:
+    n_caps: 14
+    cap_height_px: 151.0
+    cap_source: caps
+    baseline_px: 2620.0
+    baselines:
+      '6': 2620.0
+      '7': 2840.5
+    glyphs:
+    - A
+    - R.48pt
+    - C
+    - H.48pt
+    - I.48pt
+    - T.48pt
+    - E.48pt
+    - C.48pt
+    - T.48pt_2
+    - U
+    - R.48pt_2
+    - E.48pt_2
+    - M.48pt
+    - o
+    - d.48pt
+    - e.48pt
+    - r.48pt
+    - n.48pt
+    - S.48pt
+    - c
+    - u.48pt
+    - l
+    - p
+    - t.48pt
+    - u.48pt_2
+    - r.48pt_2
+    - e.48pt_2
+    x_height_px: 97
+    stem_px: 20.0
+    scale: 4.63576
+    stem_units: 92.7
+    x_height: 450
+  215:42pt:
+    n_caps: 16
+    cap_height_px: 133.0
+    cap_source: caps
+    baseline_px: 2629
+    baselines:
+      '7': 2629
+      '8': 2821
+    glyphs:
+    - D
+    - U.42pt
+    - D.42pt
+    - L
+    - E.42pt
+    - Y
+    - C.42pt
+    - O.42pt
+    - L.42pt
+    - L.42pt_2
+    - E.42pt_2
+    - G.42pt
+    - E.42pt_3
+    - T.42pt
+    - h
+    - i.42pt
+    - r.42pt
+    - d.42pt
+    - A.42pt
+    - n.42pt
+    - n.42pt_2
+    - u.42pt
+    - a.42pt
+    - l.42pt
+    - R.42pt
+    - e.42pt
+    - p.42pt
+    - o.42pt
+    - r.42pt_2
+    - t.42pt
+    x_height_px: 89.0
+    stem_px: 22.0
+    scale: 5.26316
+    stem_units: 115.8
+    x_height: 468
+specimen_lines:
+- leaf: 214
+  line: 72pt
+  text: PRINTING
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 215
+  line: 72pt
+  text: Head Guard
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 214
+  line: 60pt
+  text: METEORITES
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 215
+  line: 60pt
+  text: Greater Britain
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 214
+  line: 48pt
+  text: ARCHITECTURE
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 214
+  line: 48pt
+  text: Modern Sculpture
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 215
+  line: 42pt
+  text: DUDLEY COLLEGE
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 215
+  line: 42pt
+  text: Third Annual Report
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

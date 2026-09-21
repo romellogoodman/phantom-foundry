@@ -1,0 +1,118 @@
+name: facadk-cleveland1895
+title: Facadk
+series: Facadk
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 189
+leaf_pages:
+  189: 185
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      189:72pt: 13.9
+      189:42pt: 17.7
+  x_height: 597
+lines:
+  189:72pt:
+    n_caps: 7
+    cap_height_px: 480
+    cap_source: caps
+    baseline_px: 3377
+    baselines:
+      '5': 3377
+    glyphs:
+    - M
+    - A
+    - I
+    - D
+    - S
+    - a
+    - n
+    - d
+    - R
+    - u
+    - r
+    - a.72pt
+    - l
+    - S.72pt
+    - w
+    - a.72pt_2
+    - i
+    - n.72pt
+    x_height_px: 406
+    stem_px: 19
+    scale: 1.45833
+    stem_units: 27.7
+    x_height: 592
+  189:42pt:
+    n_caps: 8
+    cap_height_px: 277.5
+    cap_source: caps
+    baseline_px: 564.5
+    baselines:
+      '1': 564.5
+    glyphs:
+    - M.42pt
+    - O
+    - D.42pt
+    - E
+    - L
+    - C
+    - o
+    - n.42pt
+    - d.42pt
+    - e
+    - n.42pt_2
+    - s
+    - e.42pt
+    - d.42pt_2
+    - D.42pt_2
+    - e.42pt_2
+    - s.42pt
+    - i.42pt
+    - r.42pt
+    - a.42pt
+    - b
+    - l.42pt
+    - e.42pt_3
+    - L.42pt
+    - e.42pt_4
+    - t
+    - t.42pt
+    - e.42pt_5
+    - r.42pt_2
+    x_height_px: 239
+    stem_px: 16.0
+    scale: 2.52252
+    stem_units: 40.4
+    x_height: 603
+specimen_lines:
+- leaf: 189
+  line: 72pt
+  text: MAIDS and Rural Swain
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 189
+  line: 42pt
+  text: MODEL Condensed Desirable Letter
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

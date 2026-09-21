@@ -1,0 +1,215 @@
+name: light-face-romans-atf1896
+title: Light-Face Romans
+series: Lig-ht-face Romans.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 224
+  - 225
+leaf_pages:
+  224: 220
+  225: 221
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      224:48pt: 17.3
+      224:36pt: 24.1
+      224:30pt: 34.8
+      225:20pt: 56.5
+  x_height: 471
+lines:
+  224:48pt:
+    n_caps: 2
+    cap_height_px: 283.5
+    cap_source: caps
+    baseline_px: 1395.5
+    baselines:
+      '2': 1395.5
+    glyphs:
+    - M
+    - i
+    - n
+    - i.48pt
+    - n.48pt
+    - g
+    - C
+    - o
+    - period
+    x_height_px: 230.5
+    stem_px: 6.5
+    scale: 2.46914
+    stem_units: 16.0
+    x_height: 569
+  224:36pt:
+    n_caps: 9
+    cap_height_px: 203
+    cap_source: caps
+    baseline_px: 2110
+    baselines:
+      '3': 2110
+      '4': 2510.5
+    glyphs:
+    - M.36pt
+    - A
+    - T
+    - E
+    - R
+    - I
+    - A.36pt
+    - M.36pt_2
+    - e
+    - d
+    - i.36pt
+    - c
+    - a
+    - P
+    - h
+    - a.36pt
+    - r
+    - m
+    x_height_px: 136
+    stem_px: 7
+    scale: 3.44828
+    stem_units: 24.1
+    x_height: 469
+  224:30pt:
+    n_caps: 9
+    cap_height_px: 161
+    cap_source: caps
+    baseline_px: 3172
+    baselines:
+      '5': 3172
+      '6': 3518.5
+    glyphs:
+    - N
+    - I.30pt
+    - A.30pt
+    - G
+    - A.30pt_2
+    - R.30pt
+    - A.30pt_3
+    - E.30pt
+    - n.30pt
+    - c.30pt
+    - h.30pt
+    - a.30pt
+    - n.30pt_2
+    - t
+    - i.30pt
+    - n.30pt_3
+    - g.30pt
+    - S
+    - c.30pt_2
+    - e.30pt
+    - n.30pt_4
+    - e.30pt_2
+    - s
+    x_height_px: 105.0
+    stem_px: 7
+    scale: 4.34783
+    stem_units: 30.4
+    x_height: 457
+  225:20pt:
+    n_caps: 14
+    cap_height_px: 124.0
+    cap_source: caps
+    baseline_px: 819
+    baselines:
+      '1': 819
+      '2': 1037
+    glyphs:
+    - M.20pt
+    - E.20pt
+    - A.20pt
+    - N.20pt
+    - D
+    - E.20pt_2
+    - R.20pt
+    - I.20pt
+    - N.20pt_2
+    - G.20pt
+    - S.20pt
+    - A.20pt_2
+    - b
+    - o.20pt
+    - u
+    - t.20pt
+    - M.20pt_2
+    - o.20pt_2
+    - o.20pt_3
+    - r.20pt
+    - i.20pt
+    - s.20pt
+    - h.20pt
+    - P.20pt
+    - a.20pt
+    - l
+    - a.20pt_2
+    - c.20pt
+    - e.20pt
+    - s.20pt_2
+    x_height_px: 84.0
+    stem_px: 6.0
+    scale: 5.64516
+    stem_units: 33.9
+    x_height: 474
+specimen_lines:
+- leaf: 224
+  line: 48pt
+  text: Mining Co.
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 224
+  line: 36pt
+  text: MATERIA
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 224
+  line: 36pt
+  text: Medica Pharm
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 224
+  line: 30pt
+  text: NIAGARA
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 224
+  line: 30pt
+  text: Enchanting Scenes
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 225
+  line: 20pt
+  text: MEANDERINGS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 225
+  line: 20pt
+  text: About Moorish Palaces
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Lig-ht-face Romans.
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

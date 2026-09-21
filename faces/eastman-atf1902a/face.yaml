@@ -1,0 +1,261 @@
+name: eastman-atf1902a
+title: Eastman
+series: Eastman
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 366
+  - 367
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      366:72pt: 52.7
+      366:60pt: 35.1
+      366:48pt: 54.3
+      367:36pt: 25.3
+      367:30pt: 27.1
+  x_height: 484
+lines:
+  366:72pt:
+    n_caps: 6
+    cap_height_px: 345.5
+    cap_source: caps
+    baseline_px: 1006
+    baselines:
+      '1': 1006
+      '2': 1506
+    glyphs:
+    - M
+    - I
+    - N
+    - E
+    - S
+    - E.72pt
+    - n
+    - h
+    - a
+    - n.72pt
+    - c
+    - e
+    - d
+    x_height_px: 237
+    stem_px: 12.0
+    scale: 2.02605
+    stem_units: 24.3
+    x_height: 480
+  366:60pt:
+    n_caps: 7
+    cap_height_px: 279
+    cap_source: caps
+    baseline_px: 2277.5
+    baselines:
+      '3': 2277.5
+      '4': 2693
+    glyphs:
+    - D
+    - R
+    - E.60pt
+    - A
+    - M.60pt
+    - S.60pt
+    - I.60pt
+    - m
+    - a.60pt
+    - g
+    - i
+    - n.60pt
+    - a.60pt_2
+    - t
+    - i.60pt
+    - o
+    - n.60pt_2
+    x_height_px: 193.0
+    stem_px: 26
+    scale: 2.50896
+    stem_units: 65.2
+    x_height: 484
+  366:48pt:
+    n_caps: 9
+    cap_height_px: 232
+    cap_source: caps
+    baseline_px: 3389
+    baselines:
+      '5': 3389
+      '6': 3741.5
+    glyphs:
+    - F
+    - I.48pt
+    - C
+    - T
+    - I.48pt_2
+    - O
+    - N.48pt
+    - G
+    - h.48pt
+    - o.48pt
+    - s
+    - t.48pt
+    - S.48pt
+    - t.48pt_2
+    - o.48pt_2
+    - r
+    - i.48pt
+    - e.48pt
+    - s.48pt
+    x_height_px: 166.5
+    stem_px: 26
+    scale: 3.01724
+    stem_units: 78.4
+    x_height: 502
+  367:36pt:
+    n_caps: 10
+    cap_height_px: 193.5
+    cap_source: caps
+    baseline_px: 844.5
+    baselines:
+      '1': 844.5
+      '2': 1110.0
+    glyphs:
+    - A.36pt
+    - T.36pt
+    - H
+    - L
+    - E.36pt
+    - T.36pt_2
+    - I.36pt
+    - C.36pt
+    - O.36pt
+    - l
+    - y
+    - m.36pt
+    - p
+    - i.36pt
+    - a.36pt
+    - n.36pt
+    - G.36pt
+    - a.36pt_2
+    - m.36pt_2
+    - e.36pt
+    - s.36pt
+    x_height_px: 134
+    stem_px: 31.5
+    scale: 3.61757
+    stem_units: 114.0
+    x_height: 485
+  367:30pt:
+    n_caps: 12
+    cap_height_px: 142.0
+    cap_source: caps
+    baseline_px: 1509.0
+    baselines:
+      '3': 1509.0
+      '4': 1728.5
+    glyphs:
+    - G.30pt
+    - Y
+    - M.30pt
+    - N.30pt
+    - A.30pt
+    - S.30pt
+    - T.30pt
+    - I.30pt
+    - C.30pt
+    - S.30pt_2
+    - I.30pt_2
+    - n.30pt
+    - t.30pt
+    - e.30pt
+    - r.30pt
+    - e.30pt_2
+    - s.30pt
+    - t.30pt_2
+    - i.30pt
+    - n.30pt_2
+    - g.30pt
+    - T.30pt_2
+    - o.30pt
+    - u
+    - r.30pt_2
+    - n.30pt_3
+    - a.30pt
+    - m.30pt
+    - e.30pt_3
+    - n.30pt_4
+    - t.30pt_3
+    x_height_px: 97
+    stem_px: 11.0
+    scale: 4.92958
+    stem_units: 54.2
+    x_height: 478
+specimen_lines:
+- leaf: 366
+  line: 72pt
+  text: MINES
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 366
+  line: 72pt
+  text: Enhanced
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 366
+  line: 60pt
+  text: DREAMS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 366
+  line: 60pt
+  text: Imagination
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 366
+  line: 48pt
+  text: FICTION
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 366
+  line: 48pt
+  text: Ghost Stories
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 367
+  line: 36pt
+  text: ATHLETIC
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 367
+  line: 36pt
+  text: Olympian Games
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 367
+  line: 30pt
+  text: GYMNASTICS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 367
+  line: 30pt
+  text: Interesting Tournament
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

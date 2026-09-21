@@ -1,0 +1,63 @@
+name: goth-atf1898
+title: Goth
+series: Goth
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 334
+leaf_pages:
+  334: 29
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      334:24pt: 140.5
+lines:
+  334:24pt:
+    n_caps: 8
+    cap_height_px: 139.5
+    cap_source: caps
+    baseline_px: 740.5
+    baselines:
+      '2': 740.5
+    glyphs:
+    - one
+    - four
+    - P
+    - O
+    - E
+    - T
+    - C
+    - G
+    - R
+    - L
+    figure_height_px: 136.0
+    stem_px: 9.0
+    scale: 5.01792
+    stem_units: 45.2
+    figure_height: 682
+specimen_lines:
+- leaf: 334
+  line: 24pt
+  text: 14 POET C G RL
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,171 @@
+name: runic-condensed-atf1898
+title: Runic Condensed
+series: Runic Condensed
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 340
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      340:60pt: 63.9
+      340:48pt: 41.9
+      340:42pt: 45.2
+  x_height: 476
+lines:
+  340:60pt:
+    n_caps: 8
+    cap_height_px: 339.5
+    cap_source: caps
+    baseline_px: 1052
+    baselines:
+      '2': 1052
+      '3': 1520
+    glyphs:
+    - H
+    - a
+    - r
+    - l
+    - e
+    - m
+    - four
+    - S
+    - O
+    - L
+    - D
+    - I
+    - E
+    - R
+    x_height_px: 231
+    figure_height_px: 343
+    stem_px: 30.5
+    scale: 2.06186
+    stem_units: 62.9
+    x_height: 476
+    figure_height: 707
+  340:48pt:
+    n_caps: 10
+    cap_height_px: 267.0
+    cap_source: caps
+    baseline_px: 2138.0
+    baselines:
+      '4': 2138.0
+      '5': 2525.0
+    glyphs:
+    - S.48pt
+    - o
+    - l.48pt
+    - a.48pt
+    - r.48pt
+    - seven
+    - K
+    - i
+    - t
+    - e.48pt
+    - s
+    - B
+    - O.48pt
+    - L.48pt
+    - D.48pt
+    - T
+    - U
+    - R.48pt
+    - N
+    x_height_px: 181.5
+    figure_height_px: 267
+    stem_px: 22.0
+    scale: 2.62172
+    stem_units: 57.7
+    x_height: 476
+    figure_height: 700
+  340:42pt:
+    n_caps: 13
+    cap_height_px: 209
+    cap_source: caps
+    baseline_px: 3087.0
+    baselines:
+      '6': 3087.0
+      '7': 3425
+    glyphs:
+    - C
+    - a.42pt
+    - n
+    - o.42pt
+    - e.42pt
+    - R.42pt
+    - a.42pt_2
+    - c
+    - i.42pt
+    - n.42pt
+    - g
+    - five
+    - L.42pt
+    - I.42pt
+    - G
+    - H.42pt
+    - T.42pt
+    - E.42pt
+    - N.42pt
+    - G.42pt
+    - I.42pt_2
+    - N.42pt_2
+    - E.42pt_2
+    x_height_px: 152
+    figure_height_px: 211
+    stem_px: 14
+    scale: 3.34928
+    stem_units: 46.9
+    x_height: 509
+    figure_height: 707
+specimen_lines:
+- leaf: 340
+  line: 60pt
+  text: Harlem 4
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 340
+  line: 60pt
+  text: SOLDIER
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 340
+  line: 48pt
+  text: Solar 7 Kites
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 340
+  line: 48pt
+  text: BOLD TURN
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 340
+  line: 42pt
+  text: Canoe Racing 5
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 340
+  line: 42pt
+  text: LIGHT ENGINE
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

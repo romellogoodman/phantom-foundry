@@ -1,0 +1,96 @@
+name: epitaph-open-atf1898
+title: Epitaph Open
+series: Epitaph Open
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 381
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      381:28pt: 89.8
+lines:
+  381:28pt:
+    n_caps: 26
+    cap_height_px: 152.0
+    cap_source: caps
+    baseline_px: 2458
+    baselines:
+      '5': 2458
+      '6': 2800
+      '7': 3123.5
+    glyphs:
+    - H
+    - A
+    - N
+    - O
+    - V
+    - E
+    - R
+    - two
+    - four
+    - three
+    - two.28pt
+    - A.28pt
+    - M
+    - E.28pt
+    - R.28pt
+    - I
+    - C
+    - A.28pt_2
+    - N.28pt
+    - S
+    - G
+    - O.28pt
+    - V.28pt
+    - E.28pt_2
+    - R.28pt_2
+    - N.28pt_2
+    - M.28pt
+    - E.28pt_3
+    - N.28pt_3
+    - T
+    - nine
+    - five
+    figure_height_px: 141.5
+    stem_px: 3.0
+    scale: 4.60526
+    stem_units: 13.8
+    figure_height: 652
+specimen_lines:
+- leaf: 381
+  line: 28pt
+  text: HANOVER 24
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 381
+  line: 28pt
+  text: 32 AMERICANS
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 381
+  line: 28pt
+  text: GOVERNMENT 95
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

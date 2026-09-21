@@ -1,0 +1,113 @@
+name: inoo-v-atf1898
+title: Inoo'v
+series: Inoo'v
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 210
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      210:36pt: 24.2
+      210:30pt: 48.3
+lines:
+  210:36pt:
+    n_caps: 24
+    cap_height_px: 188.0
+    cap_source: caps
+    baseline_px: 1463.0
+    baselines:
+      '4': 1463.0
+    glyphs:
+    - G
+    - R
+    - A
+    - N
+    - D
+    - H
+    - I
+    - G.36pt
+    - H.36pt
+    - E
+    - R.36pt
+    - I.36pt
+    - M
+    - P
+    - O
+    - R.36pt_2
+    - T
+    - S
+    - L
+    - E.36pt
+    - V
+    - I.36pt_2
+    - E.36pt_2
+    - D.36pt
+    stem_px: 7.0
+    scale: 3.7234
+    stem_units: 26.1
+  210:30pt:
+    n_caps: 22
+    cap_height_px: 145.0
+    cap_source: caps
+    baseline_px: 2028.0
+    baselines:
+      '6': 2028.0
+    glyphs:
+    - C
+    - H.30pt
+    - E.30pt
+    - C.30pt
+    - K
+    - E.30pt_2
+    - R.30pt
+    - P.30pt
+    - L.30pt
+    - A.30pt
+    - Y
+    - E.30pt_3
+    - R.30pt_2
+    - S.30pt
+    - C.30pt_2
+    - O.30pt
+    - M.30pt
+    - B
+    - I.30pt
+    - N.30pt
+    - E.30pt_4
+    - D.30pt
+    stem_px: 6.0
+    scale: 4.82759
+    stem_units: 29.0
+specimen_lines:
+- leaf: 210
+  line: 36pt
+  text: GRAND HIGHER IMPORTS LEVIED
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 210
+  line: 30pt
+  text: CHECKER PLAYERS COMBINED
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

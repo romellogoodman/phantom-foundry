@@ -1,0 +1,53 @@
+{
+  "face": "yierorm-irauie-atf1897",
+  "labeled": [
+    {
+      "leaf": 484,
+      "band": 7,
+      "line": "18pt",
+      "text": "BL UE MO UNTAI",
+      "by": "deepseek-v4.1-flash+qwen3.7-flash",
+      "added": 11,
+      "kept": 0
+    },
+    {
+      "leaf": 484,
+      "band": 8,
+      "line": "18pt",
+      "text": "HIGH POINT",
+      "by": "deepseek-v4.1-flash+qwen3.7-flash+ocr",
+      "added": 9,
+      "kept": 0
+    }
+  ],
+  "already": [],
+  "skipped": [
+    {
+      "leaf": 484,
+      "band": 3,
+      "why": "no reading",
+      "ocr": null,
+      "n": 8
+    },
+    {
+      "leaf": 484,
+      "band": 4,
+      "why": "no reading",
+      "ocr": null,
+      "n": 3
+    },
+    {
+      "leaf": 484,
+      "band": 6,
+      "why": "reading has 8 characters, band has 7 boxes",
+      "text": "CHA R MING"
+    },
+    {
+      "leaf": 484,
+      "band": 5,
+      "why": "no reading",
+      "ocr": "FRENCH MAID",
+      "n": 8
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+name: satanick-open-atf1898
+title: Satanick Open
+series: Muw Satanick. Open
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 396
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      396:72pt: 12.7
+      396:60pt: 17.7
+      396:54pt: 12.2
+  x_height: 477
+lines:
+  396:72pt:
+    n_caps: 2
+    cap_height_px: 385.0
+    cap_source: caps
+    baseline_px: 1135
+    baselines:
+      '2': 1135
+      '3': 1651
+    glyphs:
+    - eight
+    - S
+    - o
+    - u
+    - t
+    - h
+    - A
+    - i
+    - c
+    - a
+    - n
+    x_height_px: 261.0
+    figure_height_px: 370
+    stem_px: 10.5
+    scale: 1.81818
+    stem_units: 19.1
+    x_height: 475
+    figure_height: 673
+  396:60pt:
+    n_caps: 2
+    cap_height_px: 316.5
+    cap_source: caps
+    baseline_px: 2294
+    baselines:
+      '4': 2294
+      '5': 2728
+    glyphs:
+    - D
+    - a.60pt
+    - u.60pt
+    - g
+    - h.60pt
+    - t.60pt
+    - e
+    - r
+    - S.60pt
+    - t.60pt_2
+    - o.60pt
+    - r.60pt
+    - m
+    - s
+    - three
+    x_height_px: 217.0
+    figure_height_px: 218
+    stem_px: 10.5
+    scale: 2.21169
+    stem_units: 23.2
+    x_height: 480
+    figure_height: 482
+  396:54pt:
+    n_caps: 1
+    cap_height_px: 287
+    cap_source: caps
+    baseline_px: 3365
+    baselines:
+      '6': 3365
+    glyphs:
+    - six
+    - D.54pt
+    - i.54pt
+    - s.54pt
+    - a.54pt
+    - r.54pt
+    - m.54pt
+    - s.54pt_2
+    x_height_px: 195.5
+    figure_height_px: 278
+    stem_px: 10
+    scale: 2.43902
+    stem_units: 24.4
+    x_height: 477
+    figure_height: 678
+specimen_lines:
+- leaf: 396
+  line: 72pt
+  text: 8 South
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 396
+  line: 72pt
+  text: A[fr]ican
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 396
+  line: 60pt
+  text: Daughter
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 396
+  line: 60pt
+  text: Storms 3
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 396
+  line: 54pt
+  text: 6 Disarms
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Muw Satanick. Open
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

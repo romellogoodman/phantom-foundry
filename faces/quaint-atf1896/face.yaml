@@ -1,0 +1,147 @@
+name: quaint-atf1896
+title: Quaint.
+series: Quaint.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 464
+leaf_pages:
+  464: 460
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      464:54pt: 38.2
+      464:48pt: 31.5
+      464:36pt: 49.6
+      464:18pt: 42.1
+lines:
+  464:54pt:
+    n_caps: 4
+    cap_height_px: 384.5
+    cap_source: caps
+    baseline_px: 3552.0
+    baselines:
+      '5': 3552.0
+    glyphs:
+    - H
+    - H.54pt
+    - H.54pt_2
+    - H.54pt_3
+    stem_px: 42.5
+    scale: 1.82055
+    stem_units: 77.4
+  464:48pt:
+    n_caps: 6
+    cap_height_px: 377.5
+    cap_source: caps
+    baseline_px: 1018.0
+    baselines:
+      '1': 1018.0
+    glyphs:
+    - R
+    - E
+    - D
+    - two
+    - M
+    - A
+    - N
+    figure_height_px: 356
+    stem_px: 48.5
+    scale: 1.8543
+    stem_units: 89.9
+    figure_height: 660
+  464:36pt:
+    n_caps: 8
+    cap_height_px: 268.0
+    cap_source: caps
+    baseline_px: 1483.0
+    baselines:
+      '2': 1483.0
+    glyphs:
+    - H.36pt
+    - A.36pt
+    - N.36pt
+    - D.36pt
+    - five
+    - four
+    - B
+    - I
+    - T
+    - E.36pt
+    figure_height_px: 257.0
+    stem_px: 36.0
+    scale: 2.61194
+    stem_units: 94.0
+    figure_height: 671
+  464:18pt:
+    n_caps: 15
+    cap_height_px: 133
+    cap_source: caps
+    baseline_px: 2196
+    baselines:
+      '4': 2196
+    glyphs:
+    - B.18pt
+    - A.18pt
+    - M.18pt
+    - B.18pt_2
+    - E.18pt
+    - R.18pt
+    - G
+    - six
+    - one
+    - P
+    - R.18pt_2
+    - I.18pt
+    - N.18pt
+    - T.18pt
+    - E.18pt_2
+    - R.18pt_3
+    - S
+    figure_height_px: 122.0
+    stem_px: 24
+    scale: 5.26316
+    stem_units: 126.3
+    figure_height: 642
+specimen_lines:
+- leaf: 464
+  line: 54pt
+  text: HHHH
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 464
+  line: 48pt
+  text: RED 2 MAN
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 464
+  line: 36pt
+  text: HAND 54 BITE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 464
+  line: 18pt
+  text: BAMBERG 6 1 PRINTERS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

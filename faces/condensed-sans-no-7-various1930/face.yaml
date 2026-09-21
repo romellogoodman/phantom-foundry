@@ -1,0 +1,196 @@
+name: condensed-sans-no-7-various1930
+title: Condensed Sans No. 7
+series: Condensed Sans No. 7
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 168
+leaf_pages:
+  168: 156
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      168:84pt: 29.7
+      168:72pt: 46.1
+      168:54pt: 50.3
+      168:42pt: 51.6
+  x_height: 509
+lines:
+  168:84pt:
+    n_caps: 3
+    cap_height_px: 330
+    cap_source: caps
+    baseline_px: 798
+    baselines:
+      '1': 798
+    glyphs:
+    - B
+    - e
+    - s
+    - t
+    - D
+    - e.84pt
+    - r
+    - b
+    - y
+    - C
+    - o
+    - a
+    - l
+    - s.84pt
+    x_height_px: 243
+    stem_px: 44
+    scale: 2.12121
+    stem_units: 93.3
+    x_height: 515
+  168:72pt:
+    n_caps: 2
+    cap_height_px: 281.0
+    cap_source: caps
+    baseline_px: 1270.0
+    baselines:
+      '2': 1270.0
+    glyphs:
+    - C.72pt
+    - u
+    - m
+    - b.72pt
+    - e.72pt
+    - r.72pt
+    - l.72pt
+    - a.72pt
+    - n
+    - d
+    - C.72pt_2
+    - o.72pt
+    - l.72pt_2
+    - l.72pt_3
+    - i
+    - e.72pt_2
+    - r.72pt_2
+    - y.72pt
+    x_height_px: 203.5
+    stem_px: 34.0
+    scale: 2.4911
+    stem_units: 84.7
+    x_height: 507
+  168:54pt:
+    n_caps: 5
+    cap_height_px: 167
+    cap_source: caps
+    baseline_px: 2055
+    baselines:
+      '4': 2055
+    glyphs:
+    - O
+    - r.54pt
+    - d.54pt
+    - e.54pt
+    - r.54pt_2
+    - N
+    - o.54pt
+    - w
+    - a.54pt
+    - t.54pt
+    - L
+    - o.54pt_2
+    - w.54pt
+    - S
+    - u.54pt
+    - m.54pt
+    - m.54pt_2
+    - e.54pt_2
+    - r.54pt_3
+    - P
+    - r.54pt_4
+    - i.54pt
+    - c
+    - e.54pt_3
+    - s.54pt
+    x_height_px: 119.0
+    stem_px: 20
+    scale: 4.19162
+    stem_units: 83.8
+    x_height: 499
+  168:42pt:
+    n_caps: 5
+    cap_height_px: 122
+    cap_source: caps
+    baseline_px: 2370
+    baselines:
+      '5': 2370
+    glyphs:
+    - G
+    - r.42pt
+    - e.42pt
+    - a.42pt
+    - t.42pt
+    - D.42pt
+    - e.42pt_2
+    - m.42pt
+    - a.42pt_2
+    - n.42pt
+    - d.42pt
+    - M
+    - e.42pt_3
+    - t.42pt_2
+    - b.42pt
+    - y.42pt
+    - E
+    - n.42pt_2
+    - o.42pt
+    - r.42pt_2
+    - m.42pt_2
+    - o.42pt_2
+    - u.42pt
+    - s.42pt
+    - O.42pt
+    - u.42pt_2
+    - t.42pt_3
+    - p
+    - u.42pt_3
+    - t.42pt_4
+    x_height_px: 89
+    stem_px: 16
+    scale: 5.7377
+    stem_units: 91.8
+    x_height: 511
+specimen_lines:
+- leaf: 168
+  line: 84pt
+  text: Best Derby Coals
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 168
+  line: 72pt
+  text: Cumberland Colliery
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 168
+  line: 54pt
+  text: Order Now at Low Summer Prices
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 168
+  line: 42pt
+  text: Great Demand Met by Enormous Output
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

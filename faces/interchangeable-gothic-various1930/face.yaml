@@ -1,0 +1,131 @@
+name: interchangeable-gothic-various1930
+title: Interchangeable Gothic
+series: Interchangeable Gothic
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 175
+leaf_pages:
+  175: 163
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      175:36pt: 126.0
+      175:30pt: 82.4
+      175:24pt: 162.9
+lines:
+  175:36pt:
+    n_caps: 17
+    cap_height_px: 175
+    cap_source: caps
+    baseline_px: 643.5
+    baselines:
+      '1': 643.5
+      '2': 852
+    glyphs:
+    - H
+    - I
+    - S
+    - S.36pt
+    - E
+    - R
+    - I.36pt
+    - O
+    - U
+    - S.36pt_2
+    - I.36pt_2
+    - L
+    - L.36pt
+    - N
+    - E.36pt
+    - S.36pt_3
+    - S.36pt_4
+    stem_px: 32
+    scale: 4.0
+    stem_units: 128.0
+  175:30pt:
+    n_caps: 11
+    cap_height_px: 153
+    cap_source: caps
+    baseline_px: 1142
+    baselines:
+      '3': 1142
+    glyphs:
+    - T
+    - H.30pt
+    - E.30pt
+    - B
+    - U.30pt
+    - L.30pt
+    - L.30pt_2
+    - E.30pt_2
+    - T.30pt
+    - I.30pt
+    - N.30pt
+    stem_px: 26
+    scale: 4.57516
+    stem_units: 119.0
+  175:24pt:
+    n_caps: 14
+    cap_height_px: 116.0
+    cap_source: caps
+    baseline_px: 1387.5
+    baselines:
+      '4': 1387.5
+    glyphs:
+    - A
+    - Q
+    - U.24pt
+    - I.24pt
+    - C
+    - K
+    - R.24pt
+    - E.24pt
+    - C.24pt
+    - O.24pt
+    - V
+    - E.24pt_2
+    - R.24pt_2
+    - Y
+    stem_px: 20.0
+    scale: 6.03448
+    stem_units: 120.7
+specimen_lines:
+- leaf: 175
+  line: 36pt
+  text: HIS SERIOUS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 175
+  line: 36pt
+  text: I LLN ESS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 175
+  line: 30pt
+  text: THE BULLETIN
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 175
+  line: 24pt
+  text: AQUICK RECOVERY
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

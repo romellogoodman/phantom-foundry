@@ -1,0 +1,155 @@
+name: quaint-roman-atf1896
+title: Quaint Roman.
+series: Quaint Roman.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 482
+leaf_pages:
+  482: 478
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      482:48pt: 88.3
+      482:36pt: 69.1
+      482:24pt: 66.2
+      482:18pt: 82.4
+lines:
+  482:48pt:
+    n_caps: 5
+    cap_height_px: 321
+    cap_source: caps
+    baseline_px: 976
+    baselines:
+      '1': 976
+    glyphs:
+    - H
+    - O
+    - N
+    - E
+    - Y
+    stem_px: 42
+    scale: 2.18069
+    stem_units: 91.6
+  482:36pt:
+    n_caps: 7
+    cap_height_px: 233
+    cap_source: caps
+    baseline_px: 1474
+    baselines:
+      '2': 1474
+    glyphs:
+    - R
+    - I
+    - N.36pt
+    - G
+    - O.36pt
+    - N.36pt_2
+    - E.36pt
+    stem_px: 39
+    scale: 3.00429
+    stem_units: 117.2
+  482:24pt:
+    n_caps: 8
+    cap_height_px: 158.5
+    cap_source: caps
+    baseline_px: 2152.5
+    baselines:
+      '4': 2152.5
+    glyphs:
+    - D
+    - O.24pt
+    - C
+    - U
+    - M
+    - E.24pt
+    - N.24pt
+    - T
+    stem_px: 22.0
+    scale: 4.4164
+    stem_units: 97.2
+  482:18pt:
+    n_caps: 26
+    cap_height_px: 119.0
+    cap_source: caps
+    baseline_px: 2518.5
+    baselines:
+      '5': 2518.5
+      '6': 2716.5
+    glyphs:
+    - I.18pt
+    - M.18pt
+    - P
+    - R.18pt
+    - O.18pt
+    - V
+    - E.18pt
+    - D.18pt
+    - G.18pt
+    - R.18pt_2
+    - O.18pt_2
+    - U.18pt
+    - N.18pt
+    - D.18pt_2
+    - B
+    - U.18pt_2
+    - L
+    - L.18pt
+    - F
+    - I.18pt_2
+    - G.18pt_2
+    - H.18pt
+    - T.18pt
+    - I.18pt_3
+    - N.18pt_2
+    - G.18pt_3
+    stem_px: 18.0
+    scale: 5.88235
+    stem_units: 105.9
+specimen_lines:
+- leaf: 482
+  line: 48pt
+  text: HONEY
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 482
+  line: 36pt
+  text: RING ONE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 482
+  line: 24pt
+  text: DOCUMENT
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 482
+  line: 18pt
+  text: IMPROVED GROUND
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 482
+  line: 18pt
+  text: BULL FIGHTING
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

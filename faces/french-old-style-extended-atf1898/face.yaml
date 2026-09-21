@@ -1,0 +1,145 @@
+name: french-old-style-extended-atf1898
+title: French Old Style Extended
+series: French Old Style Extended
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 188
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      188:72pt: 73.0
+      188:60pt: 68.0
+      188:48pt: 103.3
+  x_height: 610
+lines:
+  188:72pt:
+    n_caps: 5
+    cap_height_px: 355
+    cap_source: caps
+    baseline_px: 936.5
+    baselines:
+      '2': 936.5
+      '3': 1435
+    glyphs:
+    - N
+    - E
+    - S
+    - T
+    - H
+    - a
+    - d
+    - three
+    x_height_px: 309.5
+    figure_height_px: 369
+    stem_px: 28
+    scale: 1.97183
+    stem_units: 55.2
+    x_height: 610
+    figure_height: 728
+  188:60pt:
+    n_caps: 6
+    cap_height_px: 298.5
+    cap_source: caps
+    baseline_px: 2063
+    baselines:
+      '4': 2063
+      '5': 2479
+    glyphs:
+    - D
+    - I
+    - M
+    - E.60pt
+    - S.60pt
+    - B
+    - a.60pt
+    - n
+    - d.60pt
+    - four
+    x_height_px: 269
+    figure_height_px: 301
+    stem_px: 30.5
+    scale: 2.34506
+    stem_units: 71.5
+    x_height: 631
+    figure_height: 706
+  188:48pt:
+    n_caps: 7
+    cap_height_px: 244
+    cap_source: caps
+    baseline_px: 3040
+    baselines:
+      '6': 3040
+      '7': 3391.5
+    glyphs:
+    - H.48pt
+    - o
+    - m
+    - e
+    - s
+    - four.48pt
+    - B.48pt
+    - R
+    - A
+    - I.48pt
+    - N.48pt
+    - S.48pt
+    x_height_px: 169.0
+    figure_height_px: 237
+    stem_px: 28
+    scale: 2.86885
+    stem_units: 80.3
+    x_height: 485
+    figure_height: 680
+specimen_lines:
+- leaf: 188
+  line: 72pt
+  text: NEST
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 188
+  line: 72pt
+  text: Had 3
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 188
+  line: 60pt
+  text: DIMES
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 188
+  line: 60pt
+  text: Band 4
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 188
+  line: 48pt
+  text: Homes 4
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 188
+  line: 48pt
+  text: BRAINS
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,291 @@
+name: century-expanded-atf1906
+title: Century Expanded
+series: Century Expanded
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 38
+  - 264
+  - 265
+leaf_pages:
+  38: 4
+  264: 218
+  265: 219
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      264:72pt: 24.3
+      264:60pt: 32.1
+      264:48pt: 37.4
+      264:42pt: 43.5
+      265:36pt: 41.4
+      265:30pt: 53.6
+  x_height: 475
+lines:
+  264:72pt:
+    n_caps: 7
+    cap_height_px: 317
+    cap_source: caps
+    baseline_px: 754
+    baselines:
+      '1': 754
+      '2': 1199.0
+    glyphs:
+    - M
+    - E
+    - R
+    - G
+    - E.72pt
+    - S
+    - o
+    - d
+    - a
+    - B
+    - a.72pt
+    - k
+    - e
+    x_height_px: 214.5
+    stem_px: 18
+    scale: 2.2082
+    stem_units: 39.7
+    x_height: 474
+  264:60pt:
+    n_caps: 8
+    cap_height_px: 261.5
+    cap_source: caps
+    baseline_px: 1765.0
+    baselines:
+      '3': 1765.0
+      '4': 2142.5
+    glyphs:
+    - R.60pt
+    - E.60pt
+    - N
+    - T
+    - E.60pt_2
+    - D
+    - H
+    - o.60pt
+    - d.60pt
+    - F
+    - r
+    - i
+    - e.60pt
+    - n
+    - d.60pt_2
+    - s
+    x_height_px: 178.0
+    stem_px: 15.5
+    scale: 2.67686
+    stem_units: 41.5
+    x_height: 476
+  264:48pt:
+    n_caps: 10
+    cap_height_px: 206.0
+    cap_source: caps
+    baseline_px: 2622.5
+    baselines:
+      '5': 2622.5
+      '6': 2923.5
+    glyphs:
+    - B.48pt
+    - E.48pt
+    - S.48pt
+    - T.48pt
+    - C
+    - L
+    - U
+    - B.48pt_2
+    - M.48pt
+    - e.48pt
+    - m
+    - b
+    - e.48pt_2
+    - r.48pt
+    - U.48pt
+    - n.48pt
+    - i.48pt
+    - t
+    - e.48pt_3
+    - d.48pt
+    x_height_px: 140.0
+    stem_px: 11.0
+    scale: 3.39806
+    stem_units: 37.4
+    x_height: 476
+  264:42pt:
+    n_caps: 11
+    cap_height_px: 177
+    cap_source: caps
+    baseline_px: 3382
+    baselines:
+      '7': 3382
+      '8': 3664.0
+    glyphs:
+    - L.42pt
+    - I
+    - N.42pt
+    - K
+    - E.42pt
+    - D.42pt
+    - B.42pt
+    - E.42pt_2
+    - T.42pt
+    - M.42pt
+    - a.42pt
+    - k.42pt
+    - i.42pt
+    - n.42pt
+    - g
+    - Q
+    - u
+    - e.42pt
+    - s.42pt
+    - t.42pt
+    - i.42pt_2
+    - o.42pt
+    - n.42pt_2
+    - s.42pt_2
+    x_height_px: 120
+    stem_px: 11
+    scale: 3.9548
+    stem_units: 43.5
+    x_height: 475
+  265:36pt:
+    n_caps: 11
+    cap_height_px: 152
+    cap_source: caps
+    baseline_px: 593
+    baselines:
+      '1': 593
+      '2': 791.5
+    glyphs:
+    - M.36pt
+    - O
+    - D.36pt
+    - E.36pt
+    - R.36pt
+    - N.36pt
+    - G.36pt
+    - U.36pt
+    - N.36pt_2
+    - N.36pt_3
+    - e.36pt
+    - a.36pt
+    - t.36pt
+    - A
+    - d.36pt
+    - v
+    - e.36pt_2
+    - r.36pt
+    - t.36pt_2
+    - i.36pt
+    - s.36pt
+    - e.36pt_3
+    - m.36pt
+    - e.36pt_4
+    - n.36pt
+    - t.36pt_3
+    x_height_px: 103
+    stem_px: 8
+    scale: 4.60526
+    stem_units: 36.8
+    x_height: 474
+  265:30pt:
+    n_caps: 12
+    cap_height_px: 124.0
+    cap_source: caps
+    baseline_px: 1061.5
+    baselines:
+      '3': 1061.5
+    glyphs:
+    - H.30pt
+    - O.30pt
+    - N.30pt
+    - E.30pt
+    - S.30pt
+    - T.30pt
+    - S.30pt_2
+    - I.30pt
+    - N.30pt_2
+    - G.30pt
+    - E.30pt_2
+    - R.30pt
+    stem_px: 8.0
+    scale: 5.64516
+    stem_units: 45.2
+specimen_lines:
+- leaf: 264
+  line: 72pt
+  text: MERGE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 264
+  line: 72pt
+  text: Soda Bake
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 264
+  line: 60pt
+  text: RENTED
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 264
+  line: 60pt
+  text: Hod Friends
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 264
+  line: 48pt
+  text: BEST CLUB
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 264
+  line: 48pt
+  text: Member United
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 264
+  line: 42pt
+  text: LINKED BET
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 264
+  line: 42pt
+  text: Making Questions
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 265
+  line: 36pt
+  text: MODERN GUN
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 265
+  line: 36pt
+  text: Neat Advertisement
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 265
+  line: 30pt
+  text: HONEST SINGER
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

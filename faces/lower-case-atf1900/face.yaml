@@ -1,0 +1,109 @@
+name: lower-case-atf1900
+title: Lower Case
+series: Lower Case
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 450
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      450:60pt: 45.3
+      450:48pt: 33.2
+  x_height: 524
+lines:
+  450:60pt:
+    n_caps: 8
+    cap_height_px: 355.5
+    cap_source: caps
+    baseline_px: 1064
+    baselines:
+      '3': 1064
+      '4': 1605
+    glyphs:
+    - H
+    - U
+    - N
+    - D
+    - R
+    - E
+    - D.60pt
+    - M
+    - e
+    - x
+    - i
+    - c
+    - a
+    - n
+    - four
+    - six
+    x_height_px: 275.0
+    figure_height_px: 351.5
+    stem_px: 26.0
+    scale: 1.96906
+    stem_units: 51.2
+    x_height: 541
+    figure_height: 692
+  450:48pt:
+    n_caps: 2
+    cap_height_px: 358.5
+    cap_source: caps
+    baseline_px: 2935.5
+    baselines:
+      '6': 2935.5
+    glyphs:
+    - B
+    - o
+    - l
+    - d
+    - two
+    - eight
+    - A
+    - c.48pt
+    - t
+    - i.48pt
+    - o.48pt
+    - n.48pt
+    x_height_px: 260.0
+    figure_height_px: 263.5
+    stem_px: 13.5
+    scale: 1.95258
+    stem_units: 26.4
+    x_height: 508
+    figure_height: 515
+specimen_lines:
+- leaf: 450
+  line: 60pt
+  text: HUNDRED
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 450
+  line: 60pt
+  text: Mexican 46
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 450
+  line: 48pt
+  text: Bold 2 8 Action
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

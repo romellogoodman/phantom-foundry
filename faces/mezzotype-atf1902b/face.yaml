@@ -1,0 +1,63 @@
+name: mezzotype-atf1902b
+title: Mezzotype
+series: Mezzotype
+status: proto
+version: 0.1.0
+book: deskbookoftypesp02amer
+source:
+  archive_id: deskbookoftypesp02amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    2, 11-22)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp02amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 88
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      88:24pt: 126.3
+lines:
+  88:24pt:
+    n_caps: 0
+    cap_height_px: 127.5
+    cap_source: ascenders
+    baseline_px: 3690
+    baselines:
+      '7': 3690
+    glyphs:
+    - one
+    - two
+    - three
+    - four
+    - five
+    - six
+    - one.24pt
+    - two.24pt
+    - three.24pt
+    - four.24pt
+    - five.24pt
+    - six.24pt
+    - seven
+    figure_height_px: 98
+    scale: 5.4902
+    figure_height: 538
+specimen_lines:
+- leaf: 88
+  line: 24pt
+  text: 123456 1234567
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

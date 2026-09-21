@@ -1,0 +1,101 @@
+name: extra-condensed-atf1898
+title: Extra Condensed
+series: Extra Condensed
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 208
+  - 209
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      208:120pt: 16.4
+      208:84pt: 13.8
+  x_height: 473
+lines:
+  208:120pt:
+    n_caps: 5
+    cap_height_px: 641
+    cap_source: caps
+    baseline_px: 1305
+    baselines:
+      '2': 1305
+    glyphs:
+    - H
+    - A
+    - R
+    - D
+    - T
+    - i
+    - m
+    - e
+    - seven
+    x_height_px: 432
+    figure_height_px: 649
+    stem_px: 18
+    scale: 1.09204
+    stem_units: 19.7
+    x_height: 472
+    figure_height: 709
+  208:84pt:
+    n_caps: 6
+    cap_height_px: 405.0
+    cap_source: caps
+    baseline_px: 2765.0
+    baselines:
+      '4': 2765.0
+    glyphs:
+    - nine
+    - F
+    - O
+    - R.84pt
+    - M
+    - S
+    - o
+    - f
+    - R.84pt_2
+    - e.84pt
+    - a
+    - s
+    - o.84pt
+    - n
+    - s.84pt
+    x_height_px: 275.0
+    figure_height_px: 405
+    stem_px: 8.0
+    scale: 1.7284
+    stem_units: 13.8
+    x_height: 475
+    figure_height: 700
+specimen_lines:
+- leaf: 208
+  line: 120pt
+  text: HARD Time 7
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 208
+  line: 84pt
+  text: 9 FORMS of Reasons
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

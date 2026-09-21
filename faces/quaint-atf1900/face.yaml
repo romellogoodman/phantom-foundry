@@ -1,0 +1,125 @@
+name: quaint-atf1900
+title: Quaint
+series: Quaint
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 429
+leaf_pages:
+  429: 468
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      429:24pt: 55.5
+      429:18pt: 60.9
+lines:
+  429:24pt:
+    n_caps: 17
+    cap_height_px: 164
+    cap_source: caps
+    baseline_px: 2083
+    baselines:
+      '3': 2083
+    glyphs:
+    - T
+    - H
+    - I
+    - R
+    - D
+    - N
+    - A
+    - T.24pt
+    - I.24pt
+    - O
+    - N.24pt
+    - A.24pt
+    - L
+    - B
+    - A.24pt_2
+    - N.24pt_2
+    - K
+    stem_px: 24
+    scale: 4.26829
+    stem_units: 102.4
+  429:18pt:
+    n_caps: 35
+    cap_height_px: 115
+    cap_source: caps
+    baseline_px: 2520.0
+    baselines:
+      '4': 2520.0
+      '5': 2710
+    glyphs:
+    - S
+    - T.18pt
+    - R.18pt
+    - O.18pt
+    - N.18pt
+    - G
+    - H.18pt
+    - E
+    - A.18pt
+    - R.18pt_2
+    - T.18pt_2
+    - Y
+    - H.18pt_2
+    - I.18pt
+    - S.18pt
+    - T.18pt_3
+    - O.18pt_2
+    - R.18pt_3
+    - I.18pt_2
+    - C
+    - C.18pt
+    - H.18pt_3
+    - E.18pt
+    - S.18pt_2
+    - T.18pt_4
+    - N.18pt_2
+    - U
+    - T.18pt_5
+    - S.18pt_3
+    - O.18pt_3
+    - C.18pt_2
+    - I.18pt_3
+    - E.18pt_2
+    - T.18pt_6
+    - Y.18pt
+    stem_px: 20
+    scale: 6.08696
+    stem_units: 121.7
+specimen_lines:
+- leaf: 429
+  line: 24pt
+  text: THIRD ~ NATIONAL ~ BANK
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 429
+  line: 18pt
+  text: STRONG ~ [AND] ~ HEARTY
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 429
+  line: 18pt
+  text: HISTORIC ~ CHESTNUT ~ SOCIETY
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

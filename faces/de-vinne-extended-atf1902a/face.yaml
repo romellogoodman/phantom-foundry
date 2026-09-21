@@ -1,0 +1,264 @@
+name: de-vinne-extended-atf1902a
+title: De Vinne Extended
+series: De Vinne Extended
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 373
+  - 374
+  - 375
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      373:60pt: 52.4
+      374:48pt: 82.4
+      374:42pt: 58.1
+      374:36pt: 62.8
+      374:30pt: 56.2
+      375:24pt: 70.6
+  x_height: 487
+lines:
+  373:60pt:
+    n_caps: 5
+    cap_height_px: 334
+    cap_source: caps
+    baseline_px: 2122.0
+    baselines:
+      '3': 2122.0
+      '4': 2584
+    glyphs:
+    - F
+    - I
+    - N
+    - E
+    - G
+    - r
+    - i
+    - n
+    - d
+    - e
+    - r.60pt
+    x_height_px: 228.0
+    stem_px: 22
+    scale: 2.09581
+    stem_units: 46.1
+    x_height: 478
+  374:48pt:
+    n_caps: 5
+    cap_height_px: 259
+    cap_source: caps
+    baseline_px: 850.5
+    baselines:
+      '1': 850.5
+      '2': 1208
+    glyphs:
+    - H
+    - O
+    - M
+    - E.48pt
+    - F.48pt
+    - a
+    - s
+    - h
+    - i.48pt
+    - o
+    - n.48pt
+    - s.48pt
+    x_height_px: 177
+    stem_px: 24
+    scale: 2.7027
+    stem_units: 64.9
+    x_height: 478
+  374:42pt:
+    n_caps: 7
+    cap_height_px: 217
+    cap_source: caps
+    baseline_px: 1795
+    baselines:
+      '3': 1795
+      '4': 2112.5
+    glyphs:
+    - F.42pt
+    - A
+    - R
+    - M.42pt
+    - S
+    - F.42pt_2
+    - i.42pt
+    - n.42pt
+    - e.42pt
+    - C
+    - a.42pt
+    - t
+    - t.42pt
+    - l
+    - e.42pt_2
+    x_height_px: 179.5
+    stem_px: 23
+    scale: 3.22581
+    stem_units: 74.2
+    x_height: 579
+  374:36pt:
+    n_caps: 8
+    cap_height_px: 184.0
+    cap_source: caps
+    baseline_px: 2679.0
+    baselines:
+      '5': 2679.0
+      '6': 2958.5
+    glyphs:
+    - S.36pt
+    - P
+    - R.36pt
+    - I.36pt
+    - N.36pt
+    - G.36pt
+    - S.36pt_2
+    - u
+    - g
+    - a.36pt
+    - r.36pt
+    - B
+    - a.36pt_2
+    - r.36pt_2
+    - r.36pt_3
+    - e.36pt
+    - l.36pt
+    x_height_px: 128
+    stem_px: 37.5
+    scale: 3.80435
+    stem_units: 142.7
+    x_height: 487
+  374:30pt:
+    n_caps: 10
+    cap_height_px: 149.5
+    cap_source: caps
+    baseline_px: 3485.0
+    baselines:
+      '7': 3485.0
+      '8': 3725.5
+    glyphs:
+    - I.30pt
+    - N.30pt
+    - D
+    - U
+    - S.30pt
+    - T
+    - R.30pt
+    - Y
+    - M.30pt
+    - i.30pt
+    - s.30pt
+    - s.30pt_2
+    - o.30pt
+    - u.30pt
+    - r.30pt
+    - i.30pt_2
+    - F.30pt
+    - i.30pt_3
+    - r.30pt_2
+    - m
+    - s.30pt_3
+    x_height_px: 104
+    stem_px: 19.5
+    scale: 4.68227
+    stem_units: 91.3
+    x_height: 487
+  375:24pt:
+    n_caps: 10
+    cap_height_px: 119.0
+    cap_source: caps
+    baseline_px: 675.5
+    baselines:
+      '1': 675.5
+    glyphs:
+    - E.24pt
+    - X
+    - P.24pt
+    - O.24pt
+    - S.24pt
+    - I.24pt
+    - T.24pt
+    - I.24pt_2
+    - O.24pt_2
+    - N.24pt
+    stem_px: 26.0
+    scale: 5.88235
+    stem_units: 152.9
+specimen_lines:
+- leaf: 373
+  line: 60pt
+  text: FINE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 373
+  line: 60pt
+  text: Grinder
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 374
+  line: 48pt
+  text: HOME
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 374
+  line: 48pt
+  text: Fashions
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 374
+  line: 42pt
+  text: FARMS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 374
+  line: 42pt
+  text: Fine Cattle
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 374
+  line: 36pt
+  text: SPRING
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 374
+  line: 36pt
+  text: Sugar Barrel
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 374
+  line: 30pt
+  text: INDUSTRY
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 374
+  line: 30pt
+  text: Missouri Firms
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 375
+  line: 24pt
+  text: EXPOSITION
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

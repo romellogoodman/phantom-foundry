@@ -1,0 +1,153 @@
+name: lining-doric-no-520-atf1906
+title: Lining Doric No. 520
+series: Lining' Doric Xo.
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 568
+leaf_pages:
+  568: 518
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      568:42pt: 28.2
+      568:36pt: 37.2
+      568:30pt: 45.5
+  x_height: 492
+lines:
+  568:42pt:
+    n_caps: 2
+    cap_height_px: 173.5
+    cap_source: caps
+    baseline_px: 558.0
+    baselines:
+      '1': 558.0
+    glyphs:
+    - H
+    - o
+    - u
+    - s
+    - e
+    - M
+    - u.42pt
+    - s.42pt
+    - i
+    - c
+    - a
+    - l
+    x_height_px: 122.0
+    stem_px: 33.5
+    scale: 4.03458
+    stem_units: 135.2
+    x_height: 492
+  568:36pt:
+    n_caps: 2
+    cap_height_px: 150.5
+    cap_source: caps
+    baseline_px: 886.0
+    baselines:
+      '2': 886.0
+    glyphs:
+    - E
+    - n
+    - c.36pt
+    - o.36pt
+    - u.36pt
+    - n.36pt
+    - t
+    - e.36pt
+    - r
+    - L
+    - a.36pt
+    - t.36pt
+    - c.36pt_2
+    - h
+    x_height_px: 102.0
+    stem_px: 28.0
+    scale: 4.65116
+    stem_units: 130.2
+    x_height: 474
+  568:30pt:
+    n_caps: 12
+    cap_height_px: 123.0
+    cap_source: caps
+    baseline_px: 1191.5
+    baselines:
+      '3': 1191.5
+      '4': 1368.5
+    glyphs:
+    - N
+    - I
+    - C
+    - E.30pt
+    - B
+    - E.30pt_2
+    - N.30pt
+    - D
+    - E.30pt_3
+    - R
+    - R.30pt
+    - o.30pt
+    - u.30pt
+    - t.30pt
+    - e.30pt
+    - D.30pt
+    - i.30pt
+    - s.30pt
+    - c.30pt
+    - o.30pt_2
+    - n.30pt
+    - t.30pt_2
+    - i.30pt_2
+    - n.30pt_2
+    - u.30pt_2
+    - e.30pt_2
+    - d
+    x_height_px: 88
+    stem_px: 24.5
+    scale: 5.69106
+    stem_units: 139.4
+    x_height: 501
+specimen_lines:
+- leaf: 568
+  line: 42pt
+  text: House Musical
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 568
+  line: 36pt
+  text: Encounter Latch
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 568
+  line: 30pt
+  text: NICE BENDER
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 568
+  line: 30pt
+  text: Route Discontinued
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Lining' Doric Xo.
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

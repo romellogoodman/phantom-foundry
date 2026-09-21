@@ -1,0 +1,125 @@
+name: octic-no-1-atf1902b
+title: Octic No 1
+series: Octic No I
+status: proto
+version: 0.1.0
+book: deskbookoftypesp02amer
+source:
+  archive_id: deskbookoftypesp02amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    2, 11-22)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp02amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 65
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      65:42pt: 115.7
+      65:36pt: 113.2
+lines:
+  65:42pt:
+    n_caps: 17
+    cap_height_px: 248
+    cap_source: caps
+    baseline_px: 875.5
+    baselines:
+      '1': 875.5
+      '2': 1233
+    glyphs:
+    - F
+    - I
+    - R
+    - E
+    - R.42pt
+    - O
+    - B
+    - E.42pt
+    - C
+    - O.42pt
+    - S
+    - T
+    - M
+    - I.42pt
+    - G
+    - H
+    - T.42pt
+    stem_px: 41
+    scale: 2.82258
+    stem_units: 115.7
+  65:36pt:
+    n_caps: 26
+    cap_height_px: 167.0
+    cap_source: caps
+    baseline_px: 1576
+    baselines:
+      '3': 1576
+      '5': 2198
+    glyphs:
+    - C.36pt
+    - H.36pt
+    - O.36pt
+    - I.36pt
+    - R.36pt
+    - C.36pt_2
+    - R.36pt_2
+    - I.36pt_2
+    - M.36pt
+    - E.36pt
+    - S.36pt
+    - P
+    - A
+    - I.36pt_3
+    - N
+    - T.36pt
+    - E.36pt_2
+    - R.36pt_3
+    - P.36pt
+    - R.36pt_4
+    - E.36pt_3
+    - M.36pt_2
+    - I.36pt_4
+    - S.36pt_2
+    - E.36pt_4
+    - S.36pt_3
+    stem_px: 30.5
+    scale: 4.19162
+    stem_units: 127.8
+specimen_lines:
+- leaf: 65
+  line: 42pt
+  text: FIRE ROBE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 65
+  line: 42pt
+  text: COST MIGHT
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 65
+  line: 36pt
+  text: CHOIR CRIMES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 65
+  line: 36pt
+  text: PAI NTER PREM ISES~
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Octic No I
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

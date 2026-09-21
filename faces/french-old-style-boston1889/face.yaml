@@ -1,0 +1,87 @@
+name: french-old-style-boston1889
+title: French Old Style
+series: French Old Style
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 104
+leaf_pages:
+  104: 98
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      104:36pt: 109.6
+lines:
+  104:36pt:
+    n_caps: 30
+    cap_height_px: 140.5
+    cap_source: caps
+    baseline_px: 1221.5
+    baselines:
+      '3': 1221.5
+      '4': 1438.0
+    glyphs:
+    - M
+    - O
+    - R
+    - E
+    - P
+    - I
+    - C
+    - T
+    - U
+    - R.36pt
+    - E.36pt
+    - S
+    - S.36pt
+    - O.36pt
+    - L
+    - D
+    - S.36pt_2
+    - H
+    - A
+    - R.36pt_2
+    - P.36pt
+    - E.36pt_2
+    - N
+    - G
+    - R.36pt_3
+    - A.36pt
+    - V
+    - I.36pt
+    - N.36pt
+    - G.36pt
+    stem_px: 11.0
+    scale: 4.98221
+    stem_units: 54.8
+specimen_lines:
+- leaf: 104
+  line: 36pt
+  text: MORE PICTURES SOLD
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 104
+  line: 36pt
+  text: SHARP ENGRAVING
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

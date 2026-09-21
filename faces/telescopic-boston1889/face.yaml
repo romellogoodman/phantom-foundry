@@ -1,0 +1,114 @@
+name: telescopic-boston1889
+title: Telescopic
+series: Telescopic
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 166
+leaf_pages:
+  166: 160
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      166:36pt: 82.6
+      166:30pt: 120.0
+lines:
+  166:36pt:
+    n_caps: 10
+    cap_height_px: 169.5
+    cap_source: caps
+    baseline_px: 863.0
+    baselines:
+      '2': 863.0
+    glyphs:
+    - S
+    - T
+    - O
+    - N
+    - E
+    - six
+    - eight
+    - A
+    - C
+    - O.36pt
+    - R
+    - N.36pt
+    figure_height_px: 167.0
+    stem_px: 33.0
+    scale: 4.12979
+    stem_units: 136.3
+    figure_height: 690
+  166:30pt:
+    n_caps: 22
+    cap_height_px: 140.0
+    cap_source: caps
+    baseline_px: 1158.0
+    baselines:
+      '3': 1158.0
+      '4': 1343.5
+    glyphs:
+    - H
+    - E.30pt
+    - A.30pt
+    - L
+    - I
+    - N.30pt
+    - G
+    - B
+    - U
+    - N.30pt_2
+    - I.30pt
+    - O.30pt
+    - N.30pt_3
+    - S.30pt
+    - D
+    - O.30pt_2
+    - C.30pt
+    - T.30pt
+    - O.30pt_3
+    - R.30pt
+    - E.30pt_2
+    - D.30pt
+    - one
+    - zero
+    figure_height_px: 137.0
+    stem_px: 27.0
+    scale: 5.0
+    stem_units: 135.0
+    figure_height: 685
+specimen_lines:
+- leaf: 166
+  line: 36pt
+  text: STONE 68 ACORN
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 166
+  line: 30pt
+  text: HEALING BUNIONS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 166
+  line: 30pt
+  text: DOCTORED 10
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

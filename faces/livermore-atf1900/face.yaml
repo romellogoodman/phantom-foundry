@@ -1,0 +1,64 @@
+name: livermore-atf1900
+title: Livermore
+series: Livermore
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 305
+leaf_pages:
+  305: 432
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      305:30pt: 12.3
+  x_height: 516
+lines:
+  305:30pt:
+    n_caps: 1
+    cap_height_px: 114
+    cap_source: caps
+    baseline_px: 3565
+    baselines:
+      '7': 3565
+    glyphs:
+    - S
+    - e
+    - n
+    - s
+    - a
+    - t
+    - i
+    - o
+    - n.30pt
+    - a.30pt
+    - l
+    x_height_px: 84.0
+    stem_px: 8
+    scale: 6.14035
+    stem_units: 49.1
+    x_height: 516
+specimen_lines:
+- leaf: 305
+  line: 30pt
+  text: Sensati onal
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

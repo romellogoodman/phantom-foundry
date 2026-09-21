@@ -1,0 +1,82 @@
+name: boldface-atf1897
+title: Boldface
+series: Boldpaee
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 180
+leaf_pages:
+  180: 178
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      180:30pt: 35.2
+  x_height: 536
+lines:
+  180:30pt:
+    n_caps: 9
+    cap_height_px: 179
+    cap_source: caps
+    baseline_px: 2163.0
+    baselines:
+      '3': 2163.0
+      '4': 2478
+    glyphs:
+    - M
+    - a
+    - r
+    - k
+    - e
+    - t
+    - B
+    - a.30pt
+    - s
+    - k.30pt
+    - e.30pt
+    - t.30pt
+    - s.30pt
+    - H
+    - U
+    - N
+    - T
+    - E
+    - R
+    - S
+    x_height_px: 137
+    stem_px: 7
+    scale: 3.91061
+    stem_units: 27.4
+    x_height: 536
+specimen_lines:
+- leaf: 180
+  line: 30pt
+  text: Market Baskets
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 180
+  line: 30pt
+  text: HUNTERS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Boldpaee
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

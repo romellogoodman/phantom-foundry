@@ -1,0 +1,131 @@
+name: xtnttig-zntfov-blacn-iro-atf1906
+title: Xtnttig Zntfov Blacn Iro.
+series: Xtnttig Zntfov Blacn Iro.
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 186
+leaf_pages:
+  186: 136
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      186:72pt: 43.6
+      186:48pt: 55.8
+      186:30pt: 53.4
+  x_height: 528
+lines:
+  186:72pt:
+    n_caps: 1
+    cap_height_px: 297
+    cap_source: caps
+    baseline_px: 691
+    baselines:
+      '1': 691
+    glyphs:
+    - C
+    - u
+    - l
+    - t
+    - i
+    - v
+    - a
+    - t.72pt
+    - i.72pt
+    - o
+    - n
+    x_height_px: 242.5
+    stem_px: 9
+    scale: 2.3569
+    stem_units: 21.2
+    x_height: 572
+  186:48pt:
+    n_caps: 2
+    cap_height_px: 207.0
+    cap_source: caps
+    baseline_px: 1067.0
+    baselines:
+      '2': 1067.0
+    glyphs:
+    - D
+    - e
+    - m
+    - o.48pt
+    - n.48pt
+    - T
+    - r
+    - a.48pt
+    - m.48pt
+    - p
+    x_height_px: 145.0
+    stem_px: 6.0
+    scale: 3.38164
+    stem_units: 20.3
+    x_height: 490
+  186:30pt:
+    n_caps: 3
+    cap_height_px: 118
+    cap_source: caps
+    baseline_px: 2202
+    baselines:
+      '5': 2202
+    glyphs:
+    - W
+    - a.30pt
+    - n.30pt
+    - t.30pt
+    - e.30pt
+    - d
+    - i.30pt
+    - n.30pt_2
+    - S
+    - o.30pt
+    - u.30pt
+    - t.30pt_2
+    - h
+    - D.30pt
+    - a.30pt_2
+    - k
+    - o.30pt_2
+    - t.30pt_3
+    - a.30pt_3
+    x_height_px: 89.0
+    stem_px: 6
+    scale: 5.9322
+    stem_units: 35.6
+    x_height: 528
+specimen_lines:
+- leaf: 186
+  line: 72pt
+  text: Cultivation
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 186
+  line: 48pt
+  text: Demon Tramp
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 186
+  line: 30pt
+  text: Wanted in South Dakota
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

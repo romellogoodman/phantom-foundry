@@ -1,0 +1,87 @@
+name: old-face-no-4-various1930
+title: Old Face No. 4
+series: Old Face No
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 186
+leaf_pages:
+  186: 174
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      186:36pt: 137.6
+lines:
+  186:36pt:
+    n_caps: 29
+    cap_height_px: 117
+    cap_source: caps
+    baseline_px: 987
+    baselines:
+      '2': 987
+      '3': 1245.0
+    glyphs:
+    - Q
+    - U
+    - E
+    - E.36pt
+    - N
+    - V
+    - I
+    - C
+    - T
+    - O
+    - R
+    - I.36pt
+    - A
+    - T.36pt
+    - H
+    - E.36pt_2
+    - R.36pt
+    - E.36pt_3
+    - I.36pt_2
+    - G
+    - N.36pt
+    - O.36pt
+    - F
+    - T.36pt_2
+    - E.36pt_4
+    - R.36pt_2
+    - R.36pt_3
+    - O.36pt_2
+    - R.36pt_4
+    stem_px: 10
+    scale: 5.98291
+    stem_units: 59.8
+specimen_lines:
+- leaf: 186
+  line: 36pt
+  text: QUEEN VICTORIA
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 186
+  line: 36pt
+  text: THE REIGN OF TERROR
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Old Face No
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

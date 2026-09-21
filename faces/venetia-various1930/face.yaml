@@ -1,0 +1,103 @@
+name: venetia-various1930
+title: Venetia
+series: Venetia
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 157
+leaf_pages:
+  157: 145
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      157:60pt: 33.2
+      157:36pt: 39.4
+  x_height: 596
+lines:
+  157:60pt:
+    n_caps: 2
+    cap_height_px: 253.0
+    cap_source: caps
+    baseline_px: 740.0
+    baselines:
+      '1': 740.0
+    glyphs:
+    - A
+    - b
+    - b.60pt
+    - e
+    - y
+    - S
+    - e.60pt
+    - r
+    - v
+    - i
+    - c
+    - e.60pt_2
+    - s
+    x_height_px: 215
+    stem_px: 26.5
+    scale: 2.7668
+    stem_units: 73.3
+    x_height: 595
+  157:36pt:
+    n_caps: 3
+    cap_height_px: 151
+    cap_source: caps
+    baseline_px: 1441
+    baselines:
+      '3': 1441
+    glyphs:
+    - A.36pt
+    - D
+    - r.36pt
+    - a
+    - w
+    - i.36pt
+    - n
+    - g
+    - o
+    - f
+    - t
+    - h
+    - e.36pt
+    - M
+    - a.36pt
+    - s.36pt
+    - t.36pt
+    - e.36pt_2
+    - r.36pt_2
+    x_height_px: 129.0
+    stem_px: 16
+    scale: 4.63576
+    stem_units: 74.2
+    x_height: 598
+specimen_lines:
+- leaf: 157
+  line: 60pt
+  text: Abbey Services
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 157
+  line: 36pt
+  text: A Drawing of the Master
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

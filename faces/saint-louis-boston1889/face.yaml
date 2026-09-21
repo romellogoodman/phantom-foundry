@@ -1,0 +1,120 @@
+name: saint-louis-boston1889
+title: Saint Louis
+series: St Louis
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 216
+leaf_pages:
+  216: 210
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      216:48pt: 19.9
+      216:36pt: 16.8
+lines:
+  216:48pt:
+    n_caps: 22
+    cap_height_px: 176.0
+    cap_source: caps
+    baseline_px: 1820.0
+    baselines:
+      '4': 1820.0
+    glyphs:
+    - A
+    - M
+    - E
+    - R
+    - I
+    - C
+    - A.48pt
+    - N
+    - C.48pt
+    - O
+    - L
+    - L.48pt
+    - E.48pt
+    - G
+    - E.48pt_2
+    - S
+    - T
+    - U
+    - D
+    - I.48pt
+    - E.48pt_3
+    - S.48pt
+    stem_px: 5.0
+    scale: 3.97727
+    stem_units: 19.9
+  216:36pt:
+    n_caps: 27
+    cap_height_px: 125
+    cap_source: caps
+    baseline_px: 2443
+    baselines:
+      '6': 2443
+    glyphs:
+    - M.36pt
+    - E.36pt
+    - A.36pt
+    - N.36pt
+    - D.36pt
+    - E.36pt_2
+    - R.36pt
+    - I.36pt
+    - N.36pt_2
+    - G.36pt
+    - L.36pt
+    - O.36pt
+    - V
+    - E.36pt_3
+    - R.36pt_2
+    - S.36pt
+    - M.36pt_2
+    - U.36pt
+    - C.36pt
+    - H
+    - D.36pt_2
+    - E.36pt_4
+    - V.36pt
+    - O.36pt_2
+    - T.36pt
+    - E.36pt_5
+    - D.36pt_3
+    stem_px: 6
+    scale: 5.6
+    stem_units: 33.6
+specimen_lines:
+- leaf: 216
+  line: 48pt
+  text: AMERICAN COLLEGE STUDIES
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 216
+  line: 36pt
+  text: MEANDERIN GLOVER SMUCH DEVOTED
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: St Louis
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

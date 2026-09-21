@@ -1,0 +1,139 @@
+name: old-style-bold-atf1902a
+title: Old Style Bold
+series: Old Style Bold
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 544
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      544:48pt: 78.8
+      544:36pt: 58.9
+      544:24pt: 67.5
+  x_height: 490
+lines:
+  544:48pt:
+    n_caps: 3
+    cap_height_px: 240
+    cap_source: caps
+    baseline_px: 901
+    baselines:
+      '1': 901
+    glyphs:
+    - H
+    - E
+    - D
+    - u
+    - g
+    x_height_px: 209.0
+    stem_px: 61
+    scale: 2.91667
+    stem_units: 177.9
+    x_height: 610
+  544:36pt:
+    n_caps: 6
+    cap_height_px: 190.0
+    cap_source: caps
+    baseline_px: 1363.0
+    baselines:
+      '2': 1363.0
+      '3': 1652.5
+    glyphs:
+    - G
+    - E.36pt
+    - T
+    - S
+    - S.36pt
+    - u.36pt
+    - r
+    - e
+    - T.36pt
+    - i
+    - p
+    - s
+    x_height_px: 133.0
+    stem_px: 16.0
+    scale: 3.68421
+    stem_units: 58.9
+    x_height: 490
+  544:24pt:
+    n_caps: 10
+    cap_height_px: 124.5
+    cap_source: caps
+    baseline_px: 2067.5
+    baselines:
+      '4': 2067.5
+      '5': 2276.0
+    glyphs:
+    - C
+    - O
+    - L
+    - U
+    - M
+    - B
+    - I
+    - A
+    - G.24pt
+    - o
+    - o.24pt
+    - d
+    - C.24pt
+    - o.24pt_2
+    - u.24pt
+    - n
+    - t
+    - r.24pt
+    - y
+    x_height_px: 87
+    stem_px: 13.0
+    scale: 5.62249
+    stem_units: 73.1
+    x_height: 489
+specimen_lines:
+- leaf: 544
+  line: 48pt
+  text: HE Dug
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 544
+  line: 36pt
+  text: GETS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 544
+  line: 36pt
+  text: Sure Tips
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 544
+  line: 24pt
+  text: COLUMBIA
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 544
+  line: 24pt
+  text: Good Country
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

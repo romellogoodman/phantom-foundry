@@ -1,0 +1,180 @@
+name: howland-open-cleveland1895
+title: Howland Open
+series: Howland Opkn
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 166
+  - 167
+leaf_pages:
+  166: 162
+  167: 163
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      167:48pt: 32.2
+      166:42pt: 23.8
+      166:30pt: 33.9
+  x_height: 612
+lines:
+  167:48pt:
+    n_caps: 9
+    cap_height_px: 250
+    cap_source: caps
+    baseline_px: 549
+    baselines:
+      '1': 549
+    glyphs:
+    - D
+    - E
+    - C
+    - E.48pt
+    - I
+    - T
+    - F
+    - U
+    - L
+    stem_px: 7
+    scale: 2.8
+    stem_units: 19.6
+  166:42pt:
+    n_caps: 12
+    cap_height_px: 206.0
+    cap_source: caps
+    baseline_px: 3038.0
+    baselines:
+      '5': 3038.0
+      '6': 3344.0
+    glyphs:
+    - M
+    - O
+    - N
+    - U.42pt
+    - M.42pt
+    - E.42pt
+    - N.42pt
+    - T.42pt
+    - A
+    - L.42pt
+    - E.42pt_2
+    - p
+    - i
+    - t
+    - a
+    - p.42pt
+    - h
+    - s
+    - dollar
+    - five
+    - six
+    - I.42pt
+    - n
+    - s.42pt
+    - c
+    - r
+    - i.42pt
+    - b
+    - e
+    - d
+    x_height_px: 198
+    figure_height_px: 203.5
+    stem_px: 5.0
+    scale: 3.39806
+    stem_units: 17.0
+    x_height: 673
+    figure_height: 692
+  166:30pt:
+    n_caps: 14
+    cap_height_px: 165.0
+    cap_source: caps
+    baseline_px: 2313.0
+    baselines:
+      '3': 2313.0
+      '4': 2539.5
+    glyphs:
+    - S
+    - A.30pt
+    - L.30pt
+    - T.30pt
+    - E.30pt
+    - D.30pt
+    - B
+    - U.30pt
+    - T.30pt_2
+    - T.30pt_3
+    - E.30pt_2
+    - R
+    - N.30pt
+    - u
+    - t.30pt
+    - r.30pt
+    - i.30pt
+    - m
+    - e.30pt
+    - n.30pt
+    - t.30pt_2
+    - seven
+    - nine
+    - W
+    - h.30pt
+    - o
+    - l
+    - e.30pt_2
+    - s.30pt
+    - o.30pt
+    - m.30pt
+    - e.30pt_3
+    x_height_px: 130.0
+    figure_height_px: 166.0
+    stem_px: 6.0
+    scale: 4.24242
+    stem_units: 25.5
+    x_height: 552
+    figure_height: 704
+specimen_lines:
+- leaf: 167
+  line: 48pt
+  text: DECEITFUL
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 166
+  line: 42pt
+  text: MONUMENTAL
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 166
+  line: 42pt
+  text: Epitaphs $56 Inscribed
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 166
+  line: 30pt
+  text: SALTED BUTTER
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 166
+  line: 30pt
+  text: Nutriment 79 Wholesome
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Howland Opkn
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

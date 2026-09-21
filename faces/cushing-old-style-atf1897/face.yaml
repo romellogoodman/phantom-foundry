@@ -1,0 +1,168 @@
+name: cushing-old-style-atf1897
+title: Cushing Old Style
+series: Ecshing Old Style
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 162
+leaf_pages:
+  162: 160
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      162:48pt: 31.6
+      162:36pt: 37.2
+      162:24pt: 36.8
+      162:18pt: 37.0
+  x_height: 504
+lines:
+  162:48pt:
+    n_caps: 5
+    cap_height_px: 321
+    cap_source: caps
+    baseline_px: 1027
+    baselines:
+      '1': 1027
+    glyphs:
+    - H
+    - I
+    - G
+    - H.48pt
+    - G.48pt
+    - a
+    - t
+    - e
+    x_height_px: 232
+    stem_px: 49
+    scale: 2.18069
+    stem_units: 106.9
+    x_height: 506
+  162:36pt:
+    n_caps: 6
+    cap_height_px: 235.5
+    cap_source: caps
+    baseline_px: 1592.5
+    baselines:
+      '2': 1592.5
+    glyphs:
+    - R
+    - I.36pt
+    - S
+    - E
+    - S.36pt
+    - E.36pt
+    - a.36pt
+    - r
+    - l
+    - i
+    - e.36pt
+    - r.36pt
+    x_height_px: 169.0
+    stem_px: 33.5
+    scale: 2.9724
+    stem_units: 99.6
+    x_height: 502
+  162:24pt:
+    n_caps: 6
+    cap_height_px: 161.5
+    cap_source: caps
+    baseline_px: 2061.5
+    baselines:
+      '3': 2061.5
+    glyphs:
+    - B
+    - R.24pt
+    - O
+    - K
+    - E.24pt
+    - t.24pt
+    - h
+    - e.24pt
+    - B.24pt
+    - a.24pt
+    - n
+    - k
+    - e.24pt_2
+    - r.24pt
+    - s
+    x_height_px: 116
+    stem_px: 29.0
+    scale: 4.33437
+    stem_units: 125.7
+    x_height: 503
+  162:18pt:
+    n_caps: 11
+    cap_height_px: 123
+    cap_source: caps
+    baseline_px: 2495
+    baselines:
+      '4': 2495
+    glyphs:
+    - P
+    - E.18pt
+    - R.18pt
+    - F
+    - E.18pt_2
+    - C
+    - T
+    - I.18pt
+    - O.18pt
+    - N
+    - G.18pt
+    - u
+    - a.18pt
+    - r.18pt
+    - a.18pt_2
+    - n.18pt
+    - t.18pt
+    - e.18pt
+    - e.18pt_2
+    - d
+    x_height_px: 92
+    stem_px: 22
+    scale: 5.69106
+    stem_units: 125.2
+    x_height: 524
+specimen_lines:
+- leaf: 162
+  line: 48pt
+  text: HIGH Gate
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 162
+  line: 36pt
+  text: RISES Earlier
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 162
+  line: 24pt
+  text: BROKE the Bankers
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 162
+  line: 18pt
+  text: PERFECTION Guaranteed
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Ecshing Old Style
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

@@ -1,0 +1,183 @@
+name: ronaldson-gothic-atf1900
+title: Ronaldson Gothic
+series: Ronaldson Gothic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 421
+leaf_pages:
+  421: 890
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      421:48pt: 54.9
+      421:36pt: 55.3
+      421:30pt: 66.7
+      421:24pt: 78.1
+  x_height: 491
+lines:
+  421:48pt:
+    n_caps: 6
+    cap_height_px: 255.0
+    cap_source: caps
+    baseline_px: 904.0
+    baselines:
+      '1': 904.0
+    glyphs:
+    - P
+    - l
+    - e
+    - a
+    - s
+    - a.48pt
+    - n
+    - t
+    - D
+    - R
+    - E
+    - A
+    - M
+    x_height_px: 179
+    stem_px: 37.5
+    scale: 2.7451
+    stem_units: 102.9
+    x_height: 491
+  421:36pt:
+    n_caps: 7
+    cap_height_px: 215
+    cap_source: caps
+    baseline_px: 1409
+    baselines:
+      '2': 1409
+    glyphs:
+    - S
+    - u
+    - g
+    - a.36pt
+    - r
+    - C
+    - A.36pt
+    - N
+    - D.36pt
+    - Y
+    - G
+    - r.36pt
+    - a.36pt_2
+    - t.36pt
+    - i
+    - s.36pt
+    x_height_px: 147
+    stem_px: 32
+    scale: 3.25581
+    stem_units: 104.2
+    x_height: 479
+  421:30pt:
+    n_caps: 10
+    cap_height_px: 168.0
+    cap_source: caps
+    baseline_px: 1879.0
+    baselines:
+      '3': 1879.0
+    glyphs:
+    - O
+    - L
+    - D.30pt
+    - E.30pt
+    - N.30pt
+    - T
+    - I
+    - M.30pt
+    - E.30pt_2
+    - O.30pt
+    - b
+    - s.30pt
+    - e.30pt
+    - r.30pt
+    - v
+    - a.30pt
+    - n.30pt
+    - c
+    - e.30pt_2
+    x_height_px: 118
+    stem_px: 25.0
+    scale: 4.16667
+    stem_units: 104.2
+    x_height: 492
+  421:24pt:
+    n_caps: 10
+    cap_height_px: 125.5
+    cap_source: caps
+    baseline_px: 2287.0
+    baselines:
+      '4': 2287.0
+    glyphs:
+    - S.24pt
+    - p
+    - l.24pt
+    - e.24pt
+    - n.24pt
+    - d
+    - i.24pt
+    - d.24pt
+    - P.24pt
+    - R.24pt
+    - E.24pt
+    - S.24pt_2
+    - E.24pt_2
+    - N.24pt
+    - T.24pt
+    - S.24pt_3
+    - D.24pt
+    - i.24pt_2
+    - s.24pt
+    - p.24pt
+    - l.24pt_2
+    - a.24pt
+    - y
+    - e.24pt_2
+    - d.24pt_2
+    x_height_px: 119
+    stem_px: 21.0
+    scale: 5.57769
+    stem_units: 117.1
+    x_height: 664
+specimen_lines:
+- leaf: 421
+  line: 48pt
+  text: Pleasant DREAM
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 421
+  line: 36pt
+  text: Sugar CAN DY Gratis
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 421
+  line: 30pt
+  text: OLDENTIME Observance
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 421
+  line: 24pt
+  text: Splendid PRESENTS Displayed
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

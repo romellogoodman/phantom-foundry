@@ -1,0 +1,136 @@
+name: de-vinne-extended-atf1897
+title: De Vinne Extended
+series: De Yiivne Extended
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 354
+leaf_pages:
+  354: 352
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      354:42pt: 85.9
+      354:36pt: 42.3
+      354:30pt: 87.5
+  x_height: 496
+lines:
+  354:42pt:
+    n_caps: 6
+    cap_height_px: 293.5
+    cap_source: caps
+    baseline_px: 1999
+    baselines:
+      '3': 1999
+      '4': 2387
+    glyphs:
+    - H
+    - O
+    - U
+    - S
+    - E
+    - B
+    - r
+    - o
+    - k
+    - e
+    x_height_px: 202.0
+    stem_px: 55.0
+    scale: 2.38501
+    stem_units: 131.2
+    x_height: 482
+  354:36pt:
+    n_caps: 1
+    cap_height_px: 240
+    cap_source: caps
+    baseline_px: 3233
+    baselines:
+      '6': 3233
+    glyphs:
+    - M
+    - a
+    - k.36pt
+    - e.36pt
+    - r.36pt
+    - s
+    x_height_px: 170
+    stem_px: 17
+    scale: 2.91667
+    stem_units: 49.6
+    x_height: 496
+  354:30pt:
+    n_caps: 8
+    cap_height_px: 200.0
+    cap_source: caps
+    baseline_px: 3685
+    baselines:
+      '7': 3685
+      '8': 3963
+    glyphs:
+    - M.30pt
+    - O.30pt
+    - D
+    - E.30pt
+    - S.30pt
+    - T
+    - Y
+    - S.30pt_2
+    - h
+    - o.30pt
+    - c
+    - k.30pt
+    - e.30pt
+    - d
+    x_height_px: 166.5
+    stem_px: 33.0
+    scale: 3.5
+    stem_units: 115.5
+    x_height: 583
+specimen_lines:
+- leaf: 354
+  line: 42pt
+  text: HOUSE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 354
+  line: 42pt
+  text: Broke
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 354
+  line: 36pt
+  text: M akers
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 354
+  line: 30pt
+  text: MODESTY
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 354
+  line: 30pt
+  text: Shocked
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: De Yiivne Extended
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

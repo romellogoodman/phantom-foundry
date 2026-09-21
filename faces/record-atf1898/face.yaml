@@ -1,0 +1,64 @@
+name: record-atf1898
+title: Record
+series: Record
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 528
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      528:24pt: 26.8
+lines:
+  528:24pt:
+    n_caps: 10
+    cap_height_px: 130.5
+    cap_source: caps
+    baseline_px: 1072.5
+    baselines:
+      '3': 1072.5
+    glyphs:
+    - one
+    - nine
+    - P
+    - O
+    - E
+    - T
+    - C
+    - D
+    - A
+    - U
+    - G
+    - H
+    figure_height_px: 132.0
+    stem_px: 3.0
+    scale: 5.36398
+    stem_units: 16.1
+    figure_height: 708
+specimen_lines:
+- leaf: 528
+  line: 24pt
+  text: 19 POETC D AUGH
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

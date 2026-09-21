@@ -1,0 +1,161 @@
+name: polo-atf1900
+title: Polo
+series: Polo
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 438
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      438:60pt: 46.9
+      438:36pt: 58.3
+      438:24pt: 84.6
+  x_height: 529
+lines:
+  438:60pt:
+    n_caps: 1
+    cap_height_px: 291
+    cap_source: caps
+    baseline_px: 987
+    baselines:
+      '2': 987
+    glyphs:
+    - D
+    - e
+    - m
+    - o
+    - n
+    - s
+    - t
+    - r
+    - a
+    - t.60pt
+    - i
+    - o.60pt
+    - n.60pt
+    x_height_px: 220.0
+    stem_px: 33
+    scale: 2.4055
+    stem_units: 79.4
+    x_height: 529
+  438:36pt:
+    n_caps: 5
+    cap_height_px: 186
+    cap_source: caps
+    baseline_px: 2199.5
+    baselines:
+      '4': 2199.5
+      '5': 2477
+    glyphs:
+    - S
+    - a.36pt
+    - p
+    - i.36pt
+    - e.36pt
+    - n.36pt
+    - t.36pt
+    - J
+    - u
+    - v
+    - e.36pt_2
+    - n.36pt_2
+    - i.36pt_2
+    - l
+    - e.36pt_3
+    - s.36pt
+    - C
+    - a.36pt_2
+    - n.36pt_3
+    - d
+    - i.36pt_3
+    - d.36pt
+    - N
+    - o.36pt
+    - v.36pt
+    - i.36pt_4
+    - c
+    - e.36pt_4
+    - s.36pt_2
+    - R
+    - e.36pt_5
+    - j
+    - o.36pt_2
+    - i.36pt_5
+    - c.36pt
+    - e.36pt_6
+    x_height_px: 132
+    stem_px: 20
+    scale: 3.76344
+    stem_units: 75.3
+    x_height: 497
+  438:24pt:
+    n_caps: 2
+    cap_height_px: 120.0
+    cap_source: caps
+    baseline_px: 2964.5
+    baselines:
+      '6': 2964.5
+    glyphs:
+    - H
+    - a.24pt
+    - n.24pt
+    - d.24pt
+    - s.24pt
+    - o.24pt
+    - m.24pt
+    - e.24pt
+    - D.24pt
+    - i.24pt
+    - p.24pt
+    - l.24pt
+    - o.24pt_2
+    - m.24pt_2
+    - a.24pt_2
+    - s.24pt_2
+    x_height_px: 91.0
+    stem_px: 14.0
+    scale: 5.83333
+    stem_units: 81.7
+    x_height: 531
+specimen_lines:
+- leaf: 438
+  line: 60pt
+  text: Demonstration
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 438
+  line: 36pt
+  text: Sapient J uveniles
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 438
+  line: 36pt
+  text: Candid Novices Rejoice
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 438
+  line: 24pt
+  text: Handsome Diplomas
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

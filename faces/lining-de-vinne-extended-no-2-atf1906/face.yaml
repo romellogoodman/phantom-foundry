@@ -1,0 +1,254 @@
+name: lining-de-vinne-extended-no-2-atf1906
+title: Lining De Vinne Extended No. 2
+series: De Vinne Hxtended Ino.
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 376
+  - 377
+leaf_pages:
+  376: 326
+  377: 327
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      376:72pt: 55.1
+      376:60pt: 53.2
+      376:48pt: 87.9
+      376:42pt: 77.8
+      376:36pt: 79.1
+      377:30pt: 58.8
+  x_height: 488
+lines:
+  376:72pt:
+    n_caps: 3
+    cap_height_px: 305
+    cap_source: caps
+    baseline_px: 748
+    baselines:
+      '1': 748
+    glyphs:
+    - N
+    - I
+    - M
+    - b
+    - l
+    - e
+    x_height_px: 299
+    stem_px: 20
+    scale: 2.29508
+    stem_units: 45.9
+    x_height: 686
+  376:60pt:
+    n_caps: 5
+    cap_height_px: 263
+    cap_source: caps
+    baseline_px: 1290.0
+    baselines:
+      '2': 1290.0
+      '3': 1624
+    glyphs:
+    - S
+    - H
+    - E
+    - D
+    - C
+    - a
+    - u
+    - t
+    - i
+    - o
+    - n
+    x_height_px: 183.5
+    stem_px: 41
+    scale: 2.6616
+    stem_units: 109.1
+    x_height: 488
+  376:48pt:
+    n_caps: 5
+    cap_height_px: 207
+    cap_source: caps
+    baseline_px: 2098.5
+    baselines:
+      '4': 2098.5
+      '5': 2369
+    glyphs:
+    - H.48pt
+    - E.48pt
+    - R
+    - O
+    - B
+    - a.48pt
+    - n.48pt
+    - i.48pt
+    - s
+    - h
+    - e.48pt
+    - d
+    x_height_px: 142
+    stem_px: 43
+    scale: 3.38164
+    stem_units: 145.4
+    x_height: 480
+  376:42pt:
+    n_caps: 2
+    cap_height_px: 171.0
+    cap_source: caps
+    baseline_px: 3054.5
+    baselines:
+      '7': 3054.5
+    glyphs:
+    - H.42pt
+    - a.42pt
+    - r
+    - d.42pt
+    - M.42pt
+    - e.42pt
+    - t.42pt
+    - a.42pt_2
+    - l.42pt
+    x_height_px: 121
+    stem_px: 25.5
+    scale: 4.09357
+    stem_units: 104.4
+    x_height: 495
+  376:36pt:
+    n_caps: 7
+    cap_height_px: 146
+    cap_source: caps
+    baseline_px: 3495
+    baselines:
+      '8': 3495
+      '9': 3693.5
+    glyphs:
+    - R.36pt
+    - O.36pt
+    - U
+    - N.36pt
+    - D.36pt
+    - G
+    - r.36pt
+    - a.36pt
+    - n.36pt
+    - d.36pt
+    - H.36pt
+    - o.36pt
+    - u.36pt
+    - s.36pt
+    - e.36pt
+    x_height_px: 102.0
+    stem_px: 32
+    scale: 4.79452
+    stem_units: 153.4
+    x_height: 489
+  377:30pt:
+    n_caps: 3
+    cap_height_px: 119
+    cap_source: caps
+    baseline_px: 712.5
+    baselines:
+      '3': 712.5
+      '4': 895
+    glyphs:
+    - S.30pt
+    - t.30pt
+    - e.30pt
+    - r.30pt
+    - n.30pt
+    - G.30pt
+    - u.30pt
+    - a.30pt
+    - r.30pt_2
+    - d.30pt
+    - i.30pt
+    - a.30pt_2
+    - n.30pt_2
+    - s.30pt
+    - R.30pt
+    - e.30pt_2
+    - c
+    - o.30pt
+    - n.30pt_3
+    - s.30pt_2
+    - i.30pt_2
+    - d.30pt_2
+    - e.30pt_3
+    - r.30pt_3
+    x_height_px: 82
+    stem_px: 25
+    scale: 5.88235
+    stem_units: 147.1
+    x_height: 482
+specimen_lines:
+- leaf: 376
+  line: 72pt
+  text: NIMble
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 376
+  line: 60pt
+  text: SHED
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 376
+  line: 60pt
+  text: Caution
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 376
+  line: 48pt
+  text: HERO
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 376
+  line: 48pt
+  text: Banished
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 376
+  line: 42pt
+  text: Hard Metal
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 376
+  line: 36pt
+  text: ROUND
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 376
+  line: 36pt
+  text: Grand House
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 377
+  line: 30pt
+  text: Stern Guardians
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 377
+  line: 30pt
+  text: Reconsider
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: De Vinne Hxtended Ino.
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

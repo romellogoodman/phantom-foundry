@@ -1,0 +1,219 @@
+name: meriontype-atf1906
+title: Meriontype
+series: Meriontype
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 284
+  - 285
+leaf_pages:
+  284: 234
+  285: 235
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      284:72pt: 28.7
+      284:60pt: 18.7
+      284:48pt: 44.3
+      285:36pt: 42.3
+      285:30pt: 40.2
+  x_height: 466
+lines:
+  284:72pt:
+    n_caps: 7
+    cap_height_px: 317
+    cap_source: caps
+    baseline_px: 766.5
+    baselines:
+      '1': 766.5
+      '2': 1163
+    glyphs:
+    - K
+    - N
+    - I
+    - G
+    - H
+    - T
+    - P
+    - r
+    - o
+    - b
+    - a
+    - t
+    - i
+    - o.72pt
+    - n
+    x_height_px: 210.0
+    stem_px: 41
+    scale: 2.2082
+    stem_units: 90.5
+    x_height: 464
+  284:60pt:
+    n_caps: 8
+    cap_height_px: 261.5
+    cap_source: caps
+    baseline_px: 1680.5
+    baselines:
+      '3': 1680.5
+      '4': 2013.0
+    glyphs:
+    - D
+    - E
+    - M
+    - A
+    - N.60pt
+    - D.60pt
+    - R
+    - a.60pt
+    - k
+    - e
+    - s
+    - B
+    - a.60pt_2
+    - c
+    - k.60pt
+    x_height_px: 174
+    stem_px: 24.0
+    scale: 2.67686
+    stem_units: 64.2
+    x_height: 466
+  284:48pt:
+    n_caps: 8
+    cap_height_px: 205.5
+    cap_source: caps
+    baseline_px: 2470.0
+    baselines:
+      '6': 2470.0
+    glyphs:
+    - M.48pt
+    - A.48pt
+    - R.48pt
+    - I.48pt
+    - G.48pt
+    - O
+    - L
+    - D.48pt
+    stem_px: 23.5
+    scale: 3.40633
+    stem_units: 80.0
+  285:36pt:
+    n_caps: 13
+    cap_height_px: 149
+    cap_source: caps
+    baseline_px: 596
+    baselines:
+      '2': 596
+      '4': 1027.0
+    glyphs:
+    - N.36pt
+    - I.36pt
+    - G.36pt
+    - H.36pt
+    - T.36pt
+    - S
+    - H.36pt_2
+    - A.36pt
+    - D.36pt
+    - E.36pt
+    - R.36pt
+    - N.36pt_2
+    - o.36pt
+    - t.36pt
+    - S.36pt
+    - h
+    - o.36pt_2
+    - p
+    - w
+    - o.36pt_3
+    - r.36pt
+    - n.36pt
+    x_height_px: 100
+    stem_px: 15
+    scale: 4.69799
+    stem_units: 70.5
+    x_height: 470
+  285:30pt:
+    n_caps: 14
+    cap_height_px: 122.0
+    cap_source: caps
+    baseline_px: 1374.0
+    baselines:
+      '5': 1374.0
+    glyphs:
+    - M.30pt
+    - O.30pt
+    - D.30pt
+    - E.30pt
+    - R.30pt
+    - N.30pt
+    - P.30pt
+    - R.30pt_2
+    - I.30pt
+    - N.30pt_2
+    - T.30pt
+    - I.30pt_2
+    - N.30pt_3
+    - G.30pt
+    stem_px: 15.5
+    scale: 5.7377
+    stem_units: 88.9
+specimen_lines:
+- leaf: 284
+  line: 72pt
+  text: KNIGHT
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 284
+  line: 72pt
+  text: Probation
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 284
+  line: 60pt
+  text: DEMAND
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 284
+  line: 60pt
+  text: Rakes Back
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 284
+  line: 48pt
+  text: MARIGOLD
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 285
+  line: 36pt
+  text: NIGHT SHADER
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 285
+  line: 36pt
+  text: Not Shopworn
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 285
+  line: 30pt
+  text: MODERN PRINTING
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

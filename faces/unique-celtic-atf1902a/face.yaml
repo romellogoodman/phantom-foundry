@@ -1,0 +1,136 @@
+name: unique-celtic-atf1902a
+title: Unique Celtic
+series: Unique Celtic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 466
+leaf_pages:
+  466: 1
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      466:36pt: 88.6
+      466:30pt: 52.7
+      466:24pt: 90.8
+  x_height: 486
+lines:
+  466:36pt:
+    n_caps: 6
+    cap_height_px: 205.5
+    cap_source: caps
+    baseline_px: 872.0
+    baselines:
+      '1': 872.0
+    glyphs:
+    - F
+    - a
+    - m
+    - o
+    - u
+    - s
+    - S
+    - I
+    - G
+    - N
+    - S.36pt
+    x_height_px: 139
+    stem_px: 21.5
+    scale: 3.40633
+    stem_units: 73.2
+    x_height: 473
+  466:30pt:
+    n_caps: 6
+    cap_height_px: 159.5
+    cap_source: caps
+    baseline_px: 1342.0
+    baselines:
+      '2': 1342.0
+    glyphs:
+    - B
+    - R
+    - E
+    - A
+    - D
+    - P
+    - r
+    - o.30pt
+    - d
+    - u.30pt
+    - c
+    - e
+    - r.30pt
+    - s.30pt
+    x_height_px: 111.0
+    stem_px: 18.0
+    scale: 4.38871
+    stem_units: 79.0
+    x_height: 487
+  466:24pt:
+    n_caps: 8
+    cap_height_px: 119.5
+    cap_source: caps
+    baseline_px: 1773.0
+    baselines:
+      '3': 1773.0
+    glyphs:
+    - I.24pt
+    - n
+    - c.24pt
+    - o.24pt
+    - n.24pt
+    - s.24pt
+    - i
+    - s.24pt_2
+    - t
+    - e.24pt
+    - n.24pt_2
+    - t.24pt
+    - R.24pt
+    - E.24pt
+    - M
+    - A.24pt
+    - R.24pt_2
+    - K
+    - S.24pt
+    x_height_px: 83
+    stem_px: 15.0
+    scale: 5.85774
+    stem_units: 87.9
+    x_height: 486
+specimen_lines:
+- leaf: 466
+  line: 36pt
+  text: Famous SIGNS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 466
+  line: 30pt
+  text: BREAD Prod ucers
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 466
+  line: 24pt
+  text: I nconsistent REMARKS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

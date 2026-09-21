@@ -1,0 +1,86 @@
+name: caslon-bold-atf1923
+title: Caslon Bold
+series: Caslon Bold
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 458
+leaf_pages:
+  458: 158
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      458:96pt: 50.8
+      458:72pt: 33.0
+  x_height: 722
+lines:
+  458:96pt:
+    n_caps: 6
+    cap_height_px: 275.5
+    cap_source: caps
+    baseline_px: 992.5
+    baselines:
+      '2': 992.5
+    glyphs:
+    - S
+    - a
+    - i
+    - l
+    - V
+    - W
+    - X
+    - Y
+    - Z
+    - ampersand
+    - dollar
+    x_height_px: 326
+    stem_px: 5.0
+    scale: 2.54083
+    stem_units: 12.7
+    x_height: 828
+  458:72pt:
+    n_caps: 1
+    cap_height_px: 276
+    cap_source: caps
+    baseline_px: 1597
+    baselines:
+      '3': 1597
+    glyphs:
+    - B
+    - e
+    - l.72pt
+    - t
+    x_height_px: 243
+    stem_px: 53
+    scale: 2.53623
+    stem_units: 134.4
+    x_height: 616
+specimen_lines:
+- leaf: 458
+  line: 96pt
+  text: Sail VWXYZ&$
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 458
+  line: 72pt
+  text: Belt ~ ~
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

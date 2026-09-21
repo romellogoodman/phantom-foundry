@@ -1,0 +1,77 @@
+name: hkuck-title-inland1897
+title: Hkuck Title
+series: Hkuck Title
+status: proto
+version: 0.1.0
+book: specimenbookcata00inlauoft
+source:
+  archive_id: specimenbookcata00inlauoft
+  title: Specimen book and catalog; a price list of printers' supplies, showing types
+    and rules in which are embodied all the latest ideas that enable the printer to
+    produce superior work ..
+  creator: Inland Type Foundry, St. Louis
+  publisher: St. Louis, Inland Type Foundry
+  date: '1897'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inlauoft
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: Robarts - University of Toronto
+  leaves:
+  - 81
+leaf_pages:
+  81: 79
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      81:24pt: 44.9
+lines:
+  81:24pt:
+    n_caps: 17
+    cap_height_px: 156
+    cap_source: caps
+    baseline_px: 726.5
+    baselines:
+      '2': 726.5
+      '3': 964
+    glyphs:
+    - N
+    - E
+    - A
+    - T
+    - C
+    - A.24pt
+    - P
+    - S
+    - L
+    - I
+    - G
+    - H
+    - T.24pt
+    - F
+    - A.24pt_2
+    - C.24pt
+    - E.24pt
+    - six
+    figure_height_px: 155
+    stem_px: 16
+    scale: 4.48718
+    stem_units: 71.8
+    figure_height: 696
+specimen_lines:
+- leaf: 81
+  line: 24pt
+  text: NEAT CAPS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 81
+  line: 24pt
+  text: LIGHT FACE 6
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

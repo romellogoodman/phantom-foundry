@@ -1,0 +1,169 @@
+name: french-ionic-atf1896
+title: French Ionic.
+series: French Ionic.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 442
+leaf_pages:
+  442: 438
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      442:48pt: 41.5
+      442:42pt: 25.9
+      442:36pt: 34.3
+      442:30pt: 38.9
+  x_height: 498
+lines:
+  442:48pt:
+    n_caps: 6
+    cap_height_px: 320.5
+    cap_source: caps
+    baseline_px: 1012
+    baselines:
+      '1': 1012
+      '2': 1503
+    glyphs:
+    - H
+    - O
+    - N
+    - E
+    - Y
+    - S
+    - o
+    - l
+    - e
+    - s
+    - two
+    x_height_px: 224.0
+    figure_height_px: 313
+    stem_px: 39.5
+    scale: 2.18409
+    stem_units: 86.3
+    x_height: 489
+    figure_height: 684
+  442:42pt:
+    n_caps: 1
+    cap_height_px: 243
+    cap_source: caps
+    baseline_px: 2587
+    baselines:
+      '4': 2587
+    glyphs:
+    - G
+    - r
+    - a
+    - i
+    - n
+    - s.42pt
+    - three
+    x_height_px: 173
+    figure_height_px: 238
+    stem_px: 29
+    scale: 2.88066
+    stem_units: 83.5
+    x_height: 498
+    figure_height: 686
+  442:36pt:
+    n_caps: 7
+    cap_height_px: 235
+    cap_source: caps
+    baseline_px: 2161
+    baselines:
+      '3': 2161
+    glyphs:
+    - T
+    - A
+    - N.36pt
+    - G.36pt
+    - L
+    - E.36pt
+    - D
+    stem_px: 29
+    scale: 2.97872
+    stem_units: 86.4
+  442:30pt:
+    n_caps: 9
+    cap_height_px: 180
+    cap_source: caps
+    baseline_px: 3232.0
+    baselines:
+      '5': 3232.0
+      '6': 3580
+    glyphs:
+    - F
+    - A.30pt
+    - K
+    - E.30pt
+    - R
+    - A.30pt_2
+    - I
+    - N.30pt
+    - N.30pt_2
+    - a.30pt
+    - t
+    - i.30pt
+    - v
+    - e.30pt
+    - five
+    - four
+    x_height_px: 131
+    figure_height_px: 178.0
+    stem_px: 19
+    scale: 3.88889
+    stem_units: 73.9
+    x_height: 509
+    figure_height: 692
+specimen_lines:
+- leaf: 442
+  line: 48pt
+  text: HONEY
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 442
+  line: 48pt
+  text: Soles 2
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 442
+  line: 42pt
+  text: Grains 3
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 442
+  line: 36pt
+  text: TANGLED
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 442
+  line: 30pt
+  text: FAKE RAIN
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 442
+  line: 30pt
+  text: Native 54
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,82 @@
+name: broadgauge-atf1897
+title: Broadgauge
+series: Brohdghuge
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 258
+leaf_pages:
+  258: 256
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      258:40pt: 69.0
+      258:18pt: 60.4
+lines:
+  258:40pt:
+    n_caps: 4
+    cap_height_px: 314.5
+    cap_source: caps
+    baseline_px: 1061.5
+    baselines:
+      '1': 1061.5
+    glyphs:
+    - C
+    - O
+    - N
+    - E
+    stem_px: 99.5
+    scale: 2.22576
+    stem_units: 221.5
+  258:18pt:
+    n_caps: 8
+    cap_height_px: 139.0
+    cap_source: caps
+    baseline_px: 2758.0
+    baselines:
+      '5': 2758.0
+    glyphs:
+    - B
+    - O.18pt
+    - N.18pt
+    - D
+    - G
+    - R
+    - A
+    - B.18pt
+    stem_px: 50.5
+    scale: 5.03597
+    stem_units: 254.3
+specimen_lines:
+- leaf: 258
+  line: 40pt
+  text: CONE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 258
+  line: 18pt
+  text: BO ND GRAB
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Brohdghuge
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

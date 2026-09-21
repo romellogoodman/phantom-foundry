@@ -1,0 +1,102 @@
+name: broadgauge-atf1902a
+title: Broadgauge
+series: Broadgauge
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 600
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      600:42pt: 104.4
+      600:30pt: 67.1
+      600:24pt: 94.6
+lines:
+  600:42pt:
+    n_caps: 5
+    cap_height_px: 238
+    cap_source: caps
+    baseline_px: 884
+    baselines:
+      '1': 884
+    glyphs:
+    - H
+    - O
+    - M
+    - E
+    - S
+    stem_px: 72
+    scale: 2.94118
+    stem_units: 211.8
+  600:30pt:
+    n_caps: 6
+    cap_height_px: 182.5
+    cap_source: caps
+    baseline_px: 1291.0
+    baselines:
+      '2': 1291.0
+    glyphs:
+    - S.30pt
+    - O.30pt
+    - N
+    - R
+    - U
+    - M.30pt
+    stem_px: 56.5
+    scale: 3.83562
+    stem_units: 216.7
+  600:24pt:
+    n_caps: 7
+    cap_height_px: 111
+    cap_source: caps
+    baseline_px: 3332
+    baselines:
+      '5': 3332
+    glyphs:
+    - S.24pt
+    - U.24pt
+    - N.24pt
+    - H.24pt
+    - O.24pt
+    - S.24pt_2
+    - E.24pt
+    stem_px: 36
+    scale: 6.30631
+    stem_units: 227.0
+specimen_lines:
+- leaf: 600
+  line: 42pt
+  text: HOMES
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 600
+  line: 30pt
+  text: SON RUM
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 600
+  line: 24pt
+  text: SUN HOSE
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

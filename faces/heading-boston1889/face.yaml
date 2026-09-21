@@ -1,0 +1,58 @@
+name: heading-boston1889
+title: Heading
+series: Heading
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 119
+leaf_pages:
+  119: 113
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      119:48pt: 44.7
+lines:
+  119:48pt:
+    n_caps: 7
+    cap_height_px: 180
+    cap_source: caps
+    baseline_px: 1112
+    baselines:
+      '3': 1112
+    glyphs:
+    - E
+    - V
+    - E.48pt
+    - N
+    - I
+    - N.48pt
+    - G
+    stem_px: 10
+    scale: 3.88889
+    stem_units: 38.9
+specimen_lines:
+- leaf: 119
+  line: 48pt
+  text: EVENING
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

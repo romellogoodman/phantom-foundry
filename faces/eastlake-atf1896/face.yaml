@@ -1,0 +1,100 @@
+name: eastlake-atf1896
+title: Eastlake.
+series: Eastlake.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 368
+leaf_pages:
+  368: 364
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      368:36pt: 37.3
+      368:18pt: 62.9
+lines:
+  368:36pt:
+    n_caps: 16
+    cap_height_px: 262.5
+    cap_source: caps
+    baseline_px: 906.5
+    baselines:
+      '1': 906.5
+      '2': 1258.5
+    glyphs:
+    - A
+    - R
+    - T
+    - F
+    - A.36pt
+    - K
+    - E
+    - S
+    - B
+    - E.36pt
+    - A.36pt_2
+    - U
+    - T.36pt
+    - I
+    - E.36pt_2
+    - S.36pt
+    stem_px: 7.0
+    scale: 2.66667
+    stem_units: 18.7
+  368:18pt:
+    n_caps: 9
+    cap_height_px: 128
+    cap_source: caps
+    baseline_px: 2332
+    baselines:
+      '6': 2332
+    glyphs:
+    - I.18pt
+    - N
+    - N.18pt
+    - E.18pt
+    - W
+    - Y
+    - O
+    - R.18pt
+    - K.18pt
+    stem_px: 6
+    scale: 5.46875
+    stem_units: 32.8
+specimen_lines:
+- leaf: 368
+  line: 36pt
+  text: ~ART~FAKES~
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 368
+  line: 36pt
+  text: BEAUTIES
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 368
+  line: 18pt
+  text: IN NEW YORK
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

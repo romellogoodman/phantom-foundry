@@ -1,0 +1,106 @@
+name: extended-clarendon-atf1902a
+title: Extended Clarendon
+series: Extended Clarendon
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 598
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      598:30pt: 66.5
+      598:24pt: 76.3
+lines:
+  598:30pt:
+    n_caps: 13
+    cap_height_px: 158
+    cap_source: caps
+    baseline_px: 802.0
+    baselines:
+      '1': 802.0
+      '2': 1053
+    glyphs:
+    - P
+    - R
+    - I
+    - N
+    - T
+    - I.30pt
+    - N.30pt
+    - G
+    - W
+    - H
+    - I.30pt_2
+    - T.30pt
+    - E
+    stem_px: 24
+    scale: 4.43038
+    stem_units: 106.3
+  598:24pt:
+    n_caps: 14
+    cap_height_px: 128.5
+    cap_source: caps
+    baseline_px: 1405.5
+    baselines:
+      '3': 1405.5
+      '4': 1628.0
+    glyphs:
+    - G.24pt
+    - O
+    - L
+    - D
+    - B
+    - A
+    - N.24pt
+    - K
+    - H.24pt
+    - E.24pt
+    - S
+    - T.24pt
+    - O.24pt
+    - N.24pt_2
+    stem_px: 18.5
+    scale: 5.44747
+    stem_units: 100.8
+specimen_lines:
+- leaf: 598
+  line: 30pt
+  text: PRINTING
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 598
+  line: 30pt
+  text: WHITE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 598
+  line: 24pt
+  text: GOLD BANK
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 598
+  line: 24pt
+  text: HESTON
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

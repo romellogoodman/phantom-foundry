@@ -1,0 +1,67 @@
+name: geometric-antique-atf1896
+title: Geometric Antique.
+series: Geometric Antique.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 373
+leaf_pages:
+  373: 369
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      373:36pt: 61.8
+  x_height: 472
+lines:
+  373:36pt:
+    n_caps: 1
+    cap_height_px: 221
+    cap_source: caps
+    baseline_px: 2130
+    baselines:
+      '4': 2130
+    glyphs:
+    - A
+    - c
+    - t
+    - u
+    - a
+    - t.36pt
+    - e
+    - s
+    - dollar
+    - two
+    x_height_px: 149
+    figure_height_px: 205
+    stem_px: 31
+    scale: 3.16742
+    stem_units: 98.2
+    x_height: 472
+    figure_height: 649
+specimen_lines:
+- leaf: 373
+  line: 36pt
+  text: Actuates $2
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

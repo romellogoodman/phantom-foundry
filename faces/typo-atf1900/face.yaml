@@ -1,0 +1,71 @@
+name: typo-atf1900
+title: Typo
+series: Typo
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 449
+leaf_pages:
+  449: 7590
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      449:48pt: 53.3
+  x_height: 514
+lines:
+  449:48pt:
+    n_caps: 9
+    cap_height_px: 256
+    cap_source: caps
+    baseline_px: 1515
+    baselines:
+      '2': 1515
+    glyphs:
+    - G
+    - r
+    - e
+    - n
+    - a
+    - d
+    - i
+    - n.48pt
+    - e.48pt
+    - s
+    - L
+    - A
+    - U
+    - N
+    - D
+    - R
+    - I
+    - E
+    x_height_px: 188
+    stem_px: 26
+    scale: 2.73438
+    stem_units: 71.1
+    x_height: 514
+specimen_lines:
+- leaf: 449
+  line: 48pt
+  text: Grenadines LAUNDRIE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

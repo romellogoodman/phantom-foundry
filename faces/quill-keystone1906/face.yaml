@@ -1,0 +1,60 @@
+name: quill-keystone1906
+title: Quill
+series: Quill
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 272
+  - 273
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      273:60pt: 28.8
+  x_height: 443
+lines:
+  273:60pt:
+    n_caps: 1
+    cap_height_px: 340
+    cap_source: caps
+    baseline_px: 2022
+    baselines:
+      '3': 2022
+    glyphs:
+    - R
+    - o
+    - b
+    - u
+    - s
+    - t
+    x_height_px: 215
+    stem_px: 37
+    scale: 2.05882
+    stem_units: 76.2
+    x_height: 443
+specimen_lines:
+- leaf: 273
+  line: 60pt
+  text: Robust
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

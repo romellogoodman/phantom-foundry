@@ -1,0 +1,139 @@
+name: moslem-boston1889
+title: Moslem
+series: Moslem
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 195
+leaf_pages:
+  195: 189
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      195:48pt: 29.1
+      195:40pt: 34.9
+  x_height: 482
+lines:
+  195:48pt:
+    n_caps: 3
+    cap_height_px: 265
+    cap_source: caps
+    baseline_px: 1505
+    baselines:
+      '3': 1505
+    glyphs:
+    - S
+    - a
+    - i
+    - l
+    - i.48pt
+    - n
+    - g
+    - comma
+    - H
+    - u
+    - n.48pt
+    - t
+    - i.48pt_2
+    - n.48pt_2
+    - g.48pt
+    - comma.48pt
+    - S.48pt
+    - h
+    - o
+    - o.48pt
+    - t.48pt
+    - i.48pt_3
+    - n.48pt_3
+    - g.48pt_2
+    - three
+    - six
+    x_height_px: 195
+    figure_height_px: 221.5
+    stem_px: 10
+    scale: 2.64151
+    stem_units: 26.4
+    x_height: 515
+    figure_height: 585
+  195:40pt:
+    n_caps: 6
+    cap_height_px: 180.5
+    cap_source: caps
+    baseline_px: 2150.0
+    baselines:
+      '5': 2150.0
+    glyphs:
+    - H.40pt
+    - a.40pt
+    - n.40pt
+    - d
+    - y
+    - M
+    - a.40pt_2
+    - r
+    - i.40pt
+    - n.40pt_2
+    - e
+    - A
+    - c
+    - c.40pt
+    - o.40pt
+    - u.40pt
+    - n.40pt_3
+    - t.40pt
+    - B
+    - o.40pt_2
+    - o.40pt_3
+    - k
+    - s
+    - N
+    - e.40pt
+    - a.40pt_3
+    - r.40pt
+    - l.40pt
+    - y.40pt
+    - R
+    - e.40pt_2
+    - a.40pt_4
+    - d.40pt
+    - y.40pt_2
+    - two
+    - four
+    x_height_px: 116.0
+    figure_height_px: 149.5
+    stem_px: 7.5
+    scale: 3.87812
+    stem_units: 29.1
+    x_height: 450
+    figure_height: 580
+specimen_lines:
+- leaf: 195
+  line: 48pt
+  text: Sailing, Hunting, Shooting 36
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 195
+  line: 40pt
+  text: Handy Marine Account Books Nearly Ready 24
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

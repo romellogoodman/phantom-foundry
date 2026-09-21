@@ -1,0 +1,69 @@
+name: jupiter-boston1889
+title: Jupiter
+series: Jupiter
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 113
+leaf_pages:
+  113: 107
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      113:48pt: 33.2
+  x_height: 470
+lines:
+  113:48pt:
+    n_caps: 2
+    cap_height_px: 147.5
+    cap_source: caps
+    baseline_px: 1118.5
+    baselines:
+      '3': 1118.5
+    glyphs:
+    - R
+    - e
+    - m
+    - a
+    - r
+    - k
+    - a.48pt
+    - b
+    - l
+    - e.48pt
+    - P
+    - l.48pt
+    - u
+    - c
+    - k.48pt
+    x_height_px: 99
+    stem_px: 11.5
+    scale: 4.74576
+    stem_units: 54.6
+    x_height: 470
+specimen_lines:
+- leaf: 113
+  line: 48pt
+  text: Remarkable Pluck
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

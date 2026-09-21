@@ -1,0 +1,62 @@
+name: artcraft-bold-atf1923
+title: Artcraft Bold
+series: Artcraft Bold
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 392
+leaf_pages:
+  392: 90
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      392:36pt: 530.0
+lines:
+  392:36pt:
+    n_caps: 13
+    cap_height_px: 70
+    cap_source: caps
+    baseline_px: 2026
+    baselines:
+      '5': 2026
+    glyphs:
+    - H
+    - U
+    - N
+    - T
+    - S
+    - I
+    - J
+    - K
+    - L
+    - M
+    - N.36pt
+    - O
+    - P
+    stem_px: 12
+    scale: 10.0
+    stem_units: 120.0
+specimen_lines:
+- leaf: 392
+  line: 36pt
+  text: HUNTS IJKLMNOP
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

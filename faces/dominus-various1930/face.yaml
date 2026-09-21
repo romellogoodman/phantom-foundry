@@ -1,0 +1,118 @@
+name: dominus-various1930
+title: Dominus
+series: Dominus
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 135
+leaf_pages:
+  135: 123
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      135:48pt: 26.5
+      135:36pt: 28.3
+  x_height: 481
+lines:
+  135:48pt:
+    n_caps: 3
+    cap_height_px: 185
+    cap_source: caps
+    baseline_px: 655.0
+    baselines:
+      '1': 655.0
+      '2': 894
+    glyphs:
+    - G
+    - l
+    - o
+    - r
+    - i
+    - o.48pt
+    - u
+    - s
+    - D
+    - e
+    - v
+    - o.48pt_2
+    - n
+    - f
+    - o.48pt_3
+    - r.48pt
+    - H
+    - o.48pt_4
+    - l.48pt
+    - i.48pt
+    - d
+    - a
+    - y
+    - s.48pt
+    x_height_px: 128
+    stem_px: 6
+    scale: 3.78378
+    stem_units: 22.7
+    x_height: 484
+  135:36pt:
+    n_caps: 2
+    cap_height_px: 136.0
+    cap_source: caps
+    baseline_px: 1183.0
+    baselines:
+      '3': 1183.0
+    glyphs:
+    - R
+    - a.36pt
+    - m
+    - b
+    - l.36pt
+    - e.36pt
+    - s.36pt
+    - a.36pt_2
+    - n.36pt
+    - d.36pt
+    - O
+    - u.36pt
+    - t
+    - i.36pt
+    - n.36pt_2
+    - g
+    - s.36pt_2
+    x_height_px: 93
+    stem_px: 5.0
+    scale: 5.14706
+    stem_units: 25.7
+    x_height: 479
+specimen_lines:
+- leaf: 135
+  line: 48pt
+  text: Glorious Devon
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 135
+  line: 48pt
+  text: for Holidays
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 135
+  line: 36pt
+  text: Rambles and Outings
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,279 @@
+name: french-antique-atf1896
+title: French Antique.
+series: French Antique.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 398
+  - 399
+leaf_pages:
+  398: 394
+  399: 395
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      398:48pt: 32.0
+      398:42pt: 45.3
+      398:36pt: 51.9
+      399:30pt: 30.1
+      399:20pt: 35.1
+      399:18pt: 23.0
+  x_height: 563
+lines:
+  398:48pt:
+    n_caps: 6
+    cap_height_px: 371.5
+    cap_source: caps
+    baseline_px: 1066
+    baselines:
+      '1': 1066
+      '2': 1564
+    glyphs:
+    - H
+    - A
+    - R
+    - M
+    - S
+    - T
+    - r
+    - a
+    - d
+    - e
+    - one
+    x_height_px: 316.0
+    figure_height_px: 369
+    stem_px: 48.0
+    scale: 1.88425
+    stem_units: 90.4
+    x_height: 595
+    figure_height: 695
+  398:42pt:
+    n_caps: 9
+    cap_height_px: 309
+    cap_source: caps
+    baseline_px: 2212
+    baselines:
+      '3': 2212
+      '4': 2661.5
+    glyphs:
+    - M.42pt
+    - I
+    - S.42pt
+    - T.42pt
+    - E
+    - R.42pt
+    - S.42pt_2
+    - P
+    - i
+    - e.42pt
+    - three
+    - P.42pt
+    - i.42pt
+    - t
+    x_height_px: 296.5
+    figure_height_px: 307
+    stem_px: 40
+    scale: 2.26537
+    stem_units: 90.6
+    x_height: 672
+    figure_height: 695
+  398:36pt:
+    n_caps: 9
+    cap_height_px: 236
+    cap_source: caps
+    baseline_px: 3229
+    baselines:
+      '5': 3229
+    glyphs:
+    - B
+    - O
+    - T.36pt
+    - S.36pt
+    - F
+    - O.36pt
+    - R.36pt
+    - D
+    - S.36pt_2
+    stem_px: 32
+    scale: 2.9661
+    stem_units: 94.9
+  399:30pt:
+    n_caps: 12
+    cap_height_px: 186.0
+    cap_source: caps
+    baseline_px: 877.0
+    baselines:
+      '1': 877.0
+      '2': 1162.0
+    glyphs:
+    - B.30pt
+    - A.30pt
+    - L
+    - D.30pt
+    - C
+    - H.30pt
+    - E.30pt
+    - Q
+    - U
+    - E.30pt_2
+    - L.30pt
+    - o
+    - s
+    - t.30pt
+    - one.30pt
+    - two
+    - F.30pt
+    - o.30pt
+    - u
+    - r.30pt
+    x_height_px: 141.0
+    figure_height_px: 183.5
+    stem_px: 23.0
+    scale: 3.76344
+    stem_units: 86.6
+    x_height: 531
+    figure_height: 691
+  399:20pt:
+    n_caps: 14
+    cap_height_px: 139.5
+    cap_source: caps
+    baseline_px: 1581.0
+    baselines:
+      '3': 1581.0
+    glyphs:
+    - S.20pt
+    - A.20pt
+    - T.20pt
+    - A.20pt_2
+    - N
+    - I.20pt
+    - C.20pt
+    - U.20pt
+    - N.20pt
+    - I.20pt_2
+    - F.20pt
+    - O.20pt
+    - R.20pt
+    - M.20pt
+    stem_px: 17.5
+    scale: 5.01792
+    stem_units: 87.8
+  399:18pt:
+    n_caps: 15
+    cap_height_px: 122
+    cap_source: caps
+    baseline_px: 2156
+    baselines:
+      '5': 2156
+      '6': 2356.0
+    glyphs:
+    - G
+    - R.18pt
+    - A.18pt
+    - N.18pt
+    - D.18pt
+    - G.18pt
+    - U.18pt
+    - A.18pt_2
+    - R.18pt_2
+    - D.18pt_2
+    - S.18pt
+    - C.18pt
+    - E.18pt
+    - I.18pt
+    - n
+    - v
+    - o.18pt
+    - l
+    - v.18pt
+    - e.18pt
+    - d.18pt
+    - four
+    - five
+    - C.18pt_2
+    - r.18pt
+    - u.18pt
+    - s.18pt
+    - a.18pt
+    - d.18pt_2
+    - e.18pt_2
+    - r.18pt_2
+    x_height_px: 89.0
+    figure_height_px: 121.0
+    stem_px: 16
+    scale: 5.7377
+    stem_units: 91.8
+    x_height: 511
+    figure_height: 694
+specimen_lines:
+- leaf: 398
+  line: 48pt
+  text: HARMS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 398
+  line: 48pt
+  text: Trade 1
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 398
+  line: 42pt
+  text: MISTERS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 398
+  line: 42pt
+  text: Pie 3 Pit
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 398
+  line: 36pt
+  text: BOTSFORDS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 399
+  line: 30pt
+  text: BALD CHEQUE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 399
+  line: 30pt
+  text: Lost 12 Four
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 399
+  line: 20pt
+  text: SATANIC UNIFORM
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 399
+  line: 18pt
+  text: GRAN DGUA RDSCE
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 399
+  line: 18pt
+  text: Involved 45 Crusader
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

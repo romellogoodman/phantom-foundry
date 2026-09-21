@@ -1,0 +1,112 @@
+name: wilson-atf1898
+title: Wilson
+series: Wilson
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 98
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      98:36pt: 33.5
+      98:30pt: 47.9
+  x_height: 599
+lines:
+  98:36pt:
+    n_caps: 1
+    cap_height_px: 167
+    cap_source: caps
+    baseline_px: 769
+    baselines:
+      '2': 769
+      '5': 1518.0
+    glyphs:
+    - T
+    - h
+    - e
+    - f
+    - a
+    - c
+    - u
+    - l
+    - t
+    - y
+    - o
+    - f.36pt
+    - p
+    - s
+    - i
+    - d
+    - e.36pt
+    - a.36pt
+    - s.36pt
+    - a.36pt_2
+    - n
+    - d.36pt
+    - i.36pt
+    - m
+    x_height_px: 112
+    stem_px: 18
+    scale: 4.19162
+    stem_units: 75.4
+    x_height: 469
+  98:30pt:
+    n_caps: 1
+    cap_height_px: 146
+    cap_source: caps
+    baseline_px: 3271
+    baselines:
+      '9': 3271
+    glyphs:
+    - V
+    - e.30pt
+    - s.30pt
+    - a.30pt
+    - n.30pt
+    - d.30pt
+    - r
+    - e.30pt_2
+    - t.30pt
+    - a.30pt_2
+    x_height_px: 152
+    stem_px: 14
+    scale: 4.79452
+    stem_units: 67.1
+    x_height: 729
+specimen_lines:
+- leaf: 98
+  line: 36pt
+  text: Th e faculty of
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 98
+  line: 36pt
+  text: p s idea sand im
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 98
+  line: 30pt
+  text: Ves and reta
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash

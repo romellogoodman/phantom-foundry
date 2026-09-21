@@ -1,0 +1,65 @@
+name: model-black-farmer1899
+title: Model Black.
+series: Model Black.
+status: proto
+version: 0.1.0
+book: abridgedspecimen00adfa
+source:
+  archive_id: abridgedspecimen00adfa
+  title: 'Abridged specimen book : type, borders, brass rules, ornaments and price
+    list of printing machinery, furniture, fixtures and material'
+  creator: A.D. Farmer & Son Type Founding Co
+  publisher: 'Chicago : The Company'
+  date: '1899'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00adfa
+  copyright_status: null
+  contributor: University of Illinois Urbana-Champaign
+  leaves:
+  - 162
+leaf_pages:
+  162: 158
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      162:28pt: 30.2
+  x_height: 474
+lines:
+  162:28pt:
+    n_caps: 2
+    cap_height_px: 150.5
+    cap_source: caps
+    baseline_px: 3059.0
+    baselines:
+      '6': 3059.0
+    glyphs:
+    - B
+    - o
+    - s
+    - t
+    - o.28pt
+    - n
+    - C
+    - y
+    - c
+    - l
+    - e
+    - s.28pt
+    x_height_px: 102.0
+    stem_px: 9.0
+    scale: 4.65116
+    stem_units: 41.9
+    x_height: 474
+specimen_lines:
+- leaf: 162
+  line: 28pt
+  text: Boston Cycles
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,100 @@
+name: jefferson-atf1897
+title: Jefferson
+series: Jefferson
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 414
+leaf_pages:
+  414: 412
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      414:36pt: 51.3
+      414:30pt: 57.8
+  x_height: 500
+lines:
+  414:36pt:
+    n_caps: 7
+    cap_height_px: 232
+    cap_source: caps
+    baseline_px: 3559
+    baselines:
+      '5': 3559
+    glyphs:
+    - S
+    - U
+    - M
+    - M.36pt
+    - E
+    - R
+    - S.36pt
+    - h
+    - o
+    - w
+    - e
+    - r
+    x_height_px: 157
+    stem_px: 25
+    scale: 3.01724
+    stem_units: 75.4
+    x_height: 474
+  414:30pt:
+    n_caps: 8
+    cap_height_px: 169.5
+    cap_source: caps
+    baseline_px: 4029.5
+    baselines:
+      '6': 4029.5
+    glyphs:
+    - P
+    - a
+    - r.30pt
+    - a.30pt
+    - m
+    - o.30pt
+    - u
+    - n
+    - t
+    - S.30pt
+    - E.30pt
+    - C
+    - R.30pt
+    - E.30pt_2
+    - T
+    - S.30pt_2
+    x_height_px: 127.5
+    stem_px: 16.5
+    scale: 4.12979
+    stem_units: 68.1
+    x_height: 527
+specimen_lines:
+- leaf: 414
+  line: 36pt
+  text: SU MMER Shower
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 414
+  line: 30pt
+  text: Paramount SECRETS
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

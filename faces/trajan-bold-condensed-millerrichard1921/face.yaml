@@ -1,0 +1,149 @@
+name: trajan-bold-condensed-millerrichard1921
+title: Trajan Bold Condensed
+series: Trajan Bold Condensed
+status: proto
+version: 0.1.0
+book: printingtypespec00millrich
+source:
+  archive_id: printingtypespec00millrich
+  title: Printing type specimens, comprising a large variety of book and jobbing faces,
+    borders and ornaments
+  creator: Miller & Richard (Firm)
+  publisher: Edinburgh, London
+  date: '[1921?]'
+  ppi: 300
+  url: https://archive.org/details/printingtypespec00millrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 221
+leaf_pages:
+  221: 331
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      221:60pt: 32.8
+      221:42pt: 41.8
+  x_height: 447
+lines:
+  221:60pt:
+    n_caps: 16
+    cap_height_px: 192.0
+    cap_source: caps
+    baseline_px: 530.0
+    baselines:
+      '1': 530.0
+      '2': 838.5
+    glyphs:
+    - E
+    - C
+    - C.60pt
+    - L
+    - E.60pt
+    - S
+    - I
+    - A
+    - S.60pt
+    - T
+    - I.60pt
+    - C.60pt_2
+    - A.60pt
+    - L.60pt
+    - C.60pt_3
+    - h
+    - u
+    - r
+    - c
+    - h.60pt
+    - R
+    - e
+    - c.60pt
+    - o
+    - r.60pt
+    - d
+    - s
+    x_height_px: 123
+    stem_px: 21.0
+    scale: 3.64583
+    stem_units: 76.6
+    x_height: 448
+  221:42pt:
+    n_caps: 20
+    cap_height_px: 134.0
+    cap_source: caps
+    baseline_px: 2588
+    baselines:
+      '4': 2588
+      '5': 2809
+    glyphs:
+    - C.42pt
+    - O
+    - M
+    - M.42pt
+    - E.42pt
+    - R.42pt
+    - C.42pt_2
+    - E.42pt_2
+    - P
+    - R.42pt_2
+    - O.42pt
+    - T.42pt
+    - E.42pt_3
+    - C.42pt_3
+    - T.42pt_2
+    - E.42pt_4
+    - D
+    - E.42pt_5
+    - f
+    - f.42pt
+    - i
+    - c.42pt
+    - i.42pt
+    - e.42pt
+    - n
+    - t
+    - N
+    - a
+    - v
+    - a.42pt
+    - l
+    - C.42pt_4
+    - o.42pt
+    - n.42pt
+    - t.42pt
+    - r.42pt
+    - o.42pt_2
+    - l.42pt
+    x_height_px: 85.5
+    stem_px: 14.5
+    scale: 5.22388
+    stem_units: 75.7
+    x_height: 447
+specimen_lines:
+- leaf: 221
+  line: 60pt
+  text: ECCLESIASTICAL
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 221
+  line: 60pt
+  text: Church Records
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 221
+  line: 42pt
+  text: COMMERCE PROTECTED
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 221
+  line: 42pt
+  text: Efficient Naval Control
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,96 @@
+name: satanick-atf1897
+title: Satanick
+series: Sathniek
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 526
+leaf_pages:
+  526: 524
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      526:54pt: 12.9
+      526:48pt: 19.9
+  x_height: 585
+lines:
+  526:54pt:
+    n_caps: 2
+    cap_height_px: 380.5
+    cap_source: caps
+    baseline_px: 2698.0
+    baselines:
+      '3': 2698.0
+    glyphs:
+    - L
+    - o
+    - s
+    - t
+    - three
+    - C
+    - a
+    - r
+    x_height_px: 259
+    figure_height_px: 258
+    stem_px: 64.0
+    scale: 1.83968
+    stem_units: 117.7
+    x_height: 476
+    figure_height: 475
+  526:48pt:
+    n_caps: 2
+    cap_height_px: 334.0
+    cap_source: caps
+    baseline_px: 3354.5
+    baselines:
+      '4': 3354.5
+    glyphs:
+    - eight
+    - B
+    - o.48pt
+    - l
+    - d
+    - K
+    - i
+    - c
+    - k
+    x_height_px: 331.0
+    figure_height_px: 329
+    stem_px: 60.0
+    scale: 2.09581
+    stem_units: 125.7
+    x_height: 694
+    figure_height: 690
+specimen_lines:
+- leaf: 526
+  line: 54pt
+  text: Lost 3 Car
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 526
+  line: 48pt
+  text: 8 Bold Kick
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Sathniek
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

@@ -1,0 +1,133 @@
+name: gothic-cleveland1895
+title: Gothic
+series: Gothic
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 115
+  - 116
+leaf_pages:
+  115: 111
+  116: 112
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      115:40pt: 53.4
+      116:30pt: 63.5
+  x_height: 536
+lines:
+  115:40pt:
+    n_caps: 12
+    cap_height_px: 236.0
+    cap_source: caps
+    baseline_px: 548.0
+    baselines:
+      '1': 548.0
+      '2': 910.0
+    glyphs:
+    - O
+    - N
+    - E
+    - F
+    - E.40pt
+    - A
+    - T
+    - H
+    - E.40pt_2
+    - R
+    - four
+    - eight
+    - D
+    - e
+    - s
+    - i
+    - r
+    - a
+    - b
+    - l
+    - e.40pt
+    - L
+    - e.40pt_2
+    - t
+    - t.40pt
+    - e.40pt_3
+    - r.40pt
+    - three
+    - six
+    x_height_px: 174
+    figure_height_px: 236.0
+    stem_px: 35.0
+    scale: 2.9661
+    stem_units: 103.8
+    x_height: 516
+    figure_height: 700
+  116:30pt:
+    n_caps: 2
+    cap_height_px: 171.0
+    cap_source: caps
+    baseline_px: 2252.0
+    baselines:
+      '6': 2252.0
+    glyphs:
+    - three.30pt
+    - one
+    - H.30pt
+    - o
+    - c
+    - k
+    - i.30pt
+    - n
+    - g
+    - one.30pt
+    - eight.30pt
+    - four.30pt
+    - six.30pt
+    - S
+    - c.30pt
+    - h
+    - o.30pt
+    - l.30pt
+    - a.30pt
+    - r.30pt
+    - s.30pt
+    x_height_px: 136
+    figure_height_px: 154.5
+    stem_px: 19.5
+    scale: 4.09357
+    stem_units: 79.8
+    x_height: 557
+    figure_height: 632
+specimen_lines:
+- leaf: 115
+  line: 40pt
+  text: ONE FEATHER
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 115
+  line: 40pt
+  text: 48 Desirable Letter 36
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 116
+  line: 30pt
+  text: 31 Hocking 18 46 Scholars
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

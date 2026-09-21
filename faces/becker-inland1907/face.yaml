@@ -1,0 +1,172 @@
+name: becker-inland1907
+title: Becker
+series: Becker
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 161
+leaf_pages:
+  161: 153
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      161:60pt: 39.2
+      161:48pt: 39.9
+      161:30pt: 37.5
+      161:24pt: 39.2
+  x_height: 508
+lines:
+  161:60pt:
+    n_caps: 1
+    cap_height_px: 375
+    cap_source: caps
+    baseline_px: 919
+    baselines:
+      '2': 919
+    glyphs:
+    - E
+    - x
+    - a
+    - m
+    - i
+    - n
+    - e
+    - d
+    x_height_px: 276
+    stem_px: 79
+    scale: 1.86667
+    stem_units: 147.5
+    x_height: 515
+  161:48pt:
+    n_caps: 1
+    cap_height_px: 298
+    cap_source: caps
+    baseline_px: 1426
+    baselines:
+      '3': 1426
+    glyphs:
+    - B
+    - e.48pt
+    - a.48pt
+    - u
+    - t
+    - i.48pt
+    - f
+    - u.48pt
+    - l
+    - l.48pt
+    - y
+    - two
+    x_height_px: 273.0
+    figure_height_px: 291
+    stem_px: 45
+    scale: 2.34899
+    stem_units: 105.7
+    x_height: 641
+    figure_height: 684
+  161:30pt:
+    n_caps: 3
+    cap_height_px: 168
+    cap_source: caps
+    baseline_px: 2264
+    baselines:
+      '5': 2264
+    glyphs:
+    - A
+    - H
+    - a.30pt
+    - n.30pt
+    - d.30pt
+    - s
+    - o
+    - m.30pt
+    - e.30pt
+    - S
+    - y.30pt
+    - s.30pt
+    - t.30pt
+    - e.30pt_2
+    - m.30pt_2
+    - four
+    x_height_px: 119.0
+    figure_height_px: 161
+    stem_px: 28
+    scale: 4.16667
+    stem_units: 116.7
+    x_height: 496
+    figure_height: 671
+  161:24pt:
+    n_caps: 4
+    cap_height_px: 134.0
+    cap_source: caps
+    baseline_px: 2630.0
+    baselines:
+      '6': 2630.0
+    glyphs:
+    - O
+    - u.24pt
+    - r
+    - S.24pt
+    - u.24pt_2
+    - p
+    - e.24pt
+    - r.24pt
+    - i.24pt
+    - o.24pt
+    - r.24pt_2
+    - T
+    - y.24pt
+    - p.24pt
+    - e.24pt_2
+    - F
+    - a.24pt
+    - c
+    - e.24pt_3
+    - s.24pt
+    - six
+    x_height_px: 96.0
+    figure_height_px: 135
+    stem_px: 17.5
+    scale: 5.22388
+    stem_units: 91.4
+    x_height: 501
+    figure_height: 705
+specimen_lines:
+- leaf: 161
+  line: 60pt
+  text: Examined
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 161
+  line: 48pt
+  text: Beautifully 2
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 161
+  line: 30pt
+  text: A H andsome System 4
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 161
+  line: 24pt
+  text: Our Superior Type Faces 6
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

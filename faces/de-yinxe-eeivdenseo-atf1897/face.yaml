@@ -1,0 +1,86 @@
+name: de-yinxe-eeivdenseo-atf1897
+title: De Yinxe Eeivdenseo
+series: De Yinxe Eeivdenseo
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 360
+leaf_pages:
+  360: 358
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      360:42pt: 46.2
+      360:36pt: 55.0
+lines:
+  360:42pt:
+    n_caps: 9
+    cap_height_px: 288
+    cap_source: caps
+    baseline_px: 2059
+    baselines:
+      '3': 2059
+    glyphs:
+    - C
+    - O
+    - A
+    - L
+    - M
+    - I
+    - N
+    - E
+    - S
+    stem_px: 20
+    scale: 2.43056
+    stem_units: 48.6
+  360:36pt:
+    n_caps: 10
+    cap_height_px: 242.0
+    cap_source: caps
+    baseline_px: 2956.0
+    baselines:
+      '5': 2956.0
+    glyphs:
+    - F
+    - R
+    - E.36pt
+    - N.36pt
+    - C.36pt
+    - H
+    - B
+    - O.36pt
+    - N.36pt_2
+    - D
+    stem_px: 23.5
+    scale: 2.89256
+    stem_units: 68.0
+specimen_lines:
+- leaf: 360
+  line: 42pt
+  text: COAL MINES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 360
+  line: 36pt
+  text: FRENCH BOND
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

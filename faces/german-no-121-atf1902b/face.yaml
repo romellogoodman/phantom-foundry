@@ -1,0 +1,72 @@
+name: german-no-121-atf1902b
+title: German No 121
+series: German No
+status: proto
+version: 0.1.0
+book: deskbookoftypesp02amer
+source:
+  archive_id: deskbookoftypesp02amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    2, 11-22)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp02amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 110
+  - 112
+leaf_pages:
+  110: 4
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      112:42pt: 45.8
+  x_height: 776
+lines:
+  112:42pt:
+    n_caps: 2
+    cap_height_px: 183.5
+    cap_source: caps
+    baseline_px: 3665.0
+    baselines:
+      '8': 3665.0
+    glyphs:
+    - G
+    - l
+    - udieresis
+    - c
+    - k
+    - l.42pt
+    - i
+    - c.42pt
+    - h
+    - e
+    - M
+    - e.42pt
+    - n
+    - s
+    x_height_px: 203.5
+    stem_px: 18.0
+    scale: 3.81471
+    stem_units: 68.7
+    x_height: 776
+specimen_lines:
+- leaf: 112
+  line: 42pt
+  text: Glücklic heMens
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: German No
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

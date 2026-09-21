@@ -1,0 +1,127 @@
+name: lightface-no-2-atf1896
+title: Lightface No. 2
+series: Llghtface No
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 560
+  - 564
+leaf_pages:
+  560: 556
+  564: 560
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      564:108pt: 17.4
+      560:72pt: 36.0
+      560:48pt: 52.2
+      560:42pt: 46.2
+lines:
+  564:108pt:
+    n_caps: 3
+    cap_height_px: 684
+    cap_source: caps
+    baseline_px: 3422
+    baselines:
+      '3': 3422
+    glyphs:
+    - P
+    - E
+    - T
+    stem_px: 59
+    scale: 1.02339
+    stem_units: 60.4
+  560:72pt:
+    n_caps: 4
+    cap_height_px: 467.0
+    cap_source: caps
+    baseline_px: 2066.5
+    baselines:
+      '2': 2066.5
+    glyphs:
+    - L
+    - E.72pt
+    - A
+    - R
+    stem_px: 25.5
+    scale: 1.49893
+    stem_units: 38.2
+  560:48pt:
+    n_caps: 6
+    cap_height_px: 295.0
+    cap_source: caps
+    baseline_px: 3521.0
+    baselines:
+      '4': 3521.0
+    glyphs:
+    - M
+    - O
+    - S
+    - L.48pt
+    - E.48pt
+    - M.48pt
+    stem_px: 9.0
+    scale: 2.37288
+    stem_units: 21.4
+  560:42pt:
+    n_caps: 6
+    cap_height_px: 272.5
+    cap_source: caps
+    baseline_px: 2782.0
+    baselines:
+      '3': 2782.0
+    glyphs:
+    - L.42pt
+    - E.42pt
+    - A.42pt
+    - D
+    - E.42pt_2
+    - R.42pt
+    stem_px: 26.0
+    scale: 2.56881
+    stem_units: 66.8
+specimen_lines:
+- leaf: 564
+  line: 108pt
+  text: PET
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 560
+  line: 72pt
+  text: LEAR
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 560
+  line: 48pt
+  text: MOSLEM
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 560
+  line: 42pt
+  text: LEADER
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Llghtface No
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

@@ -1,0 +1,147 @@
+name: latin-extended-atf1902a
+title: Latin Extended
+series: Latin Extended
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 603
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      603:36pt: 49.3
+      603:30pt: 69.2
+      603:24pt: 50.4
+  x_height: 509
+lines:
+  603:36pt:
+    n_caps: 5
+    cap_height_px: 213
+    cap_source: caps
+    baseline_px: 880.5
+    baselines:
+      '1': 880.5
+      '2': 1163
+    glyphs:
+    - N
+    - I
+    - C
+    - E
+    - D
+    - i
+    - n
+    - n.36pt
+    - e
+    - r
+    - s
+    x_height_px: 149.0
+    stem_px: 61
+    scale: 3.28638
+    stem_units: 200.5
+    x_height: 490
+  603:30pt:
+    n_caps: 6
+    cap_height_px: 172.0
+    cap_source: caps
+    baseline_px: 1584
+    baselines:
+      '3': 1584
+      '4': 1828
+    glyphs:
+    - F
+    - R
+    - I.30pt
+    - E.30pt
+    - D.30pt
+    - P
+    - h
+    - e.30pt
+    - a
+    - s.30pt
+    - a.30pt
+    - n.30pt
+    - t
+    x_height_px: 125
+    stem_px: 77.0
+    scale: 4.06977
+    stem_units: 313.4
+    x_height: 509
+  603:24pt:
+    n_caps: 7
+    cap_height_px: 139
+    cap_source: caps
+    baseline_px: 2213
+    baselines:
+      '5': 2213
+      '6': 2420.5
+    glyphs:
+    - G
+    - R.24pt
+    - A
+    - N.24pt
+    - D.24pt
+    - C.24pt
+    - o
+    - r.24pt
+    - n.24pt
+    - B
+    - r.24pt_2
+    - e.24pt
+    - a.24pt
+    - d
+    x_height_px: 106
+    stem_px: 44
+    scale: 5.03597
+    stem_units: 221.6
+    x_height: 534
+specimen_lines:
+- leaf: 603
+  line: 36pt
+  text: NICE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 603
+  line: 36pt
+  text: Dinners
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 603
+  line: 30pt
+  text: FRIED
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 603
+  line: 30pt
+  text: Pheasant
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 603
+  line: 24pt
+  text: GRAND
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 603
+  line: 24pt
+  text: Corn Bread
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,59 @@
+name: cheltenham-bold-extra-condensed-atf1923
+title: Cheltenham Bold Extra Condensed
+series: Cheltenham Bold Extra Condensed
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 418
+  - 420
+leaf_pages:
+  418: 118
+  420: 120
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      420:96pt: 6.4
+lines:
+  420:96pt:
+    n_caps: 8
+    cap_height_px: 439.0
+    cap_source: caps
+    baseline_px: 712.0
+    baselines:
+      '1': 712.0
+    glyphs:
+    - M
+    - U
+    - D
+    - B
+    - R
+    - O
+    - K
+    - E
+    stem_px: 26.0
+    scale: 1.59453
+    stem_units: 41.5
+specimen_lines:
+- leaf: 420
+  line: 96pt
+  text: MUD BROK E
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

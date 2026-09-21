@@ -1,0 +1,152 @@
+name: times-gothic-atf1912
+title: Times Gothic
+series: Times Gothic
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 774
+leaf_pages:
+  774: 752
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      774:72pt: 63.4
+      774:60pt: 78.2
+      774:54pt: 82.4
+  x_height: 502
+lines:
+  774:72pt:
+    n_caps: 5
+    cap_height_px: 309
+    cap_source: caps
+    baseline_px: 1993
+    baselines:
+      '3': 1993
+    glyphs:
+    - I
+    - R
+    - O
+    - N
+    - S
+    - t
+    - e
+    - p
+    x_height_px: 300
+    stem_px: 69
+    scale: 2.26537
+    stem_units: 156.3
+    x_height: 680
+  774:60pt:
+    n_caps: 10
+    cap_height_px: 255.0
+    cap_source: caps
+    baseline_px: 2537.0
+    baselines:
+      '4': 2537.0
+      '5': 2868.0
+    glyphs:
+    - C
+    - O.60pt
+    - N.60pt
+    - S.60pt
+    - U
+    - M
+    - E
+    - S.60pt_2
+    - H
+    - e.60pt
+    - r
+    - o
+    - i
+    - n
+    - e.60pt_2
+    - R.60pt
+    - e.60pt_3
+    - a
+    - l
+    x_height_px: 179
+    stem_px: 57.0
+    scale: 2.7451
+    stem_units: 156.5
+    x_height: 491
+  774:54pt:
+    n_caps: 12
+    cap_height_px: 225.0
+    cap_source: caps
+    baseline_px: 3382.0
+    baselines:
+      '6': 3382.0
+      '7': 3682.0
+    glyphs:
+    - M.54pt
+    - I.54pt
+    - S.54pt
+    - E.54pt
+    - R.54pt
+    - D
+    - I.54pt_2
+    - N.54pt
+    - E.54pt_2
+    - S.54pt_2
+    - R.54pt_2
+    - e.54pt
+    - p.54pt
+    - o.54pt
+    - r.54pt
+    - t.54pt
+    - s
+    - E.54pt_3
+    - x
+    - t.54pt_2
+    - r.54pt_2
+    - a.54pt
+    x_height_px: 161.5
+    stem_px: 51.0
+    scale: 3.11111
+    stem_units: 158.7
+    x_height: 502
+specimen_lines:
+- leaf: 774
+  line: 72pt
+  text: IRON Step
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 774
+  line: 60pt
+  text: CONSUMES
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 774
+  line: 60pt
+  text: Heroine Real
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 774
+  line: 54pt
+  text: MISER DINES
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 774
+  line: 54pt
+  text: Reports Extra
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

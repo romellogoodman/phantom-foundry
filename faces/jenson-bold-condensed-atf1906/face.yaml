@@ -1,0 +1,240 @@
+name: jenson-bold-condensed-atf1906
+title: Jenson Bold Condensed
+series: Jenson Bold Condensed
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 354
+  - 355
+  - 356
+leaf_pages:
+  354: 304
+  355: 305
+  356: 306
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      354:144pt: 8.7
+      354:120pt: 8.4
+      354:96pt: 8.3
+      356:80pt: 5.7
+      355:60pt: 5.4
+      355:42pt: 7.9
+  x_height: 526
+lines:
+  354:144pt:
+    n_caps: 3
+    cap_height_px: 647
+    cap_source: caps
+    baseline_px: 1054
+    baselines:
+      '1': 1054
+    glyphs:
+    - D
+    - I
+    - M
+    - m
+    - e
+    - d
+    x_height_px: 484
+    stem_px: 75
+    scale: 1.08192
+    stem_units: 81.1
+    x_height: 524
+  354:120pt:
+    n_caps: 7
+    cap_height_px: 540
+    cap_source: caps
+    baseline_px: 1836.0
+    baselines:
+      '2': 1836.0
+      '3': 2503
+    glyphs:
+    - R
+    - I.120pt
+    - D.120pt
+    - E
+    - R.120pt
+    - S
+    - E.120pt
+    - l
+    - e.120pt
+    - c
+    - t
+    - r
+    - i
+    - c.120pt
+    - a
+    - l.120pt
+    x_height_px: 404
+    stem_px: 72
+    scale: 1.2963
+    stem_units: 93.3
+    x_height: 524
+  354:96pt:
+    n_caps: 2
+    cap_height_px: 423.5
+    cap_source: caps
+    baseline_px: 3666.5
+    baselines:
+      '5': 3666.5
+    glyphs:
+    - F
+    - l.96pt
+    - a.96pt
+    - x
+    - e.96pt
+    - n
+    - H
+    - a.96pt_2
+    - i.96pt
+    - r.96pt
+    x_height_px: 319.5
+    stem_px: 59.0
+    scale: 1.65289
+    stem_units: 97.5
+    x_height: 528
+  356:80pt:
+    n_caps: 12
+    cap_height_px: 123.5
+    cap_source: caps
+    baseline_px: 1360.0
+    baselines:
+      '3': 1360.0
+    glyphs:
+    - G
+    - O
+    - V
+    - E.80pt
+    - R.80pt
+    - N
+    - M.80pt
+    - E.80pt_2
+    - N.80pt
+    - T
+    - H.80pt
+    - O.80pt
+    stem_px: 18.5
+    scale: 5.66802
+    stem_units: 104.9
+  355:60pt:
+    n_caps: 12
+    cap_height_px: 258.0
+    cap_source: caps
+    baseline_px: 1561.5
+    baselines:
+      '3': 1561.5
+      '4': 1905.0
+    glyphs:
+    - H.60pt
+    - E.60pt
+    - M.60pt
+    - I.60pt
+    - S.60pt
+    - P
+    - H.60pt_2
+    - E.60pt_2
+    - R.60pt
+    - E.60pt_3
+    - E.60pt_4
+    - n.60pt
+    - t.60pt
+    - h
+    - u
+    - s
+    - i.60pt
+    - a.60pt
+    - s.60pt
+    - m.60pt
+    - G.60pt
+    - r.60pt
+    x_height_px: 200.5
+    stem_px: 35.0
+    scale: 2.71318
+    stem_units: 95.0
+    x_height: 544
+  355:42pt:
+    n_caps: 14
+    cap_height_px: 176.5
+    cap_source: caps
+    baseline_px: 3176.5
+    baselines:
+      '8': 3176.5
+    glyphs:
+    - R.42pt
+    - E.42pt
+    - T.42pt
+    - U
+    - R.42pt_2
+    - N.42pt
+    - E.42pt_2
+    - D.42pt
+    - H.42pt
+    - O.42pt
+    - M.42pt
+    - I.42pt
+    - N.42pt_2
+    - G.42pt
+    stem_px: 24.0
+    scale: 3.96601
+    stem_units: 95.2
+specimen_lines:
+- leaf: 354
+  line: 144pt
+  text: DIMmed
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 354
+  line: 120pt
+  text: RIDERS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 354
+  line: 120pt
+  text: Electrical
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 354
+  line: 96pt
+  text: Flaxen Hair
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 356
+  line: 80pt
+  text: GOVERN MENT HO
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 355
+  line: 60pt
+  text: HEMISPHERE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 355
+  line: 60pt
+  text: Enthusia smGr
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 355
+  line: 42pt
+  text: RETURNED HOMING
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,273 @@
+name: news-gothic-atf1912
+title: News Gothic
+series: News Gothic
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 720
+leaf_pages:
+  720: 698
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      720:72pt: 79.8
+      720:60pt: 82.7
+      720:48pt: 91.0
+      720:42pt: 89.5
+  x_height: 518
+lines:
+  720:72pt:
+    n_caps: 11
+    cap_height_px: 307
+    cap_source: caps
+    baseline_px: 631
+    baselines:
+      '1': 631
+      '2': 1035.0
+    glyphs:
+    - M
+    - I
+    - N
+    - E
+    - R
+    - H
+    - O
+    - M.72pt
+    - E.72pt
+    - N.72pt
+    - a
+    - t
+    - i
+    - o
+    - n
+    - a.72pt
+    - l
+    - S
+    - o.72pt
+    - n.72pt
+    - g
+    x_height_px: 227.5
+    stem_px: 31
+    scale: 2.28013
+    stem_units: 70.7
+    x_height: 519
+  720:60pt:
+    n_caps: 13
+    cap_height_px: 254
+    cap_source: caps
+    baseline_px: 1602
+    baselines:
+      '3': 1602
+      '4': 1937.0
+    glyphs:
+    - D
+    - U
+    - K
+    - E.60pt
+    - M.60pt
+    - A
+    - N.60pt
+    - S.60pt
+    - I.60pt
+    - O.60pt
+    - N.60pt_2
+    - H.60pt
+    - a.60pt
+    - n.60pt
+    - d
+    - s
+    - o.60pt
+    - m
+    - e
+    - P
+    - i.60pt
+    - n.60pt_2
+    - k
+    - s.60pt
+    x_height_px: 188
+    stem_px: 26
+    scale: 2.75591
+    stem_units: 71.7
+    x_height: 518
+  720:48pt:
+    n_caps: 17
+    cap_height_px: 200
+    cap_source: caps
+    baseline_px: 2445.0
+    baselines:
+      '5': 2445.0
+      '6': 2719
+    glyphs:
+    - S.48pt
+    - I.48pt
+    - N.48pt
+    - G
+    - E.48pt
+    - R.48pt
+    - S.48pt_2
+    - C
+    - H.48pt
+    - A.48pt
+    - R.48pt_2
+    - M.48pt
+    - E.48pt_2
+    - D.48pt
+    - C.48pt
+    - h
+    - o.48pt
+    - r
+    - u
+    - s.48pt
+    - G.48pt
+    - i.48pt
+    - r.48pt
+    - l.48pt
+    - s.48pt_2
+    - P.48pt
+    - l.48pt_2
+    - e.48pt
+    - a.48pt
+    - s.48pt_3
+    - e.48pt_2
+    - d.48pt
+    x_height_px: 148
+    stem_px: 20
+    scale: 3.5
+    stem_units: 70.0
+    x_height: 518
+  720:42pt:
+    n_caps: 21
+    cap_height_px: 172
+    cap_source: caps
+    baseline_px: 3208.0
+    baselines:
+      '7': 3208.0
+      '8': 3445
+      '9': 3681.0
+    glyphs:
+    - R.42pt
+    - I.42pt
+    - G.42pt
+    - H.42pt
+    - T
+    - E.42pt
+    - O.42pt
+    - U.42pt
+    - S.42pt
+    - M.42pt
+    - A.42pt
+    - N.42pt
+    - A.42pt_2
+    - G.42pt_2
+    - E.42pt_2
+    - R.42pt_2
+    - H.42pt_2
+    - o.42pt
+    - n.42pt
+    - e.42pt
+    - s.42pt
+    - t.42pt
+    - M.42pt_2
+    - e.42pt_2
+    - r.42pt
+    - c
+    - h.42pt
+    - a.42pt
+    - n.42pt_2
+    - t.42pt_2
+    - S.42pt_2
+    - e.42pt_3
+    - i.42pt
+    - z
+    - e.42pt_4
+    - s.42pt_2
+    - D.42pt
+    - e.42pt_5
+    - t.42pt_3
+    - e.42pt_6
+    - r.42pt_2
+    - m.42pt
+    - i.42pt_2
+    - n.42pt_3
+    - e.42pt_7
+    - H.42pt_3
+    - o.42pt_2
+    - u.42pt
+    - s.42pt_3
+    - e.42pt_8
+    - h.42pt_2
+    - o.42pt_3
+    - l.42pt
+    - d.42pt
+    - e.42pt_9
+    - r.42pt_3
+    x_height_px: 127
+    stem_px: 18
+    scale: 4.06977
+    stem_units: 73.3
+    x_height: 517
+specimen_lines:
+- leaf: 720
+  line: 72pt
+  text: MINER HOME
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 720
+  line: 72pt
+  text: National Song
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 720
+  line: 60pt
+  text: DUKE MANSION
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 720
+  line: 60pt
+  text: Handsome Pinks
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 720
+  line: 48pt
+  text: SINGERS CHARMED
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 720
+  line: 48pt
+  text: Chorus Girls Pleased
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 720
+  line: 42pt
+  text: RIGHTEOUS MANAGER
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 720
+  line: 42pt
+  text: Honest Merchant Seizes
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 720
+  line: 42pt
+  text: Determine Householder
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

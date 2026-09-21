@@ -1,0 +1,113 @@
+name: lower-case-atf1902a
+title: Lower Case
+series: Lower Case
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 426
+  - 427
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      426:36pt: 41.3
+      427:24pt: 34.6
+  x_height: 451
+lines:
+  426:36pt:
+    n_caps: 2
+    cap_height_px: 246.0
+    cap_source: caps
+    baseline_px: 3836.5
+    baselines:
+      '6': 3836.5
+    glyphs:
+    - S
+    - t
+    - r
+    - o
+    - n
+    - g
+    - seven
+    - five
+    - F
+    - r.36pt
+    - i
+    - e
+    - n.36pt
+    - d
+    - s
+    x_height_px: 147
+    figure_height_px: 221.0
+    stem_px: 6.5
+    scale: 2.84553
+    stem_units: 18.5
+    x_height: 418
+    figure_height: 629
+  427:24pt:
+    n_caps: 3
+    cap_height_px: 162
+    cap_source: caps
+    baseline_px: 1135
+    baselines:
+      '2': 1135
+    glyphs:
+    - P
+    - o.24pt
+    - l
+    - i.24pt
+    - s.24pt
+    - h
+    - C
+    - r.24pt
+    - a
+    - d.24pt
+    - e.24pt
+    - S.24pt
+    - t.24pt
+    - a.24pt
+    - t.24pt_2
+    - u
+    - e.24pt_2
+    - s.24pt_2
+    - dollar
+    - six
+    - four
+    x_height_px: 112
+    figure_height_px: 138.0
+    stem_px: 10
+    scale: 4.32099
+    stem_units: 43.2
+    x_height: 484
+    figure_height: 596
+specimen_lines:
+- leaf: 426
+  line: 36pt
+  text: Strong 75 Friends
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 427
+  line: 24pt
+  text: Polish Crade Statues $ 64
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

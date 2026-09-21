@@ -1,0 +1,122 @@
+name: cheltenham-inline-atf1923
+title: Cheltenham Inline
+series: Cheltenham Inline
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 426
+leaf_pages:
+  426: 126
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      426:72pt: 99.4
+      426:60pt: 19.4
+  x_height: 448
+lines:
+  426:72pt:
+    n_caps: 0
+    cap_height_px: 232.5
+    cap_source: ascenders
+    baseline_px: 3030.0
+    baselines:
+      '7': 3030.0
+    glyphs:
+    - a
+    - b
+    - c
+    - d
+    - e
+    - f
+    - g
+    - h
+    - i
+    - j
+    - k
+    - l
+    - m
+    - n
+    - o
+    - p
+    - q
+    - r
+    x_height_px: 186.5
+    scale: 3.01075
+    x_height: 562
+  426:60pt:
+    n_caps: 22
+    cap_height_px: 180.0
+    cap_source: caps
+    baseline_px: 956
+    baselines:
+      '2': 956
+      '4': 1744
+    glyphs:
+    - M
+    - I
+    - N
+    - E
+    - R
+    - D
+    - E.60pt
+    - R.60pt
+    - I.60pt
+    - D.60pt
+    - I.60pt_2
+    - N.60pt
+    - G
+    - I.60pt_3
+    - N.60pt_2
+    - D.60pt_2
+    - I.60pt_4
+    - A
+    - N.60pt_3
+    - S
+    - S.60pt
+    - o.60pt
+    - u
+    - t
+    - h.60pt
+    - e.60pt
+    - r.60pt
+    - n.60pt
+    - G.60pt
+    x_height_px: 86
+    stem_px: 10.0
+    scale: 3.88889
+    stem_units: 38.9
+    x_height: 334
+specimen_lines:
+- leaf: 426
+  line: 72pt
+  text: abcdefghijklmnopqr
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 426
+  line: 60pt
+  text: MINER DERIDING
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 426
+  line: 60pt
+  text: INDIAN SSouthernG
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

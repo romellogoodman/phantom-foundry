@@ -1,0 +1,101 @@
+name: rubens-atf1896
+title: Rubens.
+series: Rubens.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 468
+  - 469
+leaf_pages:
+  468: 464
+  469: 465
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      468:60pt: 8.4
+      469:36pt: 6.0
+  x_height: 585
+lines:
+  468:60pt:
+    n_caps: 7
+    cap_height_px: 377
+    cap_source: caps
+    baseline_px: 2427
+    baselines:
+      '3': 2427
+    glyphs:
+    - F
+    - O
+    - R
+    - M
+    - E
+    - D
+    - three
+    - A
+    - r
+    - m
+    - i
+    - e
+    - s
+    x_height_px: 315
+    figure_height_px: 380
+    stem_px: 40
+    scale: 1.85676
+    stem_units: 74.3
+    x_height: 585
+    figure_height: 706
+  469:36pt:
+    n_caps: 12
+    cap_height_px: 232.0
+    cap_source: caps
+    baseline_px: 875.5
+    baselines:
+      '1': 875.5
+    glyphs:
+    - T
+    - E.36pt
+    - L
+    - E.36pt_2
+    - G
+    - R.36pt
+    - A.36pt
+    - P
+    - H
+    - S
+    - R.36pt_2
+    - E.36pt_3
+    stem_px: 24.0
+    scale: 3.01724
+    stem_units: 72.4
+specimen_lines:
+- leaf: 468
+  line: 60pt
+  text: FORMED 3 Armies
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 469
+  line: 36pt
+  text: TELEGR APHSRE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

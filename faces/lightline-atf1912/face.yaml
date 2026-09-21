@@ -1,0 +1,72 @@
+name: lightline-atf1912
+title: Lightline
+series: Lightline
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 690
+leaf_pages:
+  690: 668
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      690:30pt: 118.6
+lines:
+  690:30pt:
+    n_caps: 22
+    cap_height_px: 118.0
+    cap_source: caps
+    baseline_px: 1022.0
+    baselines:
+      '4': 1022.0
+    glyphs:
+    - E
+    - U
+    - R
+    - O
+    - P
+    - E.30pt
+    - A
+    - N
+    - M
+    - E.30pt_2
+    - R.30pt
+    - C
+    - H
+    - A.30pt
+    - N.30pt
+    - T
+    - S
+    - O.30pt
+    - U.30pt
+    - G
+    - H.30pt
+    - T.30pt
+    stem_px: 7.0
+    scale: 5.9322
+    stem_units: 41.5
+specimen_lines:
+- leaf: 690
+  line: 30pt
+  text: EUROPEAN MERCHANT SOUGHT
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

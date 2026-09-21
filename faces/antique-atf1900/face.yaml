@@ -1,0 +1,157 @@
+name: antique-atf1900
+title: Antique
+series: Antique
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 599
+leaf_pages:
+  599: 85
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      599:60pt: 28.9
+      599:48pt: 38.0
+      599:36pt: 30.3
+      599:30pt: 42.6
+  x_height: 531
+lines:
+  599:60pt:
+    n_caps: 4
+    cap_height_px: 339.5
+    cap_source: caps
+    baseline_px: 1620.0
+    baselines:
+      '2': 1620.0
+    glyphs:
+    - F
+    - I
+    - R
+    - G
+    - r
+    - o
+    - v
+    - e
+    x_height_px: 226.5
+    stem_px: 49.5
+    scale: 2.06186
+    stem_units: 102.1
+    x_height: 467
+  599:48pt:
+    n_caps: 5
+    cap_height_px: 258
+    cap_source: caps
+    baseline_px: 2066
+    baselines:
+      '3': 2066
+    glyphs:
+    - C
+    - a
+    - r.48pt
+    - e.48pt
+    - d
+    - S
+    - U
+    - R.48pt
+    - E
+    x_height_px: 179.0
+    stem_px: 42
+    scale: 2.71318
+    stem_units: 114.0
+    x_height: 486
+  599:36pt:
+    n_caps: 7
+    cap_height_px: 185
+    cap_source: caps
+    baseline_px: 2477
+    baselines:
+      '4': 2477
+    glyphs:
+    - S.36pt
+    - I.36pt
+    - L
+    - v.36pt
+    - e.36pt
+    - r.36pt
+    - B
+    - I.36pt_2
+    - G.36pt
+    - P
+    - l
+    - o.36pt
+    - t
+    x_height_px: 152.5
+    stem_px: 33
+    scale: 3.78378
+    stem_units: 124.9
+    x_height: 577
+  599:30pt:
+    n_caps: 11
+    cap_height_px: 115
+    cap_source: caps
+    baseline_px: 2838
+    baselines:
+      '5': 2838
+    glyphs:
+    - N
+    - o.30pt
+    - t.30pt
+    - e.30pt
+    - C.30pt
+    - O
+    - I.30pt
+    - N.30pt
+    - H
+    - i
+    - g
+    - h
+    - S.30pt
+    - T
+    - O.30pt
+    - N.30pt_2
+    - E.30pt
+    x_height_px: 109.0
+    stem_px: 19
+    scale: 6.08696
+    stem_units: 115.7
+    x_height: 663
+specimen_lines:
+- leaf: 599
+  line: 60pt
+  text: FIR Grove
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 599
+  line: 48pt
+  text: Cared SURE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 599
+  line: 36pt
+  text: SILver BIG Plot
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 599
+  line: 30pt
+  text: Note COIN High STONE
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

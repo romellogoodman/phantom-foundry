@@ -1,0 +1,149 @@
+name: lightface-runic-atf1896
+title: Lightface Runic
+series: Lig-htface Runic.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 410
+leaf_pages:
+  410: 406
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      410:60pt: 37.3
+      410:48pt: 30.2
+      410:42pt: 41.7
+  x_height: 471
+lines:
+  410:60pt:
+    n_caps: 7
+    cap_height_px: 413
+    cap_source: caps
+    baseline_px: 1074
+    baselines:
+      '1': 1074
+      '2': 1573.5
+    glyphs:
+    - F
+    - A
+    - R
+    - E
+    - S
+    - O
+    - n
+    - e
+    - F.60pt
+    - o
+    - r
+    - three
+    x_height_px: 275.5
+    figure_height_px: 415
+    stem_px: 16
+    scale: 1.69492
+    stem_units: 27.1
+    x_height: 467
+    figure_height: 703
+  410:48pt:
+    n_caps: 7
+    cap_height_px: 324
+    cap_source: caps
+    baseline_px: 2234.5
+    baselines:
+      '3': 2234.5
+      '4': 2650
+    glyphs:
+    - S.48pt
+    - H
+    - A.48pt
+    - D
+    - Y
+    - S.48pt_2
+    - R.48pt
+    - e.48pt
+    - v
+    - e.48pt_2
+    - r.48pt
+    - i
+    - e.48pt_3
+    - s
+    - five
+    - eight
+    x_height_px: 220
+    figure_height_px: 323.5
+    stem_px: 24
+    scale: 2.16049
+    stem_units: 51.9
+    x_height: 475
+    figure_height: 699
+  410:42pt:
+    n_caps: 6
+    cap_height_px: 251.5
+    cap_source: caps
+    baseline_px: 3242.0
+    baselines:
+      '5': 3242.0
+    glyphs:
+    - S.42pt
+    - T
+    - R.42pt
+    - I
+    - C
+    - T.42pt
+    - eight.42pt
+    - seven
+    - six
+    figure_height_px: 255
+    stem_px: 24.5
+    scale: 2.7833
+    stem_units: 68.2
+    figure_height: 710
+specimen_lines:
+- leaf: 410
+  line: 60pt
+  text: FARES
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 410
+  line: 60pt
+  text: One For 3
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 410
+  line: 48pt
+  text: SHADYS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 410
+  line: 48pt
+  text: Reveries 58
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 410
+  line: 42pt
+  text: STRICT 876
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Lig-htface Runic.
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

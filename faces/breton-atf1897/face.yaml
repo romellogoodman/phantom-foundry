@@ -1,0 +1,108 @@
+name: breton-atf1897
+title: Breton
+series: Breton
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 228
+leaf_pages:
+  228: 226
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      228:40pt: 29.3
+      228:24pt: 42.6
+  x_height: 535
+lines:
+  228:40pt:
+    n_caps: 7
+    cap_height_px: 275
+    cap_source: caps
+    baseline_px: 2447
+    baselines:
+      '3': 2447
+      '4': 2907.5
+    glyphs:
+    - T
+    - e
+    - r
+    - m
+    - e.40pt
+    - d
+    - eight
+    - M
+    - I
+    - N
+    - E
+    - R
+    - S
+    x_height_px: 213
+    figure_height_px: 282
+    stem_px: 57
+    scale: 2.54545
+    stem_units: 145.1
+    x_height: 542
+    figure_height: 718
+  228:24pt:
+    n_caps: 2
+    cap_height_px: 164.5
+    cap_source: caps
+    baseline_px: 3471.5
+    baselines:
+      '5': 3471.5
+    glyphs:
+    - D
+    - e.24pt
+    - s
+    - e.24pt_2
+    - r.24pt
+    - t
+    - six
+    - seven
+    - H
+    - o
+    - m.24pt
+    - e.24pt_3
+    - s.24pt
+    x_height_px: 124
+    figure_height_px: 169.0
+    stem_px: 42.0
+    scale: 4.25532
+    stem_units: 178.7
+    x_height: 528
+    figure_height: 719
+specimen_lines:
+- leaf: 228
+  line: 40pt
+  text: Termed 8
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 228
+  line: 40pt
+  text: MINERS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 228
+  line: 24pt
+  text: Desert 67 Homes
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

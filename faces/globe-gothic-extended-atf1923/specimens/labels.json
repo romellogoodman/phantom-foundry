@@ -1,0 +1,37 @@
+{
+  "face": "globe-gothic-extended-atf1923",
+  "labeled": [
+    {
+      "leaf": 799,
+      "band": 2,
+      "line": "60pt",
+      "text": "Nov MINOR SI R",
+      "by": "deepseek-v4.1-flash+qwen3.7-flash",
+      "added": 11,
+      "kept": 0
+    }
+  ],
+  "already": [],
+  "skipped": [
+    {
+      "leaf": 799,
+      "band": 1,
+      "why": "no reading",
+      "ocr": "Piano Kit",
+      "n": 6
+    },
+    {
+      "leaf": 799,
+      "band": 3,
+      "why": "reading has 19 characters, band has 5 boxes",
+      "text": "GOVERNINGLiquidsHid"
+    },
+    {
+      "leaf": 799,
+      "band": 4,
+      "why": "no reading",
+      "ocr": null,
+      "n": 7
+    }
+  ]
+}

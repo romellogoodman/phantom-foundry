@@ -1,0 +1,40 @@
+{
+  "face": "lining-britannic-stephenson1908",
+  "labeled": [
+    {
+      "leaf": 270,
+      "band": 5,
+      "line": "42pt",
+      "text": "56789 34567890 58 90",
+      "by": "deepseek-v4.1-flash+qwen3.7-flash",
+      "added": 17,
+      "kept": 0
+    },
+    {
+      "leaf": 270,
+      "band": 4,
+      "line": "36pt",
+      "text": "7890 567890 6 790",
+      "by": "deepseek-v4.1-flash+qwen3.7-flash+ocr",
+      "added": 14,
+      "kept": 0
+    }
+  ],
+  "already": [],
+  "skipped": [
+    {
+      "leaf": 270,
+      "band": 3,
+      "why": "no reading",
+      "ocr": "890 67890",
+      "n": 19
+    },
+    {
+      "leaf": 270,
+      "band": 6,
+      "why": "no reading",
+      "ocr": "34567890 1 234567890 46890",
+      "n": 23
+    }
+  ]
+}

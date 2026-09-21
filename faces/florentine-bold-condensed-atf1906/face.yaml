@@ -1,0 +1,137 @@
+name: florentine-bold-condensed-atf1906
+title: Florentine Bold Condensed
+series: Florentine Condensed
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 220
+leaf_pages:
+  220: 174
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      220:120pt: 33.7
+      220:96pt: 38.9
+      220:72pt: 57.4
+  x_height: 538
+lines:
+  220:120pt:
+    n_caps: 6
+    cap_height_px: 539.5
+    cap_source: caps
+    baseline_px: 948
+    baselines:
+      '1': 948
+      '2': 1546
+    glyphs:
+    - B
+    - I
+    - N
+    - D
+    - S
+    - H
+    - o
+    - n
+    - e
+    - s
+    - t
+    x_height_px: 418
+    stem_px: 81.0
+    scale: 1.2975
+    stem_units: 105.1
+    x_height: 542
+  220:96pt:
+    n_caps: 5
+    cap_height_px: 432
+    cap_source: caps
+    baseline_px: 2194
+    baselines:
+      '3': 2194
+    glyphs:
+    - S.96pt
+    - H.96pt
+    - E
+    - R
+    - N.96pt
+    stem_px: 70
+    scale: 1.62037
+    stem_units: 113.4
+  220:72pt:
+    n_caps: 8
+    cap_height_px: 317.0
+    cap_source: caps
+    baseline_px: 3246
+    baselines:
+      '5': 3246
+      '6': 3658
+    glyphs:
+    - P
+    - R.72pt
+    - E.72pt
+    - S.72pt
+    - E.72pt_2
+    - N.72pt
+    - T
+    - N.72pt_2
+    - a
+    - t.72pt
+    - u
+    - r
+    - a.72pt
+    - l
+    - i
+    - s.72pt
+    - m
+    x_height_px: 242
+    stem_px: 55.5
+    scale: 2.2082
+    stem_units: 122.6
+    x_height: 534
+specimen_lines:
+- leaf: 220
+  line: 120pt
+  text: BINDS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 220
+  line: 120pt
+  text: Honest
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 220
+  line: 96pt
+  text: SHERN
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 220
+  line: 72pt
+  text: PRESENT
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 220
+  line: 72pt
+  text: Naturalism
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Florentine Condensed
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

@@ -1,0 +1,218 @@
+name: french-old-style-atf1896
+title: French Old Style.
+series: French Old Style.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 211
+  - 212
+leaf_pages:
+  211: 207
+  212: 208
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      211:72pt: 113.7
+      211:60pt: 82.2
+      211:48pt: 102.7
+      211:36pt: 95.9
+      211:30pt: 93.1
+      212:24pt: 89.1
+      212:20pt: 108.7
+lines:
+  211:72pt:
+    n_caps: 5
+    cap_height_px: 465
+    cap_source: caps
+    baseline_px: 1229
+    baselines:
+      '1': 1229
+    glyphs:
+    - F
+    - I
+    - N
+    - E
+    - D
+    stem_px: 34
+    scale: 1.50538
+    stem_units: 51.2
+  211:60pt:
+    n_caps: 5
+    cap_height_px: 413
+    cap_source: caps
+    baseline_px: 1967
+    baselines:
+      '2': 1967
+    glyphs:
+    - C
+    - H
+    - A
+    - R
+    - T
+    stem_px: 36
+    scale: 1.69492
+    stem_units: 61.0
+  211:48pt:
+    n_caps: 6
+    cap_height_px: 334.0
+    cap_source: caps
+    baseline_px: 2624.0
+    baselines:
+      '3': 2624.0
+    glyphs:
+    - M
+    - A.48pt
+    - R.48pt
+    - K
+    - E.48pt
+    - D.48pt
+    stem_px: 18.0
+    scale: 2.09581
+    stem_units: 37.7
+  211:36pt:
+    n_caps: 7
+    cap_height_px: 241
+    cap_source: caps
+    baseline_px: 3188
+    baselines:
+      '4': 3188
+    glyphs:
+    - H.36pt
+    - A.36pt
+    - N.36pt
+    - D.36pt
+    - N.36pt_2
+    - O
+    - W
+    stem_px: 13
+    scale: 2.90456
+    stem_units: 37.8
+  211:30pt:
+    n_caps: 10
+    cap_height_px: 195.5
+    cap_source: caps
+    baseline_px: 3688.5
+    baselines:
+      '5': 3688.5
+    glyphs:
+    - B
+    - R.30pt
+    - I.30pt
+    - G
+    - H.30pt
+    - T.30pt
+    - C.30pt
+    - A.30pt
+    - S
+    - H.30pt_2
+    stem_px: 18.5
+    scale: 3.58056
+    stem_units: 66.2
+  212:24pt:
+    n_caps: 13
+    cap_height_px: 165
+    cap_source: caps
+    baseline_px: 882
+    baselines:
+      '1': 882
+    glyphs:
+    - M.24pt
+    - I.24pt
+    - R.24pt
+    - T.24pt
+    - H.24pt
+    - F.24pt
+    - U
+    - L
+    - M.24pt_2
+    - U.24pt
+    - S.24pt
+    - I.24pt_2
+    - C.24pt
+    stem_px: 15
+    scale: 4.24242
+    stem_units: 63.6
+  212:20pt:
+    n_caps: 16
+    cap_height_px: 132.0
+    cap_source: caps
+    baseline_px: 1231.0
+    baselines:
+      '2': 1231.0
+    glyphs:
+    - L.20pt
+    - I.20pt
+    - G.20pt
+    - H.20pt
+    - T.20pt
+    - N.20pt
+    - I.20pt_2
+    - N.20pt_2
+    - G.20pt_2
+    - E.20pt
+    - X
+    - P
+    - R.20pt
+    - E.20pt_2
+    - S.20pt
+    - S.20pt_2
+    stem_px: 11.5
+    scale: 5.30303
+    stem_units: 61.0
+specimen_lines:
+- leaf: 211
+  line: 72pt
+  text: FINED
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 211
+  line: 60pt
+  text: CHART
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 211
+  line: 48pt
+  text: MARKED
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 211
+  line: 36pt
+  text: HAND NOW
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 211
+  line: 30pt
+  text: BRIGHT CASH
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 212
+  line: 24pt
+  text: MIRTHFUL MUSIC
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 212
+  line: 20pt
+  text: LIGHTNING EXPRESS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

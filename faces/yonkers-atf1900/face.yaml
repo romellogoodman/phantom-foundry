@@ -1,0 +1,66 @@
+name: yonkers-atf1900
+title: Yonkers
+series: Yonkers
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 682
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      682:48pt: 44.7
+  x_height: 444
+lines:
+  682:48pt:
+    n_caps: 2
+    cap_height_px: 266.5
+    cap_source: caps
+    baseline_px: 883.0
+    baselines:
+      '1': 883.0
+    glyphs:
+    - O
+    - r
+    - i
+    - e
+    - n
+    - t
+    - a
+    - l
+    - S
+    - t.48pt
+    - r.48pt
+    - e.48pt
+    - a.48pt
+    - m
+    x_height_px: 169.0
+    stem_px: 10.0
+    scale: 2.62664
+    stem_units: 26.3
+    x_height: 444
+specimen_lines:
+- leaf: 682
+  line: 48pt
+  text: Oriental Stream
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

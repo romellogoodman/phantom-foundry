@@ -1,0 +1,62 @@
+name: sectional-gothic-atf1896
+title: Sectional Gothic.
+series: Sectional Gothic.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 510
+leaf_pages:
+  510: 506
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      510:30pt: 18.8
+lines:
+  510:30pt:
+    n_caps: 10
+    cap_height_px: 205.0
+    cap_source: caps
+    baseline_px: 3466.5
+    baselines:
+      '6': 3466.5
+    glyphs:
+    - G
+    - O
+    - O.30pt
+    - D
+    - S
+    - T
+    - Y
+    - L
+    - E
+    - S.30pt
+    stem_px: 6.0
+    scale: 3.41463
+    stem_units: 20.5
+specimen_lines:
+- leaf: 510
+  line: 30pt
+  text: GOOD STYLES
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

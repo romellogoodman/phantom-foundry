@@ -1,0 +1,109 @@
+name: de-vinne-atf1897
+title: De Vinne
+series: De Yinne
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 356
+leaf_pages:
+  356: 354
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      356:72pt: 54.9
+      356:60pt: 47.3
+      356:54pt: 37.3
+  x_height: 487
+lines:
+  356:72pt:
+    n_caps: 1
+    cap_height_px: 523
+    cap_source: caps
+    baseline_px: 1204
+    baselines:
+      '1': 1204
+    glyphs:
+    - F
+    - i
+    - n
+    - e
+    - s
+    - t
+    x_height_px: 354
+    stem_px: 40
+    scale: 1.33843
+    stem_units: 53.5
+    x_height: 474
+  356:60pt:
+    n_caps: 5
+    cap_height_px: 437
+    cap_source: caps
+    baseline_px: 2026
+    baselines:
+      '2': 2026
+    glyphs:
+    - S
+    - O
+    - N
+    - G
+    - S.60pt
+    stem_px: 36
+    scale: 1.60183
+    stem_units: 57.7
+  356:54pt:
+    n_caps: 1
+    cap_height_px: 375
+    cap_source: caps
+    baseline_px: 3960
+    baselines:
+      '5': 3960
+    glyphs:
+    - M
+    - a
+    - n.54pt
+    - t.54pt
+    - e.54pt
+    - l
+    x_height_px: 268
+    stem_px: 19
+    scale: 1.86667
+    stem_units: 35.5
+    x_height: 500
+specimen_lines:
+- leaf: 356
+  line: 72pt
+  text: Finest
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 356
+  line: 60pt
+  text: SONGS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 356
+  line: 54pt
+  text: Mantel
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: De Yinne
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

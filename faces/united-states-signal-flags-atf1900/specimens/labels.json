@@ -1,0 +1,37 @@
+{
+  "face": "united-states-signal-flags-atf1900",
+  "labeled": [
+    {
+      "leaf": 750,
+      "band": 2,
+      "line": "36pt",
+      "text": "~~~~~~~~~",
+      "by": "deepseek-v4.1-flash+qwen3.7-flash",
+      "added": 0,
+      "kept": 0
+    }
+  ],
+  "already": [],
+  "skipped": [
+    {
+      "leaf": 750,
+      "band": 4,
+      "why": "reading has 48 characters, band has 10 boxes",
+      "text": "CLEARFAIRNO CHANGECLOUDYRAINSNOWWARMCOLDWINDSTORM"
+    },
+    {
+      "leaf": 750,
+      "band": 5,
+      "why": "no reading",
+      "ocr": null,
+      "n": 10
+    },
+    {
+      "leaf": 750,
+      "band": 3,
+      "why": "no reading",
+      "ocr": "wu^- D",
+      "n": 13
+    }
+  ]
+}

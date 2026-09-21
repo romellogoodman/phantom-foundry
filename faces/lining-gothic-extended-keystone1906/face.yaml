@@ -1,0 +1,147 @@
+name: lining-gothic-extended-keystone1906
+title: Lining Gothic Extended
+series: Lining Gothic Extended
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 211
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      211:36pt: 108.0
+      211:30pt: 78.3
+      211:24pt: 116.7
+  x_height: 576
+lines:
+  211:36pt:
+    n_caps: 6
+    cap_height_px: 201.0
+    cap_source: caps
+    baseline_px: 3178.5
+    baselines:
+      '6': 3178.5
+    glyphs:
+    - B
+    - R
+    - I
+    - D
+    - E
+    - S
+    stem_px: 31.0
+    scale: 3.48259
+    stem_units: 108.0
+  211:30pt:
+    n_caps: 7
+    cap_height_px: 161
+    cap_source: caps
+    baseline_px: 2401.0
+    baselines:
+      '4': 2401.0
+      '5': 2663
+    glyphs:
+    - S.30pt
+    - U
+    - M
+    - M.30pt
+    - E.30pt
+    - R.30pt
+    - E.30pt_2
+    - x
+    - t
+    - r
+    - a
+    - v
+    - a.30pt
+    - g
+    - a.30pt_2
+    - n
+    - t.30pt
+    x_height_px: 120.0
+    stem_px: 25
+    scale: 4.34783
+    stem_units: 108.7
+    x_height: 522
+  211:24pt:
+    n_caps: 12
+    cap_height_px: 120.0
+    cap_source: caps
+    baseline_px: 1708
+    baselines:
+      '2': 1708
+      '3': 1930
+    glyphs:
+    - P
+    - R.24pt
+    - E.24pt
+    - S.24pt
+    - I.24pt
+    - D.24pt
+    - E.24pt_2
+    - N
+    - T
+    - T.24pt
+    - o
+    - V
+    - i
+    - e
+    - w
+    - M.24pt
+    - i.24pt
+    - l
+    - i.24pt_2
+    - t.24pt
+    - a.24pt
+    - r.24pt
+    - y
+    x_height_px: 108
+    stem_px: 21.0
+    scale: 5.83333
+    stem_units: 122.5
+    x_height: 630
+specimen_lines:
+- leaf: 211
+  line: 36pt
+  text: BRIDES
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 211
+  line: 30pt
+  text: SUMMER
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 211
+  line: 30pt
+  text: Extrava ga nt
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 211
+  line: 24pt
+  text: PRESIDENT
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 211
+  line: 24pt
+  text: To View Military
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

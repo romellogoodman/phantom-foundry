@@ -1,0 +1,178 @@
+name: extended-woodward-inland1907
+title: Extended Woodward
+series: Extended Woodward
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 90
+leaf_pages:
+  90: 82
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      90:60pt: 62.0
+      90:48pt: 55.5
+      90:36pt: 79.7
+      90:30pt: 80.4
+      90:24pt: 75.7
+  x_height: 505
+lines:
+  90:60pt:
+    n_caps: 3
+    cap_height_px: 384
+    cap_source: caps
+    baseline_px: 1008
+    baselines:
+      '2': 1008
+    glyphs:
+    - M
+    - I
+    - S
+    - t
+    - e
+    - r
+    x_height_px: 277
+    stem_px: 95
+    scale: 1.82292
+    stem_units: 173.2
+    x_height: 505
+  90:48pt:
+    n_caps: 3
+    cap_height_px: 290
+    cap_source: caps
+    baseline_px: 1500
+    baselines:
+      '3': 1500
+    glyphs:
+    - R
+    - E
+    - D
+    - s
+    - e.48pt
+    - a
+    x_height_px: 209
+    stem_px: 81
+    scale: 2.41379
+    stem_units: 195.5
+    x_height: 504
+  90:36pt:
+    n_caps: 4
+    cap_height_px: 202.0
+    cap_source: caps
+    baseline_px: 1895.5
+    baselines:
+      '4': 1895.5
+    glyphs:
+    - M.36pt
+    - E.36pt
+    - N
+    - C
+    - h
+    - a.36pt
+    - r.36pt
+    - m
+    x_height_px: 144.5
+    stem_px: 15.0
+    scale: 3.46535
+    stem_units: 52.0
+    x_height: 501
+  90:30pt:
+    n_caps: 5
+    cap_height_px: 161
+    cap_source: caps
+    baseline_px: 2251
+    baselines:
+      '5': 2251
+    glyphs:
+    - T
+    - Y
+    - P
+    - E.30pt
+    - F
+    - a.30pt
+    - c
+    - e.30pt
+    - s.30pt
+    - one
+    - seven
+    x_height_px: 118.5
+    figure_height_px: 162.0
+    stem_px: 21
+    scale: 4.34783
+    stem_units: 91.3
+    x_height: 515
+    figure_height: 704
+  90:24pt:
+    n_caps: 6
+    cap_height_px: 134.0
+    cap_source: caps
+    baseline_px: 2589.5
+    baselines:
+      '6': 2589.5
+    glyphs:
+    - N.24pt
+    - O
+    - T.24pt
+    - E.24pt
+    - S.24pt
+    - D.24pt
+    - i
+    - r.24pt
+    - e.24pt
+    - c.24pt
+    - t.24pt
+    - i.24pt
+    - o
+    - n
+    - nine
+    x_height_px: 98.5
+    figure_height_px: 135
+    stem_px: 35.5
+    scale: 5.22388
+    stem_units: 185.4
+    x_height: 515
+    figure_height: 705
+specimen_lines:
+- leaf: 90
+  line: 60pt
+  text: MISter
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 90
+  line: 48pt
+  text: RED sea
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 90
+  line: 36pt
+  text: MEN Charm
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 90
+  line: 30pt
+  text: TYPE Faces 17
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 90
+  line: 24pt
+  text: NOTES Direction 9
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

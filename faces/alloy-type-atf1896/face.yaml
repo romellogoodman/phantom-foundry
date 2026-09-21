@@ -1,0 +1,71 @@
+name: alloy-type-atf1896
+title: Alloy Type
+series: Alloy Type
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 323
+leaf_pages:
+  323: 319
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      323:20pt: 55.4
+lines:
+  323:20pt:
+    n_caps: 19
+    cap_height_px: 139
+    cap_source: caps
+    baseline_px: 819
+    baselines:
+      '1': 819
+    glyphs:
+    - N
+    - I
+    - G
+    - H
+    - T
+    - S
+    - A
+    - I.20pt
+    - L
+    - O
+    - N.20pt
+    - T.20pt
+    - H.20pt
+    - E
+    - M
+    - U
+    - D
+    - D.20pt
+    - Y
+    stem_px: 18
+    scale: 5.03597
+    stem_units: 90.6
+specimen_lines:
+- leaf: 323
+  line: 20pt
+  text: NIGHT SAIL ON THE MUDDY
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

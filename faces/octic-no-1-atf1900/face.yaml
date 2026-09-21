@@ -1,0 +1,104 @@
+name: octic-no-1-atf1900
+title: Octic No 1
+series: Octic No I
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 649
+leaf_pages:
+  649: 60
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      649:48pt: 108.3
+      649:42pt: 128.0
+lines:
+  649:48pt:
+    n_caps: 8
+    cap_height_px: 287.5
+    cap_source: caps
+    baseline_px: 1002.0
+    baselines:
+      '1': 1002.0
+    glyphs:
+    - F
+    - I
+    - R
+    - E
+    - R.48pt
+    - O
+    - B
+    - E.48pt
+    stem_px: 59.0
+    scale: 2.43478
+    stem_units: 143.7
+  649:42pt:
+    n_caps: 20
+    cap_height_px: 216.0
+    cap_source: caps
+    baseline_px: 1375
+    baselines:
+      '2': 1375
+      '3': 1738
+    glyphs:
+    - C
+    - O.42pt
+    - S
+    - T
+    - M
+    - I.42pt
+    - G
+    - H
+    - T.42pt
+    - C.42pt
+    - H.42pt
+    - O.42pt_2
+    - I.42pt_2
+    - R.42pt
+    - C.42pt_2
+    - R.42pt_2
+    - I.42pt_3
+    - M.42pt
+    - E.42pt
+    - S.42pt
+    stem_px: 39.0
+    scale: 3.24074
+    stem_units: 126.4
+specimen_lines:
+- leaf: 649
+  line: 48pt
+  text: FIRE ROBE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 649
+  line: 42pt
+  text: COST MIGHT
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 649
+  line: 42pt
+  text: CHOIR CRIMES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Octic No I
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

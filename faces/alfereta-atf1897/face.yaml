@@ -1,0 +1,107 @@
+name: alfereta-atf1897
+title: Alfereta
+series: Alfereth
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 560
+leaf_pages:
+  560: 558
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      560:30pt: 32.7
+      560:24pt: 42.5
+  x_height: 402
+lines:
+  560:30pt:
+    n_caps: 2
+    cap_height_px: 214.0
+    cap_source: caps
+    baseline_px: 1854.5
+    baselines:
+      '3': 1854.5
+    glyphs:
+    - N
+    - a
+    - t
+    - i
+    - o
+    - n
+    - a.30pt
+    - l
+    - E
+    - v
+    - o.30pt
+    - l.30pt
+    - u
+    - t.30pt
+    - i.30pt
+    - o.30pt_2
+    - n.30pt
+    x_height_px: 124
+    stem_px: 11.0
+    scale: 3.27103
+    stem_units: 36.0
+    x_height: 406
+  560:24pt:
+    n_caps: 1
+    cap_height_px: 173
+    cap_source: caps
+    baseline_px: 2830
+    baselines:
+      '6': 2830
+    glyphs:
+    - R
+    - e
+    - c
+    - o.24pt
+    - n.24pt
+    - s
+    - i.24pt
+    - d
+    - e.24pt
+    - r
+    - a.24pt
+    - t.24pt
+    - i.24pt_2
+    - o.24pt_2
+    - n.24pt_2
+    x_height_px: 98.5
+    stem_px: 6
+    scale: 4.04624
+    stem_units: 24.3
+    x_height: 399
+specimen_lines:
+- leaf: 560
+  line: 30pt
+  text: National Evolution
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 560
+  line: 24pt
+  text: Reconsideration
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Alfereth
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

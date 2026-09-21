@@ -1,0 +1,217 @@
+name: cheltenham-medium-italic-atf1912
+title: Cheltenham Medium Italic
+series: Cheltenham Medium Itauc
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 184
+  - 185
+leaf_pages:
+  184: 170
+  185: 171
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      184:72pt: 27.4
+      184:60pt: 30.1
+      185:36pt: 38.8
+      185:30pt: 38.6
+  x_height: 421
+lines:
+  184:72pt:
+    n_caps: 9
+    cap_height_px: 307
+    cap_source: caps
+    baseline_px: 582
+    baselines:
+      '1': 582
+    glyphs:
+    - S
+    - I
+    - N
+    - G
+    - E
+    - B
+    - I.72pt
+    - R
+    - D
+    stem_px: 45
+    scale: 2.28013
+    stem_units: 102.6
+  184:60pt:
+    n_caps: 12
+    cap_height_px: 256.0
+    cap_source: caps
+    baseline_px: 1529.5
+    baselines:
+      '3': 1529.5
+      '4': 1874.5
+    glyphs:
+    - B.60pt
+    - U
+    - S.60pt
+    - H
+    - I.60pt
+    - N.60pt
+    - G.60pt
+    - T
+    - O
+    - N.60pt_2
+    - K
+    - e
+    - r
+    - n
+    - s
+    - A
+    - b
+    - o
+    - l
+    - i
+    - s.60pt
+    - h
+    - e.60pt
+    - d
+    x_height_px: 154.5
+    stem_px: 33.5
+    scale: 2.73438
+    stem_units: 91.6
+    x_height: 422
+  185:36pt:
+    n_caps: 20
+    cap_height_px: 144.5
+    cap_source: caps
+    baseline_px: 438
+    baselines:
+      '1': 438
+      '2': 632
+    glyphs:
+    - C
+    - L
+    - E.36pt
+    - A.36pt
+    - R.36pt
+    - P
+    - R.36pt_2
+    - I.36pt
+    - N.36pt
+    - T.36pt
+    - I.36pt_2
+    - N.36pt_2
+    - G.36pt
+    - D.36pt
+    - O.36pt
+    - N.36pt_3
+    - E.36pt_2
+    - E.36pt_3
+    - n.36pt
+    - o.36pt
+    - r.36pt
+    - m
+    - o.36pt_2
+    - u
+    - s.36pt
+    - R.36pt_3
+    - a
+    - i.36pt
+    - l.36pt
+    - r.36pt_2
+    - o.36pt_3
+    - a.36pt
+    - d.36pt
+    - D.36pt_2
+    - i.36pt_2
+    - v
+    - i.36pt_3
+    - d.36pt_2
+    - e.36pt
+    - n.36pt_2
+    - d.36pt_3
+    x_height_px: 87
+    stem_px: 20.5
+    scale: 4.84429
+    stem_units: 99.3
+    x_height: 421
+  185:30pt:
+    n_caps: 20
+    cap_height_px: 118.0
+    cap_source: caps
+    baseline_px: 1205.0
+    baselines:
+      '4': 1205.0
+    glyphs:
+    - S.30pt
+    - O.30pt
+    - U.30pt
+    - G.30pt
+    - H.30pt
+    - T.30pt
+    - M
+    - O.30pt_2
+    - D.30pt
+    - E.30pt
+    - R.30pt
+    - N.30pt
+    - D.30pt_2
+    - E.30pt_2
+    - S.30pt_2
+    - I.30pt
+    - G.30pt_2
+    - N.30pt_2
+    - E.30pt_3
+    - R.30pt_2
+    stem_px: 16.0
+    scale: 5.9322
+    stem_units: 94.9
+specimen_lines:
+- leaf: 184
+  line: 72pt
+  text: SINGE BIRD
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 184
+  line: 60pt
+  text: B USHINGTON
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 184
+  line: 60pt
+  text: Kerns A bolished
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 185
+  line: 36pt
+  text: CLEA R PRINTING DONE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 185
+  line: 36pt
+  text: Enormous Railroad Dividend
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 185
+  line: 30pt
+  text: SO UGHT MODERN DESIGNER
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Cheltenham Medium Itauc
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

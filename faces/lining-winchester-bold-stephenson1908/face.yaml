@@ -1,0 +1,115 @@
+name: lining-winchester-bold-stephenson1908
+title: Lining Winchester Bold.
+series: Lining Winchester Bold.
+status: proto
+version: 0.1.0
+book: specimensofpoint00step
+source:
+  archive_id: specimensofpoint00step
+  title: 'Specimens of point line type : borders ornaments brass rules &c. &c'
+  creator:
+  - Stephenson, Blake and Company, Ltd
+  - Sir Charles Reed & Sons
+  publisher: 'Toronto : Stephenson, Blake & Co.'
+  date: '1908'
+  ppi: 350
+  url: https://archive.org/details/specimensofpoint00step
+  copyright_status: null
+  contributor: Fisher - University of Toronto
+  leaves:
+  - 76
+leaf_pages:
+  76: 108
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      76:72pt: 37.9
+      76:60pt: 36.8
+  x_height: 415
+lines:
+  76:72pt:
+    n_caps: 6
+    cap_height_px: 277.0
+    cap_source: caps
+    baseline_px: 754.0
+    baselines:
+      '1': 754.0
+    glyphs:
+    - R
+    - I
+    - G
+    - H
+    - T
+    - D
+    - e
+    - s
+    - i
+    - g
+    - n
+    x_height_px: 165
+    stem_px: 53.0
+    scale: 2.52708
+    stem_units: 133.9
+    x_height: 417
+  76:60pt:
+    n_caps: 12
+    cap_height_px: 228.0
+    cap_source: caps
+    baseline_px: 3090.5
+    baselines:
+      '3': 3090.5
+      '4': 3382.0
+    glyphs:
+    - G.60pt
+    - R.60pt
+    - A
+    - N
+    - D.60pt
+    - H.60pt
+    - O
+    - M
+    - E
+    - S
+    - D.60pt_2
+    - r
+    - a
+    - m
+    - a.60pt
+    - t
+    - i.60pt
+    - c
+    - R.60pt_2
+    - e.60pt
+    - c.60pt
+    - i.60pt_2
+    - t.60pt
+    - a.60pt_2
+    - l
+    x_height_px: 135
+    stem_px: 42.5
+    scale: 3.07018
+    stem_units: 130.5
+    x_height: 414
+specimen_lines:
+- leaf: 76
+  line: 72pt
+  text: RIGHT Design
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 76
+  line: 60pt
+  text: GRAND HOMES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 76
+  line: 60pt
+  text: Dramatic Recital
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

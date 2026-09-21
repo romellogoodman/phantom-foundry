@@ -1,0 +1,70 @@
+name: hobo-atf1923
+title: Hobo
+series: Hobo
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 576
+leaf_pages:
+  576: 276
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      576:36pt: 194.2
+  x_height: 623
+lines:
+  576:36pt:
+    n_caps: 1
+    cap_height_px: 164
+    cap_source: caps
+    baseline_px: 998
+    baselines:
+      '3': 998
+    glyphs:
+    - C
+    - a
+    - p
+    - r
+    - i
+    - c
+    - e
+    - a.36pt
+    - b
+    - c.36pt
+    - d
+    - e.36pt
+    - f
+    - g
+    - h
+    - i.36pt
+    - j
+    - k
+    x_height_px: 146
+    stem_px: 28
+    scale: 4.26829
+    stem_units: 119.5
+    x_height: 623
+specimen_lines:
+- leaf: 576
+  line: 36pt
+  text: Caprice abcdefghijk
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,146 @@
+name: cloister-black-atf1912
+title: Cloister Black
+series: Cloisiter Placfe
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 832
+leaf_pages:
+  832: 814
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      832:72pt: 9.9
+      832:60pt: 16.3
+      832:36pt: 18.3
+  x_height: 491
+lines:
+  832:72pt:
+    n_caps: 2
+    cap_height_px: 318.0
+    cap_source: caps
+    baseline_px: 665.0
+    baselines:
+      '1': 665.0
+    glyphs:
+    - G
+    - r
+    - a
+    - n
+    - d
+    - S
+    - i
+    - n.72pt
+    - g
+    - e
+    - r.72pt
+    - s
+    x_height_px: 223.0
+    stem_px: 8.5
+    scale: 2.20126
+    stem_units: 18.7
+    x_height: 491
+  832:60pt:
+    n_caps: 2
+    cap_height_px: 258.0
+    cap_source: caps
+    baseline_px: 1086.5
+    baselines:
+      '2': 1086.5
+    glyphs:
+    - O
+    - u
+    - t
+    - f
+    - i.60pt
+    - g.60pt
+    - h
+    - t.60pt
+    - K
+    - a.60pt
+    - n.60pt
+    - g.60pt_2
+    - e.60pt
+    - r.60pt
+    - s.60pt
+    x_height_px: 226
+    stem_px: 6.5
+    scale: 2.71318
+    stem_units: 17.6
+    x_height: 613
+  832:36pt:
+    n_caps: 3
+    cap_height_px: 153
+    cap_source: caps
+    baseline_px: 2161
+    baselines:
+      '5': 2161
+    glyphs:
+    - B
+    - u.36pt
+    - r.36pt
+    - l
+    - e.36pt
+    - s.36pt
+    - q
+    - u.36pt_2
+    - e.36pt_2
+    - C
+    - o
+    - m
+    - e.36pt_3
+    - d.36pt
+    - i.36pt
+    - a.36pt
+    - n.36pt
+    - S.36pt
+    - t.36pt
+    - r.36pt_2
+    - a.36pt_2
+    - n.36pt_2
+    - d.36pt_2
+    - e.36pt_4
+    - d.36pt_3
+    x_height_px: 105.0
+    stem_px: 5
+    scale: 4.57516
+    stem_units: 22.9
+    x_height: 480
+specimen_lines:
+- leaf: 832
+  line: 72pt
+  text: Grand Singers
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 832
+  line: 60pt
+  text: Outfight Kangers
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 832
+  line: 36pt
+  text: Burlesque Comedian Stranded
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Cloisiter Placfe
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

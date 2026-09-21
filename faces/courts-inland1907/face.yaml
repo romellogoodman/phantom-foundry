@@ -1,0 +1,93 @@
+name: courts-inland1907
+title: Courts
+series: Courts
+status: proto
+version: 0.1.0
+book: specimenbookcata00inla
+source:
+  archive_id: specimenbookcata00inla
+  title: 'Specimen book and catalog : a price list of printers'' supplies ..'
+  creator: Inland Type Foundry
+  publisher: 'St. Louis : The foundry'
+  date: '1907'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inla
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 91
+leaf_pages:
+  91: 83
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      91:30pt: 26.1
+      91:24pt: 26.7
+  x_height: 505
+lines:
+  91:30pt:
+    n_caps: 8
+    cap_height_px: 161.0
+    cap_source: caps
+    baseline_px: 2365.5
+    baselines:
+      '6': 2365.5
+    glyphs:
+    - M
+    - O
+    - D
+    - E
+    - R
+    - N
+    - D.30pt
+    - E.30pt
+    stem_px: 28.0
+    scale: 4.34783
+    stem_units: 121.7
+  91:24pt:
+    n_caps: 3
+    cap_height_px: 131
+    cap_source: caps
+    baseline_px: 3065
+    baselines:
+      '9': 3065
+    glyphs:
+    - W
+    - C
+    - o
+    - m
+    - m.24pt
+    - a
+    - n
+    - d
+    - A
+    - t
+    - t.24pt
+    - e
+    - n.24pt
+    - six
+    x_height_px: 94.5
+    figure_height_px: 136
+    stem_px: 14
+    scale: 5.34351
+    stem_units: 74.8
+    x_height: 505
+    figure_height: 727
+specimen_lines:
+- leaf: 91
+  line: 30pt
+  text: MODER NDE
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 91
+  line: 24pt
+  text: W Comman d Atten 6
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,212 @@
+name: condensed-aldine-atf1896
+title: Condensed Aldine.
+series: Condensed Aldine.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 246
+  - 247
+leaf_pages:
+  246: 242
+  247: 243
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      246:48pt: 18.8
+      246:42pt: 20.5
+      246:30pt: 19.3
+      246:22pt: 19.9
+  x_height: 540
+lines:
+  246:48pt:
+    n_caps: 7
+    cap_height_px: 298
+    cap_source: caps
+    baseline_px: 1004
+    baselines:
+      '1': 1004
+    glyphs:
+    - G
+    - O
+    - L
+    - D
+    - E
+    - N
+    - eight
+    - zero
+    - nine
+    - C
+    - r
+    - a
+    - d
+    - l
+    - e
+    - s
+    x_height_px: 222.0
+    figure_height_px: 299
+    stem_px: 10
+    scale: 2.34899
+    stem_units: 23.5
+    x_height: 521
+    figure_height: 702
+  246:42pt:
+    n_caps: 14
+    cap_height_px: 238.5
+    cap_source: caps
+    baseline_px: 1631
+    baselines:
+      '2': 1631
+      '3': 2030
+    glyphs:
+    - D.42pt
+    - E.42pt
+    - V
+    - E.42pt_2
+    - L.42pt
+    - O.42pt
+    - P
+    - M
+    - E.42pt_3
+    - N.42pt
+    - T
+    - O.42pt_2
+    - r.42pt
+    - e.42pt
+    - M.42pt
+    - i
+    - n
+    - i.42pt
+    - n.42pt
+    - g
+    - dollar
+    - seven
+    - six
+    - L.42pt_2
+    - e.42pt_2
+    - s.42pt
+    - s.42pt_2
+    - o
+    - n.42pt_2
+    - s.42pt_3
+    x_height_px: 188
+    figure_height_px: 238.5
+    stem_px: 10.0
+    scale: 2.93501
+    stem_units: 29.4
+    x_height: 552
+    figure_height: 700
+  246:30pt:
+    n_caps: 2
+    cap_height_px: 181.5
+    cap_source: caps
+    baseline_px: 2893.0
+    baselines:
+      '5': 2893.0
+    glyphs:
+    - E.30pt
+    - x
+    - h
+    - a.30pt
+    - u
+    - s.30pt
+    - t
+    - e.30pt
+    - d.30pt
+    - dollar.30pt
+    - six.30pt
+    - one
+    - five
+    - four
+    - P.30pt
+    - o.30pt
+    - c
+    - k
+    - e.30pt_2
+    - t.30pt
+    - b
+    - o.30pt_2
+    - o.30pt_3
+    - k.30pt
+    x_height_px: 140
+    figure_height_px: 182.0
+    stem_px: 14.0
+    scale: 3.85675
+    stem_units: 54.0
+    x_height: 540
+    figure_height: 702
+  246:22pt:
+    n_caps: 18
+    cap_height_px: 141.0
+    cap_source: caps
+    baseline_px: 3384.0
+    baselines:
+      '6': 3384.0
+    glyphs:
+    - F
+    - I
+    - C.22pt
+    - T.22pt
+    - I.22pt
+    - T.22pt_2
+    - I.22pt_2
+    - O.22pt
+    - U
+    - S
+    - S.22pt
+    - T.22pt_3
+    - R
+    - A
+    - N.22pt
+    - G.22pt
+    - E.22pt
+    - R.22pt
+    stem_px: 6.5
+    scale: 4.96454
+    stem_units: 32.3
+specimen_lines:
+- leaf: 246
+  line: 48pt
+  text: GOLDEN 809 Cradles
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 246
+  line: 42pt
+  text: DEVELOPMENT
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 246
+  line: 42pt
+  text: Ore Mining $76 Lessons
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 246
+  line: 30pt
+  text: Exhausted $6154 Pocketbook
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 246
+  line: 22pt
+  text: FICTITIOUS STRANGER
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

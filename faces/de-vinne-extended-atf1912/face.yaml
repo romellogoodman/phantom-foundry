@@ -1,0 +1,171 @@
+name: de-vinne-extended-atf1912
+title: De Vinne Extended
+series: De Vinne Extended
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 622
+leaf_pages:
+  622: 600
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      622:72pt: 55.3
+      622:60pt: 31.4
+      622:48pt: 57.1
+      622:42pt: 73.9
+  x_height: 493
+lines:
+  622:72pt:
+    n_caps: 7
+    cap_height_px: 291
+    cap_source: caps
+    baseline_px: 607.0
+    baselines:
+      '1': 607.0
+      '2': 1019
+    glyphs:
+    - M
+    - I
+    - X
+    - E
+    - R
+    - S
+    - H
+    - u
+    - n
+    - d
+    - r
+    - e
+    - d.72pt
+    x_height_px: 205.0
+    stem_px: 51
+    scale: 2.4055
+    stem_units: 122.7
+    x_height: 493
+  622:60pt:
+    n_caps: 7
+    cap_height_px: 256
+    cap_source: caps
+    baseline_px: 1633
+    baselines:
+      '3': 1633
+    glyphs:
+    - F
+    - I.60pt
+    - R.60pt
+    - M.60pt
+    - E.60pt
+    - S.60pt
+    - T
+    stem_px: 39
+    scale: 2.73438
+    stem_units: 106.6
+  622:48pt:
+    n_caps: 2
+    cap_height_px: 196.0
+    cap_source: caps
+    baseline_px: 2856.0
+    baselines:
+      '6': 2856.0
+    glyphs:
+    - M.48pt
+    - a
+    - d.48pt
+    - e.48pt
+    - R.48pt
+    - o
+    - a.48pt
+    - d.48pt_2
+    - s
+    x_height_px: 137
+    stem_px: 26.5
+    scale: 3.57143
+    stem_units: 94.6
+    x_height: 489
+  622:42pt:
+    n_caps: 12
+    cap_height_px: 170.5
+    cap_source: caps
+    baseline_px: 3391.0
+    baselines:
+      '7': 3391.0
+      '8': 3672.0
+    glyphs:
+    - E.42pt
+    - I.42pt
+    - G
+    - H.42pt
+    - T.42pt
+    - M.42pt
+    - I.42pt_2
+    - N
+    - E.42pt_2
+    - S.42pt
+    - D
+    - e.42pt
+    - l
+    - i
+    - g
+    - h
+    - t
+    - e.42pt_2
+    - d.42pt
+    - M.42pt_2
+    - e.42pt_3
+    - n.42pt
+    x_height_px: 160.5
+    stem_px: 31.0
+    scale: 4.10557
+    stem_units: 127.3
+    x_height: 659
+specimen_lines:
+- leaf: 622
+  line: 72pt
+  text: MIXERS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 622
+  line: 72pt
+  text: Hundred
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 622
+  line: 60pt
+  text: FIRMEST
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 622
+  line: 48pt
+  text: Made Roads
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 622
+  line: 42pt
+  text: EIGHT MINES
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 622
+  line: 42pt
+  text: Delighted Men
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash

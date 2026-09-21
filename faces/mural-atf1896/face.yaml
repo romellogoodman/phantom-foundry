@@ -1,0 +1,237 @@
+name: mural-atf1896
+title: Mural.
+series: Mural.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 380
+  - 381
+leaf_pages:
+  380: 376
+  381: 377
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      380:42pt: 58.3
+      380:36pt: 65.5
+      380:30pt: 73.4
+      381:20pt: 89.9
+      381:18pt: 83.1
+lines:
+  380:42pt:
+    n_caps: 9
+    cap_height_px: 318
+    cap_source: caps
+    baseline_px: 1559
+    baselines:
+      '2': 1559
+    glyphs:
+    - D
+    - I
+    - S
+    - T
+    - R
+    - U
+    - S.42pt
+    - T.42pt
+    - S.42pt_2
+    stem_px: 21
+    scale: 2.20126
+    stem_units: 46.2
+  380:36pt:
+    n_caps: 9
+    cap_height_px: 267
+    cap_source: caps
+    baseline_px: 2085
+    baselines:
+      '3': 2085
+    glyphs:
+    - T.36pt
+    - R.36pt
+    - A
+    - D.36pt
+    - E
+    - W
+    - I.36pt
+    - N
+    - D.36pt_2
+    stem_px: 18
+    scale: 2.62172
+    stem_units: 47.2
+  380:30pt:
+    n_caps: 17
+    cap_height_px: 229
+    cap_source: caps
+    baseline_px: 2581
+    baselines:
+      '4': 2581
+      '5': 2877.5
+    glyphs:
+    - R.30pt
+    - I.30pt
+    - V
+    - E.30pt
+    - R.30pt_2
+    - T.30pt
+    - H
+    - A.30pt
+    - M
+    - E.30pt_2
+    - S.30pt
+    - O
+    - X
+    - F
+    - O.30pt
+    - R.30pt_3
+    - D.30pt
+    - three
+    - two
+    figure_height_px: 230.0
+    stem_px: 17
+    scale: 3.05677
+    stem_units: 52.0
+    figure_height: 703
+  381:20pt:
+    n_caps: 24
+    cap_height_px: 148.0
+    cap_source: caps
+    baseline_px: 802.5
+    baselines:
+      '1': 802.5
+      '2': 1019.0
+    glyphs:
+    - C
+    - O.20pt
+    - V.20pt
+    - E.20pt
+    - N.20pt
+    - T.20pt
+    - R.20pt
+    - Y
+    - R.20pt_2
+    - O.20pt_2
+    - T.20pt_2
+    - A.20pt
+    - T.20pt_3
+    - I.20pt
+    - O.20pt_3
+    - N.20pt_2
+    - W.20pt
+    - H.20pt
+    - E.20pt_2
+    - E.20pt_3
+    - L
+    - I.20pt_2
+    - N.20pt_3
+    - G
+    - four
+    - six
+    figure_height_px: 150.0
+    stem_px: 13.0
+    scale: 4.72973
+    stem_units: 61.5
+    figure_height: 709
+  381:18pt:
+    n_caps: 26
+    cap_height_px: 130.5
+    cap_source: caps
+    baseline_px: 1452
+    baselines:
+      '3': 1452
+      '4': 1653
+    glyphs:
+    - R.18pt
+    - A.18pt
+    - M.18pt
+    - B
+    - L.18pt
+    - I.18pt
+    - N.18pt
+    - G.18pt
+    - T.18pt
+    - R.18pt_2
+    - A.18pt_2
+    - V.18pt
+    - E.18pt
+    - L.18pt_2
+    - L.18pt_3
+    - E.18pt_2
+    - R.18pt_3
+    - E.18pt_3
+    - N.18pt_2
+    - J
+    - O.18pt
+    - Y.18pt
+    - M.18pt_2
+    - E.18pt_4
+    - N.18pt_3
+    - T.18pt_2
+    - two.18pt
+    - five
+    figure_height_px: 133.0
+    stem_px: 11.0
+    scale: 5.36398
+    stem_units: 59.0
+    figure_height: 713
+specimen_lines:
+- leaf: 380
+  line: 42pt
+  text: DISTRUSTS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 380
+  line: 36pt
+  text: TRADE WIND
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 380
+  line: 30pt
+  text: RIVER THAMES
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 380
+  line: 30pt
+  text: OXFORD 32
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 381
+  line: 20pt
+  text: COVENTRY ROTATION
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 381
+  line: 20pt
+  text: ~ WHEELING 46 ~
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 381
+  line: 18pt
+  text: RAMBLING TRAVELLER
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 381
+  line: 18pt
+  text: ~ ENJOYMENT 25 ~
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

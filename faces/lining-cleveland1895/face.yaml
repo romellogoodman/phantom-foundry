@@ -1,0 +1,224 @@
+name: lining-cleveland1895
+title: Lining
+series: Lining
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 99
+  - 105
+leaf_pages:
+  99: 95
+  105: 101
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      99:36pt: 103.1
+      105:36pt: 91.2
+      99:30pt: 110.9
+      105:30pt: 91.7
+      105:18pt: 100.8
+  x_height: 484
+lines:
+  99:36pt:
+    n_caps: 6
+    cap_height_px: 241.0
+    cap_source: caps
+    baseline_px: 3095.0
+    baselines:
+      '5': 3095.0
+      '6': 3388
+    glyphs:
+    - W
+    - a
+    - t
+    - e
+    - r
+    - M
+    - I
+    - L
+    - L.36pt
+    - S
+    - one
+    - two
+    - four
+    - six
+    - eight
+    - nine
+    - eight.36pt
+    - seven
+    - five
+    - three
+    - one.36pt
+    x_height_px: 166.5
+    figure_height_px: 116
+    stem_px: 24.5
+    scale: 2.90456
+    stem_units: 71.2
+    x_height: 484
+    figure_height: 337
+  105:36pt:
+    n_caps: 5
+    cap_height_px: 238
+    cap_source: caps
+    baseline_px: 3083
+    baselines:
+      '4': 3083
+      '5': 3379
+    glyphs:
+    - B
+    - l
+    - a.36pt
+    - c
+    - k
+    - T
+    - Y
+    - P
+    - E
+    - one.36pt_2
+    - two.36pt
+    - three.36pt
+    - five.36pt
+    - seven.36pt
+    - nine.36pt
+    - seven.36pt_2
+    - five.36pt_2
+    - three.36pt_2
+    - two.36pt_2
+    - one.36pt_3
+    x_height_px: 189.5
+    figure_height_px: 116
+    stem_px: 48
+    scale: 2.94118
+    stem_units: 141.2
+    x_height: 557
+    figure_height: 341
+  99:30pt:
+    n_caps: 6
+    cap_height_px: 202.0
+    cap_source: caps
+    baseline_px: 2639.0
+    baselines:
+      '4': 2639.0
+    glyphs:
+    - H
+    - O
+    - N
+    - E.30pt
+    - Y.30pt
+    - C
+    - o
+    - m
+    - b
+    - s
+    x_height_px: 137.0
+    stem_px: 22.0
+    scale: 3.46535
+    stem_units: 76.2
+    x_height: 475
+  105:30pt:
+    n_caps: 6
+    cap_height_px: 198.5
+    cap_source: caps
+    baseline_px: 2659.5
+    baselines:
+      '3': 2659.5
+    glyphs:
+    - P.30pt
+    - L.30pt
+    - A
+    - I.30pt
+    - N.30pt
+    - S.30pt
+    - t.30pt
+    - r.30pt
+    - o.30pt
+    - n
+    - g
+    x_height_px: 137
+    stem_px: 40.0
+    scale: 3.52645
+    stem_units: 141.1
+    x_height: 483
+  105:18pt:
+    n_caps: 9
+    cap_height_px: 118
+    cap_source: caps
+    baseline_px: 1922
+    baselines:
+      '1': 1922
+    glyphs:
+    - G
+    - o.18pt
+    - o.18pt_2
+    - d
+    - C.18pt
+    - O.18pt
+    - U
+    - N.18pt
+    - T.18pt
+    - R
+    - Y.18pt
+    - H.18pt
+    - o.18pt_3
+    - u
+    - s.18pt
+    - e.18pt
+    x_height_px: 83
+    stem_px: 23
+    scale: 5.9322
+    stem_units: 136.4
+    x_height: 492
+specimen_lines:
+- leaf: 99
+  line: 36pt
+  text: Water M I LLS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 99
+  line: 36pt
+  text: '12468987531'
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 105
+  line: 36pt
+  text: Black TYPE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 105
+  line: 36pt
+  text: '12357975321'
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 99
+  line: 30pt
+  text: HONEY Combs
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 105
+  line: 30pt
+  text: PLAIN Strong
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 105
+  line: 18pt
+  text: Good COUNTRY House
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

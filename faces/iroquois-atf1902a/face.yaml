@@ -1,0 +1,141 @@
+name: iroquois-atf1902a
+title: Iroquois
+series: Iroquois
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 360
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      360:48pt: 59.2
+      360:36pt: 146.3
+      360:30pt: 97.5
+  x_height: 497
+lines:
+  360:48pt:
+    n_caps: 8
+    cap_height_px: 272.0
+    cap_source: caps
+    baseline_px: 1975.5
+    baselines:
+      '3': 1975.5
+      '4': 2349.0
+    glyphs:
+    - P
+    - U
+    - B
+    - L
+    - I
+    - C
+    - C.48pt
+    - a
+    - s
+    - h
+    - L.48pt
+    - o
+    - s.48pt
+    - t
+    x_height_px: 191.5
+    stem_px: 71.0
+    scale: 2.57353
+    stem_units: 182.7
+    x_height: 493
+  360:36pt:
+    n_caps: 5
+    cap_height_px: 189
+    cap_source: caps
+    baseline_px: 2793
+    baselines:
+      '5': 2793
+    glyphs:
+    - H
+    - O
+    - U.36pt
+    - N
+    - D
+    stem_px: 37
+    scale: 3.7037
+    stem_units: 137.0
+  360:30pt:
+    n_caps: 10
+    cap_height_px: 158.0
+    cap_source: caps
+    baseline_px: 3537.5
+    baselines:
+      '7': 3537.5
+      '8': 3789.0
+    glyphs:
+    - E
+    - N.30pt
+    - T
+    - O.30pt
+    - M
+    - B.30pt
+    - E.30pt
+    - D.30pt
+    - S
+    - t.30pt
+    - a.30pt
+    - u
+    - n
+    - c
+    - h.30pt
+    - H.30pt
+    - e
+    - r
+    - o.30pt
+    - e.30pt
+    - s.30pt
+    x_height_px: 113
+    stem_px: 41.5
+    scale: 4.43038
+    stem_units: 183.9
+    x_height: 501
+specimen_lines:
+- leaf: 360
+  line: 48pt
+  text: PUBLIC
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 360
+  line: 48pt
+  text: Cash Lost
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 360
+  line: 36pt
+  text: ~HOUND~
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 360
+  line: 30pt
+  text: ENTOMBED
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 360
+  line: 30pt
+  text: Staunch Heroes
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

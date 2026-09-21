@@ -1,0 +1,119 @@
+name: news-gothic-extra-condensed-title-atf1912
+title: News Gothic Extra Condensed Title
+series: News Gothic Dara Condensed Title
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 730
+leaf_pages:
+  730: 708
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      730:60pt: 27.4
+      730:48pt: 37.6
+lines:
+  730:60pt:
+    n_caps: 23
+    cap_height_px: 307
+    cap_source: caps
+    baseline_px: 1172
+    baselines:
+      '2': 1172
+    glyphs:
+    - D
+    - I
+    - S
+    - T
+    - I.60pt
+    - N
+    - G
+    - U
+    - I.60pt_2
+    - S.60pt
+    - H
+    - E
+    - D.60pt
+    - F
+    - O
+    - R
+    - E.60pt
+    - I.60pt_3
+    - G.60pt
+    - N.60pt
+    - E.60pt_2
+    - R.60pt
+    - S.60pt_2
+    stem_px: 24
+    scale: 2.28013
+    stem_units: 54.7
+  730:48pt:
+    n_caps: 26
+    cap_height_px: 242.0
+    cap_source: caps
+    baseline_px: 1594.0
+    baselines:
+      '3': 1594.0
+    glyphs:
+    - I.48pt
+    - N.48pt
+    - T.48pt
+    - E.48pt
+    - R.48pt
+    - B
+    - O.48pt
+    - R.48pt_2
+    - O.48pt_2
+    - U.48pt
+    - G.48pt
+    - H.48pt
+    - L
+    - I.48pt_2
+    - N.48pt_2
+    - E.48pt_2
+    - M
+    - O.48pt_3
+    - D.48pt
+    - E.48pt_3
+    - R.48pt_3
+    - N.48pt_3
+    - I.48pt_3
+    - Z
+    - E.48pt_4
+    - D.48pt_2
+    stem_px: 19.0
+    scale: 2.89256
+    stem_units: 55.0
+specimen_lines:
+- leaf: 730
+  line: 60pt
+  text: DISTINGUISHED FOREIGNERS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 730
+  line: 48pt
+  text: INTERBOROUGH LINE MODERNIZED
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: News Gothic Dara Condensed Title
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

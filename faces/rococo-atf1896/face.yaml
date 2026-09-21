@@ -1,0 +1,67 @@
+name: rococo-atf1896
+title: Rococo.
+series: Rococo.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 430
+leaf_pages:
+  430: 426
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      430:18pt: 21.2
+lines:
+  430:18pt:
+    n_caps: 15
+    cap_height_px: 99
+    cap_source: caps
+    baseline_px: 3334
+    baselines:
+      '8': 3334
+    glyphs:
+    - C
+    - L
+    - E
+    - A
+    - R
+    - C.18pt
+    - O
+    - N
+    - S
+    - C.18pt_2
+    - I
+    - E.18pt
+    - N.18pt
+    - C.18pt_3
+    - E.18pt_2
+    stem_px: 5
+    scale: 7.07071
+    stem_units: 35.4
+specimen_lines:
+- leaf: 430
+  line: 18pt
+  text: ~CLEAR ~ CONSCIENCE~
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash

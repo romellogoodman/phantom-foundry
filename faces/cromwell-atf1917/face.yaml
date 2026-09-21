@@ -1,0 +1,63 @@
+name: cromwell-atf1917
+title: Cromwell
+series: Cromwell
+status: proto
+version: 0.1.0
+book: supplementarycat00daysrich
+source:
+  archive_id: supplementarycat00daysrich
+  title: 'Supplementary catalogue : new type faces, borders, ornaments, brass rule'
+  creator: Daystrom, inc
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '[c1917]'
+  ppi: 400
+  url: https://archive.org/details/supplementarycat00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 38
+leaf_pages:
+  38: 32
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      38:48pt: 18.9
+lines:
+  38:48pt:
+    n_caps: 14
+    cap_height_px: 167.0
+    cap_source: caps
+    baseline_px: 558.0
+    baselines:
+      '1': 558.0
+    glyphs:
+    - H
+    - A
+    - N
+    - D
+    - S
+    - O
+    - M
+    - E
+    - F
+    - O.48pt
+    - L
+    - D.48pt
+    - E.48pt
+    - R
+    stem_px: 17.5
+    scale: 4.19162
+    stem_units: 73.4
+specimen_lines:
+- leaf: 38
+  line: 48pt
+  text: HANDSOME FOLDER
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

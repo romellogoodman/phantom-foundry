@@ -1,0 +1,146 @@
+name: lining-saint-george-stephenson1908
+title: Lining Saint George.
+series: Lining Saint George.
+status: proto
+version: 0.1.0
+book: specimensofpoint00step
+source:
+  archive_id: specimensofpoint00step
+  title: 'Specimens of point line type : borders ornaments brass rules &c. &c'
+  creator:
+  - Stephenson, Blake and Company, Ltd
+  - Sir Charles Reed & Sons
+  publisher: 'Toronto : Stephenson, Blake & Co.'
+  date: '1908'
+  ppi: 350
+  url: https://archive.org/details/specimensofpoint00step
+  copyright_status: null
+  contributor: Fisher - University of Toronto
+  leaves:
+  - 69
+leaf_pages:
+  69: 113
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      69:72pt: 75.4
+      69:60pt: 67.2
+      69:48pt: 62.2
+  x_height: 445
+lines:
+  69:72pt:
+    n_caps: 5
+    cap_height_px: 274
+    cap_source: caps
+    baseline_px: 830
+    baselines:
+      '1': 830
+    glyphs:
+    - R
+    - I
+    - C
+    - H
+    - M
+    - o
+    - d
+    - e
+    - l
+    - s
+    x_height_px: 176
+    stem_px: 36
+    scale: 2.55474
+    stem_units: 92.0
+    x_height: 450
+  69:60pt:
+    n_caps: 12
+    cap_height_px: 229.0
+    cap_source: caps
+    baseline_px: 3167.5
+    baselines:
+      '6': 3167.5
+      '7': 3472.5
+    glyphs:
+    - F
+    - U
+    - R.60pt
+    - N
+    - I.60pt
+    - S
+    - H.60pt
+    - E
+    - R.60pt_2
+    - S.60pt
+    - N.60pt
+    - o.60pt
+    - t
+    - e.60pt
+    - d.60pt
+    - P
+    - r
+    - o.60pt_2
+    - d.60pt_2
+    - u
+    - c
+    - e.60pt_2
+    x_height_px: 144.0
+    stem_px: 21.5
+    scale: 3.05677
+    stem_units: 65.7
+    x_height: 440
+  69:48pt:
+    n_caps: 18
+    cap_height_px: 112.5
+    cap_source: caps
+    baseline_px: 1181.5
+    baselines:
+      '2': 1181.5
+    glyphs:
+    - U.48pt
+    - N.48pt
+    - I.48pt
+    - Q
+    - U.48pt_2
+    - E.48pt
+    - B
+    - R.48pt
+    - A
+    - N.48pt_2
+    - D
+    - S.48pt
+    - G
+    - R.48pt_2
+    - O
+    - U.48pt_3
+    - N.48pt_3
+    - D.48pt
+    stem_px: 9.0
+    scale: 6.22222
+    stem_units: 56.0
+specimen_lines:
+- leaf: 69
+  line: 72pt
+  text: RICH Models
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 69
+  line: 60pt
+  text: FURNISHERS
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 69
+  line: 60pt
+  text: Noted Produce
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 69
+  line: 48pt
+  text: UNIQUE BRANDS G RO U N D
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

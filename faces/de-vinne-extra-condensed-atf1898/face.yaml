@@ -1,0 +1,153 @@
+name: de-vinne-extra-condensed-atf1898
+title: De Vinne Extra Condensed
+series: De Vinne Extra Condensed
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 360
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      360:54pt: 26.6
+      360:48pt: 22.2
+      360:42pt: 35.5
+  x_height: 481
+lines:
+  360:54pt:
+    n_caps: 5
+    cap_height_px: 289
+    cap_source: caps
+    baseline_px: 2065
+    baselines:
+      '4': 2065
+    glyphs:
+    - S
+    - H
+    - O
+    - E
+    - F
+    - a
+    - n
+    - c
+    - y
+    - five
+    x_height_px: 198.5
+    figure_height_px: 285
+    stem_px: 20
+    scale: 2.42215
+    stem_units: 48.4
+    x_height: 481
+    figure_height: 690
+  360:48pt:
+    n_caps: 6
+    cap_height_px: 252.0
+    cap_source: caps
+    baseline_px: 2576.0
+    baselines:
+      '5': 2576.0
+    glyphs:
+    - six
+    - A
+    - v
+    - e
+    - n.48pt
+    - u
+    - e.48pt
+    - C
+    - L
+    - E.48pt
+    - A.48pt
+    - N
+    x_height_px: 173
+    figure_height_px: 251
+    stem_px: 9.0
+    scale: 2.77778
+    stem_units: 25.0
+    x_height: 481
+    figure_height: 697
+  360:42pt:
+    n_caps: 15
+    cap_height_px: 217
+    cap_source: caps
+    baseline_px: 3049.5
+    baselines:
+      '6': 3049.5
+      '7': 3359
+    glyphs:
+    - S.42pt
+    - u.42pt
+    - p
+    - e.42pt
+    - r
+    - i
+    - o
+    - r.42pt
+    - G
+    - r.42pt_2
+    - a.42pt
+    - d
+    - e.42pt_2
+    - s
+    - seven
+    - B
+    - E.42pt
+    - A.42pt
+    - U
+    - T
+    - I
+    - F.42pt
+    - U.42pt
+    - L.42pt
+    - S.42pt_2
+    - O.42pt
+    - N.42pt
+    - G.42pt
+    x_height_px: 150.0
+    figure_height_px: 212
+    stem_px: 12
+    scale: 3.22581
+    stem_units: 38.7
+    x_height: 484
+    figure_height: 684
+specimen_lines:
+- leaf: 360
+  line: 54pt
+  text: SHOE Fancy 5
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 360
+  line: 48pt
+  text: 6 Avenue CLEAN
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 360
+  line: 42pt
+  text: Superior Grades 7
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 360
+  line: 42pt
+  text: BEAUTIFUL SONG
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

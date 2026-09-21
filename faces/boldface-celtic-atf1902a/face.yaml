@@ -1,0 +1,153 @@
+name: boldface-celtic-atf1902a
+title: Boldface Celtic
+series: Boldface Celtic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 488
+leaf_pages:
+  488: 34
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      488:42pt: 49.3
+      488:36pt: 38.0
+      488:30pt: 36.5
+      488:24pt: 45.5
+  x_height: 529
+lines:
+  488:42pt:
+    n_caps: 5
+    cap_height_px: 227
+    cap_source: caps
+    baseline_px: 885
+    baselines:
+      '1': 885
+    glyphs:
+    - C
+    - O
+    - L
+    - D
+    - P
+    - e
+    - a
+    - r
+    - l
+    x_height_px: 171.5
+    stem_px: 34
+    scale: 3.0837
+    stem_units: 104.8
+    x_height: 529
+  488:36pt:
+    n_caps: 7
+    cap_height_px: 184
+    cap_source: caps
+    baseline_px: 1324
+    baselines:
+      '2': 1324
+    glyphs:
+    - B
+    - o
+    - a.36pt
+    - r.36pt
+    - d
+    - T
+    - E
+    - S
+    - T.36pt
+    - E.36pt
+    - D.36pt
+    x_height_px: 139.5
+    stem_px: 17
+    scale: 3.80435
+    stem_units: 64.7
+    x_height: 531
+  488:30pt:
+    n_caps: 8
+    cap_height_px: 153.5
+    cap_source: caps
+    baseline_px: 1748.5
+    baselines:
+      '3': 1748.5
+    glyphs:
+    - H
+    - U
+    - N
+    - T.30pt
+    - I
+    - N.30pt
+    - G
+    - M
+    - a.30pt
+    - l.30pt
+    - s
+    - t
+    - e.30pt
+    - r.30pt
+    x_height_px: 115.5
+    stem_px: 17.0
+    scale: 4.56026
+    stem_units: 77.5
+    x_height: 527
+  488:24pt:
+    n_caps: 10
+    cap_height_px: 115.5
+    cap_source: caps
+    baseline_px: 2124.5
+    baselines:
+      '4': 2124.5
+    glyphs:
+    - S.24pt
+    - E.24pt
+    - N.24pt
+    - A
+    - T.24pt
+    - E.24pt_2
+    - R
+    - U.24pt
+    - M.24pt
+    - O.24pt
+    stem_px: 12.5
+    scale: 6.06061
+    stem_units: 75.8
+specimen_lines:
+- leaf: 488
+  line: 42pt
+  text: COLD Pearl
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 488
+  line: 36pt
+  text: Board TESTED
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 488
+  line: 30pt
+  text: HUNTING Malster
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 488
+  line: 24pt
+  text: SENA TERUMO
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

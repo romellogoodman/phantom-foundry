@@ -1,0 +1,159 @@
+name: breton-atf1900
+title: Breton
+series: Breton
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 598
+leaf_pages:
+  598: 25
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      598:48pt: 34.9
+      598:42pt: 38.6
+      598:24pt: 42.7
+  x_height: 554
+lines:
+  598:48pt:
+    n_caps: 4
+    cap_height_px: 321.0
+    cap_source: caps
+    baseline_px: 1029.0
+    baselines:
+      '1': 1029.0
+    glyphs:
+    - I
+    - C
+    - E
+    - B
+    - o
+    - a
+    - t
+    x_height_px: 254
+    stem_px: 78.0
+    scale: 2.18069
+    stem_units: 170.1
+    x_height: 554
+  598:42pt:
+    n_caps: 8
+    cap_height_px: 217.5
+    cap_source: caps
+    baseline_px: 1530.0
+    baselines:
+      '2': 1530.0
+      '3': 1822.5
+    glyphs:
+    - M
+    - O
+    - D
+    - E.42pt
+    - R
+    - N
+    - F
+    - r
+    - a.42pt
+    - m
+    - e
+    - H
+    - o.42pt
+    - u
+    - s
+    - e.42pt
+    x_height_px: 168.0
+    stem_px: 49.0
+    scale: 3.21839
+    stem_units: 157.7
+    x_height: 541
+  598:24pt:
+    n_caps: 15
+    cap_height_px: 131
+    cap_source: caps
+    baseline_px: 2248.0
+    baselines:
+      '4': 2248.0
+      '5': 2469
+    glyphs:
+    - U
+    - N.24pt
+    - I.24pt
+    - O.24pt
+    - N.24pt_2
+    - S
+    - T
+    - A
+    - T.24pt
+    - I.24pt_2
+    - O.24pt_2
+    - N.24pt_3
+    - G
+    - r.24pt
+    - e.24pt
+    - a.24pt
+    - t.24pt
+    - B.24pt
+    - u.24pt
+    - i
+    - l
+    - d
+    - i.24pt
+    - n
+    - g
+    - C.24pt
+    - o.24pt
+    - m.24pt
+    - p
+    - l.24pt
+    - e.24pt_2
+    - t.24pt_2
+    - e.24pt_3
+    x_height_px: 107.5
+    stem_px: 29
+    scale: 5.34351
+    stem_units: 155.0
+    x_height: 574
+specimen_lines:
+- leaf: 598
+  line: 48pt
+  text: ICE Boat
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 598
+  line: 42pt
+  text: MODERN
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 598
+  line: 42pt
+  text: Frame House
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 598
+  line: 24pt
+  text: UNION STATION
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 598
+  line: 24pt
+  text: Great Building Complete
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,142 @@
+name: alaskan-atf1900
+title: Alaskan
+series: Alaskan
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 444
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      444:48pt: 86.5
+      444:36pt: 101.6
+      444:24pt: 95.1
+      444:18pt: 130.5
+lines:
+  444:48pt:
+    n_caps: 5
+    cap_height_px: 336
+    cap_source: caps
+    baseline_px: 1001
+    baselines:
+      '2': 1001
+    glyphs:
+    - B
+    - O
+    - N
+    - D
+    - S
+    stem_px: 54
+    scale: 2.08333
+    stem_units: 112.5
+  444:36pt:
+    n_caps: 7
+    cap_height_px: 248
+    cap_source: caps
+    baseline_px: 1552
+    baselines:
+      '3': 1552
+    glyphs:
+    - M
+    - A
+    - C
+    - H
+    - I
+    - N.36pt
+    - E
+    stem_px: 38
+    scale: 2.82258
+    stem_units: 107.3
+  444:24pt:
+    n_caps: 16
+    cap_height_px: 162.0
+    cap_source: caps
+    baseline_px: 1989.5
+    baselines:
+      '4': 1989.5
+      '5': 2253.0
+    glyphs:
+    - R
+    - E.24pt
+    - M.24pt
+    - O.24pt
+    - V
+    - E.24pt_2
+    - R.24pt
+    - U
+    - R.24pt_2
+    - A.24pt
+    - L
+    - T
+    - R.24pt_3
+    - A.24pt_2
+    - C.24pt
+    - K
+    stem_px: 28.0
+    scale: 4.32099
+    stem_units: 121.0
+  444:18pt:
+    n_caps: 8
+    cap_height_px: 118.0
+    cap_source: caps
+    baseline_px: 2662.0
+    baselines:
+      '6': 2662.0
+    glyphs:
+    - P
+    - U.18pt
+    - R.18pt
+    - C.18pt
+    - H.18pt
+    - A.18pt
+    - S.18pt
+    - E.18pt
+    stem_px: 21.0
+    scale: 5.9322
+    stem_units: 124.6
+specimen_lines:
+- leaf: 444
+  line: 48pt
+  text: BONDS ~
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 444
+  line: 36pt
+  text: MACHINE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 444
+  line: 24pt
+  text: REMOVE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 444
+  line: 24pt
+  text: RURALTRACK
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 444
+  line: 18pt
+  text: PURCHASE
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

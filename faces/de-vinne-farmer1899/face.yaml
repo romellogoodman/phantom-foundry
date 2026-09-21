@@ -1,0 +1,104 @@
+name: de-vinne-farmer1899
+title: De Vinne.
+series: De Vinne.
+status: proto
+version: 0.1.0
+book: abridgedspecimen00adfa
+source:
+  archive_id: abridgedspecimen00adfa
+  title: 'Abridged specimen book : type, borders, brass rules, ornaments and price
+    list of printing machinery, furniture, fixtures and material'
+  creator: A.D. Farmer & Son Type Founding Co
+  publisher: 'Chicago : The Company'
+  date: '1899'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00adfa
+  copyright_status: null
+  contributor: University of Illinois Urbana-Champaign
+  leaves:
+  - 290
+leaf_pages:
+  290: 266
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      290:72pt: 62.6
+      290:60pt: 36.0
+  x_height: 491
+lines:
+  290:72pt:
+    n_caps: 5
+    cap_height_px: 386
+    cap_source: caps
+    baseline_px: 2482.0
+    baselines:
+      '3': 2482.0
+      '4': 3099
+    glyphs:
+    - S
+    - O
+    - L
+    - D
+    - C
+    - o
+    - p
+    - p.72pt
+    - e
+    - r
+    x_height_px: 270
+    stem_px: 62
+    scale: 1.81347
+    stem_units: 112.4
+    x_height: 490
+  290:60pt:
+    n_caps: 5
+    cap_height_px: 331
+    cap_source: caps
+    baseline_px: 1056.0
+    baselines:
+      '1': 1056.0
+      '2': 1591
+    glyphs:
+    - B
+    - O.60pt
+    - Y
+    - S.60pt
+    - W
+    - a
+    - n
+    - t
+    - e.60pt
+    - d
+    x_height_px: 233
+    stem_px: 28
+    scale: 2.1148
+    stem_units: 59.2
+    x_height: 493
+specimen_lines:
+- leaf: 290
+  line: 72pt
+  text: SOLD
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 290
+  line: 72pt
+  text: Copper
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 290
+  line: 60pt
+  text: BOYS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 290
+  line: 60pt
+  text: Wanted
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

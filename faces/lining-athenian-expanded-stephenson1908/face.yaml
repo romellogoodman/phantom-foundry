@@ -1,0 +1,87 @@
+name: lining-athenian-expanded-stephenson1908
+title: Lining Athenian Expanded.
+series: Lining Athenian Expanded.
+status: proto
+version: 0.1.0
+book: specimensofpoint00step
+source:
+  archive_id: specimensofpoint00step
+  title: 'Specimens of point line type : borders ornaments brass rules &c. &c'
+  creator:
+  - Stephenson, Blake and Company, Ltd
+  - Sir Charles Reed & Sons
+  publisher: 'Toronto : Stephenson, Blake & Co.'
+  date: '1908'
+  ppi: 350
+  url: https://archive.org/details/specimensofpoint00step
+  copyright_status: null
+  contributor: Fisher - University of Toronto
+  leaves:
+  - 94
+leaf_pages:
+  94: 142
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      94:42pt: 144.4
+      94:30pt: 140.0
+lines:
+  94:42pt:
+    n_caps: 8
+    cap_height_px: 189.0
+    cap_source: caps
+    baseline_px: 704.0
+    baselines:
+      '1': 704.0
+    glyphs:
+    - P
+    - R
+    - I
+    - N
+    - T
+    - E
+    - R.42pt
+    - S
+    stem_px: 36.0
+    scale: 3.7037
+    stem_units: 133.3
+  94:30pt:
+    n_caps: 11
+    cap_height_px: 135
+    cap_source: caps
+    baseline_px: 1372
+    baselines:
+      '3': 1372
+    glyphs:
+    - Y
+    - O
+    - U
+    - R.30pt
+    - O.30pt
+    - F
+    - F.30pt
+    - I.30pt
+    - C
+    - E.30pt
+    - S.30pt
+    stem_px: 20
+    scale: 5.18519
+    stem_units: 103.7
+specimen_lines:
+- leaf: 94
+  line: 42pt
+  text: PRINTERS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 94
+  line: 30pt
+  text: YOUR OFFICES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

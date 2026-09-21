@@ -1,0 +1,71 @@
+name: cheltenham-extra-bold-shaded-various1930
+title: Cheltenham Extra Bold Shaded
+series: Cheltenham Extra Bold Shaded
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 132
+leaf_pages:
+  132: 120
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      132:36pt: 15.0
+  x_height: 470
+lines:
+  132:36pt:
+    n_caps: 2
+    cap_height_px: 140.0
+    cap_source: caps
+    baseline_px: 1235.0
+    baselines:
+      '3': 1235.0
+    glyphs:
+    - O
+    - r
+    - c
+    - h
+    - e
+    - s
+    - t
+    - r.36pt
+    - a
+    - l
+    - S
+    - e.36pt
+    - l.36pt
+    - e.36pt_2
+    - c.36pt
+    - t.36pt
+    - i
+    - o
+    - n
+    x_height_px: 94
+    stem_px: 3.0
+    scale: 5.0
+    stem_units: 15.0
+    x_height: 470
+specimen_lines:
+- leaf: 132
+  line: 36pt
+  text: Orchestral Selection
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,64 @@
+name: whittier-atf1896
+title: Whittier.
+series: Whittier.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 385
+leaf_pages:
+  385: 381
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      385:48pt: 109.3
+  x_height: 493
+lines:
+  385:48pt:
+    n_caps: 1
+    cap_height_px: 301
+    cap_source: caps
+    baseline_px: 965
+    baselines:
+      '1': 965
+    glyphs:
+    - E
+    - n
+    - a
+    - c
+    - t
+    - m
+    - e
+    - n.48pt
+    - t.48pt
+    x_height_px: 212.0
+    stem_px: 21
+    scale: 2.32558
+    stem_units: 48.8
+    x_height: 493
+specimen_lines:
+- leaf: 385
+  line: 48pt
+  text: Enactment
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

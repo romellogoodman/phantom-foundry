@@ -1,0 +1,85 @@
+name: modern-no-20-various1930
+title: Modern No. 20
+series: Modern
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 65
+leaf_pages:
+  65: 53
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      65:48pt: 39.1
+  x_height: 461
+lines:
+  65:48pt:
+    n_caps: 3
+    cap_height_px: 179
+    cap_source: caps
+    baseline_px: 664.0
+    baselines:
+      '1': 664.0
+      '2': 906
+    glyphs:
+    - S
+    - u
+    - p
+    - r
+    - e
+    - m
+    - e.48pt
+    - C
+    - o
+    - u.48pt
+    - r.48pt
+    - t
+    - s
+    - o.48pt
+    - f
+    - t.48pt
+    - h
+    - e.48pt_2
+    - C.48pt
+    - o.48pt_2
+    - l
+    - o.48pt_3
+    - n
+    - y
+    x_height_px: 118
+    stem_px: 5
+    scale: 3.91061
+    stem_units: 19.6
+    x_height: 461
+specimen_lines:
+- leaf: 65
+  line: 48pt
+  text: Supreme Courts
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 65
+  line: 48pt
+  text: of the Colony
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Modern
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

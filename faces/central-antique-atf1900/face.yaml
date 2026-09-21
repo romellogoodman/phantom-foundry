@@ -1,0 +1,179 @@
+name: central-antique-atf1900
+title: Central Antique
+series: Central Antique
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 616
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      616:54pt: 48.7
+      616:48pt: 38.6
+      616:42pt: 52.0
+      616:36pt: 62.4
+      616:24pt: 48.8
+  x_height: 514
+lines:
+  616:54pt:
+    n_caps: 4
+    cap_height_px: 316.0
+    cap_source: caps
+    baseline_px: 994.0
+    baselines:
+      '1': 994.0
+    glyphs:
+    - B
+    - I
+    - G
+    - H
+    - e
+    - n
+    - s
+    x_height_px: 232
+    stem_px: 17.5
+    scale: 2.21519
+    stem_units: 38.8
+    x_height: 514
+  616:48pt:
+    n_caps: 5
+    cap_height_px: 272
+    cap_source: caps
+    baseline_px: 1503
+    baselines:
+      '2': 1503
+    glyphs:
+    - D
+    - a
+    - r
+    - k
+    - R
+    - I.48pt
+    - D.48pt
+    - E
+    x_height_px: 198
+    stem_px: 16
+    scale: 2.57353
+    stem_units: 41.2
+    x_height: 510
+  616:42pt:
+    n_caps: 5
+    cap_height_px: 229
+    cap_source: caps
+    baseline_px: 1971
+    baselines:
+      '3': 1971
+    glyphs:
+    - G.42pt
+    - E.42pt
+    - M
+    - S
+    - B.42pt
+    - o
+    - u
+    - n.42pt
+    - d
+    x_height_px: 167.5
+    stem_px: 13
+    scale: 3.05677
+    stem_units: 39.7
+    x_height: 512
+  616:36pt:
+    n_caps: 7
+    cap_height_px: 185
+    cap_source: caps
+    baseline_px: 2394
+    baselines:
+      '4': 2394
+    glyphs:
+    - E.36pt
+    - n.36pt
+    - r.36pt
+    - i
+    - c
+    - h
+    - M.36pt
+    - I.36pt
+    - S.36pt
+    - E.36pt_2
+    - R.36pt
+    - S.36pt_2
+    x_height_px: 138
+    stem_px: 12
+    scale: 3.78378
+    stem_units: 45.4
+    x_height: 522
+  616:24pt:
+    n_caps: 9
+    cap_height_px: 129
+    cap_source: caps
+    baseline_px: 2811
+    baselines:
+      '5': 2811
+    glyphs:
+    - S.24pt
+    - I.24pt
+    - X
+    - M.24pt
+    - e.24pt
+    - n.24pt
+    - D.24pt
+    - I.24pt_2
+    - S.24pt_2
+    - H.24pt
+    - C
+    - l
+    - o.24pt
+    - t
+    - h.24pt
+    x_height_px: 115.0
+    stem_px: 9
+    scale: 5.42636
+    stem_units: 48.8
+    x_height: 624
+specimen_lines:
+- leaf: 616
+  line: 54pt
+  text: BIG Hens
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 616
+  line: 48pt
+  text: Dark RIDE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 616
+  line: 42pt
+  text: GEMS Bound
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 616
+  line: 36pt
+  text: Enrich MISERS
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 616
+  line: 24pt
+  text: SIX Men DISH Cloth
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

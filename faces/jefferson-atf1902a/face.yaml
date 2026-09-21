@@ -1,0 +1,104 @@
+name: jefferson-atf1902a
+title: Jefferson
+series: Jefferson
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 398
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      398:42pt: 35.5
+      398:30pt: 54.5
+  x_height: 556
+lines:
+  398:42pt:
+    n_caps: 9
+    cap_height_px: 217
+    cap_source: caps
+    baseline_px: 2115
+    baselines:
+      '3': 2115
+    glyphs:
+    - T
+    - E
+    - N
+    - C
+    - a
+    - t
+    - F
+    - a.42pt
+    - t.42pt
+    - B
+    - O
+    - Y
+    - S
+    x_height_px: 176.5
+    stem_px: 24
+    scale: 3.22581
+    stem_units: 77.4
+    x_height: 569
+  398:30pt:
+    n_caps: 11
+    cap_height_px: 154
+    cap_source: caps
+    baseline_px: 2554
+    baselines:
+      '4': 2554
+    glyphs:
+    - G
+    - o
+    - l
+    - d
+    - M
+    - I
+    - N.30pt
+    - E.30pt
+    - O.30pt
+    - C.30pt
+    - E.30pt_2
+    - A
+    - N.30pt_2
+    - S.30pt
+    - a.30pt
+    - i
+    - l.30pt
+    - o.30pt
+    - r
+    x_height_px: 119.5
+    stem_px: 16
+    scale: 4.54545
+    stem_units: 72.7
+    x_height: 543
+specimen_lines:
+- leaf: 398
+  line: 42pt
+  text: TEN Cat Fat BOYS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 398
+  line: 30pt
+  text: Gold MINE OCEAN Sailor
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

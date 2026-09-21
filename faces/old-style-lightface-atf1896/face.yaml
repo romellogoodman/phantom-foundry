@@ -1,0 +1,114 @@
+name: old-style-lightface-atf1896
+title: Old Style Lightface
+series: Old Style Lightface
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 559
+leaf_pages:
+  559: 555
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      559:72pt: 39.5
+      559:66pt: 27.1
+      559:60pt: 43.5
+  x_height: 464
+lines:
+  559:72pt:
+    n_caps: 5
+    cap_height_px: 354
+    cap_source: caps
+    baseline_px: 3513
+    baselines:
+      '4': 3513
+    glyphs:
+    - F
+    - L
+    - A
+    - S
+    - H
+    stem_px: 46
+    scale: 1.9774
+    stem_units: 91.0
+  559:66pt:
+    n_caps: 5
+    cap_height_px: 387
+    cap_source: caps
+    baseline_px: 2662
+    baselines:
+      '3': 2662
+    glyphs:
+    - H.66pt
+    - U
+    - R
+    - O
+    - N
+    stem_px: 31
+    scale: 1.80879
+    stem_units: 56.1
+  559:60pt:
+    n_caps: 6
+    cap_height_px: 370.0
+    cap_source: caps
+    baseline_px: 1131
+    baselines:
+      '1': 1131
+      '2': 1729
+    glyphs:
+    - S.60pt
+    - T
+    - A.60pt
+    - R.60pt
+    - T.60pt
+    - H.60pt
+    - e
+    - a
+    - d
+    x_height_px: 245
+    stem_px: 41.0
+    scale: 1.89189
+    stem_units: 77.6
+    x_height: 464
+specimen_lines:
+- leaf: 559
+  line: 72pt
+  text: FLASH
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 559
+  line: 66pt
+  text: HURON
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 559
+  line: 60pt
+  text: START
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 559
+  line: 60pt
+  text: Head
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

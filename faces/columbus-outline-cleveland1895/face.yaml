@@ -1,0 +1,68 @@
+name: columbus-outline-cleveland1895
+title: Columbus Outline
+series: Columbus Outline
+status: proto
+version: 0.1.0
+book: cataloguebookofs00clevrich
+source:
+  archive_id: cataloguebookofs00clevrich
+  title: Catalogue and book of specimens of type faces and printing material and machinery
+  creator: Cleveland Type Foundry
+  publisher: Cleveland
+  date: '[1895]'
+  ppi: 500
+  url: https://archive.org/details/cataloguebookofs00clevrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 171
+leaf_pages:
+  171: 167
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      171:60pt: 37.3
+  x_height: 539
+lines:
+  171:60pt:
+    n_caps: 5
+    cap_height_px: 375
+    cap_source: caps
+    baseline_px: 2822.0
+    baselines:
+      '4': 2822.0
+      '5': 3408
+    glyphs:
+    - D
+    - I
+    - M
+    - E
+    - M.60pt
+    - u
+    - s
+    - e
+    - u.60pt
+    - m
+    x_height_px: 289
+    stem_px: 9
+    scale: 1.86667
+    stem_units: 16.8
+    x_height: 539
+specimen_lines:
+- leaf: 171
+  line: 60pt
+  text: DIME
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 171
+  line: 60pt
+  text: Museum
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

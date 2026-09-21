@@ -1,0 +1,233 @@
+name: makart-boston1889
+title: Makart
+series: Makart
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 188
+leaf_pages:
+  188: 182
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      188:60pt: 35.3
+      188:48pt: 40.8
+      188:36pt: 46.3
+  x_height: 489
+lines:
+  188:60pt:
+    n_caps: 2
+    cap_height_px: 287.5
+    cap_source: caps
+    baseline_px: 1458.5
+    baselines:
+      '3': 1458.5
+    glyphs:
+    - M
+    - e
+    - m
+    - b
+    - e.60pt
+    - r
+    - s
+    - R
+    - e.60pt_2
+    - m.60pt
+    - o
+    - v
+    - i
+    - n
+    - g
+    - five
+    - three
+    x_height_px: 201
+    figure_height_px: 244.5
+    stem_px: 27.5
+    scale: 2.43478
+    stem_units: 67.0
+    x_height: 489
+    figure_height: 595
+  188:48pt:
+    n_caps: 5
+    cap_height_px: 223
+    cap_source: caps
+    baseline_px: 2288.0
+    baselines:
+      '5': 2288.0
+      '6': 2609
+    glyphs:
+    - D
+    - e.48pt
+    - v.48pt
+    - o.48pt
+    - n.48pt
+    - s.48pt
+    - h
+    - i.48pt
+    - r.48pt
+    - e.48pt_2
+    - M.48pt
+    - o.48pt_2
+    - n.48pt_2
+    - u
+    - m.48pt
+    - e.48pt_3
+    - n.48pt_3
+    - t
+    - R.48pt
+    - e.48pt_4
+    - c
+    - o.48pt_3
+    - v.48pt_2
+    - e.48pt_5
+    - r.48pt_2
+    - i.48pt_2
+    - n.48pt_4
+    - g.48pt
+    - F
+    - i.48pt_3
+    - n.48pt_5
+    - e.48pt_6
+    - D.48pt
+    - i.48pt_4
+    - a
+    - m.48pt_2
+    - o.48pt_4
+    - n.48pt_6
+    - d
+    - s.48pt_2
+    - two
+    - eight
+    x_height_px: 153
+    figure_height_px: 187.5
+    stem_px: 22
+    scale: 3.13901
+    stem_units: 69.1
+    x_height: 480
+    figure_height: 589
+  188:36pt:
+    n_caps: 37
+    cap_height_px: 136
+    cap_source: caps
+    baseline_px: 3041.0
+    baselines:
+      '7': 3041.0
+      '9': 3557
+    glyphs:
+    - R.36pt
+    - O
+    - C
+    - H
+    - E
+    - S
+    - T
+    - E.36pt
+    - R.36pt_2
+    - M.36pt
+    - U
+    - S.36pt
+    - I
+    - C.36pt
+    - A
+    - L
+    - S.36pt_2
+    - O.36pt
+    - C.36pt_2
+    - I.36pt
+    - E.36pt_2
+    - T.36pt
+    - I.36pt_2
+    - E.36pt_3
+    - S.36pt_3
+    - E.36pt_4
+    - X
+    - C.36pt_3
+    - U.36pt
+    - R.36pt_3
+    - S.36pt_4
+    - I.36pt_3
+    - O.36pt_2
+    - N
+    - S.36pt_5
+    - p
+    - l
+    - e.36pt
+    - n.36pt
+    - d.36pt
+    - i.36pt
+    - d.36pt_2
+    - A.36pt
+    - n.36pt_2
+    - t.36pt
+    - i.36pt_2
+    - q
+    - u.36pt
+    - a.36pt
+    - r.36pt
+    - i.36pt_3
+    - a.36pt_2
+    - n.36pt_3
+    - S.36pt_6
+    - p.36pt
+    - e.36pt_2
+    - c.36pt
+    - i.36pt_4
+    - m.36pt
+    - e.36pt_3
+    - n.36pt_4
+    - s.36pt
+    - six
+    - nine
+    x_height_px: 112
+    figure_height_px: 136.5
+    stem_px: 13
+    scale: 5.14706
+    stem_units: 66.9
+    x_height: 576
+    figure_height: 703
+specimen_lines:
+- leaf: 188
+  line: 60pt
+  text: Members Removing 53
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 188
+  line: 48pt
+  text: Devonshire Monument
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 188
+  line: 48pt
+  text: Recovering Fine Diamonds 28
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 188
+  line: 36pt
+  text: ROCHESTER MUSICAL SOCIETIES EXCURSION
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 188
+  line: 36pt
+  text: Splendid Antiquarian Specimens 69
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash

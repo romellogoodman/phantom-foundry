@@ -1,0 +1,219 @@
+name: grady-atf1898
+title: Grady
+series: Grady
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 420
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      420:60pt: 28.5
+      420:42pt: 33.8
+      420:36pt: 42.4
+      420:24pt: 35.3
+  x_height: 639
+lines:
+  420:60pt:
+    n_caps: 5
+    cap_height_px: 344
+    cap_source: caps
+    baseline_px: 934
+    baselines:
+      '2': 934
+    glyphs:
+    - P
+    - O
+    - S
+    - T
+    - four
+    - D
+    - r
+    - o
+    - v
+    - e
+    x_height_px: 289.0
+    figure_height_px: 336
+    stem_px: 48
+    scale: 2.03488
+    stem_units: 97.7
+    x_height: 588
+    figure_height: 684
+  420:42pt:
+    n_caps: 5
+    cap_height_px: 269
+    cap_source: caps
+    baseline_px: 1450
+    baselines:
+      '3': 1450
+    glyphs:
+    - H
+    - O.42pt
+    - M
+    - E
+    - seven
+    - W
+    - i
+    - n
+    - d
+    - o.42pt
+    - w
+    x_height_px: 265
+    figure_height_px: 252
+    stem_px: 39
+    scale: 2.60223
+    stem_units: 101.5
+    x_height: 690
+    figure_height: 656
+  420:36pt:
+    n_caps: 13
+    cap_height_px: 198
+    cap_source: caps
+    baseline_px: 1922.0
+    baselines:
+      '4': 1922.0
+      '5': 2211
+    glyphs:
+    - M.36pt
+    - o.36pt
+    - n.36pt
+    - e.36pt
+    - y
+    - dollar
+    - five
+    - six
+    - P.36pt
+    - l
+    - e.36pt_2
+    - n.36pt_2
+    - t
+    - i.36pt
+    - f
+    - u
+    - l.36pt
+    - Y
+    - O.36pt
+    - U
+    - N
+    - G
+    - P.36pt_2
+    - E.36pt
+    - R
+    - S.36pt
+    - O.36pt_2
+    - N.36pt
+    x_height_px: 198.0
+    figure_height_px: 186.0
+    stem_px: 30
+    scale: 3.53535
+    stem_units: 106.1
+    x_height: 700
+    figure_height: 658
+  420:24pt:
+    n_caps: 21
+    cap_height_px: 139
+    cap_source: caps
+    baseline_px: 2618
+    baselines:
+      '6': 2618
+      '7': 2854.0
+    glyphs:
+    - eight
+    - two
+    - B
+    - e.24pt
+    - a
+    - c
+    - h
+    - m
+    - o.24pt
+    - n.24pt
+    - t.24pt
+    - H.24pt
+    - o.24pt_2
+    - u.24pt
+    - s
+    - e.24pt_2
+    - O.24pt
+    - w.24pt
+    - n.24pt_2
+    - e.24pt_3
+    - r.24pt
+    - s.24pt
+    - B.24pt
+    - O.24pt_2
+    - S.24pt
+    - T.24pt
+    - O.24pt_3
+    - N.24pt
+    - P.24pt
+    - R.24pt
+    - O.24pt_4
+    - D.24pt
+    - U.24pt
+    - C
+    - E.24pt
+    - D.24pt_2
+    - E.24pt_2
+    - P.24pt_2
+    - O.24pt_5
+    - T.24pt_2
+    x_height_px: 117
+    figure_height_px: 131.0
+    stem_px: 21
+    scale: 5.03597
+    stem_units: 105.8
+    x_height: 589
+    figure_height: 660
+specimen_lines:
+- leaf: 420
+  line: 60pt
+  text: POST 4 Drove
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 420
+  line: 42pt
+  text: HOME 7 Window
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 420
+  line: 36pt
+  text: Money $56 Plentiful
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 420
+  line: 36pt
+  text: YOUNG PERSON
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 420
+  line: 24pt
+  text: 82 Beachmont House Owners
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 420
+  line: 24pt
+  text: BOSTON PRODUCE DEPOT
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

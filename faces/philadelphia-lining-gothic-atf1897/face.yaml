@@ -1,0 +1,152 @@
+name: philadelphia-lining-gothic-atf1897
+title: Philadelphia Lining Gothic
+series: Philadelphm Lining
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 332
+leaf_pages:
+  332: 330
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      332:48pt: 91.3
+      332:36pt: 127.2
+      332:24pt: 142.7
+  x_height: 514
+lines:
+  332:48pt:
+    n_caps: 3
+    cap_height_px: 341
+    cap_source: caps
+    baseline_px: 1016
+    baselines:
+      '1': 1016
+    glyphs:
+    - S
+    - I
+    - S.48pt
+    - t
+    - e
+    - r
+    - s
+    x_height_px: 238.5
+    stem_px: 40
+    scale: 2.05279
+    stem_units: 82.1
+    x_height: 490
+  332:36pt:
+    n_caps: 11
+    cap_height_px: 267
+    cap_source: caps
+    baseline_px: 1693.5
+    baselines:
+      '2': 1693.5
+      '3': 2099.0
+      '5': 3074
+    glyphs:
+    - Z
+    - i
+    - n
+    - c
+    - B
+    - o
+    - x
+    - S.36pt
+    - E
+    - N
+    - D
+    - O
+    - D.36pt
+    - I.36pt
+    - U
+    - M
+    x_height_px: 196
+    stem_px: 33
+    scale: 2.62172
+    stem_units: 86.5
+    x_height: 514
+  332:24pt:
+    n_caps: 9
+    cap_height_px: 157
+    cap_source: caps
+    baseline_px: 3617.0
+    baselines:
+      '6': 3617.0
+      '7': 3924
+    glyphs:
+    - G
+    - e.24pt
+    - n.24pt
+    - t.24pt
+    - l
+    - e.24pt_2
+    - D.24pt
+    - a
+    - m
+    - e.24pt_3
+    - C
+    - O.24pt
+    - U.24pt
+    - R
+    - T
+    - E.24pt
+    - D.24pt_2
+    x_height_px: 117.5
+    stem_px: 25
+    scale: 4.4586
+    stem_units: 111.5
+    x_height: 524
+specimen_lines:
+- leaf: 332
+  line: 48pt
+  text: SISters
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 332
+  line: 36pt
+  text: Zinc Box
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 332
+  line: 36pt
+  text: SEND
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 332
+  line: 36pt
+  text: ODIUM
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 332
+  line: 24pt
+  text: Gentle Dame
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 332
+  line: 24pt
+  text: COURTED
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Philadelphm Lining
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

@@ -1,0 +1,90 @@
+name: e-d-i-n-a-millerrichard1921
+title: E D I N A.
+series: E D I N A.
+status: proto
+version: 0.1.0
+book: printingtypespec00millrich
+source:
+  archive_id: printingtypespec00millrich
+  title: Printing type specimens, comprising a large variety of book and jobbing faces,
+    borders and ornaments
+  creator: Miller & Richard (Firm)
+  publisher: Edinburgh, London
+  date: '[1921?]'
+  ppi: 300
+  url: https://archive.org/details/printingtypespec00millrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 163
+leaf_pages:
+  163: 231
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      163:48pt: 166.9
+      163:42pt: 200.8
+lines:
+  163:48pt:
+    n_caps: 11
+    cap_height_px: 151
+    cap_source: caps
+    baseline_px: 513
+    baselines:
+      '1': 513
+    glyphs:
+    - P
+    - R
+    - I
+    - N
+    - T
+    - S
+    - E
+    - L
+    - L.48pt
+    - E.48pt
+    - R.48pt
+    stem_px: 12
+    scale: 4.63576
+    stem_units: 55.6
+  163:42pt:
+    n_caps: 12
+    cap_height_px: 129.0
+    cap_source: caps
+    baseline_px: 810.0
+    baselines:
+      '2': 810.0
+    glyphs:
+    - W
+    - I.42pt
+    - N.42pt
+    - D
+    - S.42pt
+    - O
+    - R.42pt
+    - H
+    - O.42pt
+    - T.42pt
+    - E.42pt
+    - L.42pt
+    stem_px: 11.0
+    scale: 5.42636
+    stem_units: 59.7
+specimen_lines:
+- leaf: 163
+  line: 48pt
+  text: PRINT SELLER
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 163
+  line: 42pt
+  text: WINDSOR HOTEL
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

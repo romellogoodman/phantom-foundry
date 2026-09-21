@@ -1,0 +1,126 @@
+name: kind-men-atf1912
+title: Kind Men
+series: Kind Men
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 257
+leaf_pages:
+  257: 243
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      257:60pt: 24.8
+      257:54pt: 24.6
+  x_height: 484
+lines:
+  257:60pt:
+    n_caps: 14
+    cap_height_px: 254.0
+    cap_source: caps
+    baseline_px: 1690.5
+    baselines:
+      '3': 1690.5
+      '4': 2071.0
+      '5': 2455.0
+    glyphs:
+    - S
+    - E
+    - I
+    - Z
+    - E.60pt
+    - K
+    - N
+    - I.60pt
+    - F
+    - E.60pt_2
+    - R
+    - e
+    - p
+    - o
+    - r
+    - t
+    - s
+    - G
+    - i
+    - v
+    - e.60pt
+    - n
+    - U
+    - s.60pt
+    - e.60pt_2
+    - f
+    - u
+    - l
+    - C
+    - a
+    - m
+    - e.60pt_3
+    - l.60pt
+    - s.60pt_2
+    x_height_px: 175.5
+    stem_px: 18.5
+    scale: 2.75591
+    stem_units: 51.0
+    x_height: 484
+  257:54pt:
+    n_caps: 10
+    cap_height_px: 228.0
+    cap_source: caps
+    baseline_px: 3024.5
+    baselines:
+      '6': 3024.5
+    glyphs:
+    - B
+    - O
+    - Y
+    - S.54pt
+    - C.54pt
+    - H
+    - A
+    - S.54pt_2
+    - E.54pt
+    - D
+    stem_px: 20.0
+    scale: 3.07018
+    stem_units: 61.4
+specimen_lines:
+- leaf: 257
+  line: 60pt
+  text: SEIZE KNIFE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 257
+  line: 60pt
+  text: Reports Given
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 257
+  line: 60pt
+  text: Useful Camels
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 257
+  line: 54pt
+  text: BOYS CHASED
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

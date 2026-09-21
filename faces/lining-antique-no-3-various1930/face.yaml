@@ -1,0 +1,130 @@
+name: lining-antique-no-3-various1930
+title: Lining Antique No. 3
+series: Lining Antique No
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 167
+leaf_pages:
+  167: 155
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      167:60pt: 39.9
+      167:48pt: 30.2
+      167:36pt: 40.6
+  x_height: 510
+lines:
+  167:60pt:
+    n_caps: 2
+    cap_height_px: 228.0
+    cap_source: caps
+    baseline_px: 712.5
+    baselines:
+      '1': 712.5
+    glyphs:
+    - O
+    - r
+    - d
+    - e
+    - r.60pt
+    - F
+    - r.60pt_2
+    - e.60pt
+    - e.60pt_2
+    x_height_px: 170
+    stem_px: 39.5
+    scale: 3.07018
+    stem_units: 121.3
+    x_height: 522
+  167:48pt:
+    n_caps: 2
+    cap_height_px: 185.5
+    cap_source: caps
+    baseline_px: 1045.5
+    baselines:
+      '2': 1045.5
+    glyphs:
+    - G
+    - r.48pt
+    - e.48pt
+    - a
+    - t
+    - C
+    - h
+    - a.48pt
+    - n
+    - c
+    - e.48pt_2
+    - s
+    x_height_px: 123.5
+    stem_px: 21.0
+    scale: 3.77358
+    stem_units: 79.2
+    x_height: 466
+  167:36pt:
+    n_caps: 2
+    cap_height_px: 155.0
+    cap_source: caps
+    baseline_px: 1338.5
+    baselines:
+      '3': 1338.5
+    glyphs:
+    - Q
+    - u
+    - i
+    - c.36pt
+    - k
+    - l
+    - y
+    - D
+    - e.36pt
+    - l.36pt
+    - i.36pt
+    - v
+    - e.36pt_2
+    - r.36pt
+    - e.36pt_3
+    - d.36pt
+    x_height_px: 113.0
+    stem_px: 28.0
+    scale: 4.51613
+    stem_units: 126.5
+    x_height: 510
+specimen_lines:
+- leaf: 167
+  line: 60pt
+  text: Order Free
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 167
+  line: 48pt
+  text: Great Chances
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 167
+  line: 36pt
+  text: Quickly Delivered
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Lining Antique No
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

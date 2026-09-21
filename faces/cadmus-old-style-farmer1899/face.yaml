@@ -1,0 +1,137 @@
+name: cadmus-old-style-farmer1899
+title: Cadmus Old Style.
+series: Cadmus Old Style.
+status: proto
+version: 0.1.0
+book: abridgedspecimen00adfa
+source:
+  archive_id: abridgedspecimen00adfa
+  title: 'Abridged specimen book : type, borders, brass rules, ornaments and price
+    list of printing machinery, furniture, fixtures and material'
+  creator: A.D. Farmer & Son Type Founding Co
+  publisher: 'Chicago : The Company'
+  date: '1899'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00adfa
+  copyright_status: null
+  contributor: University of Illinois Urbana-Champaign
+  leaves:
+  - 49
+  - 51
+leaf_pages:
+  49: 45
+  51: 47
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      51:60pt: 70.5
+      49:24pt: 76.6
+  x_height: 493
+lines:
+  51:60pt:
+    n_caps: 4
+    cap_height_px: 337.5
+    cap_source: caps
+    baseline_px: 2498.0
+    baselines:
+      '6': 2498.0
+    glyphs:
+    - B
+    - A
+    - T
+    - S
+    stem_px: 26.5
+    scale: 2.07407
+    stem_units: 55.0
+  49:24pt:
+    n_caps: 11
+    cap_height_px: 137
+    cap_source: caps
+    baseline_px: 2610.0
+    baselines:
+      '5': 2610.0
+      '6': 2790
+      '8': 3152
+    glyphs:
+    - T.24pt
+    - W
+    - E
+    - N
+    - T.24pt_2
+    - Y
+    - F
+    - O
+    - U
+    - R
+    - T.24pt_3
+    - h
+    - e
+    - g
+    - o
+    - v
+    - e.24pt
+    - r
+    - n
+    - m
+    - e.24pt_2
+    - n.24pt
+    - t
+    - o.24pt
+    - f
+    - a
+    - l
+    - l.24pt
+    - n.24pt_2
+    - e.24pt_3
+    - c
+    - e.24pt_4
+    - s
+    - s.24pt
+    - a.24pt
+    - r.24pt
+    - i
+    - l.24pt_2
+    - y
+    - o.24pt_2
+    - f.24pt
+    - a.24pt_2
+    - b
+    - s.24pt_2
+    - o.24pt_3
+    - l.24pt_3
+    - u
+    - t.24pt
+    - e.24pt_5
+    x_height_px: 96.5
+    stem_px: 8
+    scale: 5.10949
+    stem_units: 40.9
+    x_height: 493
+specimen_lines:
+- leaf: 51
+  line: 60pt
+  text: BATS
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 49
+  line: 24pt
+  text: TWENTY FOUR
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 49
+  line: 24pt
+  text: The government of all
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 49
+  line: 24pt
+  text: necessarily of absolute
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

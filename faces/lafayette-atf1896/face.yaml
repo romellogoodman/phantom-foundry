@@ -1,0 +1,256 @@
+name: lafayette-atf1896
+title: Lafayette.
+series: Lafayette.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 450
+  - 451
+leaf_pages:
+  450: 446
+  451: 447
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      450:60pt: 19.9
+      450:54pt: 12.7
+      451:36pt: 27.1
+      451:30pt: 31.5
+      451:24pt: 21.7
+  x_height: 573
+lines:
+  450:60pt:
+    n_caps: 5
+    cap_height_px: 370
+    cap_source: caps
+    baseline_px: 1732
+    baselines:
+      '2': 1732
+    glyphs:
+    - P
+    - r
+    - o
+    - t
+    - e
+    - c
+    - t.60pt
+    - s
+    - M
+    - I
+    - N
+    - T
+    x_height_px: 272
+    stem_px: 34
+    scale: 1.89189
+    stem_units: 64.3
+    x_height: 515
+  450:54pt:
+    n_caps: 8
+    cap_height_px: 302.5
+    cap_source: caps
+    baseline_px: 2370.5
+    baselines:
+      '3': 2370.5
+    glyphs:
+    - R
+    - O
+    - A
+    - S
+    - T.54pt
+    - E
+    - D
+    - C
+    - l
+    - a
+    - m
+    - s.54pt
+    x_height_px: 252.5
+    stem_px: 30.0
+    scale: 2.31405
+    stem_units: 69.4
+    x_height: 584
+  451:36pt:
+    n_caps: 18
+    cap_height_px: 194.0
+    cap_source: caps
+    baseline_px: 796.5
+    baselines:
+      '1': 796.5
+      '2': 1117.0
+    glyphs:
+    - I.36pt
+    - M.36pt
+    - P.36pt
+    - O.36pt
+    - R.36pt
+    - T.36pt
+    - E.36pt
+    - D.36pt
+    - L
+    - O.36pt_2
+    - B
+    - S.36pt
+    - T.36pt_2
+    - E.36pt_2
+    - R.36pt_2
+    - S.36pt_2
+    - A.36pt
+    - r.36pt
+    - t.36pt
+    - C.36pt
+    - o.36pt
+    - n
+    - n.36pt
+    - o.36pt_2
+    - i
+    - s.36pt
+    - s.36pt_2
+    - e.36pt
+    - u
+    - r.36pt_2
+    x_height_px: 156.0
+    stem_px: 22.0
+    scale: 3.60825
+    stem_units: 79.4
+    x_height: 563
+  451:30pt:
+    n_caps: 22
+    cap_height_px: 155.5
+    cap_source: caps
+    baseline_px: 1577
+    baselines:
+      '3': 1577
+      '4': 1861
+    glyphs:
+    - G
+    - R.30pt
+    - E.30pt
+    - A.30pt
+    - T.30pt
+    - W
+    - E.30pt_2
+    - S.30pt
+    - T.30pt_2
+    - E.30pt_3
+    - R.30pt_2
+    - N.30pt
+    - R.30pt_3
+    - A.30pt_2
+    - I.30pt
+    - L.30pt
+    - W.30pt
+    - A.30pt_3
+    - Y
+    - T.30pt_3
+    - h
+    - r.30pt
+    - o.30pt
+    - u.30pt
+    - g
+    - h.30pt
+    - L.30pt_2
+    - i.30pt
+    - m.30pt
+    - i.30pt_2
+    - t.30pt
+    - e.30pt
+    - d
+    - T.30pt_4
+    - r.30pt_2
+    - a.30pt
+    - i.30pt_3
+    - n.30pt
+    x_height_px: 148.5
+    stem_px: 17.0
+    scale: 4.50161
+    stem_units: 76.5
+    x_height: 668
+  451:24pt:
+    n_caps: 21
+    cap_height_px: 129
+    cap_source: caps
+    baseline_px: 2281
+    baselines:
+      '5': 2281
+    glyphs:
+    - R.24pt
+    - A.24pt
+    - R.24pt_2
+    - E.24pt
+    - A.24pt_2
+    - N.24pt
+    - D.24pt
+    - E.24pt_2
+    - X
+    - C.24pt
+    - E.24pt_3
+    - L.24pt
+    - L.24pt_2
+    - E.24pt_4
+    - N.24pt_2
+    - T.24pt
+    - P.24pt
+    - L.24pt_3
+    - A.24pt_3
+    - C.24pt_2
+    - E.24pt_5
+    stem_px: 15
+    scale: 5.42636
+    stem_units: 81.4
+specimen_lines:
+- leaf: 450
+  line: 60pt
+  text: Protects MINT
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 450
+  line: 54pt
+  text: ROASTED Clams
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 451
+  line: 36pt
+  text: IMPORTED LOBSTERS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 451
+  line: 36pt
+  text: Art Connoisseur
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 451
+  line: 30pt
+  text: GREAT WESTERN RAILWAY
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 451
+  line: 30pt
+  text: Through Limited Train
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 451
+  line: 24pt
+  text: RARE AND EXCELLENT PLACE
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash

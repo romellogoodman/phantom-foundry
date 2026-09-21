@@ -1,0 +1,62 @@
+name: hogarth-boston1889
+title: Hogarth
+series: Hogarth
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 189
+leaf_pages:
+  189: 183
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      189:72pt: 46.5
+lines:
+  189:72pt:
+    n_caps: 11
+    cap_height_px: 241
+    cap_source: caps
+    baseline_px: 1082
+    baselines:
+      '2': 1082
+    glyphs:
+    - M
+    - O
+    - D
+    - E
+    - S
+    - T
+    - G
+    - O.72pt
+    - W
+    - N
+    - S.72pt
+    stem_px: 12
+    scale: 2.90456
+    stem_units: 34.9
+specimen_lines:
+- leaf: 189
+  line: 72pt
+  text: MODEST ~ GOWNS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

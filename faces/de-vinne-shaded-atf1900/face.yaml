@@ -1,0 +1,120 @@
+name: de-vinne-shaded-atf1900
+title: De Vinne Shaded
+series: De Vinne Shaded
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 527
+leaf_pages:
+  527: 1
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      527:72pt: 69.8
+      527:60pt: 26.3
+      527:36pt: 44.7
+  x_height: 596
+lines:
+  527:72pt:
+    n_caps: 4
+    cap_height_px: 391.0
+    cap_source: caps
+    baseline_px: 1055.0
+    baselines:
+      '1': 1055.0
+    glyphs:
+    - H
+    - I
+    - S
+    - D
+    - i
+    - s
+    - h
+    x_height_px: 385
+    stem_px: 9.5
+    scale: 1.79028
+    stem_units: 17.0
+    x_height: 689
+  527:60pt:
+    n_caps: 4
+    cap_height_px: 346.0
+    cap_source: caps
+    baseline_px: 1602.0
+    baselines:
+      '2': 1602.0
+    glyphs:
+    - D.60pt
+    - e
+    - a
+    - d
+    - M
+    - E
+    - T
+    x_height_px: 241
+    stem_px: 8.5
+    scale: 2.02312
+    stem_units: 17.2
+    x_height: 488
+  527:36pt:
+    n_caps: 9
+    cap_height_px: 141
+    cap_source: caps
+    baseline_px: 3470
+    baselines:
+      '6': 3470
+    glyphs:
+    - L
+    - a.36pt
+    - d.36pt
+    - H.36pt
+    - I.36pt
+    - T.36pt
+    - H.36pt_2
+    - A
+    - R
+    - D.36pt
+    - E.36pt
+    - a.36pt_2
+    - r
+    - t
+    - h.36pt
+    x_height_px: 120.0
+    stem_px: 3
+    scale: 4.96454
+    stem_units: 14.9
+    x_height: 596
+specimen_lines:
+- leaf: 527
+  line: 72pt
+  text: HIS Dish
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 527
+  line: 60pt
+  text: Dead MET
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 527
+  line: 36pt
+  text: Lad H IT HARD Earth
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

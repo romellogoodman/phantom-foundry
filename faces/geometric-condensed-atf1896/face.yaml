@@ -1,0 +1,126 @@
+name: geometric-condensed-atf1896
+title: Geometric Condensed.
+series: Geometric Condensed.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 371
+leaf_pages:
+  371: 367
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      371:36pt: 66.4
+      371:24pt: 58.3
+  x_height: 474
+lines:
+  371:36pt:
+    n_caps: 15
+    cap_height_px: 211
+    cap_source: caps
+    baseline_px: 818
+    baselines:
+      '1': 818
+      '2': 1192.5
+    glyphs:
+    - B
+    - R
+    - E
+    - A
+    - K
+    - B.36pt
+    - O
+    - U
+    - L
+    - D
+    - E.36pt
+    - R.36pt
+    - S
+    - D.36pt
+    - e
+    - m
+    - o
+    - l
+    - i
+    - s
+    - h
+    - S.36pt
+    - t
+    - o.36pt
+    - n
+    - e.36pt
+    - dollar
+    - five
+    x_height_px: 143
+    figure_height_px: 203
+    stem_px: 6
+    scale: 3.31754
+    stem_units: 19.9
+    x_height: 474
+    figure_height: 673
+  371:24pt:
+    n_caps: 18
+    cap_height_px: 144.0
+    cap_source: caps
+    baseline_px: 1823.0
+    baselines:
+      '3': 1823.0
+    glyphs:
+    - M
+    - E.24pt
+    - N
+    - O.24pt
+    - F
+    - G
+    - R.24pt
+    - E.24pt_2
+    - A.24pt
+    - T
+    - P
+    - H
+    - Y
+    - S.24pt
+    - I
+    - Q
+    - U.24pt
+    - E.24pt_3
+    stem_px: 5.0
+    scale: 4.86111
+    stem_units: 24.3
+specimen_lines:
+- leaf: 371
+  line: 36pt
+  text: BREAK BOULDERS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 371
+  line: 36pt
+  text: Demolish Stone $5
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 371
+  line: 24pt
+  text: MEN OF GREAT PHYSIQUE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

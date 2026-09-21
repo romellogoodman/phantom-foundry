@@ -1,0 +1,69 @@
+name: goudy-handtooled-various1930
+title: Goudy Handtooled
+series: Goudy Handtooled
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 138
+leaf_pages:
+  138: 126
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      138:36pt: 21.7
+  x_height: 450
+lines:
+  138:36pt:
+    n_caps: 3
+    cap_height_px: 129
+    cap_source: caps
+    baseline_px: 1120
+    baselines:
+      '3': 1120
+    glyphs:
+    - D
+    - a
+    - y
+    - a.36pt
+    - n
+    - d
+    - E
+    - v
+    - e
+    - n.36pt
+    - i
+    - n.36pt_2
+    - g
+    - W
+    - e.36pt
+    - a.36pt_2
+    - r
+    x_height_px: 83.0
+    stem_px: 3
+    scale: 5.42636
+    stem_units: 16.3
+    x_height: 450
+specimen_lines:
+- leaf: 138
+  line: 36pt
+  text: Day and Evening Wear
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,119 @@
+name: alaskan-atf1902a
+title: Alaskan
+series: Alaskan
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 418
+leaf_pages:
+  418: 3456
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      418:48pt: 84.8
+      418:36pt: 105.3
+      418:24pt: 105.6
+lines:
+  418:48pt:
+    n_caps: 5
+    cap_height_px: 322
+    cap_source: caps
+    baseline_px: 1024
+    baselines:
+      '1': 1024
+    glyphs:
+    - B
+    - O
+    - N
+    - D
+    - S
+    stem_px: 52
+    scale: 2.17391
+    stem_units: 113.0
+  418:36pt:
+    n_caps: 7
+    cap_height_px: 236
+    cap_source: caps
+    baseline_px: 1548
+    baselines:
+      '2': 1548
+    glyphs:
+    - M
+    - A
+    - C
+    - H
+    - I
+    - N.36pt
+    - E
+    stem_px: 36
+    scale: 2.9661
+    stem_units: 106.8
+  418:24pt:
+    n_caps: 16
+    cap_height_px: 152.5
+    cap_source: caps
+    baseline_px: 1963.0
+    baselines:
+      '3': 1963.0
+      '4': 2213.0
+    glyphs:
+    - R
+    - E.24pt
+    - M.24pt
+    - O.24pt
+    - V
+    - E.24pt_2
+    - R.24pt
+    - U
+    - R.24pt_2
+    - A.24pt
+    - L
+    - T
+    - R.24pt_3
+    - A.24pt_2
+    - C.24pt
+    - K
+    stem_px: 25.0
+    scale: 4.59016
+    stem_units: 114.8
+specimen_lines:
+- leaf: 418
+  line: 48pt
+  text: BONDS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 418
+  line: 36pt
+  text: MACHINE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 418
+  line: 24pt
+  text: REMOVE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 418
+  line: 24pt
+  text: RURALTRACK
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

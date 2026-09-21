@@ -1,0 +1,21 @@
+# proto: everything ignored here is rebuilt byte-for-byte by `foundry build <face>`
+# from the record that is kept — face.yaml, glyphs/manifest.csv, specimens/*.json, the decisions' logs —
+# once the book is shelved (`foundry shelve <archive_id>`).
+# Delete this file when the face goes to draft: from then on the UFO is edited by hand.
+glyphs/*
+!glyphs/manifest.csv
+specimens/*.jpg
+specimens/*.png
+svg/potrace/
+ufo/
+dist/
+proofs/
+# what each build did, glyph by glyph: rewritten by every build. The decisions' logs (found, label, rename,
+# fetch, survey, construct, and Arrow's cast/diff/frame) are kept.
+log/build.json
+log/cut.jsonl
+log/cast.jsonl
+log/sort.jsonl
+log/justify.jsonl
+log/matrix.jsonl
+log/proof.jsonl

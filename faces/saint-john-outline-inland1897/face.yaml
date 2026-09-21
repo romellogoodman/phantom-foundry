@@ -1,0 +1,143 @@
+name: saint-john-outline-inland1897
+title: Saint John Outline
+series: Saint John Outline
+status: proto
+version: 0.1.0
+book: specimenbookcata00inlauoft
+source:
+  archive_id: specimenbookcata00inlauoft
+  title: Specimen book and catalog; a price list of printers' supplies, showing types
+    and rules in which are embodied all the latest ideas that enable the printer to
+    produce superior work ..
+  creator: Inland Type Foundry, St. Louis
+  publisher: St. Louis, Inland Type Foundry
+  date: '1897'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inlauoft
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: Robarts - University of Toronto
+  leaves:
+  - 120
+leaf_pages:
+  120: 118
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      120:60pt: 40.2
+      120:48pt: 48.3
+      120:30pt: 39.9
+  x_height: 529
+lines:
+  120:60pt:
+    n_caps: 7
+    cap_height_px: 357
+    cap_source: caps
+    baseline_px: 940
+    baselines:
+      '2': 940
+    glyphs:
+    - P
+    - R
+    - I
+    - N
+    - T
+    - E
+    - D
+    stem_px: 12
+    scale: 1.96078
+    stem_units: 23.5
+  120:48pt:
+    n_caps: 10
+    cap_height_px: 275.5
+    cap_source: caps
+    baseline_px: 2006.0
+    baselines:
+      '4': 2006.0
+    glyphs:
+    - O
+    - R.48pt
+    - I.48pt
+    - G
+    - I.48pt_2
+    - N.48pt
+    - A
+    - T.48pt
+    - E.48pt
+    - S
+    stem_px: 10.0
+    scale: 2.54083
+    stem_units: 25.4
+  120:30pt:
+    n_caps: 13
+    cap_height_px: 184
+    cap_source: caps
+    baseline_px: 2875
+    baselines:
+      '6': 2875
+      '7': 3149.5
+    glyphs:
+    - M
+    - O.30pt
+    - D.30pt
+    - E.30pt
+    - R.30pt
+    - N.30pt
+    - S.30pt
+    - T.30pt
+    - Y
+    - L
+    - E.30pt_2
+    - B
+    - e
+    - a
+    - u
+    - t
+    - i
+    - f
+    - u.30pt
+    - l
+    - P.30pt
+    - r
+    - o
+    - d
+    - u.30pt_2
+    - c
+    - t.30pt
+    - s
+    - two
+    - eight
+    x_height_px: 139
+    figure_height_px: 182.0
+    stem_px: 9
+    scale: 3.80435
+    stem_units: 34.2
+    x_height: 529
+    figure_height: 692
+specimen_lines:
+- leaf: 120
+  line: 60pt
+  text: PRINTED
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 120
+  line: 48pt
+  text: ORIGINATES
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 120
+  line: 30pt
+  text: MODERN STYLE
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 120
+  line: 30pt
+  text: Beautiful Products 2 8
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash

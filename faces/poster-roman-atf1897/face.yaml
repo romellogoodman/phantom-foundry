@@ -1,0 +1,280 @@
+name: poster-roman-atf1897
+title: Poster Roman
+series: Poster Romhn
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 100
+  - 101
+leaf_pages:
+  100: 98
+  101: 99
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      101:60pt: 14.7
+      101:48pt: 40.6
+      101:30pt: 57.3
+      100:24pt: 49.6
+      100:20pt: 40.3
+  x_height: 465
+lines:
+  101:60pt:
+    n_caps: 1
+    cap_height_px: 428
+    cap_source: caps
+    baseline_px: 4006
+    baselines:
+      '6': 4006
+    glyphs:
+    - A
+    - r
+    - t
+    - i
+    - s
+    - a
+    - n
+    x_height_px: 276.5
+    stem_px: 6
+    scale: 1.63551
+    stem_units: 9.8
+    x_height: 452
+  101:48pt:
+    n_caps: 12
+    cap_height_px: 319.0
+    cap_source: caps
+    baseline_px: 2125
+    baselines:
+      '3': 2125
+      '4': 2537
+    glyphs:
+    - P
+    - O
+    - S
+    - T
+    - E
+    - R
+    - S.48pt
+    - N
+    - e
+    - e.48pt
+    - d
+    - F
+    - I
+    - N.48pt
+    - E.48pt
+    x_height_px: 210
+    stem_px: 14.0
+    scale: 2.19436
+    stem_units: 30.7
+    x_height: 461
+  101:30pt:
+    n_caps: 11
+    cap_height_px: 232
+    cap_source: caps
+    baseline_px: 1028.0
+    baselines:
+      '1': 1028.0
+      '2': 1328
+    glyphs:
+    - E.30pt
+    - D
+    - U
+    - C
+    - A.30pt
+    - T.30pt
+    - E.30pt_2
+    - D.30pt
+    - M
+    - E.30pt_3
+    - N.30pt
+    - t.30pt
+    - h
+    - e.30pt
+    - r.30pt
+    - e.30pt_2
+    - a.30pt
+    - r.30pt_2
+    - e.30pt_3
+    x_height_px: 154.0
+    stem_px: 10
+    scale: 3.01724
+    stem_units: 30.2
+    x_height: 465
+  100:24pt:
+    n_caps: 27
+    cap_height_px: 141
+    cap_source: caps
+    baseline_px: 3337.5
+    baselines:
+      '6': 3337.5
+      '7': 3556
+      '8': 3780.0
+    glyphs:
+    - F.24pt
+    - R.24pt
+    - A.24pt
+    - M.24pt
+    - E.24pt
+    - H
+    - O.24pt
+    - U.24pt
+    - S.24pt
+    - E.24pt_2
+    - L
+    - O.24pt_2
+    - C.24pt
+    - A.24pt_2
+    - T.24pt
+    - E.24pt_3
+    - D.24pt
+    - I.24pt
+    - N.24pt
+    - F.24pt_2
+    - I.24pt_2
+    - N.24pt_2
+    - E.24pt_4
+    - S.24pt_2
+    - T.24pt_2
+    - S.24pt_3
+    - u
+    - b
+    - u.24pt
+    - r.24pt
+    - b.24pt
+    - a.24pt
+    - n.24pt
+    - D.24pt_2
+    - i.24pt
+    - s.24pt
+    - t.24pt
+    - r.24pt_2
+    - i.24pt_2
+    - c
+    - t.24pt_2
+    x_height_px: 118.0
+    stem_px: 10
+    scale: 4.96454
+    stem_units: 49.6
+    x_height: 586
+  100:20pt:
+    n_caps: 16
+    cap_height_px: 139.0
+    cap_source: caps
+    baseline_px: 2002.0
+    baselines:
+      '2': 2002.0
+      '4': 2558.0
+    glyphs:
+    - P.20pt
+    - R.20pt
+    - I.20pt
+    - N.20pt
+    - T.20pt
+    - I.20pt_2
+    - N.20pt_2
+    - G
+    - S.20pt
+    - H.20pt
+    - O.20pt
+    - W
+    - E.20pt
+    - D.20pt
+    - C.20pt
+    - o
+    - u.20pt
+    - l
+    - d.20pt
+    - b.20pt
+    - e.20pt
+    - T.20pt_2
+    - r.20pt
+    - a.20pt
+    - n.20pt
+    - s.20pt
+    - m
+    - i.20pt
+    - t.20pt
+    - t.20pt_2
+    - e.20pt_2
+    - d.20pt_2
+    - t.20pt_3
+    - o.20pt
+    x_height_px: 94.5
+    stem_px: 16.5
+    scale: 5.03597
+    stem_units: 83.1
+    x_height: 476
+specimen_lines:
+- leaf: 101
+  line: 60pt
+  text: Artisan
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 101
+  line: 48pt
+  text: POSTERS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 101
+  line: 48pt
+  text: Need FINE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 101
+  line: 30pt
+  text: EDUCATED
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 101
+  line: 30pt
+  text: MEN there are
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 100
+  line: 24pt
+  text: FRAME HOUSE
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 100
+  line: 24pt
+  text: LOCATED IN FINEST
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 100
+  line: 24pt
+  text: Suburban District
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 100
+  line: 20pt
+  text: PRINTING SHOWED
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 100
+  line: 20pt
+  text: Could be Transmitted to
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Poster Romhn
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

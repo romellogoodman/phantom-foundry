@@ -1,0 +1,169 @@
+name: lincoln-atf1902a
+title: Lincoln
+series: Lincoln
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 428
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      428:60pt: 43.2
+      428:48pt: 64.5
+      428:42pt: 65.3
+      428:30pt: 78.0
+  x_height: 477
+lines:
+  428:60pt:
+    n_caps: 6
+    cap_height_px: 291.5
+    cap_source: caps
+    baseline_px: 1007.5
+    baselines:
+      '1': 1007.5
+    glyphs:
+    - N
+    - O
+    - V
+    - E
+    - L
+    - G
+    - o
+    - u
+    - n
+    - t
+    - e
+    - r
+    - s
+    x_height_px: 199
+    stem_px: 23.5
+    scale: 2.40137
+    stem_units: 56.4
+    x_height: 478
+  428:48pt:
+    n_caps: 9
+    cap_height_px: 228
+    cap_source: caps
+    baseline_px: 1524
+    baselines:
+      '2': 1524
+    glyphs:
+    - D
+    - u.48pt
+    - r.48pt
+    - a
+    - b
+    - l
+    - e.48pt
+    - M
+    - A
+    - C
+    - H
+    - I
+    - N.48pt
+    - E.48pt
+    - S
+    x_height_px: 155.5
+    stem_px: 18
+    scale: 3.07018
+    stem_units: 55.3
+    x_height: 477
+  428:42pt:
+    n_caps: 8
+    cap_height_px: 193.0
+    cap_source: caps
+    baseline_px: 1987.0
+    baselines:
+      '3': 1987.0
+    glyphs:
+    - T
+    - H.42pt
+    - E.42pt
+    - A.42pt
+    - T.42pt
+    - R
+    - E.42pt_2
+    - F
+    - r.42pt
+    - e.42pt
+    - q
+    - u.42pt
+    - e.42pt_2
+    - n.42pt
+    - t.42pt
+    - e.42pt_3
+    - r.42pt_2
+    x_height_px: 130
+    stem_px: 21.0
+    scale: 3.62694
+    stem_units: 76.2
+    x_height: 472
+  428:30pt:
+    n_caps: 16
+    cap_height_px: 143.5
+    cap_source: caps
+    baseline_px: 2478.5
+    baselines:
+      '4': 2478.5
+    glyphs:
+    - N.30pt
+    - E.30pt
+    - W
+    - B
+    - A.30pt
+    - I.30pt
+    - T.30pt
+    - G.30pt
+    - O.30pt
+    - M.30pt
+    - I.30pt_2
+    - G.30pt_2
+    - S.30pt
+    - O.30pt_2
+    - N.30pt_2
+    - G.30pt_3
+    stem_px: 13.5
+    scale: 4.87805
+    stem_units: 65.9
+specimen_lines:
+- leaf: 428
+  line: 60pt
+  text: NOVEL Gounters
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 428
+  line: 48pt
+  text: Durable MACHINES
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 428
+  line: 42pt
+  text: THEATRE Frequenter
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 428
+  line: 30pt
+  text: NEW BAIT GOMIG SONG
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

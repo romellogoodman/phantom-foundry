@@ -1,0 +1,117 @@
+name: old-style-aldine-farmer1899
+title: Old Style Aldine.
+series: Old Style Aldine.
+status: proto
+version: 0.1.0
+book: abridgedspecimen00adfa
+source:
+  archive_id: abridgedspecimen00adfa
+  title: 'Abridged specimen book : type, borders, brass rules, ornaments and price
+    list of printing machinery, furniture, fixtures and material'
+  creator: A.D. Farmer & Son Type Founding Co
+  publisher: 'Chicago : The Company'
+  date: '1899'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00adfa
+  copyright_status: null
+  contributor: University of Illinois Urbana-Champaign
+  leaves:
+  - 159
+leaf_pages:
+  159: 155
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      159:36pt: 47.6
+      159:24pt: 56.5
+  x_height: 480
+lines:
+  159:36pt:
+    n_caps: 9
+    cap_height_px: 184
+    cap_source: caps
+    baseline_px: 3047
+    baselines:
+      '9': 3047
+    glyphs:
+    - R
+    - E
+    - V
+    - O
+    - L
+    - V.36pt
+    - I
+    - N
+    - G
+    stem_px: 11
+    scale: 3.80435
+    stem_units: 41.8
+  159:24pt:
+    n_caps: 14
+    cap_height_px: 124.0
+    cap_source: caps
+    baseline_px: 2435.0
+    baselines:
+      '7': 2435.0
+      '8': 2639.5
+    glyphs:
+    - A
+    - N.24pt
+    - N.24pt_2
+    - U
+    - A.24pt
+    - L.24pt
+    - R.24pt
+    - E.24pt
+    - P
+    - O.24pt
+    - R.24pt_2
+    - T
+    - K
+    - e
+    - n
+    - t
+    - u
+    - c
+    - k
+    - y
+    - E.24pt_2
+    - x
+    - c.24pt
+    - h
+    - a
+    - n.24pt
+    - g
+    - e.24pt
+    - five
+    - three
+    x_height_px: 85.0
+    figure_height_px: 115.5
+    stem_px: 7.0
+    scale: 5.64516
+    stem_units: 39.5
+    x_height: 480
+    figure_height: 652
+specimen_lines:
+- leaf: 159
+  line: 36pt
+  text: REVOLVING
+  band: 9
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 159
+  line: 24pt
+  text: ANNUAL REPORT
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 159
+  line: 24pt
+  text: Kentucky Exchange 5 3
+  band: 8
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

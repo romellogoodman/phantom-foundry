@@ -1,0 +1,155 @@
+name: erstmhn-atf1897
+title: Erstmhn
+series: Erstmhn
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 382
+leaf_pages:
+  382: 380
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      382:72pt: 51.1
+      382:60pt: 69.3
+      382:48pt: 39.2
+      382:30pt: 29.2
+  x_height: 480
+lines:
+  382:72pt:
+    n_caps: 1
+    cap_height_px: 459
+    cap_source: caps
+    baseline_px: 1141
+    baselines:
+      '1': 1141
+    glyphs:
+    - R
+    - o
+    - m
+    - a
+    - n
+    x_height_px: 310.0
+    stem_px: 74
+    scale: 1.52505
+    stem_units: 112.9
+    x_height: 473
+  382:60pt:
+    n_caps: 1
+    cap_height_px: 379
+    cap_source: caps
+    baseline_px: 1867
+    baselines:
+      '2': 1867
+    glyphs:
+    - E
+    - m.60pt
+    - o.60pt
+    - t
+    - i
+    - o.60pt_2
+    - n.60pt
+    x_height_px: 263.5
+    stem_px: 12
+    scale: 1.84697
+    stem_units: 22.2
+    x_height: 487
+  382:48pt:
+    n_caps: 4
+    cap_height_px: 303.5
+    cap_source: caps
+    baseline_px: 2548.0
+    baselines:
+      '3': 2548.0
+    glyphs:
+    - M
+    - E.48pt
+    - N
+    - R.48pt
+    - i.48pt
+    - s
+    - e
+    x_height_px: 220
+    stem_px: 7.5
+    scale: 2.30643
+    stem_units: 17.3
+    x_height: 507
+  382:30pt:
+    n_caps: 9
+    cap_height_px: 192
+    cap_source: caps
+    baseline_px: 3662.0
+    baselines:
+      '5': 3662.0
+      '6': 3976
+    glyphs:
+    - M.30pt
+    - u
+    - l
+    - t.30pt
+    - u.30pt
+    - m.30pt
+    - i.30pt
+    - n.30pt
+    - P
+    - a.30pt
+    - r
+    - v
+    - o.30pt
+    - N.30pt
+    - O
+    - R.30pt
+    - F
+    - O.30pt
+    - L
+    - K
+    x_height_px: 129
+    stem_px: 26
+    scale: 3.64583
+    stem_units: 94.8
+    x_height: 470
+specimen_lines:
+- leaf: 382
+  line: 72pt
+  text: Roman
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 382
+  line: 60pt
+  text: Emotion
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 382
+  line: 48pt
+  text: MEN Rise
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 382
+  line: 30pt
+  text: Multum in Parvo
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 382
+  line: 30pt
+  text: NORFOLK
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

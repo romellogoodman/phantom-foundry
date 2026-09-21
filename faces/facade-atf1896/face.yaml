@@ -1,0 +1,152 @@
+name: facade-atf1896
+title: Facade.
+series: Facade.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 387
+leaf_pages:
+  387: 383
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      387:30pt: 46.7
+      387:20pt: 50.3
+      387:18pt: 43.4
+lines:
+  387:30pt:
+    n_caps: 14
+    cap_height_px: 225.0
+    cap_source: caps
+    baseline_px: 851.0
+    baselines:
+      '1': 851.0
+    glyphs:
+    - D
+    - I
+    - S
+    - E
+    - N
+    - C
+    - H
+    - A
+    - N.30pt
+    - T
+    - M
+    - E.30pt
+    - N.30pt_2
+    - T.30pt
+    - nine
+    - six
+    figure_height_px: 228.5
+    stem_px: 15.0
+    scale: 3.11111
+    stem_units: 46.7
+    figure_height: 711
+  387:20pt:
+    n_caps: 21
+    cap_height_px: 153
+    cap_source: caps
+    baseline_px: 1738
+    baselines:
+      '3': 1738
+    glyphs:
+    - P
+    - R
+    - O
+    - D.20pt
+    - U
+    - C.20pt
+    - E.20pt
+    - R.20pt
+    - S.20pt
+    - five
+    - C.20pt_2
+    - O.20pt
+    - N.20pt
+    - S.20pt_2
+    - O.20pt_2
+    - L
+    - I.20pt
+    - D.20pt_2
+    - A.20pt
+    - T.20pt
+    - E.20pt_2
+    - D.20pt_3
+    figure_height_px: 154
+    stem_px: 12
+    scale: 4.57516
+    stem_units: 54.9
+    figure_height: 705
+  387:18pt:
+    n_caps: 18
+    cap_height_px: 129.0
+    cap_source: caps
+    baseline_px: 2136.0
+    baselines:
+      '4': 2136.0
+    glyphs:
+    - E.18pt
+    - N.18pt
+    - G
+    - R.18pt
+    - A.18pt
+    - V
+    - I.18pt
+    - N.18pt_2
+    - G.18pt
+    - dollar
+    - four
+    - three
+    - nine.18pt
+    - M.18pt
+    - A.18pt_2
+    - C.18pt
+    - H.18pt
+    - I.18pt_2
+    - N.18pt_3
+    - E.18pt_2
+    - R.18pt_2
+    - Y
+    figure_height_px: 129
+    stem_px: 9.5
+    scale: 5.42636
+    stem_units: 51.6
+    figure_height: 700
+specimen_lines:
+- leaf: 387
+  line: 30pt
+  text: DISENCHANTMENT 96
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 387
+  line: 20pt
+  text: PRODUCERS 5 CONSOLIDATED
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 387
+  line: 18pt
+  text: ~ ENGRAVING $439 MACHINERY ~
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

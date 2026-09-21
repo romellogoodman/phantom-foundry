@@ -1,0 +1,143 @@
+name: webster-atf1896
+title: Webster.
+series: Webster.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 445
+leaf_pages:
+  445: 441
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      445:36pt: 35.0
+      445:24pt: 64.4
+  x_height: 566
+lines:
+  445:36pt:
+    n_caps: 12
+    cap_height_px: 200.0
+    cap_source: caps
+    baseline_px: 831.5
+    baselines:
+      '1': 831.5
+      '2': 1142.5
+    glyphs:
+    - R
+    - I
+    - G
+    - H
+    - T
+    - S
+    - A
+    - B
+    - R.36pt
+    - E
+    - B.36pt
+    - r
+    - i
+    - g
+    - h
+    - t
+    - M
+    - e
+    - t.36pt
+    - a
+    - l
+    - five
+    x_height_px: 178
+    figure_height_px: 192
+    stem_px: 17.0
+    scale: 3.5
+    stem_units: 59.5
+    x_height: 623
+    figure_height: 672
+  445:24pt:
+    n_caps: 16
+    cap_height_px: 130.5
+    cap_source: caps
+    baseline_px: 1597.0
+    baselines:
+      '3': 1597.0
+      '4': 1818.0
+    glyphs:
+    - S.24pt
+    - I.24pt
+    - M.24pt
+    - P
+    - L
+    - E.24pt
+    - R.24pt
+    - A.24pt
+    - R.24pt_2
+    - T.24pt
+    - I.24pt_2
+    - C
+    - L.24pt
+    - E.24pt_2
+    - G.24pt
+    - e.24pt
+    - n
+    - e.24pt_2
+    - r.24pt
+    - a.24pt
+    - l.24pt
+    - A.24pt_2
+    - p
+    - p.24pt
+    - l.24pt_2
+    - a.24pt_2
+    - u
+    - s
+    - e.24pt_3
+    - one
+    - six
+    x_height_px: 95
+    figure_height_px: 134.5
+    stem_px: 12.0
+    scale: 5.36398
+    stem_units: 64.4
+    x_height: 510
+    figure_height: 721
+specimen_lines:
+- leaf: 445
+  line: 36pt
+  text: RIGHT SABRE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 445
+  line: 36pt
+  text: Bright Metal 5
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 445
+  line: 24pt
+  text: SIMPLER ARTICLE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 445
+  line: 24pt
+  text: General Applause 16
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

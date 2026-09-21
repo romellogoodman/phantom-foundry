@@ -1,0 +1,152 @@
+name: pontiac-atf1906
+title: Pontiac
+series: Pontiac
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 398
+leaf_pages:
+  398: 348
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      398:72pt: 33.2
+      398:54pt: 35.3
+      398:30pt: 40.2
+  x_height: 499
+lines:
+  398:72pt:
+    n_caps: 5
+    cap_height_px: 316
+    cap_source: caps
+    baseline_px: 717
+    baselines:
+      '1': 717
+    glyphs:
+    - G
+    - E
+    - M
+    - S
+    - R
+    - e
+    - t
+    - u
+    - r
+    - n
+    - e.72pt
+    - d
+    x_height_px: 225
+    stem_px: 32
+    scale: 2.21519
+    stem_units: 70.9
+    x_height: 498
+  398:54pt:
+    n_caps: 7
+    cap_height_px: 208
+    cap_source: caps
+    baseline_px: 1479
+    baselines:
+      '3': 1479
+    glyphs:
+    - H
+    - O
+    - U
+    - R.54pt
+    - S.54pt
+    - I
+    - n.54pt
+    - t.54pt
+    - r.54pt
+    - i
+    - n.54pt_2
+    - s
+    - i.54pt
+    - c
+    - N
+    - o
+    - r.54pt_2
+    x_height_px: 166.5
+    stem_px: 19
+    scale: 3.36538
+    stem_units: 63.9
+    x_height: 560
+  398:30pt:
+    n_caps: 14
+    cap_height_px: 122.0
+    cap_source: caps
+    baseline_px: 2416.0
+    baselines:
+      '6': 2416.0
+    glyphs:
+    - B
+    - e.30pt
+    - a
+    - u.30pt
+    - t.30pt
+    - i.30pt
+    - f
+    - u.30pt_2
+    - l
+    - A
+    - u.30pt_3
+    - t.30pt_2
+    - o.30pt
+    - m
+    - o.30pt_2
+    - b
+    - i.30pt_2
+    - l.30pt
+    - e.30pt_2
+    - s.30pt
+    - I.30pt
+    - N.30pt
+    - E.30pt
+    - X
+    - H.30pt
+    - I.30pt_2
+    - B.30pt
+    - I.30pt_3
+    - T
+    - I.30pt_4
+    - O.30pt
+    - N.30pt_2
+    x_height_px: 87.0
+    stem_px: 18.0
+    scale: 5.7377
+    stem_units: 103.3
+    x_height: 499
+specimen_lines:
+- leaf: 398
+  line: 72pt
+  text: GEMS Returned
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 398
+  line: 54pt
+  text: HOURS Intrinsic Nor
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 398
+  line: 30pt
+  text: Beautiful Automobiles IN EXHIBITION
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

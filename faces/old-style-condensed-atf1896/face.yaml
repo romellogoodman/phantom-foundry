@@ -1,0 +1,130 @@
+name: old-style-condensed-atf1896
+title: Old Style Condensed.
+series: Old Style Condensed.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 190
+leaf_pages:
+  190: 186
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      190:32pt: 42.1
+      190:28pt: 51.9
+      190:22pt: 51.1
+lines:
+  190:32pt:
+    n_caps: 8
+    cap_height_px: 249.5
+    cap_source: caps
+    baseline_px: 941.0
+    baselines:
+      '1': 941.0
+    glyphs:
+    - C
+    - O
+    - O.32pt
+    - K
+    - six
+    - eight
+    - S
+    - T
+    - E
+    - W
+    figure_height_px: 239.5
+    stem_px: 8.5
+    scale: 2.80561
+    stem_units: 23.8
+    figure_height: 672
+  190:28pt:
+    n_caps: 10
+    cap_height_px: 216.0
+    cap_source: caps
+    baseline_px: 1473.0
+    baselines:
+      '2': 1473.0
+    glyphs:
+    - M
+    - A
+    - R
+    - R.28pt
+    - Y
+    - eight.28pt
+    - six.28pt
+    - G
+    - I
+    - R.28pt_2
+    - L
+    - S.28pt
+    figure_height_px: 204.0
+    stem_px: 13.5
+    scale: 3.24074
+    stem_units: 43.8
+    figure_height: 661
+  190:22pt:
+    n_caps: 14
+    cap_height_px: 164.5
+    cap_source: caps
+    baseline_px: 1949.0
+    baselines:
+      '3': 1949.0
+    glyphs:
+    - R.22pt
+    - E.22pt
+    - C.22pt
+    - E.22pt_2
+    - I.22pt
+    - V
+    - E.22pt_3
+    - two
+    - one
+    - B
+    - U
+    - S.22pt
+    - H
+    - E.22pt_4
+    - L.22pt
+    - S.22pt_2
+    figure_height_px: 100.0
+    stem_px: 9.0
+    scale: 4.25532
+    stem_units: 38.3
+    figure_height: 426
+specimen_lines:
+- leaf: 190
+  line: 32pt
+  text: COOK 68 STEW
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 190
+  line: 28pt
+  text: MARRY 86 GIRLS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 190
+  line: 22pt
+  text: RECEIVE 2 1 BUSHELS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

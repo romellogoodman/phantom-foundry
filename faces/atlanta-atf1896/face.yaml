@@ -1,0 +1,119 @@
+name: atlanta-atf1896
+title: Atlanta.
+series: Atlanta.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 452
+leaf_pages:
+  452: 448
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      452:48pt: 135.2
+      452:42pt: 144.4
+      452:36pt: 115.8
+      452:30pt: 82.5
+lines:
+  452:48pt:
+    n_caps: 4
+    cap_height_px: 367.5
+    cap_source: caps
+    baseline_px: 1023.0
+    baselines:
+      '1': 1023.0
+    glyphs:
+    - K
+    - I
+    - N
+    - G
+    stem_px: 50.5
+    scale: 1.90476
+    stem_units: 96.2
+  452:42pt:
+    n_caps: 4
+    cap_height_px: 315.0
+    cap_source: caps
+    baseline_px: 1579.5
+    baselines:
+      '2': 1579.5
+    glyphs:
+    - M
+    - A
+    - I.42pt
+    - N.42pt
+    stem_px: 41.5
+    scale: 2.22222
+    stem_units: 92.2
+  452:36pt:
+    n_caps: 4
+    cap_height_px: 260.0
+    cap_source: caps
+    baseline_px: 2842.5
+    baselines:
+      '5': 2842.5
+    glyphs:
+    - L
+    - E
+    - A.36pt
+    - D
+    stem_px: 35.0
+    scale: 2.69231
+    stem_units: 94.2
+  452:30pt:
+    n_caps: 4
+    cap_height_px: 229.0
+    cap_source: caps
+    baseline_px: 3611.5
+    baselines:
+      '7': 3611.5
+    glyphs:
+    - M.30pt
+    - U
+    - C
+    - H
+    stem_px: 30.5
+    scale: 3.05677
+    stem_units: 93.2
+specimen_lines:
+- leaf: 452
+  line: 48pt
+  text: KING
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 452
+  line: 42pt
+  text: MAIN
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 452
+  line: 36pt
+  text: LEAD
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 452
+  line: 30pt
+  text: MUCH
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

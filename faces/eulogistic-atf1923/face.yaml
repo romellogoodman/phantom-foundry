@@ -1,0 +1,74 @@
+name: eulogistic-atf1923
+title: Eulogistic
+series: Eulogistic
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 547
+leaf_pages:
+  547: 247
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      547:30pt: 193.5
+  x_height: 684
+lines:
+  547:30pt:
+    n_caps: 2
+    cap_height_px: 108.5
+    cap_source: caps
+    baseline_px: 1043.5
+    baselines:
+      '3': 1043.5
+    glyphs:
+    - S
+    - t
+    - r
+    - o
+    - n
+    - g
+    - C
+    - h
+    - i
+    - l
+    - d
+    - a
+    - b
+    - c
+    - d.30pt
+    - e
+    - f
+    - g.30pt
+    - h.30pt
+    - i.30pt
+    - j
+    - k
+    x_height_px: 106.0
+    stem_px: 7.0
+    scale: 6.45161
+    stem_units: 45.2
+    x_height: 684
+specimen_lines:
+- leaf: 547
+  line: 30pt
+  text: StrongChild abcdefghijk
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

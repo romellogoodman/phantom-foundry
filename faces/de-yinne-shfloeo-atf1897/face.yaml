@@ -1,0 +1,113 @@
+name: de-yinne-shfloeo-atf1897
+title: De Yinne Shfloeo
+series: De Yinne Shfloeo
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 370
+leaf_pages:
+  370: 368
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      370:72pt: 66.7
+      370:60pt: 46.6
+      370:54pt: 35.7
+  x_height: 519
+lines:
+  370:72pt:
+    n_caps: 1
+    cap_height_px: 504
+    cap_source: caps
+    baseline_px: 1194
+    baselines:
+      '1': 1194
+    glyphs:
+    - N
+    - i
+    - l
+    - e
+    - s
+    - five
+    x_height_px: 419.5
+    figure_height_px: 468
+    stem_px: 8
+    scale: 1.38889
+    stem_units: 11.1
+    x_height: 583
+    figure_height: 650
+  370:60pt:
+    n_caps: 4
+    cap_height_px: 436.0
+    cap_source: caps
+    baseline_px: 2025.0
+    baselines:
+      '2': 2025.0
+    glyphs:
+    - two
+    - P
+    - E
+    - N.60pt
+    - S
+    figure_height_px: 431
+    stem_px: 10.0
+    scale: 1.6055
+    stem_units: 16.1
+    figure_height: 692
+  370:54pt:
+    n_caps: 1
+    cap_height_px: 412
+    cap_source: caps
+    baseline_px: 2779
+    baselines:
+      '3': 2779
+    glyphs:
+    - Z
+    - e.54pt
+    - b
+    - r
+    - a
+    - s.54pt
+    - six
+    x_height_px: 268
+    figure_height_px: 388
+    stem_px: 12
+    scale: 1.69903
+    stem_units: 20.4
+    x_height: 455
+    figure_height: 659
+specimen_lines:
+- leaf: 370
+  line: 72pt
+  text: Niles 5
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 370
+  line: 60pt
+  text: 2 PENS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 370
+  line: 54pt
+  text: Zebras 6
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

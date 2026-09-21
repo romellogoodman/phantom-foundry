@@ -1,0 +1,76 @@
+name: garamond-various1930
+title: Garamond
+series: Garamond
+status: proto
+version: 0.1.0
+book: bwb_P9-EDB-136
+source:
+  archive_id: bwb_P9-EDB-136
+  title: Specimen Book of Printing Type
+  creator: various
+  publisher: Waterlow & Sons Ltd.
+  date: 1930-01
+  ppi: 360
+  url: https://archive.org/details/bwb_P9-EDB-136
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 50
+leaf_pages:
+  50: 38
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      50:42pt: 51.7
+  x_height: 542
+lines:
+  50:42pt:
+    n_caps: 3
+    cap_height_px: 115
+    cap_source: caps
+    baseline_px: 2679
+    baselines:
+      '6': 2679
+    glyphs:
+    - Q
+    - u
+    - a
+    - l
+    - i
+    - t
+    - i.42pt
+    - e
+    - s
+    - t.42pt
+    - h
+    - a.42pt
+    - t.42pt_2
+    - D
+    - i.42pt_2
+    - s.42pt
+    - p
+    - l.42pt
+    - a.42pt_2
+    - y
+    - E
+    - a.42pt_3
+    - s.42pt_2
+    - e.42pt
+    x_height_px: 89
+    stem_px: 14
+    scale: 6.08696
+    stem_units: 85.2
+    x_height: 542
+specimen_lines:
+- leaf: 50
+  line: 42pt
+  text: Qualities that Display Ease
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

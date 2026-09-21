@@ -1,0 +1,139 @@
+name: florentine-bold-extra-condensed-atf1912
+title: Florentine Bold Extra Condensed
+series: Riorentine Bold Extra Condensed
+status: proto
+version: 0.1.0
+book: americanspecimen00amer
+source:
+  archive_id: americanspecimen00amer
+  title: 'American specimen book of type styles : complete catalogue of printing machinery
+    and printing supplies, 1912'
+  creator: American Type Founders Company
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '1912'
+  ppi: 400
+  url: https://archive.org/details/americanspecimen00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 604
+leaf_pages:
+  604: 582
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      604:96pt: 24.3
+      604:72pt: 29.7
+  x_height: 541
+lines:
+  604:96pt:
+    n_caps: 12
+    cap_height_px: 418.5
+    cap_source: caps
+    baseline_px: 2171.0
+    baselines:
+      '3': 2171.0
+      '4': 2693.5
+    glyphs:
+    - T
+    - R
+    - A
+    - I
+    - N
+    - H
+    - O
+    - U
+    - N.96pt
+    - D
+    - S
+    - t
+    - r
+    - o
+    - n
+    - g
+    - e
+    - r.96pt
+    - M
+    - i
+    - n.96pt
+    - d
+    x_height_px: 324.0
+    stem_px: 38.0
+    scale: 1.67264
+    stem_units: 63.6
+    x_height: 542
+  604:72pt:
+    n_caps: 16
+    cap_height_px: 306.0
+    cap_source: caps
+    baseline_px: 3263.0
+    baselines:
+      '5': 3263.0
+      '6': 3650.5
+    glyphs:
+    - F
+    - R.72pt
+    - E
+    - N.72pt
+    - Z
+    - I.72pt
+    - E.72pt
+    - D.72pt
+    - H.72pt
+    - U.72pt
+    - N.72pt_2
+    - T.72pt
+    - E.72pt_2
+    - R.72pt_2
+    - P
+    - r.72pt
+    - i.72pt
+    - n.72pt
+    - t.72pt
+    - e.72pt
+    - r.72pt_2
+    - s
+    - D.72pt_2
+    - r.72pt_3
+    - o.72pt
+    - w
+    - n.72pt_2
+    - i.72pt_2
+    - n.72pt_3
+    - g.72pt
+    x_height_px: 236.0
+    stem_px: 48.5
+    scale: 2.28758
+    stem_units: 110.9
+    x_height: 540
+specimen_lines:
+- leaf: 604
+  line: 96pt
+  text: TRAIN HOUND
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 604
+  line: 96pt
+  text: Stronger Mind
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 604
+  line: 72pt
+  text: FRENZIED HUNTER
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 604
+  line: 72pt
+  text: Printers Drowning
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Riorentine Bold Extra Condensed
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

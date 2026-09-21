@@ -1,0 +1,39 @@
+{
+  "face": "duerer-boston1889",
+  "labeled": [
+    {
+      "leaf": 186,
+      "band": 4,
+      "line": "36pt",
+      "text": "CHARMING GERMAN MAIDEN MARRIED",
+      "by": "deepseek-v4.1-flash+qwen3.7-flash",
+      "added": 27,
+      "kept": 0
+    },
+    {
+      "leaf": 186,
+      "band": 5,
+      "line": "36pt",
+      "text": "Dispenses Exhilarating Beverage 67",
+      "by": "deepseek-v4.1-flash+qwen3.7-flash+ocr",
+      "added": 31,
+      "kept": 0
+    }
+  ],
+  "already": [],
+  "skipped": [
+    {
+      "leaf": 186,
+      "band": 2,
+      "why": "no reading",
+      "ocr": "GRAND ORGAN AND CHURCH",
+      "n": 18
+    },
+    {
+      "leaf": 186,
+      "band": 3,
+      "why": "reading has 20 characters, band has 19 boxes",
+      "text": "Reasonabl eOpinion s13"
+    }
+  ]
+}

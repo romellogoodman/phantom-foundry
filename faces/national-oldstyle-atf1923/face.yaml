@@ -1,0 +1,113 @@
+name: national-oldstyle-atf1923
+title: National Oldstyle
+series: National Oldstyle
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 600
+leaf_pages:
+  600: 300
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      600:48pt: 21.9
+      600:30pt: 192.0
+  x_height: 553
+lines:
+  600:48pt:
+    n_caps: 10
+    cap_height_px: 176.0
+    cap_source: caps
+    baseline_px: 685.5
+    baselines:
+      '2': 685.5
+    glyphs:
+    - H
+    - y
+    - d
+    - r
+    - a
+    - u
+    - l
+    - i
+    - c
+    - s
+    - K
+    - L
+    - M
+    - N
+    - O
+    - P
+    - Q
+    - R
+    - S
+    x_height_px: 110
+    stem_px: 5.5
+    scale: 3.97727
+    stem_units: 21.9
+    x_height: 438
+  600:30pt:
+    n_caps: 2
+    cap_height_px: 113.0
+    cap_source: caps
+    baseline_px: 968.0
+    baselines:
+      '3': 968.0
+    glyphs:
+    - J
+    - u.30pt
+    - d.30pt
+    - g
+    - e
+    - R.30pt
+    - i.30pt
+    - g.30pt
+    - h
+    - t
+    - l.30pt
+    - y.30pt
+    - a.30pt
+    - b
+    - c.30pt
+    - d.30pt_2
+    - e.30pt
+    - f
+    - g.30pt_2
+    - h.30pt
+    - i.30pt_2
+    - j
+    - k
+    x_height_px: 108
+    stem_px: 11.5
+    scale: 6.19469
+    stem_units: 71.2
+    x_height: 669
+specimen_lines:
+- leaf: 600
+  line: 48pt
+  text: Hydraulics K L MN O P Q R S
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 600
+  line: 30pt
+  text: JudgeRightly abcdefghijk
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

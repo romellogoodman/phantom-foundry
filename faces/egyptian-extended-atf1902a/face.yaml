@@ -1,0 +1,144 @@
+name: egyptian-extended-atf1902a
+title: Egyptian Extended
+series: Egyptian Extended
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 586
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      586:48pt: 34.4
+      586:24pt: 33.6
+  x_height: 508
+lines:
+  586:48pt:
+    n_caps: 12
+    cap_height_px: 173.0
+    cap_source: caps
+    baseline_px: 1339.0
+    baselines:
+      '2': 1339.0
+      '3': 1588.5
+    glyphs:
+    - R
+    - E
+    - A
+    - L
+    - H
+    - O
+    - N
+    - E.48pt
+    - S
+    - T
+    - E.48pt_2
+    - s
+    - t
+    - a
+    - b
+    - l
+    - i
+    - s.48pt
+    - h
+    - R.48pt
+    - e
+    - c
+    - o
+    - r
+    - d
+    - s.48pt_2
+    x_height_px: 124.0
+    stem_px: 24.0
+    scale: 4.04624
+    stem_units: 97.1
+    x_height: 502
+  586:24pt:
+    n_caps: 16
+    cap_height_px: 125.0
+    cap_source: caps
+    baseline_px: 1986.0
+    baselines:
+      '4': 1986.0
+      '5': 2178.5
+    glyphs:
+    - E.24pt
+    - A.24pt
+    - R.24pt
+    - N.24pt
+    - E.24pt_2
+    - S.24pt
+    - T.24pt
+    - S.24pt_2
+    - C
+    - H.24pt
+    - O.24pt
+    - L.24pt
+    - A.24pt_2
+    - R.24pt_2
+    - P
+    - r.24pt
+    - o.24pt
+    - b.24pt
+    - l.24pt
+    - e.24pt
+    - m
+    - s.24pt
+    - i.24pt
+    - n
+    - A.24pt_3
+    - r.24pt_2
+    - i.24pt_2
+    - t.24pt
+    - h.24pt
+    - m.24pt
+    - e.24pt_2
+    - t.24pt_2
+    - i.24pt_3
+    - c.24pt
+    x_height_px: 92.0
+    stem_px: 19.0
+    scale: 5.6
+    stem_units: 106.4
+    x_height: 515
+specimen_lines:
+- leaf: 586
+  line: 48pt
+  text: REAL HONEST
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 586
+  line: 48pt
+  text: Establish Records
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 586
+  line: 24pt
+  text: EARNEST SCHOLAR
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 586
+  line: 24pt
+  text: Problems in Arithmetic
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

@@ -1,0 +1,125 @@
+name: bodoni-bold-shaded-atf1917
+title: Bodoni Bold Shaded
+series: Bodoni Bold Shaded
+status: proto
+version: 0.1.0
+book: supplementarycat00daysrich
+source:
+  archive_id: supplementarycat00daysrich
+  title: 'Supplementary catalogue : new type faces, borders, ornaments, brass rule'
+  creator: Daystrom, inc
+  publisher: 'Jersey City, N.J. : American Type Founders Company'
+  date: '[c1917]'
+  ppi: 400
+  url: https://archive.org/details/supplementarycat00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 140
+leaf_pages:
+  140: 134
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      140:48pt: 19.8
+      140:42pt: 22.4
+  x_height: 443
+lines:
+  140:48pt:
+    n_caps: 18
+    cap_height_px: 177.0
+    cap_source: caps
+    baseline_px: 568
+    baselines:
+      '1': 568
+      '2': 833
+    glyphs:
+    - P
+    - R
+    - I
+    - N
+    - T
+    - I.48pt
+    - N.48pt
+    - G
+    - D
+    - E
+    - S
+    - I.48pt_2
+    - G.48pt
+    - N.48pt_2
+    - S.48pt
+    - S.48pt_2
+    - o
+    - m
+    - e
+    - B
+    - r
+    - i
+    - g
+    - h
+    - t
+    - F
+    - a
+    - s
+    - h.48pt
+    - i.48pt
+    - o.48pt
+    - n
+    - s.48pt
+    x_height_px: 112
+    stem_px: 10.5
+    scale: 3.9548
+    stem_units: 41.5
+    x_height: 443
+  140:42pt:
+    n_caps: 17
+    cap_height_px: 156
+    cap_source: caps
+    baseline_px: 1194
+    baselines:
+      '3': 1194
+    glyphs:
+    - I.42pt
+    - N.42pt
+    - C
+    - R.42pt
+    - E.42pt
+    - A
+    - S.42pt
+    - I.42pt_2
+    - N.42pt_2
+    - G.42pt
+    - P.42pt
+    - R.42pt_2
+    - O
+    - F.42pt
+    - I.42pt_3
+    - T.42pt
+    - S.42pt_2
+    stem_px: 10
+    scale: 4.48718
+    stem_units: 44.9
+specimen_lines:
+- leaf: 140
+  line: 48pt
+  text: PRINTING DESIGNS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 140
+  line: 48pt
+  text: Some Bright Fashions
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 140
+  line: 42pt
+  text: INCREASING PROFITS
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash

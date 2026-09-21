@@ -1,0 +1,213 @@
+name: lafayette-atf1902a
+title: Lafayette
+series: Lafayette
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 399
+leaf_pages:
+  399: 54
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      399:80pt: 21.9
+      399:72pt: 25.8
+      399:54pt: 21.2
+      399:48pt: 35.9
+      399:36pt: 32.1
+  x_height: 580
+lines:
+  399:80pt:
+    n_caps: 9
+    cap_height_px: 288
+    cap_source: caps
+    baseline_px: 1637
+    baselines:
+      '2': 1637
+    glyphs:
+    - M
+    - o
+    - r
+    - n
+    - i
+    - n.80pt
+    - g
+    - S
+    - U
+    - N
+    - S.80pt
+    - H
+    - I
+    - N.80pt
+    - E
+    x_height_px: 235.5
+    stem_px: 27
+    scale: 2.43056
+    stem_units: 65.6
+    x_height: 572
+  399:72pt:
+    n_caps: 7
+    cap_height_px: 353
+    cap_source: caps
+    baseline_px: 1075
+    baselines:
+      '1': 1075
+    glyphs:
+    - S.72pt
+    - T
+    - R
+    - O
+    - N.72pt
+    - G
+    - D
+    - r.72pt
+    - i.72pt
+    - n.72pt
+    - k
+    - e
+    - r.72pt_2
+    x_height_px: 292.5
+    stem_px: 30
+    scale: 1.983
+    stem_units: 59.5
+    x_height: 580
+  399:54pt:
+    n_caps: 9
+    cap_height_px: 264
+    cap_source: caps
+    baseline_px: 2167
+    baselines:
+      '3': 2167
+    glyphs:
+    - H.54pt
+    - A
+    - N.54pt
+    - D.54pt
+    - S.54pt
+    - O.54pt
+    - M.54pt
+    - E.54pt
+    - B
+    - u
+    - t
+    - t.54pt
+    - e.54pt
+    - r.54pt
+    - f
+    - l
+    - y
+    x_height_px: 254.5
+    stem_px: 24
+    scale: 2.65152
+    stem_units: 63.6
+    x_height: 675
+  399:48pt:
+    n_caps: 10
+    cap_height_px: 214.5
+    cap_source: caps
+    baseline_px: 2640.0
+    baselines:
+      '4': 2640.0
+    glyphs:
+    - W
+    - a
+    - t.48pt
+    - c
+    - h
+    - m
+    - a.48pt
+    - n.48pt
+    - E.48pt
+    - X
+    - C
+    - E.48pt_2
+    - L
+    - L.48pt
+    - E.48pt_3
+    - N.48pt
+    - T.48pt
+    x_height_px: 184
+    stem_px: 21.5
+    scale: 3.2634
+    stem_units: 70.2
+    x_height: 600
+  399:36pt:
+    n_caps: 10
+    cap_height_px: 196.0
+    cap_source: caps
+    baseline_px: 3139.5
+    baselines:
+      '5': 3139.5
+    glyphs:
+    - D.36pt
+    - A.36pt
+    - R.36pt
+    - K
+    - N.36pt
+    - i.36pt
+    - g.36pt
+    - h.36pt
+    - t.36pt
+    - s
+    - N.36pt_2
+    - U.36pt
+    - D.36pt_2
+    - E.36pt
+    - F
+    - i.36pt_2
+    - g.36pt_2
+    - u.36pt
+    - r.36pt
+    - e.36pt
+    - s.36pt
+    x_height_px: 154
+    stem_px: 18.0
+    scale: 3.57143
+    stem_units: 64.3
+    x_height: 550
+specimen_lines:
+- leaf: 399
+  line: 80pt
+  text: Morning SUNSHINE
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 399
+  line: 72pt
+  text: STRONG Drinker
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 399
+  line: 54pt
+  text: HANDSOME Butterfly
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 399
+  line: 48pt
+  text: Watchman EXCELLENT
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 399
+  line: 36pt
+  text: DARK Nights NUDE Figures
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

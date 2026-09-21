@@ -1,0 +1,71 @@
+name: condensed-title-gothic-no-3-inland1897
+title: Condensed Title Gothic No. 3
+series: Condensed Title Gothic
+status: proto
+version: 0.1.0
+book: specimenbookcata00inlauoft
+source:
+  archive_id: specimenbookcata00inlauoft
+  title: Specimen book and catalog; a price list of printers' supplies, showing types
+    and rules in which are embodied all the latest ideas that enable the printer to
+    produce superior work ..
+  creator: Inland Type Foundry, St. Louis
+  publisher: St. Louis, Inland Type Foundry
+  date: '1897'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inlauoft
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: Robarts - University of Toronto
+  leaves:
+  - 102
+leaf_pages:
+  102: 100
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      102:48pt: 40.8
+lines:
+  102:48pt:
+    n_caps: 13
+    cap_height_px: 266
+    cap_source: caps
+    baseline_px: 3427
+    baselines:
+      '6': 3427
+    glyphs:
+    - S
+    - T
+    - A
+    - N
+    - D
+    - A.48pt
+    - R
+    - D.48pt
+    - P
+    - R.48pt
+    - I
+    - M
+    - E
+    - seven
+    - five
+    figure_height_px: 268.0
+    stem_px: 32
+    scale: 2.63158
+    stem_units: 84.2
+    figure_height: 705
+specimen_lines:
+- leaf: 102
+  line: 48pt
+  text: STANDARD PRIME 75
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+heading_as_read: Condensed Title Gothic
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

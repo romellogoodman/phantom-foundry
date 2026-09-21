@@ -1,0 +1,133 @@
+name: wave-farmer1899
+title: Wave.
+series: Wave.
+status: proto
+version: 0.1.0
+book: abridgedspecimen00adfa
+source:
+  archive_id: abridgedspecimen00adfa
+  title: 'Abridged specimen book : type, borders, brass rules, ornaments and price
+    list of printing machinery, furniture, fixtures and material'
+  creator: A.D. Farmer & Son Type Founding Co
+  publisher: 'Chicago : The Company'
+  date: '1899'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00adfa
+  copyright_status: null
+  contributor: University of Illinois Urbana-Champaign
+  leaves:
+  - 195
+leaf_pages:
+  195: 191
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      195:48pt: 115.1
+      195:36pt: 89.0
+      195:24pt: 109.4
+      195:18pt: 109.5
+lines:
+  195:48pt:
+    n_caps: 5
+    cap_height_px: 304
+    cap_source: caps
+    baseline_px: 2791
+    baselines:
+      '7': 2791
+    glyphs:
+    - M
+    - I
+    - N
+    - E
+    - R
+    stem_px: 45
+    scale: 2.30263
+    stem_units: 103.6
+  195:36pt:
+    n_caps: 6
+    cap_height_px: 236.0
+    cap_source: caps
+    baseline_px: 1999.5
+    baselines:
+      '5': 1999.5
+    glyphs:
+    - R.36pt
+    - E.36pt
+    - F
+    - O
+    - R.36pt_2
+    - M.36pt
+    stem_px: 36.5
+    scale: 2.9661
+    stem_units: 108.3
+  195:24pt:
+    n_caps: 9
+    cap_height_px: 160
+    cap_source: caps
+    baseline_px: 1366
+    baselines:
+      '3': 1366
+    glyphs:
+    - G
+    - O.24pt
+    - L
+    - D
+    - C
+    - H
+    - A
+    - I.24pt
+    - N.24pt
+    stem_px: 26
+    scale: 4.375
+    stem_units: 113.8
+  195:18pt:
+    n_caps: 12
+    cap_height_px: 121.5
+    cap_source: caps
+    baseline_px: 852.0
+    baselines:
+      '1': 852.0
+    glyphs:
+    - D.18pt
+    - A.18pt
+    - N.18pt
+    - G.18pt
+    - E.18pt
+    - R.18pt
+    - S
+    - I.18pt
+    - G.18pt_2
+    - N.18pt_2
+    - A.18pt_2
+    - L.18pt
+    stem_px: 20.0
+    scale: 5.76132
+    stem_units: 115.2
+specimen_lines:
+- leaf: 195
+  line: 48pt
+  text: MINER
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 195
+  line: 36pt
+  text: REFORM
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 195
+  line: 24pt
+  text: GOLD CHAIN
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 195
+  line: 18pt
+  text: DANGER SIGNAL
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

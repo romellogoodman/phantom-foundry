@@ -1,0 +1,103 @@
+name: patst-oustyle-atf1906
+title: Patst Oustyle
+series: Patst Oustyle
+status: proto
+version: 0.1.0
+book: americanlinetype00daysrich
+source:
+  archive_id: americanlinetype00daysrich
+  title: American line type book, borders, ornaments, price list printing material
+    and machinery
+  creator: Daystrom, inc
+  publisher: '[s.\U+fffd\] American type founders co.'
+  date: '1906'
+  ppi: 400
+  url: https://archive.org/details/americanlinetype00daysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 303
+leaf_pages:
+  303: 253
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      303:36pt: 41.9
+      303:30pt: 49.6
+  x_height: 341
+lines:
+  303:36pt:
+    n_caps: 8
+    cap_height_px: 150.5
+    cap_source: caps
+    baseline_px: 554.5
+    baselines:
+      '1': 554.5
+    glyphs:
+    - S
+    - U
+    - N
+    - S.36pt
+    - H
+    - I
+    - N.36pt
+    - E
+    stem_px: 12.0
+    scale: 4.65116
+    stem_units: 55.8
+  303:30pt:
+    n_caps: 11
+    cap_height_px: 120
+    cap_source: caps
+    baseline_px: 1350
+    baselines:
+      '4': 1350
+      '6': 1706.5
+    glyphs:
+    - M
+    - E.30pt
+    - N.30pt
+    - A
+    - G
+    - E.30pt_2
+    - R
+    - I.30pt
+    - E.30pt_3
+    - M.30pt
+    - o
+    - u
+    - s
+    - e
+    - S.30pt
+    - h
+    - o.30pt
+    - w
+    - n
+    x_height_px: 58.5
+    stem_px: 9
+    scale: 5.83333
+    stem_units: 52.5
+    x_height: 341
+specimen_lines:
+- leaf: 303
+  line: 36pt
+  text: SUNSHINE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 303
+  line: 30pt
+  text: MENAGERIE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 303
+  line: 30pt
+  text: Mouse Shown
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

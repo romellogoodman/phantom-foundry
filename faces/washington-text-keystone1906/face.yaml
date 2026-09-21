@@ -1,0 +1,142 @@
+name: washington-text-keystone1906
+title: Washington Text
+series: Washington Text
+status: proto
+version: 0.1.0
+book: abridgedspecimen00keysrich
+source:
+  archive_id: abridgedspecimen00keysrich
+  title: 'Abridged specimen book, type : nickel-alloy on universal line comprising
+    a price list of types, borders, leads and slugs, brass rule, brass galleys; miscellaneous
+    cuts and general supplies for printers'
+  creator: Keystone Type Foundry
+  publisher: 'Philadelphia : Keystone Type Foundry'
+  date: '1906'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00keysrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 277
+  - 279
+  - 300
+  - 301
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      279:84pt: 31.6
+      301:84pt: 26.5
+      279:72pt: 43.4
+      279:60pt: 35.3
+  x_height: 404
+lines:
+  279:84pt:
+    n_caps: 1
+    cap_height_px: 487
+    cap_source: caps
+    baseline_px: 2745
+    baselines:
+      '3': 2745
+    glyphs:
+    - S
+    - h
+    - a
+    - d
+    - o
+    - w
+    x_height_px: 281
+    stem_px: 34
+    scale: 1.43737
+    stem_units: 48.9
+    x_height: 404
+  301:84pt:
+    n_caps: 1
+    cap_height_px: 476
+    cap_source: caps
+    baseline_px: 2827
+    baselines:
+      '4': 2827
+    glyphs:
+    - W
+    - adieresis
+    - l
+    - d.84pt
+    - e
+    - r
+    x_height_px: 363
+    stem_px: 31
+    scale: 1.47059
+    stem_units: 45.6
+    x_height: 534
+  279:72pt:
+    n_caps: 1
+    cap_height_px: 403
+    cap_source: caps
+    baseline_px: 1960
+    baselines:
+      '2': 1960
+    glyphs:
+    - G
+    - r.72pt
+    - e.72pt
+    - a.72pt
+    - t
+    - e.72pt_2
+    - s
+    - t.72pt
+    x_height_px: 233
+    stem_px: 33
+    scale: 1.73697
+    stem_units: 57.3
+    x_height: 405
+  279:60pt:
+    n_caps: 1
+    cap_height_px: 347
+    cap_source: caps
+    baseline_px: 1282
+    baselines:
+      '1': 1282
+    glyphs:
+    - M
+    - a.60pt
+    - t.60pt
+    - e.60pt
+    - r.60pt
+    - i
+    - a.60pt_2
+    - l.60pt
+    - s.60pt
+    x_height_px: 194.5
+    stem_px: 25
+    scale: 2.01729
+    stem_units: 50.4
+    x_height: 392
+specimen_lines:
+- leaf: 279
+  line: 84pt
+  text: Shadow
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 301
+  line: 84pt
+  text: Wälder
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 279
+  line: 72pt
+  text: Greatest
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 279
+  line: 60pt
+  text: Materials
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash

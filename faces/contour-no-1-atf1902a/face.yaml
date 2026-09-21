@@ -1,0 +1,143 @@
+name: contour-no-1-atf1902a
+title: Contour No 1
+series: Contour No I
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 510
+leaf_pages:
+  510: 1
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      510:48pt: 79.7
+      510:30pt: 97.8
+  x_height: 573
+lines:
+  510:48pt:
+    n_caps: 13
+    cap_height_px: 202
+    cap_source: caps
+    baseline_px: 949.5
+    baselines:
+      '1': 949.5
+      '2': 1452
+    glyphs:
+    - B
+    - l
+    - a
+    - c
+    - k
+    - H
+    - O
+    - R
+    - S
+    - E
+    - U
+    - N
+    - I
+    - T
+    - E.48pt
+    - D
+    - S.48pt
+    - e
+    - r
+    - v
+    - i
+    - c.48pt
+    - e.48pt
+    x_height_px: 161.5
+    stem_px: 5
+    scale: 3.46535
+    stem_units: 17.3
+    x_height: 560
+  510:30pt:
+    n_caps: 17
+    cap_height_px: 136
+    cap_source: caps
+    baseline_px: 1936.5
+    baselines:
+      '3': 1936.5
+      '4': 2379
+    glyphs:
+    - C
+    - a.30pt
+    - r.30pt
+    - m
+    - i.30pt
+    - n
+    - e.30pt
+    - B.30pt
+    - R.30pt
+    - U.30pt
+    - S.30pt
+    - H.30pt
+    - E.30pt
+    - S.30pt_2
+    - S.30pt_3
+    - U.30pt_2
+    - R.30pt_2
+    - G
+    - I.30pt
+    - C.30pt
+    - A
+    - L
+    - O.30pt
+    - p
+    - e.30pt_2
+    - r.30pt_2
+    - a.30pt_2
+    - t
+    - i.30pt_2
+    - o
+    - n.30pt
+    - s
+    x_height_px: 114
+    stem_px: 4
+    scale: 5.14706
+    stem_units: 20.6
+    x_height: 587
+specimen_lines:
+- leaf: 510
+  line: 48pt
+  text: Black HORSE
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 510
+  line: 48pt
+  text: UNITED Service
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 510
+  line: 30pt
+  text: Carmine BRUSHES
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 510
+  line: 30pt
+  text: SURGICAL Operations
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash
+heading_as_read: Contour No I
+name_from: read from the page image by deepseek-v4.1-flash (2026-09-21); `series`
+  is the archive OCR of the same heading

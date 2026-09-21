@@ -1,0 +1,134 @@
+name: binner-gothic-atf1900
+title: Binner Gothic
+series: Binner Gothic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 418
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      418:48pt: 27.2
+      418:30pt: 36.8
+  x_height: 512
+lines:
+  418:48pt:
+    n_caps: 15
+    cap_height_px: 257
+    cap_source: caps
+    baseline_px: 2286
+    baselines:
+      '3': 2286
+    glyphs:
+    - D
+    - I
+    - S
+    - T
+    - I.48pt
+    - N
+    - G
+    - U
+    - I.48pt_2
+    - S.48pt
+    - H
+    - E
+    - D.48pt
+    - A
+    - r
+    - t
+    - i
+    - s
+    - t.48pt
+    - i.48pt
+    - c
+    - T.48pt
+    - h
+    - e
+    - r.48pt
+    - m
+    - o
+    - m.48pt
+    - e.48pt
+    - t.48pt_2
+    - e.48pt_2
+    - r.48pt_2
+    x_height_px: 188
+    stem_px: 23
+    scale: 2.72374
+    stem_units: 62.6
+    x_height: 512
+  418:30pt:
+    n_caps: 33
+    cap_height_px: 171
+    cap_source: caps
+    baseline_px: 2829
+    baselines:
+      '4': 2829
+    glyphs:
+    - M
+    - O
+    - D.30pt
+    - E.30pt
+    - R
+    - N.30pt
+    - R.30pt
+    - A.30pt
+    - I.30pt
+    - L
+    - R.30pt_2
+    - O.30pt
+    - A.30pt_2
+    - D.30pt_2
+    - P
+    - E.30pt_2
+    - R.30pt_3
+    - M.30pt
+    - A.30pt_3
+    - N.30pt_2
+    - E.30pt_3
+    - N.30pt_3
+    - T.30pt
+    - I.30pt_2
+    - N.30pt_4
+    - V
+    - E.30pt_4
+    - S.30pt
+    - T.30pt_2
+    - M.30pt_2
+    - E.30pt_5
+    - N.30pt_5
+    - T.30pt_3
+    stem_px: 15
+    scale: 4.09357
+    stem_units: 61.4
+specimen_lines:
+- leaf: 418
+  line: 48pt
+  text: DISTINGUISHED Artistic Thermometer
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 418
+  line: 30pt
+  text: MODERN RAILROAD PERMANENT INVESTMENT
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

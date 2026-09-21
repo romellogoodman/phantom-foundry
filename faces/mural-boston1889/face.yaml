@@ -1,0 +1,93 @@
+name: mural-boston1889
+title: Mural
+series: Mural
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 196
+leaf_pages:
+  196: 190
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      196:36pt: 73.8
+lines:
+  196:36pt:
+    n_caps: 32
+    cap_height_px: 156.5
+    cap_source: caps
+    baseline_px: 1045
+    baselines:
+      '2': 1045
+      '3': 1288
+    glyphs:
+    - E
+    - M
+    - B
+    - O
+    - S
+    - S.36pt
+    - E.36pt
+    - D
+    - P
+    - H
+    - O.36pt
+    - T
+    - O.36pt_2
+    - G
+    - R
+    - A
+    - P.36pt
+    - H.36pt
+    - S.36pt_2
+    - M.36pt
+    - A.36pt
+    - N
+    - U
+    - F
+    - A.36pt_2
+    - C
+    - T.36pt
+    - U.36pt
+    - R.36pt
+    - I
+    - N.36pt
+    - G.36pt
+    - three
+    - six
+    figure_height_px: 159.0
+    stem_px: 10.0
+    scale: 4.47284
+    stem_units: 44.7
+    figure_height: 711
+specimen_lines:
+- leaf: 196
+  line: 36pt
+  text: EMBOSSED PHOTOGRAPHS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 196
+  line: 36pt
+  text: MANUFACTURING 36
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

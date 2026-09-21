@@ -1,0 +1,68 @@
+name: erebus-atf1896
+title: Erebus.
+series: Erebus.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 500
+leaf_pages:
+  500: 496
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      500:24pt: 30.7
+lines:
+  500:24pt:
+    n_caps: 16
+    cap_height_px: 125.5
+    cap_source: caps
+    baseline_px: 3156.0
+    baselines:
+      '6': 3156.0
+    glyphs:
+    - N
+    - O
+    - O.24pt
+    - N.24pt
+    - T
+    - I
+    - M
+    - E
+    - R
+    - E.24pt
+    - C
+    - R.24pt
+    - E.24pt_2
+    - A
+    - T.24pt
+    - I.24pt
+    stem_px: 23.0
+    scale: 5.57769
+    stem_units: 128.3
+specimen_lines:
+- leaf: 500
+  line: 24pt
+  text: NOONTIM ERECREATI
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,124 @@
+name: century-atf1900
+title: Century
+series: Century
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 501
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      501:36pt: 49.2
+      501:24pt: 56.6
+  x_height: 478
+lines:
+  501:36pt:
+    n_caps: 5
+    cap_height_px: 185
+    cap_source: caps
+    baseline_px: 905
+    baselines:
+      '1': 905
+      '2': 1210.0
+    glyphs:
+    - A
+    - l
+    - g
+    - o
+    - u
+    - n
+    - d
+    - ampersand
+    - M
+    - o.36pt
+    - u.36pt
+    - n.36pt
+    - g.36pt
+    - e
+    - r
+    - C
+    - T
+    - r.36pt
+    - a
+    - d.36pt
+    - e.36pt
+    - P
+    - r.36pt_2
+    - i
+    - c
+    - e.36pt_2
+    - s
+    x_height_px: 126
+    stem_px: 12
+    scale: 3.78378
+    stem_units: 45.4
+    x_height: 477
+  501:24pt:
+    n_caps: 1
+    cap_height_px: 136
+    cap_source: caps
+    baseline_px: 2943
+    baselines:
+      '4': 2943
+    glyphs:
+    - T.24pt
+    - e.24pt
+    - n.24pt
+    - p
+    - e.24pt_2
+    - r.24pt
+    - c.24pt
+    - e.24pt_3
+    - n.24pt_2
+    - t
+    - comma
+    - six
+    - m
+    - o.24pt
+    - n.24pt_3
+    - t.24pt
+    - h
+    - s.24pt
+    x_height_px: 93
+    figure_height_px: 131
+    stem_px: 15
+    scale: 5.14706
+    stem_units: 77.2
+    x_height: 479
+    figure_height: 674
+specimen_lines:
+- leaf: 501
+  line: 36pt
+  text: Algound & Mounger C
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 501
+  line: 36pt
+  text: ~Trade Prices ~
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 501
+  line: 24pt
+  text: Ten per cent, 6 months
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash

@@ -1,0 +1,127 @@
+name: washington-boston1889
+title: Washington
+series: Washington
+status: proto
+version: 0.1.0
+book: specimenbookfrom00unse
+source:
+  archive_id: specimenbookfrom00unse
+  title: Specimen book from the Boston type foundry ...containing also a complete
+    price list of printing material.
+  creator: null
+  publisher: Boston
+  date: '1889'
+  ppi: 300
+  url: https://archive.org/details/specimenbookfrom00unse
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 190
+leaf_pages:
+  190: 184
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      190:48pt: 70.9
+      190:36pt: 69.0
+  x_height: 496
+lines:
+  190:48pt:
+    n_caps: 16
+    cap_height_px: 158.0
+    cap_source: caps
+    baseline_px: 1623.5
+    baselines:
+      '4': 1623.5
+      '5': 1918.0
+    glyphs:
+    - M
+    - U
+    - S
+    - I
+    - C
+    - A
+    - L
+    - A.48pt
+    - C.48pt
+    - A.48pt_2
+    - D
+    - E
+    - M.48pt
+    - Y
+    - N
+    - o
+    - t
+    - e
+    - R
+    - e.48pt
+    - a
+    - d
+    - e.48pt_2
+    - r
+    - three
+    - six
+    x_height_px: 112.0
+    figure_height_px: 157.5
+    stem_px: 19.0
+    scale: 4.43038
+    stem_units: 84.2
+    x_height: 496
+    figure_height: 698
+  190:36pt:
+    n_caps: 22
+    cap_height_px: 101.5
+    cap_source: caps
+    baseline_px: 2205.0
+    baselines:
+      '6': 2205.0
+    glyphs:
+    - B
+    - O
+    - O.36pt
+    - K
+    - P
+    - A.36pt
+    - G
+    - E.36pt
+    - D.36pt
+    - T
+    - R.36pt
+    - U.36pt
+    - S.36pt
+    - T.36pt
+    - E.36pt_2
+    - X
+    - C.36pt
+    - H
+    - A.36pt_2
+    - N.36pt
+    - G.36pt
+    - E.36pt_3
+    stem_px: 12.0
+    scale: 6.89655
+    stem_units: 82.8
+specimen_lines:
+- leaf: 190
+  line: 48pt
+  text: MUSICAL ACADEMY
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 190
+  line: 48pt
+  text: Note Reader 36
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 190
+  line: 36pt
+  text: BOOK PAGED TRUST EXCHANGE
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash

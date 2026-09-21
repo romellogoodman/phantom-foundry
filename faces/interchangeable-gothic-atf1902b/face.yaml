@@ -1,0 +1,168 @@
+name: interchangeable-gothic-atf1902b
+title: Interchangeable Gothic
+series: Interchangeable Gothic
+status: proto
+version: 0.1.0
+book: deskbookoftypesp02amer
+source:
+  archive_id: deskbookoftypesp02amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    2, 11-22)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp02amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 48
+leaf_pages:
+  48: 14
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      48:48pt: 151.1
+      48:36pt: 164.9
+      48:32pt: 147.9
+      48:24pt: 158.7
+      48:18pt: 203.3
+lines:
+  48:48pt:
+    n_caps: 6
+    cap_height_px: 329.0
+    cap_source: caps
+    baseline_px: 915.0
+    baselines:
+      '1': 915.0
+    glyphs:
+    - M
+    - I
+    - N
+    - O
+    - R
+    - S
+    stem_px: 53.0
+    scale: 2.12766
+    stem_units: 112.8
+  48:36pt:
+    n_caps: 8
+    cap_height_px: 242.0
+    cap_source: caps
+    baseline_px: 1330.0
+    baselines:
+      '2': 1330.0
+    glyphs:
+    - C
+    - O.36pt
+    - N.36pt
+    - J
+    - U
+    - R.36pt
+    - E
+    - D
+    stem_px: 43.0
+    scale: 2.89256
+    stem_units: 124.4
+  48:32pt:
+    n_caps: 9
+    cap_height_px: 213
+    cap_source: caps
+    baseline_px: 1716
+    baselines:
+      '3': 1716
+    glyphs:
+    - H
+    - A
+    - R.32pt
+    - B
+    - O.32pt
+    - R.32pt_2
+    - I.32pt
+    - N.32pt
+    - G
+    stem_px: 36
+    scale: 3.28638
+    stem_units: 118.3
+  48:24pt:
+    n_caps: 12
+    cap_height_px: 161.0
+    cap_source: caps
+    baseline_px: 2050.0
+    baselines:
+      '4': 2050.0
+    glyphs:
+    - U.24pt
+    - N.24pt
+    - I.24pt
+    - T
+    - E.24pt
+    - D.24pt
+    - M.24pt
+    - A.24pt
+    - R.24pt
+    - I.24pt_2
+    - N.24pt_2
+    - E.24pt_2
+    stem_px: 28.0
+    scale: 4.34783
+    stem_units: 121.7
+  48:18pt:
+    n_caps: 14
+    cap_height_px: 105.0
+    cap_source: caps
+    baseline_px: 2357.0
+    baselines:
+      '5': 2357.0
+    glyphs:
+    - G.18pt
+    - R.18pt
+    - O.18pt
+    - U.18pt
+    - N.18pt
+    - D.18pt
+    - M.18pt
+    - O.18pt_2
+    - N.18pt_2
+    - I.18pt
+    - T.18pt
+    - O.18pt_3
+    - R.18pt_2
+    - S.18pt
+    stem_px: 20.5
+    scale: 6.66667
+    stem_units: 136.7
+specimen_lines:
+- leaf: 48
+  line: 48pt
+  text: MINORS
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 48
+  line: 36pt
+  text: CONJURED
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 48
+  line: 32pt
+  text: HARBORING
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 48
+  line: 24pt
+  text: UNITED MARINE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 48
+  line: 18pt
+  text: GROUND MONITORS
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

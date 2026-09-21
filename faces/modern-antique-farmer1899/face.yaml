@@ -1,0 +1,65 @@
+name: modern-antique-farmer1899
+title: Modern Antique.
+series: Modern Antique.
+status: proto
+version: 0.1.0
+book: abridgedspecimen00adfa
+source:
+  archive_id: abridgedspecimen00adfa
+  title: 'Abridged specimen book : type, borders, brass rules, ornaments and price
+    list of printing machinery, furniture, fixtures and material'
+  creator: A.D. Farmer & Son Type Founding Co
+  publisher: 'Chicago : The Company'
+  date: '1899'
+  ppi: 500
+  url: https://archive.org/details/abridgedspecimen00adfa
+  copyright_status: null
+  contributor: University of Illinois Urbana-Champaign
+  leaves:
+  - 136
+leaf_pages:
+  136: 132
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      136:22pt: 61.4
+lines:
+  136:22pt:
+    n_caps: 15
+    cap_height_px: 114
+    cap_source: caps
+    baseline_px: 2324
+    baselines:
+      '2': 2324
+    glyphs:
+    - S
+    - O
+    - C
+    - I
+    - E
+    - T
+    - Y
+    - P
+    - R
+    - I.22pt
+    - N
+    - T.22pt
+    - I.22pt_2
+    - N.22pt
+    - G
+    stem_px: 18
+    scale: 6.14035
+    stem_units: 110.5
+specimen_lines:
+- leaf: 136
+  line: 22pt
+  text: SOCIETY PRINTING
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

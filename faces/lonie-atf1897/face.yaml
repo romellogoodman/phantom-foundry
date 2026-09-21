@@ -1,0 +1,94 @@
+name: lonie-atf1897
+title: Lonie
+series: Lonie
+status: proto
+version: 0.1.0
+book: specimensoftypeb00amer
+source:
+  archive_id: specimensoftypeb00amer
+  title: 'Specimens of type, borders, ornaments, brass rules and cuts, etc. : catalogue
+    of printing machinery and materials, wood goods, etc'
+  creator: American Type Founders Company
+  publisher: 'Chicago : American Type Founders'
+  date: '1897'
+  ppi: 500
+  url: https://archive.org/details/specimensoftypeb00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 206
+leaf_pages:
+  206: 204
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      206:42pt: 33.9
+      206:24pt: 45.4
+  x_height: 500
+lines:
+  206:42pt:
+    n_caps: 3
+    cap_height_px: 310
+    cap_source: caps
+    baseline_px: 1699
+    baselines:
+      '2': 1699
+    glyphs:
+    - D
+    - E
+    - C
+    - o
+    - r
+    - a
+    - t
+    - e
+    x_height_px: 223
+    stem_px: 30
+    scale: 2.25806
+    stem_units: 67.7
+    x_height: 504
+  206:24pt:
+    n_caps: 7
+    cap_height_px: 162
+    cap_source: caps
+    baseline_px: 2555
+    baselines:
+      '4': 2555
+    glyphs:
+    - E.24pt
+    - N
+    - G
+    - I
+    - N.24pt
+    - E.24pt_2
+    - R
+    - e.24pt
+    - c
+    - o.24pt
+    - r.24pt
+    - d
+    - e.24pt_2
+    - r.24pt_2
+    x_height_px: 115
+    stem_px: 18
+    scale: 4.32099
+    stem_units: 77.8
+    x_height: 497
+specimen_lines:
+- leaf: 206
+  line: 42pt
+  text: DECorate
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 206
+  line: 24pt
+  text: ENGINE Recorder
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

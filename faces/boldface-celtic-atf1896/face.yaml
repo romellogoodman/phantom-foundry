@@ -1,0 +1,209 @@
+name: boldface-celtic-atf1896
+title: Boldface Celtic.
+series: Boldface Celtic.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 412
+  - 413
+leaf_pages:
+  412: 408
+  413: 409
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      412:42pt: 46.8
+      412:36pt: 18.8
+      412:30pt: 26.1
+      413:24pt: 19.9
+  x_height: 531
+lines:
+  412:42pt:
+    n_caps: 3
+    cap_height_px: 284
+    cap_source: caps
+    baseline_px: 901
+    baselines:
+      '1': 901
+    glyphs:
+    - S
+    - O
+    - N
+    - six
+    figure_height_px: 274
+    stem_px: 31
+    scale: 2.46479
+    stem_units: 76.4
+    figure_height: 675
+  412:36pt:
+    n_caps: 6
+    cap_height_px: 223.5
+    cap_source: caps
+    baseline_px: 1913.5
+    baselines:
+      '3': 1913.5
+      '4': 2299.0
+    glyphs:
+    - T
+    - R
+    - U
+    - E
+    - five
+    - W
+    - e
+    - a
+    - r
+    - G
+    - a.36pt
+    - i
+    - n
+    x_height_px: 169.5
+    figure_height_px: 226
+    stem_px: 25.0
+    scale: 3.13199
+    stem_units: 78.3
+    x_height: 531
+    figure_height: 708
+  412:30pt:
+    n_caps: 8
+    cap_height_px: 187.5
+    cap_source: caps
+    baseline_px: 2885.0
+    baselines:
+      '5': 2885.0
+      '6': 3204.5
+      '7': 3526.0
+    glyphs:
+    - C
+    - H
+    - A
+    - S.30pt
+    - T.30pt
+    - E.30pt
+    - P
+    - r.30pt
+    - i.30pt
+    - s
+    - c
+    - i.30pt_2
+    - l
+    - a.30pt
+    - I
+    - m
+    - o
+    - r.30pt_2
+    - e.30pt
+    - one
+    - nine
+    - two
+    - five.30pt
+    x_height_px: 138
+    figure_height_px: 185.0
+    stem_px: 21.5
+    scale: 3.73333
+    stem_units: 80.3
+    x_height: 515
+    figure_height: 691
+  413:24pt:
+    n_caps: 11
+    cap_height_px: 141
+    cap_source: caps
+    baseline_px: 785
+    baselines:
+      '1': 785
+      '2': 1038.5
+    glyphs:
+    - T.24pt
+    - R.24pt
+    - A.24pt
+    - V
+    - E.24pt
+    - L
+    - L.24pt
+    - E.24pt_2
+    - R.24pt_2
+    - G.24pt
+    - u
+    - i.24pt
+    - d
+    - i.24pt_2
+    - n.24pt
+    - g
+    - seven
+    - B
+    - l.24pt
+    - i.24pt_3
+    - n.24pt_2
+    - d.24pt
+    - f
+    - o.24pt
+    - l.24pt_2
+    x_height_px: 138
+    figure_height_px: 154
+    stem_px: 18
+    scale: 4.96454
+    stem_units: 89.4
+    x_height: 685
+    figure_height: 765
+specimen_lines:
+- leaf: 412
+  line: 42pt
+  text: SON 6
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 412
+  line: 36pt
+  text: TRUE 5
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 412
+  line: 36pt
+  text: Wear Gain
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 412
+  line: 30pt
+  text: CHASTE
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 412
+  line: 30pt
+  text: Priscila Imore
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 412
+  line: 30pt
+  text: ~ 1925
+  band: 7
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 413
+  line: 24pt
+  text: TRAVELLER
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 413
+  line: 24pt
+  text: Guiding 7 Blindfol
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash

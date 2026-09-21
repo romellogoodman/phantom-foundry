@@ -1,0 +1,114 @@
+name: title-gothic-no-5-inland1897
+title: Title Gothic No. 5
+series: Title Gothic No. 5
+status: proto
+version: 0.1.0
+book: specimenbookcata00inlauoft
+source:
+  archive_id: specimenbookcata00inlauoft
+  title: Specimen book and catalog; a price list of printers' supplies, showing types
+    and rules in which are embodied all the latest ideas that enable the printer to
+    produce superior work ..
+  creator: Inland Type Foundry, St. Louis
+  publisher: St. Louis, Inland Type Foundry
+  date: '1897'
+  ppi: 400
+  url: https://archive.org/details/specimenbookcata00inlauoft
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: Robarts - University of Toronto
+  leaves:
+  - 94
+leaf_pages:
+  94: 92
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      94:36pt: 125.6
+      94:30pt: 122.8
+      94:24pt: 96.5
+lines:
+  94:36pt:
+    n_caps: 8
+    cap_height_px: 234.0
+    cap_source: caps
+    baseline_px: 800.5
+    baselines:
+      '2': 800.5
+    glyphs:
+    - G
+    - R
+    - I
+    - N
+    - D
+    - E
+    - R.36pt
+    - S
+    stem_px: 47.0
+    scale: 2.99145
+    stem_units: 140.6
+  94:30pt:
+    n_caps: 9
+    cap_height_px: 191
+    cap_source: caps
+    baseline_px: 1248
+    baselines:
+      '3': 1248
+    glyphs:
+    - B
+    - R.30pt
+    - O
+    - K
+    - E.30pt
+    - R.30pt_2
+    - A
+    - G.30pt
+    - E.30pt_2
+    stem_px: 40
+    scale: 3.66492
+    stem_units: 146.6
+  94:24pt:
+    n_caps: 12
+    cap_height_px: 156.0
+    cap_source: caps
+    baseline_px: 1662.5
+    baselines:
+      '4': 1662.5
+    glyphs:
+    - S.24pt
+    - A.24pt
+    - V
+    - E.24pt
+    - M
+    - A.24pt_2
+    - T
+    - E.24pt_2
+    - R.24pt
+    - I.24pt
+    - A.24pt_3
+    - L
+    stem_px: 31.0
+    scale: 4.48718
+    stem_units: 139.1
+specimen_lines:
+- leaf: 94
+  line: 36pt
+  text: GRINDERS
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 94
+  line: 30pt
+  text: BROKERAGE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 94
+  line: 24pt
+  text: SAVE MATERIAL
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

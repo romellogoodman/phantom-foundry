@@ -1,0 +1,157 @@
+name: ionic-atf1898
+title: Ionic
+series: Ionic
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 230
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      230:48pt: 30.1
+      230:36pt: 20.4
+      230:30pt: 23.2
+      230:24pt: 49.0
+  x_height: 514
+lines:
+  230:48pt:
+    n_caps: 4
+    cap_height_px: 302.0
+    cap_source: caps
+    baseline_px: 965.0
+    baselines:
+      '2': 965.0
+    glyphs:
+    - B
+    - a
+    - d
+    - D
+    - E
+    - N
+    x_height_px: 266.5
+    stem_px: 39.0
+    scale: 2.31788
+    stem_units: 90.4
+    x_height: 618
+  230:36pt:
+    n_caps: 4
+    cap_height_px: 222.5
+    cap_source: caps
+    baseline_px: 1412.0
+    baselines:
+      '3': 1412.0
+    glyphs:
+    - N.36pt
+    - E.36pt
+    - W
+    - B.36pt
+    - o
+    - a.36pt
+    - t
+    - s
+    - four
+    x_height_px: 159.0
+    figure_height_px: 224
+    stem_px: 21.5
+    scale: 3.14607
+    stem_units: 67.6
+    x_height: 500
+    figure_height: 705
+  230:30pt:
+    n_caps: 5
+    cap_height_px: 181
+    cap_source: caps
+    baseline_px: 1798
+    baselines:
+      '4': 1798
+    glyphs:
+    - six
+    - S
+    - t.30pt
+    - r
+    - a.30pt
+    - n
+    - g
+    - e
+    - C
+    - U
+    - R
+    - E.30pt
+    x_height_px: 132.0
+    figure_height_px: 175
+    stem_px: 18
+    scale: 3.8674
+    stem_units: 69.6
+    x_height: 510
+    figure_height: 677
+  230:24pt:
+    n_caps: 7
+    cap_height_px: 143
+    cap_source: caps
+    baseline_px: 2194
+    baselines:
+      '5': 2194
+    glyphs:
+    - M
+    - A
+    - S.24pt
+    - O
+    - N.24pt
+    - S.24pt_2
+    - H
+    - e.24pt
+    - l
+    - p
+    - e.24pt_2
+    - r.24pt
+    - two
+    - five
+    x_height_px: 106
+    figure_height_px: 142.0
+    stem_px: 14
+    scale: 4.8951
+    stem_units: 68.5
+    x_height: 519
+    figure_height: 695
+specimen_lines:
+- leaf: 230
+  line: 48pt
+  text: Bad DEN
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 230
+  line: 36pt
+  text: NEW Boats 4
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 230
+  line: 30pt
+  text: 6 Strange CURE
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 230
+  line: 24pt
+  text: MASONS Helper 25
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

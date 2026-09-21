@@ -1,0 +1,175 @@
+name: french-old-style-two-line-atf1896
+title: French Old Style Two-line.
+series: French Old Style Two-line.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 213
+leaf_pages:
+  213: 209
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      213:60pt: 80.6
+      213:48pt: 83.3
+      213:32pt: 108.7
+      213:24pt: 85.8
+      213:20pt: 86.9
+lines:
+  213:60pt:
+    n_caps: 6
+    cap_height_px: 399.5
+    cap_source: caps
+    baseline_px: 1077.0
+    baselines:
+      '1': 1077.0
+    glyphs:
+    - H
+    - O
+    - U
+    - S
+    - E
+    - S.60pt
+    stem_px: 22.5
+    scale: 1.75219
+    stem_units: 39.4
+  213:48pt:
+    n_caps: 7
+    cap_height_px: 336
+    cap_source: caps
+    baseline_px: 1656
+    baselines:
+      '2': 1656
+    glyphs:
+    - S.48pt
+    - W
+    - I
+    - T
+    - Z
+    - E.48pt
+    - R
+    stem_px: 28
+    scale: 2.08333
+    stem_units: 58.3
+  213:32pt:
+    n_caps: 7
+    cap_height_px: 235
+    cap_source: caps
+    baseline_px: 2617
+    baselines:
+      '4': 2617
+    glyphs:
+    - six
+    - S.32pt
+    - N
+    - O.32pt
+    - W.32pt
+    - I.32pt
+    - N.32pt
+    - G
+    - seven
+    figure_height_px: 234.5
+    stem_px: 15
+    scale: 2.97872
+    stem_units: 44.7
+    figure_height: 699
+  213:24pt:
+    n_caps: 10
+    cap_height_px: 179.5
+    cap_source: caps
+    baseline_px: 2995.0
+    baselines:
+      '5': 2995.0
+    glyphs:
+    - three
+    - E.24pt
+    - N.24pt
+    - T.24pt
+    - R.24pt
+    - A
+    - N.24pt_2
+    - C
+    - I.24pt
+    - N.24pt_3
+    - G.24pt
+    - four
+    figure_height_px: 180.0
+    stem_px: 12.0
+    scale: 3.89972
+    stem_units: 46.8
+    figure_height: 702
+  213:20pt:
+    n_caps: 13
+    cap_height_px: 137
+    cap_source: caps
+    baseline_px: 3338
+    baselines:
+      '6': 3338
+    glyphs:
+    - four.20pt
+    - U.20pt
+    - N.20pt
+    - A.20pt
+    - N.20pt_2
+    - I.20pt
+    - M
+    - O.20pt
+    - U.20pt_2
+    - S.20pt
+    - S.20pt_2
+    - I.20pt_2
+    - C.20pt
+    - K
+    - three.20pt
+    figure_height_px: 137.5
+    stem_px: 8
+    scale: 5.10949
+    stem_units: 40.9
+    figure_height: 703
+specimen_lines:
+- leaf: 213
+  line: 60pt
+  text: HOUSES
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 213
+  line: 48pt
+  text: SWITZER
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 213
+  line: 32pt
+  text: 6 SNOWING 7
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 213
+  line: 24pt
+  text: 3 ENTRANCING 4
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 213
+  line: 20pt
+  text: 4 UNANIMOUS SICK 3
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

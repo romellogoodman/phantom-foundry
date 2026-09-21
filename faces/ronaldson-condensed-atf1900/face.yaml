@@ -1,0 +1,67 @@
+name: ronaldson-condensed-atf1900
+title: Ronaldson Condensed
+series: Ronaldson Condensed
+status: proto
+version: 0.1.0
+book: deskbookoftypesp00amer
+source:
+  archive_id: deskbookoftypesp00amer
+  title: 'Desk book of type specimens, borders, ornaments, brass rules and cuts :
+    catalogue of printing machinery and printers'' supplies'
+  creator: American Type Founders Company
+  publisher: '[Philadelphia] : American Type Founders Company'
+  date: '1900'
+  ppi: 400
+  url: https://archive.org/details/deskbookoftypesp00amer
+  copyright_status: null
+  contributor: Harold B. Lee Library
+  leaves:
+  - 558
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      558:48pt: 39.1
+  x_height: 667
+lines:
+  558:48pt:
+    n_caps: 10
+    cap_height_px: 233.0
+    cap_source: caps
+    baseline_px: 972.0
+    baselines:
+      '1': 972.0
+    glyphs:
+    - S
+    - O
+    - B
+    - E
+    - R
+    - M
+    - i
+    - n
+    - d
+    - e
+    - d.48pt
+    - G
+    - I
+    - R.48pt
+    - L
+    x_height_px: 222
+    stem_px: 12.5
+    scale: 3.00429
+    stem_units: 37.6
+    x_height: 667
+specimen_lines:
+- leaf: 558
+  line: 48pt
+  text: SOBER Minded GIRL
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

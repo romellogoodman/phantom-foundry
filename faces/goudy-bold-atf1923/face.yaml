@@ -1,0 +1,97 @@
+name: goudy-bold-atf1923
+title: Goudy Bold
+series: Goudy Bold
+status: proto
+version: 0.1.0
+book: specimenbookcata00amer
+source:
+  archive_id: specimenbookcata00amer
+  title: Specimen book and catalogue, 1923 --
+  creator: American Type Founders Company
+  publisher: '[Jersey City] : American Type Founders Co.'
+  date: '1923'
+  ppi: 500
+  url: https://archive.org/details/specimenbookcata00amer
+  copyright_status: null
+  contributor: Internet Archive
+  leaves:
+  - 348
+leaf_pages:
+  348: 46
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      348:48pt: 27.8
+      348:36pt: 903.9
+  x_height: 633
+lines:
+  348:48pt:
+    n_caps: 9
+    cap_height_px: 126
+    cap_source: caps
+    baseline_px: 2210
+    baselines:
+      '6': 2210
+    glyphs:
+    - E
+    - p
+    - i
+    - t
+    - a
+    - p.48pt
+    - h
+    - s
+    - H
+    - I
+    - J
+    - K
+    - L
+    - M
+    - N
+    - O
+    x_height_px: 114
+    stem_px: 8
+    scale: 5.55556
+    stem_units: 44.4
+    x_height: 633
+  348:36pt:
+    n_caps: 12
+    cap_height_px: 51.5
+    cap_source: caps
+    baseline_px: 1958.0
+    baselines:
+      '5': 1958.0
+    glyphs:
+    - M.36pt
+    - I.36pt
+    - N.36pt
+    - O.36pt
+    - R
+    - A
+    - B
+    - C
+    - D
+    - E.36pt
+    - F
+    - G
+    stem_px: 8.0
+    scale: 13.59223
+    stem_units: 108.7
+specimen_lines:
+- leaf: 348
+  line: 48pt
+  text: Epitaphs H I J K LMN O
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash
+- leaf: 348
+  line: 36pt
+  text: MINOR ABCDEFG
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

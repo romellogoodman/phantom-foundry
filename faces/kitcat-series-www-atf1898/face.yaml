@@ -1,0 +1,155 @@
+name: kitcat-series-www-atf1898
+title: Kitcat Series Www
+series: Kitcat Series Www
+status: proto
+version: 0.1.0
+book: deskbookofprinti00amer
+source:
+  archive_id: deskbookofprinti00amer
+  title: A desk book of printing types; to which is appended a condensed catalogue
+    and price list of printing machinery and materials
+  creator: American Type Founders Company
+  publisher: Boston
+  date: '1898'
+  ppi: 300
+  url: https://archive.org/details/deskbookofprinti00amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    on this item.
+  contributor: The Library of Congress
+  leaves:
+  - 425
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      425:48pt: 69.0
+      425:36pt: 71.2
+      425:24pt: 89.2
+  x_height: 491
+lines:
+  425:48pt:
+    n_caps: 10
+    cap_height_px: 243.5
+    cap_source: caps
+    baseline_px: 816
+    baselines:
+      '2': 816
+      '3': 1170
+    glyphs:
+    - D
+    - e
+    - c
+    - o
+    - r
+    - a
+    - t
+    - i
+    - o.48pt
+    - n
+    - eight
+    - R
+    - E
+    - S
+    - I
+    - D.48pt
+    - E.48pt
+    - N
+    - C
+    - E.48pt_2
+    x_height_px: 171
+    figure_height_px: 235
+    stem_px: 39.0
+    scale: 2.87474
+    stem_units: 112.1
+    x_height: 492
+    figure_height: 676
+  425:36pt:
+    n_caps: 2
+    cap_height_px: 182.0
+    cap_source: caps
+    baseline_px: 1596.0
+    baselines:
+      '4': 1596.0
+    glyphs:
+    - C.36pt
+    - o.36pt
+    - p
+    - i.36pt
+    - e.36pt
+    - s
+    - two
+    - M
+    - a.36pt
+    - r.36pt
+    - k
+    - e.36pt_2
+    - d
+    x_height_px: 124.0
+    figure_height_px: 167
+    stem_px: 28.5
+    scale: 3.84615
+    stem_units: 109.6
+    x_height: 477
+    figure_height: 642
+  425:24pt:
+    n_caps: 2
+    cap_height_px: 125.5
+    cap_source: caps
+    baseline_px: 2261.0
+    baselines:
+      '6': 2261.0
+    glyphs:
+    - three
+    - five
+    - H
+    - o.24pt
+    - n.24pt
+    - o.24pt_2
+    - r.24pt
+    - a.24pt
+    - b
+    - l
+    - e.24pt
+    - S.24pt
+    - e.24pt_2
+    - n.24pt_2
+    - a.24pt_2
+    - t.24pt
+    - o.24pt_3
+    - r.24pt_2
+    - s.24pt
+    x_height_px: 88
+    figure_height_px: 120.5
+    stem_px: 20.5
+    scale: 5.57769
+    stem_units: 114.3
+    x_height: 491
+    figure_height: 672
+specimen_lines:
+- leaf: 425
+  line: 48pt
+  text: Decoration 8
+  band: 2
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 425
+  line: 48pt
+  text: RESIDENCE
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 425
+  line: 36pt
+  text: Copies 2 Marked
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 425
+  line: 24pt
+  text: 35 Honorable Senators
+  band: 6
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

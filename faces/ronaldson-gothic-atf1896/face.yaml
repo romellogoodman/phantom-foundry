@@ -1,0 +1,103 @@
+name: ronaldson-gothic-atf1896
+title: Ronaldson Gothic.
+series: Ronaldson Gothic.
+status: proto
+version: 0.1.0
+book: pacificcoastblue00amerrich
+source:
+  archive_id: pacificcoastblue00amerrich
+  title: Pacific coast blue book, containing specimens of type, printing machinery,
+    printing material
+  creator:
+  - American Type Founders Company
+  - Thomas, Frederick Folger, b. 1885
+  publisher: '[San Francisco]'
+  date: '1896'
+  ppi: 600
+  url: https://archive.org/details/pacificcoastblue00amerrich
+  copyright_status: NOT_IN_COPYRIGHT
+  contributor: University of California Libraries
+  leaves:
+  - 331
+leaf_pages:
+  331: 327
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      331:48pt: 46.7
+      331:24pt: 72.9
+  x_height: 482
+lines:
+  331:48pt:
+    n_caps: 5
+    cap_height_px: 307
+    cap_source: caps
+    baseline_px: 834
+    baselines:
+      '1': 834
+    glyphs:
+    - S
+    - i
+    - l
+    - v
+    - e
+    - r
+    - M
+    - O
+    - O.48pt
+    - N
+    x_height_px: 207
+    stem_px: 42
+    scale: 2.28013
+    stem_units: 95.8
+    x_height: 472
+  331:24pt:
+    n_caps: 9
+    cap_height_px: 144
+    cap_source: caps
+    baseline_px: 2108
+    baselines:
+      '4': 2108
+    glyphs:
+    - T
+    - U
+    - M.24pt
+    - B
+    - L
+    - I
+    - N.24pt
+    - G
+    - F
+    - o
+    - u
+    - n
+    - d
+    - a
+    - t
+    - i.24pt
+    - o.24pt
+    - n.24pt
+    - s
+    x_height_px: 101.5
+    stem_px: 23
+    scale: 4.86111
+    stem_units: 111.8
+    x_height: 493
+specimen_lines:
+- leaf: 331
+  line: 48pt
+  text: Silver MOON
+  band: 1
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 331
+  line: 24pt
+  text: TUMBLING Foundations
+  band: 4
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr

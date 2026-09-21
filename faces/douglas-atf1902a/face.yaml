@@ -1,0 +1,107 @@
+name: douglas-atf1902a
+title: Douglas
+series: Douglas
+status: proto
+version: 0.1.0
+book: deskbookoftypesp01amer
+source:
+  archive_id: deskbookoftypesp01amer
+  title: Desk book of type specimens, borders, ornaments, brass rules and cuts; (Vol.
+    1, 1-10)
+  creator: American Type Founders Company
+  publisher: '[Philadelphia]'
+  date: '1902'
+  ppi: 300
+  url: https://archive.org/details/deskbookoftypesp01amer
+  copyright_status: The Library of Congress is unaware of any copyright restrictions
+    for this item.
+  contributor: The Library of Congress
+  leaves:
+  - 429
+leaf_pages: {}
+metrics:
+  upm: 1000
+  cap_height: 700
+  sidebearing: 40
+  min_contour_area: 0
+  spacing:
+    straight: 20
+    min: -10
+    depth: 25
+    printed_gaps:
+      429:36pt: 109.3
+      429:30pt: 85.3
+  x_height: 457
+lines:
+  429:36pt:
+    n_caps: 6
+    cap_height_px: 166.5
+    cap_source: caps
+    baseline_px: 1938.5
+    baselines:
+      '3': 1938.5
+    glyphs:
+    - N
+    - U
+    - R
+    - S
+    - E
+    - eight
+    - five
+    - G
+    - r
+    - a
+    - n
+    - t
+    - e
+    - d
+    x_height_px: 113.5
+    figure_height_px: 169.5
+    stem_px: 17.5
+    scale: 4.2042
+    stem_units: 73.6
+    x_height: 477
+    figure_height: 713
+  429:30pt:
+    n_caps: 2
+    cap_height_px: 139.5
+    cap_source: caps
+    baseline_px: 2630.0
+    baselines:
+      '5': 2630.0
+    glyphs:
+    - A
+    - s
+    - s.30pt
+    - o
+    - r.30pt
+    - t.30pt
+    - m
+    - e.30pt
+    - n.30pt
+    - t.30pt_2
+    - M
+    - o.30pt
+    - n.30pt_2
+    - u
+    - m.30pt
+    - e.30pt_2
+    - n.30pt_3
+    - t.30pt_3
+    - s.30pt_2
+    x_height_px: 87
+    stem_px: 11.0
+    scale: 5.01792
+    stem_units: 55.2
+    x_height: 437
+specimen_lines:
+- leaf: 429
+  line: 36pt
+  text: NURSE 85 Granted
+  band: 3
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
+- leaf: 429
+  line: 30pt
+  text: Assortment Monuments
+  band: 5
+  by: deepseek-v4.1-flash+qwen3.7-flash+ocr
