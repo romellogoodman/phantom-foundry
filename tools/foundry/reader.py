@@ -131,7 +131,7 @@ def ask(model: str, book: Book, leaf: int, band: dict, key: str) -> dict:
             return {"tokens": None, "cost": 0.0, "cached": False}
         cp.parent.mkdir(parents=True, exist_ok=True)
         cp.write_text(json.dumps(raw))
-    content = raw["choices"][0]["message"].get("content")
+    content = ((raw.get("choices") or [{}])[0].get("message") or {}).get("content")
     return {"tokens": parse_tokens(content), "cost": (raw.get("usage") or {}).get("cost") or 0.0, "cached": cached}
 
 
