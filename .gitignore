@@ -13,7 +13,6 @@ books/*/jp2/
 books/*/ocr/
 books/*/sheets/
 # per-leaf surveys are rebuilt by `catalog`; catalog.json (every band's position) anchors the readings.
-# BB&S No. 9's surveys were committed before this rule and stay.
 books/*/survey/
 
 # Vercel link (the project root directory is website/)

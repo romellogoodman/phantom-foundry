@@ -598,6 +598,7 @@ PROTO_GITIGNORE = """\
 glyphs/*
 !glyphs/manifest.csv
 specimens/*.jpg
+specimens/*.png
 svg/potrace/
 ufo/
 dist/

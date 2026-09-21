@@ -1,0 +1,12 @@
+# proto: everything ignored here is rebuilt byte-for-byte by `foundry build <face>`
+# from the record that is kept — face.yaml, glyphs/manifest.csv, specimens/*.json, log/ —
+# once the book is shelved (`foundry shelve <archive_id>`).
+# Delete this file when the face goes to draft: from then on the UFO is edited by hand.
+glyphs/*
+!glyphs/manifest.csv
+specimens/*.jpg
+specimens/*.png
+svg/potrace/
+ufo/
+dist/
+proofs/

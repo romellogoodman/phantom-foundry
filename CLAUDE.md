@@ -64,8 +64,8 @@ a book:    shelve → catalog → found → read → label --auto ─┴→ cut 
   `specimens/*.json`, `log/`, `svg/arrow/` — and `found` writes a `.gitignore` in the face for the rest
   (cuts, potrace SVGs, UFO, `dist/`, `proofs/`). With the book shelved, `foundry build <face>` relinks
   the scans and rebuilds all of it identically. Delete that `.gitignore` when a face goes to draft:
-  from then on its UFO is hand-edited and everything is committed. The 103 faces founded before
-  2026-09-21 are committed in full.
+  from then on its UFO is hand-edited and everything is committed. A fresh clone gets fonts and
+  proofs back with `foundry shelve <archive_id>` then `foundry build --all -j 6`.
 - UFO is the master source; `dist/` is compiled — never hand-edit it. Glyphs
   not in the manifest (constructed ones) survive `sort`; `justify` re-spaces everything.
 - Constructed letters live in `construct.yaml` and are flagged everywhere
