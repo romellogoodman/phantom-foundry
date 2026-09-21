@@ -1,8 +1,10 @@
 # Phantom Foundry — Architecture
 
-An open-source font foundry reviving public domain typefaces from scanned
-specimen books, with bespoke tooling. Each font is an artifact that carries
-its own provenance, and matures in versions like software.
+Phantom Foundry publishes strikes: faithful impressions of public domain
+type, traced from scanned specimen books and ready to be justified. A strike is
+one typeface as one book shows it, an artifact that carries its own provenance.
+Coding agents built the pipeline; models read which letter is in a box and read
+captions; no model draws a letterform, every outline is traced by potrace.
 
 ## Design principles
 
@@ -38,7 +40,8 @@ the same per-face stages, run by `build`.
 Internet Archive
       │  shelve     the whole book: every leaf's JP2 + the archive's OCR → books/<id>/ (ignored)
       │  catalog    survey every leaf; read the caption over each showing ("42 Point Cadillac
-      │             Condensed", "No. 266— Class L Fifteen Line") for its size and series;
+      │             Condensed", "No. 266— Class L Fifteen Line") for its size and series, or the
+      │             page heading ("NIAGARA SERIES") when captions give the size alone;
       │             band crops with numbered boxes; page numbers from the folios → catalog.json
       │  found      start faces/<name>/ from a series: face.yaml with the book's provenance,
       │             the leaves linked (not copied), their surveys copied
@@ -46,6 +49,11 @@ Internet Archive
       │             box: a character, [fi] for touching letters, ? unreadable, ~ not a letter —
       │             → books/<id>/readings.json. The OCR is a cross-check, never a source: it
       │             misreads display type ("PROSPEROIS") in ways that pass a character count
+      │  read-models  the scripted reader for a shelf of books: two small vision models read each
+      │             crop on their own; a reading is kept only where both give the same tokens and
+      │             the count fits the boxes (99% of letters right on the lines it keeps); italic
+      │             and script series are left alone; every band sent is logged with both answers
+      │             → readings.json (`by` names the models), reader.jsonl. See reader-bakeoff.md
       │  label --auto  manifest rows from the readings, largest size first
       ▼
       │  fetch      (one face) pull raw JP2 scans + metadata, record provenance in face.yaml
@@ -147,7 +155,7 @@ monorepo for now; a face that reaches 1.0 can be split out for Google Fonts.
 phantom-foundry/
   CLAUDE.md
   agent_docs/
-  tools/foundry/       # shelve catalog series found read label | fetch survey | cut cast diff frame
+  tools/foundry/       # shelve catalog series found read read-models label | fetch survey | cut cast diff frame
                        # sort construct justify matrix proof | build showing
   tests/
   books/
@@ -157,6 +165,7 @@ phantom-foundry/
       survey/          # leafNNNN.json: display bands + letter boxes per leaf (ignored; `catalog` rebuilds it)
       catalog.json     # every band with its caption's size and series; series index
       readings.json    # what each band says, by whom — the labeling record
+      reader.jsonl     # every band the model readers were sent: both answers, agreed or not, cost
   showing/             # index.html + showing.json across every face
   faces/
     <face-name>/
